@@ -1,0 +1,77 @@
+{
+  "checked_at": "2026-10-11",
+  "scope": "LOCAL_ADDITIONAL_EVIDENCE_AND_DERIVATIONS; NOT_DUNE_SQL",
+  "checks": [
+    {
+      "name": "Approval ordered zero/max",
+      "status": "PASS",
+      "evidence": "Two explorer-decoded allowance statements, not transfer amounts."
+    },
+    {
+      "name": "Approval caller vs owner",
+      "status": "PASS",
+      "evidence": "Top-level submitter and event owner are distinct."
+    },
+    {
+      "name": "Approval raw zero Data",
+      "status": "PASS",
+      "evidence": "Observed zero bytes retained; unacquired maximum raw bytes not invented."
+    },
+    {
+      "name": "Direct approval ABI",
+      "status": "PASS",
+      "evidence": "Full acquired calldata selector/address/uint256 decoded offline."
+    },
+    {
+      "name": "Direct allowance units",
+      "status": "PASS",
+      "evidence": "11 USDT request amount, not proven transfer."
+    },
+    {
+      "name": "Batch approval execution fee",
+      "status": "PASS",
+      "evidence": "Observed effective execution price and gas agree with the displayed fee."
+    },
+    {
+      "name": "Direct approval execution fee",
+      "status": "PASS",
+      "evidence": "Observed effective execution price and gas agree with the displayed fee."
+    },
+    {
+      "name": "Creation execution fee",
+      "status": "PASS",
+      "evidence": "Observed effective execution price and gas agree with the displayed fee."
+    },
+    {
+      "name": "Creation ABI head",
+      "status": "PASS",
+      "evidence": "Fixed head words and dynamic offset independently checked."
+    },
+    {
+      "name": "Creation dynamic bytes",
+      "status": "PASS",
+      "evidence": "Length and bytes tail agree with acquired decoded parameter."
+    },
+    {
+      "name": "Creation event vs input",
+      "status": "PASS",
+      "evidence": "Observed created address and event parameters align with request; no full Initcode claim."
+    },
+    {
+      "name": "Internal creation target",
+      "status": "PASS",
+      "evidence": "Top-level target is nonempty and separate from acquired creation address."
+    },
+    {
+      "name": "Blob fee exact split",
+      "status": "PASS",
+      "evidence": "Derived arithmetic using documented browser total fee semantics; not a receipt-field fetch."
+    },
+    {
+      "name": "Blob price integer consistency",
+      "status": "PASS",
+      "evidence": "One blob unit and inferred price reproduce the residual fee exactly."
+    }
+  ],
+  "all_passed": true
+}

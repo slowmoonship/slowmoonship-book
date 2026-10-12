@@ -1,0 +1,58 @@
+{
+  "query_id": 8378487,
+  "state": "QUERY_STATE_COMPLETED",
+  "submitted_at": "2026-08-19T09:57:18.736064Z",
+  "expires_at": "2026-11-17T10:02:41.114039Z",
+  "execution_started_at": "2026-08-19T10:02:19.142967Z",
+  "execution_ended_at": "2026-08-19T10:02:41.114033Z",
+  "result": {
+    "metadata": {
+      "column_names": [
+        "date",
+        "total_gas_used",
+        "avg_gas_used",
+        "total_fees_eth",
+        "transaction_fee_rows",
+        "duplicate_or_null_transaction_hashes",
+        "null_fee_input_rows"
+      ],
+      "result_set_bytes": 371,
+      "row_count": 3,
+      "total_result_set_bytes": 5400,
+      "total_row_count": 90,
+      "datapoint_count": 21
+    },
+    "rows": [
+      {
+        "avg_gas_used": 93783.30039988107,
+        "date": "2026-05-21",
+        "duplicate_or_null_transaction_hashes": 0,
+        "null_fee_input_rows": 0,
+        "total_fees_eth": 150.70028419009137,
+        "total_gas_used": "217641967405",
+        "transaction_fee_rows": 2320690
+      },
+      {
+        "avg_gas_used": 94005.42359195622,
+        "date": "2026-05-22",
+        "duplicate_or_null_transaction_hashes": 0,
+        "null_fee_input_rows": 0,
+        "total_fees_eth": 157.13487072048315,
+        "total_gas_used": "217265617022",
+        "transaction_fee_rows": 2311203
+      },
+      {
+        "avg_gas_used": 81443.43631918095,
+        "date": "2026-05-23",
+        "duplicate_or_null_transaction_hashes": 0,
+        "null_fee_input_rows": 0,
+        "total_fees_eth": 117.4452074771609,
+        "total_gas_used": "217744565153",
+        "transaction_fee_rows": 2673568
+      }
+    ]
+  },
+  "next_offset": 3,
+  "next_uri": "https://api.dune.com/api/v1/execution/01M0CQ8ARGATQ4AD252ZCW8T22/results?limit=3\u0026offset=3",
+  "is_execution_finished": true
+}

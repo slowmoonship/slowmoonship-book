@@ -1,0 +1,308 @@
+{
+  "validation_date": "2026-10-11",
+  "structure_status": "PASS",
+  "errors": [],
+  "warnings": [],
+  "parts": 10,
+  "chapters": 40,
+  "main_text_han_chars": 34976,
+  "main_text_body_chars": 51380,
+  "markdown_files": 98,
+  "local_links_checked": 495,
+  "drawio_files": 31,
+  "svg_files": 31,
+  "sql_examples": 12,
+  "case_hashes": 8,
+  "query_count": 8,
+  "query_reuse_count": 8,
+  "schemas_verified": 10,
+  "official_source_urls": 51,
+  "all_source_urls": 66,
+  "chapter_word_counts": [
+    {
+      "chapter": 1,
+      "path": "book/part-01/01-one-eth.md",
+      "han_chars": 891,
+      "body_chars": 1416,
+      "status": "DONE"
+    },
+    {
+      "chapter": 2,
+      "path": "book/part-01/02-wallet-signature.md",
+      "han_chars": 911,
+      "body_chars": 1188,
+      "status": "DONE"
+    },
+    {
+      "chapter": 3,
+      "path": "book/part-01/03-block-receipt.md",
+      "han_chars": 919,
+      "body_chars": 1201,
+      "status": "DONE"
+    },
+    {
+      "chapter": 4,
+      "path": "book/part-01/04-nonce-pending.md",
+      "han_chars": 915,
+      "body_chars": 1177,
+      "status": "DONE"
+    },
+    {
+      "chapter": 5,
+      "path": "book/part-02/05-account-fields.md",
+      "han_chars": 864,
+      "body_chars": 1212,
+      "status": "DONE"
+    },
+    {
+      "chapter": 6,
+      "path": "book/part-02/06-storage-token.md",
+      "han_chars": 878,
+      "body_chars": 1237,
+      "status": "DONE"
+    },
+    {
+      "chapter": 7,
+      "path": "book/part-02/07-state-history.md",
+      "han_chars": 913,
+      "body_chars": 1147,
+      "status": "DONE"
+    },
+    {
+      "chapter": 8,
+      "path": "book/part-02/08-delegation-aa.md",
+      "han_chars": 888,
+      "body_chars": 1231,
+      "status": "DONE"
+    },
+    {
+      "chapter": 9,
+      "path": "book/part-03/09-evm-execution.md",
+      "han_chars": 937,
+      "body_chars": 1254,
+      "status": "DONE"
+    },
+    {
+      "chapter": 10,
+      "path": "book/part-03/10-memory-stack-storage.md",
+      "han_chars": 986,
+      "body_chars": 1301,
+      "status": "DONE"
+    },
+    {
+      "chapter": 11,
+      "path": "book/part-03/11-calldata-abi.md",
+      "han_chars": 861,
+      "body_chars": 1287,
+      "status": "DONE"
+    },
+    {
+      "chapter": 12,
+      "path": "book/part-03/12-contract-deployment.md",
+      "han_chars": 917,
+      "body_chars": 1384,
+      "status": "DONE"
+    },
+    {
+      "chapter": 13,
+      "path": "book/part-04/13-transaction-record.md",
+      "han_chars": 841,
+      "body_chars": 1333,
+      "status": "DONE"
+    },
+    {
+      "chapter": 14,
+      "path": "book/part-04/14-traces-call-tree.md",
+      "han_chars": 858,
+      "body_chars": 1297,
+      "status": "DONE"
+    },
+    {
+      "chapter": 15,
+      "path": "book/part-04/15-logs-events.md",
+      "han_chars": 845,
+      "body_chars": 1366,
+      "status": "DONE"
+    },
+    {
+      "chapter": 16,
+      "path": "book/part-04/16-success-revert.md",
+      "han_chars": 897,
+      "body_chars": 1225,
+      "status": "DONE"
+    },
+    {
+      "chapter": 17,
+      "path": "book/part-05/17-decoding.md",
+      "han_chars": 879,
+      "body_chars": 1328,
+      "status": "DONE"
+    },
+    {
+      "chapter": 18,
+      "path": "book/part-05/18-proxy-context.md",
+      "han_chars": 870,
+      "body_chars": 1203,
+      "status": "DONE"
+    },
+    {
+      "chapter": 19,
+      "path": "book/part-05/19-data-lineage.md",
+      "han_chars": 841,
+      "body_chars": 1273,
+      "status": "DONE"
+    },
+    {
+      "chapter": 20,
+      "path": "book/part-05/20-core-data-model.md",
+      "han_chars": 822,
+      "body_chars": 1349,
+      "status": "DONE"
+    },
+    {
+      "chapter": 21,
+      "path": "book/part-06/21-eth-weth.md",
+      "han_chars": 835,
+      "body_chars": 1450,
+      "status": "DONE"
+    },
+    {
+      "chapter": 22,
+      "path": "book/part-06/22-allowance-approval.md",
+      "han_chars": 874,
+      "body_chars": 1451,
+      "status": "DONE"
+    },
+    {
+      "chapter": 23,
+      "path": "book/part-06/23-nft-identities.md",
+      "han_chars": 826,
+      "body_chars": 1335,
+      "status": "DONE"
+    },
+    {
+      "chapter": 24,
+      "path": "book/part-06/24-multi-token-nonstandard.md",
+      "han_chars": 859,
+      "body_chars": 1226,
+      "status": "DONE"
+    },
+    {
+      "chapter": 25,
+      "path": "book/part-07/25-gas-work.md",
+      "han_chars": 847,
+      "body_chars": 1259,
+      "status": "DONE"
+    },
+    {
+      "chapter": 26,
+      "path": "book/part-07/26-fee-market.md",
+      "han_chars": 880,
+      "body_chars": 1392,
+      "status": "DONE"
+    },
+    {
+      "chapter": 27,
+      "path": "book/part-07/27-failed-cost.md",
+      "han_chars": 884,
+      "body_chars": 1168,
+      "status": "DONE"
+    },
+    {
+      "chapter": 28,
+      "path": "book/part-07/28-blob-data.md",
+      "han_chars": 860,
+      "body_chars": 1429,
+      "status": "DONE"
+    },
+    {
+      "chapter": 29,
+      "path": "book/part-08/29-two-layers.md",
+      "han_chars": 874,
+      "body_chars": 1210,
+      "status": "DONE"
+    },
+    {
+      "chapter": 30,
+      "path": "book/part-08/30-slots-finality.md",
+      "han_chars": 850,
+      "body_chars": 1155,
+      "status": "DONE"
+    },
+    {
+      "chapter": 31,
+      "path": "book/part-08/31-staking-withdrawals.md",
+      "han_chars": 837,
+      "body_chars": 1228,
+      "status": "DONE"
+    },
+    {
+      "chapter": 32,
+      "path": "book/part-08/32-l2-boundary.md",
+      "han_chars": 876,
+      "body_chars": 1127,
+      "status": "DONE"
+    },
+    {
+      "chapter": 33,
+      "path": "book/part-09/33-sql-types.md",
+      "han_chars": 822,
+      "body_chars": 1325,
+      "status": "DONE"
+    },
+    {
+      "chapter": 34,
+      "path": "book/part-09/34-safe-sql-joins.md",
+      "han_chars": 908,
+      "body_chars": 1317,
+      "status": "DONE"
+    },
+    {
+      "chapter": 35,
+      "path": "book/part-09/35-raw-log-sql.md",
+      "han_chars": 901,
+      "body_chars": 1486,
+      "status": "DONE"
+    },
+    {
+      "chapter": 36,
+      "path": "book/part-09/36-curated-sql.md",
+      "han_chars": 888,
+      "body_chars": 1336,
+      "status": "DONE"
+    },
+    {
+      "chapter": 37,
+      "path": "book/part-10/37-swap-reconstruction.md",
+      "han_chars": 828,
+      "body_chars": 1596,
+      "status": "DONE"
+    },
+    {
+      "chapter": 38,
+      "path": "book/part-10/38-wallet-flow.md",
+      "han_chars": 865,
+      "body_chars": 1152,
+      "status": "DONE"
+    },
+    {
+      "chapter": 39,
+      "path": "book/part-10/39-metrics-users-volume.md",
+      "han_chars": 866,
+      "body_chars": 1144,
+      "status": "DONE"
+    },
+    {
+      "chapter": 40,
+      "path": "book/part-10/40-unknown-transaction.md",
+      "han_chars": 863,
+      "body_chars": 1185,
+      "status": "DONE"
+    }
+  ],
+  "sql_execution_this_run": 0,
+  "sql_probe_requests": 1,
+  "sql_runtime_status": "BLOCKED_READ_ONLY_ACCOUNT",
+  "historical_query_samples": 8,
+  "overall_delivery_status": "VALIDATED"
+}

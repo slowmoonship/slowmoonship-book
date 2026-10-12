@@ -1,0 +1,71 @@
+# Ethereum 篇目录
+
+[前言](book/00-preface.md)
+
+## Part 01｜从一笔 ETH 转账开始
+
+- [01｜发送 1 ETH，以太坊记录了什么？](book/part-01/01-one-eth.md)
+- [02｜钱包怎样证明这笔钱可以由你转出？](book/part-01/02-wallet-signature.md)
+- [03｜看到成功，为什么还要看区块和收据？](book/part-01/03-block-receipt.md)
+- [04｜Nonce 为什么会让一笔交易等在队列里？](book/part-01/04-nonce-pending.md)
+## Part 02｜账户与状态
+
+- [05｜账户里保存的是余额，还是一份程序？](book/part-02/05-account-fields.md)
+- [06｜为什么 USDT 不在我的 ETH Balance 里？](book/part-02/06-storage-token.md)
+- [07｜记录交易和维护状态，是不是同一件事？](book/part-02/07-state-history.md)
+- [08｜有代码的账户还可能是 EOA 吗？](book/part-02/08-delegation-aa.md)
+## Part 03｜EVM 执行与输入
+
+- [09｜点击 Swap，EVM 究竟在执行什么？](book/part-03/09-evm-execution.md)
+- [10｜Stack、Memory 和 Storage 为什么不能混着看？](book/part-03/10-memory-stack-storage.md)
+- [11｜一串十六进制怎样表达“转给谁、转多少”？](book/part-03/11-calldata-abi.md)
+- [12｜部署合约后，链上究竟多了什么？](book/part-03/12-contract-deployment.md)
+## Part 04｜交易、调用与日志
+
+- [13｜Transactions 表的一行，究竟能说明多少？](book/part-04/13-transaction-record.md)
+- [14｜一笔交易为什么会有八条 Trace？](book/part-04/14-traces-call-tree.md)
+- [15｜Transfer Event 为什么不是另一笔交易？](book/part-04/15-logs-events.md)
+- [16｜Trace 成功，为什么还不能认定资产到账？](book/part-04/16-success-revert.md)
+## Part 05｜解码与数据模型
+
+- [17｜Dune 怎样把原始字节变成 Transfer？](book/part-05/17-decoding.md)
+- [18｜为什么日志地址是 Proxy，代码却来自别处？](book/part-05/18-proxy-context.md)
+- [19｜Raw、Decoded、Curated 分别加了什么？](book/part-05/19-data-lineage.md)
+- [20｜六张核心表，应该怎样连接？](book/part-05/20-core-data-model.md)
+## Part 06｜ETH、代币与 NFT
+
+- [21｜ETH 和 WETH，为什么要看不同记录？](book/part-06/21-eth-weth.md)
+- [22｜授权额度为什么不是已经转走的金额？](book/part-06/22-allowance-approval.md)
+- [23｜NFT 的 Token ID 为什么不能当作数量相加？](book/part-06/23-nft-identities.md)
+- [24｜批量转移和特殊代币怎样打破流水直觉？](book/part-06/24-multi-token-nonstandard.md)
+## Part 07｜Gas 与实际费用
+
+- [25｜为什么发送 USDT 要消耗 ETH？](book/part-07/25-gas-work.md)
+- [26｜Max Fee 是上限，实际手续费怎样算？](book/part-07/26-fee-market.md)
+- [27｜交易失败了，为什么手续费没有退回来？](book/part-07/27-failed-cost.md)
+- [28｜Blob 为什么不是普通 Calldata？](book/part-07/28-blob-data.md)
+## Part 08｜共识、质押与数据发布
+
+- [29｜执行层与共识层分别在忙什么？](book/part-08/29-two-layers.md)
+- [30｜十二秒一个 Slot，为什么不保证十二秒一个块？](book/part-08/30-slots-finality.md)
+- [31｜质押提款为什么没有普通交易哈希？](book/part-08/31-staking-withdrawals.md)
+- [32｜一条主网批次提交，是不是一条 L2 用户交易？](book/part-08/32-l2-boundary.md)
+## Part 09｜DuneSQL 实践
+
+- [33｜地址、Wei 和 Uint256，SQL 应该怎样处理？](book/part-09/33-sql-types.md)
+- [34｜怎样同时看调用与日志，又不把交易数放大？](book/part-09/34-safe-sql-joins.md)
+- [35｜不用解码表，也能看懂 Transfer 和 Approval 吗？](book/part-09/35-raw-log-sql.md)
+- [36｜查询 DEX 成交，应该从转账表还是成交表开始？](book/part-09/36-curated-sql.md)
+## Part 10｜真实交易与分析判断
+
+- [37｜把一笔真实 Swap 从头还原](book/part-10/37-swap-reconstruction.md)
+- [38｜钱包净流量，为什么不等于交易金额之和？](book/part-10/38-wallet-flow.md)
+- [39｜活跃地址、真实用户与成交量，该怎样命名？](book/part-10/39-metrics-users-volume.md)
+- [40｜打开一笔陌生交易，怎样形成可信结论？](book/part-10/40-unknown-transaction.md)
+
+## 附录
+
+- [术语表](book/appendix/glossary.md)
+- [数据表索引](book/appendix/data-table-index.md)
+- [Query 索引](book/appendix/query-index.md)
+- [参考资料](book/appendix/references.md)

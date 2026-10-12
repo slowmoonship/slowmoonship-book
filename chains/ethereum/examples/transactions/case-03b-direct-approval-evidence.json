@@ -1,0 +1,21 @@
+{
+  "observed_at": "2026-10-10",
+  "chain_id": 1,
+  "hash": "0x542673aa94a70f32fdc8031087bc6934ac2413675ca4a4074345379f8acac732",
+  "block_number": 25148759,
+  "block_time": "2026-05-22T05:38:59Z",
+  "source": "https://etherscan.io/tx/0x542673aa94a70f32fdc8031087bc6934ac2413675ca4a4074345379f8acac732",
+  "status": "success",
+  "from": "0xC4B0929088737C7aC548e34f8a0492ba1Bd90c50",
+  "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+  "spender": "0x3ea9d2b102f9f7995aa9dfc20c0b2e6a684617a9",
+  "allowance_raw": "11000000",
+  "decimals": 6,
+  "raw_input": "0x095ea7b30000000000000000000000003ea9d2b102f9f7995aa9dfc20c0b2e6a684617a90000000000000000000000000000000000000000000000000000000000a7d8c0",
+  "gas_used": 48549,
+  "gas_price_wei": "88447496",
+  "fee_wei": "4294037483304",
+  "limits": [
+    "Raw Approval log not acquired. Request encoding and transaction success are verified independently of event state."
+  ]
+}

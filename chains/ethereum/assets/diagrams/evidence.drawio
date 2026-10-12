@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram name="C｜一笔交易，多种证据" id="evidence">
+    <mxGraphModel page="1" pageWidth="640" pageHeight="774" grid="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" vertex="1" value="C｜一笔交易，多种证据" style="text;html=0;fontFamily=PingFang SC;fontSize=25;fontStyle=1;align=left;strokeColor=none;fillColor=none;">
+          <mxGeometry x="28" y="20" width="584" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="edge0" parent="1" edge="1" source="t" target="x" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;endArrow=block;strokeColor=#73869A;fontFamily=PingFang SC;fontSize=13;labelBackgroundColor=#ffffff;dashed=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170.0" y="245.0" />
+              <mxPoint x="170.0" y="245.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge1" parent="1" edge="1" source="x" target="r" value="追踪视角" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;endArrow=block;strokeColor=#73869A;fontFamily=PingFang SC;fontSize=13;labelBackgroundColor=#ffffff;dashed=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge2" parent="1" edge="1" source="x" target="l" value="显式记录" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;endArrow=block;strokeColor=#73869A;fontFamily=PingFang SC;fontSize=13;labelBackgroundColor=#ffffff;dashed=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170.0" y="387.0" />
+              <mxPoint x="170.0" y="387.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge3" parent="1" edge="1" source="x" target="s" value="执行结果" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;endArrow=block;strokeColor=#73869A;fontFamily=PingFang SC;fontSize=13;labelBackgroundColor=#ffffff;dashed=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170.0" y="387.0" />
+              <mxPoint x="470.0" y="387.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge4" parent="1" edge="1" source="t" target="q" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;endArrow=block;strokeColor=#73869A;fontFamily=PingFang SC;fontSize=13;labelBackgroundColor=#ffffff;dashed=1;exitX=0;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="22" y="174.0" />
+              <mxPoint x="22" y="600.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t" parent="1" vertex="1" value="&lt;b&gt;一份顶层请求&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;One Transaction&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;Hash 识别提交&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=21;align=center;verticalAlign=middle;spacing=10;fillColor=#EDF3FB;strokeColor=#7890A3;fontColor=#243B4D;">
+          <mxGeometry x="40" y="120" width="260" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="x" parent="1" vertex="1" value="&lt;b&gt;执行过程&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;Execution&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;读取状态并运行代码&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=21;align=center;verticalAlign=middle;spacing=10;fillColor=#EDF3FB;strokeColor=#7890A3;fontColor=#243B4D;">
+          <mxGeometry x="40" y="262" width="260" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="r" parent="1" vertex="1" value="&lt;b&gt;调用树&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;Traces&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;路径 · 调用方式 · 成败&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=21;align=center;verticalAlign=middle;spacing=10;fillColor=#FFF4DF;strokeColor=#7890A3;fontColor=#243B4D;">
+          <mxGeometry x="340" y="262" width="260" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="l" parent="1" vertex="1" value="&lt;b&gt;保留事件日志&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;Logs&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;发出地址 · Topics · Data&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=21;align=center;verticalAlign=middle;spacing=10;fillColor=#FFF4DF;strokeColor=#7890A3;fontColor=#243B4D;">
+          <mxGeometry x="40" y="404" width="260" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="s" parent="1" vertex="1" value="&lt;b&gt;结果状态&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;State Changes&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;业务提交与协议处理&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=21;align=center;verticalAlign=middle;spacing=10;fillColor=#EAF5EF;strokeColor=#7890A3;fontColor=#243B4D;">
+          <mxGeometry x="340" y="404" width="260" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="q" parent="1" vertex="1" value="&lt;b&gt;分析连接&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;Logical Join&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;各分支按交易回查&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=21;align=center;verticalAlign=middle;spacing=10;fillColor=#FFF4DF;strokeColor=#7890A3;fontColor=#243B4D;">
+          <mxGeometry x="40" y="546" width="260" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="note" parent="1" vertex="1" value="Logs 与 State 并行来自执行；没有 Trace ↔ Log 一对一外键。" style="text;html=0;fontFamily=PingFang SC;fontSize=16;align=left;strokeColor=none;fillColor=none;">
+          <mxGeometry x="28" y="691" width="584" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

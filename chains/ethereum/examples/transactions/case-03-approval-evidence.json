@@ -1,0 +1,46 @@
+{
+  "observed_at": "2026-10-10",
+  "chain_id": 1,
+  "hash": "0xcb961e7be2376292335004a134aa87cb775e624e3db5883c5ac1babdf70ff1ad",
+  "block_number": 25272722,
+  "block_time": "2026-06-08T12:33:59Z",
+  "source": "https://etherscan.io/tx/0xcb961e7be2376292335004a134aa87cb775e624e3db5883c5ac1babdf70ff1ad",
+  "status": "success",
+  "from": "0x30D09cC334FC5f033371045f76f7Ca8071C68F23",
+  "to": "0xdCf29f7E1e0EC833E6C3c52Bc0E60A95316092dD",
+  "method_display": "approveTokens",
+  "value_wei": "0",
+  "gas_used": 187381,
+  "gas_price_wei": "201357085",
+  "fee_wei": "37730491944385",
+  "evidence_kind": "EXPLORER_INDEXED_EVENT_FIELDS",
+  "logs": [
+    {
+      "log_index": 772,
+      "emitting_contract": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "event": "Approval(address,address,uint256)",
+      "topic0": "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+      "owner": "0xdCf29f7E1e0EC833E6C3c52Bc0E60A95316092dD",
+      "spender": "0xE592427A0AEce92De3Edee1F18E0157C05861564",
+      "decoded_value": "0",
+      "data_hex": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "raw_topics_1_2": null
+    },
+    {
+      "log_index": 773,
+      "emitting_contract": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "event": "Approval(address,address,uint256)",
+      "topic0": "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+      "owner": "0xdCf29f7E1e0EC833E6C3c52Bc0E60A95316092dD",
+      "spender": "0xE592427A0AEce92De3Edee1F18E0157C05861564",
+      "decoded_value": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+      "data_hex": null,
+      "raw_topics_1_2": null
+    }
+  ],
+  "limits": [
+    "Not an original RPC receipt or a full call tree.",
+    "Only the two relevant Approval logs are catalogued; not all transaction logs.",
+    "No historical allowance state or full root calldata acquired."
+  ]
+}

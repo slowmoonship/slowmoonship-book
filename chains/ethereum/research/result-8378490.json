@@ -1,0 +1,74 @@
+{
+  "query_id": 8378490,
+  "state": "QUERY_STATE_COMPLETED",
+  "submitted_at": "2026-08-19T10:06:11.571207Z",
+  "expires_at": "2026-11-17T10:07:22.706751Z",
+  "execution_started_at": "2026-08-19T10:06:25.093233Z",
+  "execution_ended_at": "2026-08-19T10:07:22.706741Z",
+  "result": {
+    "metadata": {
+      "column_names": [
+        "date",
+        "transfer_count",
+        "unique_tokens",
+        "unique_senders",
+        "unique_receivers",
+        "erc20_transfer_count",
+        "native_transfer_count",
+        "null_token_standard_rows",
+        "duplicate_or_null_unique_keys",
+        "null_unique_keys",
+        "native_rows_missing_contract_address"
+      ],
+      "result_set_bytes": 434,
+      "row_count": 3,
+      "total_result_set_bytes": 7560,
+      "total_row_count": 90,
+      "datapoint_count": 33
+    },
+    "rows": [
+      {
+        "date": "2026-05-21",
+        "duplicate_or_null_unique_keys": 0,
+        "erc20_transfer_count": 3027622,
+        "native_rows_missing_contract_address": 0,
+        "native_transfer_count": 2490218,
+        "null_token_standard_rows": 0,
+        "null_unique_keys": 0,
+        "transfer_count": 5517840,
+        "unique_receivers": 867846,
+        "unique_senders": 658806,
+        "unique_tokens": 9698
+      },
+      {
+        "date": "2026-05-22",
+        "duplicate_or_null_unique_keys": 0,
+        "erc20_transfer_count": 3414282,
+        "native_rows_missing_contract_address": 0,
+        "native_transfer_count": 2390499,
+        "null_token_standard_rows": 0,
+        "null_unique_keys": 0,
+        "transfer_count": 5804781,
+        "unique_receivers": 934819,
+        "unique_senders": 704446,
+        "unique_tokens": 11955
+      },
+      {
+        "date": "2026-05-23",
+        "duplicate_or_null_unique_keys": 0,
+        "erc20_transfer_count": 3168562,
+        "native_rows_missing_contract_address": 0,
+        "native_transfer_count": 3159706,
+        "null_token_standard_rows": 0,
+        "null_unique_keys": 0,
+        "transfer_count": 6328268,
+        "unique_receivers": 884152,
+        "unique_senders": 654070,
+        "unique_tokens": 9779
+      }
+    ]
+  },
+  "next_offset": 3,
+  "next_uri": "https://api.dune.com/api/v1/execution/01M0CQRK3K5VSMPRMS1K0M18Z0/results?limit=3\u0026offset=3",
+  "is_execution_finished": true
+}

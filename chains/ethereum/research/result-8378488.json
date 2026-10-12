@@ -1,0 +1,62 @@
+{
+  "query_id": 8378488,
+  "state": "QUERY_STATE_COMPLETED",
+  "submitted_at": "2026-08-19T10:03:29.568441Z",
+  "expires_at": "2026-11-17T10:05:25.466733Z",
+  "execution_started_at": "2026-08-19T10:04:16.672435Z",
+  "execution_ended_at": "2026-08-19T10:05:25.466724Z",
+  "result": {
+    "metadata": {
+      "column_names": [
+        "date",
+        "trace_count",
+        "unique_transactions",
+        "unique_destination_addresses",
+        "call_count",
+        "failed_trace_count",
+        "parent_failed_trace_count",
+        "avg_traces_per_transaction"
+      ],
+      "result_set_bytes": 402,
+      "row_count": 3,
+      "total_result_set_bytes": 5400,
+      "total_row_count": 90,
+      "datapoint_count": 24
+    },
+    "rows": [
+      {
+        "avg_traces_per_transaction": 6.821330724913711,
+        "call_count": 15783771,
+        "date": "2026-05-21",
+        "failed_trace_count": 514170,
+        "parent_failed_trace_count": 310287,
+        "trace_count": 15830194,
+        "unique_destination_addresses": 651921,
+        "unique_transactions": 2320690
+      },
+      {
+        "avg_traces_per_transaction": 6.7087110046153455,
+        "call_count": 15433663,
+        "date": "2026-05-22",
+        "failed_trace_count": 498032,
+        "parent_failed_trace_count": 353861,
+        "trace_count": 15505193,
+        "unique_destination_addresses": 649527,
+        "unique_transactions": 2311203
+      },
+      {
+        "avg_traces_per_transaction": 5.8970981848974855,
+        "call_count": 15657026,
+        "date": "2026-05-23",
+        "failed_trace_count": 422342,
+        "parent_failed_trace_count": 325760,
+        "trace_count": 15766293,
+        "unique_destination_addresses": 659416,
+        "unique_transactions": 2673568
+      }
+    ]
+  },
+  "next_offset": 3,
+  "next_uri": "https://api.dune.com/api/v1/execution/01M0CQKMX0A96058NPPXRGQK8P/results?limit=3\u0026offset=3",
+  "is_execution_finished": true
+}

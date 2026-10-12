@@ -1,0 +1,62 @@
+{
+  "query_id": 8378489,
+  "state": "QUERY_STATE_COMPLETED",
+  "submitted_at": "2026-08-19T10:05:42.164173Z",
+  "expires_at": "2026-11-17T10:05:43.723793Z",
+  "execution_started_at": "2026-08-19T10:05:42.167331Z",
+  "execution_ended_at": "2026-08-19T10:05:43.723782Z",
+  "result": {
+    "metadata": {
+      "column_names": [
+        "date",
+        "contracts_created",
+        "unique_creators",
+        "unique_contract_addresses",
+        "creation_transactions",
+        "duplicate_contract_addresses",
+        "null_contract_addresses",
+        "avg_contracts_per_transaction"
+      ],
+      "result_set_bytes": 361,
+      "row_count": 3,
+      "total_result_set_bytes": 5400,
+      "total_row_count": 90,
+      "datapoint_count": 24
+    },
+    "rows": [
+      {
+        "avg_contracts_per_transaction": 3.018720610416112,
+        "contracts_created": 34024,
+        "creation_transactions": 11271,
+        "date": "2026-05-21",
+        "duplicate_contract_addresses": 4,
+        "null_contract_addresses": 0,
+        "unique_contract_addresses": 34020,
+        "unique_creators": 1600
+      },
+      {
+        "avg_contracts_per_transaction": 3.6332689945604493,
+        "contracts_created": 41412,
+        "creation_transactions": 11398,
+        "date": "2026-05-22",
+        "duplicate_contract_addresses": 1,
+        "null_contract_addresses": 0,
+        "unique_contract_addresses": 41411,
+        "unique_creators": 1586
+      },
+      {
+        "avg_contracts_per_transaction": 5.668088204701477,
+        "contracts_created": 54493,
+        "creation_transactions": 9614,
+        "date": "2026-05-23",
+        "duplicate_contract_addresses": 0,
+        "null_contract_addresses": 0,
+        "unique_contract_addresses": 54493,
+        "unique_creators": 1351
+      }
+    ]
+  },
+  "next_offset": 3,
+  "next_uri": "https://api.dune.com/api/v1/execution/01M0CQQPCM86KBJ85XANRNV3G8/results?limit=3\u0026offset=3",
+  "is_execution_finished": true
+}

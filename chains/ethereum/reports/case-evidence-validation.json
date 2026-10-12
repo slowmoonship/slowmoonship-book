@@ -1,0 +1,83 @@
+{
+  "scope": "LOCAL_CASE_EVIDENCE_ONLY; NOT_DUNE_SQL_EXECUTION",
+  "checks": [
+    {
+      "name": "USDT input selector",
+      "status": "PASS",
+      "details": "Raw input corresponds to the documented ERC-20 transfer selector."
+    },
+    {
+      "name": "USDT input recipient",
+      "status": "PASS",
+      "details": "First ABI word address matches acquired decoded input."
+    },
+    {
+      "name": "USDT raw amount",
+      "status": "PASS",
+      "details": "Input integer and acquired transfer amount agree; does not assert complete Storage diff."
+    },
+    {
+      "name": "USDT fee",
+      "status": "PASS",
+      "details": "Transaction-level execution fee agrees with actual fee metadata."
+    },
+    {
+      "name": "Swap count and parent coverage",
+      "status": "PASS",
+      "details": "Eight including root; every child has its parent in acquired trace."
+    },
+    {
+      "name": "Swap retained records",
+      "status": "PASS",
+      "details": "Four acquired logs, no next-page cursor."
+    },
+    {
+      "name": "Swap frame errors",
+      "status": "PASS",
+      "details": "Acquired frames have no error; top-level metadata says success."
+    },
+    {
+      "name": "Native to WETH deposit",
+      "status": "PASS",
+      "details": "Root native amount matches internal WETH deposit and raw Deposit log amount."
+    },
+    {
+      "name": "WETH deposit is not raw Transfer",
+      "status": "PASS",
+      "details": "Explorer token_minting category is separate from raw event signature."
+    },
+    {
+      "name": "Swap signed settlement",
+      "status": "PASS",
+      "details": "Raw Swap int256 amounts agree with native input and root returned output quantity."
+    },
+    {
+      "name": "Pool returned settlement",
+      "status": "PASS",
+      "details": "Pool raw return agrees with retained Swap log."
+    },
+    {
+      "name": "Output Transfer amount",
+      "status": "PASS",
+      "details": "Raw output-token Transfer agrees with root return, not summed into input quantity."
+    },
+    {
+      "name": "Pool WETH read difference",
+      "status": "PASS",
+      "details": "Two raw balanceOf return values differ by acquired WETH input; not a complete all-account State Diff."
+    },
+    {
+      "name": "Swap actual execution fee",
+      "status": "PASS",
+      "details": "141995 * 126291845 = actual metadata fee in Wei."
+    },
+    {
+      "name": "Swap burn and priority",
+      "status": "PASS",
+      "details": "Acquired burn and priority components sum to actual execution fee."
+    }
+  ],
+  "all_passed": true,
+  "source_observed_at": "2026-10-10",
+  "validated_at": "2026-10-11"
+}

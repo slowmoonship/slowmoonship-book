@@ -1,0 +1,171 @@
+{
+  "data": {
+    "items": [
+      {
+        "action": {
+          "callType": "call",
+          "from": "0xb3efa75ee2bdc40a8e8413f02a375a9c1e92bba5",
+          "gas": "0x43a38",
+          "input": "0x414bf389000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2000000000000000000000000c552b5706baa14c1f0104e95380ea3dc102a481f0000000000000000000000000000000000000000000000000000000000000064000000000000000000000000b3efa75ee2bdc40a8e8413f02a375a9c1e92bba5000000000000000000000000000000000000000000000000000000006ac82e7f00000000000000000000000000000000000000000000000005a9bcf49a45100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "to": "0xe592427a0aece92de3edee1f18e0157c05861564",
+          "value": "0x5a9bcf49a451000"
+        },
+        "result": {
+          "gasUsed": "0x21ebf",
+          "output": "0x000000000000000000000000000000000000000000004701853cce31646cab92"
+        },
+        "subtraces": 1,
+        "traceAddress": [],
+        "type": "call"
+      },
+      {
+        "action": {
+          "callType": "call",
+          "from": "0xe592427a0aece92de3edee1f18e0157c05861564",
+          "gas": "0x40e41",
+          "input": "0x128acb08000000000000000000000000b3efa75ee2bdc40a8e8413f02a375a9c1e92bba5000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000005a9bcf49a45100000000000000000000000000000000000000000000000000000000001000276a400000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000040000000000000000000000000b3efa75ee2bdc40a8e8413f02a375a9c1e92bba5000000000000000000000000000000000000000000000000000000000000002bc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2000064c552b5706baa14c1f0104e95380ea3dc102a481f000000000000000000000000000000000000000000",
+          "to": "0x807d8084fd2a0e204590514286454dacce902b65",
+          "value": "0x0"
+        },
+        "result": {
+          "gasUsed": "0x201b7",
+          "output": "0x00000000000000000000000000000000000000000000000005a9bcf49a451000ffffffffffffffffffffffffffffffffffffffffffffb8fe7ac331ce9b93546e"
+        },
+        "subtraces": 4,
+        "traceAddress": [
+          0
+        ],
+        "type": "call"
+      },
+      {
+        "action": {
+          "callType": "call",
+          "from": "0x807d8084fd2a0e204590514286454dacce902b65",
+          "gas": "0x34223",
+          "input": "0xa9059cbb000000000000000000000000b3efa75ee2bdc40a8e8413f02a375a9c1e92bba5000000000000000000000000000000000000000000004701853cce31646cab92",
+          "to": "0xc552b5706baa14c1f0104e95380ea3dc102a481f",
+          "value": "0x0"
+        },
+        "result": {
+          "gasUsed": "0x7756",
+          "output": "0x0000000000000000000000000000000000000000000000000000000000000001"
+        },
+        "subtraces": 0,
+        "traceAddress": [
+          0,
+          0
+        ],
+        "type": "call"
+      },
+      {
+        "action": {
+          "callType": "staticcall",
+          "from": "0x807d8084fd2a0e204590514286454dacce902b65",
+          "gas": "0x2bfa6",
+          "input": "0x70a08231000000000000000000000000807d8084fd2a0e204590514286454dacce902b65",
+          "to": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "value": "0x0"
+        },
+        "result": {
+          "gasUsed": "0x9e6",
+          "output": "0x000000000000000000000000000000000000000000000001d3c8335081ce92e8"
+        },
+        "subtraces": 0,
+        "traceAddress": [
+          0,
+          1
+        ],
+        "type": "call"
+      },
+      {
+        "action": {
+          "callType": "call",
+          "from": "0x807d8084fd2a0e204590514286454dacce902b65",
+          "gas": "0x2b2d2",
+          "input": "0xfa461e3300000000000000000000000000000000000000000000000005a9bcf49a451000ffffffffffffffffffffffffffffffffffffffffffffb8fe7ac331ce9b93546e000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000040000000000000000000000000b3efa75ee2bdc40a8e8413f02a375a9c1e92bba5000000000000000000000000000000000000000000000000000000000000002bc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2000064c552b5706baa14c1f0104e95380ea3dc102a481f000000000000000000000000000000000000000000",
+          "to": "0xe592427a0aece92de3edee1f18e0157c05861564",
+          "value": "0x0"
+        },
+        "result": {
+          "gasUsed": "0x9e2d",
+          "output": "0x"
+        },
+        "subtraces": 2,
+        "traceAddress": [
+          0,
+          2
+        ],
+        "type": "call"
+      },
+      {
+        "action": {
+          "callType": "call",
+          "from": "0xe592427a0aece92de3edee1f18e0157c05861564",
+          "gas": "0x28203",
+          "input": "0xd0e30db0",
+          "to": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "value": "0x5a9bcf49a451000"
+        },
+        "result": {
+          "gasUsed": "0x5da6",
+          "output": "0x"
+        },
+        "subtraces": 0,
+        "traceAddress": [
+          0,
+          2,
+          0
+        ],
+        "type": "call"
+      },
+      {
+        "action": {
+          "callType": "call",
+          "from": "0xe592427a0aece92de3edee1f18e0157c05861564",
+          "gas": "0x2242e",
+          "input": "0xa9059cbb000000000000000000000000807d8084fd2a0e204590514286454dacce902b6500000000000000000000000000000000000000000000000005a9bcf49a451000",
+          "to": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "value": "0x0"
+        },
+        "result": {
+          "gasUsed": "0x17ae",
+          "output": "0x0000000000000000000000000000000000000000000000000000000000000001"
+        },
+        "subtraces": 0,
+        "traceAddress": [
+          0,
+          2,
+          1
+        ],
+        "type": "call"
+      },
+      {
+        "action": {
+          "callType": "staticcall",
+          "from": "0x807d8084fd2a0e204590514286454dacce902b65",
+          "gas": "0x214a5",
+          "input": "0x70a08231000000000000000000000000807d8084fd2a0e204590514286454dacce902b65",
+          "to": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "value": "0x0"
+        },
+        "result": {
+          "gasUsed": "0x216",
+          "output": "0x000000000000000000000000000000000000000000000001d971f0451c13a2e8"
+        },
+        "subtraces": 0,
+        "traceAddress": [
+          0,
+          3
+        ],
+        "type": "call"
+      }
+    ]
+  },
+  "data_description": null,
+  "notes": [
+    "Free session budget: 0 of 8 tool calls remaining. Requests authorized with a client-supplied Blockscout PRO API key are not metered — get a key at https://mcp.blockscout.com.",
+    "Starting 10/08/2026, all requests to the Blockscout MCP server will require a PRO API key for authorization. More information on how to get a PRO API key and setup instructions on https://mcp.blockscout.com/."
+  ],
+  "instructions": null,
+  "pagination": null
+}

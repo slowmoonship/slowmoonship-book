@@ -1,0 +1,13 @@
+{
+  "updated_at": "2026-10-11",
+  "status": "BLOCKED_READ_ONLY_ACCOUNT",
+  "attempted_requests": 1,
+  "requested_engine": "free",
+  "query_ids_created": [],
+  "execution_ids_started": [],
+  "successful_sql_executions": 0,
+  "message": "Your account is read-only. Upgrade to create content or run queries.",
+  "paid_fallback": false,
+  "recharge": false,
+  "response_file": "01-free-probe-response.json"
+}

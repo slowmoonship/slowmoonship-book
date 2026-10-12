@@ -1,0 +1,54 @@
+{
+  "query_id": 8378484,
+  "state": "QUERY_STATE_COMPLETED",
+  "submitted_at": "2026-08-19T09:51:56.742488Z",
+  "expires_at": "2026-11-17T09:52:21.254473Z",
+  "execution_started_at": "2026-08-19T09:52:18.451403Z",
+  "execution_ended_at": "2026-08-19T09:52:21.254464Z",
+  "result": {
+    "metadata": {
+      "column_names": [
+        "date",
+        "block_count",
+        "first_block_number",
+        "last_block_number",
+        "avg_block_interval_seconds",
+        "duplicate_block_numbers"
+      ],
+      "result_set_bytes": 268,
+      "row_count": 3,
+      "total_result_set_bytes": 4680,
+      "total_row_count": 90,
+      "datapoint_count": 18
+    },
+    "rows": [
+      {
+        "avg_block_interval_seconds": "12.036784",
+        "block_count": 7178,
+        "date": "2026-05-21",
+        "duplicate_block_numbers": 0,
+        "first_block_number": 25139894,
+        "last_block_number": 25147071
+      },
+      {
+        "avg_block_interval_seconds": "12.046855",
+        "block_count": 7172,
+        "date": "2026-05-22",
+        "duplicate_block_numbers": 0,
+        "first_block_number": 25147072,
+        "last_block_number": 25154243
+      },
+      {
+        "avg_block_interval_seconds": "12.041818",
+        "block_count": 7175,
+        "date": "2026-05-23",
+        "duplicate_block_numbers": 0,
+        "first_block_number": 25154244,
+        "last_block_number": 25161418
+      }
+    ]
+  },
+  "next_offset": 3,
+  "next_uri": "https://api.dune.com/api/v1/execution/01M0CPYGA62NTHRWWNRZN3E19M/results?limit=3\u0026offset=3",
+  "is_execution_finished": true
+}

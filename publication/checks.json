@@ -1,0 +1,4383 @@
+{
+  "status": "PASS",
+  "date": "2026-10-12",
+  "file_count": 210,
+  "markdown_files": 94,
+  "internal_references_checked": 568,
+  "valid_internal_references": 568,
+  "internal_fragment_references": 0,
+  "heading_ids_checked": 125,
+  "repeated_heading_bases": 0,
+  "heading_algorithm": "github-slugger 2.0.0; renderer samples checked separately",
+  "markdown_image_references": 42,
+  "svg_files": 31,
+  "drawio_files": 31,
+  "xml_resource_attributes": 0,
+  "global_summary_book_pages": 55,
+  "main_chapters": 40,
+  "external_references_not_crawled": 246,
+  "source_copy_changes": [
+    "chains/ethereum/README.md",
+    "chains/ethereum/reports/final-acceptance.md"
+  ],
+  "errors": [],
+  "warnings": [],
+  "headings": {
+    "CHANGELOG.md": [
+      {
+        "level": 1,
+        "text": "出版更新记录",
+        "id": "出版更新记录",
+        "repeated_base": false
+      },
+      {
+        "level": 2,
+        "text": "2026-10-12 · Ethereum v0.1",
+        "id": "2026-10-12--ethereum-v01",
+        "repeated_base": false
+      }
+    ],
+    "PUBLICATION_STATUS.md": [
+      {
+        "level": 1,
+        "text": "出版状态",
+        "id": "出版状态",
+        "repeated_base": false
+      }
+    ],
+    "README.md": [
+      {
+        "level": 1,
+        "text": "慢月船：链上数据之路",
+        "id": "慢月船链上数据之路",
+        "repeated_base": false
+      },
+      {
+        "level": 2,
+        "text": "当前出版",
+        "id": "当前出版",
+        "repeated_base": false
+      },
+      {
+        "level": 2,
+        "text": "验证边界",
+        "id": "验证边界",
+        "repeated_base": false
+      },
+      {
+        "level": 2,
+        "text": "更新与反馈",
+        "id": "更新与反馈",
+        "repeated_base": false
+      }
+    ],
+    "SUMMARY.md": [
+      {
+        "level": 1,
+        "text": "Summary",
+        "id": "summary",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/README.md": [
+      {
+        "level": 1,
+        "text": "慢月船：链上数据之路｜Ethereum 篇",
+        "id": "慢月船链上数据之路ethereum-篇",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/SUMMARY.md": [
+      {
+        "level": 1,
+        "text": "Ethereum 篇目录",
+        "id": "ethereum-篇目录",
+        "repeated_base": false
+      },
+      {
+        "level": 2,
+        "text": "Part 01｜从一笔 ETH 转账开始",
+        "id": "part-01从一笔-eth-转账开始",
+        "repeated_base": false
+      },
+      {
+        "level": 2,
+        "text": "Part 02｜账户与状态",
+        "id": "part-02账户与状态",
+        "repeated_base": false
+      },
+      {
+        "level": 2,
+        "text": "Part 03｜EVM 执行与输入",
+        "id": "part-03evm-执行与输入",
+        "repeated_base": false
+      },
+      {
+        "level": 2,
+        "text": "Part 04｜交易、调用与日志",
+        "id": "part-04交易调用与日志",
+        "repeated_base": false
+      },
+      {
+        "level": 2,
+        "text": "Part 05｜解码与数据模型",
+        "id": "part-05解码与数据模型",
+        "repeated_base": false
+      },
+      {
+        "level": 2,
+        "text": "Part 06｜ETH、代币与 NFT",
+        "id": "part-06eth代币与-nft",
+        "repeated_base": false
+      },
+      {
+        "level": 2,
+        "text": "Part 07｜Gas 与实际费用",
+        "id": "part-07gas-与实际费用",
+        "repeated_base": false
+      },
+      {
+        "level": 2,
+        "text": "Part 08｜共识、质押与数据发布",
+        "id": "part-08共识质押与数据发布",
+        "repeated_base": false
+      },
+      {
+        "level": 2,
+        "text": "Part 09｜DuneSQL 实践",
+        "id": "part-09dunesql-实践",
+        "repeated_base": false
+      },
+      {
+        "level": 2,
+        "text": "Part 10｜真实交易与分析判断",
+        "id": "part-10真实交易与分析判断",
+        "repeated_base": false
+      },
+      {
+        "level": 2,
+        "text": "附录",
+        "id": "附录",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md": [
+      {
+        "level": 1,
+        "text": "图形索引",
+        "id": "图形索引",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/00-preface.md": [
+      {
+        "level": 1,
+        "text": "前言｜从一个按钮走到一份可分析的记录",
+        "id": "前言从一个按钮走到一份可分析的记录",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/appendix/data-table-index.md": [
+      {
+        "level": 1,
+        "text": "数据表索引",
+        "id": "数据表索引",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/appendix/glossary.md": [
+      {
+        "level": 1,
+        "text": "术语表",
+        "id": "术语表",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/appendix/query-index.md": [
+      {
+        "level": 1,
+        "text": "作者 Query 索引",
+        "id": "作者-query-索引",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/appendix/references.md": [
+      {
+        "level": 1,
+        "text": "参考资料与版本边界",
+        "id": "参考资料与版本边界",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-01/01-one-eth.md": [
+      {
+        "level": 1,
+        "text": "01｜发送 1 ETH，以太坊记录了什么？",
+        "id": "01发送-1-eth以太坊记录了什么",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-01/02-wallet-signature.md": [
+      {
+        "level": 1,
+        "text": "02｜钱包怎样证明这笔钱可以由你转出？",
+        "id": "02钱包怎样证明这笔钱可以由你转出",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-01/03-block-receipt.md": [
+      {
+        "level": 1,
+        "text": "03｜看到成功，为什么还要看区块和收据？",
+        "id": "03看到成功为什么还要看区块和收据",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-01/04-nonce-pending.md": [
+      {
+        "level": 1,
+        "text": "04｜Nonce 为什么会让一笔交易等在队列里？",
+        "id": "04nonce-为什么会让一笔交易等在队列里",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-01/index.md": [
+      {
+        "level": 1,
+        "text": "Part 01｜从一笔 ETH 转账开始",
+        "id": "part-01从一笔-eth-转账开始",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-02/05-account-fields.md": [
+      {
+        "level": 1,
+        "text": "05｜账户里保存的是余额，还是一份程序？",
+        "id": "05账户里保存的是余额还是一份程序",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-02/06-storage-token.md": [
+      {
+        "level": 1,
+        "text": "06｜为什么 USDT 不在我的 ETH Balance 里？",
+        "id": "06为什么-usdt-不在我的-eth-balance-里",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-02/07-state-history.md": [
+      {
+        "level": 1,
+        "text": "07｜记录交易和维护状态，是不是同一件事？",
+        "id": "07记录交易和维护状态是不是同一件事",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-02/08-delegation-aa.md": [
+      {
+        "level": 1,
+        "text": "08｜有代码的账户还可能是 EOA 吗？",
+        "id": "08有代码的账户还可能是-eoa-吗",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-02/index.md": [
+      {
+        "level": 1,
+        "text": "Part 02｜账户与状态",
+        "id": "part-02账户与状态",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-03/09-evm-execution.md": [
+      {
+        "level": 1,
+        "text": "09｜点击 Swap，EVM 究竟在执行什么？",
+        "id": "09点击-swapevm-究竟在执行什么",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-03/10-memory-stack-storage.md": [
+      {
+        "level": 1,
+        "text": "10｜Stack、Memory 和 Storage 为什么不能混着看？",
+        "id": "10stackmemory-和-storage-为什么不能混着看",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-03/11-calldata-abi.md": [
+      {
+        "level": 1,
+        "text": "11｜一串十六进制怎样表达“转给谁、转多少”？",
+        "id": "11一串十六进制怎样表达转给谁转多少",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-03/12-contract-deployment.md": [
+      {
+        "level": 1,
+        "text": "12｜部署合约后，链上究竟多了什么？",
+        "id": "12部署合约后链上究竟多了什么",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-03/index.md": [
+      {
+        "level": 1,
+        "text": "Part 03｜EVM 执行与输入",
+        "id": "part-03evm-执行与输入",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-04/13-transaction-record.md": [
+      {
+        "level": 1,
+        "text": "13｜Transactions 表的一行，究竟能说明多少？",
+        "id": "13transactions-表的一行究竟能说明多少",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-04/14-traces-call-tree.md": [
+      {
+        "level": 1,
+        "text": "14｜一笔交易为什么会有八条 Trace？",
+        "id": "14一笔交易为什么会有八条-trace",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-04/15-logs-events.md": [
+      {
+        "level": 1,
+        "text": "15｜Transfer Event 为什么不是另一笔交易？",
+        "id": "15transfer-event-为什么不是另一笔交易",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-04/16-success-revert.md": [
+      {
+        "level": 1,
+        "text": "16｜Trace 成功，为什么还不能认定资产到账？",
+        "id": "16trace-成功为什么还不能认定资产到账",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-04/index.md": [
+      {
+        "level": 1,
+        "text": "Part 04｜交易、调用与日志",
+        "id": "part-04交易调用与日志",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-05/17-decoding.md": [
+      {
+        "level": 1,
+        "text": "17｜Dune 怎样把原始字节变成 Transfer？",
+        "id": "17dune-怎样把原始字节变成-transfer",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-05/18-proxy-context.md": [
+      {
+        "level": 1,
+        "text": "18｜为什么日志地址是 Proxy，代码却来自别处？",
+        "id": "18为什么日志地址是-proxy代码却来自别处",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-05/19-data-lineage.md": [
+      {
+        "level": 1,
+        "text": "19｜Raw、Decoded、Curated 分别加了什么？",
+        "id": "19rawdecodedcurated-分别加了什么",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-05/20-core-data-model.md": [
+      {
+        "level": 1,
+        "text": "20｜六张核心表，应该怎样连接？",
+        "id": "20六张核心表应该怎样连接",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-05/index.md": [
+      {
+        "level": 1,
+        "text": "Part 05｜解码与数据模型",
+        "id": "part-05解码与数据模型",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-06/21-eth-weth.md": [
+      {
+        "level": 1,
+        "text": "21｜ETH 和 WETH，为什么要看不同记录？",
+        "id": "21eth-和-weth为什么要看不同记录",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-06/22-allowance-approval.md": [
+      {
+        "level": 1,
+        "text": "22｜授权额度为什么不是已经转走的金额？",
+        "id": "22授权额度为什么不是已经转走的金额",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-06/23-nft-identities.md": [
+      {
+        "level": 1,
+        "text": "23｜NFT 的 Token ID 为什么不能当作数量相加？",
+        "id": "23nft-的-token-id-为什么不能当作数量相加",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-06/24-multi-token-nonstandard.md": [
+      {
+        "level": 1,
+        "text": "24｜批量转移和特殊代币怎样打破流水直觉？",
+        "id": "24批量转移和特殊代币怎样打破流水直觉",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-06/index.md": [
+      {
+        "level": 1,
+        "text": "Part 06｜ETH、代币与 NFT",
+        "id": "part-06eth代币与-nft",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-07/25-gas-work.md": [
+      {
+        "level": 1,
+        "text": "25｜为什么发送 USDT 要消耗 ETH？",
+        "id": "25为什么发送-usdt-要消耗-eth",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-07/26-fee-market.md": [
+      {
+        "level": 1,
+        "text": "26｜Max Fee 是上限，实际手续费怎样算？",
+        "id": "26max-fee-是上限实际手续费怎样算",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-07/27-failed-cost.md": [
+      {
+        "level": 1,
+        "text": "27｜交易失败了，为什么手续费没有退回来？",
+        "id": "27交易失败了为什么手续费没有退回来",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-07/28-blob-data.md": [
+      {
+        "level": 1,
+        "text": "28｜Blob 为什么不是普通 Calldata？",
+        "id": "28blob-为什么不是普通-calldata",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-07/index.md": [
+      {
+        "level": 1,
+        "text": "Part 07｜Gas 与实际费用",
+        "id": "part-07gas-与实际费用",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-08/29-two-layers.md": [
+      {
+        "level": 1,
+        "text": "29｜执行层与共识层分别在忙什么？",
+        "id": "29执行层与共识层分别在忙什么",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-08/30-slots-finality.md": [
+      {
+        "level": 1,
+        "text": "30｜十二秒一个 Slot，为什么不保证十二秒一个块？",
+        "id": "30十二秒一个-slot为什么不保证十二秒一个块",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-08/31-staking-withdrawals.md": [
+      {
+        "level": 1,
+        "text": "31｜质押提款为什么没有普通交易哈希？",
+        "id": "31质押提款为什么没有普通交易哈希",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-08/32-l2-boundary.md": [
+      {
+        "level": 1,
+        "text": "32｜一条主网批次提交，是不是一条 L2 用户交易？",
+        "id": "32一条主网批次提交是不是一条-l2-用户交易",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-08/index.md": [
+      {
+        "level": 1,
+        "text": "Part 08｜共识、质押与数据发布",
+        "id": "part-08共识质押与数据发布",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-09/33-sql-types.md": [
+      {
+        "level": 1,
+        "text": "33｜地址、Wei 和 Uint256，SQL 应该怎样处理？",
+        "id": "33地址wei-和-uint256sql-应该怎样处理",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-09/34-safe-sql-joins.md": [
+      {
+        "level": 1,
+        "text": "34｜怎样同时看调用与日志，又不把交易数放大？",
+        "id": "34怎样同时看调用与日志又不把交易数放大",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-09/35-raw-log-sql.md": [
+      {
+        "level": 1,
+        "text": "35｜不用解码表，也能看懂 Transfer 和 Approval 吗？",
+        "id": "35不用解码表也能看懂-transfer-和-approval-吗",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-09/36-curated-sql.md": [
+      {
+        "level": 1,
+        "text": "36｜查询 DEX 成交，应该从转账表还是成交表开始？",
+        "id": "36查询-dex-成交应该从转账表还是成交表开始",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-09/index.md": [
+      {
+        "level": 1,
+        "text": "Part 09｜DuneSQL 实践",
+        "id": "part-09dunesql-实践",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-10/37-swap-reconstruction.md": [
+      {
+        "level": 1,
+        "text": "37｜把一笔真实 Swap 从头还原",
+        "id": "37把一笔真实-swap-从头还原",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-10/38-wallet-flow.md": [
+      {
+        "level": 1,
+        "text": "38｜钱包净流量，为什么不等于交易金额之和？",
+        "id": "38钱包净流量为什么不等于交易金额之和",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-10/39-metrics-users-volume.md": [
+      {
+        "level": 1,
+        "text": "39｜活跃地址、真实用户与成交量，该怎样命名？",
+        "id": "39活跃地址真实用户与成交量该怎样命名",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-10/40-unknown-transaction.md": [
+      {
+        "level": 1,
+        "text": "40｜打开一笔陌生交易，怎样形成可信结论？",
+        "id": "40打开一笔陌生交易怎样形成可信结论",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/book/part-10/index.md": [
+      {
+        "level": 1,
+        "text": "Part 10｜真实交易与分析判断",
+        "id": "part-10真实交易与分析判断",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/examples/sql/README.md": [
+      {
+        "level": 1,
+        "text": "DuneSQL 教学示例",
+        "id": "dunesql-教学示例",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/examples/transactions/README.md": [
+      {
+        "level": 1,
+        "text": "真实 Mainnet 案例索引",
+        "id": "真实-mainnet-案例索引",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/examples/transactions/case-01-eth.md": [
+      {
+        "level": 1,
+        "text": "case-01-eth｜普通 ETH 转账",
+        "id": "case-01-eth普通-eth-转账",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/examples/transactions/case-02-usdt.md": [
+      {
+        "level": 1,
+        "text": "case-02-usdt｜USDT Transfer",
+        "id": "case-02-usdtusdt-transfer",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/examples/transactions/case-03-approval.md": [
+      {
+        "level": 1,
+        "text": "Case 03｜两条 USDT Approval：清零与最大额度",
+        "id": "case-03两条-usdt-approval清零与最大额度",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/examples/transactions/case-03b-direct-approval.md": [
+      {
+        "level": 1,
+        "text": "Case 03B｜直接授权11 USDT的请求编码",
+        "id": "case-03b直接授权11-usdt的请求编码",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/examples/transactions/case-04-swap.md": [
+      {
+        "level": 1,
+        "text": "case-04-swap｜Uniswap V3 Swap",
+        "id": "case-04-swapuniswap-v3-swap",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/examples/transactions/case-05-creation.md": [
+      {
+        "level": 1,
+        "text": "Case 05｜工厂内部创建：顶层To并不为空",
+        "id": "case-05工厂内部创建顶层to并不为空",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/examples/transactions/case-06a-blob.md": [
+      {
+        "level": 1,
+        "text": "case-06a-blob｜Blob 现代交易",
+        "id": "case-06a-blobblob-现代交易",
+        "repeated_base": false
+      },
+      {
+        "level": 2,
+        "text": "推导费用拆分",
+        "id": "推导费用拆分",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/examples/transactions/case-06b-delegation.md": [
+      {
+        "level": 1,
+        "text": "case-06b-delegation｜代码委托补充案例",
+        "id": "case-06b-delegation代码委托补充案例",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/reports/continuation-2026-10-11.md": [
+      {
+        "level": 1,
+        "text": "续作记录｜2026-10-11",
+        "id": "续作记录2026-10-11",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/reports/editorial-review.md": [
+      {
+        "level": 1,
+        "text": "全书编辑审查",
+        "id": "全书编辑审查",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/reports/final-acceptance.md": [
+      {
+        "level": 1,
+        "text": "Ethereum 篇最终验收与续作状态",
+        "id": "ethereum-篇最终验收与续作状态",
+        "repeated_base": false
+      },
+      {
+        "level": 2,
+        "text": "书稿成果",
+        "id": "书稿成果",
+        "repeated_base": false
+      },
+      {
+        "level": 2,
+        "text": "续作完成的事项",
+        "id": "续作完成的事项",
+        "repeated_base": false
+      },
+      {
+        "level": 2,
+        "text": "验收状态",
+        "id": "验收状态",
+        "repeated_base": false
+      },
+      {
+        "level": 2,
+        "text": "费用与外部操作",
+        "id": "费用与外部操作",
+        "repeated_base": false
+      },
+      {
+        "level": 2,
+        "text": "剩余验证边界",
+        "id": "剩余验证边界",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/reports/sql-static-review.md": [
+      {
+        "level": 1,
+        "text": "SQL 静态审查",
+        "id": "sql-静态审查",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/reports/technical-review.md": [
+      {
+        "level": 1,
+        "text": "技术审查",
+        "id": "技术审查",
+        "repeated_base": false
+      },
+      {
+        "level": 2,
+        "text": "2026-10-11续作核对",
+        "id": "2026-10-11续作核对",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/reports/word-counts.md": [
+      {
+        "level": 1,
+        "text": "正文字数统计",
+        "id": "正文字数统计",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/research/dune_query_catalog.md": [
+      {
+        "level": 1,
+        "text": "Dune Query Catalog",
+        "id": "dune-query-catalog",
+        "repeated_base": false
+      },
+      {
+        "level": 2,
+        "text": "8378484｜Ethereum Daily Blocks ｜ 以太坊每日区块",
+        "id": "8378484ethereum-daily-blocks--以太坊每日区块",
+        "repeated_base": false
+      },
+      {
+        "level": 2,
+        "text": "8378485｜Ethereum Daily Transactions ｜ 以太坊每日交易",
+        "id": "8378485ethereum-daily-transactions--以太坊每日交易",
+        "repeated_base": false
+      },
+      {
+        "level": 2,
+        "text": "8378486｜Ethereum Transaction Status ｜ 以太坊交易执行状态",
+        "id": "8378486ethereum-transaction-status--以太坊交易执行状态",
+        "repeated_base": false
+      },
+      {
+        "level": 2,
+        "text": "8378487｜Ethereum Gas and Fees ｜ 以太坊 Gas 与手续费",
+        "id": "8378487ethereum-gas-and-fees--以太坊-gas-与手续费",
+        "repeated_base": false
+      },
+      {
+        "level": 2,
+        "text": "8378488｜Ethereum Contract Execution ｜ 以太坊合约执行活动",
+        "id": "8378488ethereum-contract-execution--以太坊合约执行活动",
+        "repeated_base": false
+      },
+      {
+        "level": 2,
+        "text": "8378489｜Ethereum Contract Creation ｜ 以太坊合约创建",
+        "id": "8378489ethereum-contract-creation--以太坊合约创建",
+        "repeated_base": false
+      },
+      {
+        "level": 2,
+        "text": "8378490｜Ethereum Token Transfers ｜ 以太坊代币转账",
+        "id": "8378490ethereum-token-transfers--以太坊代币转账",
+        "repeated_base": false
+      },
+      {
+        "level": 2,
+        "text": "8378491｜Ethereum DEX Activity ｜ 以太坊 DEX 活动",
+        "id": "8378491ethereum-dex-activity--以太坊-dex-活动",
+        "repeated_base": false
+      },
+      {
+        "level": 2,
+        "text": "样本复核",
+        "id": "样本复核",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/research/fact-ledger.md": [
+      {
+        "level": 1,
+        "text": "关键事实核对台账",
+        "id": "关键事实核对台账",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/research/schema-notes/dex.trades.md": [
+      {
+        "level": 1,
+        "text": "dex.trades",
+        "id": "dextrades",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/research/schema-notes/dex_evm.trades.md": [
+      {
+        "level": 1,
+        "text": "dex_evm.trades",
+        "id": "dex_evmtrades",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/research/schema-notes/ethereum.blocks.md": [
+      {
+        "level": 1,
+        "text": "ethereum.blocks",
+        "id": "ethereumblocks",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/research/schema-notes/ethereum.creation_traces.md": [
+      {
+        "level": 1,
+        "text": "ethereum.creation_traces",
+        "id": "ethereumcreation_traces",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/research/schema-notes/ethereum.logs.md": [
+      {
+        "level": 1,
+        "text": "ethereum.logs",
+        "id": "ethereumlogs",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/research/schema-notes/ethereum.traces.md": [
+      {
+        "level": 1,
+        "text": "ethereum.traces",
+        "id": "ethereumtraces",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/research/schema-notes/ethereum.transactions.md": [
+      {
+        "level": 1,
+        "text": "ethereum.transactions",
+        "id": "ethereumtransactions",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/research/schema-notes/ethereum.withdrawals.md": [
+      {
+        "level": 1,
+        "text": "ethereum.withdrawals",
+        "id": "ethereumwithdrawals",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/research/schema-notes/gas.fees.md": [
+      {
+        "level": 1,
+        "text": "gas.fees",
+        "id": "gasfees",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/research/schema-notes/tokens.transfers.md": [
+      {
+        "level": 1,
+        "text": "tokens.transfers",
+        "id": "tokenstransfers",
+        "repeated_base": false
+      }
+    ],
+    "chains/ethereum/research/unresolved.md": [
+      {
+        "level": 1,
+        "text": "当前缺口与已经解决的项",
+        "id": "当前缺口与已经解决的项",
+        "repeated_base": false
+      }
+    ],
+    "publication/CHANGES.md": [
+      {
+        "level": 1,
+        "text": "出版副本的机械修改",
+        "id": "出版副本的机械修改",
+        "repeated_base": false
+      }
+    ],
+    "publication/CHECKS.md": [
+      {
+        "level": 1,
+        "text": "Ethereum v0.1 出版结构检查",
+        "id": "ethereum-v01-出版结构检查",
+        "repeated_base": false
+      }
+    ],
+    "publication/FILES.md": [
+      {
+        "level": 1,
+        "text": "首次出版逐文件清单",
+        "id": "首次出版逐文件清单",
+        "repeated_base": false
+      }
+    ]
+  },
+  "references": [
+    {
+      "file": "PUBLICATION_STATUS.md",
+      "target": "chains/ethereum/README.md",
+      "resolved": "chains/ethereum/README.md",
+      "kind": "link"
+    },
+    {
+      "file": "PUBLICATION_STATUS.md",
+      "target": "publication/CHECKS.md",
+      "resolved": "publication/CHECKS.md",
+      "kind": "link"
+    },
+    {
+      "file": "PUBLICATION_STATUS.md",
+      "target": "chains/ethereum/reports/final-acceptance.md",
+      "resolved": "chains/ethereum/reports/final-acceptance.md",
+      "kind": "link"
+    },
+    {
+      "file": "README.md",
+      "target": "chains/ethereum/README.md",
+      "resolved": "chains/ethereum/README.md",
+      "kind": "link"
+    },
+    {
+      "file": "README.md",
+      "target": "chains/ethereum/book/00-preface.md",
+      "resolved": "chains/ethereum/book/00-preface.md",
+      "kind": "link"
+    },
+    {
+      "file": "README.md",
+      "target": "SUMMARY.md",
+      "resolved": "SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "README.md",
+      "target": "chains/ethereum/SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "README.md",
+      "target": "chains/ethereum/examples/transactions/README.md",
+      "resolved": "chains/ethereum/examples/transactions/README.md",
+      "kind": "link"
+    },
+    {
+      "file": "README.md",
+      "target": "chains/ethereum/examples/sql/README.md",
+      "resolved": "chains/ethereum/examples/sql/README.md",
+      "kind": "link"
+    },
+    {
+      "file": "README.md",
+      "target": "chains/ethereum/reports/final-acceptance.md",
+      "resolved": "chains/ethereum/reports/final-acceptance.md",
+      "kind": "link"
+    },
+    {
+      "file": "README.md",
+      "target": "publication/CHECKS.md",
+      "resolved": "publication/CHECKS.md",
+      "kind": "link"
+    },
+    {
+      "file": "README.md",
+      "target": "CHANGELOG.md",
+      "resolved": "CHANGELOG.md",
+      "kind": "link"
+    },
+    {
+      "file": "README.md",
+      "target": "PUBLICATION_STATUS.md",
+      "resolved": "PUBLICATION_STATUS.md",
+      "kind": "link"
+    },
+    {
+      "file": "README.md",
+      "target": "publication/FILES.md",
+      "resolved": "publication/FILES.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "README.md",
+      "resolved": "README.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/README.md",
+      "resolved": "chains/ethereum/README.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/00-preface.md",
+      "resolved": "chains/ethereum/book/00-preface.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-01/index.md",
+      "resolved": "chains/ethereum/book/part-01/index.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-01/01-one-eth.md",
+      "resolved": "chains/ethereum/book/part-01/01-one-eth.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-01/02-wallet-signature.md",
+      "resolved": "chains/ethereum/book/part-01/02-wallet-signature.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-01/03-block-receipt.md",
+      "resolved": "chains/ethereum/book/part-01/03-block-receipt.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-01/04-nonce-pending.md",
+      "resolved": "chains/ethereum/book/part-01/04-nonce-pending.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-02/index.md",
+      "resolved": "chains/ethereum/book/part-02/index.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-02/05-account-fields.md",
+      "resolved": "chains/ethereum/book/part-02/05-account-fields.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-02/06-storage-token.md",
+      "resolved": "chains/ethereum/book/part-02/06-storage-token.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-02/07-state-history.md",
+      "resolved": "chains/ethereum/book/part-02/07-state-history.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-02/08-delegation-aa.md",
+      "resolved": "chains/ethereum/book/part-02/08-delegation-aa.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-03/index.md",
+      "resolved": "chains/ethereum/book/part-03/index.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-03/09-evm-execution.md",
+      "resolved": "chains/ethereum/book/part-03/09-evm-execution.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-03/10-memory-stack-storage.md",
+      "resolved": "chains/ethereum/book/part-03/10-memory-stack-storage.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-03/11-calldata-abi.md",
+      "resolved": "chains/ethereum/book/part-03/11-calldata-abi.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-03/12-contract-deployment.md",
+      "resolved": "chains/ethereum/book/part-03/12-contract-deployment.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-04/index.md",
+      "resolved": "chains/ethereum/book/part-04/index.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-04/13-transaction-record.md",
+      "resolved": "chains/ethereum/book/part-04/13-transaction-record.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-04/14-traces-call-tree.md",
+      "resolved": "chains/ethereum/book/part-04/14-traces-call-tree.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-04/15-logs-events.md",
+      "resolved": "chains/ethereum/book/part-04/15-logs-events.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-04/16-success-revert.md",
+      "resolved": "chains/ethereum/book/part-04/16-success-revert.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-05/index.md",
+      "resolved": "chains/ethereum/book/part-05/index.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-05/17-decoding.md",
+      "resolved": "chains/ethereum/book/part-05/17-decoding.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-05/18-proxy-context.md",
+      "resolved": "chains/ethereum/book/part-05/18-proxy-context.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-05/19-data-lineage.md",
+      "resolved": "chains/ethereum/book/part-05/19-data-lineage.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-05/20-core-data-model.md",
+      "resolved": "chains/ethereum/book/part-05/20-core-data-model.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-06/index.md",
+      "resolved": "chains/ethereum/book/part-06/index.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-06/21-eth-weth.md",
+      "resolved": "chains/ethereum/book/part-06/21-eth-weth.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-06/22-allowance-approval.md",
+      "resolved": "chains/ethereum/book/part-06/22-allowance-approval.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-06/23-nft-identities.md",
+      "resolved": "chains/ethereum/book/part-06/23-nft-identities.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-06/24-multi-token-nonstandard.md",
+      "resolved": "chains/ethereum/book/part-06/24-multi-token-nonstandard.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-07/index.md",
+      "resolved": "chains/ethereum/book/part-07/index.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-07/25-gas-work.md",
+      "resolved": "chains/ethereum/book/part-07/25-gas-work.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-07/26-fee-market.md",
+      "resolved": "chains/ethereum/book/part-07/26-fee-market.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-07/27-failed-cost.md",
+      "resolved": "chains/ethereum/book/part-07/27-failed-cost.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-07/28-blob-data.md",
+      "resolved": "chains/ethereum/book/part-07/28-blob-data.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-08/index.md",
+      "resolved": "chains/ethereum/book/part-08/index.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-08/29-two-layers.md",
+      "resolved": "chains/ethereum/book/part-08/29-two-layers.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-08/30-slots-finality.md",
+      "resolved": "chains/ethereum/book/part-08/30-slots-finality.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-08/31-staking-withdrawals.md",
+      "resolved": "chains/ethereum/book/part-08/31-staking-withdrawals.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-08/32-l2-boundary.md",
+      "resolved": "chains/ethereum/book/part-08/32-l2-boundary.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-09/index.md",
+      "resolved": "chains/ethereum/book/part-09/index.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-09/33-sql-types.md",
+      "resolved": "chains/ethereum/book/part-09/33-sql-types.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-09/34-safe-sql-joins.md",
+      "resolved": "chains/ethereum/book/part-09/34-safe-sql-joins.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-09/35-raw-log-sql.md",
+      "resolved": "chains/ethereum/book/part-09/35-raw-log-sql.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-09/36-curated-sql.md",
+      "resolved": "chains/ethereum/book/part-09/36-curated-sql.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-10/index.md",
+      "resolved": "chains/ethereum/book/part-10/index.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-10/37-swap-reconstruction.md",
+      "resolved": "chains/ethereum/book/part-10/37-swap-reconstruction.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-10/38-wallet-flow.md",
+      "resolved": "chains/ethereum/book/part-10/38-wallet-flow.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-10/39-metrics-users-volume.md",
+      "resolved": "chains/ethereum/book/part-10/39-metrics-users-volume.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/part-10/40-unknown-transaction.md",
+      "resolved": "chains/ethereum/book/part-10/40-unknown-transaction.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/appendix/glossary.md",
+      "resolved": "chains/ethereum/book/appendix/glossary.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/appendix/data-table-index.md",
+      "resolved": "chains/ethereum/book/appendix/data-table-index.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/appendix/query-index.md",
+      "resolved": "chains/ethereum/book/appendix/query-index.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/book/appendix/references.md",
+      "resolved": "chains/ethereum/book/appendix/references.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/examples/transactions/README.md",
+      "resolved": "chains/ethereum/examples/transactions/README.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/examples/sql/README.md",
+      "resolved": "chains/ethereum/examples/sql/README.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "resolved": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "kind": "link"
+    },
+    {
+      "file": "SUMMARY.md",
+      "target": "chains/ethereum/reports/final-acceptance.md",
+      "resolved": "chains/ethereum/reports/final-acceptance.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/README.md",
+      "target": "book/00-preface.md",
+      "resolved": "chains/ethereum/book/00-preface.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/README.md",
+      "target": "SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/README.md",
+      "target": "examples/transactions/README.md",
+      "resolved": "chains/ethereum/examples/transactions/README.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/README.md",
+      "target": "examples/sql/README.md",
+      "resolved": "chains/ethereum/examples/sql/README.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/README.md",
+      "target": "assets/diagrams/DIAGRAM_INDEX.md",
+      "resolved": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/README.md",
+      "target": "book/appendix/data-table-index.md",
+      "resolved": "chains/ethereum/book/appendix/data-table-index.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/README.md",
+      "target": "research/fact-ledger.md",
+      "resolved": "chains/ethereum/research/fact-ledger.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/README.md",
+      "target": "reports/final-acceptance.md",
+      "resolved": "chains/ethereum/reports/final-acceptance.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/README.md",
+      "target": "../../PUBLICATION_STATUS.md",
+      "resolved": "PUBLICATION_STATUS.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/README.md",
+      "target": "../../publication/FILES.md",
+      "resolved": "publication/FILES.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/00-preface.md",
+      "resolved": "chains/ethereum/book/00-preface.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-01/01-one-eth.md",
+      "resolved": "chains/ethereum/book/part-01/01-one-eth.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-01/02-wallet-signature.md",
+      "resolved": "chains/ethereum/book/part-01/02-wallet-signature.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-01/03-block-receipt.md",
+      "resolved": "chains/ethereum/book/part-01/03-block-receipt.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-01/04-nonce-pending.md",
+      "resolved": "chains/ethereum/book/part-01/04-nonce-pending.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-02/05-account-fields.md",
+      "resolved": "chains/ethereum/book/part-02/05-account-fields.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-02/06-storage-token.md",
+      "resolved": "chains/ethereum/book/part-02/06-storage-token.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-02/07-state-history.md",
+      "resolved": "chains/ethereum/book/part-02/07-state-history.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-02/08-delegation-aa.md",
+      "resolved": "chains/ethereum/book/part-02/08-delegation-aa.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-03/09-evm-execution.md",
+      "resolved": "chains/ethereum/book/part-03/09-evm-execution.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-03/10-memory-stack-storage.md",
+      "resolved": "chains/ethereum/book/part-03/10-memory-stack-storage.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-03/11-calldata-abi.md",
+      "resolved": "chains/ethereum/book/part-03/11-calldata-abi.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-03/12-contract-deployment.md",
+      "resolved": "chains/ethereum/book/part-03/12-contract-deployment.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-04/13-transaction-record.md",
+      "resolved": "chains/ethereum/book/part-04/13-transaction-record.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-04/14-traces-call-tree.md",
+      "resolved": "chains/ethereum/book/part-04/14-traces-call-tree.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-04/15-logs-events.md",
+      "resolved": "chains/ethereum/book/part-04/15-logs-events.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-04/16-success-revert.md",
+      "resolved": "chains/ethereum/book/part-04/16-success-revert.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-05/17-decoding.md",
+      "resolved": "chains/ethereum/book/part-05/17-decoding.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-05/18-proxy-context.md",
+      "resolved": "chains/ethereum/book/part-05/18-proxy-context.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-05/19-data-lineage.md",
+      "resolved": "chains/ethereum/book/part-05/19-data-lineage.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-05/20-core-data-model.md",
+      "resolved": "chains/ethereum/book/part-05/20-core-data-model.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-06/21-eth-weth.md",
+      "resolved": "chains/ethereum/book/part-06/21-eth-weth.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-06/22-allowance-approval.md",
+      "resolved": "chains/ethereum/book/part-06/22-allowance-approval.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-06/23-nft-identities.md",
+      "resolved": "chains/ethereum/book/part-06/23-nft-identities.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-06/24-multi-token-nonstandard.md",
+      "resolved": "chains/ethereum/book/part-06/24-multi-token-nonstandard.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-07/25-gas-work.md",
+      "resolved": "chains/ethereum/book/part-07/25-gas-work.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-07/26-fee-market.md",
+      "resolved": "chains/ethereum/book/part-07/26-fee-market.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-07/27-failed-cost.md",
+      "resolved": "chains/ethereum/book/part-07/27-failed-cost.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-07/28-blob-data.md",
+      "resolved": "chains/ethereum/book/part-07/28-blob-data.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-08/29-two-layers.md",
+      "resolved": "chains/ethereum/book/part-08/29-two-layers.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-08/30-slots-finality.md",
+      "resolved": "chains/ethereum/book/part-08/30-slots-finality.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-08/31-staking-withdrawals.md",
+      "resolved": "chains/ethereum/book/part-08/31-staking-withdrawals.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-08/32-l2-boundary.md",
+      "resolved": "chains/ethereum/book/part-08/32-l2-boundary.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-09/33-sql-types.md",
+      "resolved": "chains/ethereum/book/part-09/33-sql-types.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-09/34-safe-sql-joins.md",
+      "resolved": "chains/ethereum/book/part-09/34-safe-sql-joins.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-09/35-raw-log-sql.md",
+      "resolved": "chains/ethereum/book/part-09/35-raw-log-sql.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-09/36-curated-sql.md",
+      "resolved": "chains/ethereum/book/part-09/36-curated-sql.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-10/37-swap-reconstruction.md",
+      "resolved": "chains/ethereum/book/part-10/37-swap-reconstruction.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-10/38-wallet-flow.md",
+      "resolved": "chains/ethereum/book/part-10/38-wallet-flow.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-10/39-metrics-users-volume.md",
+      "resolved": "chains/ethereum/book/part-10/39-metrics-users-volume.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/part-10/40-unknown-transaction.md",
+      "resolved": "chains/ethereum/book/part-10/40-unknown-transaction.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/appendix/glossary.md",
+      "resolved": "chains/ethereum/book/appendix/glossary.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/appendix/data-table-index.md",
+      "resolved": "chains/ethereum/book/appendix/data-table-index.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/appendix/query-index.md",
+      "resolved": "chains/ethereum/book/appendix/query-index.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/SUMMARY.md",
+      "target": "book/appendix/references.md",
+      "resolved": "chains/ethereum/book/appendix/references.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "runtime.svg",
+      "resolved": "chains/ethereum/assets/diagrams/runtime.svg",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "runtime.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/runtime.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "envelope.svg",
+      "resolved": "chains/ethereum/assets/diagrams/envelope.svg",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "envelope.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/envelope.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "accounts.svg",
+      "resolved": "chains/ethereum/assets/diagrams/accounts.svg",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "accounts.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/accounts.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "state-history.svg",
+      "resolved": "chains/ethereum/assets/diagrams/state-history.svg",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "state-history.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/state-history.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "delegation.svg",
+      "resolved": "chains/ethereum/assets/diagrams/delegation.svg",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "delegation.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/delegation.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "evm.svg",
+      "resolved": "chains/ethereum/assets/diagrams/evm.svg",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "evm.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/evm.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "abi.svg",
+      "resolved": "chains/ethereum/assets/diagrams/abi.svg",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "abi.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/abi.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "deployment.svg",
+      "resolved": "chains/ethereum/assets/diagrams/deployment.svg",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "deployment.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/deployment.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "evidence.svg",
+      "resolved": "chains/ethereum/assets/diagrams/evidence.svg",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "evidence.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/evidence.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "call-tree.svg",
+      "resolved": "chains/ethereum/assets/diagrams/call-tree.svg",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "call-tree.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/call-tree.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "logs.svg",
+      "resolved": "chains/ethereum/assets/diagrams/logs.svg",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "logs.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/logs.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "failure.svg",
+      "resolved": "chains/ethereum/assets/diagrams/failure.svg",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "failure.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/failure.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "decoding.svg",
+      "resolved": "chains/ethereum/assets/diagrams/decoding.svg",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "decoding.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/decoding.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "proxy.svg",
+      "resolved": "chains/ethereum/assets/diagrams/proxy.svg",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "proxy.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/proxy.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "lineage.svg",
+      "resolved": "chains/ethereum/assets/diagrams/lineage.svg",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "lineage.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/lineage.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "core-data.svg",
+      "resolved": "chains/ethereum/assets/diagrams/core-data.svg",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "core-data.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/core-data.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "assets.svg",
+      "resolved": "chains/ethereum/assets/diagrams/assets.svg",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "assets.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/assets.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "nft.svg",
+      "resolved": "chains/ethereum/assets/diagrams/nft.svg",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "nft.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/nft.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "gas.svg",
+      "resolved": "chains/ethereum/assets/diagrams/gas.svg",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "gas.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/gas.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "blob.svg",
+      "resolved": "chains/ethereum/assets/diagrams/blob.svg",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "blob.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/blob.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "layers.svg",
+      "resolved": "chains/ethereum/assets/diagrams/layers.svg",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "layers.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/layers.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "withdrawals.svg",
+      "resolved": "chains/ethereum/assets/diagrams/withdrawals.svg",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "withdrawals.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/withdrawals.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "l2.svg",
+      "resolved": "chains/ethereum/assets/diagrams/l2.svg",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "l2.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/l2.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "sql-types.svg",
+      "resolved": "chains/ethereum/assets/diagrams/sql-types.svg",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "sql-types.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/sql-types.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "joins.svg",
+      "resolved": "chains/ethereum/assets/diagrams/joins.svg",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "joins.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/joins.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "swap.svg",
+      "resolved": "chains/ethereum/assets/diagrams/swap.svg",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "swap.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/swap.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "wallet-flow.svg",
+      "resolved": "chains/ethereum/assets/diagrams/wallet-flow.svg",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "wallet-flow.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/wallet-flow.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "metrics.svg",
+      "resolved": "chains/ethereum/assets/diagrams/metrics.svg",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "metrics.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/metrics.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "analysis-route.svg",
+      "resolved": "chains/ethereum/assets/diagrams/analysis-route.svg",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "analysis-route.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/analysis-route.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "approval-case.svg",
+      "resolved": "chains/ethereum/assets/diagrams/approval-case.svg",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "approval-case.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/approval-case.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "creation-case.svg",
+      "resolved": "chains/ethereum/assets/diagrams/creation-case.svg",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "target": "creation-case.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/creation-case.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/00-preface.md",
+      "target": "part-01/01-one-eth.md",
+      "resolved": "chains/ethereum/book/part-01/01-one-eth.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/00-preface.md",
+      "target": "../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/appendix/data-table-index.md",
+      "target": "../../research/schema-notes/dex.trades.md",
+      "resolved": "chains/ethereum/research/schema-notes/dex.trades.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/appendix/data-table-index.md",
+      "target": "../../research/schema-notes/dex_evm.trades.md",
+      "resolved": "chains/ethereum/research/schema-notes/dex_evm.trades.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/appendix/data-table-index.md",
+      "target": "../../research/schema-notes/ethereum.blocks.md",
+      "resolved": "chains/ethereum/research/schema-notes/ethereum.blocks.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/appendix/data-table-index.md",
+      "target": "../../research/schema-notes/ethereum.creation_traces.md",
+      "resolved": "chains/ethereum/research/schema-notes/ethereum.creation_traces.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/appendix/data-table-index.md",
+      "target": "../../research/schema-notes/ethereum.logs.md",
+      "resolved": "chains/ethereum/research/schema-notes/ethereum.logs.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/appendix/data-table-index.md",
+      "target": "../../research/schema-notes/ethereum.traces.md",
+      "resolved": "chains/ethereum/research/schema-notes/ethereum.traces.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/appendix/data-table-index.md",
+      "target": "../../research/schema-notes/ethereum.transactions.md",
+      "resolved": "chains/ethereum/research/schema-notes/ethereum.transactions.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/appendix/data-table-index.md",
+      "target": "../../research/schema-notes/ethereum.withdrawals.md",
+      "resolved": "chains/ethereum/research/schema-notes/ethereum.withdrawals.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/appendix/data-table-index.md",
+      "target": "../../research/schema-notes/gas.fees.md",
+      "resolved": "chains/ethereum/research/schema-notes/gas.fees.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/appendix/data-table-index.md",
+      "target": "../../research/schema-notes/tokens.transfers.md",
+      "resolved": "chains/ethereum/research/schema-notes/tokens.transfers.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/appendix/data-table-index.md",
+      "target": "../../research/schema-notes/target-schemas.json",
+      "resolved": "chains/ethereum/research/schema-notes/target-schemas.json",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/appendix/data-table-index.md",
+      "target": "../../research/fact-ledger.md",
+      "resolved": "chains/ethereum/research/fact-ledger.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/appendix/data-table-index.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/appendix/glossary.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/appendix/query-index.md",
+      "target": "../../research/dune_query_catalog.md",
+      "resolved": "chains/ethereum/research/dune_query_catalog.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/appendix/query-index.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/appendix/references.md",
+      "target": "../../research/fact-ledger.md",
+      "resolved": "chains/ethereum/research/fact-ledger.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/appendix/references.md",
+      "target": "../../research/unresolved.md",
+      "resolved": "chains/ethereum/research/unresolved.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/appendix/references.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-01/01-one-eth.md",
+      "target": "../../examples/transactions/case-01-eth.md",
+      "resolved": "chains/ethereum/examples/transactions/case-01-eth.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-01/01-one-eth.md",
+      "target": "../../assets/diagrams/runtime.svg",
+      "resolved": "chains/ethereum/assets/diagrams/runtime.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-01/01-one-eth.md",
+      "target": "../../assets/diagrams/runtime.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/runtime.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-01/01-one-eth.md",
+      "target": "../../examples/sql/01-one-transaction.sql",
+      "resolved": "chains/ethereum/examples/sql/01-one-transaction.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-01/01-one-eth.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-01/01-one-eth.md",
+      "target": "../part-01/02-wallet-signature.md",
+      "resolved": "chains/ethereum/book/part-01/02-wallet-signature.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-01/02-wallet-signature.md",
+      "target": "../../assets/diagrams/runtime.svg",
+      "resolved": "chains/ethereum/assets/diagrams/runtime.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-01/02-wallet-signature.md",
+      "target": "../../assets/diagrams/runtime.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/runtime.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-01/02-wallet-signature.md",
+      "target": "../part-01/01-one-eth.md",
+      "resolved": "chains/ethereum/book/part-01/01-one-eth.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-01/02-wallet-signature.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-01/02-wallet-signature.md",
+      "target": "../part-01/03-block-receipt.md",
+      "resolved": "chains/ethereum/book/part-01/03-block-receipt.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-01/03-block-receipt.md",
+      "target": "../../assets/diagrams/envelope.svg",
+      "resolved": "chains/ethereum/assets/diagrams/envelope.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-01/03-block-receipt.md",
+      "target": "../../assets/diagrams/envelope.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/envelope.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-01/03-block-receipt.md",
+      "target": "../part-01/02-wallet-signature.md",
+      "resolved": "chains/ethereum/book/part-01/02-wallet-signature.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-01/03-block-receipt.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-01/03-block-receipt.md",
+      "target": "../part-01/04-nonce-pending.md",
+      "resolved": "chains/ethereum/book/part-01/04-nonce-pending.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-01/04-nonce-pending.md",
+      "target": "../../assets/diagrams/envelope.svg",
+      "resolved": "chains/ethereum/assets/diagrams/envelope.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-01/04-nonce-pending.md",
+      "target": "../../assets/diagrams/envelope.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/envelope.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-01/04-nonce-pending.md",
+      "target": "../part-01/03-block-receipt.md",
+      "resolved": "chains/ethereum/book/part-01/03-block-receipt.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-01/04-nonce-pending.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-01/04-nonce-pending.md",
+      "target": "../part-02/05-account-fields.md",
+      "resolved": "chains/ethereum/book/part-02/05-account-fields.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-01/index.md",
+      "target": "01-one-eth.md",
+      "resolved": "chains/ethereum/book/part-01/01-one-eth.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-01/index.md",
+      "target": "02-wallet-signature.md",
+      "resolved": "chains/ethereum/book/part-01/02-wallet-signature.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-01/index.md",
+      "target": "03-block-receipt.md",
+      "resolved": "chains/ethereum/book/part-01/03-block-receipt.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-01/index.md",
+      "target": "04-nonce-pending.md",
+      "resolved": "chains/ethereum/book/part-01/04-nonce-pending.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-01/index.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-02/05-account-fields.md",
+      "target": "../../assets/diagrams/accounts.svg",
+      "resolved": "chains/ethereum/assets/diagrams/accounts.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-02/05-account-fields.md",
+      "target": "../../assets/diagrams/accounts.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/accounts.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-02/05-account-fields.md",
+      "target": "../part-01/04-nonce-pending.md",
+      "resolved": "chains/ethereum/book/part-01/04-nonce-pending.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-02/05-account-fields.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-02/05-account-fields.md",
+      "target": "../part-02/06-storage-token.md",
+      "resolved": "chains/ethereum/book/part-02/06-storage-token.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-02/06-storage-token.md",
+      "target": "../../assets/diagrams/accounts.svg",
+      "resolved": "chains/ethereum/assets/diagrams/accounts.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-02/06-storage-token.md",
+      "target": "../../assets/diagrams/accounts.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/accounts.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-02/06-storage-token.md",
+      "target": "../../examples/sql/03-usdt-transfer.sql",
+      "resolved": "chains/ethereum/examples/sql/03-usdt-transfer.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-02/06-storage-token.md",
+      "target": "../part-02/05-account-fields.md",
+      "resolved": "chains/ethereum/book/part-02/05-account-fields.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-02/06-storage-token.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-02/06-storage-token.md",
+      "target": "../part-02/07-state-history.md",
+      "resolved": "chains/ethereum/book/part-02/07-state-history.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-02/07-state-history.md",
+      "target": "../../assets/diagrams/state-history.svg",
+      "resolved": "chains/ethereum/assets/diagrams/state-history.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-02/07-state-history.md",
+      "target": "../../assets/diagrams/state-history.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/state-history.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-02/07-state-history.md",
+      "target": "../part-02/06-storage-token.md",
+      "resolved": "chains/ethereum/book/part-02/06-storage-token.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-02/07-state-history.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-02/07-state-history.md",
+      "target": "../part-02/08-delegation-aa.md",
+      "resolved": "chains/ethereum/book/part-02/08-delegation-aa.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-02/08-delegation-aa.md",
+      "target": "../../assets/diagrams/delegation.svg",
+      "resolved": "chains/ethereum/assets/diagrams/delegation.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-02/08-delegation-aa.md",
+      "target": "../../assets/diagrams/delegation.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/delegation.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-02/08-delegation-aa.md",
+      "target": "../part-02/07-state-history.md",
+      "resolved": "chains/ethereum/book/part-02/07-state-history.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-02/08-delegation-aa.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-02/08-delegation-aa.md",
+      "target": "../part-03/09-evm-execution.md",
+      "resolved": "chains/ethereum/book/part-03/09-evm-execution.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-02/index.md",
+      "target": "05-account-fields.md",
+      "resolved": "chains/ethereum/book/part-02/05-account-fields.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-02/index.md",
+      "target": "06-storage-token.md",
+      "resolved": "chains/ethereum/book/part-02/06-storage-token.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-02/index.md",
+      "target": "07-state-history.md",
+      "resolved": "chains/ethereum/book/part-02/07-state-history.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-02/index.md",
+      "target": "08-delegation-aa.md",
+      "resolved": "chains/ethereum/book/part-02/08-delegation-aa.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-02/index.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-03/09-evm-execution.md",
+      "target": "../../assets/diagrams/evm.svg",
+      "resolved": "chains/ethereum/assets/diagrams/evm.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-03/09-evm-execution.md",
+      "target": "../../assets/diagrams/evm.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/evm.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-03/09-evm-execution.md",
+      "target": "../part-02/08-delegation-aa.md",
+      "resolved": "chains/ethereum/book/part-02/08-delegation-aa.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-03/09-evm-execution.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-03/09-evm-execution.md",
+      "target": "../part-03/10-memory-stack-storage.md",
+      "resolved": "chains/ethereum/book/part-03/10-memory-stack-storage.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-03/10-memory-stack-storage.md",
+      "target": "../../assets/diagrams/evm.svg",
+      "resolved": "chains/ethereum/assets/diagrams/evm.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-03/10-memory-stack-storage.md",
+      "target": "../../assets/diagrams/evm.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/evm.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-03/10-memory-stack-storage.md",
+      "target": "../part-03/09-evm-execution.md",
+      "resolved": "chains/ethereum/book/part-03/09-evm-execution.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-03/10-memory-stack-storage.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-03/10-memory-stack-storage.md",
+      "target": "../part-03/11-calldata-abi.md",
+      "resolved": "chains/ethereum/book/part-03/11-calldata-abi.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-03/11-calldata-abi.md",
+      "target": "../../assets/diagrams/abi.svg",
+      "resolved": "chains/ethereum/assets/diagrams/abi.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-03/11-calldata-abi.md",
+      "target": "../../assets/diagrams/abi.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/abi.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-03/11-calldata-abi.md",
+      "target": "../../examples/sql/03-usdt-transfer.sql",
+      "resolved": "chains/ethereum/examples/sql/03-usdt-transfer.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-03/11-calldata-abi.md",
+      "target": "../part-03/10-memory-stack-storage.md",
+      "resolved": "chains/ethereum/book/part-03/10-memory-stack-storage.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-03/11-calldata-abi.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-03/11-calldata-abi.md",
+      "target": "../part-03/12-contract-deployment.md",
+      "resolved": "chains/ethereum/book/part-03/12-contract-deployment.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-03/12-contract-deployment.md",
+      "target": "../../examples/transactions/case-05-creation.md",
+      "resolved": "chains/ethereum/examples/transactions/case-05-creation.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-03/12-contract-deployment.md",
+      "target": "../../assets/diagrams/creation-case.svg",
+      "resolved": "chains/ethereum/assets/diagrams/creation-case.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-03/12-contract-deployment.md",
+      "target": "../../assets/diagrams/creation-case.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/creation-case.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-03/12-contract-deployment.md",
+      "target": "../../assets/diagrams/deployment.svg",
+      "resolved": "chains/ethereum/assets/diagrams/deployment.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-03/12-contract-deployment.md",
+      "target": "../../assets/diagrams/deployment.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/deployment.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-03/12-contract-deployment.md",
+      "target": "../../examples/sql/08-contract-creation.sql",
+      "resolved": "chains/ethereum/examples/sql/08-contract-creation.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-03/12-contract-deployment.md",
+      "target": "../part-03/11-calldata-abi.md",
+      "resolved": "chains/ethereum/book/part-03/11-calldata-abi.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-03/12-contract-deployment.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-03/12-contract-deployment.md",
+      "target": "../part-04/13-transaction-record.md",
+      "resolved": "chains/ethereum/book/part-04/13-transaction-record.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-03/index.md",
+      "target": "09-evm-execution.md",
+      "resolved": "chains/ethereum/book/part-03/09-evm-execution.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-03/index.md",
+      "target": "10-memory-stack-storage.md",
+      "resolved": "chains/ethereum/book/part-03/10-memory-stack-storage.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-03/index.md",
+      "target": "11-calldata-abi.md",
+      "resolved": "chains/ethereum/book/part-03/11-calldata-abi.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-03/index.md",
+      "target": "12-contract-deployment.md",
+      "resolved": "chains/ethereum/book/part-03/12-contract-deployment.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-03/index.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-04/13-transaction-record.md",
+      "target": "../../assets/diagrams/evidence.svg",
+      "resolved": "chains/ethereum/assets/diagrams/evidence.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-04/13-transaction-record.md",
+      "target": "../../assets/diagrams/evidence.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/evidence.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-04/13-transaction-record.md",
+      "target": "../../examples/sql/01-one-transaction.sql",
+      "resolved": "chains/ethereum/examples/sql/01-one-transaction.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-04/13-transaction-record.md",
+      "target": "../part-03/12-contract-deployment.md",
+      "resolved": "chains/ethereum/book/part-03/12-contract-deployment.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-04/13-transaction-record.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-04/13-transaction-record.md",
+      "target": "../part-04/14-traces-call-tree.md",
+      "resolved": "chains/ethereum/book/part-04/14-traces-call-tree.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-04/14-traces-call-tree.md",
+      "target": "../../assets/diagrams/call-tree.svg",
+      "resolved": "chains/ethereum/assets/diagrams/call-tree.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-04/14-traces-call-tree.md",
+      "target": "../../assets/diagrams/call-tree.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/call-tree.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-04/14-traces-call-tree.md",
+      "target": "../../examples/sql/02-traces-and-logs.sql",
+      "resolved": "chains/ethereum/examples/sql/02-traces-and-logs.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-04/14-traces-call-tree.md",
+      "target": "../part-04/13-transaction-record.md",
+      "resolved": "chains/ethereum/book/part-04/13-transaction-record.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-04/14-traces-call-tree.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-04/14-traces-call-tree.md",
+      "target": "../part-04/15-logs-events.md",
+      "resolved": "chains/ethereum/book/part-04/15-logs-events.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-04/15-logs-events.md",
+      "target": "../../assets/diagrams/logs.svg",
+      "resolved": "chains/ethereum/assets/diagrams/logs.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-04/15-logs-events.md",
+      "target": "../../assets/diagrams/logs.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/logs.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-04/15-logs-events.md",
+      "target": "../../examples/sql/03-usdt-transfer.sql",
+      "resolved": "chains/ethereum/examples/sql/03-usdt-transfer.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-04/15-logs-events.md",
+      "target": "../part-04/14-traces-call-tree.md",
+      "resolved": "chains/ethereum/book/part-04/14-traces-call-tree.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-04/15-logs-events.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-04/15-logs-events.md",
+      "target": "../part-04/16-success-revert.md",
+      "resolved": "chains/ethereum/book/part-04/16-success-revert.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-04/16-success-revert.md",
+      "target": "../../assets/diagrams/failure.svg",
+      "resolved": "chains/ethereum/assets/diagrams/failure.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-04/16-success-revert.md",
+      "target": "../../assets/diagrams/failure.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/failure.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-04/16-success-revert.md",
+      "target": "../../examples/sql/05-native-call-values.sql",
+      "resolved": "chains/ethereum/examples/sql/05-native-call-values.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-04/16-success-revert.md",
+      "target": "../part-04/15-logs-events.md",
+      "resolved": "chains/ethereum/book/part-04/15-logs-events.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-04/16-success-revert.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-04/16-success-revert.md",
+      "target": "../part-05/17-decoding.md",
+      "resolved": "chains/ethereum/book/part-05/17-decoding.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-04/index.md",
+      "target": "13-transaction-record.md",
+      "resolved": "chains/ethereum/book/part-04/13-transaction-record.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-04/index.md",
+      "target": "14-traces-call-tree.md",
+      "resolved": "chains/ethereum/book/part-04/14-traces-call-tree.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-04/index.md",
+      "target": "15-logs-events.md",
+      "resolved": "chains/ethereum/book/part-04/15-logs-events.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-04/index.md",
+      "target": "16-success-revert.md",
+      "resolved": "chains/ethereum/book/part-04/16-success-revert.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-04/index.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-05/17-decoding.md",
+      "target": "../../assets/diagrams/decoding.svg",
+      "resolved": "chains/ethereum/assets/diagrams/decoding.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-05/17-decoding.md",
+      "target": "../../assets/diagrams/decoding.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/decoding.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-05/17-decoding.md",
+      "target": "../part-04/16-success-revert.md",
+      "resolved": "chains/ethereum/book/part-04/16-success-revert.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-05/17-decoding.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-05/17-decoding.md",
+      "target": "../part-05/18-proxy-context.md",
+      "resolved": "chains/ethereum/book/part-05/18-proxy-context.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-05/18-proxy-context.md",
+      "target": "../../assets/diagrams/proxy.svg",
+      "resolved": "chains/ethereum/assets/diagrams/proxy.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-05/18-proxy-context.md",
+      "target": "../../assets/diagrams/proxy.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/proxy.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-05/18-proxy-context.md",
+      "target": "../part-05/17-decoding.md",
+      "resolved": "chains/ethereum/book/part-05/17-decoding.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-05/18-proxy-context.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-05/18-proxy-context.md",
+      "target": "../part-05/19-data-lineage.md",
+      "resolved": "chains/ethereum/book/part-05/19-data-lineage.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-05/19-data-lineage.md",
+      "target": "../../assets/diagrams/lineage.svg",
+      "resolved": "chains/ethereum/assets/diagrams/lineage.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-05/19-data-lineage.md",
+      "target": "../../assets/diagrams/lineage.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/lineage.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-05/19-data-lineage.md",
+      "target": "../part-05/18-proxy-context.md",
+      "resolved": "chains/ethereum/book/part-05/18-proxy-context.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-05/19-data-lineage.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-05/19-data-lineage.md",
+      "target": "../part-05/20-core-data-model.md",
+      "resolved": "chains/ethereum/book/part-05/20-core-data-model.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-05/20-core-data-model.md",
+      "target": "../appendix/data-table-index.md",
+      "resolved": "chains/ethereum/book/appendix/data-table-index.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-05/20-core-data-model.md",
+      "target": "../../assets/diagrams/core-data.svg",
+      "resolved": "chains/ethereum/assets/diagrams/core-data.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-05/20-core-data-model.md",
+      "target": "../../assets/diagrams/core-data.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/core-data.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-05/20-core-data-model.md",
+      "target": "../../examples/sql/07-safe-join.sql",
+      "resolved": "chains/ethereum/examples/sql/07-safe-join.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-05/20-core-data-model.md",
+      "target": "../part-05/19-data-lineage.md",
+      "resolved": "chains/ethereum/book/part-05/19-data-lineage.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-05/20-core-data-model.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-05/20-core-data-model.md",
+      "target": "../part-06/21-eth-weth.md",
+      "resolved": "chains/ethereum/book/part-06/21-eth-weth.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-05/index.md",
+      "target": "17-decoding.md",
+      "resolved": "chains/ethereum/book/part-05/17-decoding.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-05/index.md",
+      "target": "18-proxy-context.md",
+      "resolved": "chains/ethereum/book/part-05/18-proxy-context.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-05/index.md",
+      "target": "19-data-lineage.md",
+      "resolved": "chains/ethereum/book/part-05/19-data-lineage.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-05/index.md",
+      "target": "20-core-data-model.md",
+      "resolved": "chains/ethereum/book/part-05/20-core-data-model.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-05/index.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-06/21-eth-weth.md",
+      "target": "../../assets/diagrams/assets.svg",
+      "resolved": "chains/ethereum/assets/diagrams/assets.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-06/21-eth-weth.md",
+      "target": "../../assets/diagrams/assets.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/assets.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-06/21-eth-weth.md",
+      "target": "../../examples/sql/05-native-call-values.sql",
+      "resolved": "chains/ethereum/examples/sql/05-native-call-values.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-06/21-eth-weth.md",
+      "target": "../part-05/20-core-data-model.md",
+      "resolved": "chains/ethereum/book/part-05/20-core-data-model.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-06/21-eth-weth.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-06/21-eth-weth.md",
+      "target": "../part-06/22-allowance-approval.md",
+      "resolved": "chains/ethereum/book/part-06/22-allowance-approval.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-06/22-allowance-approval.md",
+      "target": "../../examples/transactions/case-03-approval.md",
+      "resolved": "chains/ethereum/examples/transactions/case-03-approval.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-06/22-allowance-approval.md",
+      "target": "../../examples/transactions/case-03b-direct-approval.md",
+      "resolved": "chains/ethereum/examples/transactions/case-03b-direct-approval.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-06/22-allowance-approval.md",
+      "target": "../../assets/diagrams/approval-case.svg",
+      "resolved": "chains/ethereum/assets/diagrams/approval-case.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-06/22-allowance-approval.md",
+      "target": "../../assets/diagrams/approval-case.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/approval-case.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-06/22-allowance-approval.md",
+      "target": "../../assets/diagrams/assets.svg",
+      "resolved": "chains/ethereum/assets/diagrams/assets.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-06/22-allowance-approval.md",
+      "target": "../../assets/diagrams/assets.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/assets.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-06/22-allowance-approval.md",
+      "target": "../../examples/sql/04-usdt-approval.sql",
+      "resolved": "chains/ethereum/examples/sql/04-usdt-approval.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-06/22-allowance-approval.md",
+      "target": "../part-06/21-eth-weth.md",
+      "resolved": "chains/ethereum/book/part-06/21-eth-weth.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-06/22-allowance-approval.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-06/22-allowance-approval.md",
+      "target": "../part-06/23-nft-identities.md",
+      "resolved": "chains/ethereum/book/part-06/23-nft-identities.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-06/23-nft-identities.md",
+      "target": "../../assets/diagrams/nft.svg",
+      "resolved": "chains/ethereum/assets/diagrams/nft.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-06/23-nft-identities.md",
+      "target": "../../assets/diagrams/nft.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/nft.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-06/23-nft-identities.md",
+      "target": "../part-06/22-allowance-approval.md",
+      "resolved": "chains/ethereum/book/part-06/22-allowance-approval.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-06/23-nft-identities.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-06/23-nft-identities.md",
+      "target": "../part-06/24-multi-token-nonstandard.md",
+      "resolved": "chains/ethereum/book/part-06/24-multi-token-nonstandard.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-06/24-multi-token-nonstandard.md",
+      "target": "../../assets/diagrams/nft.svg",
+      "resolved": "chains/ethereum/assets/diagrams/nft.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-06/24-multi-token-nonstandard.md",
+      "target": "../../assets/diagrams/nft.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/nft.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-06/24-multi-token-nonstandard.md",
+      "target": "../part-06/23-nft-identities.md",
+      "resolved": "chains/ethereum/book/part-06/23-nft-identities.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-06/24-multi-token-nonstandard.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-06/24-multi-token-nonstandard.md",
+      "target": "../part-07/25-gas-work.md",
+      "resolved": "chains/ethereum/book/part-07/25-gas-work.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-06/index.md",
+      "target": "21-eth-weth.md",
+      "resolved": "chains/ethereum/book/part-06/21-eth-weth.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-06/index.md",
+      "target": "22-allowance-approval.md",
+      "resolved": "chains/ethereum/book/part-06/22-allowance-approval.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-06/index.md",
+      "target": "23-nft-identities.md",
+      "resolved": "chains/ethereum/book/part-06/23-nft-identities.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-06/index.md",
+      "target": "24-multi-token-nonstandard.md",
+      "resolved": "chains/ethereum/book/part-06/24-multi-token-nonstandard.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-06/index.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-07/25-gas-work.md",
+      "target": "../../assets/diagrams/gas.svg",
+      "resolved": "chains/ethereum/assets/diagrams/gas.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-07/25-gas-work.md",
+      "target": "../../assets/diagrams/gas.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/gas.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-07/25-gas-work.md",
+      "target": "../part-06/24-multi-token-nonstandard.md",
+      "resolved": "chains/ethereum/book/part-06/24-multi-token-nonstandard.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-07/25-gas-work.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-07/25-gas-work.md",
+      "target": "../part-07/26-fee-market.md",
+      "resolved": "chains/ethereum/book/part-07/26-fee-market.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-07/26-fee-market.md",
+      "target": "../../assets/diagrams/gas.svg",
+      "resolved": "chains/ethereum/assets/diagrams/gas.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-07/26-fee-market.md",
+      "target": "../../assets/diagrams/gas.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/gas.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-07/26-fee-market.md",
+      "target": "../../examples/sql/06-execution-fee.sql",
+      "resolved": "chains/ethereum/examples/sql/06-execution-fee.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-07/26-fee-market.md",
+      "target": "../part-07/25-gas-work.md",
+      "resolved": "chains/ethereum/book/part-07/25-gas-work.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-07/26-fee-market.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-07/26-fee-market.md",
+      "target": "../part-07/27-failed-cost.md",
+      "resolved": "chains/ethereum/book/part-07/27-failed-cost.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-07/27-failed-cost.md",
+      "target": "../../assets/diagrams/failure.svg",
+      "resolved": "chains/ethereum/assets/diagrams/failure.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-07/27-failed-cost.md",
+      "target": "../../assets/diagrams/failure.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/failure.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-07/27-failed-cost.md",
+      "target": "../part-07/26-fee-market.md",
+      "resolved": "chains/ethereum/book/part-07/26-fee-market.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-07/27-failed-cost.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-07/27-failed-cost.md",
+      "target": "../part-07/28-blob-data.md",
+      "resolved": "chains/ethereum/book/part-07/28-blob-data.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-07/28-blob-data.md",
+      "target": "../../assets/diagrams/blob.svg",
+      "resolved": "chains/ethereum/assets/diagrams/blob.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-07/28-blob-data.md",
+      "target": "../../assets/diagrams/blob.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/blob.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-07/28-blob-data.md",
+      "target": "../part-07/27-failed-cost.md",
+      "resolved": "chains/ethereum/book/part-07/27-failed-cost.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-07/28-blob-data.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-07/28-blob-data.md",
+      "target": "../part-08/29-two-layers.md",
+      "resolved": "chains/ethereum/book/part-08/29-two-layers.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-07/index.md",
+      "target": "25-gas-work.md",
+      "resolved": "chains/ethereum/book/part-07/25-gas-work.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-07/index.md",
+      "target": "26-fee-market.md",
+      "resolved": "chains/ethereum/book/part-07/26-fee-market.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-07/index.md",
+      "target": "27-failed-cost.md",
+      "resolved": "chains/ethereum/book/part-07/27-failed-cost.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-07/index.md",
+      "target": "28-blob-data.md",
+      "resolved": "chains/ethereum/book/part-07/28-blob-data.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-07/index.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-08/29-two-layers.md",
+      "target": "../../assets/diagrams/layers.svg",
+      "resolved": "chains/ethereum/assets/diagrams/layers.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-08/29-two-layers.md",
+      "target": "../../assets/diagrams/layers.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/layers.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-08/29-two-layers.md",
+      "target": "../part-07/28-blob-data.md",
+      "resolved": "chains/ethereum/book/part-07/28-blob-data.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-08/29-two-layers.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-08/29-two-layers.md",
+      "target": "../part-08/30-slots-finality.md",
+      "resolved": "chains/ethereum/book/part-08/30-slots-finality.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-08/30-slots-finality.md",
+      "target": "../../assets/diagrams/layers.svg",
+      "resolved": "chains/ethereum/assets/diagrams/layers.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-08/30-slots-finality.md",
+      "target": "../../assets/diagrams/layers.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/layers.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-08/30-slots-finality.md",
+      "target": "../part-08/29-two-layers.md",
+      "resolved": "chains/ethereum/book/part-08/29-two-layers.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-08/30-slots-finality.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-08/30-slots-finality.md",
+      "target": "../part-08/31-staking-withdrawals.md",
+      "resolved": "chains/ethereum/book/part-08/31-staking-withdrawals.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-08/31-staking-withdrawals.md",
+      "target": "../../assets/diagrams/withdrawals.svg",
+      "resolved": "chains/ethereum/assets/diagrams/withdrawals.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-08/31-staking-withdrawals.md",
+      "target": "../../assets/diagrams/withdrawals.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/withdrawals.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-08/31-staking-withdrawals.md",
+      "target": "../../examples/sql/09-withdrawals.sql",
+      "resolved": "chains/ethereum/examples/sql/09-withdrawals.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-08/31-staking-withdrawals.md",
+      "target": "../part-08/30-slots-finality.md",
+      "resolved": "chains/ethereum/book/part-08/30-slots-finality.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-08/31-staking-withdrawals.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-08/31-staking-withdrawals.md",
+      "target": "../part-08/32-l2-boundary.md",
+      "resolved": "chains/ethereum/book/part-08/32-l2-boundary.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-08/32-l2-boundary.md",
+      "target": "../../assets/diagrams/l2.svg",
+      "resolved": "chains/ethereum/assets/diagrams/l2.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-08/32-l2-boundary.md",
+      "target": "../../assets/diagrams/l2.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/l2.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-08/32-l2-boundary.md",
+      "target": "../part-08/31-staking-withdrawals.md",
+      "resolved": "chains/ethereum/book/part-08/31-staking-withdrawals.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-08/32-l2-boundary.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-08/32-l2-boundary.md",
+      "target": "../part-09/33-sql-types.md",
+      "resolved": "chains/ethereum/book/part-09/33-sql-types.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-08/index.md",
+      "target": "29-two-layers.md",
+      "resolved": "chains/ethereum/book/part-08/29-two-layers.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-08/index.md",
+      "target": "30-slots-finality.md",
+      "resolved": "chains/ethereum/book/part-08/30-slots-finality.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-08/index.md",
+      "target": "31-staking-withdrawals.md",
+      "resolved": "chains/ethereum/book/part-08/31-staking-withdrawals.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-08/index.md",
+      "target": "32-l2-boundary.md",
+      "resolved": "chains/ethereum/book/part-08/32-l2-boundary.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-08/index.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-09/33-sql-types.md",
+      "target": "../../assets/diagrams/sql-types.svg",
+      "resolved": "chains/ethereum/assets/diagrams/sql-types.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-09/33-sql-types.md",
+      "target": "../../assets/diagrams/sql-types.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/sql-types.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-09/33-sql-types.md",
+      "target": "../part-08/32-l2-boundary.md",
+      "resolved": "chains/ethereum/book/part-08/32-l2-boundary.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-09/33-sql-types.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-09/33-sql-types.md",
+      "target": "../part-09/34-safe-sql-joins.md",
+      "resolved": "chains/ethereum/book/part-09/34-safe-sql-joins.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-09/34-safe-sql-joins.md",
+      "target": "../../assets/diagrams/joins.svg",
+      "resolved": "chains/ethereum/assets/diagrams/joins.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-09/34-safe-sql-joins.md",
+      "target": "../../assets/diagrams/joins.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/joins.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-09/34-safe-sql-joins.md",
+      "target": "../../examples/sql/07-safe-join.sql",
+      "resolved": "chains/ethereum/examples/sql/07-safe-join.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-09/34-safe-sql-joins.md",
+      "target": "../part-09/33-sql-types.md",
+      "resolved": "chains/ethereum/book/part-09/33-sql-types.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-09/34-safe-sql-joins.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-09/34-safe-sql-joins.md",
+      "target": "../part-09/35-raw-log-sql.md",
+      "resolved": "chains/ethereum/book/part-09/35-raw-log-sql.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-09/35-raw-log-sql.md",
+      "target": "../../assets/diagrams/logs.svg",
+      "resolved": "chains/ethereum/assets/diagrams/logs.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-09/35-raw-log-sql.md",
+      "target": "../../assets/diagrams/logs.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/logs.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-09/35-raw-log-sql.md",
+      "target": "../../examples/sql/03-usdt-transfer.sql",
+      "resolved": "chains/ethereum/examples/sql/03-usdt-transfer.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-09/35-raw-log-sql.md",
+      "target": "../part-09/34-safe-sql-joins.md",
+      "resolved": "chains/ethereum/book/part-09/34-safe-sql-joins.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-09/35-raw-log-sql.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-09/35-raw-log-sql.md",
+      "target": "../part-09/36-curated-sql.md",
+      "resolved": "chains/ethereum/book/part-09/36-curated-sql.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-09/36-curated-sql.md",
+      "target": "../../assets/diagrams/lineage.svg",
+      "resolved": "chains/ethereum/assets/diagrams/lineage.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-09/36-curated-sql.md",
+      "target": "../../assets/diagrams/lineage.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/lineage.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-09/36-curated-sql.md",
+      "target": "../../examples/sql/10-dex-segments.sql",
+      "resolved": "chains/ethereum/examples/sql/10-dex-segments.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-09/36-curated-sql.md",
+      "target": "../part-09/35-raw-log-sql.md",
+      "resolved": "chains/ethereum/book/part-09/35-raw-log-sql.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-09/36-curated-sql.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-09/36-curated-sql.md",
+      "target": "../part-10/37-swap-reconstruction.md",
+      "resolved": "chains/ethereum/book/part-10/37-swap-reconstruction.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-09/index.md",
+      "target": "33-sql-types.md",
+      "resolved": "chains/ethereum/book/part-09/33-sql-types.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-09/index.md",
+      "target": "34-safe-sql-joins.md",
+      "resolved": "chains/ethereum/book/part-09/34-safe-sql-joins.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-09/index.md",
+      "target": "35-raw-log-sql.md",
+      "resolved": "chains/ethereum/book/part-09/35-raw-log-sql.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-09/index.md",
+      "target": "36-curated-sql.md",
+      "resolved": "chains/ethereum/book/part-09/36-curated-sql.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-09/index.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-10/37-swap-reconstruction.md",
+      "target": "../../assets/diagrams/swap.svg",
+      "resolved": "chains/ethereum/assets/diagrams/swap.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-10/37-swap-reconstruction.md",
+      "target": "../../assets/diagrams/swap.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/swap.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-10/37-swap-reconstruction.md",
+      "target": "../../examples/sql/02-traces-and-logs.sql",
+      "resolved": "chains/ethereum/examples/sql/02-traces-and-logs.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-10/37-swap-reconstruction.md",
+      "target": "../part-09/36-curated-sql.md",
+      "resolved": "chains/ethereum/book/part-09/36-curated-sql.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-10/37-swap-reconstruction.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-10/37-swap-reconstruction.md",
+      "target": "../part-10/38-wallet-flow.md",
+      "resolved": "chains/ethereum/book/part-10/38-wallet-flow.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-10/38-wallet-flow.md",
+      "target": "../../assets/diagrams/wallet-flow.svg",
+      "resolved": "chains/ethereum/assets/diagrams/wallet-flow.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-10/38-wallet-flow.md",
+      "target": "../../assets/diagrams/wallet-flow.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/wallet-flow.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-10/38-wallet-flow.md",
+      "target": "../../examples/sql/11-token-movements.sql",
+      "resolved": "chains/ethereum/examples/sql/11-token-movements.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-10/38-wallet-flow.md",
+      "target": "../part-10/37-swap-reconstruction.md",
+      "resolved": "chains/ethereum/book/part-10/37-swap-reconstruction.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-10/38-wallet-flow.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-10/38-wallet-flow.md",
+      "target": "../part-10/39-metrics-users-volume.md",
+      "resolved": "chains/ethereum/book/part-10/39-metrics-users-volume.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-10/39-metrics-users-volume.md",
+      "target": "../../assets/diagrams/metrics.svg",
+      "resolved": "chains/ethereum/assets/diagrams/metrics.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-10/39-metrics-users-volume.md",
+      "target": "../../assets/diagrams/metrics.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/metrics.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-10/39-metrics-users-volume.md",
+      "target": "../../examples/sql/12-daily-addresses.sql",
+      "resolved": "chains/ethereum/examples/sql/12-daily-addresses.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-10/39-metrics-users-volume.md",
+      "target": "../part-10/38-wallet-flow.md",
+      "resolved": "chains/ethereum/book/part-10/38-wallet-flow.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-10/39-metrics-users-volume.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-10/39-metrics-users-volume.md",
+      "target": "../part-10/40-unknown-transaction.md",
+      "resolved": "chains/ethereum/book/part-10/40-unknown-transaction.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-10/40-unknown-transaction.md",
+      "target": "../../assets/diagrams/analysis-route.svg",
+      "resolved": "chains/ethereum/assets/diagrams/analysis-route.svg",
+      "kind": "image"
+    },
+    {
+      "file": "chains/ethereum/book/part-10/40-unknown-transaction.md",
+      "target": "../../assets/diagrams/analysis-route.drawio",
+      "resolved": "chains/ethereum/assets/diagrams/analysis-route.drawio",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-10/40-unknown-transaction.md",
+      "target": "../part-10/39-metrics-users-volume.md",
+      "resolved": "chains/ethereum/book/part-10/39-metrics-users-volume.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-10/40-unknown-transaction.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-10/index.md",
+      "target": "37-swap-reconstruction.md",
+      "resolved": "chains/ethereum/book/part-10/37-swap-reconstruction.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-10/index.md",
+      "target": "38-wallet-flow.md",
+      "resolved": "chains/ethereum/book/part-10/38-wallet-flow.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-10/index.md",
+      "target": "39-metrics-users-volume.md",
+      "resolved": "chains/ethereum/book/part-10/39-metrics-users-volume.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-10/index.md",
+      "target": "40-unknown-transaction.md",
+      "resolved": "chains/ethereum/book/part-10/40-unknown-transaction.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/book/part-10/index.md",
+      "target": "../../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/examples/sql/README.md",
+      "target": "01-one-transaction.sql",
+      "resolved": "chains/ethereum/examples/sql/01-one-transaction.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/examples/sql/README.md",
+      "target": "02-traces-and-logs.sql",
+      "resolved": "chains/ethereum/examples/sql/02-traces-and-logs.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/examples/sql/README.md",
+      "target": "03-usdt-transfer.sql",
+      "resolved": "chains/ethereum/examples/sql/03-usdt-transfer.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/examples/sql/README.md",
+      "target": "04-usdt-approval.sql",
+      "resolved": "chains/ethereum/examples/sql/04-usdt-approval.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/examples/sql/README.md",
+      "target": "05-native-call-values.sql",
+      "resolved": "chains/ethereum/examples/sql/05-native-call-values.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/examples/sql/README.md",
+      "target": "06-execution-fee.sql",
+      "resolved": "chains/ethereum/examples/sql/06-execution-fee.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/examples/sql/README.md",
+      "target": "07-safe-join.sql",
+      "resolved": "chains/ethereum/examples/sql/07-safe-join.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/examples/sql/README.md",
+      "target": "08-contract-creation.sql",
+      "resolved": "chains/ethereum/examples/sql/08-contract-creation.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/examples/sql/README.md",
+      "target": "09-withdrawals.sql",
+      "resolved": "chains/ethereum/examples/sql/09-withdrawals.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/examples/sql/README.md",
+      "target": "10-dex-segments.sql",
+      "resolved": "chains/ethereum/examples/sql/10-dex-segments.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/examples/sql/README.md",
+      "target": "11-token-movements.sql",
+      "resolved": "chains/ethereum/examples/sql/11-token-movements.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/examples/sql/README.md",
+      "target": "12-daily-addresses.sql",
+      "resolved": "chains/ethereum/examples/sql/12-daily-addresses.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/examples/transactions/README.md",
+      "target": "case-01-eth.md",
+      "resolved": "chains/ethereum/examples/transactions/case-01-eth.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/examples/transactions/README.md",
+      "target": "case-02-usdt.md",
+      "resolved": "chains/ethereum/examples/transactions/case-02-usdt.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/examples/transactions/README.md",
+      "target": "case-03-approval.md",
+      "resolved": "chains/ethereum/examples/transactions/case-03-approval.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/examples/transactions/README.md",
+      "target": "case-03b-direct-approval.md",
+      "resolved": "chains/ethereum/examples/transactions/case-03b-direct-approval.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/examples/transactions/README.md",
+      "target": "case-04-swap.md",
+      "resolved": "chains/ethereum/examples/transactions/case-04-swap.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/examples/transactions/README.md",
+      "target": "case-05-creation.md",
+      "resolved": "chains/ethereum/examples/transactions/case-05-creation.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/examples/transactions/README.md",
+      "target": "case-06a-blob.md",
+      "resolved": "chains/ethereum/examples/transactions/case-06a-blob.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/examples/transactions/README.md",
+      "target": "case-06b-delegation.md",
+      "resolved": "chains/ethereum/examples/transactions/case-06b-delegation.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/examples/transactions/case-01-eth.md",
+      "target": "../sql/01-one-transaction.sql",
+      "resolved": "chains/ethereum/examples/sql/01-one-transaction.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/examples/transactions/case-02-usdt.md",
+      "target": "../sql/03-usdt-transfer.sql",
+      "resolved": "chains/ethereum/examples/sql/03-usdt-transfer.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/examples/transactions/case-03-approval.md",
+      "target": "case-03-approval-evidence.json",
+      "resolved": "chains/ethereum/examples/transactions/case-03-approval-evidence.json",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/examples/transactions/case-03-approval.md",
+      "target": "../sql/04-usdt-approval.sql",
+      "resolved": "chains/ethereum/examples/sql/04-usdt-approval.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/examples/transactions/case-03b-direct-approval.md",
+      "target": "case-03b-direct-approval-evidence.json",
+      "resolved": "chains/ethereum/examples/transactions/case-03b-direct-approval-evidence.json",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/examples/transactions/case-04-swap.md",
+      "target": "../sql/02-traces-and-logs.sql",
+      "resolved": "chains/ethereum/examples/sql/02-traces-and-logs.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/examples/transactions/case-05-creation.md",
+      "target": "case-05-creation-evidence.json",
+      "resolved": "chains/ethereum/examples/transactions/case-05-creation-evidence.json",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/examples/transactions/case-05-creation.md",
+      "target": "../sql/08-contract-creation.sql",
+      "resolved": "chains/ethereum/examples/sql/08-contract-creation.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/examples/transactions/case-06a-blob.md",
+      "target": "case-06a-blob-fee-evidence.json",
+      "resolved": "chains/ethereum/examples/transactions/case-06a-blob-fee-evidence.json",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/reports/final-acceptance.md",
+      "target": "word-counts.md",
+      "resolved": "chains/ethereum/reports/word-counts.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/reports/final-acceptance.md",
+      "target": "continuation-2026-10-11.md",
+      "resolved": "chains/ethereum/reports/continuation-2026-10-11.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/reports/final-acceptance.md",
+      "target": "continued-evidence-validation.json",
+      "resolved": "chains/ethereum/reports/continued-evidence-validation.json",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/reports/final-acceptance.md",
+      "target": "validation.json",
+      "resolved": "chains/ethereum/reports/validation.json",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/reports/final-acceptance.md",
+      "target": "../research/sql-execution/status.json",
+      "resolved": "chains/ethereum/research/sql-execution/status.json",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/reports/final-acceptance.md",
+      "target": "../research/unresolved.md",
+      "resolved": "chains/ethereum/research/unresolved.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/reports/final-acceptance.md",
+      "target": "technical-review.md",
+      "resolved": "chains/ethereum/reports/technical-review.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/reports/final-acceptance.md",
+      "target": "editorial-review.md",
+      "resolved": "chains/ethereum/reports/editorial-review.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/reports/final-acceptance.md",
+      "target": "sql-static-review.md",
+      "resolved": "chains/ethereum/reports/sql-static-review.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/reports/final-acceptance.md",
+      "target": "../README.md",
+      "resolved": "chains/ethereum/README.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/reports/final-acceptance.md",
+      "target": "../SUMMARY.md",
+      "resolved": "chains/ethereum/SUMMARY.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/reports/final-acceptance.md",
+      "target": "../../../PUBLICATION_STATUS.md",
+      "resolved": "PUBLICATION_STATUS.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/reports/sql-static-review.md",
+      "target": "../research/dune_query_catalog.md",
+      "resolved": "chains/ethereum/research/dune_query_catalog.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/reports/technical-review.md",
+      "target": "../research/fact-ledger.md",
+      "resolved": "chains/ethereum/research/fact-ledger.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/reports/technical-review.md",
+      "target": "../research/schema-notes/target-schemas.json",
+      "resolved": "chains/ethereum/research/schema-notes/target-schemas.json",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/reports/technical-review.md",
+      "target": "case-evidence-validation.json",
+      "resolved": "chains/ethereum/reports/case-evidence-validation.json",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/reports/technical-review.md",
+      "target": "../examples/transactions/README.md",
+      "resolved": "chains/ethereum/examples/transactions/README.md",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/reports/technical-review.md",
+      "target": "continued-evidence-validation.json",
+      "resolved": "chains/ethereum/reports/continued-evidence-validation.json",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/research/dune_query_catalog.md",
+      "target": "sql/8378484.sql",
+      "resolved": "chains/ethereum/research/sql/8378484.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/research/dune_query_catalog.md",
+      "target": "queries/8378484.json",
+      "resolved": "chains/ethereum/research/queries/8378484.json",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/research/dune_query_catalog.md",
+      "target": "result-8378484.json",
+      "resolved": "chains/ethereum/research/result-8378484.json",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/research/dune_query_catalog.md",
+      "target": "sql/8378485.sql",
+      "resolved": "chains/ethereum/research/sql/8378485.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/research/dune_query_catalog.md",
+      "target": "queries/8378485.json",
+      "resolved": "chains/ethereum/research/queries/8378485.json",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/research/dune_query_catalog.md",
+      "target": "result-8378485.json",
+      "resolved": "chains/ethereum/research/result-8378485.json",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/research/dune_query_catalog.md",
+      "target": "sql/8378486.sql",
+      "resolved": "chains/ethereum/research/sql/8378486.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/research/dune_query_catalog.md",
+      "target": "queries/8378486.json",
+      "resolved": "chains/ethereum/research/queries/8378486.json",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/research/dune_query_catalog.md",
+      "target": "result-8378486.json",
+      "resolved": "chains/ethereum/research/result-8378486.json",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/research/dune_query_catalog.md",
+      "target": "sql/8378487.sql",
+      "resolved": "chains/ethereum/research/sql/8378487.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/research/dune_query_catalog.md",
+      "target": "queries/8378487.json",
+      "resolved": "chains/ethereum/research/queries/8378487.json",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/research/dune_query_catalog.md",
+      "target": "result-8378487.json",
+      "resolved": "chains/ethereum/research/result-8378487.json",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/research/dune_query_catalog.md",
+      "target": "sql/8378488.sql",
+      "resolved": "chains/ethereum/research/sql/8378488.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/research/dune_query_catalog.md",
+      "target": "queries/8378488.json",
+      "resolved": "chains/ethereum/research/queries/8378488.json",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/research/dune_query_catalog.md",
+      "target": "result-8378488.json",
+      "resolved": "chains/ethereum/research/result-8378488.json",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/research/dune_query_catalog.md",
+      "target": "sql/8378489.sql",
+      "resolved": "chains/ethereum/research/sql/8378489.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/research/dune_query_catalog.md",
+      "target": "queries/8378489.json",
+      "resolved": "chains/ethereum/research/queries/8378489.json",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/research/dune_query_catalog.md",
+      "target": "result-8378489.json",
+      "resolved": "chains/ethereum/research/result-8378489.json",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/research/dune_query_catalog.md",
+      "target": "sql/8378490.sql",
+      "resolved": "chains/ethereum/research/sql/8378490.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/research/dune_query_catalog.md",
+      "target": "queries/8378490.json",
+      "resolved": "chains/ethereum/research/queries/8378490.json",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/research/dune_query_catalog.md",
+      "target": "result-8378490.json",
+      "resolved": "chains/ethereum/research/result-8378490.json",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/research/dune_query_catalog.md",
+      "target": "sql/8378491.sql",
+      "resolved": "chains/ethereum/research/sql/8378491.sql",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/research/dune_query_catalog.md",
+      "target": "queries/8378491.json",
+      "resolved": "chains/ethereum/research/queries/8378491.json",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/research/dune_query_catalog.md",
+      "target": "result-8378491.json",
+      "resolved": "chains/ethereum/research/result-8378491.json",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/research/fact-ledger.md",
+      "target": "schema-notes/target-schemas.json",
+      "resolved": "chains/ethereum/research/schema-notes/target-schemas.json",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/research/unresolved.md",
+      "target": "sql-execution/status.json",
+      "resolved": "chains/ethereum/research/sql-execution/status.json",
+      "kind": "link"
+    },
+    {
+      "file": "chains/ethereum/research/unresolved.md",
+      "target": "../reports/continued-evidence-validation.json",
+      "resolved": "chains/ethereum/reports/continued-evidence-validation.json",
+      "kind": "link"
+    },
+    {
+      "file": "publication/CHECKS.md",
+      "target": "checks.json",
+      "resolved": "publication/checks.json",
+      "kind": "link"
+    },
+    {
+      "file": "publication/CHECKS.md",
+      "target": "CHANGES.md",
+      "resolved": "publication/CHANGES.md",
+      "kind": "link"
+    },
+    {
+      "file": "publication/FILES.md",
+      "target": "manifest.json",
+      "resolved": "publication/manifest.json",
+      "kind": "link"
+    },
+    {
+      "file": "publication/FILES.md",
+      "target": "CHECKS.md",
+      "resolved": "publication/CHECKS.md",
+      "kind": "link"
+    },
+    {
+      "file": "publication/FILES.md",
+      "target": "CHANGES.md",
+      "resolved": "publication/CHANGES.md",
+      "kind": "link"
+    }
+  ],
+  "limits": [
+    "No full external URL crawl",
+    "No new SQL execution or technical revalidation",
+    "Author human review UNKNOWN",
+    "GitBook not configured or rendered",
+    "Pattern scan plus selected-field review does not prove absence of every secret format",
+    "Third-party source/code/data attribution retained; standalone licensing compatibility review UNKNOWN"
+  ]
+}

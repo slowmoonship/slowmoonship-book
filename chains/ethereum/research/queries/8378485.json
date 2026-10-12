@@ -1,0 +1,28 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"query_id\":8378485,\"user_id\":null,\"team_id\":953543,\"version\":2,\"name\":\"Ethereum Daily Transactions ｜ 以太坊每日交易\",\"description\":\"Schema verified with Dune MCP on 2026-08-19. Daily Ethereum transaction activity for the latest 90 complete UTC days. One source row is one transaction. Sender and recipient counts are separate address metrics, not active users.\",\"tags\":[],\"query\":\"-- Source table grain:\\n-- One row in ethereum.transactions represents one Ethereum transaction.\\n-- Time scope:\\n-- The latest 90 complete UTC calendar days; the current partial UTC day is excluded.\\n-- Address semantics:\\n-- \\\"from\\\" is the transaction sender and \\\"to\\\" is the transaction recipient.\\n-- They are reported separately and are not combined or labeled as active users.\\n\\n-- Aggregate transaction-level rows into one row per UTC day.\\nWITH daily_transactions AS (\\n    SELECT\\n        block_date AS date,                              -- UTC partition date of the containing block\\n        COUNT(*) AS transaction_count,                   -- Number of Ethereum transaction rows\\n        COUNT(DISTINCT \\\"from\\\") AS unique_from_addresses, -- Distinct transaction senders\\n        COUNT(DISTINCT \\\"to\\\") AS unique_to_addresses,     -- Distinct non-null transaction recipients\\n        COUNT(*) - COUNT(DISTINCT hash) AS duplicate_or_null_transaction_hashes, -- QA: duplicate or null transaction hashes\\n        COUNT_IF(hash IS NULL) AS null_transaction_hashes -- QA: null transaction hashes; expected to be zero\\n    FROM ethereum.transactions\\n    WHERE block_date >= CURRENT_DATE - INTERVAL '90' DAY\\n      AND block_date < CURRENT_DATE\\n    GROUP BY block_date\\n)\\n\\nSELECT\\n    date AS date,                                        -- UTC calendar date\\n    transaction_count AS transaction_count,              -- Number of Ethereum transactions\\n    unique_from_addresses AS unique_from_addresses,      -- Distinct transaction senders\\n    unique_to_addresses AS unique_to_addresses,          -- Distinct non-null transaction recipients\\n    duplicate_or_null_transaction_hashes AS duplicate_or_null_transaction_hashes, -- QA duplicate-or-null hash count\\n    null_transaction_hashes AS null_transaction_hashes   -- QA null hash count\\nFROM daily_transactions\\nORDER BY date;\",\"parameters\":[],\"is_archived\":false,\"is_private\":false,\"is_temp\":false,\"latest_execution_id\":\"01M0CPZTS1VY7NWFRF3JV1J13K\",\"latest_execution_state\":\"QUERY_STATE_COMPLETED\"}"
+      }
+    ],
+    "structuredContent": {
+      "query_id": 8378485,
+      "user_id": null,
+      "team_id": 953543,
+      "version": 2,
+      "name": "Ethereum Daily Transactions ｜ 以太坊每日交易",
+      "description": "Schema verified with Dune MCP on 2026-08-19. Daily Ethereum transaction activity for the latest 90 complete UTC days. One source row is one transaction. Sender and recipient counts are separate address metrics, not active users.",
+      "tags": [],
+      "query": "-- Source table grain:\n-- One row in ethereum.transactions represents one Ethereum transaction.\n-- Time scope:\n-- The latest 90 complete UTC calendar days; the current partial UTC day is excluded.\n-- Address semantics:\n-- \"from\" is the transaction sender and \"to\" is the transaction recipient.\n-- They are reported separately and are not combined or labeled as active users.\n\n-- Aggregate transaction-level rows into one row per UTC day.\nWITH daily_transactions AS (\n    SELECT\n        block_date AS date,                              -- UTC partition date of the containing block\n        COUNT(*) AS transaction_count,                   -- Number of Ethereum transaction rows\n        COUNT(DISTINCT \"from\") AS unique_from_addresses, -- Distinct transaction senders\n        COUNT(DISTINCT \"to\") AS unique_to_addresses,     -- Distinct non-null transaction recipients\n        COUNT(*) - COUNT(DISTINCT hash) AS duplicate_or_null_transaction_hashes, -- QA: duplicate or null transaction hashes\n        COUNT_IF(hash IS NULL) AS null_transaction_hashes -- QA: null transaction hashes; expected to be zero\n    FROM ethereum.transactions\n    WHERE block_date >= CURRENT_DATE - INTERVAL '90' DAY\n      AND block_date < CURRENT_DATE\n    GROUP BY block_date\n)\n\nSELECT\n    date AS date,                                        -- UTC calendar date\n    transaction_count AS transaction_count,              -- Number of Ethereum transactions\n    unique_from_addresses AS unique_from_addresses,      -- Distinct transaction senders\n    unique_to_addresses AS unique_to_addresses,          -- Distinct non-null transaction recipients\n    duplicate_or_null_transaction_hashes AS duplicate_or_null_transaction_hashes, -- QA duplicate-or-null hash count\n    null_transaction_hashes AS null_transaction_hashes   -- QA null hash count\nFROM daily_transactions\nORDER BY date;",
+      "parameters": [],
+      "is_archived": false,
+      "is_private": false,
+      "is_temp": false,
+      "latest_execution_id": "01M0CPZTS1VY7NWFRF3JV1J13K",
+      "latest_execution_state": "QUERY_STATE_COMPLETED"
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 11
+}

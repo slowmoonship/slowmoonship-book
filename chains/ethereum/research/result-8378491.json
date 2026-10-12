@@ -1,0 +1,66 @@
+{
+  "query_id": 8378491,
+  "state": "QUERY_STATE_COMPLETED",
+  "submitted_at": "2026-08-19T10:07:51.413396Z",
+  "expires_at": "2026-11-17T10:08:03.908592Z",
+  "execution_started_at": "2026-08-19T10:07:51.4163Z",
+  "execution_ended_at": "2026-08-19T10:08:03.908582Z",
+  "result": {
+    "metadata": {
+      "column_names": [
+        "date",
+        "trade_count",
+        "volume_usd",
+        "unique_traders",
+        "unique_transactions",
+        "avg_trade_rows_per_transaction",
+        "null_amount_usd_rows",
+        "null_amount_usd_rate",
+        "max_trade_row_usd"
+      ],
+      "result_set_bytes": 515,
+      "row_count": 3,
+      "total_result_set_bytes": 6120,
+      "total_row_count": 90,
+      "datapoint_count": 27
+    },
+    "rows": [
+      {
+        "avg_trade_rows_per_transaction": 1.6022405207020178,
+        "date": "2026-05-21",
+        "max_trade_row_usd": 13230823.722363168,
+        "null_amount_usd_rate": 0.009530771334028984,
+        "null_amount_usd_rows": 3416,
+        "trade_count": 358418,
+        "unique_traders": 45701,
+        "unique_transactions": 223698,
+        "volume_usd": 1210813571.9120994
+      },
+      {
+        "avg_trade_rows_per_transaction": 1.6603445720027012,
+        "date": "2026-05-22",
+        "max_trade_row_usd": 10675851.35637607,
+        "null_amount_usd_rate": 0.013345138361878686,
+        "null_amount_usd_rows": 5381,
+        "trade_count": 403218,
+        "unique_traders": 44300,
+        "unique_transactions": 242852,
+        "volume_usd": 1321291734.14475
+      },
+      {
+        "avg_trade_rows_per_transaction": 1.63287925886629,
+        "date": "2026-05-23",
+        "max_trade_row_usd": 7999604.571460239,
+        "null_amount_usd_rate": 0.010775121364436998,
+        "null_amount_usd_rows": 4013,
+        "trade_count": 372432,
+        "unique_traders": 40764,
+        "unique_transactions": 228083,
+        "volume_usd": 1046802990.1580405
+      }
+    ]
+  },
+  "next_offset": 3,
+  "next_uri": "https://api.dune.com/api/v1/execution/01M0CQVMKN502MM2G4S0B8VKZV/results?limit=3\u0026offset=3",
+  "is_execution_finished": true
+}

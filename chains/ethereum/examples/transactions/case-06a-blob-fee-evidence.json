@@ -1,0 +1,31 @@
+{
+  "observed_at": "2026-10-10",
+  "chain_id": 1,
+  "hash": "0x82258a58b5571d2a38fb011b08fdaac0c6e504ceb80b2d74cf089c3206971e8b",
+  "source": "https://etherscan.io/tx/0x82258a58b5571d2a38fb011b08fdaac0c6e504ceb80b2d74cf089c3206971e8b",
+  "fee_display_semantics_source": "https://info.etherscan.com/what-is-a-blob/",
+  "observed": {
+    "total_fee_wei": "190773402010136",
+    "execution_gas_used": 150203,
+    "effective_execution_gas_price_wei": "1259266248",
+    "blob_count": 1
+  },
+  "protocol_basis": {
+    "gas_per_blob": 131072,
+    "source": "https://eips.ethereum.org/EIPS/eip-4844"
+  },
+  "derived": {
+    "execution_fee_wei": "189145568248344",
+    "blob_fee_wei": "1627833761792",
+    "blob_gas_used": 131072,
+    "effective_blob_price_wei": "12419386",
+    "division_remainder": 0,
+    "status": "DERIVED_FROM_EXPLORER_TOTAL; NOT_RAW_RECEIPT_FIELDS"
+  },
+  "not_observed": [
+    "Receipt blobGasUsed",
+    "Receipt blobGasPrice",
+    "Blob body"
+  ],
+  "scope_note": "Fees derived from this explorer total fee display plus EIP-4844 unit; not direct receipt fields. Outdated capacity/price-adjustment wording in the 2024 explorer article is not used."
+}

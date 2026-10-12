@@ -1,0 +1,54 @@
+{
+  "query_id": 8378485,
+  "state": "QUERY_STATE_COMPLETED",
+  "submitted_at": "2026-08-19T09:52:40.225346Z",
+  "expires_at": "2026-11-17T09:56:34.206625Z",
+  "execution_started_at": "2026-08-19T09:55:36.217468Z",
+  "execution_ended_at": "2026-08-19T09:56:34.206617Z",
+  "result": {
+    "metadata": {
+      "column_names": [
+        "date",
+        "transaction_count",
+        "unique_from_addresses",
+        "unique_to_addresses",
+        "duplicate_or_null_transaction_hashes",
+        "null_transaction_hashes"
+      ],
+      "result_set_bytes": 256,
+      "row_count": 3,
+      "total_result_set_bytes": 3960,
+      "total_row_count": 90,
+      "datapoint_count": 18
+    },
+    "rows": [
+      {
+        "date": "2026-05-21",
+        "duplicate_or_null_transaction_hashes": 0,
+        "null_transaction_hashes": 0,
+        "transaction_count": 2320690,
+        "unique_from_addresses": 495703,
+        "unique_to_addresses": 274305
+      },
+      {
+        "date": "2026-05-22",
+        "duplicate_or_null_transaction_hashes": 0,
+        "null_transaction_hashes": 0,
+        "transaction_count": 2311203,
+        "unique_from_addresses": 511789,
+        "unique_to_addresses": 277058
+      },
+      {
+        "date": "2026-05-23",
+        "duplicate_or_null_transaction_hashes": 0,
+        "null_transaction_hashes": 0,
+        "transaction_count": 2673568,
+        "unique_from_addresses": 438601,
+        "unique_to_addresses": 238711
+      }
+    ]
+  },
+  "next_offset": 3,
+  "next_uri": "https://api.dune.com/api/v1/execution/01M0CPZTS1VY7NWFRF3JV1J13K/results?limit=3\u0026offset=3",
+  "is_execution_finished": true
+}

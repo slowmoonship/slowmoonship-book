@@ -1,0 +1,28 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"query_id\":8378486,\"user_id\":null,\"team_id\":953543,\"version\":2,\"name\":\"Ethereum Transaction Status ｜ 以太坊交易执行状态\",\"description\":\"Schema verified with Dune MCP on 2026-08-19. Daily transaction execution status for the latest 90 complete UTC days using ethereum.transactions.success. Failure rate excludes null status rows and exposes nulls separately for QA.\",\"tags\":[],\"query\":\"-- Source table grain:\\n-- One row in ethereum.transactions represents one Ethereum transaction.\\n-- Status semantics:\\n-- success = true means the transaction executed successfully.\\n-- success = false means execution failed; there is no separate status column.\\n-- Time scope:\\n-- The latest 90 complete UTC calendar days; the current partial UTC day is excluded.\\n\\n-- Aggregate transaction execution outcomes into one row per UTC day.\\nWITH daily_transaction_status AS (\\n    SELECT\\n        block_date AS date,                              -- UTC partition date of the containing block\\n        COUNT_IF(success = TRUE) AS success_count,       -- Successfully executed transactions\\n        COUNT_IF(success = FALSE) AS failed_count,       -- Failed transaction executions\\n        COUNT_IF(success IS NULL) AS null_status_count,  -- QA: transactions without an execution status\\n        CAST(COUNT_IF(success = FALSE) AS DOUBLE)\\n            / NULLIF(COUNT_IF(success IS NOT NULL), 0) AS failure_rate -- Failed share among rows with a known status\\n    FROM ethereum.transactions\\n    WHERE block_date >= CURRENT_DATE - INTERVAL '90' DAY\\n      AND block_date < CURRENT_DATE\\n    GROUP BY block_date\\n)\\n\\nSELECT\\n    date AS date,                                        -- UTC calendar date\\n    success_count AS success_count,                      -- Successful transaction count\\n    failed_count AS failed_count,                        -- Failed transaction count\\n    failure_rate AS failure_rate,                        -- Failure share among known execution statuses\\n    null_status_count AS null_status_count               -- QA null-status count\\nFROM daily_transaction_status\\nORDER BY date;\",\"parameters\":[],\"is_archived\":false,\"is_private\":false,\"is_temp\":false,\"latest_execution_id\":\"01M0CQ7N4AJ76N9V64Q3J34R3F\",\"latest_execution_state\":\"QUERY_STATE_COMPLETED\"}"
+      }
+    ],
+    "structuredContent": {
+      "query_id": 8378486,
+      "user_id": null,
+      "team_id": 953543,
+      "version": 2,
+      "name": "Ethereum Transaction Status ｜ 以太坊交易执行状态",
+      "description": "Schema verified with Dune MCP on 2026-08-19. Daily transaction execution status for the latest 90 complete UTC days using ethereum.transactions.success. Failure rate excludes null status rows and exposes nulls separately for QA.",
+      "tags": [],
+      "query": "-- Source table grain:\n-- One row in ethereum.transactions represents one Ethereum transaction.\n-- Status semantics:\n-- success = true means the transaction executed successfully.\n-- success = false means execution failed; there is no separate status column.\n-- Time scope:\n-- The latest 90 complete UTC calendar days; the current partial UTC day is excluded.\n\n-- Aggregate transaction execution outcomes into one row per UTC day.\nWITH daily_transaction_status AS (\n    SELECT\n        block_date AS date,                              -- UTC partition date of the containing block\n        COUNT_IF(success = TRUE) AS success_count,       -- Successfully executed transactions\n        COUNT_IF(success = FALSE) AS failed_count,       -- Failed transaction executions\n        COUNT_IF(success IS NULL) AS null_status_count,  -- QA: transactions without an execution status\n        CAST(COUNT_IF(success = FALSE) AS DOUBLE)\n            / NULLIF(COUNT_IF(success IS NOT NULL), 0) AS failure_rate -- Failed share among rows with a known status\n    FROM ethereum.transactions\n    WHERE block_date >= CURRENT_DATE - INTERVAL '90' DAY\n      AND block_date < CURRENT_DATE\n    GROUP BY block_date\n)\n\nSELECT\n    date AS date,                                        -- UTC calendar date\n    success_count AS success_count,                      -- Successful transaction count\n    failed_count AS failed_count,                        -- Failed transaction count\n    failure_rate AS failure_rate,                        -- Failure share among known execution statuses\n    null_status_count AS null_status_count               -- QA null-status count\nFROM daily_transaction_status\nORDER BY date;",
+      "parameters": [],
+      "is_archived": false,
+      "is_private": false,
+      "is_temp": false,
+      "latest_execution_id": "01M0CQ7N4AJ76N9V64Q3J34R3F",
+      "latest_execution_state": "QUERY_STATE_COMPLETED"
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 12
+}

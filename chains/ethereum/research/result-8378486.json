@@ -1,0 +1,50 @@
+{
+  "query_id": 8378486,
+  "state": "QUERY_STATE_COMPLETED",
+  "submitted_at": "2026-08-19T09:56:56.586525Z",
+  "expires_at": "2026-11-17T09:57:01.93626Z",
+  "execution_started_at": "2026-08-19T09:56:56.58945Z",
+  "execution_ended_at": "2026-08-19T09:57:01.936251Z",
+  "result": {
+    "metadata": {
+      "column_names": [
+        "date",
+        "success_count",
+        "failed_count",
+        "failure_rate",
+        "null_status_count"
+      ],
+      "result_set_bytes": 223,
+      "row_count": 3,
+      "total_result_set_bytes": 3240,
+      "total_row_count": 90,
+      "datapoint_count": 15
+    },
+    "rows": [
+      {
+        "date": "2026-05-21",
+        "failed_count": 32664,
+        "failure_rate": 0.01407512420874826,
+        "null_status_count": 0,
+        "success_count": 2288026
+      },
+      {
+        "date": "2026-05-22",
+        "failed_count": 42238,
+        "failure_rate": 0.018275331072173235,
+        "null_status_count": 0,
+        "success_count": 2268965
+      },
+      {
+        "date": "2026-05-23",
+        "failed_count": 31364,
+        "failure_rate": 0.011731139810171277,
+        "null_status_count": 0,
+        "success_count": 2642204
+      }
+    ]
+  },
+  "next_offset": 3,
+  "next_uri": "https://api.dune.com/api/v1/execution/01M0CQ7N4AJ76N9V64Q3J34R3F/results?limit=3\u0026offset=3",
+  "is_execution_finished": true
+}

@@ -1,0 +1,1321 @@
+{
+  "ethereum.transactions": {
+    "full_name": "ethereum.transactions",
+    "category": "canonical",
+    "dataset_type": "dune_table",
+    "blockchains": [
+      "ethereum"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "block_time",
+          "nullable": false,
+          "type": "timestamp"
+        },
+        {
+          "name": "block_number",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "value",
+          "nullable": false,
+          "type": "decimal(38,0)"
+        },
+        {
+          "name": "gas_limit",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "gas_price",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "gas_used",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "max_fee_per_gas",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "max_priority_fee_per_gas",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "priority_fee_per_gas",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "nonce",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "index",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "success",
+          "nullable": false,
+          "type": "boolean"
+        },
+        {
+          "name": "from",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "to",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "block_hash",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "data",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "hash",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "type",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "access_list",
+          "nullable": false,
+          "type": "array(row(address varbinary,storageKeys array(varbinary)))"
+        },
+        {
+          "name": "block_date",
+          "nullable": false,
+          "type": "date"
+        },
+        {
+          "name": "blob_versioned_hashes",
+          "nullable": false,
+          "type": "array(varbinary)"
+        },
+        {
+          "name": "max_fee_per_blob_gas",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "authorization_list",
+          "nullable": false,
+          "type": "array(row(chainId bigint,address varbinary,nonce bigint,r varchar,s varchar,yParity varchar))"
+        }
+      ],
+      "type": "struct"
+    }
+  },
+  "ethereum.blocks": {
+    "full_name": "ethereum.blocks",
+    "category": "canonical",
+    "dataset_type": "dune_table",
+    "blockchains": [
+      "ethereum"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "time",
+          "nullable": false,
+          "type": "timestamp"
+        },
+        {
+          "name": "number",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "gas_limit",
+          "nullable": false,
+          "type": "decimal(38,0)"
+        },
+        {
+          "name": "gas_used",
+          "nullable": false,
+          "type": "decimal(38,0)"
+        },
+        {
+          "name": "difficulty",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "total_difficulty",
+          "nullable": false,
+          "type": "decimal(38,0)"
+        },
+        {
+          "name": "size",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "base_fee_per_gas",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "hash",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "parent_hash",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "miner",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "nonce",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "date",
+          "nullable": false,
+          "type": "date"
+        },
+        {
+          "name": "blob_gas_used",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "excess_blob_gas",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "parent_beacon_block_root",
+          "nullable": false,
+          "type": "varbinary"
+        }
+      ],
+      "type": "struct"
+    }
+  },
+  "ethereum.traces": {
+    "full_name": "ethereum.traces",
+    "category": "canonical",
+    "dataset_type": "dune_table",
+    "blockchains": [
+      "ethereum"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "block_time",
+          "nullable": false,
+          "type": "timestamp"
+        },
+        {
+          "name": "block_number",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "value",
+          "nullable": false,
+          "type": "uint256"
+        },
+        {
+          "name": "gas",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "gas_used",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "block_hash",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "success",
+          "nullable": false,
+          "type": "boolean"
+        },
+        {
+          "name": "tx_index",
+          "nullable": false,
+          "type": "integer"
+        },
+        {
+          "name": "sub_traces",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "error",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "tx_success",
+          "nullable": false,
+          "type": "boolean"
+        },
+        {
+          "name": "tx_hash",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "from",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "to",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "trace_address",
+          "nullable": false,
+          "type": "array(bigint)"
+        },
+        {
+          "name": "type",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "address",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "code",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "call_type",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "input",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "output",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "refund_address",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "block_date",
+          "nullable": false,
+          "type": "date"
+        }
+      ],
+      "type": "struct"
+    }
+  },
+  "ethereum.withdrawals": {
+    "full_name": "ethereum.withdrawals",
+    "category": "canonical",
+    "dataset_type": "dune_table",
+    "blockchains": [
+      "ethereum"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "block_time",
+          "nullable": false,
+          "type": "timestamp"
+        },
+        {
+          "name": "block_number",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "index",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "validator_index",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "amount",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "address",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "withdrawals_root",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "block_hash",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "block_date",
+          "nullable": false,
+          "type": "date"
+        }
+      ],
+      "type": "struct"
+    }
+  },
+  "ethereum.logs": {
+    "full_name": "ethereum.logs",
+    "category": "canonical",
+    "dataset_type": "dune_table",
+    "blockchains": [
+      "ethereum"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "block_time",
+          "nullable": false,
+          "type": "timestamp"
+        },
+        {
+          "name": "block_number",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "block_hash",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "contract_address",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "topic0",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "topic1",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "topic2",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "topic3",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "data",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "tx_hash",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "index",
+          "nullable": false,
+          "type": "integer"
+        },
+        {
+          "name": "tx_index",
+          "nullable": false,
+          "type": "integer"
+        },
+        {
+          "name": "block_date",
+          "nullable": false,
+          "type": "date"
+        },
+        {
+          "name": "tx_from",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "tx_to",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "blob_gas_price",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "blob_gas_used",
+          "nullable": false,
+          "type": "bigint"
+        }
+      ],
+      "type": "struct"
+    }
+  },
+  "ethereum.creation_traces": {
+    "full_name": "ethereum.creation_traces",
+    "category": "canonical",
+    "dataset_type": "dune_table",
+    "blockchains": [
+      "ethereum"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "block_time",
+          "nullable": false,
+          "type": "timestamp"
+        },
+        {
+          "name": "block_number",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "tx_hash",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "address",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "from",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "code",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "block_month",
+          "nullable": false,
+          "type": "date"
+        }
+      ],
+      "type": "struct"
+    }
+  },
+  "tokens.transfers": {
+    "full_name": "tokens.transfers",
+    "category": "spell",
+    "dataset_type": "spell",
+    "blockchains": [
+      "abstract",
+      "apechain",
+      "arbitrum",
+      "arc",
+      "avalanche_c",
+      "b3",
+      "base",
+      "berachain",
+      "blast",
+      "bnb",
+      "bob",
+      "boba",
+      "celo",
+      "corn",
+      "cronos",
+      "degen",
+      "ethereum",
+      "fantom",
+      "flare",
+      "gnosis",
+      "hemi",
+      "henesys",
+      "hyperevm",
+      "ink",
+      "kaia",
+      "katana",
+      "linea",
+      "mantle",
+      "megaeth",
+      "mezo",
+      "monad",
+      "morph",
+      "nova",
+      "opbnb",
+      "optimism",
+      "peaq",
+      "plasma",
+      "plume",
+      "polygon",
+      "robinhood",
+      "ronin",
+      "rise",
+      "scroll",
+      "sei",
+      "shape",
+      "somnia",
+      "sonic",
+      "sophon",
+      "story",
+      "superseed",
+      "tac",
+      "taiko",
+      "tempo",
+      "tezos_evm",
+      "tron",
+      "unichain",
+      "viction",
+      "worldchain",
+      "xlayer",
+      "zkevm",
+      "zksync",
+      "zora",
+      "lens"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "unique_key",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "blockchain",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "block_month",
+          "nullable": true,
+          "type": "date"
+        },
+        {
+          "name": "block_date",
+          "nullable": true,
+          "type": "date"
+        },
+        {
+          "name": "block_time",
+          "nullable": true,
+          "type": "timestamp(3) with time zone"
+        },
+        {
+          "name": "block_number",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "tx_hash",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "evt_index",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "trace_address",
+          "nullable": true,
+          "type": "array(bigint)"
+        },
+        {
+          "name": "token_standard",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "tx_from",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "tx_to",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "tx_index",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "from",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "to",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "contract_address",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "symbol",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "amount_raw",
+          "nullable": true,
+          "type": "uint256"
+        },
+        {
+          "name": "amount",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "price_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "amount_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "_updated_at",
+          "nullable": true,
+          "type": "timestamp(3) with time zone"
+        }
+      ],
+      "type": "struct"
+    }
+  },
+  "gas.fees": {
+    "full_name": "gas.fees",
+    "category": "spell",
+    "dataset_type": "spell",
+    "blockchains": [
+      "abstract",
+      "apechain",
+      "arbitrum",
+      "arc",
+      "avalanche_c",
+      "b3",
+      "base",
+      "berachain",
+      "blast",
+      "bnb",
+      "bob",
+      "boba",
+      "celo",
+      "corn",
+      "cronos",
+      "degen",
+      "ethereum",
+      "fantom",
+      "flare",
+      "flow",
+      "gnosis",
+      "hemi",
+      "henesys",
+      "hyperevm",
+      "ink",
+      "kaia",
+      "katana",
+      "lens",
+      "linea",
+      "mantle",
+      "megaeth",
+      "mezo",
+      "monad",
+      "morph",
+      "nova",
+      "opbnb",
+      "optimism",
+      "peaq",
+      "plasma",
+      "plume",
+      "polygon",
+      "robinhood",
+      "ronin",
+      "rise",
+      "scroll",
+      "sei",
+      "shape",
+      "somnia",
+      "sonic",
+      "sophon",
+      "story",
+      "superseed",
+      "tac",
+      "taiko",
+      "tempo",
+      "tezos_evm",
+      "unichain",
+      "worldchain",
+      "xlayer",
+      "zkevm",
+      "zksync",
+      "zora",
+      "tron"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "blockchain",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "block_month",
+          "nullable": true,
+          "type": "date"
+        },
+        {
+          "name": "block_date",
+          "nullable": true,
+          "type": "date"
+        },
+        {
+          "name": "block_time",
+          "nullable": true,
+          "type": "timestamp(3) with time zone"
+        },
+        {
+          "name": "block_number",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "tx_hash",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "tx_index",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "tx_from",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "tx_to",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "gas_price",
+          "nullable": true,
+          "type": "uint256"
+        },
+        {
+          "name": "gas_used",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "currency_symbol",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "tx_fee",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "tx_fee_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "tx_fee_raw",
+          "nullable": true,
+          "type": "uint256"
+        },
+        {
+          "name": "tx_fee_breakdown",
+          "nullable": true,
+          "type": "map(varchar,double)"
+        },
+        {
+          "name": "tx_fee_breakdown_usd",
+          "nullable": true,
+          "type": "map(varchar,double)"
+        },
+        {
+          "name": "tx_fee_breakdown_raw",
+          "nullable": true,
+          "type": "map(varchar,uint256)"
+        },
+        {
+          "name": "tx_fee_currency",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "block_proposer",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "gas_limit",
+          "nullable": true,
+          "type": "uint256"
+        },
+        {
+          "name": "gas_limit_usage",
+          "nullable": true,
+          "type": "double"
+        }
+      ],
+      "type": "struct"
+    }
+  },
+  "dex.trades": {
+    "full_name": "dex.trades",
+    "category": "spell",
+    "dataset_type": "spell",
+    "blockchains": [
+      "abstract",
+      "apechain",
+      "arbitrum",
+      "arc",
+      "avalanche_c",
+      "base",
+      "berachain",
+      "blast",
+      "bnb",
+      "boba",
+      "celo",
+      "corn",
+      "cronos",
+      "ethereum",
+      "fantom",
+      "flare",
+      "flow",
+      "gnosis",
+      "hemi",
+      "hyperevm",
+      "ink",
+      "kaia",
+      "katana",
+      "linea",
+      "mantle",
+      "megaeth",
+      "mezo",
+      "monad",
+      "morph",
+      "nova",
+      "opbnb",
+      "optimism",
+      "peaq",
+      "plasma",
+      "plume",
+      "polygon",
+      "robinhood",
+      "ronin",
+      "scroll",
+      "sei",
+      "shape",
+      "somnia",
+      "sonic",
+      "sophon",
+      "story",
+      "superseed",
+      "tac",
+      "taiko",
+      "tempo",
+      "tezos_evm",
+      "unichain",
+      "worldchain",
+      "xlayer",
+      "zkevm",
+      "zksync",
+      "zora"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "blockchain",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "project",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "version",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "block_month",
+          "nullable": true,
+          "type": "date"
+        },
+        {
+          "name": "block_date",
+          "nullable": true,
+          "type": "date"
+        },
+        {
+          "name": "block_time",
+          "nullable": true,
+          "type": "timestamp"
+        },
+        {
+          "name": "block_number",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "token_bought_symbol",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "token_sold_symbol",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "token_pair",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "token_bought_amount",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "token_sold_amount",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "token_bought_amount_raw",
+          "nullable": true,
+          "type": "uint256"
+        },
+        {
+          "name": "token_sold_amount_raw",
+          "nullable": true,
+          "type": "uint256"
+        },
+        {
+          "name": "amount_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "token_bought_address",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "token_sold_address",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "taker",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "maker",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "project_contract_address",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "tx_hash",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "tx_from",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "tx_to",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "evt_index",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "_updated_at",
+          "nullable": true,
+          "type": "timestamp"
+        }
+      ],
+      "type": "struct"
+    }
+  },
+  "dex_evm.trades": {
+    "full_name": "dex_evm.trades",
+    "category": "spell",
+    "dataset_type": "spell",
+    "blockchains": [
+      "abstract",
+      "apechain",
+      "arbitrum",
+      "arc",
+      "avalanche_c",
+      "base",
+      "berachain",
+      "blast",
+      "bnb",
+      "boba",
+      "celo",
+      "corn",
+      "cronos",
+      "ethereum",
+      "fantom",
+      "flare",
+      "flow",
+      "gnosis",
+      "hemi",
+      "hyperevm",
+      "ink",
+      "kaia",
+      "katana",
+      "linea",
+      "mantle",
+      "megaeth",
+      "mezo",
+      "monad",
+      "morph",
+      "nova",
+      "opbnb",
+      "optimism",
+      "peaq",
+      "plasma",
+      "plume",
+      "polygon",
+      "robinhood",
+      "ronin",
+      "scroll",
+      "sei",
+      "shape",
+      "somnia",
+      "sonic",
+      "sophon",
+      "story",
+      "superseed",
+      "tac",
+      "taiko",
+      "tempo",
+      "tezos_evm",
+      "unichain",
+      "worldchain",
+      "xlayer",
+      "zkevm",
+      "zksync",
+      "zora"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "blockchain",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "project",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "version",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "block_month",
+          "nullable": true,
+          "type": "date"
+        },
+        {
+          "name": "block_date",
+          "nullable": true,
+          "type": "date"
+        },
+        {
+          "name": "block_time",
+          "nullable": true,
+          "type": "timestamp(3) with time zone"
+        },
+        {
+          "name": "block_number",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "token_bought_symbol",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "token_sold_symbol",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "token_pair",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "token_bought_amount",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "token_sold_amount",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "token_bought_amount_raw",
+          "nullable": true,
+          "type": "uint256"
+        },
+        {
+          "name": "token_sold_amount_raw",
+          "nullable": true,
+          "type": "uint256"
+        },
+        {
+          "name": "amount_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "token_bought_address",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "token_sold_address",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "taker",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "maker",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "project_contract_address",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "tx_hash",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "tx_from",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "tx_to",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "evt_index",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "_updated_at",
+          "nullable": true,
+          "type": "timestamp(3) with time zone"
+        }
+      ],
+      "type": "struct"
+    }
+  }
+}

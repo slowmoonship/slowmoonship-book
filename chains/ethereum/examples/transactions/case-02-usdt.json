@@ -1,0 +1,104 @@
+{
+  "data": {
+    "from": "0xED9Ab5BC05A0152B9dC2f7902e8369Af7bC18771",
+    "to": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "token_transfers": [
+      {
+        "from": "0xED9Ab5BC05A0152B9dC2f7902e8369Af7bC18771",
+        "to": "0xC9AbCaa845d81325d578C23C9CA2B8a2C9025C29",
+        "token": {
+          "address_hash": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+          "circulating_market_cap": "184109984163.5602",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999216",
+          "holders_count": "16830008",
+          "icon_url": "https://assets.coingecko.com/coins/images/325/small/Tether.png?1696501661",
+          "name": "Tether",
+          "reputation": "ok",
+          "symbol": "USDT",
+          "total_supply": "88302633055702652",
+          "type": "ERC-20",
+          "volume_24h": "40040382797.4421"
+        },
+        "type": "token_transfer",
+        "log_index": 734,
+        "method": null,
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "431900785"
+        }
+      }
+    ],
+    "decoded_input": {
+      "method_call": "transfer(address _to, uint256 _value)",
+      "method_id": "a9059cbb",
+      "parameters": [
+        {
+          "name": "_to",
+          "type": "address",
+          "value": "0xC9AbCaa845d81325d578C23C9CA2B8a2C9025C29"
+        },
+        {
+          "name": "_value",
+          "type": "uint256",
+          "value": "431900785"
+        }
+      ]
+    },
+    "user_operations": null,
+    "raw_input": "0xa9059cbb000000000000000000000000c9abcaa845d81325d578c23c9ca2b8a2c9025c290000000000000000000000000000000000000000000000000000000019be4871",
+    "raw_input_truncated": null,
+    "priority_fee": "64078376586",
+    "is_pending_update": false,
+    "result": "success",
+    "max_fee_per_gas": "125000000000",
+    "revert_reason": null,
+    "confirmation_duration": [
+      0,
+      12000
+    ],
+    "transaction_burnt_fee": "7686895034512",
+    "type": 2,
+    "token_transfers_overflow": false,
+    "confirmations": 10714,
+    "position": 304,
+    "max_priority_fee_per_gas": "1013754",
+    "transaction_tag": null,
+    "created_contract": null,
+    "value": "0",
+    "gas_used": "63209",
+    "status": "ok",
+    "authorization_list": [],
+    "method": "transfer",
+    "fee": {
+      "type": "actual",
+      "value": "7750973411098"
+    },
+    "gas_limit": "192129",
+    "gas_price": "122624522",
+    "fhe_operations_count": 0,
+    "base_fee_per_gas": "121610768",
+    "timestamp": "2026-10-08T23:59:59.000000Z",
+    "nonce": 42044,
+    "historic_exchange_rate": "2472.351356923072",
+    "transaction_types": [
+      "contract_call",
+      "token_transfer"
+    ],
+    "exchange_rate": "2495.52",
+    "block_number": 26151122,
+    "has_error_in_internal_transactions": false
+  },
+  "data_description": null,
+  "notes": [
+    "Free session budget: 5 of 8 tool calls remaining. Requests authorized with a client-supplied Blockscout PRO API key are not metered — get a key at https://mcp.blockscout.com.",
+    "Starting 10/08/2026, all requests to the Blockscout MCP server will require a PRO API key for authorization. More information on how to get a PRO API key and setup instructions on https://mcp.blockscout.com/."
+  ],
+  "instructions": [
+    "To get a transaction summary, use `direct_api_call` with `endpoint_path='/api/v2/transactions/0x458584a9b39f8bcfc215cc5990f1776ed5cc485dc56ffb02927032ca79a537ca/summary'`.",
+    "To get event logs, use `direct_api_call` with `endpoint_path='/api/v2/transactions/0x458584a9b39f8bcfc215cc5990f1776ed5cc485dc56ffb02927032ca79a537ca/logs'`."
+  ],
+  "pagination": null
+}

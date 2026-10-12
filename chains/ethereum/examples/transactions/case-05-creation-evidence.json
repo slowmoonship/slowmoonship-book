@@ -1,0 +1,56 @@
+{
+  "observed_at": "2026-10-10",
+  "chain_id": 1,
+  "hash": "0xcaa01f67726fdecf671f8f6a1b0b2cd832f1e8b43571b843100b12a8e5818fca",
+  "block_number": 24523650,
+  "block_time": "2026-02-24T02:04:23Z",
+  "source": "https://etherscan.io/tx/0xcaa01f67726fdecf671f8f6a1b0b2cd832f1e8b43571b843100b12a8e5818fca",
+  "status": "success",
+  "from": "0x6f7ed8e91e03a9418942f24ab0cf61ae03cd8f75",
+  "to": "0xd68f5ce839e1325401a9deab56fa1c14cddb1cea",
+  "created_address": "0x5d96788b882eff9b028fdf7fd8fca757838b3c55",
+  "value_wei": "0",
+  "nonce": 1544,
+  "transaction_index": 7,
+  "type": 2,
+  "gas_used": 380106,
+  "gas_price_wei": "1045028003",
+  "fee_wei": "397221414108318",
+  "raw_input": "0x82ecf2f60000000000000000000000000000000000000000000000000000000000000001e221fe29a842693a09160d150f0021a1d9ce62fe49b5abf4ed6518659853ee360000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000002a9ab3",
+  "method_signature": "create(uint32,bytes32,bytes)",
+  "parameters": {
+    "game_type": 1,
+    "root_claim": "0xe221fe29a842693a09160d150f0021a1d9ce62fe49b5abf4ed6518659853ee36",
+    "extra_data": "0x00000000000000000000000000000000000000000000000000000000002a9ab3"
+  },
+  "creation_trace_display": {
+    "path_label": "create_0_1_1",
+    "parsed_path": [
+      0,
+      1,
+      1
+    ],
+    "type_display": "create",
+    "from_display": "0xD68F5Ce8...4CddB1CEa",
+    "to_display": "0x5d96788B...7838b3C55",
+    "value_wei": "0",
+    "gas_limit": 310760,
+    "initcode_prefix_display": "0x6100d83d"
+  },
+  "creation_event": {
+    "log_index": 145,
+    "emitting_contract": "0xd68f5ce839e1325401a9deab56fa1c14cddb1cea",
+    "event": "DisputeGameCreated(address,uint32,bytes32)",
+    "topic0": "0x5b565efe82411da98814f356d0e7bcb8f0219b8d970307c5afb4a6903a8b2e35",
+    "dispute_proxy": "0x5d96788b882eff9b028fdf7fd8fca757838b3c55",
+    "game_type": 1,
+    "root_claim": "0xe221fe29a842693a09160d150f0021a1d9ce62fe49b5abf4ed6518659853ee36",
+    "data_hex": "0x"
+  },
+  "limits": [
+    "Explorer shows only a filtered creation record, not the full raw execution trace.",
+    "Do not infer CREATE versus CREATE2 opcode solely from the create display label.",
+    "Complete initcode and final runtime code not acquired.",
+    "This is a Mainnet creation illustration; not a tutorial for the L2 associated application."
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "data": {
+    "from": "0xB3efA75EE2bDC40A8e8413F02a375A9C1E92bba5",
+    "to": "0xE592427A0AEce92De3Edee1F18E0157C05861564",
+    "token_transfers": [
+      {
+        "from": "0x807D8084fd2A0e204590514286454DACCE902B65",
+        "to": "0xB3efA75EE2bDC40A8e8413F02a375A9C1E92bba5",
+        "token": {
+          "address_hash": "0xC552B5706bAa14c1f0104e95380ea3DC102a481f",
+          "circulating_market_cap": "1185894.1855182978",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "0.00118589",
+          "holders_count": "51",
+          "icon_url": "https://assets.coingecko.com/coins/images/102179328/small/asense.png?1791465945",
+          "name": "AsenseAI",
+          "reputation": "ok",
+          "symbol": "ASENSE",
+          "total_supply": "1000000000000000000000000000",
+          "type": "ERC-20",
+          "volume_24h": "2508232.8595349262"
+        },
+        "type": "token_transfer",
+        "log_index": 725,
+        "method": null,
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "335316067803035700341650"
+        }
+      },
+      {
+        "from": "0x0000000000000000000000000000000000000000",
+        "to": "0xE592427A0AEce92De3Edee1F18E0157C05861564",
+        "token": {
+          "address_hash": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+          "circulating_market_cap": "5417771090.222956",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "2494.24",
+          "holders_count": "3355069",
+          "icon_url": "https://assets.coingecko.com/coins/images/2518/small/weth.png?1696503332",
+          "name": "WETH",
+          "reputation": "ok",
+          "symbol": "WETH",
+          "total_supply": "2169639421489349019927045",
+          "type": "ERC-20",
+          "volume_24h": "175845433.86659506"
+        },
+        "type": "token_minting",
+        "log_index": 726,
+        "method": null,
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "408065000000000000"
+        }
+      },
+      {
+        "from": "0xE592427A0AEce92De3Edee1F18E0157C05861564",
+        "to": "0x807D8084fd2A0e204590514286454DACCE902B65",
+        "token": {
+          "address_hash": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+          "circulating_market_cap": "5417771090.222956",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "2494.24",
+          "holders_count": "3355069",
+          "icon_url": "https://assets.coingecko.com/coins/images/2518/small/weth.png?1696503332",
+          "name": "WETH",
+          "reputation": "ok",
+          "symbol": "WETH",
+          "total_supply": "2169639421489349019927045",
+          "type": "ERC-20",
+          "volume_24h": "175845433.86659506"
+        },
+        "type": "token_transfer",
+        "log_index": 727,
+        "method": null,
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "408065000000000000"
+        }
+      }
+    ],
+    "decoded_input": {
+      "method_call": "exactInputSingle((address,address,uint24,address,uint256,uint256,uint256,uint160) params)",
+      "method_id": "414bf389",
+      "parameters": [
+        {
+          "name": "params",
+          "type": "(address,address,uint24,address,uint256,uint256,uint256,uint160)",
+          "value": [
+            "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "0xC552B5706bAa14c1f0104e95380ea3DC102a481f",
+            "100",
+            "0xB3efA75EE2bDC40A8e8413F02a375A9C1E92bba5",
+            "1791503999",
+            "408065000000000000",
+            "0",
+            "0"
+          ]
+        }
+      ]
+    },
+    "user_operations": null,
+    "raw_input": "0x414bf389000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2000000000000000000000000c552b5706baa14c1f0104e95380ea3dc102a481f0000000000000000000000000000000000000000000000000000000000000064000000000000000000000000b3efa75ee2bdc40a8e8413f02a375a9c1e92bba5000000000000000000000000000000000000000000000000000000006ac82e7f00000000000000000000000000000000000000000000000005a9bcf49a451000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "raw_input_truncated": true,
+    "priority_fee": "664689528615",
+    "is_pending_update": false,
+    "result": "success",
+    "max_fee_per_gas": "154475566",
+    "revert_reason": null,
+    "confirmation_duration": [
+      0,
+      12000
+    ],
+    "transaction_burnt_fee": "17268121002160",
+    "type": 2,
+    "token_transfers_overflow": false,
+    "confirmations": 10720,
+    "position": 301,
+    "max_priority_fee_per_gas": "4681077",
+    "transaction_tag": null,
+    "created_contract": null,
+    "value": "408065000000000000",
+    "gas_used": "141995",
+    "status": "ok",
+    "authorization_list": [],
+    "method": "exactInputSingle",
+    "fee": {
+      "type": "actual",
+      "value": "17932810530775"
+    },
+    "gas_limit": "300000",
+    "gas_price": "126291845",
+    "fhe_operations_count": 0,
+    "base_fee_per_gas": "121610768",
+    "timestamp": "2026-10-08T23:59:59.000000Z",
+    "nonce": 0,
+    "historic_exchange_rate": "2472.351356923072",
+    "transaction_types": [
+      "coin_transfer",
+      "contract_call",
+      "token_transfer"
+    ],
+    "exchange_rate": "2495.52",
+    "block_number": 26151122,
+    "has_error_in_internal_transactions": false
+  },
+  "data_description": null,
+  "notes": [
+    "One or more large data fields in this response have been truncated (indicated by \"value_truncated\": true or \"raw_input_truncated\": true).",
+    "To get the full, untruncated data, fetch it from the Blockscout PRO API endpoint:\n`https://api.blockscout.com/1/api/v2/transactions/0x7ca3d8182d16bf406ba0780df78748bd6ee01d33df012ff0e359e081e6d69537`",
+    "See the `web3-dev` skill for how to call it.",
+    "Free session budget: 2 of 8 tool calls remaining. Requests authorized with a client-supplied Blockscout PRO API key are not metered — get a key at https://mcp.blockscout.com.",
+    "Starting 10/08/2026, all requests to the Blockscout MCP server will require a PRO API key for authorization. More information on how to get a PRO API key and setup instructions on https://mcp.blockscout.com/."
+  ],
+  "instructions": [
+    "To get a transaction summary, use `direct_api_call` with `endpoint_path='/api/v2/transactions/0x7ca3d8182d16bf406ba0780df78748bd6ee01d33df012ff0e359e081e6d69537/summary'`.",
+    "To get event logs, use `direct_api_call` with `endpoint_path='/api/v2/transactions/0x7ca3d8182d16bf406ba0780df78748bd6ee01d33df012ff0e359e081e6d69537/logs'`."
+  ],
+  "pagination": null
+}
