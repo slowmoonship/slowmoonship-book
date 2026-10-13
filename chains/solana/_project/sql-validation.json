@@ -1,0 +1,254 @@
+[
+  {
+    "id": "01.01-1",
+    "chapter": "01-ledger/01-slot-block.md",
+    "status": "STATIC_ONLY",
+    "sha256": "33173c19e732283eab32c75bd789377ac6007b83aa96950f41f333ddaf1fa7e7",
+    "tables": [
+      "solana.blocks"
+    ],
+    "executed_at": null
+  },
+  {
+    "id": "01.02-1",
+    "chapter": "01-ledger/02-time-finality.md",
+    "status": "STATIC_ONLY",
+    "sha256": "020f9700e5231df2982fba5e1e805313c57a9b5b5d869a4f7aca3febbd506c6d",
+    "tables": [
+      "solana.transactions"
+    ],
+    "executed_at": null
+  },
+  {
+    "id": "01.03-1",
+    "chapter": "01-ledger/03-block-table.md",
+    "status": "STATIC_ONLY",
+    "sha256": "856b265a77eed8e904460abd4b11629794d8db3d482326428a6ab1be0e1a8152",
+    "tables": [
+      "solana.blocks"
+    ],
+    "executed_at": null
+  },
+  {
+    "id": "02.01-1",
+    "chapter": "02-transactions/01-message.md",
+    "status": "STATIC_ONLY",
+    "sha256": "df782417bd53e9617fc305f794c3afac601de4c5c6314012eef5ab6da786ec20",
+    "tables": [
+      "solana.transactions"
+    ],
+    "executed_at": null
+  },
+  {
+    "id": "02.02-1",
+    "chapter": "02-transactions/02-signers-fees.md",
+    "status": "STATIC_ONLY",
+    "sha256": "c4af0cb260a54ec09d81990549a4ff2a58f785cf3b98caa108d62b22a6e8161b",
+    "tables": [
+      "solana.transactions"
+    ],
+    "executed_at": null
+  },
+  {
+    "id": "02.03-1",
+    "chapter": "02-transactions/03-results.md",
+    "status": "STATIC_ONLY",
+    "sha256": "a00fe18209baa2da54c7cb475f7327e274a628c665718a7e02aac46a274470b0",
+    "tables": [
+      "solana.transactions"
+    ],
+    "executed_at": null
+  },
+  {
+    "id": "02.04-1",
+    "chapter": "02-transactions/04-versions-alt.md",
+    "status": "STATIC_ONLY",
+    "sha256": "bfdaac8a9da9af6d0fb2ebdf63b4934ddd6594ae7e66fa3465a26d6f5a6d15d2",
+    "tables": [
+      "solana.transactions"
+    ],
+    "executed_at": null
+  },
+  {
+    "id": "03.01-1",
+    "chapter": "03-instructions/01-program-instruction.md",
+    "status": "STATIC_ONLY",
+    "sha256": "eca14677ee39c44cfeb7d300139ada60a5e0c519cffea2247583285bb6cfebfe",
+    "tables": [
+      "solana.instruction_calls"
+    ],
+    "executed_at": null
+  },
+  {
+    "id": "03.02-1",
+    "chapter": "03-instructions/02-cpi.md",
+    "status": "STATIC_ONLY",
+    "sha256": "d7bc3d11696942288366169206b872092fda92fddf357e19c5d70d2c2aaf9e96",
+    "tables": [
+      "solana.instruction_calls"
+    ],
+    "executed_at": null
+  },
+  {
+    "id": "03.03-1",
+    "chapter": "03-instructions/03-trace-logs.md",
+    "status": "STATIC_ONLY",
+    "sha256": "d5fd1a9666c69ec1f90f4d7814bdf85c20218a75b0b2405989513f11a27f0889",
+    "tables": [
+      "solana.instruction_calls"
+    ],
+    "executed_at": null
+  },
+  {
+    "id": "03.04-1",
+    "chapter": "03-instructions/04-decoding.md",
+    "status": "STATIC_ONLY",
+    "sha256": "5e080a3a6d17a05770b9f9d783ebe8437a4ac1fa76384cb8c592e07f9e3b90da",
+    "tables": [
+      "system_program_solana.system_program_call_transfer"
+    ],
+    "executed_at": null
+  },
+  {
+    "id": "04.03-1",
+    "chapter": "04-accounts/03-activity-lifecycle.md",
+    "status": "STATIC_ONLY",
+    "sha256": "77bd750f1960a2a831172e689bf8cb33a968b1842641e542716963b142421c5a",
+    "tables": [
+      "solana.account_activity"
+    ],
+    "executed_at": null
+  },
+  {
+    "id": "05.01-1",
+    "chapter": "05-tokens/01-sol.md",
+    "status": "STATIC_ONLY",
+    "sha256": "97c7a713abf365b360d8ee8be5a0bc4651436d706b30c698f3e4574c3e9c6a4a",
+    "tables": [
+      "solana.account_activity"
+    ],
+    "executed_at": null
+  },
+  {
+    "id": "05.02-1",
+    "chapter": "05-tokens/02-mint-token-account.md",
+    "status": "STATIC_ONLY",
+    "sha256": "2a933b50a97207946e58a6be9133f719a6257f9d3b0778ee4cfd79cf109a9507",
+    "tables": [
+      "solana_utils.token_accounts"
+    ],
+    "executed_at": null
+  },
+  {
+    "id": "05.03-1",
+    "chapter": "05-tokens/03-units-token2022.md",
+    "status": "STATIC_ONLY",
+    "sha256": "6f31fff9b71548d073793eb7bba8441817c2cbb1138c06b1085616c30d64c28c",
+    "tables": [
+      "tokens_solana.transfers"
+    ],
+    "executed_at": null
+  },
+  {
+    "id": "05.04-1",
+    "chapter": "05-tokens/04-transfers-balances.md",
+    "status": "STATIC_ONLY",
+    "sha256": "a03a242c83231eba4dd4deaf37a683e900e161663fe9225b192e2d366b5c3300",
+    "tables": [
+      "tokens_solana.transfers"
+    ],
+    "executed_at": null
+  },
+  {
+    "id": "06.02-1",
+    "chapter": "06-warehouse/02-joins.md",
+    "status": "STATIC_ONLY",
+    "sha256": "73879063751775ab5d30d42e5444658f963799b44ef8121552c0066bb66fe96e",
+    "tables": [
+      "solana.instruction_calls",
+      "solana.transactions"
+    ],
+    "executed_at": null
+  },
+  {
+    "id": "06.03-1",
+    "chapter": "06-warehouse/03-arrays.md",
+    "status": "STATIC_ONLY",
+    "sha256": "ba19c58f7c79f0a468fb4b2f2d09a0cd2b3a13c51d7baf2eb870dae9e4df0924",
+    "tables": [
+      "solana.transactions"
+    ],
+    "executed_at": null
+  },
+  {
+    "id": "06.04-1",
+    "chapter": "06-warehouse/04-quality.md",
+    "status": "STATIC_ONLY",
+    "sha256": "acd59e90a960bdc024db66c77d651836d0829d824e397900e16d252d719b3330",
+    "tables": [
+      "solana.transactions"
+    ],
+    "executed_at": null
+  },
+  {
+    "id": "07.01-1",
+    "chapter": "07-cases/01-sol-case.md",
+    "status": "STATIC_ONLY",
+    "sha256": "4e490bc1d5d6874d20c231914c34db5d745bccbcd248fb647464ef5adc282476",
+    "tables": [
+      "solana.transactions"
+    ],
+    "executed_at": null
+  },
+  {
+    "id": "07.02-1",
+    "chapter": "07-cases/02-token-case.md",
+    "status": "STATIC_ONLY",
+    "sha256": "30485ea2c817f8b672fe2ae47933384b04e55a4c4b0365344c6fd95a42f6d153",
+    "tables": [
+      "tokens_solana.transfers"
+    ],
+    "executed_at": null
+  },
+  {
+    "id": "07.03-1",
+    "chapter": "07-cases/03-swap-case.md",
+    "status": "STATIC_ONLY",
+    "sha256": "ab366e318076852e6653a717f50d5b3d25f284a460c5cd2ada12d6d7f6a982a2",
+    "tables": [
+      "dex_solana.trades"
+    ],
+    "executed_at": null
+  },
+  {
+    "id": "08.01-1",
+    "chapter": "08-analysis/01-wallet-flow.md",
+    "status": "STATIC_ONLY",
+    "sha256": "921921f50fe91f0e6c21be6106e1336a121ba5e1c2e70f6fa0a6640b9c628c2a",
+    "tables": [
+      "tokens_solana.transfers"
+    ],
+    "executed_at": null
+  },
+  {
+    "id": "08.02-1",
+    "chapter": "08-analysis/02-protocol.md",
+    "status": "STATIC_ONLY",
+    "sha256": "913ffa624d64eb34e0b9fbfdb338a0076eb0a6b35dd44346ce6e9d07c67b3e91",
+    "tables": [
+      "dex_solana.trades"
+    ],
+    "executed_at": null
+  },
+  {
+    "id": "99.00-1",
+    "chapter": "99-final-summary/index.md",
+    "status": "STATIC_ONLY",
+    "sha256": "1e61420920cdcabfa3553005470e6d984f5992d83f1f5230f44c80cb13fef1f7",
+    "tables": [
+      "solana.instruction_calls",
+      "solana.transactions"
+    ],
+    "executed_at": null
+  }
+]

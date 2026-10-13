@@ -1,0 +1,302 @@
+[
+  {
+    "chapter": "00-overview/index.md",
+    "reviewed_at": "2026-10-09T11:39:06.930082+00:00",
+    "technical": "核对官方术语、RPC 时间/commitment 与当日 Dune Schema；交易/指令/账户的基数；SQL 未执行标签。",
+    "visual": "逐图检查 draw.io Desktop PNG；修正标签留白和交易到账户关联后复查，节点/标签清晰。"
+  },
+  {
+    "chapter": "01-ledger/index.md",
+    "reviewed_at": "2026-10-09T11:39:06.930162+00:00",
+    "technical": "核对官方术语、RPC 时间/commitment 与当日 Dune Schema；交易/指令/账户的基数；SQL 未执行标签。",
+    "visual": "逐图检查 draw.io Desktop PNG；修正标签留白和交易到账户关联后复查，节点/标签清晰。"
+  },
+  {
+    "chapter": "01-ledger/01-slot-block.md",
+    "reviewed_at": "2026-10-09T11:39:06.930164+00:00",
+    "technical": "核对官方术语、RPC 时间/commitment 与当日 Dune Schema；交易/指令/账户的基数；SQL 未执行标签。",
+    "visual": "逐图检查 draw.io Desktop PNG；修正标签留白和交易到账户关联后复查，节点/标签清晰。"
+  },
+  {
+    "chapter": "01-ledger/02-time-finality.md",
+    "reviewed_at": "2026-10-09T11:39:06.930166+00:00",
+    "technical": "核对官方术语、RPC 时间/commitment 与当日 Dune Schema；交易/指令/账户的基数；SQL 未执行标签。",
+    "visual": "逐图检查 draw.io Desktop PNG；修正标签留白和交易到账户关联后复查，节点/标签清晰。"
+  },
+  {
+    "chapter": "01-ledger/03-block-table.md",
+    "reviewed_at": "2026-10-09T11:39:06.930167+00:00",
+    "technical": "核对官方术语、RPC 时间/commitment 与当日 Dune Schema；交易/指令/账户的基数；SQL 未执行标签。",
+    "visual": "逐图检查 draw.io Desktop PNG；修正标签留白和交易到账户关联后复查，节点/标签清晰。"
+  },
+  {
+    "chapter": "01-ledger/summary.md",
+    "reviewed_at": "2026-10-09T11:39:06.930168+00:00",
+    "technical": "核对官方术语、RPC 时间/commitment 与当日 Dune Schema；交易/指令/账户的基数；SQL 未执行标签。",
+    "visual": "逐图检查 draw.io Desktop PNG；修正标签留白和交易到账户关联后复查，节点/标签清晰。"
+  },
+  {
+    "chapter": "02-transactions/index.md",
+    "technical": "核对官方当日结构/版本/费用/CPI 与 Dune 字段；限制 v1 仓库支持结论；NULL-safe 关联与候选键范围。修正 CPI 章节不对应 SQL 的 MAX 描述。",
+    "visual": "全部 6 张图逐图检查；避开穿节点连线，修改明确几何折点并复查。"
+  },
+  {
+    "chapter": "02-transactions/01-message.md",
+    "technical": "核对官方当日结构/版本/费用/CPI 与 Dune 字段；限制 v1 仓库支持结论；NULL-safe 关联与候选键范围。修正 CPI 章节不对应 SQL 的 MAX 描述。",
+    "visual": "全部 6 张图逐图检查；避开穿节点连线，修改明确几何折点并复查。"
+  },
+  {
+    "chapter": "02-transactions/02-signers-fees.md",
+    "technical": "核对官方当日结构/版本/费用/CPI 与 Dune 字段；限制 v1 仓库支持结论；NULL-safe 关联与候选键范围。修正 CPI 章节不对应 SQL 的 MAX 描述。",
+    "visual": "全部 6 张图逐图检查；避开穿节点连线，修改明确几何折点并复查。"
+  },
+  {
+    "chapter": "02-transactions/03-results.md",
+    "technical": "核对官方当日结构/版本/费用/CPI 与 Dune 字段；限制 v1 仓库支持结论；NULL-safe 关联与候选键范围。修正 CPI 章节不对应 SQL 的 MAX 描述。",
+    "visual": "全部 6 张图逐图检查；避开穿节点连线，修改明确几何折点并复查。"
+  },
+  {
+    "chapter": "02-transactions/04-versions-alt.md",
+    "technical": "核对官方当日结构/版本/费用/CPI 与 Dune 字段；限制 v1 仓库支持结论；NULL-safe 关联与候选键范围。修正 CPI 章节不对应 SQL 的 MAX 描述。",
+    "visual": "全部 6 张图逐图检查；避开穿节点连线，修改明确几何折点并复查。"
+  },
+  {
+    "chapter": "02-transactions/summary.md",
+    "technical": "核对官方当日结构/版本/费用/CPI 与 Dune 字段；限制 v1 仓库支持结论；NULL-safe 关联与候选键范围。修正 CPI 章节不对应 SQL 的 MAX 描述。",
+    "visual": "全部 6 张图逐图检查；避开穿节点连线，修改明确几何折点并复查。"
+  },
+  {
+    "chapter": "03-instructions/index.md",
+    "technical": "核对官方当日结构/版本/费用/CPI 与 Dune 字段；限制 v1 仓库支持结论；NULL-safe 关联与候选键范围。修正 CPI 章节不对应 SQL 的 MAX 描述。",
+    "visual": "全部 6 张图逐图检查；避开穿节点连线，修改明确几何折点并复查。"
+  },
+  {
+    "chapter": "03-instructions/01-program-instruction.md",
+    "technical": "核对官方当日结构/版本/费用/CPI 与 Dune 字段；限制 v1 仓库支持结论；NULL-safe 关联与候选键范围。修正 CPI 章节不对应 SQL 的 MAX 描述。",
+    "visual": "全部 6 张图逐图检查；避开穿节点连线，修改明确几何折点并复查。"
+  },
+  {
+    "chapter": "03-instructions/02-cpi.md",
+    "technical": "核对官方当日结构/版本/费用/CPI 与 Dune 字段；限制 v1 仓库支持结论；NULL-safe 关联与候选键范围。修正 CPI 章节不对应 SQL 的 MAX 描述。",
+    "visual": "全部 6 张图逐图检查；避开穿节点连线，修改明确几何折点并复查。"
+  },
+  {
+    "chapter": "03-instructions/03-trace-logs.md",
+    "technical": "核对官方当日结构/版本/费用/CPI 与 Dune 字段；限制 v1 仓库支持结论；NULL-safe 关联与候选键范围。修正 CPI 章节不对应 SQL 的 MAX 描述。",
+    "visual": "全部 6 张图逐图检查；避开穿节点连线，修改明确几何折点并复查。"
+  },
+  {
+    "chapter": "03-instructions/04-decoding.md",
+    "technical": "核对官方当日结构/版本/费用/CPI 与 Dune 字段；限制 v1 仓库支持结论；NULL-safe 关联与候选键范围。修正 CPI 章节不对应 SQL 的 MAX 描述。",
+    "visual": "全部 6 张图逐图检查；避开穿节点连线，修改明确几何折点并复查。"
+  },
+  {
+    "chapter": "03-instructions/summary.md",
+    "technical": "核对官方当日结构/版本/费用/CPI 与 Dune 字段；限制 v1 仓库支持结论；NULL-safe 关联与候选键范围。修正 CPI 章节不对应 SQL 的 MAX 描述。",
+    "visual": "全部 6 张图逐图检查；避开穿节点连线，修改明确几何折点并复查。"
+  },
+  {
+    "chapter": "04-accounts/index.md",
+    "technical": "核对当日官方 Schema 与角色/单位/关联边界；case 数值经 validate_cases.py 验证。复核并纠正路由中间转入与净支出；教学 SQL 均未执行。",
+    "visual": "逐张打开 Desktop PNG 检查；Owner/PDA 标签缩短，Token 程序节点移位；其余节点、连线与图文关系清晰。",
+    "short_chapter_assessment": "概念、真实结构或 SQL、结果解释与误区闭环完整；不为凑字数填充。"
+  },
+  {
+    "chapter": "04-accounts/01-account-owner.md",
+    "technical": "核对当日官方 Schema 与角色/单位/关联边界；case 数值经 validate_cases.py 验证。复核并纠正路由中间转入与净支出；教学 SQL 均未执行。",
+    "visual": "逐张打开 Desktop PNG 检查；Owner/PDA 标签缩短，Token 程序节点移位；其余节点、连线与图文关系清晰。",
+    "short_chapter_assessment": "概念、真实结构或 SQL、结果解释与误区闭环完整；不为凑字数填充。"
+  },
+  {
+    "chapter": "04-accounts/02-authority-pda.md",
+    "technical": "核对当日官方 Schema 与角色/单位/关联边界；case 数值经 validate_cases.py 验证。复核并纠正路由中间转入与净支出；教学 SQL 均未执行。",
+    "visual": "逐张打开 Desktop PNG 检查；Owner/PDA 标签缩短，Token 程序节点移位；其余节点、连线与图文关系清晰。",
+    "short_chapter_assessment": "概念、真实结构或 SQL、结果解释与误区闭环完整；不为凑字数填充。"
+  },
+  {
+    "chapter": "04-accounts/03-activity-lifecycle.md",
+    "technical": "核对当日官方 Schema 与角色/单位/关联边界；case 数值经 validate_cases.py 验证。复核并纠正路由中间转入与净支出；教学 SQL 均未执行。",
+    "visual": "逐张打开 Desktop PNG 检查；Owner/PDA 标签缩短，Token 程序节点移位；其余节点、连线与图文关系清晰。",
+    "short_chapter_assessment": "概念、真实结构或 SQL、结果解释与误区闭环完整；不为凑字数填充。"
+  },
+  {
+    "chapter": "04-accounts/summary.md",
+    "technical": "核对当日官方 Schema 与角色/单位/关联边界；case 数值经 validate_cases.py 验证。复核并纠正路由中间转入与净支出；教学 SQL 均未执行。",
+    "visual": "逐张打开 Desktop PNG 检查；Owner/PDA 标签缩短，Token 程序节点移位；其余节点、连线与图文关系清晰。",
+    "short_chapter_assessment": "概念、真实结构或 SQL、结果解释与误区闭环完整；不为凑字数填充。"
+  },
+  {
+    "chapter": "05-tokens/index.md",
+    "technical": "核对当日官方 Schema 与角色/单位/关联边界；case 数值经 validate_cases.py 验证。复核并纠正路由中间转入与净支出；教学 SQL 均未执行。",
+    "visual": "逐张打开 Desktop PNG 检查；Owner/PDA 标签缩短，Token 程序节点移位；其余节点、连线与图文关系清晰。",
+    "short_chapter_assessment": "概念、真实结构或 SQL、结果解释与误区闭环完整；不为凑字数填充。"
+  },
+  {
+    "chapter": "05-tokens/01-sol.md",
+    "technical": "核对当日官方 Schema 与角色/单位/关联边界；case 数值经 validate_cases.py 验证。复核并纠正路由中间转入与净支出；教学 SQL 均未执行。",
+    "visual": "逐张打开 Desktop PNG 检查；Owner/PDA 标签缩短，Token 程序节点移位；其余节点、连线与图文关系清晰。",
+    "short_chapter_assessment": "概念、真实结构或 SQL、结果解释与误区闭环完整；不为凑字数填充。"
+  },
+  {
+    "chapter": "05-tokens/02-mint-token-account.md",
+    "technical": "核对当日官方 Schema 与角色/单位/关联边界；case 数值经 validate_cases.py 验证。复核并纠正路由中间转入与净支出；教学 SQL 均未执行。",
+    "visual": "逐张打开 Desktop PNG 检查；Owner/PDA 标签缩短，Token 程序节点移位；其余节点、连线与图文关系清晰。",
+    "short_chapter_assessment": "概念、真实结构或 SQL、结果解释与误区闭环完整；不为凑字数填充。"
+  },
+  {
+    "chapter": "05-tokens/03-units-token2022.md",
+    "technical": "核对当日官方 Schema 与角色/单位/关联边界；case 数值经 validate_cases.py 验证。复核并纠正路由中间转入与净支出；教学 SQL 均未执行。",
+    "visual": "逐张打开 Desktop PNG 检查；Owner/PDA 标签缩短，Token 程序节点移位；其余节点、连线与图文关系清晰。",
+    "short_chapter_assessment": "概念、真实结构或 SQL、结果解释与误区闭环完整；不为凑字数填充。"
+  },
+  {
+    "chapter": "05-tokens/04-transfers-balances.md",
+    "technical": "核对当日官方 Schema 与角色/单位/关联边界；case 数值经 validate_cases.py 验证。复核并纠正路由中间转入与净支出；教学 SQL 均未执行。",
+    "visual": "逐张打开 Desktop PNG 检查；Owner/PDA 标签缩短，Token 程序节点移位；其余节点、连线与图文关系清晰。",
+    "short_chapter_assessment": "概念、真实结构或 SQL、结果解释与误区闭环完整；不为凑字数填充。"
+  },
+  {
+    "chapter": "05-tokens/summary.md",
+    "technical": "核对当日官方 Schema 与角色/单位/关联边界；case 数值经 validate_cases.py 验证。复核并纠正路由中间转入与净支出；教学 SQL 均未执行。",
+    "visual": "逐张打开 Desktop PNG 检查；Owner/PDA 标签缩短，Token 程序节点移位；其余节点、连线与图文关系清晰。",
+    "short_chapter_assessment": "概念、真实结构或 SQL、结果解释与误区闭环完整；不为凑字数填充。"
+  },
+  {
+    "chapter": "06-warehouse/index.md",
+    "technical": "核对当日官方 Schema 与角色/单位/关联边界；case 数值经 validate_cases.py 验证。复核并纠正路由中间转入与净支出；教学 SQL 均未执行。",
+    "visual": "逐张打开 Desktop PNG 检查；Owner/PDA 标签缩短，Token 程序节点移位；其余节点、连线与图文关系清晰。",
+    "short_chapter_assessment": "概念、真实结构或 SQL、结果解释与误区闭环完整；不为凑字数填充。"
+  },
+  {
+    "chapter": "06-warehouse/01-rpc-lineage.md",
+    "technical": "核对当日官方 Schema 与角色/单位/关联边界；case 数值经 validate_cases.py 验证。复核并纠正路由中间转入与净支出；教学 SQL 均未执行。",
+    "visual": "逐张打开 Desktop PNG 检查；Owner/PDA 标签缩短，Token 程序节点移位；其余节点、连线与图文关系清晰。",
+    "short_chapter_assessment": "概念、真实结构或 SQL、结果解释与误区闭环完整；不为凑字数填充。"
+  },
+  {
+    "chapter": "06-warehouse/02-joins.md",
+    "technical": "核对当日官方 Schema 与角色/单位/关联边界；case 数值经 validate_cases.py 验证。复核并纠正路由中间转入与净支出；教学 SQL 均未执行。",
+    "visual": "逐张打开 Desktop PNG 检查；Owner/PDA 标签缩短，Token 程序节点移位；其余节点、连线与图文关系清晰。",
+    "short_chapter_assessment": "概念、真实结构或 SQL、结果解释与误区闭环完整；不为凑字数填充。"
+  },
+  {
+    "chapter": "06-warehouse/03-arrays.md",
+    "technical": "核对当日官方 Schema 与角色/单位/关联边界；case 数值经 validate_cases.py 验证。复核并纠正路由中间转入与净支出；教学 SQL 均未执行。",
+    "visual": "逐张打开 Desktop PNG 检查；Owner/PDA 标签缩短，Token 程序节点移位；其余节点、连线与图文关系清晰。",
+    "short_chapter_assessment": "概念、真实结构或 SQL、结果解释与误区闭环完整；不为凑字数填充。"
+  },
+  {
+    "chapter": "06-warehouse/04-quality.md",
+    "technical": "核对当日官方 Schema 与角色/单位/关联边界；case 数值经 validate_cases.py 验证。复核并纠正路由中间转入与净支出；教学 SQL 均未执行。",
+    "visual": "逐张打开 Desktop PNG 检查；Owner/PDA 标签缩短，Token 程序节点移位；其余节点、连线与图文关系清晰。",
+    "short_chapter_assessment": "概念、真实结构或 SQL、结果解释与误区闭环完整；不为凑字数填充。"
+  },
+  {
+    "chapter": "06-warehouse/summary.md",
+    "technical": "核对当日官方 Schema 与角色/单位/关联边界；case 数值经 validate_cases.py 验证。复核并纠正路由中间转入与净支出；教学 SQL 均未执行。",
+    "visual": "逐张打开 Desktop PNG 检查；Owner/PDA 标签缩短，Token 程序节点移位；其余节点、连线与图文关系清晰。",
+    "short_chapter_assessment": "概念、真实结构或 SQL、结果解释与误区闭环完整；不为凑字数填充。"
+  },
+  {
+    "chapter": "07-cases/index.md",
+    "technical": "核对当日官方 Schema 与角色/单位/关联边界；case 数值经 validate_cases.py 验证。复核并纠正路由中间转入与净支出；教学 SQL 均未执行。",
+    "visual": "逐张打开 Desktop PNG 检查；Owner/PDA 标签缩短，Token 程序节点移位；其余节点、连线与图文关系清晰。",
+    "short_chapter_assessment": "概念、真实结构或 SQL、结果解释与误区闭环完整；不为凑字数填充。"
+  },
+  {
+    "chapter": "07-cases/01-sol-case.md",
+    "technical": "核对当日官方 Schema 与角色/单位/关联边界；case 数值经 validate_cases.py 验证。复核并纠正路由中间转入与净支出；教学 SQL 均未执行。",
+    "visual": "逐张打开 Desktop PNG 检查；Owner/PDA 标签缩短，Token 程序节点移位；其余节点、连线与图文关系清晰。",
+    "short_chapter_assessment": "概念、真实结构或 SQL、结果解释与误区闭环完整；不为凑字数填充。"
+  },
+  {
+    "chapter": "07-cases/02-token-case.md",
+    "technical": "核对当日官方 Schema 与角色/单位/关联边界；case 数值经 validate_cases.py 验证。复核并纠正路由中间转入与净支出；教学 SQL 均未执行。",
+    "visual": "逐张打开 Desktop PNG 检查；Owner/PDA 标签缩短，Token 程序节点移位；其余节点、连线与图文关系清晰。",
+    "short_chapter_assessment": "概念、真实结构或 SQL、结果解释与误区闭环完整；不为凑字数填充。"
+  },
+  {
+    "chapter": "07-cases/03-swap-case.md",
+    "technical": "核对当日官方 Schema 与角色/单位/关联边界；case 数值经 validate_cases.py 验证。复核并纠正路由中间转入与净支出；教学 SQL 均未执行。",
+    "visual": "逐张打开 Desktop PNG 检查；Owner/PDA 标签缩短，Token 程序节点移位；其余节点、连线与图文关系清晰。",
+    "short_chapter_assessment": "概念、真实结构或 SQL、结果解释与误区闭环完整；不为凑字数填充。"
+  },
+  {
+    "chapter": "07-cases/summary.md",
+    "technical": "核对当日官方 Schema 与角色/单位/关联边界；case 数值经 validate_cases.py 验证。复核并纠正路由中间转入与净支出；教学 SQL 均未执行。",
+    "visual": "逐张打开 Desktop PNG 检查；Owner/PDA 标签缩短，Token 程序节点移位；其余节点、连线与图文关系清晰。",
+    "short_chapter_assessment": "概念、真实结构或 SQL、结果解释与误区闭环完整；不为凑字数填充。"
+  },
+  {
+    "chapter": "08-analysis/index.md",
+    "technical": "核对当日官方 Schema 与角色/单位/关联边界；case 数值经 validate_cases.py 验证。复核并纠正路由中间转入与净支出；教学 SQL 均未执行。",
+    "visual": "逐张打开 Desktop PNG 检查；Owner/PDA 标签缩短，Token 程序节点移位；其余节点、连线与图文关系清晰。",
+    "short_chapter_assessment": "概念、真实结构或 SQL、结果解释与误区闭环完整；不为凑字数填充。"
+  },
+  {
+    "chapter": "08-analysis/01-wallet-flow.md",
+    "technical": "核对当日官方 Schema 与角色/单位/关联边界；case 数值经 validate_cases.py 验证。复核并纠正路由中间转入与净支出；教学 SQL 均未执行。",
+    "visual": "逐张打开 Desktop PNG 检查；Owner/PDA 标签缩短，Token 程序节点移位；其余节点、连线与图文关系清晰。",
+    "short_chapter_assessment": "概念、真实结构或 SQL、结果解释与误区闭环完整；不为凑字数填充。"
+  },
+  {
+    "chapter": "08-analysis/02-protocol.md",
+    "technical": "核对当日官方 Schema 与角色/单位/关联边界；case 数值经 validate_cases.py 验证。复核并纠正路由中间转入与净支出；教学 SQL 均未执行。",
+    "visual": "逐张打开 Desktop PNG 检查；Owner/PDA 标签缩短，Token 程序节点移位；其余节点、连线与图文关系清晰。",
+    "short_chapter_assessment": "概念、真实结构或 SQL、结果解释与误区闭环完整；不为凑字数填充。"
+  },
+  {
+    "chapter": "08-analysis/03-reproducibility.md",
+    "technical": "核对当日官方 Schema 与角色/单位/关联边界；case 数值经 validate_cases.py 验证。复核并纠正路由中间转入与净支出；教学 SQL 均未执行。",
+    "visual": "逐张打开 Desktop PNG 检查；Owner/PDA 标签缩短，Token 程序节点移位；其余节点、连线与图文关系清晰。",
+    "short_chapter_assessment": "概念、真实结构或 SQL、结果解释与误区闭环完整；不为凑字数填充。"
+  },
+  {
+    "chapter": "08-analysis/summary.md",
+    "technical": "核对当日官方 Schema 与角色/单位/关联边界；case 数值经 validate_cases.py 验证。复核并纠正路由中间转入与净支出；教学 SQL 均未执行。",
+    "visual": "逐张打开 Desktop PNG 检查；Owner/PDA 标签缩短，Token 程序节点移位；其余节点、连线与图文关系清晰。",
+    "short_chapter_assessment": "概念、真实结构或 SQL、结果解释与误区闭环完整；不为凑字数填充。"
+  },
+  {
+    "chapter": "03-instructions/04-decoding.md",
+    "editorial": "中文字符略少于建议，但含独立问题、机制/粒度、必要字段、SQL 或证据、误区与衔接；外文术语/地址另占正文，保留紧凑成稿。"
+  },
+  {
+    "chapter": "05-tokens/01-sol.md",
+    "editorial": "中文字符略少于建议，但含独立问题、机制/粒度、必要字段、SQL 或证据、误区与衔接；外文术语/地址另占正文，保留紧凑成稿。"
+  },
+  {
+    "chapter": "05-tokens/02-mint-token-account.md",
+    "editorial": "中文字符略少于建议，但含独立问题、机制/粒度、必要字段、SQL 或证据、误区与衔接；外文术语/地址另占正文，保留紧凑成稿。"
+  },
+  {
+    "chapter": "05-tokens/03-units-token2022.md",
+    "editorial": "中文字符略少于建议，但含独立问题、机制/粒度、必要字段、SQL 或证据、误区与衔接；外文术语/地址另占正文，保留紧凑成稿。"
+  },
+  {
+    "chapter": "05-tokens/04-transfers-balances.md",
+    "editorial": "中文字符略少于建议，但含独立问题、机制/粒度、必要字段、SQL 或证据、误区与衔接；外文术语/地址另占正文，保留紧凑成稿。"
+  },
+  {
+    "chapter": "06-warehouse/02-joins.md",
+    "editorial": "中文字符略少于建议，但含独立问题、机制/粒度、必要字段、SQL 或证据、误区与衔接；外文术语/地址另占正文，保留紧凑成稿。"
+  },
+  {
+    "chapter": "06-warehouse/03-arrays.md",
+    "editorial": "中文字符略少于建议，但含独立问题、机制/粒度、必要字段、SQL 或证据、误区与衔接；外文术语/地址另占正文，保留紧凑成稿。"
+  },
+  {
+    "chapter": "07-cases/03-swap-case.md",
+    "editorial": "中文字符略少于建议，但含独立问题、机制/粒度、必要字段、SQL 或证据、误区与衔接；外文术语/地址另占正文，保留紧凑成稿。"
+  },
+  {
+    "chapter": "08-analysis/02-protocol.md",
+    "editorial": "中文字符略少于建议，但含独立问题、机制/粒度、必要字段、SQL 或证据、误区与衔接；外文术语/地址另占正文，保留紧凑成稿。"
+  },
+  {
+    "chapter": "99-final-summary/index.md",
+    "reviewed_at": "2026-10-09T12:14:10.878487+00:00",
+    "technical": "综合地图逐项核对账本、权限、Token、RPC、Dune 粒度与键；短 EVM 对比以官方 Dune 事件模型为依据；不推断 v1 Dune 覆盖。",
+    "visual": "打开综合 PNG 两次，改开重叠的关联标签通道；确认 20 个主要节点、双语术语、连线和局部图可读。"
+  }
+]

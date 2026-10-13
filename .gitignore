@@ -16,3 +16,34 @@ node_modules/
 *.p12
 # Unpublished authoring work
 _project/
+
+# Only the explicitly selected Solana evidence files are public
+!chains/solana/_project/
+chains/solana/_project/*
+!chains/solana/_project/cross-review.md
+!chains/solana/_project/overnight-report.md
+!chains/solana/_project/qa-report.md
+!chains/solana/_project/review-log.json
+!chains/solana/_project/sql-validation.json
+!chains/solana/_project/cache/
+chains/solana/_project/cache/*
+!chains/solana/_project/cache/cases/
+chains/solana/_project/cache/cases/*
+!chains/solana/_project/cache/cases/sol.json
+!chains/solana/_project/cache/cases/swap.json
+!chains/solana/_project/cache/cases/token.json
+!chains/solana/_project/cache/queries/
+chains/solana/_project/cache/queries/*
+!chains/solana/_project/cache/queries/8435082.sql
+!chains/solana/_project/cache/queries/8435196.sql
+!chains/solana/_project/cache/queries/8435262.sql
+!chains/solana/_project/cache/queries/8435308.sql
+!chains/solana/_project/cache/queries/8435334.sql
+!chains/solana/_project/cache/queries/8435352.sql
+!chains/solana/_project/cache/queries/8435384.sql
+!chains/solana/_project/cache/queries/8435396.sql
+!chains/solana/_project/cache/queries/8435414.sql
+!chains/solana/_project/cache/queries/8435487.sql
+!chains/solana/_project/cache/queries/8435548.sql
+!chains/solana/_project/cache/queries/8435564.sql
+!chains/solana/_project/cache/queries/8435570.sql

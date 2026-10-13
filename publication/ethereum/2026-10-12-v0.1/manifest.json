@@ -1,0 +1,1059 @@
+{
+  "edition": "Ethereum v0.1",
+  "file_count": 210,
+  "ethereum_source_files": 200,
+  "publication_files": 10,
+  "self_hash_note": "Manifest cannot contain its own hash; Git commit tree binds every file.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 234,
+      "sha256": "b33f057cd9212fdf170b289c5e5fbf8c45580943e9409e387a430bb2e14a131c"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 539,
+      "sha256": "18af6bfe99842dfa1f9dd45f5e67084c35b907a6fb0cbf865d6a2705f0629372"
+    },
+    {
+      "path": "PUBLICATION_STATUS.md",
+      "bytes": 1055,
+      "sha256": "d2cccafe95f2cc04d45165db1514bc7a815410aa594ba30354b9da973e87c37b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1700,
+      "sha256": "ad7603301fe925507934d6f7ae8163cb532c3c02df176517db70c52b55b5194e"
+    },
+    {
+      "path": "SUMMARY.md",
+      "bytes": 6055,
+      "sha256": "3268af0dadad5216ed65e1fdfb53f7d1eaf8cc8b047ba64569e4f9932059b5f0"
+    },
+    {
+      "path": "chains/ethereum/README.md",
+      "bytes": 1458,
+      "sha256": "de1d416314d0f6993d7fa0ab45d5c04fc0fe182a32e48fc563ebd5c11769f786"
+    },
+    {
+      "path": "chains/ethereum/SUMMARY.md",
+      "bytes": 4394,
+      "sha256": "db4739d7aa0fb73557b940767f23c297a51303cba77b01551928483698821194"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/DIAGRAM_INDEX.md",
+      "bytes": 3669,
+      "sha256": "37646a1ce852b25bf767864c27c782a1a9cc4ecd24263847769932aa7cd67c1b"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/abi.drawio",
+      "bytes": 5738,
+      "sha256": "17e033d85b0dacb342fbe82e50155aa3a2c33c097b0c8cae5f3536f75c36972d"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/abi.svg",
+      "bytes": 12288,
+      "sha256": "c40662a191bde3ae4bab7ef7a4099c54bc975d99e8ab70cac3cbdbc655af1a78"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/accounts.drawio",
+      "bytes": 6835,
+      "sha256": "43a87939b9860ba4b72579965f2bf42c6212cdce4dd0f83e5fd2bd23b1dac11e"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/accounts.svg",
+      "bytes": 14474,
+      "sha256": "77b49c32df7b0739da20ccb524184abc470044132a778576e6c9660d499ee80e"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/analysis-route.drawio",
+      "bytes": 7278,
+      "sha256": "d4e43ab6420c0b30cccf204e90d83e747013bc77927bdd9bcc569c4687d2de2b"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/analysis-route.svg",
+      "bytes": 15288,
+      "sha256": "4f0f601de791b61b1c1ceb7ce21ce80d91f78c2970c13dc4f98de30e5383be89"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/approval-case.drawio",
+      "bytes": 6794,
+      "sha256": "5d0485b6a3efa93de0c8f478b9a7b3daa6d58fb261f5b0814f482abbb77b6e10"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/approval-case.svg",
+      "bytes": 15000,
+      "sha256": "b911c09b1f3cfbf22c0e2934621c544442eb4c8e8bfbe002fecef170cea3a7bb"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/assets.drawio",
+      "bytes": 6334,
+      "sha256": "2d1e5668765d31b6d7143da9e87194ef5b7cc928a311d2ba1fffcf0fbc7abe46"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/assets.svg",
+      "bytes": 13757,
+      "sha256": "25c699ccf2cf9babbfdc60a29058541c86631c6990c3d857eda3d2ae8f5093a4"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/blob.drawio",
+      "bytes": 6766,
+      "sha256": "5a4e84579c07665fde49f21da2db02f78400a81554b24c7e8b4a6d50c94ef3bd"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/blob.svg",
+      "bytes": 14149,
+      "sha256": "206a9f03444c2daa4812c24dc1c8e97fdaa96dcd0fb4fa41a9d5c07d2906fdd4"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/call-tree.drawio",
+      "bytes": 6324,
+      "sha256": "7d051dfbce691aed7730e724181bcecd298e59ce505399a4aaeb2e3092e1bd20"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/call-tree.svg",
+      "bytes": 13550,
+      "sha256": "1590fc7e92459e767516006334c6a6f9e5e5ad927ff0e9bc6cf818684c062002"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/core-data.drawio",
+      "bytes": 6728,
+      "sha256": "3d0e11a50d9ce34a3d9ea5bb686db8db65815153206bfd78717d4517533ad749"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/core-data.svg",
+      "bytes": 15072,
+      "sha256": "160e10e510c7f9ac28a25b54792c41e2db7e6cb3ff21bc73ebab2ef23209faf8"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/creation-case.drawio",
+      "bytes": 6283,
+      "sha256": "2363afea33daca5a07e5c7a062ae689360c101772b0b21b053efadb2851c9888"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/creation-case.svg",
+      "bytes": 14099,
+      "sha256": "105fc7073e56ac4ddfaf57c6eeb0cf98d6385d22af522c820989c4770d01d37f"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/decoding.drawio",
+      "bytes": 5750,
+      "sha256": "c690913c7486db888aca619fc974af084815f8a89fe5630d22be6401766b2b8e"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/decoding.svg",
+      "bytes": 12125,
+      "sha256": "a7d2c5ad36c6523720b0f5f7acf969aa629717a1ec140ba7ee5ca2ee8d84f40e"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/delegation.drawio",
+      "bytes": 6333,
+      "sha256": "32bd1410f1135874df39995b660cb1a31bc3f8e05c71c26f6bf460e027ab9e7c"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/delegation.svg",
+      "bytes": 13755,
+      "sha256": "42f48b9970dec9de853b033c00fd95209ed341242e83f324a2ca2c1be5e859d3"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/deployment.drawio",
+      "bytes": 6683,
+      "sha256": "536938a2e5b832eb8123b19dc3f95d16912fc1e9606c577b58221d10eb5cddce"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/deployment.svg",
+      "bytes": 14055,
+      "sha256": "66c5fa9e2bc6cc571be432e7f7b33976da5076363b73dd2cee88beb240acebae"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/diagram-manifest.json",
+      "bytes": 5710,
+      "sha256": "31fda456af9c0f13e761fbff7ed57c933dadb5f6f726736a225383c5a5f8d5ce"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/envelope.drawio",
+      "bytes": 6567,
+      "sha256": "b9556e3eedbde2f64f302a86b94398f13b6978d6f8134a2032622773aea03d60"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/envelope.svg",
+      "bytes": 14263,
+      "sha256": "b8449ca8232a3e686ba448ffa901763b08fdd83595d9a3b1e7420ec9430713ce"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/evidence.drawio",
+      "bytes": 6716,
+      "sha256": "320f159c73414029f6157e66946554325b3d0e24ccc7bf83f8bb3c1f614062fb"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/evidence.svg",
+      "bytes": 14655,
+      "sha256": "d206083391c42b096df72178d1c9585d83cf25ce6792f5434d503ac5e12dcf1b"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/evm.drawio",
+      "bytes": 6639,
+      "sha256": "3eb4925b34037f4f8032a059a10ec29f537d26a6afd76b8b8a7aecb3e3eaef98"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/evm.svg",
+      "bytes": 14337,
+      "sha256": "312b5b3893802d70947883f8a8b0c50ac6bf69a56ee429f24732684117957d10"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/failure.drawio",
+      "bytes": 6812,
+      "sha256": "d5b3e124bc2c66c6f5d68abb0d425bffef41815880d15c9cd80365d1e8d66751"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/failure.svg",
+      "bytes": 14605,
+      "sha256": "800ac9d98dd48d61168da9fd8dba5b6a98c27de3fb7b7633e3709eeb7f27aacc"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/gas.drawio",
+      "bytes": 7834,
+      "sha256": "ecc05fc0ad2525d3bb5e8eb5a12d0e12a019b52e934a11b2b4572df9c79b5fa5"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/gas.svg",
+      "bytes": 16616,
+      "sha256": "0e3a920c7ecc3a05df9e87e02449eb10f9576db6039cece8c32248820bdfbfb6"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/joins.drawio",
+      "bytes": 7803,
+      "sha256": "5e6e7335b1835b79175cbd2d12fe1fa853dd62169bdd593f326257fc73a2fccd"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/joins.svg",
+      "bytes": 15699,
+      "sha256": "c29aeedbcc09f9c81b132e13b333d3d82a2316039e4c87baa4bfb2ccc7eec13b"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/l2.drawio",
+      "bytes": 6287,
+      "sha256": "b9bcfac8f950b210909fdffadff037e923ad012e5c71bd47afd5dba68bedc4ad"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/l2.svg",
+      "bytes": 12914,
+      "sha256": "50b7347ebbcfdf8334fadfdd65c0d8703809dd3b1b842fd02b56061a3f8feaec"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/layers.drawio",
+      "bytes": 6720,
+      "sha256": "ae1fc3e3c2282c709d1ad2208f42b0e78c09ae1a5015f9b82cf378f882be3f63"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/layers.svg",
+      "bytes": 14291,
+      "sha256": "2c3996478798ce8863c3c8e6867a73d40b967144a9319374827b18be9d957146"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/lineage.drawio",
+      "bytes": 7322,
+      "sha256": "b728afa8a920cb838b2f9d9f9275cb04b5c0df95ac701edfe81635ef8fdeb1e3"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/lineage.svg",
+      "bytes": 14997,
+      "sha256": "78105dbb83f88dc8d0f46c1539739344ff22761554d736ccac0b33cfdd321cc9"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/logs.drawio",
+      "bytes": 6249,
+      "sha256": "9ab80632d39e3f9566721fa31aa271960f149ff1a9f60c3449de33ece2b618f6"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/logs.svg",
+      "bytes": 12838,
+      "sha256": "6d4d7d28f1a6f7237db9f0093bcbc12f0fb48dbe5eb04b2e80e8f5b779ba89d9"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/metrics.drawio",
+      "bytes": 6719,
+      "sha256": "35658350d32dae6d11fee7bec9894f02019ec0536a5e2b4d0d764a5bcef6805e"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/metrics.svg",
+      "bytes": 14310,
+      "sha256": "116c8b637b691652a7e6bb6d5d845e2a2ecc784b2a5f5086249b74dcb03fb174"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/nft.drawio",
+      "bytes": 7057,
+      "sha256": "112f02c83b7531d5c48fe5d58080adbcc6109b765d1562705959a300e23fd222"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/nft.svg",
+      "bytes": 14588,
+      "sha256": "e5212f3ae9ff1bdcc763d804a4892d526cea5b1fc6847e00be28a251f775d417"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/proxy.drawio",
+      "bytes": 6656,
+      "sha256": "d043a577827f57a39fd91eebfa46d088569a4a91cc203e6fae2a9be6872a5c17"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/proxy.svg",
+      "bytes": 14186,
+      "sha256": "0dc0e33e032ff10927391f9fe7f402ef8e57a77ef53a692bfe96d344788e1779"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/runtime.drawio",
+      "bytes": 7783,
+      "sha256": "88f3a034f86450dea88c858f8e2015191246a20ec588c758f1781dd82c341482"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/runtime.svg",
+      "bytes": 16432,
+      "sha256": "e179fe0f052c8adbc79deca069ae51bed0526a3cbc7a660e9c9b2ac79c6067a7"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/sql-types.drawio",
+      "bytes": 6808,
+      "sha256": "db2da70af727c91093ab8a82fdeb39f431e50f40d27eedd28c7c1a6e2a357bc5"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/sql-types.svg",
+      "bytes": 14233,
+      "sha256": "b20b9aee17c8156d5bf2ecaabbab45046dcba7c567c84093e6e2b18432958266"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/state-history.drawio",
+      "bytes": 6689,
+      "sha256": "c76ff8d7b2c37487ec946b843421950daa986e3fad8cd7671d33190d5aedb835"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/state-history.svg",
+      "bytes": 14249,
+      "sha256": "be467a39b81a22dbb70d95a14622e5723defecacdfb98f68cbc901b55d3eb351"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/swap.drawio",
+      "bytes": 7381,
+      "sha256": "342dc2624df99de55b51ed4b530bd737306fcab1321976dfe0f0c486044bafcd"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/swap.svg",
+      "bytes": 15816,
+      "sha256": "01f05f058824b5166b8dc0751900a12f66520dd38876c1f2d6c9be8d510f76b8"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/wallet-flow.drawio",
+      "bytes": 6619,
+      "sha256": "4c8c2175affb979420027f913a57fe5af76e66b10fa741f0242743699245cf69"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/wallet-flow.svg",
+      "bytes": 14369,
+      "sha256": "9b61b6050557358c5496dc42649389adc50eb85764f975fc80addf6842aee59a"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/withdrawals.drawio",
+      "bytes": 5801,
+      "sha256": "f537756ba19359c5851fb4e544d522ff94dba6773501ce6e22bbc77af7174f8a"
+    },
+    {
+      "path": "chains/ethereum/assets/diagrams/withdrawals.svg",
+      "bytes": 12227,
+      "sha256": "d36d2aad0bcb28f7adaf7cb24f7571b3cd7e722dac42abdd21f75f948e2fb87b"
+    },
+    {
+      "path": "chains/ethereum/book/00-preface.md",
+      "bytes": 2972,
+      "sha256": "1a23fc25138e8591bb5d6ff3ae3b5fd3ac096d8b1f7fb3180ff9c5eccdea6f73"
+    },
+    {
+      "path": "chains/ethereum/book/appendix/data-table-index.md",
+      "bytes": 1536,
+      "sha256": "7603e0584f95c5c1659617f0aae7db6c70fed7c37f107d4409cc644169eed0fb"
+    },
+    {
+      "path": "chains/ethereum/book/appendix/glossary.md",
+      "bytes": 2609,
+      "sha256": "36ec5df44c6a9cf2056d8195872ee9d817a8e57e6273d81a01f3cdf31b9f6769"
+    },
+    {
+      "path": "chains/ethereum/book/appendix/query-index.md",
+      "bytes": 1090,
+      "sha256": "444625afac9040676db3a0c210c2b6018e971c2db9abc02f8453859f3ec142e8"
+    },
+    {
+      "path": "chains/ethereum/book/appendix/references.md",
+      "bytes": 6594,
+      "sha256": "6e25d8a27bc13712d42db508d234c0ad61872f04e2140e8a6f62a0531de77f21"
+    },
+    {
+      "path": "chains/ethereum/book/part-01/01-one-eth.md",
+      "bytes": 4036,
+      "sha256": "884d37d76df8662e1572e7d2288d46627163972f4ec3cda0605c99bddd267cf2"
+    },
+    {
+      "path": "chains/ethereum/book/part-01/02-wallet-signature.md",
+      "bytes": 3760,
+      "sha256": "1454e8611030158099179fa472e4462be140feb7b7c489e7f76d82b5d349d85c"
+    },
+    {
+      "path": "chains/ethereum/book/part-01/03-block-receipt.md",
+      "bytes": 3834,
+      "sha256": "9cc6a36c5417f7f21dd95cc005799abec32003b63773e13ab82cd0d86f324fe0"
+    },
+    {
+      "path": "chains/ethereum/book/part-01/04-nonce-pending.md",
+      "bytes": 3786,
+      "sha256": "77bc8a073d305a169d4f3f5079570716f60672885fb4a2b615d5f4732ec2651b"
+    },
+    {
+      "path": "chains/ethereum/book/part-01/index.md",
+      "bytes": 551,
+      "sha256": "f5dce4750aacde3ab646dc9689ff6873fa533f9842dab0a69d41502a024ce7f5"
+    },
+    {
+      "path": "chains/ethereum/book/part-02/05-account-fields.md",
+      "bytes": 3673,
+      "sha256": "874e975ec13531f71a4a9ccc9877df5aa039a9304040035038b0e1717914c05a"
+    },
+    {
+      "path": "chains/ethereum/book/part-02/06-storage-token.md",
+      "bytes": 3901,
+      "sha256": "66d8fa41a4a580bba4147c7d2e8340cdf28e05bd0e7bb9bbeef6446ab5ffcde6"
+    },
+    {
+      "path": "chains/ethereum/book/part-02/07-state-history.md",
+      "bytes": 3817,
+      "sha256": "e709775581a5e350a71817ae7f516c53af03d1624b7b949dafb3ad8a743eeccd"
+    },
+    {
+      "path": "chains/ethereum/book/part-02/08-delegation-aa.md",
+      "bytes": 3698,
+      "sha256": "87fbef36fd2aa5fbe289f2352025c41c1b38b898b17802348cbdd236ec1cc3ab"
+    },
+    {
+      "path": "chains/ethereum/book/part-02/index.md",
+      "bytes": 533,
+      "sha256": "222fc43a8afc98d85f4e659d1bb06c4695d4a5dfb222aca6a090fd5700495be8"
+    },
+    {
+      "path": "chains/ethereum/book/part-03/09-evm-execution.md",
+      "bytes": 3961,
+      "sha256": "1ceb4b6c936452f5a91abfdba62a4be5d2814fea44b6c6d08cb2a2862281e2e6"
+    },
+    {
+      "path": "chains/ethereum/book/part-03/10-memory-stack-storage.md",
+      "bytes": 4059,
+      "sha256": "fc495c8c4cde9b78d79d302c4229332ec9dd4538d6fc97d5cba7bdcb4d68d58b"
+    },
+    {
+      "path": "chains/ethereum/book/part-03/11-calldata-abi.md",
+      "bytes": 3843,
+      "sha256": "e6cbb6be2b506401edb682e6458b803a732addad50f1a060afdff5c5ca933598"
+    },
+    {
+      "path": "chains/ethereum/book/part-03/12-contract-deployment.md",
+      "bytes": 4353,
+      "sha256": "147051e024b62cfe34fa8711ca73ac17e478326be2dbbef79a0ac7bde2f9c5ee"
+    },
+    {
+      "path": "chains/ethereum/book/part-03/index.md",
+      "bytes": 561,
+      "sha256": "cffcfb1885094c27dcf989b11c4117eae613374341cec1bd10f18a61e327d2ab"
+    },
+    {
+      "path": "chains/ethereum/book/part-04/13-transaction-record.md",
+      "bytes": 3919,
+      "sha256": "d29028e01089350ade06a7923e78fdbbbc3884197eb1c5cb33dace3bee5fd152"
+    },
+    {
+      "path": "chains/ethereum/book/part-04/14-traces-call-tree.md",
+      "bytes": 3942,
+      "sha256": "5a5356314c26e99268b7f5617707a21cfd9d433839348b79f757fa43e5da2830"
+    },
+    {
+      "path": "chains/ethereum/book/part-04/15-logs-events.md",
+      "bytes": 3933,
+      "sha256": "df45ddd76cb9e87abce16f6247fa3932882b9f5d51f769c71b01e064f0a71813"
+    },
+    {
+      "path": "chains/ethereum/book/part-04/16-success-revert.md",
+      "bytes": 3950,
+      "sha256": "f1ad1caf6be0487508a61385a210745f5a922c7ec8bbc7b38566ca2c3828bc18"
+    },
+    {
+      "path": "chains/ethereum/book/part-04/index.md",
+      "bytes": 561,
+      "sha256": "6b7770dc505980394d831443900e06002286b19cfd5f09f752a259f559104b4f"
+    },
+    {
+      "path": "chains/ethereum/book/part-05/17-decoding.md",
+      "bytes": 3842,
+      "sha256": "fb98e701798f84cb2a6295256ba48bac814f99aca06bd8553eef208c99e06111"
+    },
+    {
+      "path": "chains/ethereum/book/part-05/18-proxy-context.md",
+      "bytes": 3744,
+      "sha256": "dbbc158d9024137f044a3cc4cf505aac4e29338be0d0838ced22d7c8ab0402c8"
+    },
+    {
+      "path": "chains/ethereum/book/part-05/19-data-lineage.md",
+      "bytes": 3767,
+      "sha256": "835ec4ed9ea3658f63753c96215c531ae31168c0ee72e550280268ccfe456020"
+    },
+    {
+      "path": "chains/ethereum/book/part-05/20-core-data-model.md",
+      "bytes": 3858,
+      "sha256": "33acd128a95db0364f25c2b3de9acafeb2dc328b7a8420eae6b2a78577065365"
+    },
+    {
+      "path": "chains/ethereum/book/part-05/index.md",
+      "bytes": 533,
+      "sha256": "b68d63203839b78a5a8904012796acbbd9fc99ed5037152e6a8a24454ddbe439"
+    },
+    {
+      "path": "chains/ethereum/book/part-06/21-eth-weth.md",
+      "bytes": 4032,
+      "sha256": "b828321008445cc4d3117be87a096a18bf32816220ae3e7db0362a26e33c2343"
+    },
+    {
+      "path": "chains/ethereum/book/part-06/22-allowance-approval.md",
+      "bytes": 4457,
+      "sha256": "913fb0b1670bc5379dfed5bf6ab97ae0d278936826d9595dd692ee3286851eb4"
+    },
+    {
+      "path": "chains/ethereum/book/part-06/23-nft-identities.md",
+      "bytes": 3755,
+      "sha256": "552f214bbf9a062a7d746444838da444afb3bf538264153743730a7ae2aeaecb"
+    },
+    {
+      "path": "chains/ethereum/book/part-06/24-multi-token-nonstandard.md",
+      "bytes": 3710,
+      "sha256": "a8b2441ef25f1fcad3313aa2f63481b3a7cceb124e8871cf8038e560f33d2a7a"
+    },
+    {
+      "path": "chains/ethereum/book/part-06/index.md",
+      "bytes": 562,
+      "sha256": "1e3fa22105654e01cde77c818a7aa4660ca30dd0f37fe9555841f9d5a65f0259"
+    },
+    {
+      "path": "chains/ethereum/book/part-07/25-gas-work.md",
+      "bytes": 3656,
+      "sha256": "c82c7369cf7a4970951a8e8f1f8c36196e102810d4abcfb94e30dd2abe86427d"
+    },
+    {
+      "path": "chains/ethereum/book/part-07/26-fee-market.md",
+      "bytes": 4380,
+      "sha256": "e6291e3698410e31261a5d1ab00d6c9a27b9870abfbde73c99d332e10ff75388"
+    },
+    {
+      "path": "chains/ethereum/book/part-07/27-failed-cost.md",
+      "bytes": 3666,
+      "sha256": "36087bf93a0f376e8f3d90ff8b427b05d64c1313e89ecf7660bf227eb4ad9b97"
+    },
+    {
+      "path": "chains/ethereum/book/part-07/28-blob-data.md",
+      "bytes": 3900,
+      "sha256": "8eac8e9dbe21edf63755d9cba3e0b946e670a7e2a0e84235f94b62c02244e5a3"
+    },
+    {
+      "path": "chains/ethereum/book/part-07/index.md",
+      "bytes": 510,
+      "sha256": "7b0dc8023761516719bd06040ef21eb1d50fe58f8ebcee82f4e8c3ecfc93ae02"
+    },
+    {
+      "path": "chains/ethereum/book/part-08/29-two-layers.md",
+      "bytes": 3705,
+      "sha256": "042b3f8111c3dfaed88271f32948f8bf8a973651cb75207df314828ee6948d4e"
+    },
+    {
+      "path": "chains/ethereum/book/part-08/30-slots-finality.md",
+      "bytes": 3619,
+      "sha256": "a9712fcfb5af918530e58c11ad231db0b23826b82089749d2d6c01ce94a865af"
+    },
+    {
+      "path": "chains/ethereum/book/part-08/31-staking-withdrawals.md",
+      "bytes": 3750,
+      "sha256": "ad161d8601fc9661d35b6a8b7abb35b1d3d67062abd0bd9402ca648b10f40a8d"
+    },
+    {
+      "path": "chains/ethereum/book/part-08/32-l2-boundary.md",
+      "bytes": 3629,
+      "sha256": "86ae6aa77c4d33f7f9d012b6292c4d19b7c5d5dbf28b7a41296b9159028fed0e"
+    },
+    {
+      "path": "chains/ethereum/book/part-08/index.md",
+      "bytes": 585,
+      "sha256": "e5851cd53dc45ef6d284cde090ebc61a3c79c1461ce3b37d0b5ba17feb4d8c8a"
+    },
+    {
+      "path": "chains/ethereum/book/part-09/33-sql-types.md",
+      "bytes": 3759,
+      "sha256": "b3b460f36622e87db015c1149cd36a7bdd3b612f3328db2dfccf99102e8a20d2"
+    },
+    {
+      "path": "chains/ethereum/book/part-09/34-safe-sql-joins.md",
+      "bytes": 4888,
+      "sha256": "65ce3420ec19cfe9637067bf1833e5b74ee5b5644522c8d2094838bef055acab"
+    },
+    {
+      "path": "chains/ethereum/book/part-09/35-raw-log-sql.md",
+      "bytes": 5074,
+      "sha256": "617f34a063e909f52e0c935030dbf824f391d730bed6a9648b008d0044126fc2"
+    },
+    {
+      "path": "chains/ethereum/book/part-09/36-curated-sql.md",
+      "bytes": 4565,
+      "sha256": "3e1d7139f015566d3c374f2d6e0d11585f8a711bf7eaa8b1ae9d930278de6a25"
+    },
+    {
+      "path": "chains/ethereum/book/part-09/index.md",
+      "bytes": 564,
+      "sha256": "14aae385455bd039511e0c66472812cbccf256fcb282bcd06a2018ac40d9191a"
+    },
+    {
+      "path": "chains/ethereum/book/part-10/37-swap-reconstruction.md",
+      "bytes": 4205,
+      "sha256": "b8a117cefd8f65ec3717468cd0a34efec2a33f33787d66def6e0dc9fc9ee6c8d"
+    },
+    {
+      "path": "chains/ethereum/book/part-10/38-wallet-flow.md",
+      "bytes": 3802,
+      "sha256": "b4bd0102fd60f13200b8732a82e070603a6f18a891b41f501a33b71c8b83948e"
+    },
+    {
+      "path": "chains/ethereum/book/part-10/39-metrics-users-volume.md",
+      "bytes": 3784,
+      "sha256": "e8abd9b8b4f741cedf58532d429e9929e94f798c4feb30110a2a75fa15052ef7"
+    },
+    {
+      "path": "chains/ethereum/book/part-10/40-unknown-transaction.md",
+      "bytes": 3678,
+      "sha256": "2335db8416304bfd7740a478165985da7588d88db4479746a6e27af313516cc8"
+    },
+    {
+      "path": "chains/ethereum/book/part-10/index.md",
+      "bytes": 585,
+      "sha256": "e83708de4d800cf97820c7ba749b4ca4ec0285f6a5d33e959d3198dda552da23"
+    },
+    {
+      "path": "chains/ethereum/examples/sql/01-one-transaction.sql",
+      "bytes": 540,
+      "sha256": "726140a6b5bf8ad8021aff81dbcc21f910562c24f3fea959f9a19e73039cd30c"
+    },
+    {
+      "path": "chains/ethereum/examples/sql/02-traces-and-logs.sql",
+      "bytes": 1002,
+      "sha256": "2913cea794a628d044e4e444f5662c66bba43d59cd1fd355086dd3c41e5da307"
+    },
+    {
+      "path": "chains/ethereum/examples/sql/03-usdt-transfer.sql",
+      "bytes": 988,
+      "sha256": "4bc8aacffb8beb036e0f7e59723a51dc296a555fdcd3037884c8725791fdb3dc"
+    },
+    {
+      "path": "chains/ethereum/examples/sql/04-usdt-approval.sql",
+      "bytes": 834,
+      "sha256": "e094b59554cbae1bc018e57e62ad8f6855e4f65161edfc4b49f60ec201863218"
+    },
+    {
+      "path": "chains/ethereum/examples/sql/05-native-call-values.sql",
+      "bytes": 1107,
+      "sha256": "1d19aac8fa1f77cf043f5f90874650e57f8401a08d2188f671ccc5ee408ee35f"
+    },
+    {
+      "path": "chains/ethereum/examples/sql/06-execution-fee.sql",
+      "bytes": 748,
+      "sha256": "be8f2256a5383e472691b393c05e241a73260b9f2b6e969626285d85d88ff17a"
+    },
+    {
+      "path": "chains/ethereum/examples/sql/07-safe-join.sql",
+      "bytes": 1036,
+      "sha256": "f037af9b1ea94db90810a301dcbbeec5799999de59a0ebda34b460e0bfdf2c6d"
+    },
+    {
+      "path": "chains/ethereum/examples/sql/08-contract-creation.sql",
+      "bytes": 494,
+      "sha256": "30ae826ae9e2a1f875d3ca8d9ec52d2d8516fdbe3ef74521e906cc986fe1ab7c"
+    },
+    {
+      "path": "chains/ethereum/examples/sql/09-withdrawals.sql",
+      "bytes": 479,
+      "sha256": "5dfb108c01255591687f277300a87d084bde1896dd7e6dbf901f29af006e4015"
+    },
+    {
+      "path": "chains/ethereum/examples/sql/10-dex-segments.sql",
+      "bytes": 714,
+      "sha256": "8b0d99319d6dfe931a6565035ec0be3e61622d7099c334fda53e2bdd9f09db01"
+    },
+    {
+      "path": "chains/ethereum/examples/sql/11-token-movements.sql",
+      "bytes": 697,
+      "sha256": "248e216f924daf6be57d5e81f2021e815e5bbbf7fd4e91a32b5bcd572c4ba882"
+    },
+    {
+      "path": "chains/ethereum/examples/sql/12-daily-addresses.sql",
+      "bytes": 621,
+      "sha256": "e113a8b07d34486125df6a591a62633b2d2fa9e6906e1b2dce938ea737e14ee4"
+    },
+    {
+      "path": "chains/ethereum/examples/sql/README.md",
+      "bytes": 918,
+      "sha256": "000274d4b6dfbdb350aad06670a03b0e1eb6a962c6d2d5d7a6936750f13acff7"
+    },
+    {
+      "path": "chains/ethereum/examples/transactions/README.md",
+      "bytes": 692,
+      "sha256": "a27f8f4b94740702a94f079a33e3092df58a3e3e94cf2b7272b66ee99c515834"
+    },
+    {
+      "path": "chains/ethereum/examples/transactions/case-01-eth.md",
+      "bytes": 979,
+      "sha256": "e1767e531a312f402c74d372c6dfcec55d29bbdeb94630bc8d8cbae8f4fb85cc"
+    },
+    {
+      "path": "chains/ethereum/examples/transactions/case-02-usdt.json",
+      "bytes": 3663,
+      "sha256": "f1bf7a6113c16a0c1822572558c58bf780c6f6ce0fa686e665bffbdf28f933fe"
+    },
+    {
+      "path": "chains/ethereum/examples/transactions/case-02-usdt.md",
+      "bytes": 931,
+      "sha256": "8d214149b84ab5cd3029b4a52e03380b21605d2ad2bcbd8612c1c4650243a801"
+    },
+    {
+      "path": "chains/ethereum/examples/transactions/case-03-approval-evidence.json",
+      "bytes": 1922,
+      "sha256": "ae1fc6ad74afaade2107580cd37d3a4d764ae0e363e625a0e057ca81f60f0ca8"
+    },
+    {
+      "path": "chains/ethereum/examples/transactions/case-03-approval.md",
+      "bytes": 1460,
+      "sha256": "a18292c4a721e1c420e5f9f77d618243de782fc126c7aeb80ef2fee175371b23"
+    },
+    {
+      "path": "chains/ethereum/examples/transactions/case-03b-direct-approval-evidence.json",
+      "bytes": 923,
+      "sha256": "25db8e19b4d4735935a7d7e9ddc484bfd688ac62fee84db490316c17c94f8460"
+    },
+    {
+      "path": "chains/ethereum/examples/transactions/case-03b-direct-approval.md",
+      "bytes": 667,
+      "sha256": "fbee29b370ef1f959a97f1e7cce8b1f6483faa234d332f83cc60517f90295b79"
+    },
+    {
+      "path": "chains/ethereum/examples/transactions/case-04-logs.json",
+      "bytes": 6886,
+      "sha256": "fd8767215e6042fecf933795172d024ee790cb0670a68f3735261313c594fbb5"
+    },
+    {
+      "path": "chains/ethereum/examples/transactions/case-04-swap.json",
+      "bytes": 6713,
+      "sha256": "69224309351a122156ca26fdc6e97121406a60b4e4cbcebae595f449651adc25"
+    },
+    {
+      "path": "chains/ethereum/examples/transactions/case-04-swap.md",
+      "bytes": 1066,
+      "sha256": "7f5f4c519e7bf3e393f07aee3510e3fdaa7870398f5794355e1adb506bf932b3"
+    },
+    {
+      "path": "chains/ethereum/examples/transactions/case-04-traces.json",
+      "bytes": 7189,
+      "sha256": "270e10bb3f6761085f9aad454ea5d5f09aa6ef554feddc3a51d4c62389150765"
+    },
+    {
+      "path": "chains/ethereum/examples/transactions/case-05-creation-evidence.json",
+      "bytes": 2435,
+      "sha256": "54ecaf4faeb02147400433224ea49a8736c34aa5d047ade5f27a9208a2baf288"
+    },
+    {
+      "path": "chains/ethereum/examples/transactions/case-05-creation.md",
+      "bytes": 1213,
+      "sha256": "efcefad209783ba8547e5ae5f1ddeb4f6e78c474323d68c5e6c2eb1f7a2b11c4"
+    },
+    {
+      "path": "chains/ethereum/examples/transactions/case-06a-blob-fee-evidence.json",
+      "bytes": 1165,
+      "sha256": "e60d926a5b50892cbfc92ff6cabd18156621658cad8ce7aca934b13cb043c30d"
+    },
+    {
+      "path": "chains/ethereum/examples/transactions/case-06a-blob.md",
+      "bytes": 1718,
+      "sha256": "40a8a644343eb22a18855303d95a94c40ff89363fc4e849d0de9a55ac5bd0e59"
+    },
+    {
+      "path": "chains/ethereum/examples/transactions/case-06b-delegation.md",
+      "bytes": 844,
+      "sha256": "c9a24cce0d2efd27e2e50ff8228144302f5e046a6cb61551a2b72cd519fbcdb0"
+    },
+    {
+      "path": "chains/ethereum/reports/case-evidence-validation.json",
+      "bytes": 2635,
+      "sha256": "ca15a6d274ad02ef842c4a8fef7c5b693d3f905cabd4f78d7938e1468f5bc489"
+    },
+    {
+      "path": "chains/ethereum/reports/continuation-2026-10-11.md",
+      "bytes": 1354,
+      "sha256": "a500ea826996019899200186fcf4661f8e04a9ee86f5df9e4a51c2a01925681d"
+    },
+    {
+      "path": "chains/ethereum/reports/continued-evidence-validation.json",
+      "bytes": 2481,
+      "sha256": "9066ebdbf93e94ecee268f9642c0d90301f8aeccdfbd2822dd524c28c620ff64"
+    },
+    {
+      "path": "chains/ethereum/reports/editorial-review.md",
+      "bytes": 4240,
+      "sha256": "13b6612670de0a84085cbdb28972a177ddbe9154cba4f1f68b29982337d76919"
+    },
+    {
+      "path": "chains/ethereum/reports/final-acceptance.md",
+      "bytes": 6066,
+      "sha256": "96b5277d51d4dbfe2b2853321397d041f1717f00aaee85230813a4746e80d336"
+    },
+    {
+      "path": "chains/ethereum/reports/sql-static-review.md",
+      "bytes": 2310,
+      "sha256": "af135ba53f8b3ee83e4dcb41bc047902e5a6ae144b94c5c6c0f5bb5943c6761f"
+    },
+    {
+      "path": "chains/ethereum/reports/technical-review.md",
+      "bytes": 2314,
+      "sha256": "624014180961916b70010a2fcf2706c07358f684462f0c87602730aa0cd51e10"
+    },
+    {
+      "path": "chains/ethereum/reports/validation.json",
+      "bytes": 6973,
+      "sha256": "e5dcf35b5c6bc9c088941746be8bc90c34b6b5f2d6522dd58719ec686e226fc3"
+    },
+    {
+      "path": "chains/ethereum/reports/word-counts.md",
+      "bytes": 1057,
+      "sha256": "c6da9953fdad05832274acd2573a67dd2213d1d305c9736fb6700dc78d4515e6"
+    },
+    {
+      "path": "chains/ethereum/research/dune_query_catalog.md",
+      "bytes": 11029,
+      "sha256": "283cb014133bb26fe9b87b61e2c0d0745d11277d7347959b85d53c1080c6a76f"
+    },
+    {
+      "path": "chains/ethereum/research/fact-ledger.md",
+      "bytes": 3278,
+      "sha256": "f4674c1c20fb522870cd19538478d379a497814965456de39abd1140bbcd065a"
+    },
+    {
+      "path": "chains/ethereum/research/queries/8378484.json",
+      "bytes": 7049,
+      "sha256": "e02be973dddea49fab81f25a16ba5703ac310deb6ee77d7ad1bf7bfdccc1cf96"
+    },
+    {
+      "path": "chains/ethereum/research/queries/8378485.json",
+      "bytes": 5278,
+      "sha256": "64f05946f0fd4f7baab1c866b90f14751decaa92ed5c0ff2bb37f9fd364b4b3c"
+    },
+    {
+      "path": "chains/ethereum/research/queries/8378486.json",
+      "bytes": 4903,
+      "sha256": "70e03876b9f0f063f31c68462d9573a5def97c2228495807a0c739dbfe113d95"
+    },
+    {
+      "path": "chains/ethereum/research/queries/8378487.json",
+      "bytes": 6745,
+      "sha256": "c5021422a2b7cba387a191d9f9f3243baa839d03ae3dbd88142c9bd6c6ddd778"
+    },
+    {
+      "path": "chains/ethereum/research/queries/8378488.json",
+      "bytes": 6359,
+      "sha256": "7007cef6f2163e4375e53b745f8710f37c052458e303bd06c1816d1d52d0a949"
+    },
+    {
+      "path": "chains/ethereum/research/queries/8378489.json",
+      "bytes": 7736,
+      "sha256": "c92b0f3d167cb3f7049c357b9b7c9b0999a205f43b31281dd751a4fd08035ded"
+    },
+    {
+      "path": "chains/ethereum/research/queries/8378490.json",
+      "bytes": 8450,
+      "sha256": "dffb80a272a17d1b276bcea0d60d18cc8367f794609c7802a95b1a3f17ed1fad"
+    },
+    {
+      "path": "chains/ethereum/research/queries/8378491.json",
+      "bytes": 8348,
+      "sha256": "29f4123d447f1ce0a38d0e9b612536086fa3b2ec74f4c524d70a620ce15f5921"
+    },
+    {
+      "path": "chains/ethereum/research/result-8378484.json",
+      "bytes": 1578,
+      "sha256": "eb1b1d05d3e49897367a63340087dab8349d812ac03d323c21fe6434b73f6360"
+    },
+    {
+      "path": "chains/ethereum/research/result-8378485.json",
+      "bytes": 1629,
+      "sha256": "da0ff881a5ce113866e3861b9bdfe44d623776f311685a1818fd9e48e9d6c539"
+    },
+    {
+      "path": "chains/ethereum/research/result-8378486.json",
+      "bytes": 1360,
+      "sha256": "72a838eef08af8c7e0d0654d6994ec1f98cadfa2ac52c87fb819347762b65eb9"
+    },
+    {
+      "path": "chains/ethereum/research/result-8378487.json",
+      "bytes": 1789,
+      "sha256": "592da364e9a706b5811b09567868c9db038f3b87a922bf42904c2784091616f3"
+    },
+    {
+      "path": "chains/ethereum/research/result-8378488.json",
+      "bytes": 1934,
+      "sha256": "4219ff6d1bfeb64ac7d89b85bbce5e24e57100b2568aba72b9b54e9c34c8e151"
+    },
+    {
+      "path": "chains/ethereum/research/result-8378489.json",
+      "bytes": 1956,
+      "sha256": "3a64c2229c3b7acb1c2dc1d0308f9c3c2f6becba8a159552485539ce03ac0004"
+    },
+    {
+      "path": "chains/ethereum/research/result-8378490.json",
+      "bytes": 2308,
+      "sha256": "8f7b02aafee515e56a272a36aa923d20c616a6c084f043eacccefd7052f3d0ee"
+    },
+    {
+      "path": "chains/ethereum/research/result-8378491.json",
+      "bytes": 2105,
+      "sha256": "405c0f756d78bcd58cc979556d7f7dc8dde1f6774257817cecb071d89708c8e8"
+    },
+    {
+      "path": "chains/ethereum/research/schema-notes/dex.trades.md",
+      "bytes": 1008,
+      "sha256": "99584f26592a658fb06b045f9a6f59372b554eb137a5e64378c1beb5a54b16e4"
+    },
+    {
+      "path": "chains/ethereum/research/schema-notes/dex_evm.trades.md",
+      "bytes": 1048,
+      "sha256": "a137895b3e039da901ee89931a76c693efc6e7726a05a76c9ffd78b148e5d190"
+    },
+    {
+      "path": "chains/ethereum/research/schema-notes/ethereum.blocks.md",
+      "bytes": 694,
+      "sha256": "16fd1e9900235b491b06c9e0c4ebb72fa3f6df559f5e0a9d70bfaf9fc8a9fe41"
+    },
+    {
+      "path": "chains/ethereum/research/schema-notes/ethereum.creation_traces.md",
+      "bytes": 418,
+      "sha256": "93aa4fae7413f0616df566f4f3e36b99e57407856e41b8eedea6db888fca640d"
+    },
+    {
+      "path": "chains/ethereum/research/schema-notes/ethereum.logs.md",
+      "bytes": 697,
+      "sha256": "95c663020d1e9018bd82cd755e497302d349514fa5ff597ca0ebc38feba084a1"
+    },
+    {
+      "path": "chains/ethereum/research/schema-notes/ethereum.traces.md",
+      "bytes": 844,
+      "sha256": "a4caccb3ee60d0de7ade9ecdcda691f9452444a02f29feb2c9efcb5102bf5b40"
+    },
+    {
+      "path": "chains/ethereum/research/schema-notes/ethereum.transactions.md",
+      "bytes": 1046,
+      "sha256": "92966731f9a9d359fca7f1590a2d4de89b9a761a1a47ccbe6795da3c0a4cef6a"
+    },
+    {
+      "path": "chains/ethereum/research/schema-notes/ethereum.withdrawals.md",
+      "bytes": 483,
+      "sha256": "c5ab86ab1e63681432a53b335c47dd47ab14714a25960a42e68a96d00ce7612c"
+    },
+    {
+      "path": "chains/ethereum/research/schema-notes/gas.fees.md",
+      "bytes": 928,
+      "sha256": "bd9e40c331e23bdc31939993ee17738b86f3ebcd13290a145832c47592385188"
+    },
+    {
+      "path": "chains/ethereum/research/schema-notes/target-schemas.json",
+      "bytes": 27450,
+      "sha256": "cd3d8e57eac545ffef712431652e44b65c51bfc274df013e9c091a095a3db253"
+    },
+    {
+      "path": "chains/ethereum/research/schema-notes/tokens.transfers.md",
+      "bytes": 880,
+      "sha256": "9c92b5dcadb5c23597f0a98505682514ee3b3b9bffa7a56d1db63f76fcfcfa91"
+    },
+    {
+      "path": "chains/ethereum/research/sql/8378484.sql",
+      "bytes": 2718,
+      "sha256": "79a169f4e6a971a2f66d737e8adc2353642cf32ba92c3220057523453c0e751d"
+    },
+    {
+      "path": "chains/ethereum/research/sql/8378485.sql",
+      "bytes": 1854,
+      "sha256": "539ceb57fb44db47ecc1c796e3c715efc260d426a111cc9e3fc0402172ff9874"
+    },
+    {
+      "path": "chains/ethereum/research/sql/8378486.sql",
+      "bytes": 1678,
+      "sha256": "1f6a0f1e7b18aa5e076bbe21cee94604567337cf566ddffefdfa69c3081abc47"
+    },
+    {
+      "path": "chains/ethereum/research/sql/8378487.sql",
+      "bytes": 2410,
+      "sha256": "a7c9f5aa5be1e7c210e159dd6c83512bfadd17df30c3b2bfa3530545ab60024f"
+    },
+    {
+      "path": "chains/ethereum/research/sql/8378488.sql",
+      "bytes": 2379,
+      "sha256": "e87b991e9d8d5bed23ab65574a832c635be2b14307e2dccac4367b81aab65e68"
+    },
+    {
+      "path": "chains/ethereum/research/sql/8378489.sql",
+      "bytes": 2872,
+      "sha256": "7b40c9a8e9ef658624e564cddd002a5fd4bf58c9263933db11a7fffe07b14b4c"
+    },
+    {
+      "path": "chains/ethereum/research/sql/8378490.sql",
+      "bytes": 3385,
+      "sha256": "489ed191acc933fb85c8793fd38ecf150093dc69ce78d9e3f6745ea5e15aba8b"
+    },
+    {
+      "path": "chains/ethereum/research/sql/8378491.sql",
+      "bytes": 3319,
+      "sha256": "15748eb346eb60ba9ace6233bf2910d2863e8ce8909946c2c662716fcf571a56"
+    },
+    {
+      "path": "chains/ethereum/research/sql-execution/01-free-probe-response.json",
+      "bytes": 223,
+      "sha256": "305eb24f437ace0db98b204657209626d402f56508eb51e710ef1735afff3fb7"
+    },
+    {
+      "path": "chains/ethereum/research/sql-execution/status.json",
+      "bytes": 404,
+      "sha256": "848de3aca8fde349455f2e54a8c418b3aa53ad1e2de444c3d3d93be01e79d2ca"
+    },
+    {
+      "path": "chains/ethereum/research/unresolved.md",
+      "bytes": 2150,
+      "sha256": "71c44969b6abf37280dcea4e696cadd1e7e0aefd327de4bf41e2cf4a8c8b0263"
+    },
+    {
+      "path": "publication/CHANGES.md",
+      "bytes": 450,
+      "sha256": "feedb055098ed927e10f963da8beba5189f36ee86099732fb228bb321a1c88eb"
+    },
+    {
+      "path": "publication/CHECKS.md",
+      "bytes": 1911,
+      "sha256": "d566b6840ab9999b1d69fcd953a8a7592f74834b90cfe3c53b79e60148d349d9"
+    },
+    {
+      "path": "publication/FILES.md",
+      "bytes": 11032,
+      "sha256": "576f6c28250b1222577658e58305f9d2898c8ad7389af9483a1fa82319687872"
+    },
+    {
+      "path": "publication/checks.json",
+      "bytes": 145594,
+      "sha256": "93fc7a35d504be8fae4a0f7ca3a8b6c0054766f1715c5f8a2dcda94ab2a55b6f"
+    },
+    {
+      "path": "publication/manifest.json",
+      "bytes": null,
+      "sha256": null
+    }
+  ]
+}

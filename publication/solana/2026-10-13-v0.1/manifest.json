@@ -1,0 +1,647 @@
+{
+  "edition": "Solana v0.1",
+  "publication_date": "2026-10-13",
+  "solana_file_count": 128,
+  "files": [
+    {
+      "path": "chains/solana/00-overview/assets/data-world.drawio",
+      "source_sha256": "254faf63f231c8140ece5e29cd177193d6f04b2e878058e366e01897c3ccc55e",
+      "published_sha256": "254faf63f231c8140ece5e29cd177193d6f04b2e878058e366e01897c3ccc55e"
+    },
+    {
+      "path": "chains/solana/00-overview/assets/data-world.svg",
+      "source_sha256": "632756fe9e9ee370596f822c99c2bda5437838e43db2b0ee66e25ef0cf30a28c",
+      "published_sha256": "632756fe9e9ee370596f822c99c2bda5437838e43db2b0ee66e25ef0cf30a28c"
+    },
+    {
+      "path": "chains/solana/00-overview/index.md",
+      "source_sha256": "ff7ec02ce466366995f1731a7168366d0609c17299a352d4e051329c9d0a7828",
+      "published_sha256": "ff7ec02ce466366995f1731a7168366d0609c17299a352d4e051329c9d0a7828"
+    },
+    {
+      "path": "chains/solana/01-ledger/01-slot-block.md",
+      "source_sha256": "2361ed19a527e17dc59a8bd9036c95b99d31dea35bb1478d5ee967e821b42b52",
+      "published_sha256": "2361ed19a527e17dc59a8bd9036c95b99d31dea35bb1478d5ee967e821b42b52"
+    },
+    {
+      "path": "chains/solana/01-ledger/02-time-finality.md",
+      "source_sha256": "6064ffad8b16c75cf59d631797093420c5a25f15e0eba553c3348e9ef825484e",
+      "published_sha256": "6064ffad8b16c75cf59d631797093420c5a25f15e0eba553c3348e9ef825484e"
+    },
+    {
+      "path": "chains/solana/01-ledger/03-block-table.md",
+      "source_sha256": "7290891149c199ea09f7837aec5741b6f3d14a5bc497357fe89acb20e7eb07a3",
+      "published_sha256": "7290891149c199ea09f7837aec5741b6f3d14a5bc497357fe89acb20e7eb07a3"
+    },
+    {
+      "path": "chains/solana/01-ledger/assets/block-to-tables.drawio",
+      "source_sha256": "cf0c1e1408985b508cce2196378cec16ddfc90b70fbabd0f2f9ba7c8f38aace6",
+      "published_sha256": "cf0c1e1408985b508cce2196378cec16ddfc90b70fbabd0f2f9ba7c8f38aace6"
+    },
+    {
+      "path": "chains/solana/01-ledger/assets/block-to-tables.svg",
+      "source_sha256": "c66cfe46ba7a1fe0f412dca12047b444cf135de4b30b9085d8f6272ee71fab3a",
+      "published_sha256": "c66cfe46ba7a1fe0f412dca12047b444cf135de4b30b9085d8f6272ee71fab3a"
+    },
+    {
+      "path": "chains/solana/01-ledger/assets/ledger-coordinates.drawio",
+      "source_sha256": "de31cef6b8352e2407114d945cd69ee3d66f2128d309eb52e0e6008c51536d60",
+      "published_sha256": "de31cef6b8352e2407114d945cd69ee3d66f2128d309eb52e0e6008c51536d60"
+    },
+    {
+      "path": "chains/solana/01-ledger/assets/ledger-coordinates.svg",
+      "source_sha256": "cc6fec93a9270d6e7e1675a880ff1e30155b98f1ec4b6de8423c32f3b8b46dc5",
+      "published_sha256": "cc6fec93a9270d6e7e1675a880ff1e30155b98f1ec4b6de8423c32f3b8b46dc5"
+    },
+    {
+      "path": "chains/solana/01-ledger/index.md",
+      "source_sha256": "d2ab86ac9fc2dc82859651dbaedfcb08054f64cc280caedcda9bd37a7c532bff",
+      "published_sha256": "d2ab86ac9fc2dc82859651dbaedfcb08054f64cc280caedcda9bd37a7c532bff"
+    },
+    {
+      "path": "chains/solana/01-ledger/summary.md",
+      "source_sha256": "79d8a978a3860dfc38aeef007dc0690530d296ced6c04cedaa64f8946d92cb00",
+      "published_sha256": "79d8a978a3860dfc38aeef007dc0690530d296ced6c04cedaa64f8946d92cb00"
+    },
+    {
+      "path": "chains/solana/02-transactions/01-message.md",
+      "source_sha256": "1d41bb92b303946f064db3563c5d2f7c86061c05673e6d3d1b828de19eb2a238",
+      "published_sha256": "1d41bb92b303946f064db3563c5d2f7c86061c05673e6d3d1b828de19eb2a238"
+    },
+    {
+      "path": "chains/solana/02-transactions/02-signers-fees.md",
+      "source_sha256": "41ac372a4e4f6a2078f56d8b1571fab1c5210ec13b4f697a2e11199cf49012f5",
+      "published_sha256": "41ac372a4e4f6a2078f56d8b1571fab1c5210ec13b4f697a2e11199cf49012f5"
+    },
+    {
+      "path": "chains/solana/02-transactions/03-results.md",
+      "source_sha256": "87b3f2e141df0d5953c73b804672cf1860034b650f47837fcd540f1200fca316",
+      "published_sha256": "87b3f2e141df0d5953c73b804672cf1860034b650f47837fcd540f1200fca316"
+    },
+    {
+      "path": "chains/solana/02-transactions/04-versions-alt.md",
+      "source_sha256": "ec2ed1f788f5c366cd870d98c5e99cfc6502798ed0b93162c038197cb67d835d",
+      "published_sha256": "ec2ed1f788f5c366cd870d98c5e99cfc6502798ed0b93162c038197cb67d835d"
+    },
+    {
+      "path": "chains/solana/02-transactions/assets/request-result.drawio",
+      "source_sha256": "1a47d4098842c2be585cc01b83bc303687f758a6a96b4e3a5e45fbf3fe12b682",
+      "published_sha256": "1a47d4098842c2be585cc01b83bc303687f758a6a96b4e3a5e45fbf3fe12b682"
+    },
+    {
+      "path": "chains/solana/02-transactions/assets/request-result.svg",
+      "source_sha256": "244da5046342abb580a7eb42f4686adbb61a26e8aa9e311c4914d93a24b45109",
+      "published_sha256": "244da5046342abb580a7eb42f4686adbb61a26e8aa9e311c4914d93a24b45109"
+    },
+    {
+      "path": "chains/solana/02-transactions/assets/roles-fees.drawio",
+      "source_sha256": "30a79c9b847293e4f75504d969ebf438e02148714efd3a3c5062d366b117ce05",
+      "published_sha256": "30a79c9b847293e4f75504d969ebf438e02148714efd3a3c5062d366b117ce05"
+    },
+    {
+      "path": "chains/solana/02-transactions/assets/roles-fees.svg",
+      "source_sha256": "9f90a77945bb7cde3a2d5a51114d5c7735de1c770d6c3539ee0a01f7412424a6",
+      "published_sha256": "9f90a77945bb7cde3a2d5a51114d5c7735de1c770d6c3539ee0a01f7412424a6"
+    },
+    {
+      "path": "chains/solana/02-transactions/assets/v0-addresses.drawio",
+      "source_sha256": "42df1c919e371af730695a759c455d1969b14f63d29edce31f14f03b72eeda16",
+      "published_sha256": "42df1c919e371af730695a759c455d1969b14f63d29edce31f14f03b72eeda16"
+    },
+    {
+      "path": "chains/solana/02-transactions/assets/v0-addresses.svg",
+      "source_sha256": "0ca5bab5c4e0e6519699436d07144837dfb9ea7d912488ee96b5f15cf709d3f2",
+      "published_sha256": "0ca5bab5c4e0e6519699436d07144837dfb9ea7d912488ee96b5f15cf709d3f2"
+    },
+    {
+      "path": "chains/solana/02-transactions/index.md",
+      "source_sha256": "930ce4086fc1a691e18a1238b3bc58f1fa61956bfa5188d97862370920f4f326",
+      "published_sha256": "930ce4086fc1a691e18a1238b3bc58f1fa61956bfa5188d97862370920f4f326"
+    },
+    {
+      "path": "chains/solana/02-transactions/summary.md",
+      "source_sha256": "1ab3c8979da0771ddf2393eeb45fcfb28608df1099b8a38cbbade49ac06e2967",
+      "published_sha256": "1ab3c8979da0771ddf2393eeb45fcfb28608df1099b8a38cbbade49ac06e2967"
+    },
+    {
+      "path": "chains/solana/03-instructions/01-program-instruction.md",
+      "source_sha256": "f8b0ae7ea752bd1ad329142be9ef3cb18352b3e9e1bf681b4d1ef541514de009",
+      "published_sha256": "f8b0ae7ea752bd1ad329142be9ef3cb18352b3e9e1bf681b4d1ef541514de009"
+    },
+    {
+      "path": "chains/solana/03-instructions/02-cpi.md",
+      "source_sha256": "f9071b5b9c9fac359722bb32bc84109b287b11ccd95c299f903ba24c4cc1d4d3",
+      "published_sha256": "f9071b5b9c9fac359722bb32bc84109b287b11ccd95c299f903ba24c4cc1d4d3"
+    },
+    {
+      "path": "chains/solana/03-instructions/03-trace-logs.md",
+      "source_sha256": "afb452a04e100c899708aff8390bd20f8602ff0f59a19d37db5fad84345cc7b4",
+      "published_sha256": "afb452a04e100c899708aff8390bd20f8602ff0f59a19d37db5fad84345cc7b4"
+    },
+    {
+      "path": "chains/solana/03-instructions/04-decoding.md",
+      "source_sha256": "58f43a6d7f7a486ff62a6482950af32df18020262b2d89849b1badb9216b3e57",
+      "published_sha256": "58f43a6d7f7a486ff62a6482950af32df18020262b2d89849b1badb9216b3e57"
+    },
+    {
+      "path": "chains/solana/03-instructions/assets/action-program.drawio",
+      "source_sha256": "fc590ac496bdcbeaf59a0f871e12dabed7ca44acd16a5e144e01939b3505aa57",
+      "published_sha256": "fc590ac496bdcbeaf59a0f871e12dabed7ca44acd16a5e144e01939b3505aa57"
+    },
+    {
+      "path": "chains/solana/03-instructions/assets/action-program.svg",
+      "source_sha256": "bf12bf4e080f31a9930d699c2ec17e420048ee733014f0301045c086029a53a4",
+      "published_sha256": "bf12bf4e080f31a9930d699c2ec17e420048ee733014f0301045c086029a53a4"
+    },
+    {
+      "path": "chains/solana/03-instructions/assets/cpi-tree.drawio",
+      "source_sha256": "21cc2650d41ce046e6265eff7ada38fc6ff50d1784910edc24ee116c972c1951",
+      "published_sha256": "21cc2650d41ce046e6265eff7ada38fc6ff50d1784910edc24ee116c972c1951"
+    },
+    {
+      "path": "chains/solana/03-instructions/assets/cpi-tree.svg",
+      "source_sha256": "a197d7696b1a1efe0384d0b09bfbe66db5e126da8cbafc5d284d14738c0b930f",
+      "published_sha256": "a197d7696b1a1efe0384d0b09bfbe66db5e126da8cbafc5d284d14738c0b930f"
+    },
+    {
+      "path": "chains/solana/03-instructions/assets/raw-decoded.drawio",
+      "source_sha256": "663fcb7adf954daee85554990c4053b52b9690f0d4e25838769b0027c361aa55",
+      "published_sha256": "663fcb7adf954daee85554990c4053b52b9690f0d4e25838769b0027c361aa55"
+    },
+    {
+      "path": "chains/solana/03-instructions/assets/raw-decoded.svg",
+      "source_sha256": "ba71684629574fb32640bc00d070b7a62c0c697e0fa0a1d2950582b29c33dfa2",
+      "published_sha256": "ba71684629574fb32640bc00d070b7a62c0c697e0fa0a1d2950582b29c33dfa2"
+    },
+    {
+      "path": "chains/solana/03-instructions/index.md",
+      "source_sha256": "70fa83cc1f9204899ea4750ecbc6612e02c7891c94add2ad436ab1c921250c75",
+      "published_sha256": "70fa83cc1f9204899ea4750ecbc6612e02c7891c94add2ad436ab1c921250c75"
+    },
+    {
+      "path": "chains/solana/03-instructions/summary.md",
+      "source_sha256": "467b8f6344f9daaf09b9a1bcb05767aecadf09326083aea849c0a48efe40666b",
+      "published_sha256": "467b8f6344f9daaf09b9a1bcb05767aecadf09326083aea849c0a48efe40666b"
+    },
+    {
+      "path": "chains/solana/04-accounts/01-account-owner.md",
+      "source_sha256": "c536e98cd57a87b0a5b1d7873d21dbfc9fc1141b8cd8d8e0e264db3f81cc2c6e",
+      "published_sha256": "c536e98cd57a87b0a5b1d7873d21dbfc9fc1141b8cd8d8e0e264db3f81cc2c6e"
+    },
+    {
+      "path": "chains/solana/04-accounts/02-authority-pda.md",
+      "source_sha256": "63eb9d9f2a75e948bf02da154a2aaa8e55f08d0a25c9b871b89afb4f0608b56b",
+      "published_sha256": "63eb9d9f2a75e948bf02da154a2aaa8e55f08d0a25c9b871b89afb4f0608b56b"
+    },
+    {
+      "path": "chains/solana/04-accounts/03-activity-lifecycle.md",
+      "source_sha256": "181ebdf300b5b8eaf157154879cac4012274f653a318d487486cbca38e7663f3",
+      "published_sha256": "181ebdf300b5b8eaf157154879cac4012274f653a318d487486cbca38e7663f3"
+    },
+    {
+      "path": "chains/solana/04-accounts/assets/account-fields.drawio",
+      "source_sha256": "7dd244dda81ae8cf52545b8a310bf8db03bf406f7460a54a2984531016f64c82",
+      "published_sha256": "7dd244dda81ae8cf52545b8a310bf8db03bf406f7460a54a2984531016f64c82"
+    },
+    {
+      "path": "chains/solana/04-accounts/assets/account-fields.svg",
+      "source_sha256": "701c6bee1d09536e79a3c1eb788bebf1d74db1e48ba61e3031d650988d5f78eb",
+      "published_sha256": "701c6bee1d09536e79a3c1eb788bebf1d74db1e48ba61e3031d650988d5f78eb"
+    },
+    {
+      "path": "chains/solana/04-accounts/assets/owner-authority.drawio",
+      "source_sha256": "506b8fd2f71412b1dc1c33b82124e10f8be0581856b4326e3b73af04718da091",
+      "published_sha256": "506b8fd2f71412b1dc1c33b82124e10f8be0581856b4326e3b73af04718da091"
+    },
+    {
+      "path": "chains/solana/04-accounts/assets/owner-authority.svg",
+      "source_sha256": "e5cdc771eee79044676dbfb7c86529e6792f915f4e7f172ef867bfda0037f41a",
+      "published_sha256": "e5cdc771eee79044676dbfb7c86529e6792f915f4e7f172ef867bfda0037f41a"
+    },
+    {
+      "path": "chains/solana/04-accounts/assets/state-history.drawio",
+      "source_sha256": "78a5ee3c72ab84136c99fbaad391fc8a4d9e4837d93597ac7ceb9b78d886c2c6",
+      "published_sha256": "78a5ee3c72ab84136c99fbaad391fc8a4d9e4837d93597ac7ceb9b78d886c2c6"
+    },
+    {
+      "path": "chains/solana/04-accounts/assets/state-history.svg",
+      "source_sha256": "bccc75d7634b4562487b9929ec55d051c84c00379337d44c04c78ee0c29aabab",
+      "published_sha256": "bccc75d7634b4562487b9929ec55d051c84c00379337d44c04c78ee0c29aabab"
+    },
+    {
+      "path": "chains/solana/04-accounts/index.md",
+      "source_sha256": "c7b8435d730ede14a4adcfc14328069590c804350cd34e3ba06c4a934b7f7170",
+      "published_sha256": "c7b8435d730ede14a4adcfc14328069590c804350cd34e3ba06c4a934b7f7170"
+    },
+    {
+      "path": "chains/solana/04-accounts/summary.md",
+      "source_sha256": "ee50d290976782de5296406bd6d340cbad307dea41fabab17606f99beb885541",
+      "published_sha256": "ee50d290976782de5296406bd6d340cbad307dea41fabab17606f99beb885541"
+    },
+    {
+      "path": "chains/solana/05-tokens/01-sol.md",
+      "source_sha256": "052a90166d8587f6a40cf594f9ced50a8608644aec3c16a2ffcbdaebbe0469ce",
+      "published_sha256": "052a90166d8587f6a40cf594f9ced50a8608644aec3c16a2ffcbdaebbe0469ce"
+    },
+    {
+      "path": "chains/solana/05-tokens/02-mint-token-account.md",
+      "source_sha256": "247c2e5447a22e01135a4512933a0efa7db178513bf39bb043255d2dda8a23a9",
+      "published_sha256": "247c2e5447a22e01135a4512933a0efa7db178513bf39bb043255d2dda8a23a9"
+    },
+    {
+      "path": "chains/solana/05-tokens/03-units-token2022.md",
+      "source_sha256": "9d497441a102ced1e224acb4b6ab802a0c611ae3d052fbd1a5d707e4df43ca67",
+      "published_sha256": "9d497441a102ced1e224acb4b6ab802a0c611ae3d052fbd1a5d707e4df43ca67"
+    },
+    {
+      "path": "chains/solana/05-tokens/04-transfers-balances.md",
+      "source_sha256": "59f07202f2ead75812bf69c05fee4ba45e54b3187d83bf44e5f7ef9e6794f80d",
+      "published_sha256": "59f07202f2ead75812bf69c05fee4ba45e54b3187d83bf44e5f7ef9e6794f80d"
+    },
+    {
+      "path": "chains/solana/05-tokens/assets/amount-units.drawio",
+      "source_sha256": "0d80a8a4300c4c614f6f5c44132a24e81e84adcf40b4eb0e7f024c9c6b7e9fc2",
+      "published_sha256": "0d80a8a4300c4c614f6f5c44132a24e81e84adcf40b4eb0e7f024c9c6b7e9fc2"
+    },
+    {
+      "path": "chains/solana/05-tokens/assets/amount-units.svg",
+      "source_sha256": "522536a7da14d2db463695f3920f8e00b6f0ce960fc0e0dc2a3639eb2eef3fe4",
+      "published_sha256": "522536a7da14d2db463695f3920f8e00b6f0ce960fc0e0dc2a3639eb2eef3fe4"
+    },
+    {
+      "path": "chains/solana/05-tokens/assets/asset-model.drawio",
+      "source_sha256": "04ab59f0a61a886a48014bb2a56628031487af482691117bfbfd6087de8ae695",
+      "published_sha256": "04ab59f0a61a886a48014bb2a56628031487af482691117bfbfd6087de8ae695"
+    },
+    {
+      "path": "chains/solana/05-tokens/assets/asset-model.svg",
+      "source_sha256": "6d478d747f7682cbfee6a93e734f71ed1411c012a61848ec8286dbca692dac74",
+      "published_sha256": "6d478d747f7682cbfee6a93e734f71ed1411c012a61848ec8286dbca692dac74"
+    },
+    {
+      "path": "chains/solana/05-tokens/assets/ata-model.drawio",
+      "source_sha256": "986ffa1f76eac6df05c66144e80c3a33d1c4a979f0b0560299e805195e736279",
+      "published_sha256": "986ffa1f76eac6df05c66144e80c3a33d1c4a979f0b0560299e805195e736279"
+    },
+    {
+      "path": "chains/solana/05-tokens/assets/ata-model.svg",
+      "source_sha256": "588f70be104c75854729946b975a6a6f4622ac4540b57572a923e368bd26f7bb",
+      "published_sha256": "588f70be104c75854729946b975a6a6f4622ac4540b57572a923e368bd26f7bb"
+    },
+    {
+      "path": "chains/solana/05-tokens/assets/flow-stock.drawio",
+      "source_sha256": "586078fdf1214918d46f08f7fcccaf3227eb0cea1248f21d6a6240230e018a0b",
+      "published_sha256": "586078fdf1214918d46f08f7fcccaf3227eb0cea1248f21d6a6240230e018a0b"
+    },
+    {
+      "path": "chains/solana/05-tokens/assets/flow-stock.svg",
+      "source_sha256": "64aca61ebef993afb6171a3881918b303fe0fd74dac9c704a7f1be943df83678",
+      "published_sha256": "64aca61ebef993afb6171a3881918b303fe0fd74dac9c704a7f1be943df83678"
+    },
+    {
+      "path": "chains/solana/05-tokens/index.md",
+      "source_sha256": "72e36f744a5e47383c569466dbf7e833e2a13eba9258a37d0a36119c1af6ed89",
+      "published_sha256": "72e36f744a5e47383c569466dbf7e833e2a13eba9258a37d0a36119c1af6ed89"
+    },
+    {
+      "path": "chains/solana/05-tokens/summary.md",
+      "source_sha256": "a67194e35098de7914ace17dc6adf53b5987b9bdb9f5808f417029d2e47dc514",
+      "published_sha256": "a67194e35098de7914ace17dc6adf53b5987b9bdb9f5808f417029d2e47dc514"
+    },
+    {
+      "path": "chains/solana/06-warehouse/01-rpc-lineage.md",
+      "source_sha256": "1d8772b218a0a4d6826b880984d8e75b672237bf514e2fe82014976c9c6e5ecf",
+      "published_sha256": "1d8772b218a0a4d6826b880984d8e75b672237bf514e2fe82014976c9c6e5ecf"
+    },
+    {
+      "path": "chains/solana/06-warehouse/02-joins.md",
+      "source_sha256": "09e4dfa71dd6b5af7b9f1f9447340b38a174396d0b82077e347458782919598c",
+      "published_sha256": "09e4dfa71dd6b5af7b9f1f9447340b38a174396d0b82077e347458782919598c"
+    },
+    {
+      "path": "chains/solana/06-warehouse/03-arrays.md",
+      "source_sha256": "665f9c11652a822be4892cb26165b0144583e72d3065eb0087ef02ce77c3832f",
+      "published_sha256": "665f9c11652a822be4892cb26165b0144583e72d3065eb0087ef02ce77c3832f"
+    },
+    {
+      "path": "chains/solana/06-warehouse/04-quality.md",
+      "source_sha256": "f92f4fbfba7814290fb51e1bd18fd686d93f011e770a5070f930b8d380b90228",
+      "published_sha256": "f92f4fbfba7814290fb51e1bd18fd686d93f011e770a5070f930b8d380b90228"
+    },
+    {
+      "path": "chains/solana/06-warehouse/assets/array-alignment.drawio",
+      "source_sha256": "a95fc9e019acf740641a45526c91e3c5f42a9a694c45a1bb443338260f926133",
+      "published_sha256": "a95fc9e019acf740641a45526c91e3c5f42a9a694c45a1bb443338260f926133"
+    },
+    {
+      "path": "chains/solana/06-warehouse/assets/array-alignment.svg",
+      "source_sha256": "8992d58810c2d733eec47ee8ef5e8290498a9c7021a9b77ab244101adcbd60ae",
+      "published_sha256": "8992d58810c2d733eec47ee8ef5e8290498a9c7021a9b77ab244101adcbd60ae"
+    },
+    {
+      "path": "chains/solana/06-warehouse/assets/data-lineage.drawio",
+      "source_sha256": "3d1310af2c937480a59d06bda9d503c1bc52f93de2626f160f4b132b1b85f1c8",
+      "published_sha256": "3d1310af2c937480a59d06bda9d503c1bc52f93de2626f160f4b132b1b85f1c8"
+    },
+    {
+      "path": "chains/solana/06-warehouse/assets/data-lineage.svg",
+      "source_sha256": "7a886a8281aa6c9401ac2fcadc8bbab72de5fc4280336a686c284517010e5f9a",
+      "published_sha256": "7a886a8281aa6c9401ac2fcadc8bbab72de5fc4280336a686c284517010e5f9a"
+    },
+    {
+      "path": "chains/solana/06-warehouse/assets/join-fanout.drawio",
+      "source_sha256": "81a097fe4257aa2bc3dbfe933aa0cc170a7e12090251f706505c603a1c02150c",
+      "published_sha256": "81a097fe4257aa2bc3dbfe933aa0cc170a7e12090251f706505c603a1c02150c"
+    },
+    {
+      "path": "chains/solana/06-warehouse/assets/join-fanout.svg",
+      "source_sha256": "3eae12882763181d73078919863443f8ef3737ff799db24771ee5bd933775cbb",
+      "published_sha256": "3eae12882763181d73078919863443f8ef3737ff799db24771ee5bd933775cbb"
+    },
+    {
+      "path": "chains/solana/06-warehouse/index.md",
+      "source_sha256": "f0633f8aa6de9d485ba1d04a64ad09c69958d726c545bf6c6a2e6352aa6129b0",
+      "published_sha256": "f0633f8aa6de9d485ba1d04a64ad09c69958d726c545bf6c6a2e6352aa6129b0"
+    },
+    {
+      "path": "chains/solana/06-warehouse/summary.md",
+      "source_sha256": "4bd1f13f6636fbb49a20bceddfcd36e771f871d58de3892a09fcc28694e9c682",
+      "published_sha256": "4bd1f13f6636fbb49a20bceddfcd36e771f871d58de3892a09fcc28694e9c682"
+    },
+    {
+      "path": "chains/solana/07-cases/01-sol-case.md",
+      "source_sha256": "fcff7bc9a95658cc6a048754b5a62ce35017f155c4928cff14c65f56fdf24797",
+      "published_sha256": "fcff7bc9a95658cc6a048754b5a62ce35017f155c4928cff14c65f56fdf24797"
+    },
+    {
+      "path": "chains/solana/07-cases/02-token-case.md",
+      "source_sha256": "d5fd62d8c613da96059ca141d345178a7ad433bd6b9a53ccbaba3546ef300050",
+      "published_sha256": "d5fd62d8c613da96059ca141d345178a7ad433bd6b9a53ccbaba3546ef300050"
+    },
+    {
+      "path": "chains/solana/07-cases/03-swap-case.md",
+      "source_sha256": "406abf588d193ddfa9219556e45131378667b29b278fa98c0e846ec4a862ef27",
+      "published_sha256": "406abf588d193ddfa9219556e45131378667b29b278fa98c0e846ec4a862ef27"
+    },
+    {
+      "path": "chains/solana/07-cases/assets/sol-case.drawio",
+      "source_sha256": "fc1eb987d62f28beb35207a3bbee56cc77bbe4c36f2d9ebcab3b2c95778b4674",
+      "published_sha256": "fc1eb987d62f28beb35207a3bbee56cc77bbe4c36f2d9ebcab3b2c95778b4674"
+    },
+    {
+      "path": "chains/solana/07-cases/assets/sol-case.svg",
+      "source_sha256": "e5a7310847ee641c652ac98813eb50e357f37020bb9e1b6e19ead9428abf15d2",
+      "published_sha256": "e5a7310847ee641c652ac98813eb50e357f37020bb9e1b6e19ead9428abf15d2"
+    },
+    {
+      "path": "chains/solana/07-cases/assets/swap-calls.drawio",
+      "source_sha256": "5815cb3b9eb744be079ae10a0e02047b9f73c3a10823133bc7b4a1dec8af4977",
+      "published_sha256": "5815cb3b9eb744be079ae10a0e02047b9f73c3a10823133bc7b4a1dec8af4977"
+    },
+    {
+      "path": "chains/solana/07-cases/assets/swap-calls.svg",
+      "source_sha256": "67044dffcf8de3bf16ae8cd367eec2f2977589142994c389f7c5ee63b2f6e636",
+      "published_sha256": "67044dffcf8de3bf16ae8cd367eec2f2977589142994c389f7c5ee63b2f6e636"
+    },
+    {
+      "path": "chains/solana/07-cases/assets/swap-lifecycle.drawio",
+      "source_sha256": "69092c5bdf97a5e2b9e838109f97b525ad622069522b9a8410a1554c9bca3405",
+      "published_sha256": "69092c5bdf97a5e2b9e838109f97b525ad622069522b9a8410a1554c9bca3405"
+    },
+    {
+      "path": "chains/solana/07-cases/assets/swap-lifecycle.svg",
+      "source_sha256": "9f5af24e0a9f48ca9ca7790713e363a8a082f399a4987150aa2e75d3c432da2f",
+      "published_sha256": "9f5af24e0a9f48ca9ca7790713e363a8a082f399a4987150aa2e75d3c432da2f"
+    },
+    {
+      "path": "chains/solana/07-cases/assets/token-case.drawio",
+      "source_sha256": "6cd4e2dd4b074dd9583ee997bd5da516aea93732e47f56b8731987adfe47ec88",
+      "published_sha256": "6cd4e2dd4b074dd9583ee997bd5da516aea93732e47f56b8731987adfe47ec88"
+    },
+    {
+      "path": "chains/solana/07-cases/assets/token-case.svg",
+      "source_sha256": "d90f69a635c46dca1a95bc151b17ed46439d5ef354e66a86d4334f95ebe0ecb1",
+      "published_sha256": "d90f69a635c46dca1a95bc151b17ed46439d5ef354e66a86d4334f95ebe0ecb1"
+    },
+    {
+      "path": "chains/solana/07-cases/index.md",
+      "source_sha256": "56fbde66fdfda29ca0828866d619d420af6c26787e40f7342ed9312ca2447f9a",
+      "published_sha256": "56fbde66fdfda29ca0828866d619d420af6c26787e40f7342ed9312ca2447f9a"
+    },
+    {
+      "path": "chains/solana/07-cases/summary.md",
+      "source_sha256": "9bd05dd6366917245b0e8bed23b0ac244f3dbcf754082fd8761115f40d3937f3",
+      "published_sha256": "9bd05dd6366917245b0e8bed23b0ac244f3dbcf754082fd8761115f40d3937f3"
+    },
+    {
+      "path": "chains/solana/08-analysis/01-wallet-flow.md",
+      "source_sha256": "b0a9b2121f3942c7062e45fad8f4245e364888693b0ccb5dcc914d6dec326560",
+      "published_sha256": "b0a9b2121f3942c7062e45fad8f4245e364888693b0ccb5dcc914d6dec326560"
+    },
+    {
+      "path": "chains/solana/08-analysis/02-protocol.md",
+      "source_sha256": "0b1ac786ac62d7864c0b209951c151c8cc870e851bc60bcc43f803e8d4e62785",
+      "published_sha256": "0b1ac786ac62d7864c0b209951c151c8cc870e851bc60bcc43f803e8d4e62785"
+    },
+    {
+      "path": "chains/solana/08-analysis/03-reproducibility.md",
+      "source_sha256": "246bcf350d0c9018ba76ede400419d6f63f7872194db288cad3c09ea5b11dde8",
+      "published_sha256": "246bcf350d0c9018ba76ede400419d6f63f7872194db288cad3c09ea5b11dde8"
+    },
+    {
+      "path": "chains/solana/08-analysis/assets/analysis-route.drawio",
+      "source_sha256": "2ad14fbba3eee8c85a718a6a0e08a9806a8ebc31a02d788c71c4b19ba29c0872",
+      "published_sha256": "2ad14fbba3eee8c85a718a6a0e08a9806a8ebc31a02d788c71c4b19ba29c0872"
+    },
+    {
+      "path": "chains/solana/08-analysis/assets/analysis-route.svg",
+      "source_sha256": "507912e2ecc81a0a80567c1d5dc4e5afcf9bec354310f4eda1fda6f7859ae1cc",
+      "published_sha256": "507912e2ecc81a0a80567c1d5dc4e5afcf9bec354310f4eda1fda6f7859ae1cc"
+    },
+    {
+      "path": "chains/solana/08-analysis/assets/protocol-evidence.drawio",
+      "source_sha256": "dac57a08aadd06e831a76a80f1b480fe8c26b52ade344330f9551f4d8167aa5a",
+      "published_sha256": "dac57a08aadd06e831a76a80f1b480fe8c26b52ade344330f9551f4d8167aa5a"
+    },
+    {
+      "path": "chains/solana/08-analysis/assets/protocol-evidence.svg",
+      "source_sha256": "b9942d1602ce6ea6cf0467a8897b9f336c4abc6d883719833cf314006cd19c07",
+      "published_sha256": "b9942d1602ce6ea6cf0467a8897b9f336c4abc6d883719833cf314006cd19c07"
+    },
+    {
+      "path": "chains/solana/08-analysis/assets/wallet-flow.drawio",
+      "source_sha256": "22a442ef71cad6abb8e1bebefe31599513e0c5363efd91936f6fed0e8bc7eb35",
+      "published_sha256": "22a442ef71cad6abb8e1bebefe31599513e0c5363efd91936f6fed0e8bc7eb35"
+    },
+    {
+      "path": "chains/solana/08-analysis/assets/wallet-flow.svg",
+      "source_sha256": "0d7c06ab843be50af18b340105fffce618543fb2076ab5c30574f6710ddad28b",
+      "published_sha256": "0d7c06ab843be50af18b340105fffce618543fb2076ab5c30574f6710ddad28b"
+    },
+    {
+      "path": "chains/solana/08-analysis/index.md",
+      "source_sha256": "8558d1643c4e41874e19956f5442deec94666f581c2f186001e1519647fa80b7",
+      "published_sha256": "8558d1643c4e41874e19956f5442deec94666f581c2f186001e1519647fa80b7"
+    },
+    {
+      "path": "chains/solana/08-analysis/summary.md",
+      "source_sha256": "befbbd94c0859b6129b0a6f078d17a70731bea4f0c0a1cb80203001c2d89d8e1",
+      "published_sha256": "befbbd94c0859b6129b0a6f078d17a70731bea4f0c0a1cb80203001c2d89d8e1"
+    },
+    {
+      "path": "chains/solana/99-final-summary/assets/complete-map.drawio",
+      "source_sha256": "9d7779953f828acb6c009df4df5327b382e8b2bc721e979319824d34212a48a3",
+      "published_sha256": "9d7779953f828acb6c009df4df5327b382e8b2bc721e979319824d34212a48a3"
+    },
+    {
+      "path": "chains/solana/99-final-summary/assets/complete-map.svg",
+      "source_sha256": "1cf9aa834acfc081e5e57c4f82ac377cb292522a5ff7b6aa526e3e4cf05f9225",
+      "published_sha256": "1cf9aa834acfc081e5e57c4f82ac377cb292522a5ff7b6aa526e3e4cf05f9225"
+    },
+    {
+      "path": "chains/solana/99-final-summary/index.md",
+      "source_sha256": "e320b05970f8cb6d569ceab55f9121cddd244a94cdccc55d049dfc667b2844d4",
+      "published_sha256": "e320b05970f8cb6d569ceab55f9121cddd244a94cdccc55d049dfc667b2844d4"
+    },
+    {
+      "path": "chains/solana/README.md",
+      "source_sha256": "0193deb957d19bf2d78d6bb6f97ecbeb66735d90f5b060db62581651e762dcad",
+      "published_sha256": "b06a05428a0404c5b4f1756b7e1dc3c2bcf0621345cd07cfb5cb4b88eca635bf"
+    },
+    {
+      "path": "chains/solana/_project/cache/cases/sol.json",
+      "source_sha256": "7a80dccf13bfb697f0e1b5bef7dc71763a1cfb67e1f73b280fb9026423c6c6d2",
+      "published_sha256": "7a80dccf13bfb697f0e1b5bef7dc71763a1cfb67e1f73b280fb9026423c6c6d2"
+    },
+    {
+      "path": "chains/solana/_project/cache/cases/swap.json",
+      "source_sha256": "2eae817dc64344c51fb4bc345ddbc9941df53178a29163e693e1f6a751157c00",
+      "published_sha256": "2eae817dc64344c51fb4bc345ddbc9941df53178a29163e693e1f6a751157c00"
+    },
+    {
+      "path": "chains/solana/_project/cache/cases/token.json",
+      "source_sha256": "6850a18bd673d5d40cea0b3570dd89d55cfc2d038c7fd598131af86c1a3cb182",
+      "published_sha256": "6850a18bd673d5d40cea0b3570dd89d55cfc2d038c7fd598131af86c1a3cb182"
+    },
+    {
+      "path": "chains/solana/_project/cache/queries/8435082.sql",
+      "source_sha256": "aa4f53a29e8443ac9ff5c5dfd20e4cbcafca8198feb48b48ff71969511536d20",
+      "published_sha256": "aa4f53a29e8443ac9ff5c5dfd20e4cbcafca8198feb48b48ff71969511536d20"
+    },
+    {
+      "path": "chains/solana/_project/cache/queries/8435196.sql",
+      "source_sha256": "f038f7968519faed352d36557d68b58d47b47b83472db7bf4e57c32031e0bc6b",
+      "published_sha256": "f038f7968519faed352d36557d68b58d47b47b83472db7bf4e57c32031e0bc6b"
+    },
+    {
+      "path": "chains/solana/_project/cache/queries/8435262.sql",
+      "source_sha256": "2c8409135ad0fafe8d4985b9601fa3ffa55b26c322c1e50c4fda399d123887e9",
+      "published_sha256": "2c8409135ad0fafe8d4985b9601fa3ffa55b26c322c1e50c4fda399d123887e9"
+    },
+    {
+      "path": "chains/solana/_project/cache/queries/8435308.sql",
+      "source_sha256": "03b3e9fc7d77a24d2fceef3ad9fe5d9a549ce64ec96f96517b055b3b7157bc72",
+      "published_sha256": "03b3e9fc7d77a24d2fceef3ad9fe5d9a549ce64ec96f96517b055b3b7157bc72"
+    },
+    {
+      "path": "chains/solana/_project/cache/queries/8435334.sql",
+      "source_sha256": "2032594df17d999824e39b239fa6eb7c5bbc3fbd86b5cfe522479a8e7e010ecd",
+      "published_sha256": "2032594df17d999824e39b239fa6eb7c5bbc3fbd86b5cfe522479a8e7e010ecd"
+    },
+    {
+      "path": "chains/solana/_project/cache/queries/8435352.sql",
+      "source_sha256": "b3f4dcfe825c0d5f7fef6ba7f5c875505e50ec51b165a2e56cb551a4215b1d6b",
+      "published_sha256": "b3f4dcfe825c0d5f7fef6ba7f5c875505e50ec51b165a2e56cb551a4215b1d6b"
+    },
+    {
+      "path": "chains/solana/_project/cache/queries/8435384.sql",
+      "source_sha256": "1205f974243b40ff1f1a473e2d9df7d80bedeaf4d1589746f257f3d6725b4e6c",
+      "published_sha256": "1205f974243b40ff1f1a473e2d9df7d80bedeaf4d1589746f257f3d6725b4e6c"
+    },
+    {
+      "path": "chains/solana/_project/cache/queries/8435396.sql",
+      "source_sha256": "1a6f12b922e97be3be0ed432f380a09f571f59c2a4e8077bf48f1075288a68a7",
+      "published_sha256": "1a6f12b922e97be3be0ed432f380a09f571f59c2a4e8077bf48f1075288a68a7"
+    },
+    {
+      "path": "chains/solana/_project/cache/queries/8435414.sql",
+      "source_sha256": "4b2b64151f7b0853b6b807a9711de6bb1144ded05c4171d9b7b86e50dcf2bed8",
+      "published_sha256": "4b2b64151f7b0853b6b807a9711de6bb1144ded05c4171d9b7b86e50dcf2bed8"
+    },
+    {
+      "path": "chains/solana/_project/cache/queries/8435487.sql",
+      "source_sha256": "3258c8a30663e21c5ab260781900a9f8f4cf7c47df2d12f1708b10026fc8f52d",
+      "published_sha256": "3258c8a30663e21c5ab260781900a9f8f4cf7c47df2d12f1708b10026fc8f52d"
+    },
+    {
+      "path": "chains/solana/_project/cache/queries/8435548.sql",
+      "source_sha256": "6d359403043227724db8322c2627b5b942576c3578a525f926dcd9acfb79fff0",
+      "published_sha256": "6d359403043227724db8322c2627b5b942576c3578a525f926dcd9acfb79fff0"
+    },
+    {
+      "path": "chains/solana/_project/cache/queries/8435564.sql",
+      "source_sha256": "a339def243c58e992d84d46e3b86525ed06f6d13ee1f02942ea81fc040cb8907",
+      "published_sha256": "a339def243c58e992d84d46e3b86525ed06f6d13ee1f02942ea81fc040cb8907"
+    },
+    {
+      "path": "chains/solana/_project/cache/queries/8435570.sql",
+      "source_sha256": "333df70c11f7f69cad302ae4496ab6e4605ba7e6406c8a963883a7ecb850760c",
+      "published_sha256": "333df70c11f7f69cad302ae4496ab6e4605ba7e6406c8a963883a7ecb850760c"
+    },
+    {
+      "path": "chains/solana/_project/cross-review.md",
+      "source_sha256": "683386a14bbbb2e880f4ab9862ed9221bb070cfc85c57e8fcea582cb596d5a0d",
+      "published_sha256": "31b3a4b2a39299721e862f7037ef7bb10ddfca71fb31d3154381300541af613f"
+    },
+    {
+      "path": "chains/solana/_project/overnight-report.md",
+      "source_sha256": "b790fe2b002036715f7c3c048aa3a5060845ab2427b017306f3d47ba62e0cb7e",
+      "published_sha256": "483ab9cfaa27b6bbc95373dfc0fe36a82f1011d521b5b142666f26496715dab9"
+    },
+    {
+      "path": "chains/solana/_project/qa-report.md",
+      "source_sha256": "080359d8d11ec83c25d6112bcf96df0db792803365cbfdb5228f0d3cea31a606",
+      "published_sha256": "78104b4ca47f6a2fced69801d95ef91f8c0482d188a7fe2cda1a900d9f79345b"
+    },
+    {
+      "path": "chains/solana/_project/review-log.json",
+      "source_sha256": "7fb98acd720fd981dd5f13920b965e1db7866b184297bd44dcda532fabbf9e39",
+      "published_sha256": "7fb98acd720fd981dd5f13920b965e1db7866b184297bd44dcda532fabbf9e39"
+    },
+    {
+      "path": "chains/solana/_project/sql-validation.json",
+      "source_sha256": "05fe3ee31854dbee295289bb3e2061f45398263c6db8e0f304e61a3e97301a07",
+      "published_sha256": "05fe3ee31854dbee295289bb3e2061f45398263c6db8e0f304e61a3e97301a07"
+    },
+    {
+      "path": "chains/solana/references/cases.md",
+      "source_sha256": "092bfc7e3aa06284f39b8299eac06b3e24076fdee98d45f004bd485581cc9f74",
+      "published_sha256": "a869daccde67231148327c2cf956a951d1d38271135e68d80966f56b8d9a4155"
+    },
+    {
+      "path": "chains/solana/references/dune-queries.md",
+      "source_sha256": "733483365e85fdb18c2e7fcbd89dda80a9ed3ea5f8d7f000ed3e74dafb87dca2",
+      "published_sha256": "c5a81eeac3b38ce383f6d9a5aafdb2ed5b8ea9319ac965635a1a5e9fb83aebdb"
+    },
+    {
+      "path": "chains/solana/references/dune-tables.md",
+      "source_sha256": "e04d0dc55998349869fec1b661bbf6d33c0e2956431cd286f8b9d815d9be4226",
+      "published_sha256": "e04d0dc55998349869fec1b661bbf6d33c0e2956431cd286f8b9d815d9be4226"
+    },
+    {
+      "path": "chains/solana/references/field-relations.md",
+      "source_sha256": "41d272464749075f2eab439eac1f57e2f2decd1614e76ba2ca97717fb30ccf17",
+      "published_sha256": "41d272464749075f2eab439eac1f57e2f2decd1614e76ba2ca97717fb30ccf17"
+    },
+    {
+      "path": "chains/solana/references/glossary.md",
+      "source_sha256": "85d85da1b5c1ade9184cd906afc154435de0b57cbfa974cce63d77bcdd690def",
+      "published_sha256": "85d85da1b5c1ade9184cd906afc154435de0b57cbfa974cce63d77bcdd690def"
+    },
+    {
+      "path": "chains/solana/references/sources.md",
+      "source_sha256": "b9863e36fe73bfd7962b47a7f242a4e495261d363ccd57ea6019f5c2b6c831da",
+      "published_sha256": "b9863e36fe73bfd7962b47a7f242a4e495261d363ccd57ea6019f5c2b6c831da"
+    }
+  ]
+}
