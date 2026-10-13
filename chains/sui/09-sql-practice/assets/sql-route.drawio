@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram id="book-figure" name="单笔事务的查询路径｜SQL Investigation">
+    <mxGraphModel page="1" pageWidth="1000" pageHeight="610" grid="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="单笔事务的查询路径｜SQL Investigation" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=none;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;strokeColor=none;align=left;fontSize=27;" vertex="1" parent="1">
+          <mxGeometry x="25" y="18" width="950" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Dune 示例状态另行标明；接口案例验证不等于 SQL VERIFIED" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=none;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;strokeColor=none;align=left;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="25" y="64" width="950" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="n0" value="&lt;b&gt;固定入口&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Digest + Date + Network&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;完整标识与时间过滤&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=#F2F6FA;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;" vertex="1" parent="1">
+          <mxGeometry x="25" y="135" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="&lt;b&gt;读取请求与结果&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Transaction / Effects&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;Kind · PTB · Status · Gas&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=#F2F6FA;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;" vertex="1" parent="1">
+          <mxGeometry x="365" y="135" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="&lt;b&gt;历史位置&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Checkpoint&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;序号、时间、Epoch&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=#F2F6FA;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;" vertex="1" parent="1">
+          <mxGeometry x="705" y="135" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="&lt;b&gt;对象状态&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Relations + Object Versions&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;先 LEFT JOIN，再看覆盖&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=#ECF5F0;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;" vertex="1" parent="1">
+          <mxGeometry x="25" y="355" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="&lt;b&gt;业务信息&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Move Calls + Events&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;目标、类型、金额、授权&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=#ECF5F0;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;" vertex="1" parent="1">
+          <mxGeometry x="365" y="355" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="&lt;b&gt;形成证据包&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Reproducible Evidence&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;SQL · 参数 · 来源 · 状态&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=#FFF6E8;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;" vertex="1" parent="1">
+          <mxGeometry x="705" y="355" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" value="查询" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontFamily=PingFang SC;fontSize=13;fontColor=#425D73;labelBackgroundColor=#FFFFFF;strokeColor=#7890A3;strokeWidth=1.5;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="n0" target="n1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" value="定位" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontFamily=PingFang SC;fontSize=13;fontColor=#425D73;labelBackgroundColor=#FFFFFF;strokeColor=#7890A3;strokeWidth=1.5;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="n1" target="n2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" value="展开" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontFamily=PingFang SC;fontSize=13;fontColor=#425D73;labelBackgroundColor=#FFFFFF;strokeColor=#7890A3;strokeWidth=1.5;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="n1" target="n4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" value="交叉核对" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontFamily=PingFang SC;fontSize=13;fontColor=#425D73;labelBackgroundColor=#FFFFFF;strokeColor=#7890A3;strokeWidth=1.5;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="n3" target="n4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" value="记录" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontFamily=PingFang SC;fontSize=13;fontColor=#425D73;labelBackgroundColor=#FFFFFF;strokeColor=#7890A3;strokeWidth=1.5;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="n4" target="n5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" value="先限定事务，再读取需要的分支；不要用全表 JOIN 代替问题定义。Bound the transaction before expansion." style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=none;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;strokeColor=none;align=left;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="25" y="535" width="950" height="55" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

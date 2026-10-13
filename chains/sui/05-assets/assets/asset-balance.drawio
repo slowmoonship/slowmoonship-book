@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram id="book-figure" name="资金表示与余额｜Assets and Balances">
+    <mxGraphModel page="1" pageWidth="1000" pageHeight="610" grid="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="资金表示与余额｜Assets and Balances" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=none;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;strokeColor=none;align=left;fontSize=27;" vertex="1" parent="1">
+          <mxGeometry x="25" y="18" width="950" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="总余额需要同一币种、主体与时点 Total balance needs matching scope" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=none;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;strokeColor=none;align=left;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="25" y="64" width="950" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="n0" value="&lt;b&gt;离散资产对象&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Coin&amp;lt;T&amp;gt;&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;ID + Balance&amp;lt;T&amp;gt; · 多枚 Coin&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=#ECF5F0;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;" vertex="1" parent="1">
+          <mxGeometry x="25" y="135" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="&lt;b&gt;对象内数值&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Balance&amp;lt;T&amp;gt;&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;本身没有独立 Object ID&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=#F2F6FA;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;" vertex="1" parent="1">
+          <mxGeometry x="365" y="135" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="&lt;b&gt;地址余额&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Address Balance&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;每地址 / 币种的累加器值&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=#ECF5F0;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;" vertex="1" parent="1">
+          <mxGeometry x="705" y="135" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="&lt;b&gt;资金操作&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Split / Merge / Send&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;对象数量变化不等于价值变化&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=#F2F6FA;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;" vertex="1" parent="1">
+          <mxGeometry x="25" y="355" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="&lt;b&gt;地址总余额&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Total Balance&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;Coin 余额之和 + 地址余额&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=#FFF6E8;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;" vertex="1" parent="1">
+          <mxGeometry x="365" y="355" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="&lt;b&gt;费用&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Gas&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;Coin 或地址余额；承担者可不同&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=#FFF6E8;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;" vertex="1" parent="1">
+          <mxGeometry x="705" y="355" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" value="含有" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontFamily=PingFang SC;fontSize=13;fontColor=#425D73;labelBackgroundColor=#FFFFFF;strokeColor=#7890A3;strokeWidth=1.5;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="n0" target="n1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" value="操作" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontFamily=PingFang SC;fontSize=13;fontColor=#425D73;labelBackgroundColor=#FFFFFF;strokeColor=#7890A3;strokeWidth=1.5;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="n0" target="n3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" value="合并口径" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontFamily=PingFang SC;fontSize=13;fontColor=#425D73;labelBackgroundColor=#FFFFFF;strokeColor=#7890A3;strokeWidth=1.5;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="n0" target="n4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" value="合并口径" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontFamily=PingFang SC;fontSize=13;fontColor=#425D73;labelBackgroundColor=#FFFFFF;strokeColor=#7890A3;strokeWidth=1.5;endArrow=block;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="1" source="n2" target="n4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" value="不要把 Coin 历史行求和当作当前余额；对象表不能默认覆盖地址累加器。Historical rows are not live inventory." style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=none;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;strokeColor=none;align=left;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="25" y="535" width="950" height="55" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

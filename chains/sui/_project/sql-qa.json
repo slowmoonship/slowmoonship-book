@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "local_sql_count": 9,
+  "remote_new_sql_verified": 0,
+  "errors": [],
+  "limit": "Static review only, not executed or parsed by the Dune engine."
+}

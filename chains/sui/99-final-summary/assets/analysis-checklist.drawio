@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram id="book-figure" name="分析陌生事务｜A Transaction Investigation">
+    <mxGraphModel page="1" pageWidth="1000" pageHeight="610" grid="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="分析陌生事务｜A Transaction Investigation" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=none;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;strokeColor=none;align=left;fontSize=27;" vertex="1" parent="1">
+          <mxGeometry x="25" y="18" width="950" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="把 Runtime Map 与 Data Map 连接成可操作的阅读顺序" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=none;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;strokeColor=none;align=left;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="25" y="64" width="950" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="n0" value="&lt;b&gt;固定身份&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Network / Digest / Checkpoint&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;保存完整标识与来源&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=#F2F6FA;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;" vertex="1" parent="1">
+          <mxGeometry x="25" y="135" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="&lt;b&gt;读请求&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Sender / PTB / Inputs&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;画出 Commands 与 Result Flow&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=#F2F6FA;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;" vertex="1" parent="1">
+          <mxGeometry x="365" y="135" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="&lt;b&gt;看权限与依赖&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Ownership / Versions&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;哪些状态允许使用&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=#F2F6FA;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;" vertex="1" parent="1">
+          <mxGeometry x="705" y="135" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="&lt;b&gt;核对结果&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Effects / Gas / Objects&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;成功与业务变化分开验证&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=#ECF5F0;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;" vertex="1" parent="1">
+          <mxGeometry x="25" y="355" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="&lt;b&gt;理解业务&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Types / Events / Balances&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;按函数与状态证据解释&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=#ECF5F0;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;" vertex="1" parent="1">
+          <mxGeometry x="365" y="355" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="&lt;b&gt;保留边界&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;SQL / Evidence / Limits&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;粒度、执行状态与不确定项&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=#FFF6E8;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;" vertex="1" parent="1">
+          <mxGeometry x="705" y="355" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" value="定位" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontFamily=PingFang SC;fontSize=13;fontColor=#425D73;labelBackgroundColor=#FFFFFF;strokeColor=#7890A3;strokeWidth=1.5;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="n0" target="n1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" value="条件" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontFamily=PingFang SC;fontSize=13;fontColor=#425D73;labelBackgroundColor=#FFFFFF;strokeColor=#7890A3;strokeWidth=1.5;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="n1" target="n2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" value="核对结果" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontFamily=PingFang SC;fontSize=13;fontColor=#425D73;labelBackgroundColor=#FFFFFF;strokeColor=#7890A3;strokeWidth=1.5;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="n0" target="n3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" value="解释" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontFamily=PingFang SC;fontSize=13;fontColor=#425D73;labelBackgroundColor=#FFFFFF;strokeColor=#7890A3;strokeWidth=1.5;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="n3" target="n4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" value="交付" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontFamily=PingFang SC;fontSize=13;fontColor=#425D73;labelBackgroundColor=#FFFFFF;strokeColor=#7890A3;strokeWidth=1.5;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="n4" target="n5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" value="能够说明观察到了什么、用什么证据，以及尚不能证明什么，就是基本分析能力。" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=none;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;strokeColor=none;align=left;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="25" y="535" width="950" height="55" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

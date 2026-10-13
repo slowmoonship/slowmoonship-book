@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram id="book-figure" name="Sui Core Tables Data Model｜六表数据地图">
+    <mxGraphModel page="1" pageWidth="1100" pageHeight="760" grid="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Sui Core Tables Data Model｜六表数据地图" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=none;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;strokeColor=none;align=left;fontSize=27;" vertex="1" parent="1">
+          <mxGeometry x="25" y="18" width="1050" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="教学入口 Teaching model · API Catalog 2026-10-10 · 连线为分析路径，非声明的 FK" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=none;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;strokeColor=none;align=left;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="25" y="64" width="1050" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="cp" value="&lt;b&gt;检查点&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:17px&quot;&gt;sui.checkpoints&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;sequence_number · epoch&lt;br&gt;一行一个 Checkpoint&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=#F2F6FA;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;" vertex="1" parent="1">
+          <mxGeometry x="380" y="125" width="340" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="tx" value="&lt;b&gt;事务&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:17px&quot;&gt;sui.transactions&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;transaction_digest · checkpoint&lt;br&gt;一行一个事务记录&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=#F2F6FA;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;" vertex="1" parent="1">
+          <mxGeometry x="380" y="290" width="340" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="rel" value="&lt;b&gt;事务—对象关系&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:17px&quot;&gt;sui.transaction_objects&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;transaction_digest · object_id · version&lt;br&gt;输入角色 / 状态 · 候选键需验证&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=#F2F6FA;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;" vertex="1" parent="1">
+          <mxGeometry x="30" y="475" width="330" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="call" value="&lt;b&gt;Move 调用&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:17px&quot;&gt;sui.move_call&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;transaction_digest · package · cmd_idx&lt;br&gt;一行一个记录的调用&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=#F2F6FA;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;" vertex="1" parent="1">
+          <mxGeometry x="385" y="475" width="330" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="event" value="&lt;b&gt;显式事件&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:17px&quot;&gt;sui.events&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;transaction_digest · event_index&lt;br&gt;一行一个 Event&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=#F2F6FA;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;" vertex="1" parent="1">
+          <mxGeometry x="740" y="475" width="330" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="obj" value="&lt;b&gt;对象历史&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:17px&quot;&gt;sui.objects&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;object_id · version · owner_type&lt;br&gt;版本 / 状态记录，非单纯当前快照&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=#ECF5F0;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;" vertex="1" parent="1">
+          <mxGeometry x="30" y="635" width="330" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="cp-tx" value="sequence_number = checkpoint  ·  1 → 多" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontFamily=PingFang SC;fontSize=13;fontColor=#425D73;labelBackgroundColor=#FFFFFF;strokeColor=#7890A3;strokeWidth=1.5;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="cp" target="tx">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tx-rel" value="transaction_digest · 0..多" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontFamily=PingFang SC;fontSize=13;fontColor=#425D73;labelBackgroundColor=#FFFFFF;strokeColor=#7890A3;strokeWidth=1.5;endArrow=block;exitX=0.1;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="tx" target="rel">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tx-call" value="transaction_digest · 0..多" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontFamily=PingFang SC;fontSize=13;fontColor=#425D73;labelBackgroundColor=#FFFFFF;strokeColor=#7890A3;strokeWidth=1.5;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="tx" target="call">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tx-event" value="transaction_digest · 0..多" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontFamily=PingFang SC;fontSize=13;fontColor=#425D73;labelBackgroundColor=#FFFFFF;strokeColor=#7890A3;strokeWidth=1.5;endArrow=block;exitX=0.9;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="tx" target="event">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel-obj" value="object_id + version · 可选匹配" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontFamily=PingFang SC;fontSize=13;fontColor=#425D73;labelBackgroundColor=#FFFFFF;strokeColor=#7890A3;strokeWidth=1.5;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="rel" target="obj">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="warning" value="不同分支不能先展开后一起 COUNT(*)&lt;br&gt;Independent grains · Aggregate before joining" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=#FFF6E8;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;" vertex="1" parent="1">
+          <mxGeometry x="410" y="645" width="650" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

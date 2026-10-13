@@ -1,0 +1,29 @@
+{
+  "verification_date": "2026-10-10",
+  "reviewed_by": "primary author technical review; no external reviewer",
+  "scope": [
+    "current official lifecycle and object docs",
+    "Transaction/Effects/Gas source snapshots",
+    "Dune API Catalog and existing Query SQL",
+    "official GraphQL A/B/C and USDC metadata"
+  ],
+  "checks": {
+    "network_sequencing_vs_object_versioning": "PASS_WITH_DOC_TERMINOLOGY_CONFLICT_DISCLOSED",
+    "mixed_owned_shared_ptb_atomicity": "PASS",
+    "object_version_not_always_plus_one": "PASS",
+    "event_not_all_state_change": "PASS",
+    "checkpoint_finality_epoch_boundaries": "PASS",
+    "coin_plus_address_balance": "PASS",
+    "gas_formula_and_negative_net_fee": "PASS",
+    "cases_A_B_C_calculation_and_exact_identifiers": "PASS",
+    "Dune_schema_and_grain_static_review": "PASS",
+    "new_Dune_SQL_execution": "NOT_VERIFIED_402",
+    "existing_SQL_latest_execution_byte_version_match": "NOT_PROVEN"
+  },
+  "unresolved": [
+    "current Dune data uniqueness and join coverage",
+    "new local SQL engine execution",
+    "full Dune historical range and freshest checkpoint",
+    "complete Pool lifetime beyond observed slice"
+  ]
+}

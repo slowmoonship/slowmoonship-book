@@ -1,0 +1,640 @@
+{
+  "edition": "zh-CN v0.1",
+  "verification_date": "2026-10-10",
+  "modules": 10,
+  "chapters": [
+    {
+      "number": "00",
+      "title": "From Runtime to Data",
+      "path": "00-from-runtime-to-data/index.md",
+      "dependencies": [],
+      "diagrams": [
+        "00-from-runtime-to-data/assets/runtime-map.drawio",
+        "00-from-runtime-to-data/assets/data-map.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 2833
+    },
+    {
+      "number": "01.index",
+      "title": "Object Model｜对象身份与历史",
+      "path": "01-object-model/index.md",
+      "dependencies": [
+        "00-from-runtime-to-data/index.md"
+      ],
+      "diagrams": [
+        "01-object-model/assets/object-history.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 617
+    },
+    {
+      "number": "01.01-identity",
+      "title": "ID、Version、Digest 与 Object Reference",
+      "path": "01-object-model/01-identity.md",
+      "dependencies": [
+        "01-object-model/index.md"
+      ],
+      "diagrams": [
+        "01-object-model/assets/object-history.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 559
+    },
+    {
+      "number": "01.02-lifecycle",
+      "title": "创建、修改、转移、包装与删除",
+      "path": "01-object-model/02-lifecycle.md",
+      "dependencies": [
+        "01-object-model/index.md"
+      ],
+      "diagrams": [
+        "01-object-model/assets/object-history.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 598
+    },
+    {
+      "number": "01.summary",
+      "title": "模块总结",
+      "path": "01-object-model/summary.md",
+      "dependencies": [
+        "01-object-model/index.md"
+      ],
+      "diagrams": [
+        "01-object-model/assets/object-history.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 369
+    },
+    {
+      "number": "02.index",
+      "title": "Transaction / PTB｜请求与结果流",
+      "path": "02-transactions/index.md",
+      "dependencies": [
+        "01-object-model/summary.md"
+      ],
+      "diagrams": [
+        "02-transactions/assets/ptb-flow.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 664
+    },
+    {
+      "number": "02.01-envelope",
+      "title": "Sender、签名、Gas 与有效期",
+      "path": "02-transactions/01-envelope.md",
+      "dependencies": [
+        "02-transactions/index.md"
+      ],
+      "diagrams": [
+        "02-transactions/assets/ptb-flow.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 513
+    },
+    {
+      "number": "02.02-result-flow",
+      "title": "Inputs、Commands 与 Result Flow",
+      "path": "02-transactions/02-result-flow.md",
+      "dependencies": [
+        "02-transactions/index.md"
+      ],
+      "diagrams": [
+        "02-transactions/assets/ptb-flow.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 504
+    },
+    {
+      "number": "02.summary",
+      "title": "模块总结",
+      "path": "02-transactions/summary.md",
+      "dependencies": [
+        "02-transactions/index.md"
+      ],
+      "diagrams": [
+        "02-transactions/assets/ptb-flow.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 304
+    },
+    {
+      "number": "03.index",
+      "title": "Ownership / Execution｜权限与执行条件",
+      "path": "03-ownership/index.md",
+      "dependencies": [
+        "02-transactions/summary.md"
+      ],
+      "diagrams": [
+        "03-ownership/assets/ownership-paths.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 755
+    },
+    {
+      "number": "03.01-forms",
+      "title": "所有权形式与包装边界",
+      "path": "03-ownership/01-forms.md",
+      "dependencies": [
+        "03-ownership/index.md"
+      ],
+      "diagrams": [
+        "03-ownership/assets/ownership-paths.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 561
+    },
+    {
+      "number": "03.02-coordination",
+      "title": "共同排序、对象版本与并行执行",
+      "path": "03-ownership/02-coordination.md",
+      "dependencies": [
+        "03-ownership/index.md"
+      ],
+      "diagrams": [
+        "03-ownership/assets/ownership-paths.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 630
+    },
+    {
+      "number": "03.summary",
+      "title": "模块总结",
+      "path": "03-ownership/summary.md",
+      "dependencies": [
+        "03-ownership/index.md"
+      ],
+      "diagrams": [
+        "03-ownership/assets/ownership-paths.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 328
+    },
+    {
+      "number": "04.index",
+      "title": "Move for Data｜看懂类型和调用",
+      "path": "04-move/index.md",
+      "dependencies": [
+        "03-ownership/summary.md"
+      ],
+      "diagrams": [
+        "04-move/assets/move-structure.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 602
+    },
+    {
+      "number": "04.01-types-packages",
+      "title": "Package、Module、Function、Type 与升级",
+      "path": "04-move/01-types-packages.md",
+      "dependencies": [
+        "04-move/index.md"
+      ],
+      "diagrams": [
+        "04-move/assets/move-structure.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 546
+    },
+    {
+      "number": "04.02-dynamic-fields",
+      "title": "Dynamic Field、子对象与数据可见性",
+      "path": "04-move/02-dynamic-fields.md",
+      "dependencies": [
+        "04-move/index.md"
+      ],
+      "diagrams": [
+        "04-move/assets/move-structure.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 577
+    },
+    {
+      "number": "04.summary",
+      "title": "模块总结",
+      "path": "04-move/summary.md",
+      "dependencies": [
+        "04-move/index.md"
+      ],
+      "diagrams": [
+        "04-move/assets/move-structure.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 308
+    },
+    {
+      "number": "05.index",
+      "title": "SUI / Coin / Balance｜资金的表示",
+      "path": "05-assets/index.md",
+      "dependencies": [
+        "04-move/summary.md"
+      ],
+      "diagrams": [
+        "05-assets/assets/asset-balance.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 635
+    },
+    {
+      "number": "05.01-coins",
+      "title": "Coin<T>、Balance<T> 与 Split / Merge",
+      "path": "05-assets/01-coins.md",
+      "dependencies": [
+        "05-assets/index.md"
+      ],
+      "diagrams": [
+        "05-assets/assets/asset-balance.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 541
+    },
+    {
+      "number": "05.02-address-gas",
+      "title": "Address Balance、费用与余额核对",
+      "path": "05-assets/02-address-gas.md",
+      "dependencies": [
+        "05-assets/index.md"
+      ],
+      "diagrams": [
+        "05-assets/assets/asset-balance.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 575
+    },
+    {
+      "number": "05.summary",
+      "title": "模块总结",
+      "path": "05-assets/summary.md",
+      "dependencies": [
+        "05-assets/index.md"
+      ],
+      "diagrams": [
+        "05-assets/assets/asset-balance.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 317
+    },
+    {
+      "number": "06.index",
+      "title": "Effects / Events｜执行留下什么",
+      "path": "06-execution/index.md",
+      "dependencies": [
+        "05-assets/summary.md"
+      ],
+      "diagrams": [
+        "06-execution/assets/result-evidence.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 671
+    },
+    {
+      "number": "06.01-effects",
+      "title": "成功、失败、对象输出与 Gas",
+      "path": "06-execution/01-effects.md",
+      "dependencies": [
+        "06-execution/index.md"
+      ],
+      "diagrams": [
+        "06-execution/assets/result-evidence.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 556
+    },
+    {
+      "number": "06.02-events",
+      "title": "显式事件、状态与业务证明",
+      "path": "06-execution/02-events.md",
+      "dependencies": [
+        "06-execution/index.md"
+      ],
+      "diagrams": [
+        "06-execution/assets/result-evidence.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 552
+    },
+    {
+      "number": "06.summary",
+      "title": "模块总结",
+      "path": "06-execution/summary.md",
+      "dependencies": [
+        "06-execution/index.md"
+      ],
+      "diagrams": [
+        "06-execution/assets/result-evidence.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 314
+    },
+    {
+      "number": "07.index",
+      "title": "Checkpoint / Epoch｜组织历史",
+      "path": "07-history/index.md",
+      "dependencies": [
+        "06-execution/summary.md"
+      ],
+      "diagrams": [
+        "07-history/assets/history-time.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 658
+    },
+    {
+      "number": "07.01-checkpoint",
+      "title": "包含关系、顺序与最终确认",
+      "path": "07-history/01-checkpoint.md",
+      "dependencies": [
+        "07-history/index.md"
+      ],
+      "diagrams": [
+        "07-history/assets/history-time.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 531
+    },
+    {
+      "number": "07.02-time-epoch",
+      "title": "时间、Epoch 与网络指标",
+      "path": "07-history/02-time-epoch.md",
+      "dependencies": [
+        "07-history/index.md"
+      ],
+      "diagrams": [
+        "07-history/assets/history-time.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 566
+    },
+    {
+      "number": "07.summary",
+      "title": "模块总结",
+      "path": "07-history/summary.md",
+      "dependencies": [
+        "07-history/index.md"
+      ],
+      "diagrams": [
+        "07-history/assets/history-time.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 301
+    },
+    {
+      "number": "08.index",
+      "title": "Dune Data Model｜六表与数据质量",
+      "path": "08-dune-model/index.md",
+      "dependencies": [
+        "07-history/summary.md"
+      ],
+      "diagrams": [
+        "08-dune-model/assets/warehouse-grains.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 602
+    },
+    {
+      "number": "08.01-spine",
+      "title": "Checkpoint 与 Transaction 主干",
+      "path": "08-dune-model/01-spine.md",
+      "dependencies": [
+        "08-dune-model/index.md"
+      ],
+      "diagrams": [
+        "08-dune-model/assets/warehouse-grains.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 465
+    },
+    {
+      "number": "08.02-branches",
+      "title": "Object、Move Call 与 Event 分支",
+      "path": "08-dune-model/02-branches.md",
+      "dependencies": [
+        "08-dune-model/index.md"
+      ],
+      "diagrams": [
+        "08-dune-model/assets/warehouse-grains.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 482
+    },
+    {
+      "number": "08.03-quality",
+      "title": "候选键、覆盖率与 JOIN 放大",
+      "path": "08-dune-model/03-quality.md",
+      "dependencies": [
+        "08-dune-model/index.md"
+      ],
+      "diagrams": [
+        "08-dune-model/assets/warehouse-grains.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 577
+    },
+    {
+      "number": "08.summary",
+      "title": "模块总结",
+      "path": "08-dune-model/summary.md",
+      "dependencies": [
+        "08-dune-model/index.md"
+      ],
+      "diagrams": [
+        "08-dune-model/assets/warehouse-grains.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 322
+    },
+    {
+      "number": "09.index",
+      "title": "SQL Practice｜从事务到业务",
+      "path": "09-sql-practice/index.md",
+      "dependencies": [
+        "08-dune-model/summary.md"
+      ],
+      "diagrams": [
+        "09-sql-practice/assets/sql-route.drawio"
+      ],
+      "sql_status": "STATIC_CHECKED",
+      "status": "VALIDATED",
+      "chinese_prose_characters": 626
+    },
+    {
+      "number": "09.01-one-transaction",
+      "title": "单笔事务、对象与费用",
+      "path": "09-sql-practice/01-one-transaction.md",
+      "dependencies": [
+        "09-sql-practice/index.md"
+      ],
+      "diagrams": [
+        "09-sql-practice/assets/sql-route.drawio"
+      ],
+      "sql_status": "STATIC_CHECKED",
+      "status": "VALIDATED",
+      "chinese_prose_characters": 396
+    },
+    {
+      "number": "09.02-swap",
+      "title": "从 Package 调用验证 Swap",
+      "path": "09-sql-practice/02-swap.md",
+      "dependencies": [
+        "09-sql-practice/index.md"
+      ],
+      "diagrams": [
+        "09-sql-practice/assets/sql-route.drawio"
+      ],
+      "sql_status": "STATIC_CHECKED",
+      "status": "VALIDATED",
+      "chinese_prose_characters": 524
+    },
+    {
+      "number": "09.03-object-history",
+      "title": "追踪一个对象的历史",
+      "path": "09-sql-practice/03-object-history.md",
+      "dependencies": [
+        "09-sql-practice/index.md"
+      ],
+      "diagrams": [
+        "09-sql-practice/assets/sql-route.drawio"
+      ],
+      "sql_status": "STATIC_CHECKED",
+      "status": "VALIDATED",
+      "chinese_prose_characters": 532
+    },
+    {
+      "number": "09.04-existing-queries",
+      "title": "从已有 Query 复用网络指标",
+      "path": "09-sql-practice/04-existing-queries.md",
+      "dependencies": [
+        "09-sql-practice/index.md"
+      ],
+      "diagrams": [
+        "08-dune-model/assets/warehouse-grains.drawio"
+      ],
+      "sql_status": "STATIC_CHECKED",
+      "status": "VALIDATED",
+      "chinese_prose_characters": 583
+    },
+    {
+      "number": "09.summary",
+      "title": "模块总结",
+      "path": "09-sql-practice/summary.md",
+      "dependencies": [
+        "09-sql-practice/index.md"
+      ],
+      "diagrams": [
+        "09-sql-practice/assets/sql-route.drawio"
+      ],
+      "sql_status": "STATIC_CHECKED",
+      "status": "VALIDATED",
+      "chinese_prose_characters": 341
+    },
+    {
+      "number": "10.index",
+      "title": "Analysis / Audit｜从证据到结论",
+      "path": "10-analysis/index.md",
+      "dependencies": [
+        "09-sql-practice/summary.md"
+      ],
+      "diagrams": [
+        "10-analysis/assets/audit-evidence.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 712
+    },
+    {
+      "number": "10.01-wallet",
+      "title": "钱包活动、余额与资金流边界",
+      "path": "10-analysis/01-wallet.md",
+      "dependencies": [
+        "10-analysis/index.md"
+      ],
+      "diagrams": [
+        "10-analysis/assets/audit-evidence.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 567
+    },
+    {
+      "number": "10.02-protocol",
+      "title": "协议用户、流动性与可复核分析",
+      "path": "10-analysis/02-protocol.md",
+      "dependencies": [
+        "10-analysis/index.md"
+      ],
+      "diagrams": [
+        "10-analysis/assets/audit-evidence.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 567
+    },
+    {
+      "number": "10.summary",
+      "title": "模块总结",
+      "path": "10-analysis/summary.md",
+      "dependencies": [
+        "10-analysis/index.md"
+      ],
+      "diagrams": [
+        "10-analysis/assets/audit-evidence.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 334
+    },
+    {
+      "number": "99",
+      "title": "分析一笔陌生事务",
+      "path": "99-final-summary/index.md",
+      "dependencies": [
+        "09-sql-practice/summary.md",
+        "10-analysis/summary.md"
+      ],
+      "diagrams": [
+        "99-final-summary/assets/analysis-checklist.drawio"
+      ],
+      "sql_status": "NOT_APPLICABLE",
+      "status": "COMPLETE",
+      "chinese_prose_characters": 715
+    }
+  ],
+  "dune_sql_status": "BLOCKED_402",
+  "updated_at": "2026-10-10T15:08:06.219662+08:00",
+  "chinese_prose_characters": 25830
+}

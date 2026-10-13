@@ -1,0 +1,15 @@
+{
+  "query_id": 8348462,
+  "name": "SUI_V1_ADS_001_NET_STATUS | SUI_ADS_001_网络状态快照",
+  "description": "",
+  "query_sql": "WITH daily AS (\n    SELECT\n        * -- 读取 DWS 每日网络指标\n    FROM query_8347640\n    WHERE date \u003c CURRENT_DATE\n),\n\nlatest_date AS (\n    SELECT\n        MAX(date) AS date -- 最近一个完整自然日\n    FROM daily\n)\n\nSELECT\n    d.date, -- 指标所属日期\n    d.max_checkpoint_gap_seconds, -- 当日最大 Checkpoint Gap\n    d.user_transaction_blocks, -- 用户 Transaction Blocks\n    d.active_senders, -- 活跃发送地址\n    d.user_execution_success_rate_pct, -- 用户交易执行成功率\n    d.shared_tx_share_pct, -- Shared Object 交易占比\n    d.move_calls, -- Move Call 总量\n    d.avg_transactions_per_ptb -- PTB 平均 transaction_count\nFROM daily d\nINNER JOIN latest_date l\n    ON d.date = l.date;",
+  "owner": "slowmoonship",
+  "is_private": false,
+  "is_archived": false,
+  "is_unsaved": false,
+  "is_temp": false,
+  "version": 4,
+  "query_engine": "v2 Dune SQL",
+  "tags": [],
+  "parameters": []
+}

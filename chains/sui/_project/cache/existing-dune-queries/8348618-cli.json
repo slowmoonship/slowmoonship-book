@@ -1,0 +1,15 @@
+{
+  "query_id": 8348618,
+  "name": "SUI_ADS_002_DAILY_TRAND | 每日趋势数据",
+  "description": "",
+  "query_sql": "SELECT\n    date, -- 日期\n    checkpoint_count, -- Checkpoint 数量\n    p95_checkpoint_gap_seconds, -- Checkpoint Gap P95\n    p99_checkpoint_gap_seconds, -- Checkpoint Gap P99\n    max_checkpoint_gap_seconds, -- Checkpoint 最大 Gap\n    network_transaction_blocks, -- 全网 Transaction Blocks\n    network_transactions, -- 全网 transactions\n    user_transaction_blocks, -- 用户 Transaction Blocks\n    active_senders, -- 活跃发送地址\n    batch_transactions, -- PTB 中 transaction_count 总量\n    avg_transactions_per_ptb, -- PTB 平均 transaction_count\n    p95_transactions_per_ptb, -- PTB transaction_count P95\n    move_calls, -- Move Calls\n    shared_tx_share_pct, -- Shared Object 交易占比\n    sponsored_tx_share_pct, -- Sponsored Transaction 占比\n    zklogin_tx_share_pct, -- zkLogin Transaction 占比\n    user_execution_success_rate_pct, -- 用户交易执行成功率\n    created, -- 创建对象数量\n    mutated, -- 修改对象数量\n    deleted, -- 删除对象数量\n    net_object_change_proxy, -- 对象操作净增代理\n    publish, -- Package Publish\n    upgrade, -- Package Upgrade\n    total_gas_cost / 1000000000.0 AS total_gas_cost_sui, -- 总 Gas Cost 换算为 SUI\n    computation_cost / 1000000000.0 AS computation_cost_sui, -- Computation Cost 换算为 SUI\n    storage_cost / 1000000000.0 AS storage_cost_sui, -- Storage Cost 换算为 SUI\n    storage_rebate / 1000000000.0 AS storage_rebate_sui -- Storage Rebate 换算为 SUI\nFROM query_8347640\nWHERE date \u003e= CURRENT_DATE - INTERVAL '365' DAY\nORDER BY date;",
+  "owner": "slowmoonship",
+  "is_private": false,
+  "is_archived": false,
+  "is_unsaved": false,
+  "is_temp": false,
+  "version": 5,
+  "query_engine": "v2 Dune SQL",
+  "tags": [],
+  "parameters": []
+}

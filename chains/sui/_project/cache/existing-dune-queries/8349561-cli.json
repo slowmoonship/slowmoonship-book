@@ -1,0 +1,15 @@
+{
+  "query_id": 8349561,
+  "name": "SUI_ADS007_SRD_OBJ_GATHER | Shared object 集中度",
+  "description": "",
+  "query_sql": "WITH ranked AS (\n    SELECT\n        date, -- 日期\n        object_id, -- Shared Object ID\n        transaction_blocks, -- 该对象涉及 Transaction Blocks\n\n        ROW_NUMBER() OVER (\n            PARTITION BY date\n            ORDER BY transaction_blocks DESC\n        ) AS object_rank, -- 当日 Shared Object 活跃度排名\n\n        SUM(transaction_blocks) OVER (\n            PARTITION BY date\n        ) AS total_transaction_blocks -- 当日所有 Shared Object 的对象-交易关系总量\n    FROM query_8348381\n)\n\nSELECT\n    date, -- 日期\n\n    100.0 * SUM(\n        CASE WHEN object_rank \u003c= 1 THEN transaction_blocks ELSE 0 END\n    ) / NULLIF(MAX(total_transaction_blocks), 0)\n        AS top_1_share_pct, -- Top 1 Shared Object 占比\n\n    100.0 * SUM(\n        CASE WHEN object_rank \u003c= 5 THEN transaction_blocks ELSE 0 END\n    ) / NULLIF(MAX(total_transaction_blocks), 0)\n        AS top_5_share_pct, -- Top 5 Shared Objects 占比\n\n    100.0 * SUM(\n        CASE WHEN object_rank \u003c= 10 THEN transaction_blocks ELSE 0 END\n    ) / NULLIF(MAX(total_transaction_blocks), 0)\n        AS top_10_share_pct, -- Top 10 Shared Objects 占比\n\n    COUNT(*) AS active_shared_objects -- 当日出现的 Shared Objects 数量\nFROM ranked\nGROUP BY 1\nORDER BY date;",
+  "owner": "slowmoonship",
+  "is_private": false,
+  "is_archived": false,
+  "is_unsaved": false,
+  "is_temp": false,
+  "version": 5,
+  "query_engine": "v2 Dune SQL",
+  "tags": [],
+  "parameters": []
+}

@@ -1,0 +1,18 @@
+{
+  "endpoint": "https://graphql.mainnet.sui.io/graphql",
+  "retrieved_at": "2026-10-10T01:58:57.831366+00:00",
+  "request_id": "64d6b447-1bd4-4fe3-9398-e14dbcab1cf7",
+  "rpc_version": "1.81.1-e04cf9aa915c",
+  "request": {
+    "query": "query { coinMetadata(coinType: \"0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC\") { decimals name symbol } }"
+  },
+  "response": {
+    "data": {
+      "coinMetadata": {
+        "decimals": 6,
+        "name": "USDC",
+        "symbol": "USDC"
+      }
+    }
+  }
+}

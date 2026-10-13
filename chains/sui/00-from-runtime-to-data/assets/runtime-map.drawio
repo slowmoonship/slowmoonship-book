@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram id="sui-one-transaction" name="SUI 00 - One Transaction Through Sui">
+    <mxGraphModel dx="960" dy="1760" grid="0" page="1" pageScale="1" pageWidth="960" pageHeight="1760" background="#FFFFFF" adaptiveColors="auto">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" value="Transaction Runtime" />
+        <mxCell id="context-layer" parent="0" value="Runtime Context" />
+        <mxCell id="notes-layer" parent="0" value="Titles and Notes" />
+        <mxCell id="book-title" value="SUI 00｜From Runtime to Data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=PingFang SC;whiteSpace=wrap;fontSize=16;fontColor=#617582;" vertex="1" parent="notes-layer">
+          <mxGeometry x="20" y="14" width="920" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="diagram-title" value="One Transaction Through Sui" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=PingFang SC;whiteSpace=wrap;fontSize=28;fontStyle=1;fontColor=#233746;" vertex="1" parent="notes-layer">
+          <mxGeometry x="20" y="48" width="920" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="diagram-subtitle" value="A SUI → USDC Swap as a Runtime Instance" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=PingFang SC;whiteSpace=wrap;fontSize=17;fontColor=#617582;" vertex="1" parent="notes-layer">
+          <mxGeometry x="20" y="88" width="920" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="diagram-subtitle-zh" value="教学示例 Teaching example · 一笔 SUI → USDC Swap 的运行时视角" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=PingFang SC;whiteSpace=wrap;fontSize=15;fontColor=#617582;" vertex="1" parent="notes-layer">
+          <mxGeometry x="20" y="116" width="920" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="N01" value="&lt;b&gt;01  用户操作&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:13px&quot; color=&quot;#617582&quot;&gt;User Action&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Alice · Swap 5 SUI → USDC&lt;/font&gt;" style="rounded=1;arcSize=10;html=1;whiteSpace=wrap;fillColor=#F4F7F9;strokeColor=#718493;fontColor=#233746;strokeWidth=1.4;fontFamily=PingFang SC;fontSize=17;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="310" y="160" width="340" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="N02" value="&lt;b&gt;02  组装并签名交易&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:13px&quot; color=&quot;#617582&quot;&gt;Transaction / PTB&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Inputs · Commands · Gas&lt;/font&gt;" style="rounded=1;arcSize=10;html=1;whiteSpace=wrap;fillColor=#F4F7F9;strokeColor=#718493;fontColor=#233746;strokeWidth=1.4;fontFamily=PingFang SC;fontSize=17;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="310" y="270" width="340" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="N03" value="&lt;b&gt;03  网络校验&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:13px&quot; color=&quot;#617582&quot;&gt;Network Validation&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Signature / Gas / Input Validity&lt;/font&gt;" style="rounded=1;arcSize=10;html=1;whiteSpace=wrap;fillColor=#F4F7F9;strokeColor=#718493;fontColor=#233746;strokeWidth=1.4;fontFamily=PingFang SC;fontSize=17;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="310" y="380" width="340" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="N04" value="&lt;b&gt;04  网络共识排序&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:13px&quot; color=&quot;#617582&quot;&gt;Network Sequencing / Consensus&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;所有交易进入共同网络排序流程&lt;/font&gt;" style="rounded=1;arcSize=10;html=1;whiteSpace=wrap;fillColor=#EEF4F6;strokeColor=#69828E;fontColor=#233746;strokeWidth=1.4;fontFamily=PingFang SC;fontSize=17;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="310" y="490" width="340" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="OBJ-OWNED" value="&lt;b&gt;Alice 的 SUI Coin Object&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:13px&quot; color=&quot;#617582&quot;&gt;Owned Coin Object&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Provides the 5 SUI swap input&lt;/font&gt;" style="rounded=1;arcSize=10;html=1;whiteSpace=wrap;fillColor=#EAF3F1;strokeColor=#64887D;fontColor=#25483F;strokeWidth=1.4;fontFamily=PingFang SC;fontSize=17;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="70" y="720" width="350" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="OBJ-SHARED" value="&lt;b&gt;流动性池 Object&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:13px&quot; color=&quot;#617582&quot;&gt;Shared Object&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;DEX 共享状态 · 多用户可能同时访问&lt;/font&gt;" style="rounded=1;arcSize=10;html=1;whiteSpace=wrap;fillColor=#EAF3F1;strokeColor=#64887D;fontColor=#25483F;strokeWidth=1.4;fontFamily=PingFang SC;fontSize=17;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="540" y="720" width="350" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="N06" value="&lt;b&gt;06  执行准备&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:13px&quot; color=&quot;#617582&quot;&gt;Execution Readiness&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;满足授权、版本与共享对象依赖&lt;/font&gt;" style="rounded=1;arcSize=10;html=1;whiteSpace=wrap;fillColor=#EEF4F6;strokeColor=#526F7D;fontColor=#233746;strokeWidth=2;fontFamily=PingFang SC;fontSize=17;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="310" y="870" width="340" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="owned-note" value="&lt;font style=&quot;font-size:12px&quot;&gt;两块输入属于同一笔 PTB。&lt;br&gt;Owned 不代表跳过网络排序；&lt;br&gt;Shared 不代表另一次独立提交。&lt;br&gt;&lt;br&gt;本例采用 Coin 输入与输出；&lt;br&gt;地址余额可在 PTB 中转换使用。&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fillColor=#FAFBFC;strokeColor=#A8B5BD;fontColor=#617582;strokeWidth=1;fontFamily=PingFang SC;fontSize=12;align=left;verticalAlign=middle;spacing=8;dashed=1;dashPattern=4 4;" vertex="1" parent="notes-layer">
+          <mxGeometry x="20" y="855" width="260" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ" value="&lt;b&gt;05  对象访问条件&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:13px&quot; color=&quot;#617582&quot;&gt;Object Access Requirements&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;同一笔 Transaction 访问多个 Object&lt;/font&gt;" style="rounded=1;arcSize=10;html=1;whiteSpace=wrap;fillColor=#F4F7F9;strokeColor=#718493;fontColor=#233746;strokeWidth=1.4;fontFamily=PingFang SC;fontSize=16;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="310" y="600" width="340" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="N07" value="&lt;div style=&quot;line-height:18px&quot;&gt;&lt;b&gt;07  执行&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:13px&quot; color=&quot;#617582&quot;&gt;Execution · Execute PTB&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot; color=&quot;#4F776B&quot;&gt;&lt;b&gt;DEX Move Call · swap(...)&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;html=1;whiteSpace=wrap;fillColor=#F4F7F9;strokeColor=#718493;fontColor=#233746;strokeWidth=1.4;fontFamily=PingFang SC;fontSize=17;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="310" y="995" width="340" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="N08" value="&lt;b&gt;08  执行结果&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:13px&quot; color=&quot;#617582&quot;&gt;Transaction Effects / Object Changes&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;状态与对象输出；Event 单独解释&lt;/font&gt;" style="rounded=1;arcSize=10;html=1;whiteSpace=wrap;fillColor=#EAF3F1;strokeColor=#64887D;fontColor=#25483F;strokeWidth=1.4;fontFamily=PingFang SC;fontSize=17;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1130" width="340" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="OUT-SUI" value="&lt;b&gt;SUI 资金变化&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:13px&quot; color=&quot;#617582&quot;&gt;SUI Funding Change&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;本例保留支付 Coin 的剩余余额&lt;/font&gt;" style="rounded=1;arcSize=10;html=1;whiteSpace=wrap;fillColor=#EAF3F1;strokeColor=#64887D;fontColor=#25483F;strokeWidth=1.4;fontFamily=PingFang SC;fontSize=15;align=center;verticalAlign=middle;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1260" width="215" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="OUT-USDC" value="&lt;b&gt;Alice 收到 USDC&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:13px&quot; color=&quot;#617582&quot;&gt;USDC Output&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:13px&quot;&gt;本例以 Coin&amp;lt;USDC&amp;gt;&lt;br&gt;作为输出表示&lt;/font&gt;" style="rounded=1;arcSize=10;html=1;whiteSpace=wrap;fillColor=#EAF3F1;strokeColor=#64887D;fontColor=#25483F;strokeWidth=1.4;fontFamily=PingFang SC;fontSize=15;align=center;verticalAlign=middle;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="255" y="1260" width="215" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="OUT-POOL" value="&lt;b&gt;流动性池&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:13px&quot; color=&quot;#617582&quot;&gt;Object Change · Mutated&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:13px&quot;&gt;Reserve / state changed&lt;/font&gt;" style="rounded=1;arcSize=10;html=1;whiteSpace=wrap;fillColor=#EAF3F1;strokeColor=#64887D;fontColor=#25483F;strokeWidth=1.4;fontFamily=PingFang SC;fontSize=15;align=center;verticalAlign=middle;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1260" width="215" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="OUT-EVENT" value="&lt;b&gt;可选的 Swap Event&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:13px&quot; color=&quot;#617582&quot;&gt;Optional Move Event&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;仅在程序显式发出时存在&lt;/font&gt;" style="rounded=1;arcSize=10;html=1;whiteSpace=wrap;fillColor=#F4F7F9;strokeColor=#718493;fontColor=#233746;strokeWidth=1.4;fontFamily=PingFang SC;fontSize=15;align=center;verticalAlign=middle;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="725" y="1260" width="215" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="N09" value="&lt;b&gt;09  Checkpoint N&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:13px&quot; color=&quot;#617582&quot;&gt;Checkpoint&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Transaction + Effects included in Checkpoint N&lt;/font&gt;" style="rounded=1;arcSize=10;html=1;whiteSpace=wrap;fillColor=#F4F7F9;strokeColor=#718493;fontColor=#233746;strokeWidth=1.4;fontFamily=PingFang SC;fontSize=17;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1445" width="340" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="checkpoint-note" value="&lt;b&gt;历史组织 History&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;Checkpoint 收录确定的交易及 Effects；&lt;br&gt;交易可在收录前获得结果最终确认。&lt;br&gt;Epoch 是网络背景，不是执行步骤。&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fillColor=#FAFBFC;strokeColor=#A8B5BD;fontColor=#617582;strokeWidth=1;fontFamily=PingFang SC;fontSize=12;align=left;verticalAlign=middle;spacing=8;dashed=1;dashPattern=4 4;" vertex="1" parent="notes-layer">
+          <mxGeometry x="20" y="1445" width="260" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="EPOCH" value="&lt;b&gt;网络运行周期&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:13px&quot; color=&quot;#617582&quot;&gt;Epoch&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;覆盖许多交易及检查点&lt;/font&gt;" style="rounded=1;arcSize=10;html=1;whiteSpace=wrap;fillColor=#FAF8F2;strokeColor=#A99B7A;fontColor=#61563E;strokeWidth=1.4;fontFamily=PingFang SC;fontSize=17;align=center;verticalAlign=middle;spacing=6;dashed=1;dashPattern=5 4;" vertex="1" parent="context-layer">
+          <mxGeometry x="700" y="1445" width="240" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="N10" value="&lt;div style=&quot;line-height:17px&quot;&gt;&lt;b&gt;10  可观察链上历史&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:13px&quot; color=&quot;#617582&quot;&gt;Queryable History&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Transaction · Effects · Object Changes&lt;br&gt;Event · Checkpoint&lt;/font&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;html=1;whiteSpace=wrap;fillColor=#F4F7F9;strokeColor=#718493;fontColor=#233746;strokeWidth=1.4;fontFamily=PingFang SC;fontSize=17;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1570" width="340" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" value="实线：运行与记录主线 Flow　　虚线：背景 / 旁注 Context" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=PingFang SC;whiteSpace=wrap;fontSize=13;fontColor=#617582;" vertex="1" parent="notes-layer">
+          <mxGeometry x="20" y="1700" width="920" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-note" value="输出变化仅为教学场景；真实 Swap 须核对 PTB、Effects、对象版本与 Events。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=PingFang SC;whiteSpace=wrap;fontSize=13;fontColor=#617582;" vertex="1" parent="notes-layer">
+          <mxGeometry x="20" y="1726" width="920" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-00" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6B7C8A;strokeWidth=1.4;endArrow=block;endFill=1;endSize=7;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="N01" target="N02">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-01" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6B7C8A;strokeWidth=1.4;endArrow=block;endFill=1;endSize=7;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="N02" target="N03">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-02" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6B7C8A;strokeWidth=1.4;endArrow=block;endFill=1;endSize=7;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="N03" target="N04">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-03" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6B7C8A;strokeWidth=1.4;endArrow=block;endFill=1;endSize=7;exitX=0.25;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="SEQ" target="OBJ-OWNED">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-04" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6B7C8A;strokeWidth=1.4;endArrow=block;endFill=1;endSize=7;exitX=0.75;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="SEQ" target="OBJ-SHARED">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-05" value="同一笔事务" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6B7C8A;strokeWidth=1.4;fontFamily=PingFang SC;fontSize=12;fontColor=#526775;labelBackgroundColor=#FFFFFF;endArrow=block;endFill=1;endSize=7;exitX=0.5;exitY=1;entryX=0.25;entryY=0;" edge="1" parent="1" source="OBJ-OWNED" target="N06">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-06" value="同一笔事务" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#526F7D;strokeWidth=2;fontFamily=PingFang SC;fontSize=12;fontColor=#526775;labelBackgroundColor=#FFFFFF;endArrow=block;endFill=1;endSize=7;exitX=0.5;exitY=1;entryX=0.75;entryY=0;" edge="1" parent="1" source="OBJ-SHARED" target="N06">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-07" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#526F7D;strokeWidth=2;endArrow=block;endFill=1;endSize=7;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="N04" target="SEQ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-08" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6B7C8A;strokeWidth=1.4;endArrow=block;endFill=1;endSize=7;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="N06" target="N07">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-09" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6B7C8A;strokeWidth=1.4;endArrow=block;endFill=1;endSize=7;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="N07" target="N08">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6B7C8A;strokeWidth=1.4;endArrow=block;endFill=1;endSize=7;exitX=0.12;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="N08" target="OUT-SUI">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6B7C8A;strokeWidth=1.4;endArrow=block;endFill=1;endSize=7;exitX=0.37;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="N08" target="OUT-USDC">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6B7C8A;strokeWidth=1.4;endArrow=block;endFill=1;endSize=7;exitX=0.63;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="N08" target="OUT-POOL">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6B7C8A;strokeWidth=1.4;endArrow=block;endFill=1;endSize=7;exitX=0.88;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="N08" target="OUT-EVENT">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6B7C8A;strokeWidth=1.4;endArrow=block;endFill=1;endSize=7;exitX=0.5;exitY=1;entryX=0.15;entryY=0;" edge="1" parent="1" source="OUT-SUI" target="N09">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6B7C8A;strokeWidth=1.4;endArrow=block;endFill=1;endSize=7;exitX=0.5;exitY=1;entryX=0.38;entryY=0;" edge="1" parent="1" source="OUT-USDC" target="N09">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6B7C8A;strokeWidth=1.4;endArrow=block;endFill=1;endSize=7;exitX=0.5;exitY=1;entryX=0.62;entryY=0;" edge="1" parent="1" source="OUT-POOL" target="N09">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6B7C8A;strokeWidth=1.4;endArrow=block;endFill=1;endSize=7;exitX=0.5;exitY=1;entryX=0.85;entryY=0;" edge="1" parent="1" source="OUT-EVENT" target="N09">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6B7C8A;strokeWidth=1.4;endArrow=block;endFill=1;endSize=7;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="N09" target="N10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-epoch" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A99B7A;strokeWidth=1.2;dashed=1;dashPattern=4 4;endArrow=none;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="context-layer" source="EPOCH" target="N09">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

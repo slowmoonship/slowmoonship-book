@@ -1,0 +1,15 @@
+{
+  "query_id": 8349755,
+  "name": "SUI_ADS008_Pkg_Act | Package Activity top20",
+  "description": "",
+  "query_sql": "WITH package_activity AS (\n    SELECT\n        package, -- Package ID\n        SUM(move_calls) AS move_calls, -- Move Call 总次数\n        SUM(transaction_blocks) AS transaction_blocks, -- 调用该 Package 的 Transaction Blocks\n        COUNT(DISTINCT date) AS active_days, -- 活跃天数\n        MAX(module_count) AS max_daily_module_count, -- 单日最高活跃 Module 数\n        MAX(function_count) AS max_daily_function_count, -- 单日最高活跃 Function 数\n        MIN(date) AS first_seen_date, -- 观察期首次出现日期\n        MAX(date) AS last_seen_date -- 观察期最后出现日期\n    FROM query_8348409\n    WHERE date \u003e= CURRENT_DATE - INTERVAL '30' DAY\n    GROUP BY 1\n)\n\nSELECT\n    CONCAT('0x', LOWER(TO_HEX(package))) AS package, -- Package 十六进制 ID\n    move_calls, -- Move Call 总量\n    transaction_blocks, -- 调用 Transaction Blocks 数量\n    active_days, -- 活跃天数\n    max_daily_module_count, -- 单日最大活跃 Module 数\n    max_daily_function_count, -- 单日最大活跃 Function 数\n    first_seen_date, -- 首次出现日期\n    last_seen_date -- 最后出现日期\nFROM package_activity\nORDER BY move_calls DESC\nLIMIT 20;",
+  "owner": "slowmoonship",
+  "is_private": false,
+  "is_archived": false,
+  "is_unsaved": false,
+  "is_temp": false,
+  "version": 4,
+  "query_engine": "v2 Dune SQL",
+  "tags": [],
+  "parameters": []
+}

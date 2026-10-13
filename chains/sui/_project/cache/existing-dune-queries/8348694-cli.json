@@ -1,0 +1,15 @@
+{
+  "query_id": 8348694,
+  "name": "SUI_ADS_004_UNUSUAL_CHECHPOINT | 异常 Checkpoint 明细",
+  "description": "",
+  "query_sql": "WITH checkpoint_raw AS (\n    SELECT\n        date, -- Checkpoint 日期\n        epoch, -- Epoch\n        sequence_number, -- 当前 Checkpoint 顺序号\n        timestamp_ms, -- 当前 Checkpoint 时间戳\n        end_of_epoch, -- 是否为 Epoch 最后一个 Checkpoint\n        LAG(sequence_number) OVER (\n            ORDER BY sequence_number\n        ) AS prev_sequence_number, -- 前一个 Checkpoint 顺序号\n        LAG(timestamp_ms) OVER (\n            ORDER BY sequence_number\n        ) AS prev_timestamp_ms -- 前一个 Checkpoint 时间戳\n    FROM sui.checkpoints\n    WHERE date \u003e= CURRENT_DATE - INTERVAL '366' DAY\n),\n\ncheckpoint_gap AS (\n    SELECT\n        date, -- 日期\n        epoch, -- Epoch\n        sequence_number, -- Checkpoint 顺序号\n        end_of_epoch, -- 是否 Epoch 结束\n        sequence_number - prev_sequence_number AS sequence_step, -- Sequence 步长\n        CAST(timestamp_ms - prev_timestamp_ms AS DOUBLE) / 1000.0 AS checkpoint_gap_seconds -- Checkpoint Gap，秒\n    FROM checkpoint_raw\n)\n\nSELECT\n    date, -- 日期\n    epoch, -- Epoch\n    sequence_number, -- Checkpoint 顺序号\n    checkpoint_gap_seconds, -- Checkpoint 时间间隔，秒\n    sequence_step, -- Sequence 是否连续\n    end_of_epoch -- 是否位于 Epoch 结束 Checkpoint\nFROM checkpoint_gap\nWHERE date \u003e= CURRENT_DATE - INTERVAL '365' DAY\n  AND sequence_step = 1\n  AND checkpoint_gap_seconds \u003e= 10\nORDER BY checkpoint_gap_seconds DESC;",
+  "owner": "slowmoonship",
+  "is_private": false,
+  "is_archived": false,
+  "is_unsaved": false,
+  "is_temp": false,
+  "version": 4,
+  "query_engine": "v2 Dune SQL",
+  "tags": [],
+  "parameters": []
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "case": "A",
+    "network": "mainnet",
+    "digest": "VYZrgeBbYxFaEnm792GKxZB1N5Y4UFiCCetwyic5p6f",
+    "checkpoint": {
+      "sequenceNumber": 2000007,
+      "timestamp": "2023-05-08T16:58:42.497Z"
+    },
+    "status": "SUCCESS",
+    "sender": "0xf161fc8850f49cbe93c5152804ae2f45bf1cd1dce3bce34133312688749d8895",
+    "commands": 2,
+    "move_calls": 0,
+    "events": 0,
+    "events_complete": true,
+    "net_gas_mist": 1987880,
+    "balance_changes": [
+      {
+        "address": "0x64930c304d2056f50602ad29e931abe57967b19f4681652be211351e06a991a3",
+        "coinType": "0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI",
+        "amount": "14787162276"
+      },
+      {
+        "address": "0xf161fc8850f49cbe93c5152804ae2f45bf1cd1dce3bce34133312688749d8895",
+        "coinType": "0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI",
+        "amount": "-14789150156"
+      }
+    ],
+    "verification": "VERIFIED_OFFICIAL_GRAPHQL",
+    "dune_sql_status": "STATIC_CHECKED",
+    "source_cache": "_project/cache/graphql-case-details-response.json",
+    "raw_transfer_amount_mist": 14787162276,
+    "output_coin": {
+      "address": "0xba0c7617a47e9a2c2e38491ac47342789d0da007e393bf90771b81a4c29b0d21",
+      "version": 2046262,
+      "digest": "QuDABdFdB34B7jbQPRB2hHN7cYaGV4cwBJ987qL7LFx",
+      "owner": {
+        "__typename": "AddressOwner"
+      },
+      "asMoveObject": {
+        "contents": {
+          "type": {
+            "repr": "0x0000000000000000000000000000000000000000000000000000000000000002::coin::Coin<0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI>"
+          },
+          "json": {
+            "id": "0xba0c7617a47e9a2c2e38491ac47342789d0da007e393bf90771b81a4c29b0d21",
+            "balance": "14787162276"
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "B",
+    "network": "mainnet",
+    "digest": "5ounE6vvNursjwLpNCUgF8ybtnNfqVbV91fYdpACgBHq",
+    "checkpoint": {
+      "sequenceNumber": 314284234,
+      "timestamp": "2026-08-24T05:14:52.293Z"
+    },
+    "status": "SUCCESS",
+    "sender": "0x1a8c63c12e8dc7b14e61aeed6798a272eec8636b560922b90349d758e747d25b",
+    "commands": 39,
+    "move_calls": 18,
+    "events": 19,
+    "events_complete": true,
+    "net_gas_mist": -86387304,
+    "balance_changes": [
+      {
+        "address": "0x1a8c63c12e8dc7b14e61aeed6798a272eec8636b560922b90349d758e747d25b",
+        "coinType": "0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI",
+        "amount": "-45839344920"
+      },
+      {
+        "address": "0x1a8c63c12e8dc7b14e61aeed6798a272eec8636b560922b90349d758e747d25b",
+        "coinType": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC",
+        "amount": "38191592"
+      }
+    ],
+    "verification": "VERIFIED_OFFICIAL_GRAPHQL",
+    "dune_sql_status": "STATIC_CHECKED",
+    "source_cache": "_project/cache/graphql-case-details-response.json",
+    "sui_business_net_change_mist_under_stated_scope": -45925732224,
+    "usdc_decimals": 6
+  },
+  {
+    "case": "C",
+    "network": "mainnet",
+    "object_id": "0x0df4f02d0e210169cb6d5aabd03c3058328c06f2c4dbb0804faa041159c78443",
+    "creation_transaction": "HVBtju4rFc2wgDxb1qnEMDgxsAp3gbF4ttxG1Wuq4U7M",
+    "creation_checkpoint": {
+      "sequenceNumber": 82790119,
+      "timestamp": "2024-11-23T05:33:39.428Z"
+    },
+    "creation_version": 426673878,
+    "observed_versions": [
+      426673878,
+      426674000,
+      426674004,
+      426674005,
+      426674009
+    ],
+    "lifetime_complete": false,
+    "has_more_versions": true,
+    "swap_input_version": 975858934,
+    "swap_output_version": 975858935,
+    "verification": "VERIFIED_OFFICIAL_GRAPHQL",
+    "dune_sql_status": "STATIC_CHECKED",
+    "source_caches": [
+      "_project/cache/graphql-case-details-response.json",
+      "_project/cache/graphql-pool-birth-response.json"
+    ]
+  }
+]

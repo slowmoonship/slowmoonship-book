@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-10-10T15:08:06.219662+08:00",
+  "chapters_written": 45,
+  "chapters_planned": 45,
+  "chapters_complete": 39,
+  "chapters_validated_with_sql_gap": 6,
+  "chinese_prose_characters": 25830,
+  "drawio_count": 13,
+  "svg_count": 13,
+  "errors": [],
+  "warnings": [],
+  "sql_execution_gap": "Dune 402；新增 SQL 提交 1 次，没有返回 Execution ID",
+  "status": "STRUCTURAL_PASS"
+}

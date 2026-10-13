@@ -1,0 +1,15 @@
+{
+  "query_id": 8348640,
+  "name": "SUI_ADS_003_Checkpoint_Gap_MAP | Checkpoint_GaP 分布",
+  "description": "",
+  "query_sql": "WITH checkpoint_raw AS (\n    SELECT\n        date, -- Checkpoint 日期\n        sequence_number, -- 当前 Checkpoint 顺序号\n        timestamp_ms, -- 当前 Checkpoint 时间戳\n        LAG(sequence_number) OVER (\n            ORDER BY sequence_number\n        ) AS prev_sequence_number, -- 前一个 Checkpoint 顺序号\n        LAG(timestamp_ms) OVER (\n            ORDER BY sequence_number\n        ) AS prev_timestamp_ms -- 前一个 Checkpoint 时间戳\n    FROM sui.checkpoints\n    WHERE date \u003e= CURRENT_DATE - INTERVAL '91' DAY\n),\n\ncheckpoint_gap AS (\n    SELECT\n        date, -- 日期\n        sequence_number, -- Checkpoint 顺序号\n        sequence_number - prev_sequence_number AS sequence_step, -- Checkpoint 顺序号步长\n        CAST(timestamp_ms - prev_timestamp_ms AS DOUBLE) / 1000.0 AS checkpoint_gap_seconds -- Checkpoint 时间间隔，秒\n    FROM checkpoint_raw\n),\n\nbucketed AS (\n    SELECT\n        CASE\n            WHEN checkpoint_gap_seconds \u003c 0.5 THEN 1\n            WHEN checkpoint_gap_seconds \u003c 1.0 THEN 2\n            WHEN checkpoint_gap_seconds \u003c 2.0 THEN 3\n            WHEN checkpoint_gap_seconds \u003c 3.0 THEN 4\n            WHEN checkpoint_gap_seconds \u003c 5.0 THEN 5\n            WHEN checkpoint_gap_seconds \u003c 10.0 THEN 6\n            WHEN checkpoint_gap_seconds \u003c 30.0 THEN 7\n            ELSE 8\n        END AS bucket_order, -- 分桶排序字段\n\n        CASE\n            WHEN checkpoint_gap_seconds \u003c 0.5 THEN '0-0.5s'\n            WHEN checkpoint_gap_seconds \u003c 1.0 THEN '0.5-1s'\n            WHEN checkpoint_gap_seconds \u003c 2.0 THEN '1-2s'\n            WHEN checkpoint_gap_seconds \u003c 3.0 THEN '2-3s'\n            WHEN checkpoint_gap_seconds \u003c 5.0 THEN '3-5s'\n            WHEN checkpoint_gap_seconds \u003c 10.0 THEN '5-10s'\n            WHEN checkpoint_gap_seconds \u003c 30.0 THEN '10-30s'\n            ELSE '30s+'\n        END AS bucket_label -- Checkpoint Gap 分桶名称\n    FROM checkpoint_gap\n    WHERE date \u003e= CURRENT_DATE - INTERVAL '90' DAY\n      AND sequence_step = 1\n)\n\nSELECT\n    bucket_order, -- 分桶排序\n    bucket_label, -- 分桶名称\n    COUNT(*) AS checkpoint_count -- 该区间 Checkpoint 间隔数量\nFROM bucketed\nGROUP BY 1, 2\nORDER BY bucket_order;",
+  "owner": "slowmoonship",
+  "is_private": false,
+  "is_archived": false,
+  "is_unsaved": false,
+  "is_temp": false,
+  "version": 4,
+  "query_engine": "v2 Dune SQL",
+  "tags": [],
+  "parameters": []
+}

@@ -1,0 +1,15 @@
+{
+  "query_id": 8349503,
+  "name": "SUI_ADS006_SRD_OBJ_TOP20 | Shared Object 排行",
+  "description": "",
+  "query_sql": "--https://dune.com/queries/8348381\nWITH object_activity AS (\n    SELECT\n        object_id, -- Shared Object ID\n        SUM(transaction_blocks) AS transaction_blocks, -- 观察期涉及该对象的 Transaction Blocks\n        SUM(interaction_rows) AS interaction_rows, -- 观察期对象关系记录数量\n        COUNT(DISTINCT date) AS active_days, -- 观察期活跃天数\n        MIN(date) AS first_seen_date, -- 观察期首次出现日期\n        MAX(date) AS last_seen_date -- 观察期最后出现日期\n    FROM query_8348381\n    WHERE date \u003e= CURRENT_DATE - INTERVAL '30' DAY\n    GROUP BY 1\n)\n\nSELECT\n    CONCAT('0x', LOWER(TO_HEX(object_id))) AS object_id, -- Shared Object 十六进制 ID\n    transaction_blocks, -- 涉及该对象的 Transaction Blocks\n    interaction_rows, -- 对象关系记录数量\n    active_days, -- 活跃天数\n    first_seen_date, -- 首次出现日期\n    last_seen_date -- 最后出现日期\nFROM object_activity\nORDER BY transaction_blocks DESC\nLIMIT 20;",
+  "owner": "slowmoonship",
+  "is_private": false,
+  "is_archived": false,
+  "is_unsaved": false,
+  "is_temp": false,
+  "version": 5,
+  "query_engine": "v2 Dune SQL",
+  "tags": [],
+  "parameters": []
+}

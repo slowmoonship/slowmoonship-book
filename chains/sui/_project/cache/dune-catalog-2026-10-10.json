@@ -1,0 +1,975 @@
+{
+  "total": 209,
+  "results": [
+    {
+      "full_name": "sui.objects",
+      "category": "canonical",
+      "dataset_type": "dune_table",
+      "blockchains": [
+        "sui"
+      ],
+      "visibility": "public",
+      "schema": {
+        "fields": [
+          {
+            "name": "object_id",
+            "nullable": true,
+            "type": "varbinary"
+          },
+          {
+            "name": "version",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "digest",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "type_",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "checkpoint",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "epoch",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "timestamp_ms",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "date",
+            "nullable": true,
+            "type": "date"
+          },
+          {
+            "name": "owner_type",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "owner_address",
+            "nullable": true,
+            "type": "varbinary"
+          },
+          {
+            "name": "object_status",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "initial_shared_version",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "previous_transaction",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "has_public_transfer",
+            "nullable": true,
+            "type": "boolean"
+          },
+          {
+            "name": "is_consensus",
+            "nullable": true,
+            "type": "boolean"
+          },
+          {
+            "name": "storage_rebate",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "bcs",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "coin_type",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "coin_balance",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "struct_tag",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "object_json",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "bcs_length",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "_updated_at",
+            "nullable": true,
+            "type": "timestamp"
+          },
+          {
+            "name": "_ingested_at",
+            "nullable": true,
+            "type": "timestamp"
+          }
+        ],
+        "type": "struct"
+      }
+    },
+    {
+      "full_name": "sui.transactions",
+      "category": "canonical",
+      "dataset_type": "dune_table",
+      "blockchains": [
+        "sui"
+      ],
+      "visibility": "public",
+      "schema": {
+        "fields": [
+          {
+            "name": "transaction_digest",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "checkpoint",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "epoch",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "timestamp_ms",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "date",
+            "nullable": true,
+            "type": "date"
+          },
+          {
+            "name": "sender",
+            "nullable": true,
+            "type": "varbinary"
+          },
+          {
+            "name": "transaction_kind",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "is_system_txn",
+            "nullable": true,
+            "type": "boolean"
+          },
+          {
+            "name": "is_sponsored_tx",
+            "nullable": true,
+            "type": "boolean"
+          },
+          {
+            "name": "transaction_count",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "execution_success",
+            "nullable": true,
+            "type": "boolean"
+          },
+          {
+            "name": "input",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "shared_input",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "gas_coins",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "created",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "mutated",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "deleted",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "transfers",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "split_coins",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "merge_coins",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "publish",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "upgrade",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "others",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "move_calls",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "packages",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "gas_owner",
+            "nullable": true,
+            "type": "varbinary"
+          },
+          {
+            "name": "gas_object_id",
+            "nullable": true,
+            "type": "varbinary"
+          },
+          {
+            "name": "gas_object_sequence",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "gas_object_digest",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "gas_budget",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "total_gas_cost",
+            "nullable": true,
+            "type": "bigint"
+          },
+          {
+            "name": "computation_cost",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "storage_cost",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "storage_rebate",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "non_refundable_storage_fee",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "gas_price",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "raw_transaction",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "has_zklogin_sig",
+            "nullable": true,
+            "type": "boolean"
+          },
+          {
+            "name": "has_upgraded_multisig",
+            "nullable": true,
+            "type": "boolean"
+          },
+          {
+            "name": "transaction_json",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "effects_json",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "transaction_position",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "events_digest",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "transaction_data_bcs_length",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "effects_bcs_length",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "events_bcs_length",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "signatures_bcs_length",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "_updated_at",
+            "nullable": true,
+            "type": "timestamp"
+          },
+          {
+            "name": "_ingested_at",
+            "nullable": true,
+            "type": "timestamp"
+          }
+        ],
+        "type": "struct"
+      }
+    },
+    {
+      "full_name": "sui.transaction_objects",
+      "category": "canonical",
+      "dataset_type": "dune_table",
+      "blockchains": [
+        "sui"
+      ],
+      "visibility": "public",
+      "schema": {
+        "fields": [
+          {
+            "name": "object_id",
+            "nullable": true,
+            "type": "varbinary"
+          },
+          {
+            "name": "version",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "transaction_digest",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "checkpoint",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "epoch",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "timestamp_ms",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "date",
+            "nullable": true,
+            "type": "date"
+          },
+          {
+            "name": "input_kind",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "object_status",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "_updated_at",
+            "nullable": true,
+            "type": "timestamp"
+          },
+          {
+            "name": "_ingested_at",
+            "nullable": true,
+            "type": "timestamp"
+          }
+        ],
+        "type": "struct"
+      }
+    },
+    {
+      "full_name": "sui.events",
+      "category": "canonical",
+      "dataset_type": "dune_table",
+      "blockchains": [
+        "sui"
+      ],
+      "visibility": "public",
+      "schema": {
+        "fields": [
+          {
+            "name": "transaction_digest",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "event_index",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "checkpoint",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "epoch",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "timestamp_ms",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "date",
+            "nullable": true,
+            "type": "date"
+          },
+          {
+            "name": "sender",
+            "nullable": true,
+            "type": "varbinary"
+          },
+          {
+            "name": "package",
+            "nullable": true,
+            "type": "varbinary"
+          },
+          {
+            "name": "module",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "event_type",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "bcs",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "event_json",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "bcs_length",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "_updated_at",
+            "nullable": true,
+            "type": "timestamp"
+          },
+          {
+            "name": "_ingested_at",
+            "nullable": true,
+            "type": "timestamp"
+          }
+        ],
+        "type": "struct"
+      }
+    },
+    {
+      "full_name": "sui.move_call",
+      "category": "canonical",
+      "dataset_type": "dune_table",
+      "blockchains": [
+        "sui"
+      ],
+      "visibility": "public",
+      "schema": {
+        "fields": [
+          {
+            "name": "transaction_digest",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "checkpoint",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "epoch",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "timestamp_ms",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "date",
+            "nullable": true,
+            "type": "date"
+          },
+          {
+            "name": "package",
+            "nullable": true,
+            "type": "varbinary"
+          },
+          {
+            "name": "module",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "function",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "cmd_idx",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "_updated_at",
+            "nullable": true,
+            "type": "timestamp"
+          },
+          {
+            "name": "_ingested_at",
+            "nullable": true,
+            "type": "timestamp"
+          }
+        ],
+        "type": "struct"
+      }
+    },
+    {
+      "full_name": "sui.checkpoints",
+      "category": "canonical",
+      "dataset_type": "dune_table",
+      "blockchains": [
+        "sui"
+      ],
+      "visibility": "public",
+      "schema": {
+        "fields": [
+          {
+            "name": "checkpoint_digest",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "sequence_number",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "epoch",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "timestamp_ms",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "date",
+            "nullable": true,
+            "type": "date"
+          },
+          {
+            "name": "previous_checkpoint_digest",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "end_of_epoch",
+            "nullable": true,
+            "type": "boolean"
+          },
+          {
+            "name": "total_gas_cost",
+            "nullable": true,
+            "type": "bigint"
+          },
+          {
+            "name": "computation_cost",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "storage_cost",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "storage_rebate",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "non_refundable_storage_fee",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "total_transaction_blocks",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "total_transactions",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "total_successful_transaction_blocks",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "total_successful_transactions",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "network_total_transaction",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "validator_signature",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "_updated_at",
+            "nullable": true,
+            "type": "timestamp"
+          },
+          {
+            "name": "_ingested_at",
+            "nullable": true,
+            "type": "timestamp"
+          }
+        ],
+        "type": "struct"
+      }
+    },
+    {
+      "full_name": "sui.move_package",
+      "category": "canonical",
+      "dataset_type": "dune_table",
+      "blockchains": [
+        "sui"
+      ],
+      "visibility": "public",
+      "schema": {
+        "fields": [
+          {
+            "name": "package_id",
+            "nullable": true,
+            "type": "varbinary"
+          },
+          {
+            "name": "checkpoint",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "epoch",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "timestamp_ms",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "date",
+            "nullable": true,
+            "type": "date"
+          },
+          {
+            "name": "bcs",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "transaction_digest",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "package_version",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "original_package_id",
+            "nullable": true,
+            "type": "varbinary"
+          },
+          {
+            "name": "bcs_length",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "_updated_at",
+            "nullable": true,
+            "type": "timestamp"
+          },
+          {
+            "name": "_ingested_at",
+            "nullable": true,
+            "type": "timestamp"
+          }
+        ],
+        "type": "struct"
+      }
+    },
+    {
+      "full_name": "dune.sui.result_walrus_events_joined",
+      "category": "community",
+      "dataset_type": "transformation_view",
+      "visibility": "public",
+      "schema": {
+        "fields": [
+          {
+            "name": "sender",
+            "nullable": true,
+            "type": "varbinary"
+          },
+          {
+            "name": "ts_register",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "ts_certify",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "blob_id",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "object_id",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "deletable",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "starting_epoch",
+            "nullable": true,
+            "type": "bigint"
+          },
+          {
+            "name": "ending_epoch",
+            "nullable": true,
+            "type": "bigint"
+          },
+          {
+            "name": "is_extension",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "size",
+            "nullable": true,
+            "type": "bigint"
+          },
+          {
+            "name": "certify",
+            "nullable": true,
+            "type": "integer"
+          }
+        ],
+        "type": "struct"
+      }
+    },
+    {
+      "full_name": "dune.sui.result_walrus_encoded_data_volume_gb",
+      "category": "community",
+      "dataset_type": "transformation_view",
+      "visibility": "public",
+      "schema": {
+        "fields": [
+          {
+            "name": "day_utc",
+            "nullable": true,
+            "type": "date"
+          },
+          {
+            "name": "capacity_size",
+            "nullable": true,
+            "type": "double"
+          }
+        ],
+        "type": "struct"
+      }
+    },
+    {
+      "full_name": "sui.wrapped_object",
+      "category": "canonical",
+      "dataset_type": "dune_table",
+      "blockchains": [
+        "sui"
+      ],
+      "visibility": "public",
+      "schema": {
+        "fields": [
+          {
+            "name": "object_id",
+            "nullable": true,
+            "type": "varbinary"
+          },
+          {
+            "name": "root_object_id",
+            "nullable": true,
+            "type": "varbinary"
+          },
+          {
+            "name": "root_object_version",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "checkpoint",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "epoch",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "timestamp_ms",
+            "nullable": true,
+            "type": "decimal(20,0)"
+          },
+          {
+            "name": "date",
+            "nullable": true,
+            "type": "date"
+          },
+          {
+            "name": "json_path",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "struct_tag",
+            "nullable": true,
+            "type": "varchar"
+          },
+          {
+            "name": "_updated_at",
+            "nullable": true,
+            "type": "timestamp"
+          },
+          {
+            "name": "_ingested_at",
+            "nullable": true,
+            "type": "timestamp"
+          }
+        ],
+        "type": "struct"
+      }
+    }
+  ],
+  "pagination": {
+    "limit": 10,
+    "offset": 0,
+    "next_offset": 10,
+    "has_more": true
+  }
+}

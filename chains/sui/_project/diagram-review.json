@@ -1,0 +1,183 @@
+{
+  "review_date": "2026-10-10",
+  "count": 13,
+  "figures": [
+    {
+      "path": "00-from-runtime-to-data/assets/data-map.drawio",
+      "sha256": "abbc981ac779e8d6a5a5a41e0f3e1f7e4b5685f0f9e6df77763a9a2daa9779ee",
+      "svg_sha256": "57bca9b559363ea6b082925ef488c194cebb923b541454faf5d238b97de3c5b9",
+      "png_size": [
+        1072,
+        745
+      ],
+      "editable_vertices": 9,
+      "editable_edges": 5,
+      "visual_review": "PASS",
+      "notes": "Actual rendered PNG reviewed for Chinese, generic labels, arrows, clipping and semantic boundaries."
+    },
+    {
+      "path": "00-from-runtime-to-data/assets/runtime-map.drawio",
+      "sha256": "ff751c5320994fa7dea5363fff2ad232aca99037edb1ea6922acbebf5798c958",
+      "svg_sha256": "4c6b696d2dd5517b6cdf23458967bbd3fcf2ebb73c981352efc7737509f67ebd",
+      "png_size": [
+        945,
+        1754
+      ],
+      "editable_vertices": 25,
+      "editable_edges": 20,
+      "visual_review": "PASS",
+      "notes": "Actual rendered PNG reviewed for Chinese, generic labels, arrows, clipping and semantic boundaries."
+    },
+    {
+      "path": "01-object-model/assets/object-history.drawio",
+      "sha256": "589b3077f36a6e26cd43c887e89beaf0fad380a0333232fe3c674e0d0f02b3e8",
+      "svg_sha256": "8ea3917e9bf88a360f694230b0a36708ae44759f260722ab99d868ed49e37d8b",
+      "png_size": [
+        975,
+        594
+      ],
+      "editable_vertices": 9,
+      "editable_edges": 4,
+      "visual_review": "PASS",
+      "notes": "Actual rendered PNG reviewed for Chinese, generic labels, arrows, clipping and semantic boundaries."
+    },
+    {
+      "path": "02-transactions/assets/ptb-flow.drawio",
+      "sha256": "694de422c6f0d12f48461b291ce744aba852e79c05c961f8e6e227198df70519",
+      "svg_sha256": "df2e85877f94bc8861ffac07d6366355500e24e74cb5f157417b3106d046aef5",
+      "png_size": [
+        975,
+        594
+      ],
+      "editable_vertices": 9,
+      "editable_edges": 5,
+      "visual_review": "PASS",
+      "notes": "Actual rendered PNG reviewed for Chinese, generic labels, arrows, clipping and semantic boundaries."
+    },
+    {
+      "path": "03-ownership/assets/ownership-paths.drawio",
+      "sha256": "5a1b2af9c77904b78f5ebb8a6c48a72e939b2146cf948dec250e2ce7b85d76eb",
+      "svg_sha256": "35ae571f377487eeb1722c65f2f8022285a97c690decc3147334179e6e7a0d7e",
+      "png_size": [
+        975,
+        594
+      ],
+      "editable_vertices": 9,
+      "editable_edges": 5,
+      "visual_review": "PASS",
+      "notes": "Actual rendered PNG reviewed for Chinese, generic labels, arrows, clipping and semantic boundaries."
+    },
+    {
+      "path": "04-move/assets/move-structure.drawio",
+      "sha256": "5f746630d33fe058be616002655667e83859b972f8b5b3cc7fa23a8f2c4e0e29",
+      "svg_sha256": "9ade96f4697bbb86c50513e0a8a30308cb6977972bc42e926df0a404337ef897",
+      "png_size": [
+        975,
+        594
+      ],
+      "editable_vertices": 9,
+      "editable_edges": 5,
+      "visual_review": "PASS",
+      "notes": "Actual rendered PNG reviewed for Chinese, generic labels, arrows, clipping and semantic boundaries."
+    },
+    {
+      "path": "05-assets/assets/asset-balance.drawio",
+      "sha256": "1a9bf69e6492899933b39b7f789a37697fc6a2b9526d7a477969bee90ab9cd5c",
+      "svg_sha256": "7f0f114465b0f56f92ad7510bdbb66d95e9e2909dc62f3df459fa5964d7c2103",
+      "png_size": [
+        975,
+        594
+      ],
+      "editable_vertices": 9,
+      "editable_edges": 4,
+      "visual_review": "PASS",
+      "notes": "Actual rendered PNG reviewed for Chinese, generic labels, arrows, clipping and semantic boundaries."
+    },
+    {
+      "path": "06-execution/assets/result-evidence.drawio",
+      "sha256": "a8a978cfdc56fa295215acf2cdf83d0a062463bc9e569f1c7f3bf0bcd48210cb",
+      "svg_sha256": "9238e638b6875890dd9daa9f9267c34299373f3c7d300ecf8dae7cfa52c70467",
+      "png_size": [
+        975,
+        594
+      ],
+      "editable_vertices": 9,
+      "editable_edges": 5,
+      "visual_review": "PASS",
+      "notes": "Actual rendered PNG reviewed for Chinese, generic labels, arrows, clipping and semantic boundaries."
+    },
+    {
+      "path": "07-history/assets/history-time.drawio",
+      "sha256": "c21674e5c513f67e3f1be07e195a65aa27b382961c1b4600017ea2a7e0379636",
+      "svg_sha256": "946dd6c7da486fa925eca6c35b65c9eb92eec6dd3482d67715d2c2dead3b4587",
+      "png_size": [
+        975,
+        594
+      ],
+      "editable_vertices": 9,
+      "editable_edges": 3,
+      "visual_review": "PASS",
+      "notes": "Actual rendered PNG reviewed for Chinese, generic labels, arrows, clipping and semantic boundaries."
+    },
+    {
+      "path": "08-dune-model/assets/warehouse-grains.drawio",
+      "sha256": "7386bbd93c4e83c71ad59c697b89b3e2897ec57301716790c741327f0e849ee6",
+      "svg_sha256": "74edf77aa479ab085fecb5378bc47977da04acdcecace3746ae0216e64a64ba9",
+      "png_size": [
+        975,
+        594
+      ],
+      "editable_vertices": 9,
+      "editable_edges": 5,
+      "visual_review": "PASS",
+      "notes": "Actual rendered PNG reviewed for Chinese, generic labels, arrows, clipping and semantic boundaries."
+    },
+    {
+      "path": "09-sql-practice/assets/sql-route.drawio",
+      "sha256": "5653d7a52cc0ed4f7f65103a9742ec3fe6009b6b94b6d9f5fed64a84dd33abbc",
+      "svg_sha256": "b604e48405d73318ae068dd8a75b474e27077fcd33adfac891dc10f3662ab3a3",
+      "png_size": [
+        975,
+        594
+      ],
+      "editable_vertices": 9,
+      "editable_edges": 5,
+      "visual_review": "PASS",
+      "notes": "Actual rendered PNG reviewed for Chinese, generic labels, arrows, clipping and semantic boundaries."
+    },
+    {
+      "path": "10-analysis/assets/audit-evidence.drawio",
+      "sha256": "806cd245b95e5044741478d14d3f587d2a1b976ee4bb097bbf248488f612009e",
+      "svg_sha256": "94f2dbc4035ce2e794edde134b70619f441719bf36ea4aa0496c7f9362ff0d33",
+      "png_size": [
+        975,
+        594
+      ],
+      "editable_vertices": 9,
+      "editable_edges": 5,
+      "visual_review": "PASS",
+      "notes": "Actual rendered PNG reviewed for Chinese, generic labels, arrows, clipping and semantic boundaries."
+    },
+    {
+      "path": "99-final-summary/assets/analysis-checklist.drawio",
+      "sha256": "56a01f98d002e3582da4a02b37ad8a62e704302c3a40d0e68713316a3af14666",
+      "svg_sha256": "a2a567a365a58963c5989eea6144c817e01e2160488af328f31eea50044adada",
+      "png_size": [
+        975,
+        594
+      ],
+      "editable_vertices": 9,
+      "editable_edges": 5,
+      "visual_review": "PASS",
+      "notes": "Actual rendered PNG reviewed for Chinese, generic labels, arrows, clipping and semantic boundaries."
+    }
+  ],
+  "repairs": [
+    "Runtime 05 and common sequencing; shorter labels",
+    "Ownership common flow with dashed classifications",
+    "Escape generic angle brackets in native HTML labels",
+    "Move module-to-type relationship",
+    "Balance link rerouted around Gas panel"
+  ],
+  "historical_files_modified": 0
+}

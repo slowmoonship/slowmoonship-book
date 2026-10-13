@@ -1,0 +1,61 @@
+{
+  "http_status": 200,
+  "query_id": 8348409,
+  "request_method": "GET",
+  "executed_new_query": false,
+  "response": {
+    "execution_id": "01M05BA97JDYZ1EM2S3SG5C0A1",
+    "query_id": 8348409,
+    "is_execution_finished": true,
+    "state": "QUERY_STATE_COMPLETED",
+    "submitted_at": "2026-08-16T13:13:58.771309Z",
+    "expires_at": "2026-11-14T13:15:15.670521Z",
+    "execution_started_at": "2026-08-16T13:13:59.360327Z",
+    "execution_ended_at": "2026-08-16T13:15:15.670509Z",
+    "result": {
+      "rows": [
+        {
+          "date": "2026-05-10",
+          "first_checkpoint": "273963258",
+          "function_count": 16,
+          "last_checkpoint": "274309002",
+          "module_count": 1,
+          "move_calls": 17750,
+          "package": "0xb176dd225d658864baf251d5c49ab83a8fd3eb43b94d692c4b9478bc7f4b1ec2",
+          "transaction_blocks": 2623
+        }
+      ],
+      "metadata": {
+        "column_names": [
+          "date",
+          "package",
+          "move_calls",
+          "transaction_blocks",
+          "module_count",
+          "function_count",
+          "first_checkpoint",
+          "last_checkpoint"
+        ],
+        "column_types": [
+          "date",
+          "varbinary",
+          "bigint",
+          "bigint",
+          "bigint",
+          "bigint",
+          "decimal(20, 0)",
+          "decimal(20, 0)"
+        ],
+        "row_count": 1,
+        "result_set_bytes": 241,
+        "total_row_count": 164321,
+        "total_result_set_bytes": 22019014,
+        "datapoint_count": 8,
+        "pending_time_millis": 589,
+        "execution_time_millis": 76310
+      }
+    },
+    "next_uri": "https://api.dune.com/api/v1/execution/01M05BA97JDYZ1EM2S3SG5C0A1/results?limit=1&offset=1",
+    "next_offset": 1
+  }
+}

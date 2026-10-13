@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram id="book-figure" name="事务与结果流｜Transaction and PTB">
+    <mxGraphModel page="1" pageWidth="1000" pageHeight="610" grid="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="事务与结果流｜Transaction and PTB" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=none;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;strokeColor=none;align=left;fontSize=27;" vertex="1" parent="1">
+          <mxGeometry x="25" y="18" width="950" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="教学转移 Teaching transfer · 同一 PTB 内的 SplitCoins → TransferObjects" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=none;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;strokeColor=none;align=left;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="25" y="64" width="950" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="n0" value="&lt;b&gt;授权与费用&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Transaction Envelope&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;Sender · Gas Data · Expiration&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=#F2F6FA;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;" vertex="1" parent="1">
+          <mxGeometry x="25" y="135" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="&lt;b&gt;外部输入&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Inputs&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;金额、接收地址、对象引用&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=#F2F6FA;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;" vertex="1" parent="1">
+          <mxGeometry x="365" y="135" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="&lt;b&gt;拆出资金&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Command 0: SplitCoins&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;特殊 Argument: GasCoin&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=#ECF5F0;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;" vertex="1" parent="1">
+          <mxGeometry x="705" y="135" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="&lt;b&gt;最终记录&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Effects&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;成功 / 失败 · 费用 · 对象输出&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=#FFF6E8;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;" vertex="1" parent="1">
+          <mxGeometry x="25" y="355" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="&lt;b&gt;转移新 Coin&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Command 1: TransferObjects&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;接收地址来自 Pure Input&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=#ECF5F0;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;" vertex="1" parent="1">
+          <mxGeometry x="365" y="355" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="&lt;b&gt;中间返回值&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;NestedResult(0, 0)&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;第 0 条命令的第 0 个结果&lt;/font&gt;" style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=#F2F6FA;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;" vertex="1" parent="1">
+          <mxGeometry x="705" y="355" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" value="请求" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontFamily=PingFang SC;fontSize=13;fontColor=#425D73;labelBackgroundColor=#FFFFFF;strokeColor=#7890A3;strokeWidth=1.5;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="n0" target="n1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" value="参数" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontFamily=PingFang SC;fontSize=13;fontColor=#425D73;labelBackgroundColor=#FFFFFF;strokeColor=#7890A3;strokeWidth=1.5;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="n1" target="n2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" value="返回值" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontFamily=PingFang SC;fontSize=13;fontColor=#425D73;labelBackgroundColor=#FFFFFF;strokeColor=#7890A3;strokeWidth=1.5;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="n2" target="n5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" value="消费" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontFamily=PingFang SC;fontSize=13;fontColor=#425D73;labelBackgroundColor=#FFFFFF;strokeColor=#7890A3;strokeWidth=1.5;endArrow=block;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="1" source="n5" target="n4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" value="执行结果" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontFamily=PingFang SC;fontSize=13;fontColor=#425D73;labelBackgroundColor=#FFFFFF;strokeColor=#7890A3;strokeWidth=1.5;endArrow=block;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="1" source="n4" target="n3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" value="Commands 按顺序执行，业务效果原子提交；失败仍可能收费。Atomic business effects; gas may remain." style="rounded=1;arcSize=8;html=1;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=17;spacing=10;align=center;verticalAlign=middle;fillColor=none;strokeColor=#76899A;strokeWidth=1.4;fontColor=#243B4D;strokeColor=none;align=left;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="25" y="535" width="950" height="55" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

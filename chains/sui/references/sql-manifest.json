@@ -1,0 +1,157 @@
+[
+  {
+    "path": "09-sql-practice/sql/01-transaction-checkpoint.sql",
+    "status": "STATIC_CHECKED",
+    "execution_id": null,
+    "query_id": null,
+    "sha256": "1516e85dbc3aa30e5d28cf214baa12aec5ca887683ebcf045a5eae5313ca3b85",
+    "catalog_checked_at": "2026-10-10",
+    "checks": [
+      "catalog_table_names",
+      "qualified_column_names",
+      "bounded_date_window",
+      "read_only_sql",
+      "manual_grain_and_unqualified_field_review"
+    ],
+    "execution_limitation": "402 configured datapoint limit",
+    "static_check_limit": "Automated table / qualified-field / window checks plus manual review; no remote SQL compile."
+  },
+  {
+    "path": "09-sql-practice/sql/02-object-relationships.sql",
+    "status": "STATIC_CHECKED",
+    "execution_id": null,
+    "query_id": null,
+    "sha256": "864869efd52ed22edb3e2d5b0e934a208434bdcbc5b87a0c844c0e464df6afbc",
+    "catalog_checked_at": "2026-10-10",
+    "checks": [
+      "catalog_table_names",
+      "qualified_column_names",
+      "bounded_date_window",
+      "read_only_sql",
+      "manual_grain_and_unqualified_field_review"
+    ],
+    "execution_limitation": "402 configured datapoint limit",
+    "static_check_limit": "Automated table / qualified-field / window checks plus manual review; no remote SQL compile."
+  },
+  {
+    "path": "09-sql-practice/sql/03-move-calls.sql",
+    "status": "STATIC_CHECKED",
+    "execution_id": null,
+    "query_id": null,
+    "sha256": "4f511a57df645b6a1e5ed936e5e68831562cdc02ca05e358b90d11cd637340a1",
+    "catalog_checked_at": "2026-10-10",
+    "checks": [
+      "catalog_table_names",
+      "qualified_column_names",
+      "bounded_date_window",
+      "read_only_sql",
+      "manual_grain_and_unqualified_field_review"
+    ],
+    "execution_limitation": "402 configured datapoint limit",
+    "static_check_limit": "Automated table / qualified-field / window checks plus manual review; no remote SQL compile."
+  },
+  {
+    "path": "09-sql-practice/sql/04-events.sql",
+    "status": "STATIC_CHECKED",
+    "execution_id": null,
+    "query_id": null,
+    "sha256": "b4273ff52856dbf296b880a2f2b3f684b875944da816b455c398462d78005eb1",
+    "catalog_checked_at": "2026-10-10",
+    "checks": [
+      "catalog_table_names",
+      "qualified_column_names",
+      "bounded_date_window",
+      "read_only_sql",
+      "manual_grain_and_unqualified_field_review"
+    ],
+    "execution_limitation": "402 configured datapoint limit",
+    "static_check_limit": "Automated table / qualified-field / window checks plus manual review; no remote SQL compile."
+  },
+  {
+    "path": "09-sql-practice/sql/05-package-metrics.sql",
+    "status": "STATIC_CHECKED",
+    "execution_id": null,
+    "query_id": null,
+    "sha256": "e0793ae264d35f0617f24d961aaf5bd41a9d72c29b060d55260b885b2f827ecb",
+    "catalog_checked_at": "2026-10-10",
+    "checks": [
+      "catalog_table_names",
+      "qualified_column_names",
+      "bounded_date_window",
+      "read_only_sql",
+      "manual_grain_and_unqualified_field_review"
+    ],
+    "execution_limitation": "402 configured datapoint limit",
+    "static_check_limit": "Automated table / qualified-field / window checks plus manual review; no remote SQL compile."
+  },
+  {
+    "path": "09-sql-practice/sql/06-pool-history.sql",
+    "status": "STATIC_CHECKED",
+    "execution_id": null,
+    "query_id": null,
+    "sha256": "ecb0052e8512311173702b3f73126aa61797400aa49c2de5ea666c6b085f80ea",
+    "catalog_checked_at": "2026-10-10",
+    "checks": [
+      "catalog_table_names",
+      "qualified_column_names",
+      "bounded_date_window",
+      "read_only_sql",
+      "manual_grain_and_unqualified_field_review"
+    ],
+    "execution_limitation": "402 configured datapoint limit",
+    "static_check_limit": "Automated table / qualified-field / window checks plus manual review; no remote SQL compile."
+  },
+  {
+    "path": "09-sql-practice/sql/07-candidate-key-check.sql",
+    "status": "STATIC_CHECKED",
+    "execution_id": null,
+    "query_id": null,
+    "sha256": "ea3e6997b9087eaa2c4b31c4e22c0813ba9a161e38b53a78c95f49d4410e83fb",
+    "catalog_checked_at": "2026-10-10",
+    "checks": [
+      "catalog_table_names",
+      "qualified_column_names",
+      "bounded_date_window",
+      "read_only_sql",
+      "manual_grain_and_unqualified_field_review"
+    ],
+    "execution_limitation": "402 configured datapoint limit",
+    "static_check_limit": "Automated table / qualified-field / window checks plus manual review; no remote SQL compile."
+  },
+  {
+    "path": "09-sql-practice/sql/08-join-coverage.sql",
+    "status": "STATIC_CHECKED",
+    "execution_id": null,
+    "query_id": null,
+    "sha256": "0a2b6656c9335ff093750212ec9f156dc1bd7d280aaf56ffebf821d9fa3daaa8",
+    "catalog_checked_at": "2026-10-10",
+    "checks": [
+      "catalog_table_names",
+      "qualified_column_names",
+      "bounded_date_window",
+      "read_only_sql",
+      "manual_grain_and_unqualified_field_review"
+    ],
+    "execution_limitation": "402 configured datapoint limit",
+    "static_check_limit": "Automated table / qualified-field / window checks plus manual review; no remote SQL compile."
+  },
+  {
+    "path": "09-sql-practice/sql/09-historical-package-grain.sql",
+    "status": "STATIC_CHECKED",
+    "execution_id": null,
+    "query_id": null,
+    "derived_from_query_id": 8348409,
+    "source_query_version": 5,
+    "sha256": "6cb2d2fc0f804e91b7aa572dda3ac9d5aa6d1934c2e816abf2852bc8c52836ed",
+    "catalog_checked_at": "2026-10-10",
+    "checks": [
+      "catalog_table_names",
+      "qualified_column_names",
+      "bounded_date_window",
+      "read_only_sql",
+      "manual_grain_and_unqualified_field_review"
+    ],
+    "execution_limitation": "402 configured datapoint limit",
+    "static_check_limit": "Automated table / qualified-field / window checks plus manual review; no remote SQL compile."
+  }
+]

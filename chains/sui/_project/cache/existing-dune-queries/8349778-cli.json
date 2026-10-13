@@ -1,0 +1,15 @@
+{
+  "query_id": 8349778,
+  "name": "SUI_ADS008_PKG_ACT_GATHER2 | Package Activity集中度 2",
+  "description": "",
+  "query_sql": "WITH ranked AS (\n    SELECT\n        date, -- 日期\n        package, -- Package ID\n        move_calls, -- 当日 Move Call 数量\n\n        ROW_NUMBER() OVER (\n            PARTITION BY date\n            ORDER BY move_calls DESC\n        ) AS package_rank, -- 当日 Package Move Call 排名\n\n        SUM(move_calls) OVER (\n            PARTITION BY date\n        ) AS total_move_calls -- 当日全网 Move Call 总量\n    FROM query_8348409\n)\n\nSELECT\n    date, -- 日期\n\n    100.0 * SUM(\n        CASE WHEN package_rank \u003c= 1 THEN move_calls ELSE 0 END\n    ) / NULLIF(MAX(total_move_calls), 0)\n        AS top_1_share_pct, -- Top 1 Package Move Call 占比\n\n    100.0 * SUM(\n        CASE WHEN package_rank \u003c= 5 THEN move_calls ELSE 0 END\n    ) / NULLIF(MAX(total_move_calls), 0)\n        AS top_5_share_pct, -- Top 5 Packages Move Call 占比\n\n    100.0 * SUM(\n        CASE WHEN package_rank \u003c= 10 THEN move_calls ELSE 0 END\n    ) / NULLIF(MAX(total_move_calls), 0)\n        AS top_10_share_pct, -- Top 10 Packages Move Call 占比\n\n    COUNT(*) AS active_packages -- 当日有 Move Call 的 Package 数量\nFROM ranked\nGROUP BY 1\nORDER BY date;",
+  "owner": "slowmoonship",
+  "is_private": false,
+  "is_archived": false,
+  "is_unsaved": false,
+  "is_temp": false,
+  "version": 4,
+  "query_engine": "v2 Dune SQL",
+  "tags": [],
+  "parameters": []
+}

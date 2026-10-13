@@ -1,0 +1,20 @@
+{
+  "transaction.rs": {
+    "sha256": "e21dee2e4414e22da9542a7986e7e03d85b49f774244e404412dd31993f3e741",
+    "verified_at": "2026-10-10",
+    "url": "https://github.com/MystenLabs/sui/blob/main/crates/sui-types/src/transaction.rs",
+    "publication": "UPSTREAM_LINK_ONLY"
+  },
+  "effects-mod.rs": {
+    "sha256": "7bdd87c82ce91b706b97cee31cca528156e1c926cec48d36c140ec13d7384cfd",
+    "verified_at": "2026-10-10",
+    "url": "https://github.com/MystenLabs/sui/blob/main/crates/sui-types/src/effects/mod.rs",
+    "publication": "UPSTREAM_LINK_ONLY"
+  },
+  "gas.rs": {
+    "sha256": "08cde3f3b5578f19992fddf04740d779d6a29ffeb805e45de82d4dbf07a36636",
+    "verified_at": "2026-10-10",
+    "url": "https://github.com/MystenLabs/sui/blob/main/crates/sui-types/src/gas.rs",
+    "publication": "UPSTREAM_LINK_ONLY"
+  }
+}

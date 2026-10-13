@@ -1,0 +1,15 @@
+{
+  "query_id": 8348409,
+  "name": "SUI_V1_DWS_003_PACKAGE_DAILY | SUI_DWS_003_Package 每日调用事实表",
+  "description": "",
+  "query_sql": "SELECT\n    date, -- 日期\n    package, -- Move Package ID\n\n    COUNT(*) AS move_calls, -- Move Call 总次数\n\n    COUNT(\n        DISTINCT transaction_digest\n    ) AS transaction_blocks, -- 调用该 Package 的独立 Transaction Blocks\n\n    COUNT(\n        DISTINCT module\n    ) AS module_count, -- 当天被调用的独立 Module 数量\n\n    COUNT(\n        DISTINCT CONCAT(module, '::', function)\n    ) AS function_count, -- 当天被调用的独立 Function 数量\n\n    MIN(checkpoint) AS first_checkpoint, -- 当天第一次调用所在 Checkpoint\n\n    MAX(checkpoint) AS last_checkpoint -- 当天最后一次调用所在 Checkpoint\nFROM sui.move_call\nWHERE date \u003e= CURRENT_DATE - INTERVAL '180' DAY\nGROUP BY 1, 2;\n",
+  "owner": "slowmoonship",
+  "is_private": false,
+  "is_archived": false,
+  "is_unsaved": false,
+  "is_temp": false,
+  "version": 5,
+  "query_engine": "v2 Dune SQL",
+  "tags": [],
+  "parameters": []
+}

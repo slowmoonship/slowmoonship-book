@@ -1,0 +1,207 @@
+[
+  {
+    "query_id": 8347640,
+    "title": "SUI_V1_DWS_001_NETWORK_DAILY | SUI_DWS_001_每日网络指标",
+    "owner": "slowmoonship",
+    "url": "https://dune.com/queries/8347640",
+    "version": 4,
+    "sql_path": "_project/cache/existing-dune-queries/8347640.sql",
+    "metadata_path": "_project/cache/existing-dune-queries/8347640-cli.json",
+    "sql_sha256": "bf5b5766c9fad3916735fbf3bce0820422bca4b1baac85a86e2a41640dfe64c0",
+    "sources": [
+      "sui.checkpoints",
+      "sui.transactions"
+    ],
+    "purpose": "网络每日事实；先分别聚合 Checkpoint 与事务，再按日期连接",
+    "sql_status": "UNVERIFIED",
+    "source_status": "SQL_SOURCE_READ",
+    "reexecuted_this_run": false
+  },
+  {
+    "query_id": 8348381,
+    "title": "SUI_V1_DWS_002_SHARED_OBJECT_DAILY | SUI_Shared_Object_每日事实表",
+    "owner": "slowmoonship",
+    "url": "https://dune.com/queries/8348381",
+    "version": 4,
+    "sql_path": "_project/cache/existing-dune-queries/8348381.sql",
+    "metadata_path": "_project/cache/existing-dune-queries/8348381-cli.json",
+    "sql_sha256": "930ee8ab7d17da7559fa046362e7f1aa06861151b56ec38cf0cc848ccbb918b5",
+    "sources": [
+      "sui.transaction_objects"
+    ],
+    "purpose": "Shared Object 每日事实；区分事务数与关系行数",
+    "sql_status": "UNVERIFIED",
+    "source_status": "SQL_SOURCE_READ",
+    "reexecuted_this_run": false
+  },
+  {
+    "query_id": 8348409,
+    "title": "SUI_V1_DWS_003_PACKAGE_DAILY | SUI_DWS_003_Package 每日调用事实表",
+    "owner": "slowmoonship",
+    "url": "https://dune.com/queries/8348409",
+    "version": 5,
+    "sql_path": "_project/cache/existing-dune-queries/8348409.sql",
+    "metadata_path": "_project/cache/existing-dune-queries/8348409-cli.json",
+    "sql_sha256": "f53239c3deafe518c1093975daa1cac1c33a79e6b4cc59f87de785326ab91fea",
+    "sources": [
+      "sui.move_call"
+    ],
+    "purpose": "Package 每日事实；区分调用与不同事务",
+    "sql_status": "UNVERIFIED",
+    "source_status": "SQL_SOURCE_READ",
+    "reexecuted_this_run": false
+  },
+  {
+    "query_id": 8348462,
+    "title": "SUI_V1_ADS_001_NET_STATUS | SUI_ADS_001_网络状态快照",
+    "owner": "slowmoonship",
+    "url": "https://dune.com/queries/8348462",
+    "version": 4,
+    "sql_path": "_project/cache/existing-dune-queries/8348462.sql",
+    "metadata_path": "_project/cache/existing-dune-queries/8348462-cli.json",
+    "sql_sha256": "574f571b54dba0d311d5cfe20e364eae00d81d55140be83e45791a971f655301",
+    "sources": [
+      "query_8347640"
+    ],
+    "purpose": "网络最新状态；依赖网络每日事实",
+    "sql_status": "UNVERIFIED",
+    "source_status": "SQL_SOURCE_READ",
+    "reexecuted_this_run": false
+  },
+  {
+    "query_id": 8348618,
+    "title": "SUI_ADS_002_DAILY_TRAND | 每日趋势数据",
+    "owner": "slowmoonship",
+    "url": "https://dune.com/queries/8348618",
+    "version": 5,
+    "sql_path": "_project/cache/existing-dune-queries/8348618.sql",
+    "metadata_path": "_project/cache/existing-dune-queries/8348618-cli.json",
+    "sql_sha256": "abaf94df4514d7177491220f2e7cc0f7f01f61b8367484b86360191b37ff9df9",
+    "sources": [
+      "query_8347640"
+    ],
+    "purpose": "每日趋势；依赖网络每日事实",
+    "sql_status": "UNVERIFIED",
+    "source_status": "SQL_SOURCE_READ",
+    "reexecuted_this_run": false
+  },
+  {
+    "query_id": 8348640,
+    "title": "SUI_ADS_003_Checkpoint_Gap_MAP | Checkpoint_GaP 分布",
+    "owner": "slowmoonship",
+    "url": "https://dune.com/queries/8348640",
+    "version": 4,
+    "sql_path": "_project/cache/existing-dune-queries/8348640.sql",
+    "metadata_path": "_project/cache/existing-dune-queries/8348640-cli.json",
+    "sql_sha256": "771e8c58f544487c32a78b9f3a0cd6e6d08ee3a7742c8bed563a27edbca3caa4",
+    "sources": [
+      "sui.checkpoints"
+    ],
+    "purpose": "Checkpoint 间隔分布；连续序号过滤",
+    "sql_status": "UNVERIFIED",
+    "source_status": "SQL_SOURCE_READ",
+    "reexecuted_this_run": false
+  },
+  {
+    "query_id": 8348694,
+    "title": "SUI_ADS_004_UNUSUAL_CHECHPOINT | 异常 Checkpoint 明细",
+    "owner": "slowmoonship",
+    "url": "https://dune.com/queries/8348694",
+    "version": 4,
+    "sql_path": "_project/cache/existing-dune-queries/8348694.sql",
+    "metadata_path": "_project/cache/existing-dune-queries/8348694-cli.json",
+    "sql_sha256": "513ab89a24af26f53ecc7f59b9dab415022e450f98412d8e77eee802e63b8a8e",
+    "sources": [
+      "sui.checkpoints"
+    ],
+    "purpose": "Checkpoint 异常明细；间隔口径",
+    "sql_status": "UNVERIFIED",
+    "source_status": "SQL_SOURCE_READ",
+    "reexecuted_this_run": false
+  },
+  {
+    "query_id": 8348722,
+    "title": "SUI_ADS_005_PTB_LABEL_MAP | PTB复杂度分布",
+    "owner": "slowmoonship",
+    "url": "https://dune.com/queries/8348722",
+    "version": 4,
+    "sql_path": "_project/cache/existing-dune-queries/8348722.sql",
+    "metadata_path": "_project/cache/existing-dune-queries/8348722-cli.json",
+    "sql_sha256": "1b34719ee955a5502643f8099972327b57d05b3d024126079f8701c97ab4bb85",
+    "sources": [
+      "sui.transactions"
+    ],
+    "purpose": "PTB transaction_count 分桶；含义与 NULL 分桶需验证",
+    "sql_status": "UNVERIFIED",
+    "source_status": "SQL_SOURCE_READ",
+    "reexecuted_this_run": false
+  },
+  {
+    "query_id": 8349503,
+    "title": "SUI_ADS006_SRD_OBJ_TOP20 | Shared Object 排行",
+    "owner": "slowmoonship",
+    "url": "https://dune.com/queries/8349503",
+    "version": 5,
+    "sql_path": "_project/cache/existing-dune-queries/8349503.sql",
+    "metadata_path": "_project/cache/existing-dune-queries/8349503-cli.json",
+    "sql_sha256": "592b37d21c2a417de7c8c60995a213d30c7102da1484105dc72c470cc7bb4c95",
+    "sources": [
+      "query_8348381"
+    ],
+    "purpose": "Shared Object 排行；依赖对象每日事实",
+    "sql_status": "UNVERIFIED",
+    "source_status": "SQL_SOURCE_READ",
+    "reexecuted_this_run": false
+  },
+  {
+    "query_id": 8349561,
+    "title": "SUI_ADS007_SRD_OBJ_GATHER | Shared object 集中度",
+    "owner": "slowmoonship",
+    "url": "https://dune.com/queries/8349561",
+    "version": 5,
+    "sql_path": "_project/cache/existing-dune-queries/8349561.sql",
+    "metadata_path": "_project/cache/existing-dune-queries/8349561-cli.json",
+    "sql_sha256": "2e4fd27a28b78311ef8d7b6476e4fb8abd3d3da37e22fef3a3f80bfd192c215e",
+    "sources": [
+      "query_8348381"
+    ],
+    "purpose": "Shared Object 集中度；跨对象事务可能重复",
+    "sql_status": "UNVERIFIED",
+    "source_status": "SQL_SOURCE_READ",
+    "reexecuted_this_run": false
+  },
+  {
+    "query_id": 8349755,
+    "title": "SUI_ADS008_Pkg_Act | Package Activity top20",
+    "owner": "slowmoonship",
+    "url": "https://dune.com/queries/8349755",
+    "version": 4,
+    "sql_path": "_project/cache/existing-dune-queries/8349755.sql",
+    "metadata_path": "_project/cache/existing-dune-queries/8349755-cli.json",
+    "sql_sha256": "7e28ded19b9b2d92302a559fccea880203bc27c9483818d8718c59bb9356c0d2",
+    "sources": [
+      "query_8348409"
+    ],
+    "purpose": "Package 活动排行；依赖 Package 每日事实",
+    "sql_status": "UNVERIFIED",
+    "source_status": "SQL_SOURCE_READ",
+    "reexecuted_this_run": false
+  },
+  {
+    "query_id": 8349778,
+    "title": "SUI_ADS008_PKG_ACT_GATHER2 | Package Activity集中度 2",
+    "owner": "slowmoonship",
+    "url": "https://dune.com/queries/8349778",
+    "version": 4,
+    "sql_path": "_project/cache/existing-dune-queries/8349778.sql",
+    "metadata_path": "_project/cache/existing-dune-queries/8349778-cli.json",
+    "sql_sha256": "e1bc5baf9880fa4727c6de5673856198fbac25edff71fa8f54b1b1b06eae6400",
+    "sources": [
+      "query_8348409"
+    ],
+    "purpose": "Package 集中度；调用份额不等于独立事务份额",
+    "sql_status": "UNVERIFIED",
+    "source_status": "SQL_SOURCE_READ",
+    "reexecuted_this_run": false
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "query_id": 8348381,
+  "name": "SUI_V1_DWS_002_SHARED_OBJECT_DAILY | SUI_Shared_Object_每日事实表",
+  "description": "",
+  "query_sql": "SELECT\n    date, -- 日期\n    object_id, -- Shared Object ID\n\n    COUNT(\n        DISTINCT transaction_digest\n    ) AS transaction_blocks, -- 当天涉及该 Shared Object 的独立 Transaction Blocks\n\n    COUNT(*) AS interaction_rows, -- 该 Shared Object 在 transaction_objects 中的关系记录数\n\n    MIN(checkpoint) AS first_checkpoint, -- 当天第一次出现的 Checkpoint\n\n    MAX(checkpoint) AS last_checkpoint -- 当天最后一次出现的 Checkpoint\nFROM sui.transaction_objects\nWHERE date \u003e= CURRENT_DATE - INTERVAL '180' DAY\n  AND input_kind = 'SharedInput'\nGROUP BY 1, 2;",
+  "owner": "slowmoonship",
+  "is_private": false,
+  "is_archived": false,
+  "is_unsaved": false,
+  "is_temp": false,
+  "version": 4,
+  "query_engine": "v2 Dune SQL",
+  "tags": [],
+  "parameters": []
+}

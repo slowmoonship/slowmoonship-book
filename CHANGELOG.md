@@ -1,5 +1,9 @@
 # 出版更新记录
 
+## 2026-10-13 · Sui v0.1
+
+新增Sui独立篇章：10核心模块、SUI 00及SUI 99，45篇阅读内容，13组SVG/draw.io/PNG，9份新教学SQL及12份历史SQL，3个官方GraphQL案例及必要Schema/验证证据。保留原结构；出版副本只整理入口、证据链接及本机信息，详见[机械修改](publication/sui/2026-10-13-v0.1/CHANGES.md)。原稿PARTIAL、39 COMPLETE/6 VALIDATED和Dune 402缺口保留，新SQL成功执行0；作者审读UNKNOWN。Ethereum、Solana与历史快照不变。无Tag/Release，GitBook未配置。
+
 ## 2026-10-13 · Solana v0.1
 
 新增Solana独立篇章：46篇阅读内容、27对SVG/draw.io、13份历史SQL、3个RPC案例及引用证据。保留原模块与文件路径，新增多链版本登记和全书导航。Ethereum内容字节不变，首次出版报告完整归档。25段教学SQL仍未执行；不创建Tag/Release，不配置GitBook。
