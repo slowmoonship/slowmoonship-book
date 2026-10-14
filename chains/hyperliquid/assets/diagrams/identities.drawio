@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" version="26" agent="slowmoonship-scene-export">
+  <diagram id="identities" name="07 主账户、子账户和代理钱包">
+    <mxGraphModel adaptiveColors="auto" dx="1200" dy="690" grid="1" page="1" pageWidth="1200" pageHeight="690">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="07｜主账户、子账户和代理钱包" vertex="1" parent="1" style="text;html=1;fontSize=27;fontStyle=1;fontFamily=PingFang SC;align=left;strokeColor=none;fillColor=none;">
+          <mxGeometry x="32" y="20" width="1136" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n0" value="&lt;b&gt;主账户&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Master account&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;管理关系&lt;/font&gt;" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=22;align=center;verticalAlign=middle;spacing=8;fillColor=#E5F0F7;strokeColor=#748797;fontColor=#20364A;">
+          <mxGeometry x="40" y="125" width="500" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="&lt;b&gt;代理签名者&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Agent wallet&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;授权操作身份&lt;/font&gt;" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=22;align=center;verticalAlign=middle;spacing=8;fillColor=#EDE7F5;strokeColor=#748797;fontColor=#20364A;">
+          <mxGeometry x="660" y="125" width="500" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="&lt;b&gt;子账户&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Subaccount&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;独立交易与风险状态&lt;/font&gt;" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=22;align=center;verticalAlign=middle;spacing=8;fillColor=#E4F2EC;strokeColor=#748797;fontColor=#20364A;">
+          <mxGeometry x="40" y="275" width="500" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="&lt;b&gt;Vault账户&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Vault account&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;策略自身交易状态&lt;/font&gt;" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=22;align=center;verticalAlign=middle;spacing=8;fillColor=#FFF0D9;strokeColor=#748797;fontColor=#20364A;">
+          <mxGeometry x="660" y="275" width="500" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="&lt;b&gt;原始账户统计&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Account count&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;地址或交易账户&lt;/font&gt;" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=22;align=center;verticalAlign=middle;spacing=8;fillColor=#E5F0F7;strokeColor=#748797;fontColor=#20364A;">
+          <mxGeometry x="40" y="425" width="500" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="&lt;b&gt;有依据的集合&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Attributed group&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;关系、来源与有效期&lt;/font&gt;" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=22;align=center;verticalAlign=middle;spacing=8;fillColor=#EDE7F5;strokeColor=#748797;fontColor=#20364A;">
+          <mxGeometry x="660" y="425" width="500" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" edge="1" parent="1" source="n0" target="n2" value="管理" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#748797;fontSize=12;labelBackgroundColor=#ffffff;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="n1" target="n2" value="授权" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#748797;fontSize=12;labelBackgroundColor=#ffffff;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="n2" target="n4" value="统计" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#748797;fontSize=12;labelBackgroundColor=#ffffff;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="n3" target="n4" value="统计" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#748797;fontSize=12;labelBackgroundColor=#ffffff;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="n0" target="n5" value="研究" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#748797;fontSize=12;labelBackgroundColor=#ffffff;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="note" value="技术管理、操作权限和现实受益归属分别判断，不按相似行为自动去重。" vertex="1" parent="1" style="text;html=1;fontSize=16;fontFamily=PingFang SC;align=left;strokeColor=none;fillColor=none;">
+          <mxGeometry x="32" y="614" width="1136" height="62" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

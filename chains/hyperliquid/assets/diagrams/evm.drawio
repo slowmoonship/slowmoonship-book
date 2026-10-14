@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" version="26" agent="slowmoonship-scene-export">
+  <diagram id="evm" name="29 HyperEVM的区块与Gas">
+    <mxGraphModel adaptiveColors="auto" dx="1200" dy="690" grid="1" page="1" pageWidth="1200" pageHeight="690">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="29｜HyperEVM的区块与Gas" vertex="1" parent="1" style="text;html=1;fontSize=27;fontStyle=1;fontFamily=PingFang SC;align=left;strokeColor=none;fillColor=none;">
+          <mxGeometry x="32" y="20" width="1136" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n0" value="&lt;b&gt;共享L1执行&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Hyperliquid L1&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;HyperBFT保护&lt;/font&gt;" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=22;align=center;verticalAlign=middle;spacing=8;fillColor=#E5F0F7;strokeColor=#748797;fontColor=#20364A;">
+          <mxGeometry x="40" y="125" width="500" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="&lt;b&gt;EVM事务入口&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;EVM transactions&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;Mainnet Chain ID 999&lt;/font&gt;" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=22;align=center;verticalAlign=middle;spacing=8;fillColor=#EDE7F5;strokeColor=#748797;fontColor=#20364A;">
+          <mxGeometry x="660" y="125" width="500" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="&lt;b&gt;快小区块&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Small blocks&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;文档初始1秒 / 3M Gas&lt;/font&gt;" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=22;align=center;verticalAlign=middle;spacing=8;fillColor=#E4F2EC;strokeColor=#748797;fontColor=#20364A;">
+          <mxGeometry x="40" y="275" width="500" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="&lt;b&gt;慢大区块&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Large blocks&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;文档初始1分钟 / 30M Gas&lt;/font&gt;" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=22;align=center;verticalAlign=middle;spacing=8;fillColor=#FFF0D9;strokeColor=#748797;fontColor=#20364A;">
+          <mxGeometry x="660" y="275" width="500" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="&lt;b&gt;统一EVM编号&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;One EVM sequence&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;两类区块交错编号&lt;/font&gt;" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=22;align=center;verticalAlign=middle;spacing=8;fillColor=#E5F0F7;strokeColor=#748797;fontColor=#20364A;">
+          <mxGeometry x="40" y="425" width="500" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="&lt;b&gt;执行计量&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;HYPE gas / Receipts&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;失败也可能消耗Gas&lt;/font&gt;" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=22;align=center;verticalAlign=middle;spacing=8;fillColor=#EDE7F5;strokeColor=#748797;fontColor=#20364A;">
+          <mxGeometry x="660" y="425" width="500" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" edge="1" parent="1" source="n0" target="n1" value="包含" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#748797;fontSize=12;labelBackgroundColor=#ffffff;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="n1" target="n2" value="配置路径" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#748797;fontSize=12;labelBackgroundColor=#ffffff;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="n1" target="n3" value="配置路径" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#748797;fontSize=12;labelBackgroundColor=#ffffff;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="n2" target="n4" value="编号" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#748797;fontSize=12;labelBackgroundColor=#ffffff;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="n3" target="n4" value="编号" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#748797;fontSize=12;labelBackgroundColor=#ffffff;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="n4" target="n5" value="执行证据" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#748797;fontSize=12;labelBackgroundColor=#ffffff;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="note" value="文档配置不是作者长期性能实测；EVM编号不等于Core高度。" vertex="1" parent="1" style="text;html=1;fontSize=16;fontFamily=PingFang SC;align=left;strokeColor=none;fillColor=none;">
+          <mxGeometry x="32" y="614" width="1136" height="62" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

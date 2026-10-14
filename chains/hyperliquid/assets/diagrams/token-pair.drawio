@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" version="26" agent="slowmoonship-scene-export">
+  <diagram id="token-pair" name="26 Token编号与Pair编号的区别">
+    <mxGraphModel adaptiveColors="auto" dx="1200" dy="690" grid="1" page="1" pageWidth="1200" pageHeight="690">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="26｜Token编号与Pair编号的区别" vertex="1" parent="1" style="text;html=1;fontSize=27;fontStyle=1;fontFamily=PingFang SC;align=left;strokeColor=none;fillColor=none;">
+          <mxGeometry x="32" y="20" width="1136" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n0" value="&lt;b&gt;HYPE Token&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Token index 150&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;Mainnet实际Meta，wei=8 / sz=2&lt;/font&gt;" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=22;align=center;verticalAlign=middle;spacing=8;fillColor=#E5F0F7;strokeColor=#748797;fontColor=#20364A;">
+          <mxGeometry x="40" y="125" width="500" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="&lt;b&gt;USDC Token&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Token index 0&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;报价资产身份&lt;/font&gt;" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=22;align=center;verticalAlign=middle;spacing=8;fillColor=#EDE7F5;strokeColor=#748797;fontColor=#20364A;">
+          <mxGeometry x="660" y="125" width="500" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="&lt;b&gt;HYPE/USDC簿&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Pair index 107&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;实际tokens：[150, 0]&lt;/font&gt;" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=22;align=center;verticalAlign=middle;spacing=8;fillColor=#E4F2EC;strokeColor=#748797;fontColor=#20364A;">
+          <mxGeometry x="40" y="275" width="500" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="&lt;b&gt;订单资产&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Asset ID 10107&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;10000 + pair index&lt;/font&gt;" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=22;align=center;verticalAlign=middle;spacing=8;fillColor=#FFF0D9;strokeColor=#748797;fontColor=#20364A;">
+          <mxGeometry x="660" y="275" width="500" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="&lt;b&gt;EVM合约资产&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Linked ERC-20&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;需独立链接证据&lt;/font&gt;" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=22;align=center;verticalAlign=middle;spacing=8;fillColor=#E5F0F7;strokeColor=#748797;fontColor=#20364A;">
+          <mxGeometry x="40" y="425" width="500" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="&lt;b&gt;网络与版本&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Network / Version&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;Mainnet与Testnet编号不同&lt;/font&gt;" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=22;align=center;verticalAlign=middle;spacing=8;fillColor=#EDE7F5;strokeColor=#748797;fontColor=#20364A;">
+          <mxGeometry x="660" y="425" width="500" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" edge="1" parent="1" source="n0" target="n2" value="base" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#748797;fontSize=12;labelBackgroundColor=#ffffff;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="n1" target="n2" value="quote" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#748797;fontSize=12;labelBackgroundColor=#ffffff;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="n2" target="n3" value="编码" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#748797;fontSize=12;labelBackgroundColor=#ffffff;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="note" value="Token、Pair与Action Asset ID属于不同编号域；HYPE在EVM为原生余额。" vertex="1" parent="1" style="text;html=1;fontSize=16;fontFamily=PingFang SC;align=left;strokeColor=none;fillColor=none;">
+          <mxGeometry x="32" y="614" width="1136" height="62" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

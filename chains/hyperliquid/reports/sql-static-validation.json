@@ -1,0 +1,110 @@
+[
+  {
+    "sql": "01-markets",
+    "pass": true,
+    "undefined_qualified_fields": [],
+    "scope": "balanced delimiters, read-only statement, live tables, qualified fields and authored grain/unit review; no engine parser or execution"
+  },
+  {
+    "sql": "02-volume",
+    "pass": true,
+    "undefined_qualified_fields": [],
+    "scope": "balanced delimiters, read-only statement, live tables, qualified fields and authored grain/unit review; no engine parser or execution"
+  },
+  {
+    "sql": "03-maker-taker",
+    "pass": true,
+    "undefined_qualified_fields": [],
+    "scope": "balanced delimiters, read-only statement, live tables, qualified fields and authored grain/unit review; no engine parser or execution"
+  },
+  {
+    "sql": "04-hourly-flow",
+    "pass": true,
+    "undefined_qualified_fields": [],
+    "scope": "balanced delimiters, read-only statement, live tables, qualified fields and authored grain/unit review; no engine parser or execution"
+  },
+  {
+    "sql": "05-open-interest",
+    "pass": true,
+    "undefined_qualified_fields": [],
+    "scope": "balanced delimiters, read-only statement, live tables, qualified fields and authored grain/unit review; no engine parser or execution"
+  },
+  {
+    "sql": "06-flow-stock",
+    "pass": true,
+    "undefined_qualified_fields": [],
+    "scope": "balanced delimiters, read-only statement, live tables, qualified fields and authored grain/unit review; no engine parser or execution"
+  },
+  {
+    "sql": "07-funding-rates",
+    "pass": true,
+    "undefined_qualified_fields": [],
+    "scope": "balanced delimiters, read-only statement, live tables, qualified fields and authored grain/unit review; no engine parser or execution"
+  },
+  {
+    "sql": "08-user-funding",
+    "pass": true,
+    "undefined_qualified_fields": [],
+    "scope": "balanced delimiters, read-only statement, live tables, qualified fields and authored grain/unit review; no engine parser or execution"
+  },
+  {
+    "sql": "09-liquidation",
+    "pass": true,
+    "undefined_qualified_fields": [],
+    "scope": "balanced delimiters, read-only statement, live tables, qualified fields and authored grain/unit review; no engine parser or execution"
+  },
+  {
+    "sql": "10-depth",
+    "pass": true,
+    "undefined_qualified_fields": [],
+    "scope": "balanced delimiters, read-only statement, live tables, qualified fields and authored grain/unit review; no engine parser or execution"
+  },
+  {
+    "sql": "11-spread",
+    "pass": true,
+    "undefined_qualified_fields": [],
+    "scope": "balanced delimiters, read-only statement, live tables, qualified fields and authored grain/unit review; no engine parser or execution"
+  },
+  {
+    "sql": "12-hip3-classification",
+    "pass": true,
+    "undefined_qualified_fields": [],
+    "scope": "balanced delimiters, read-only statement, live tables, qualified fields and authored grain/unit review; no engine parser or execution"
+  },
+  {
+    "sql": "13-first-hip3",
+    "pass": true,
+    "undefined_qualified_fields": [],
+    "scope": "balanced delimiters, read-only statement, live tables, qualified fields and authored grain/unit review; no engine parser or execution"
+  },
+  {
+    "sql": "14-evm-transactions",
+    "pass": true,
+    "undefined_qualified_fields": [],
+    "scope": "balanced delimiters, read-only statement, live tables, qualified fields and authored grain/unit review; no engine parser or execution"
+  },
+  {
+    "sql": "15-core-interfaces",
+    "pass": true,
+    "undefined_qualified_fields": [],
+    "scope": "balanced delimiters, read-only statement, live tables, qualified fields and authored grain/unit review; no engine parser or execution"
+  },
+  {
+    "sql": "16-outcome-volume",
+    "pass": true,
+    "undefined_qualified_fields": [],
+    "scope": "balanced delimiters, read-only statement, live tables, qualified fields and authored grain/unit review; no engine parser or execution"
+  },
+  {
+    "sql": "17-trade-book-join",
+    "pass": true,
+    "undefined_qualified_fields": [],
+    "scope": "balanced delimiters, read-only statement, live tables, qualified fields and authored grain/unit review; no engine parser or execution"
+  },
+  {
+    "sql": "18-kpi-and-quality",
+    "pass": true,
+    "undefined_qualified_fields": [],
+    "scope": "balanced delimiters, read-only statement, live tables, qualified fields and authored grain/unit review; no engine parser or execution"
+  }
+]

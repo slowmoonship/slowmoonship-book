@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" version="26" agent="slowmoonship-scene-export">
+  <diagram id="sql" name="39 把金融问题写成可审查的SQL">
+    <mxGraphModel adaptiveColors="auto" dx="1200" dy="690" grid="1" page="1" pageWidth="1200" pageHeight="690">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="39｜把金融问题写成可审查的SQL" vertex="1" parent="1" style="text;html=1;fontSize=27;fontStyle=1;fontFamily=PingFang SC;align=left;strokeColor=none;fillColor=none;">
+          <mxGeometry x="32" y="20" width="1136" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n0" value="&lt;b&gt;问题与统计对象&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Question / Grain&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;市场、账户还是订单&lt;/font&gt;" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=22;align=center;verticalAlign=middle;spacing=8;fillColor=#E5F0F7;strokeColor=#748797;fontColor=#20364A;">
+          <mxGeometry x="40" y="125" width="500" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="&lt;b&gt;验证输入&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Verified schema&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;字段、单位与来源&lt;/font&gt;" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=22;align=center;verticalAlign=middle;spacing=8;fillColor=#EDE7F5;strokeColor=#748797;fontColor=#20364A;">
+          <mxGeometry x="660" y="125" width="500" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="&lt;b&gt;限定窗口&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Time / Partitions&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;UTC与分区过滤&lt;/font&gt;" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=22;align=center;verticalAlign=middle;spacing=8;fillColor=#E4F2EC;strokeColor=#748797;fontColor=#20364A;">
+          <mxGeometry x="40" y="275" width="500" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="&lt;b&gt;安全关联&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Join cardinality&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;先聚合，检查一对多&lt;/font&gt;" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=22;align=center;verticalAlign=middle;spacing=8;fillColor=#FFF0D9;strokeColor=#748797;fontColor=#20364A;">
+          <mxGeometry x="660" y="275" width="500" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="&lt;b&gt;金融指标&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Metric semantics&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;Flow、Stock与现金流&lt;/font&gt;" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=22;align=center;verticalAlign=middle;spacing=8;fillColor=#E5F0F7;strokeColor=#748797;fontColor=#20364A;">
+          <mxGeometry x="40" y="425" width="500" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="&lt;b&gt;运行状态&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Execution status&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;本篇新增SQL仅静态审查&lt;/font&gt;" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=22;align=center;verticalAlign=middle;spacing=8;fillColor=#EDE7F5;strokeColor=#748797;fontColor=#20364A;">
+          <mxGeometry x="660" y="425" width="500" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" edge="1" parent="1" source="n0" target="n1" value="选表" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#748797;fontSize=12;labelBackgroundColor=#ffffff;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="n1" target="n2" value="限定" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#748797;fontSize=12;labelBackgroundColor=#ffffff;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="n2" target="n3" value="关联" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#748797;fontSize=12;labelBackgroundColor=#ffffff;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="n3" target="n4" value="输出" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#748797;fontSize=12;labelBackgroundColor=#ffffff;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="n4" target="n5" value="验证" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#748797;fontSize=12;labelBackgroundColor=#ffffff;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="note" value="能返回数字的SQL不必然回答原问题；输出名称不能超出证据。" vertex="1" parent="1" style="text;html=1;fontSize=16;fontFamily=PingFang SC;align=left;strokeColor=none;fillColor=none;">
+          <mxGeometry x="32" y="614" width="1136" height="62" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

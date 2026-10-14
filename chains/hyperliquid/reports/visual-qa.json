@@ -1,0 +1,34 @@
+{
+  "status": "COMPLETE_LOCAL_VISUAL_CHECKS",
+  "native_files": 40,
+  "svg_files": 40,
+  "png_renders": 40,
+  "contact_pages": 5,
+  "contact_pages_visually_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "representative_full_resolution_review": [
+    "runtime",
+    "spot",
+    "transfers"
+  ],
+  "repair": [
+    "widened publication canvas to1200",
+    "separated reciprocal arrows",
+    "simplified native XML per current draw.io rules",
+    "ran XML repair before SVG export"
+  ],
+  "source_export": "native editable mxGraphModel first; fixed publication SVG from same scene; native editor uses automatic orthogonal routing",
+  "geometry_status": "0 canvas text overflow candidates / 0 node-box overlaps with STHeiti substitute metrics",
+  "cli_export": {
+    "attempts": 1,
+    "exit_code": 134,
+    "output_created": false,
+    "status": "DESKTOP_CLI_BLOCKED"
+  },
+  "scope": "No claim of per-file desktop editor opening or CLI exports. All40 SVGs actually rendered; labels readable in contact/full previews."
+}

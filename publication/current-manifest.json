@@ -1,6 +1,6 @@
 {
   "as_of": "2026-10-14",
-  "file_count": 993,
+  "file_count": 1350,
   "self_hash_note": "Only publication/current-manifest.json hash is excluded. Git commit tree binds this manifest; all other current files are hashed.",
   "files": [
     {
@@ -10,23 +10,23 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 2657,
-      "sha256": "06e653848590cb29a542f7b139061f2564efe34e0033c58ef6de2d0fd51bb690"
+      "bytes": 3250,
+      "sha256": "92bfee409d876d0a7dfdbe909a57c0eb947643db27b40753f4747932c19024eb"
     },
     {
       "path": "PUBLICATION_STATUS.md",
-      "bytes": 2948,
-      "sha256": "7a68e983edc9862c2eb76ffa308aba0c28ba0709d8b9b3e86497e5526d6ac401"
+      "bytes": 3733,
+      "sha256": "20ef87094a2e4de788a2b4dc1a46307158907aea08092993f71893805a2c2a21"
     },
     {
       "path": "README.md",
-      "bytes": 3907,
-      "sha256": "00097b976e12ceabe9c187a89315367da53098d958e3a74b57ddcd3e08e6051d"
+      "bytes": 4649,
+      "sha256": "d4b7190e36ac6e27aebec80df12a26d38a82e932614ceda4ea5a8955bfe5bb28"
     },
     {
       "path": "SUMMARY.md",
-      "bytes": 26581,
-      "sha256": "d0e206058339bc2c8c8c920873426c07d3dc62d7514ea13e04ea3201f1e1c537"
+      "bytes": 31571,
+      "sha256": "a8fb5b4558557540713ce1e2f79656b00c7df0567284da3ce16c79d52fa3f0ce"
     },
     {
       "path": "chains/avalanche/README.md",
@@ -3434,6 +3434,1761 @@
       "sha256": "71c44969b6abf37280dcea4e696cadd1e7e0aefd327de4bf41e2cf4a8c8b0263"
     },
     {
+      "path": "chains/hyperliquid/BOOK.md",
+      "bytes": 168745,
+      "sha256": "6a7f815754d2412d4ced091b082fc12b808d8f89cabd10646bfcc80b31666dae"
+    },
+    {
+      "path": "chains/hyperliquid/README.md",
+      "bytes": 2849,
+      "sha256": "83f751c59a488f47828a3467cdea3ed2a4b498a3610dfdcbb911950e26bf33fc"
+    },
+    {
+      "path": "chains/hyperliquid/SUMMARY.md",
+      "bytes": 3692,
+      "sha256": "bab59969e138c28a6ce0d29382a0559f43d1028edc0e217a58d736bf5e908e4d"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/DIAGRAM_INDEX.md",
+      "bytes": 5848,
+      "sha256": "ae28b6729567a53da80be8790e295fe675e4f38228a338e4ba6285982153c64c"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/abstraction.drawio",
+      "bytes": 5155,
+      "sha256": "d42fce6255a91f5cdbeca750ef91e8228d4e183093549bf45c82f6163da0d9d7"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/abstraction.svg",
+      "bytes": 13146,
+      "sha256": "30c17135df363c9465d85ab356443033ae683e4989cf2aac80a312de7d169423"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/account-state.drawio",
+      "bytes": 5658,
+      "sha256": "c0856f34fc5d48112e4ffb563aa8345b2803b08a4f56da25408121db8a5280b1"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/account-state.svg",
+      "bytes": 14526,
+      "sha256": "e36a1ccfd513019fb7c5a198a85e8c10fc6208e99627518d16c94af9d8be92ef"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/accounts.drawio",
+      "bytes": 5662,
+      "sha256": "eea04bba3948d90fc462c96e6e59740ac0020faed909581a0e0d9f1231d630f3"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/accounts.svg",
+      "bytes": 14557,
+      "sha256": "b658fa9bdbf600c35ed9efd036a838b332d9211f327cb005c83462fc134b00c3"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/backstop.drawio",
+      "bytes": 5475,
+      "sha256": "e6858e2b665866b82c9380d68f63193602f62aae6a0e51283969813bcec47ecc"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/backstop.svg",
+      "bytes": 14004,
+      "sha256": "5bde2645128e8c86e875e22fa11608f33a0f4436f17c95d244ee3162e83a2ecb"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/book.drawio",
+      "bytes": 5327,
+      "sha256": "3cbc1485cd422e355bbf5afc21d12cacf8182b8e7dfed72e1a14004f29e69516"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/book.svg",
+      "bytes": 13714,
+      "sha256": "22984bbd8b0739c02a443125b97231b2ea5eee151ebcc21e036e1193bb63b53c"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/click.drawio",
+      "bytes": 4063,
+      "sha256": "d2f9c275cc792ab68a697d3dcac769ea0d69ff14af22436c9a0463f6a1edc16c"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/click.svg",
+      "bytes": 10423,
+      "sha256": "cd1bff8d837395da43d77cb4b98aa6f328ee1c5a16f1f2befc1c7de38f92c81e"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/consensus.drawio",
+      "bytes": 4064,
+      "sha256": "78385661cd7f00374d3cdaac675b24bec93e0eed3748dcbf13ba6503bd43fb7f"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/consensus.svg",
+      "bytes": 10409,
+      "sha256": "aca30469de3cd27b93ce05bc822cf1a6f0d37fb66857a714f3248b1000f5cb90"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/corewriter.drawio",
+      "bytes": 5712,
+      "sha256": "6fd8a8b9bad6668e984dd08fba61a839dc8967bccaa2a746d6ea82435decc870"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/corewriter.svg",
+      "bytes": 14629,
+      "sha256": "25a2c23de5ed135b81d86782986386323862865852a52e2723ddb397914b6472"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/data-sources.drawio",
+      "bytes": 6040,
+      "sha256": "fa505c36514a4f5220596b2af91f3f6b3cca5163c83709f79247a1033d22f23f"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/data-sources.svg",
+      "bytes": 15468,
+      "sha256": "ca09dec6c53f7f9331ec59651dfa1c1799f49445d24835a685cb0e0ddc1fff8b"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/diagram-manifest.json",
+      "bytes": 10972,
+      "sha256": "6f32b3cd4fcf6932d1f938e3de4aef9865a3e736198ce648e1536474264ccae5"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/dune.drawio",
+      "bytes": 5145,
+      "sha256": "f7de83bcf50d11121dfc0ea15334b6f43593b213d2bf2f5b4963277e10d02de8"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/dune.svg",
+      "bytes": 13147,
+      "sha256": "d4f76b74c3e5c77dc1b8a0adff9813d26f4f3963c61562ab389559ed8a16f7e2"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/evm-data.drawio",
+      "bytes": 5645,
+      "sha256": "d122a213de7e9968c8e6f403dc19d27482fcd82e6af769ebbefb61ebe0fd9374"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/evm-data.svg",
+      "bytes": 14460,
+      "sha256": "050c90d53412e83f2a247a620ab1e2d3aa6e924346ba6f8e3e9d3b410e9279b1"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/evm.drawio",
+      "bytes": 5955,
+      "sha256": "7f7a504b31759163cf6ff3d1ce924c39a686997f851b8c4d0e023e990bdc5206"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/evm.svg",
+      "bytes": 15300,
+      "sha256": "f71abeb55f4e0addb973401f5ccbf2ab11397598a3fbfb66efcfd0f9b0f23fb4"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/fees.drawio",
+      "bytes": 5431,
+      "sha256": "9bb3287853350a17970c5c7b77c9a195a6eaf92a61f4c6d1348a32dedf2f4658"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/fees.svg",
+      "bytes": 13911,
+      "sha256": "78c79c143ab888b92969e6ba2240536bc74f31046afa28415b3a8ce774c01d85"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/funding-flow.drawio",
+      "bytes": 5361,
+      "sha256": "d0cdb6f4d81aa7dcdf5e0ecdcc0779ed08300717f5775fcce0bee8821ecc2166"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/funding-flow.svg",
+      "bytes": 13731,
+      "sha256": "c57d2cda0917328c8fb64938efc8553cc69ea041ecbb2bab03c1ce25d5c8881f"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/funding-payment.drawio",
+      "bytes": 5725,
+      "sha256": "ae8bc1f860d504f0d5edf3eecfc463691d987f3c013af2052bbe94cd59ce336d"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/funding-payment.svg",
+      "bytes": 14666,
+      "sha256": "5e429095ecbc8fc93e091ef03182f7a02c518096cde1dd1aa907ddcc59cdceb8"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/funding-rate.drawio",
+      "bytes": 5715,
+      "sha256": "96e729ec5ab6d0a151e4f0a5640ea7ad249df66844dd8b7a7b7714aefe6cffca"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/funding-rate.svg",
+      "bytes": 14637,
+      "sha256": "2077a07f45df87f2711e99a2f73406c008e8be2c9611fb7e0ed81af16acfdc6f"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/hip2.drawio",
+      "bytes": 6011,
+      "sha256": "f3b05ab51de06482a7eb3b2ad19f70b42838a63a6ae1a939dbf5b8eb5b2830c6"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/hip2.svg",
+      "bytes": 15440,
+      "sha256": "2304a6a410188c52ba6b3c759f2500a839e1f535130400d4c6a2470a9c72fc82"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/hip3.drawio",
+      "bytes": 5704,
+      "sha256": "d78884e36eafce3cfefa8d89c42b3d48f0fbaead48acfaecd9b6e72cdc804366"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/hip3.svg",
+      "bytes": 14623,
+      "sha256": "959aaf3f710b7c3bb59c0a74143209bd79feb1bdbc162e3ba25f9c8075dadd6b"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/hip4.drawio",
+      "bytes": 5474,
+      "sha256": "b498f893e55413221ddce2c650d5a932916db5de371c0155d226842e3f99b668"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/hip4.svg",
+      "bytes": 13990,
+      "sha256": "7cb205f64177bbcc1931abff0fc835b26c13e0f6baf17b875ca03927337cb782"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/identities.drawio",
+      "bytes": 5686,
+      "sha256": "760555fc2a97140a2b1a4f8b520ebd5fc409b2d450a07cfc8d43209698a022ee"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/identities.svg",
+      "bytes": 14612,
+      "sha256": "659dba237254a0b9c1be0b58eb5127fa9a1bd1c041954cdcb5db61540cdfe007"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/liquidation.drawio",
+      "bytes": 5733,
+      "sha256": "a5d508fca49adc168f3fb91c16745bd9d1aec672bfd0ad69429349627401345a"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/liquidation.svg",
+      "bytes": 14671,
+      "sha256": "70102121119a7ced5bb063f34c80f2fe66aed8a8cc5620fa0a4cfbe2c7f795a3"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/margin.drawio",
+      "bytes": 5693,
+      "sha256": "d853e701bb05effece23dd9d62d72eff1fd402ab72eef8b8272c91293467771b"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/margin.svg",
+      "bytes": 14599,
+      "sha256": "6051e3214c91eff3ae85fbd804b738e19a3fdc3e9f8c65d8d703da0010685ab9"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/matching.drawio",
+      "bytes": 5927,
+      "sha256": "6f42e190888da500b4d10fade7d399463e93bae27c1430f02d444e572b0377fa"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/matching.svg",
+      "bytes": 15267,
+      "sha256": "2e748bfb71568826f44538ba8e63540ac79e31f8891e46bc3b335fb677e4102d"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/oi.drawio",
+      "bytes": 5464,
+      "sha256": "7d2dd5b3885d85572526e8943df77561709b37af9c16a329dcf2a69105177885"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/oi.svg",
+      "bytes": 13961,
+      "sha256": "f5f519e31fd13dcd3e741951173debeeb48e2feda34093d8d0a435896b65ed54"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/orders.drawio",
+      "bytes": 5981,
+      "sha256": "d9917ee0e8f2f6c8ac6bf33ca4fc4518ce3a282e061818ffc5f0dfd0d086652b"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/orders.svg",
+      "bytes": 15352,
+      "sha256": "2827f1402839afea5cbee6e7b26cfd52f0118994c22f052ea369bad8b97ce4f7"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/partial.drawio",
+      "bytes": 5418,
+      "sha256": "a9af9e648743294e107bc59f6d636c848eb26c77ad432c4e84e01d215ddbeb06"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/partial.svg",
+      "bytes": 13850,
+      "sha256": "7e1e0080cf84fb9b849e404f303981c4347de6739ce48061eea3e8d1f6c3b523"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/perpetual.drawio",
+      "bytes": 5687,
+      "sha256": "73807a6aff159e2d9eba23f4e6595262920fd57aedac1ced40c12ab07b228f89"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/perpetual.svg",
+      "bytes": 14593,
+      "sha256": "abbcfc5482fdb7b07409ea53d125adacc5337038376514e65b7730567ba3a14d"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/pnl.drawio",
+      "bytes": 5667,
+      "sha256": "4e1dac48da32666902d9ccc33da920f0bb941cfcd177087f0ac9ac1645ec458f"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/pnl.svg",
+      "bytes": 14552,
+      "sha256": "a570afd62348f2589167ab3c58e1fc1eeeeb23fb03567907a91ce19912cbd5f7"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/position.drawio",
+      "bytes": 5602,
+      "sha256": "4cd90e71bfb6ef0ffbf52860a010de20b370f7372ab9e6b5c8e21811e72f3c9e"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/position.svg",
+      "bytes": 14408,
+      "sha256": "225a64d11f2be3370dc83047e9156b1ce1b2e44a2d0f4a6269d4174701393999"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/precompiles.drawio",
+      "bytes": 5427,
+      "sha256": "f9554ab5d27c23a4d6a9aa1c34fdaa56bfde141d77a9ee603987d3d4d3c2a9f3"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/precompiles.svg",
+      "bytes": 13887,
+      "sha256": "4d59b001c4735abc687fc960e2674d99a998e43839ba00f61a0adbb705d8ea85"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/prices.drawio",
+      "bytes": 5686,
+      "sha256": "fe00d2ebe9cafae970f23c9e4849a6b15b31751ce863fddbcb740166e280a54b"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/prices.svg",
+      "bytes": 14587,
+      "sha256": "1f199de54be1eb23cc3bbc402a947de9f3a22271273d7cda8a04206718f5cbc3"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/reconstruction.drawio",
+      "bytes": 5776,
+      "sha256": "b52e64d53214792a0886c2a6e4d50e74d69c3d911ecdf7bba9d0d8b4f771c1e4"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/reconstruction.svg",
+      "bytes": 14753,
+      "sha256": "114c894872df528c4cf3eb22309a3f9706507b6fb8b8ecc1b9fbe8b52122c441"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/records.drawio",
+      "bytes": 5977,
+      "sha256": "34684468eeb4817c65af6d78394ce6636faa627f90d06a70d8cc93e9bb96acad"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/records.svg",
+      "bytes": 15355,
+      "sha256": "c48b166e0247fd6170131ce9cec6511edd31d759c727217038982d21b0cced7f"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/runtime.drawio",
+      "bytes": 5719,
+      "sha256": "f2d3a25f3192edcfdd1ba8511f8b526598ff7ec0743ffe1dde9555714f4c9ba3"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/runtime.svg",
+      "bytes": 14638,
+      "sha256": "2211c8e5b7ff6761216f66a8272eed7a3d0a61001a8c6a61b82aca0dd89bdf48"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/spot.drawio",
+      "bytes": 5349,
+      "sha256": "d192b835d82c75e57d9d599953e8552ec51ab2c03dc605e7ec75fde5d738bc7c"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/spot.svg",
+      "bytes": 13721,
+      "sha256": "a1c5940b11fb2cb46b19d5173a1afb26f1f16d2fcb17b1f9abacc90a4c0db24a"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/sql.drawio",
+      "bytes": 5704,
+      "sha256": "f663a6742c86e3bcaf1c213b14a644b676e000486e60ffe46c14b4621f12ca5f"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/sql.svg",
+      "bytes": 14624,
+      "sha256": "bd27bb47befded468da6cbdcecf93989b509e9b2c214bb435e798da7e217c257"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/staking.drawio",
+      "bytes": 5703,
+      "sha256": "36bd391172f16c4118211de1ab9fc11b521a43cfe4d20b955db5b232fe427bdd"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/staking.svg",
+      "bytes": 14623,
+      "sha256": "41d9c4686f7348e3e27d300477a0a1d6bb59b4cd2cfa30d406dd5dcacf74517d"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/token-pair.drawio",
+      "bytes": 5105,
+      "sha256": "4a0e2e466cb7de3525a789eb7fb3b2d54c3edc40909564e528e91613c8ef1c1d"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/token-pair.svg",
+      "bytes": 13046,
+      "sha256": "65169ae36e564bcf68d935dcb05b4a4d114f39674a3746e3d2f2bef9d44e2870"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/transfers.drawio",
+      "bytes": 5751,
+      "sha256": "972d711cc20a6f42935ddf5bec6a654ccd88af998e401893f39e60bdb0f007ee"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/transfers.svg",
+      "bytes": 14726,
+      "sha256": "f54506fa237f5598147cd732c82889c8b7537b2216b1f2b13bfe2a9ccb4e9ee2"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/vault.drawio",
+      "bytes": 5689,
+      "sha256": "dfb45f8842d2a2c84be7b3ae047e73f625943b049ec2326fc7a90fb49c0f168e"
+    },
+    {
+      "path": "chains/hyperliquid/assets/diagrams/vault.svg",
+      "bytes": 14589,
+      "sha256": "8d205137778c9c866de19049fa23d5c2f4ff360cfccdf2ffff889794268dcfa7"
+    },
+    {
+      "path": "chains/hyperliquid/book/00-preface.md",
+      "bytes": 2364,
+      "sha256": "62ecd1353030d079f6576e2f0450ac67e4690247551f64a2a1b49074b2b4119b"
+    },
+    {
+      "path": "chains/hyperliquid/book/appendix/data-table-index.md",
+      "bytes": 1941,
+      "sha256": "74582554843e5f3a287d5ecede0867cfd264e55f8a7e242fc926a44d133597b7"
+    },
+    {
+      "path": "chains/hyperliquid/book/appendix/glossary.md",
+      "bytes": 6387,
+      "sha256": "1b013f8118c89be96793eaab15472e4f9164d00050e6981dea4febf32198ddfc"
+    },
+    {
+      "path": "chains/hyperliquid/book/appendix/hip-standards.md",
+      "bytes": 1601,
+      "sha256": "15d224719bf5b21e2320dc128072130688e477fef064060b89a19ad3f9943791"
+    },
+    {
+      "path": "chains/hyperliquid/book/appendix/market-identifiers.md",
+      "bytes": 2275,
+      "sha256": "264eb660cd99187417afdc4f136330d9c5d62c4818afc840444cb5925eaacdc2"
+    },
+    {
+      "path": "chains/hyperliquid/book/appendix/references.md",
+      "bytes": 1113,
+      "sha256": "36770e0b7286c1e93ce5339dd5c27fbffd7adce1aea43cd685204ba4baf1449f"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-01/01-click.md",
+      "bytes": 3657,
+      "sha256": "2283580540cd9559496e3f1f002baaad331237c74253619e1a9ad146b1cb3ff3"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-01/02-consensus.md",
+      "bytes": 3590,
+      "sha256": "7e3bb55d2d65e23dbb1cec6c7eb5987c73e8ac8c80592dae6a3d713289db6e50"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-01/03-runtime.md",
+      "bytes": 3899,
+      "sha256": "f89b590b1be201073ae591aa4ae6bad634162803806281ee7c0f5aeceb44f15e"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-01/04-records.md",
+      "bytes": 3925,
+      "sha256": "04cb58b5104b3a5c5c6b23bdcd12a7c9218018e51d047b373ba554ec607a51a8"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-02/05-accounts.md",
+      "bytes": 3980,
+      "sha256": "0fa27c5511b45f4d8cde97271bd09c9fa4db297701ea497331922b02e0eaab3e"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-02/06-abstraction.md",
+      "bytes": 4038,
+      "sha256": "73f8a1be7dbe349e86eb4442ff1aff74dcbc58549c37333413e08258aacf991b"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-02/07-identities.md",
+      "bytes": 3821,
+      "sha256": "7e88e9179f7153423f4b3d3de2dc70faa4376a0b5160d7028555f3899bf59a6b"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-02/08-account-state.md",
+      "bytes": 4232,
+      "sha256": "b0a6baad74494a0c05699128c64e2b284a8da8f90848307e792970f8f4314ecf"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-03/09-book.md",
+      "bytes": 3583,
+      "sha256": "7e52c3c1dd9167cc67a04ac104366788bd4dd62e3d73fa800d4798516fd747fd"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-03/10-matching.md",
+      "bytes": 3584,
+      "sha256": "5becf53c1ab76b1899f972b7d1b98210e69a695c38aa2e94dd3ffc7332be45e0"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-03/11-partial.md",
+      "bytes": 3818,
+      "sha256": "cff8849267b7565a01606fe4c3b3a0498e4ddc20f546b66ab799626de6e9d41a"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-03/12-orders.md",
+      "bytes": 3756,
+      "sha256": "8d4715718df55cd2f2fe1ad28571e80298dc5c9296a9fa2bc4df92df615c9c2c"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-04/13-perpetual.md",
+      "bytes": 3601,
+      "sha256": "bf89ebaeae18124266220e8118a81cc7a8339fdba7a0f241539b8472d8904223"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-04/14-position.md",
+      "bytes": 3669,
+      "sha256": "cfad6c49443faa3c22a6043b5570870443b9742571196a23f731cb965f0063de"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-04/15-pnl.md",
+      "bytes": 3679,
+      "sha256": "ad8a4e129e093fe2fa593ef0480ef1448f637f2762b8f638f1afd88268f7ce6b"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-04/16-oi.md",
+      "bytes": 3843,
+      "sha256": "605069aa6a27c2ecd2fd00d815fd39078dd6f12320d200411e233fa2cde9a313"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-05/17-prices.md",
+      "bytes": 4070,
+      "sha256": "a9abf2e7a1325278fcaec88c1e386fa3b0b0b8eee24ae2775731fef44f9655fc"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-05/18-margin.md",
+      "bytes": 3955,
+      "sha256": "bff029ea91905ab54d9fef8d7d79b320599a5f10518081a1767d9f916aa41d5c"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-05/19-liquidation.md",
+      "bytes": 3742,
+      "sha256": "2892a91e98c7d17cb048bf798cbed42d8f5fb3914cea6cca5fd738acfcf7602f"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-05/20-backstop.md",
+      "bytes": 4185,
+      "sha256": "af27610bafb22ac45be62602f9d4c8db94564059339a84f1f6171db60b320c8d"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-06/21-funding-flow.md",
+      "bytes": 3605,
+      "sha256": "4270c663fca972c021d2eed3c9ea28b799a19c4f4e2ee9e41a1b43aeeb685efb"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-06/22-funding-rate.md",
+      "bytes": 3778,
+      "sha256": "b45f10041e8b795b33f2ec90917c62839e270b33631bee1cbde33f79b5e90406"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-06/23-funding-payment.md",
+      "bytes": 3828,
+      "sha256": "11f1948db3331c70f676cfd94c9348a1bbdae3b38501d422373faf0d2bdb85cb"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-06/24-fees.md",
+      "bytes": 3972,
+      "sha256": "cf2bc87030cd1bdca59d1f6813e6df7546cc5ef1e416df80fd4a8ddb9fc98846"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-07/25-spot.md",
+      "bytes": 3722,
+      "sha256": "df3474d52f5fcb587e021b1ca78e17aa81c7999f1dd1f679fd46d6ff66a60c4b"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-07/26-token-pair.md",
+      "bytes": 4332,
+      "sha256": "12a97835053c4d47678e42c690e2444d9870eaec27a1e4b500468050dcb4f427"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-07/27-hip2.md",
+      "bytes": 3532,
+      "sha256": "d5ac49f7d3b009433ddfa26ddbc24230dfb15f95cfb8cbfdc429e523b2256b92"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-07/28-transfers.md",
+      "bytes": 3677,
+      "sha256": "594ea7122bd82bde5e7457d84ea96270e6cef8748832e6000f4c1cb071c45e81"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-08/29-evm.md",
+      "bytes": 4206,
+      "sha256": "76f60017c168507d735ea28093e67f3e550c5339e73f4f86dbe735543ef87e9a"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-08/30-precompiles.md",
+      "bytes": 3648,
+      "sha256": "6c84c34a8df284785270fb7eebcfc92a7b8a026a8223290caf3f1ce4b1b60c9f"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-08/31-corewriter.md",
+      "bytes": 3926,
+      "sha256": "b59bca2e4b7a3815617add499b1287ff2c05ab1df7bbbc6e0d777e52fe4d2e52"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-08/32-evm-data.md",
+      "bytes": 3881,
+      "sha256": "08e5eb99b6be17e3cc0c64f2439ead83e42a2a9beb76875630a3d5b0c879204b"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-09/33-hip3.md",
+      "bytes": 4230,
+      "sha256": "b5c33694648b145a7dbaf5a2a664ec67fd030f4275ea24a52a3c7751ec58c3f5"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-09/34-hip4.md",
+      "bytes": 4195,
+      "sha256": "342828f9dacc8dfd787a1247d2fba27ee03eee3a9e37db2c78ae04d45a50f420"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-09/35-staking.md",
+      "bytes": 3477,
+      "sha256": "0b865c1aeca3b74fb6a3e061324de058174b9775a5209d7f82b3c429aa25d6f6"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-09/36-vault.md",
+      "bytes": 3584,
+      "sha256": "17689264791c071720f99078cdf5e05d3d482b0f32211f5457b0366d7a8325c6"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-10/37-data-sources.md",
+      "bytes": 3753,
+      "sha256": "8f63090d8032b997bab12052d79ceab6ed732d48a762a35384a6a995c63277e1"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-10/38-dune.md",
+      "bytes": 3998,
+      "sha256": "ecad8c1fb129c2cec70e9cc7d64c028cb7da987178860e080ff018be4fe5f3c5"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-10/39-sql.md",
+      "bytes": 4796,
+      "sha256": "185b3002888fad1b122362b1b2994f755618107fcdf7b44b051554c410d6c5d4"
+    },
+    {
+      "path": "chains/hyperliquid/book/part-10/40-reconstruction.md",
+      "bytes": 3994,
+      "sha256": "a3ce93150a835b6b09e944f42cdeda27f9ee3476221ec466070353d80e6f78d8"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/01-meta-context.json",
+      "bytes": 122930,
+      "sha256": "e138b178676c7843bdbcffa9cd85c04b9a2a9f5b12af2e7640db8cd758725b5b"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/01-meta-context.response.json",
+      "bytes": 72413,
+      "sha256": "094ebec0ca1099f020f7f00aaf12f5e543f8ad8c783faf427dec03ef2490cac0"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/02-btc-book.json",
+      "bytes": 4231,
+      "sha256": "a27daa1a47c7378cc866cd2ae602563677bc9a135e5b1c127f774937cd8fda8b"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/02-btc-book.response.json",
+      "bytes": 1576,
+      "sha256": "3504ecc1e70aae470866f9382c5d40ba446b2e47f60983d6dfeb376688c469eb"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/03-spot-meta.json",
+      "bytes": 223581,
+      "sha256": "aa5c4734e17be706438830602c836c487878668ac8a8ff9d6bb3375a41c671c2"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/03-spot-meta.response.json",
+      "bytes": 136896,
+      "sha256": "421913c511fe4f6dd139b9a3fcb8dbf4998272bfe40b8d7b3742c4ab03871ac6"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/04-perp-dexs.json",
+      "bytes": 49036,
+      "sha256": "3eba3aebcaf4d4ec06be773eb98e7e155a5777ab70912e5d89440b7e8b985d5c"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/04-perp-dexs.response.json",
+      "bytes": 21598,
+      "sha256": "85988d262b887b5d1eb6f1f29dd5d334d930d25f80963b56eecfed4d108a8d77"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/05-outcome-meta.json",
+      "bytes": 159076,
+      "sha256": "5bdc8fd24200b6a8a8ddfb9df253a9ddc25ef1762caca8fcee937524dde65b21"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/05-outcome-meta.response.json",
+      "bytes": 99669,
+      "sha256": "208e7b5cc08e39ed2b3655711216994fd2d3b2f5597c6ea77da7ab43b6cde4ac"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/06-btc-funding.json",
+      "bytes": 3690,
+      "sha256": "cf35fd9b640ff97d03b23ef9ea3287dc46a95a6f75e9a16b2fc885ff7a4e2456"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/06-btc-funding.response.json",
+      "bytes": 2159,
+      "sha256": "5e691afdea7213132131ec81774662ee5147616a17c06eaf4183600dc22d889b"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/07-spot-context.json",
+      "bytes": 538766,
+      "sha256": "c1af4130822df7fd08909ef1f0ba7f48d406079e631b2515f68bb1d7a0b4d458"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/07-spot-context.response.json",
+      "bytes": 334323,
+      "sha256": "6bcf23664e2afaa20399debf7d27782921acf3aca5c69cdb59183ba89a9cb32e"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/08-settled-outcome.json",
+      "bytes": 859,
+      "sha256": "7900afd20630ca6610ba934d1d9c7c556b0b62deef5ffa5e6bfb9a3c3394f8cb"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/08-settled-outcome.response.json",
+      "bytes": 252,
+      "sha256": "741e7e3399146db365b36cae78f206efee957fa0955821eb9e4d153ae1a2304b"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/09-hip3-meta.json",
+      "bytes": 95910,
+      "sha256": "01bff33b686a0c5e53fd1c093b28f3d8615b1dca82ca28071231e847aaf8eba9"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/09-hip3-meta.response.json",
+      "bytes": 60028,
+      "sha256": "f436872156a4139a545742932cf1af2071d3dfb2742d6216c63244b50ee9cf41"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/10-hype-book.json",
+      "bytes": 4103,
+      "sha256": "ebba15a3d7caed7e3e53991daee9185257682e5c82cc39f6342ee75fc093c139"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/10-hype-book.response.json",
+      "bytes": 1447,
+      "sha256": "31b7ba035438dcb739f835297c7673baca2f6e666784775e4a5ecdbad9aa9d16"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/11-outcome-book.json",
+      "bytes": 1649,
+      "sha256": "2e465e9af6435ea01bff26c8cf03ad5608ccd4edec8ce2403196fb83d3f008a4"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/11-outcome-book.response.json",
+      "bytes": 496,
+      "sha256": "cc9c5fb5f08ff35c37dbc0c517f67478c251ee2225f294b181136646ab875065"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/12-evm-chain.json",
+      "bytes": 528,
+      "sha256": "2b0bb1056f7cdeeb4ce3e7400c83d2e4de23eb851e711da99a6d174f262f8162"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/12-evm-chain.response.json",
+      "bytes": 41,
+      "sha256": "430f684fbe48ec1e680bfacf8a2bea38f365e868bc8874eebe9e26e360983a9a"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/13-evm-height.json",
+      "bytes": 537,
+      "sha256": "4785d319bcd59ad4bde12588f140bb00fa69e31540cb3ba99f72fe8313f2cf8c"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/13-evm-height.response.json",
+      "bytes": 45,
+      "sha256": "0e52ae60dff4b88d84025e92f48b49edc8c1502c01c45e5f5435c5abf1c825e4"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/14-evm-block.json",
+      "bytes": 7825,
+      "sha256": "6b71f183a8e23bdacd751ce51ff17ea44a25a9f70abde01c9f1169451ec8de4a"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/14-evm-block.response.json",
+      "bytes": 6273,
+      "sha256": "f3f4833c43a4f67c342f569769bc073f763d515e050c62c0484224442a8c5e92"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/15-evm-system.json",
+      "bytes": 587,
+      "sha256": "e62e9aefed58fb3a9bb42c123722d6e756ae5a99b5cde7e23f3943ef5c31cc72"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/15-evm-system.response.json",
+      "bytes": 36,
+      "sha256": "46ab8616d277a8ac1afefc4c2e1c9e17889c6695d8d43848aab55f0257b0ad42"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/16-evm-receipt.json",
+      "bytes": 2529,
+      "sha256": "f340fdeaae26c8c949c15f4de0c0e4b4596b314a709b461e71a7409cc5bdff3f"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/16-evm-receipt.response.json",
+      "bytes": 1650,
+      "sha256": "a28535f6ddeba1f61ddcae717b3d42010ff8b1ae2ae0df4a08e4214160ac128c"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/17-fills-0.json",
+      "bytes": 61317,
+      "sha256": "28bf9586b097d7074e633108dbd2639e130d289686c6cba023717605e49790a3"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/17-fills-0.response.json",
+      "bytes": 44294,
+      "sha256": "ede7e6f68e8e69709753e2294050e05d8da7e02619fd7ea22df403aca490d0fb"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/17-fills-1.json",
+      "bytes": 31981,
+      "sha256": "174abd13ed6ea4b9af131e7740e5fc176c2fe9adbea2c12a4f237d0a3120479e"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/17-fills-1.response.json",
+      "bytes": 22410,
+      "sha256": "e481dca80a05c6481f6a0f613132438382abb44ba10fa62d7a853413dd8ea8cf"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/18-account.json",
+      "bytes": 1647,
+      "sha256": "5f20a7dea8ba689c343bfa90aaad226d23bd4aabd4e9ed83e05d7f34c089d3e7"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/18-account.response.json",
+      "bytes": 773,
+      "sha256": "619b418d9c3edc5461df9273ff97022e05302bd7cc1a2be53e6e74d5dc7134e7"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/19-spot-account.json",
+      "bytes": 653,
+      "sha256": "daae07a603b5a3e7107806d426ca2ad45bd1f510a6004d1b7325868db9fc88a7"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/19-spot-account.response.json",
+      "bytes": 84,
+      "sha256": "da6fa397b593986244337059c430897aa7d74bcb28b727a3f33524c1f20d48ef"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/20-user-funding.json",
+      "bytes": 8244,
+      "sha256": "6d3b37227132d7b96eae063639b763c0326437ad654e7201bfdf0d973b3428bf"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/20-user-funding.response.json",
+      "bytes": 5256,
+      "sha256": "d74c0ca0dc28a24970ee20ded1ff2fa62cabba48b14781bc694c0f6639f106ba"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/21-user-ledger.json",
+      "bytes": 2634,
+      "sha256": "17abe2a452949f13d8c35e92cc0fab11fef0536590873f02140c3b476fc62e08"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/21-user-ledger.response.json",
+      "bytes": 1584,
+      "sha256": "7c59a5ed4965c29f505405473256b4c96cac3ed2ce6c7a51b5bae0ede700e717"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/22-abstraction.json",
+      "bytes": 494,
+      "sha256": "39fce7ec48a14abec00e8a97fe31c00960093c24db32749720d37c36a87b2916"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/22-abstraction.response.json",
+      "bytes": 10,
+      "sha256": "f693b9deb860600fb93d749df324c55991afe7eba6300113ab381339b23d12d5"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/23-delegation.json",
+      "bytes": 588,
+      "sha256": "7fa94cabe2fc6e928179cbb2b381240e89278f1f0b8fab46a4c3cc53f983188a"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/23-delegation.response.json",
+      "bytes": 94,
+      "sha256": "a8e1d7b6a3f592a742958cf366e30cce6164c2825e15f255951029b214a67b91"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/24-order-status.json",
+      "bytes": 1126,
+      "sha256": "756e85a71d5a59d0e0197154921b5c37d96b510d3cad5ce392ccd7f4a10b0646"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/24-order-status.response.json",
+      "bytes": 401,
+      "sha256": "d126fd442c528bb82a255522327fef66592c3dd6fa4e17cba1c82132ac4db611"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/25-read-oracle.json",
+      "bytes": 806,
+      "sha256": "d5072a3c92a3104ff3775d2036c197370100f190f3c724affc77a08504eaa404"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/25-read-oracle.response.json",
+      "bytes": 102,
+      "sha256": "8793f20987d4281802940668aecb10cba6dd2e1935d2eefc0fd0befc404761f7"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/26-hype-transfer-logs.json",
+      "bytes": 716,
+      "sha256": "0cb0fdc9dc53036c2c18fae9d3ed8491d27e891e606fd8e5d784d6a2b272b121"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/26-hype-transfer-logs.response.json",
+      "bytes": 36,
+      "sha256": "46ab8616d277a8ac1afefc4c2e1c9e17889c6695d8d43848aab55f0257b0ad42"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/27-multiple-fill-order.json",
+      "bytes": 541,
+      "sha256": "cd61560ee9040700df1f78c74c035e64710267d66da2d59c284fde06864fa643"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/27-multiple-fill-order.response.json",
+      "bytes": 23,
+      "sha256": "2c1c61ae31113ff1bd6da6332e3d0d8a306d2146f85ded751841e9de5d627c9a"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/28-corewriter-code.json",
+      "bytes": 1725,
+      "sha256": "d3ca22c891b02a7b3f13cd2368a7094ea26799612eba15824c1f592453349fb2"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/28-corewriter-code.response.json",
+      "bytes": 1126,
+      "sha256": "e0b7eb7bae2e72d590ce1c73453208b10f4bc56c28a3a068f51aad07d769e4f8"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/29-hlp-vault.json",
+      "bytes": 127086,
+      "sha256": "c4a313c1a0487a6f3efc5cb4a06345395cbf0042bc018970ba4bc18993565a69"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/29-hlp-vault.response.json",
+      "bytes": 60159,
+      "sha256": "69d4bfc827a471c1ed7f10606894236d7c84b7625fbcfcc59bf3d8b0b492411c"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/30-hlp-child.json",
+      "bytes": 74750,
+      "sha256": "7897e75c5ece7a4b624fc57bbbf8d87dcc96f14da746d26f602b3a5efa983073"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/30-hlp-child.response.json",
+      "bytes": 26544,
+      "sha256": "4ff34e6abb2f2bc7bca9341ee2f6f2021f7c7c567e4462845d42f94cc81bd5ea"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/31-liquidator-fills.json",
+      "bytes": 608,
+      "sha256": "cc8fa83312e213ac5473977d8e29138ddc6a70e6c551d9196147a5207967999e"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/31-liquidator-fills.response.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "chains/hyperliquid/examples/api/README.md",
+      "bytes": 4014,
+      "sha256": "1703c8d746efbb4ffcef0fb48d65651965e737f8433bee1b9bd959a500a3a6ce"
+    },
+    {
+      "path": "chains/hyperliquid/examples/cases/case-01.json",
+      "bytes": 1535,
+      "sha256": "bf653ba227903b9b148d9170759e67a998df3ef314a87d6c4c7dafa1b42a0e3b"
+    },
+    {
+      "path": "chains/hyperliquid/examples/cases/case-01.md",
+      "bytes": 1543,
+      "sha256": "06fc794f55b334ff839f8237f19c78e5316fa8db390c290174ce70489318f7b7"
+    },
+    {
+      "path": "chains/hyperliquid/examples/cases/case-02.json",
+      "bytes": 1568,
+      "sha256": "4f83c0870c1f947afb00819198bbca13ea8e7409c93ba91377d8121740876b40"
+    },
+    {
+      "path": "chains/hyperliquid/examples/cases/case-02.md",
+      "bytes": 1585,
+      "sha256": "5b68d2d69878819ecd5cd02ea75b2931fb97a533044124dd01144fa4178a0696"
+    },
+    {
+      "path": "chains/hyperliquid/examples/cases/case-03.json",
+      "bytes": 1939,
+      "sha256": "1938050723438c07a8d91c78fc4822467064c541ed8f0cb2f07b6d801a6c8361"
+    },
+    {
+      "path": "chains/hyperliquid/examples/cases/case-03.md",
+      "bytes": 1956,
+      "sha256": "48a0cc37e537b9d5f620fdd83bcabe0fc0eab206cf81a9d2f4b96926329f5eab"
+    },
+    {
+      "path": "chains/hyperliquid/examples/cases/case-04.json",
+      "bytes": 733,
+      "sha256": "ebe47773580e21c88929e0cdd32336c1c38734375e6dc571b02f3d4ed69c02b8"
+    },
+    {
+      "path": "chains/hyperliquid/examples/cases/case-04.md",
+      "bytes": 805,
+      "sha256": "7393d7c30e7bc1ff330cf458f4d5da7bed87b08a0b25a92e537cb9a61686b05e"
+    },
+    {
+      "path": "chains/hyperliquid/examples/cases/case-05.json",
+      "bytes": 525,
+      "sha256": "07b86570cbcbb3901f9468aba3a70361104e79d339a8c525c19a910fc91c669b"
+    },
+    {
+      "path": "chains/hyperliquid/examples/cases/case-05.md",
+      "bytes": 621,
+      "sha256": "18618896a3c3c5c6509c3172e42a34c52e68f0589e0dd420e641ed8d9b93e3c5"
+    },
+    {
+      "path": "chains/hyperliquid/examples/cases/case-06.json",
+      "bytes": 1180,
+      "sha256": "5e7250e2f29452258220ae10082ae37f10c6588ccc81bd681252eaf4fd1c82d2"
+    },
+    {
+      "path": "chains/hyperliquid/examples/cases/case-06.md",
+      "bytes": 1205,
+      "sha256": "bba6f84a4e66b70a147e8229861bd87eb1689f6cb459f2f5518ab956ff12d81f"
+    },
+    {
+      "path": "chains/hyperliquid/examples/cases/case-07.json",
+      "bytes": 274,
+      "sha256": "e1db5e6eb0727b76b4d9832a2db3b7caad9d9c6a5a42079ac9f545c6d9243224"
+    },
+    {
+      "path": "chains/hyperliquid/examples/cases/case-07.md",
+      "bytes": 298,
+      "sha256": "9c818f6d6a94df04beccfae9828a5ccb550c105a1ac5c2a7db5ec04099c58771"
+    },
+    {
+      "path": "chains/hyperliquid/examples/cases/case-08.json",
+      "bytes": 837,
+      "sha256": "521f3565482b326a1e4c17344f7c16dfb13a7f4ed5a3c5991c9926cd5b276554"
+    },
+    {
+      "path": "chains/hyperliquid/examples/cases/case-08.md",
+      "bytes": 990,
+      "sha256": "391428451be7a91bbeb55fb79e2bc91af070465b1862df6ff1662b201ad05dcb"
+    },
+    {
+      "path": "chains/hyperliquid/examples/cases/case-09.json",
+      "bytes": 1306,
+      "sha256": "25d6b7af7ab267717cfcd4866124a755fe651f145c652b2e8cf2d0ebc9d6fee4"
+    },
+    {
+      "path": "chains/hyperliquid/examples/cases/case-09.md",
+      "bytes": 1329,
+      "sha256": "eddf2d37da40ee4a596e85e7900b1e50a21519e55af1419398e7db225368ec24"
+    },
+    {
+      "path": "chains/hyperliquid/examples/cases/case-10.json",
+      "bytes": 1492,
+      "sha256": "255be549fe1cbf5694e9da8bb2b826150b1fec6ff38434b1dfbb29c4d30bc2a5"
+    },
+    {
+      "path": "chains/hyperliquid/examples/cases/case-10.md",
+      "bytes": 1529,
+      "sha256": "a195be127bf12671fd248fded693ee41e70b9776619025ab690adb3134890122"
+    },
+    {
+      "path": "chains/hyperliquid/examples/cases/case-11.json",
+      "bytes": 1581,
+      "sha256": "c2c8b793ee4ed03e185b28770c7e678b04ee575745f60770b87834641dd20adb"
+    },
+    {
+      "path": "chains/hyperliquid/examples/cases/case-11.md",
+      "bytes": 1615,
+      "sha256": "a40ff7b3cedf888e44ea0190282a4a565d2541ee5fdd88e2d6c8569fc8d99cc1"
+    },
+    {
+      "path": "chains/hyperliquid/examples/cases/case-12.json",
+      "bytes": 430,
+      "sha256": "d3ca40176262ff9143d8953649b6cf69425751e1605d45f9a07e8cc01750e626"
+    },
+    {
+      "path": "chains/hyperliquid/examples/cases/case-12.md",
+      "bytes": 478,
+      "sha256": "57e0a8c4edd8dbedf70d1aaef5f92c1912f479e07e5394e2ab8ac0a5342dfd79"
+    },
+    {
+      "path": "chains/hyperliquid/examples/cases/case-13.json",
+      "bytes": 626,
+      "sha256": "9c9787094fa955f45d9918c91412cf2bcb46393dce384adbbd720cbabad0a353"
+    },
+    {
+      "path": "chains/hyperliquid/examples/cases/case-13.md",
+      "bytes": 667,
+      "sha256": "d31ee770d3cfef5c20c7b6e0bc1ca382c344ab612bef605ac45440fdbe91b58d"
+    },
+    {
+      "path": "chains/hyperliquid/examples/cases/case-14.json",
+      "bytes": 636,
+      "sha256": "a11f16ff71ec42fccee915ca2c662c60c7d5e901430cc2c6fd085b14c3bb1437"
+    },
+    {
+      "path": "chains/hyperliquid/examples/cases/case-14.md",
+      "bytes": 718,
+      "sha256": "ea50990558a2d7d7526906f48d381a264c1d8ec4e388ccce5138ee8f3fc63724"
+    },
+    {
+      "path": "chains/hyperliquid/examples/cases/case-manifest.json",
+      "bytes": 15710,
+      "sha256": "da843a334dc2a7818d8b4a56662a0566c7ae75dee49ea353c46aa0900cdc775b"
+    },
+    {
+      "path": "chains/hyperliquid/examples/python/README.md",
+      "bytes": 249,
+      "sha256": "990713696f0d040dc8bdebc3a37248f70c5c631f531e7f663c891aa2ae5c79c4"
+    },
+    {
+      "path": "chains/hyperliquid/examples/sql/01-markets.sql",
+      "bytes": 466,
+      "sha256": "f9ef3adb3c8aa2f2dcf8716eb56bc333e78220c438afe937601318e193c97fad"
+    },
+    {
+      "path": "chains/hyperliquid/examples/sql/02-volume.sql",
+      "bytes": 538,
+      "sha256": "2fcac41c207cb56bbd3ef7236420e5470bb3eea7985968e19772aa01cf5d1e87"
+    },
+    {
+      "path": "chains/hyperliquid/examples/sql/03-maker-taker.sql",
+      "bytes": 563,
+      "sha256": "556d6defa9906e3e2f9f826f3a461b8dc00b9ff1c98356a37fcfde87d6a3a6d9"
+    },
+    {
+      "path": "chains/hyperliquid/examples/sql/04-hourly-flow.sql",
+      "bytes": 475,
+      "sha256": "fcd2310a6ebfd54f2f8bbd3dace13da5e4932b573b62b844dc560c2ca7aa95b9"
+    },
+    {
+      "path": "chains/hyperliquid/examples/sql/05-open-interest.sql",
+      "bytes": 688,
+      "sha256": "8f20e2955065181862aa0bd850391db7e035ff166584478937f1156bdfb3d84c"
+    },
+    {
+      "path": "chains/hyperliquid/examples/sql/06-flow-stock.sql",
+      "bytes": 695,
+      "sha256": "f10bfa6d1f46428f62b5ae92d7c646e9ba63b0d24da6f6404c576374ae4d4d9c"
+    },
+    {
+      "path": "chains/hyperliquid/examples/sql/07-funding-rates.sql",
+      "bytes": 613,
+      "sha256": "70e9ea9ff99065e7bfc59b9934ebfb53ab6335e815ad89633f9b0cf470b3bffd"
+    },
+    {
+      "path": "chains/hyperliquid/examples/sql/08-user-funding.sql",
+      "bytes": 698,
+      "sha256": "1c2d9f8b77eb9e589fa256f2ddf07585a663d7e4188ca8451fe047cd79c7c762"
+    },
+    {
+      "path": "chains/hyperliquid/examples/sql/09-liquidation.sql",
+      "bytes": 577,
+      "sha256": "4ebe421e98ecf35b908ee969a5f58a8af633781fcef68e726db9aaac3fcecb6f"
+    },
+    {
+      "path": "chains/hyperliquid/examples/sql/10-depth.sql",
+      "bytes": 797,
+      "sha256": "7692a7a6b49c4593e4671a07d65f9e5dc193c99a3ce67daea351bb3166577ff7"
+    },
+    {
+      "path": "chains/hyperliquid/examples/sql/11-spread.sql",
+      "bytes": 667,
+      "sha256": "de562dfa934fc2b118288f3c86142c1254fa94f1cc2baa12fe23b01acb12b07c"
+    },
+    {
+      "path": "chains/hyperliquid/examples/sql/12-hip3-classification.sql",
+      "bytes": 496,
+      "sha256": "2e9af3767fa3aeeded85c2184c2790f9b8b61faa0ea0cebca9edd925b94848b9"
+    },
+    {
+      "path": "chains/hyperliquid/examples/sql/13-first-hip3.sql",
+      "bytes": 725,
+      "sha256": "86d6aa5c106dc4f0faddc2a9952233d51f80ea1a203a4c6e9629d899d985ac63"
+    },
+    {
+      "path": "chains/hyperliquid/examples/sql/14-evm-transactions.sql",
+      "bytes": 563,
+      "sha256": "89651b6d55cdb93c8e907aee9d579b20b1556bc0e780bd855f2031c816a55ca5"
+    },
+    {
+      "path": "chains/hyperliquid/examples/sql/15-core-interfaces.sql",
+      "bytes": 649,
+      "sha256": "3eacb9906ad16a0ddf29cce6c743166a0085ab7df1621e1a059881514bb73a32"
+    },
+    {
+      "path": "chains/hyperliquid/examples/sql/16-outcome-volume.sql",
+      "bytes": 728,
+      "sha256": "1ed1a60da9ad19b2d9c5bce14a6e063276ea1005e358228bb38511e5aaf388fb"
+    },
+    {
+      "path": "chains/hyperliquid/examples/sql/17-trade-book-join.sql",
+      "bytes": 987,
+      "sha256": "f2385051e1b7f253215ace37570f6a26f7b786ca2e3f49292b4788dee8e2963e"
+    },
+    {
+      "path": "chains/hyperliquid/examples/sql/18-kpi-and-quality.sql",
+      "bytes": 971,
+      "sha256": "0075ceadb9ad5685f8aa8d04410dbb7ebc8c145a013fad459ad1ccb3f11c253c"
+    },
+    {
+      "path": "chains/hyperliquid/examples/sql/README.md",
+      "bytes": 2443,
+      "sha256": "7751dfc28b9f0932c45c3502cd16faff06e760493c16fee04e60b4c3bb6091bb"
+    },
+    {
+      "path": "chains/hyperliquid/examples/sql/sql-manifest.json",
+      "bytes": 8071,
+      "sha256": "1b796874dd982bcff68d21695e2f56cf2e61e634381d8c62a0c0178b3b798f32"
+    },
+    {
+      "path": "chains/hyperliquid/examples/websocket/README.md",
+      "bytes": 653,
+      "sha256": "55f87c24d6aa79fdce012631ffe1066ece54b013f9e0c3e1a9b5ca1beb1f7c3e"
+    },
+    {
+      "path": "chains/hyperliquid/examples/websocket/capture-hype.json",
+      "bytes": 18342,
+      "sha256": "5a6ccbf7555bc8054377bc82e60bf10b20de47cf2b09c6ba28ea5796702d6f4f"
+    },
+    {
+      "path": "chains/hyperliquid/examples/websocket/capture.json",
+      "bytes": 18550,
+      "sha256": "a4cc075509e753eb53b63c7f3a2f4fac14a6cae278cc315322889bf21a05d438"
+    },
+    {
+      "path": "chains/hyperliquid/examples/websocket/capture.mjs",
+      "bytes": 1552,
+      "sha256": "08d9bb2e9de1688be3cfb9e5afe8497ee8e1a2242eb0fed1cd8788b3016b1314"
+    },
+    {
+      "path": "chains/hyperliquid/examples/websocket/documented-subscriptions.json",
+      "bytes": 1763,
+      "sha256": "1d3c92777cb1467bc3eff76bc53bc5560e455e21cc95b5460ebbd9f3cfec9a60"
+    },
+    {
+      "path": "chains/hyperliquid/reports/case-evidence-validation.json",
+      "bytes": 8110,
+      "sha256": "60b7864b73d42693595648c2165e8dbe7338a9def05773ff595366469ab24136"
+    },
+    {
+      "path": "chains/hyperliquid/reports/chapter-review.json",
+      "bytes": 27377,
+      "sha256": "aa787187bbba48f1c4e46647554c55c3575245ce6366c2c8e76bd695bf4e921a"
+    },
+    {
+      "path": "chains/hyperliquid/reports/editorial-review.md",
+      "bytes": 1457,
+      "sha256": "bd1409003d59bdf4f8b29f6d629ff11efbb48be2503a88d3aa7c612c6941fc14"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-render-results.json",
+      "bytes": 3985,
+      "sha256": "660748f85a27418221b47a260d0d66e87ce17c5e1a9b81310cf2016c20c32f85"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/abstraction.png",
+      "bytes": 78498,
+      "sha256": "7e721b00b2081737d793fcf3dcafc55b74ddd2d28c2aeded59021dd569302c26"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/account-state.png",
+      "bytes": 73498,
+      "sha256": "dc2263a8c6540e4be04b0a016235e84594793f9dd9be8e1ffa661805a92d4300"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/accounts.png",
+      "bytes": 74627,
+      "sha256": "dc51a649b32938b242f68ec70162928be96b5b286d914887c308fa3c5bc41fdb"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/backstop.png",
+      "bytes": 82734,
+      "sha256": "62d7f54d090237871c6924ce63416af2ec657fddadff091f3d5e571e3cfebf3a"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/book.png",
+      "bytes": 69498,
+      "sha256": "308e1e6fbb352a45307665d38360c1a3e2799363145fe784e7a2bb3e249feb59"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/click.png",
+      "bytes": 58768,
+      "sha256": "0358cc9cb994d2a58e0059f7e6daaf0338ab5705710aa50f9d95a31b1979a67c"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/consensus.png",
+      "bytes": 60880,
+      "sha256": "89e92888a25eb2d69850990a4cd47e7311fea4b1d677d0cb70e8695edb4250d4"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/corewriter.png",
+      "bytes": 81959,
+      "sha256": "7faf0c073c698b48172f82bb4f4892e63793613e375c8b274cbf31633878e70c"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/data-sources.png",
+      "bytes": 82945,
+      "sha256": "905a704d4a1f40ddebd06dd773b9d11710c2c8b33f92261b2bba414e97a2774f"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/dune.png",
+      "bytes": 76749,
+      "sha256": "a4b07c18ab6c1e778e298b49ed60cafd3f885a6e3a36e907d49194fa0f25668e"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/evm-data.png",
+      "bytes": 71111,
+      "sha256": "56540c82bbeb3ab9f9aa57701f230286571faa50f8873ee3ea77f61738aa7abc"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/evm.png",
+      "bytes": 77629,
+      "sha256": "1b88785cb23b60aaf1e22ed1e046999fa9e552d097c402154f2f5bfeb4763b44"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/fees.png",
+      "bytes": 78839,
+      "sha256": "9625a256b3c0d141e258ef4adf6aeec1e3e75baa3f57f6ede08c561ec059181e"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/funding-flow.png",
+      "bytes": 71134,
+      "sha256": "f85c1772d4119569efd1a07065e850e519c1b61384c04379a3dd376727bf402d"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/funding-payment.png",
+      "bytes": 80047,
+      "sha256": "b7d9d20f6d40d8879bbc20d67c3a3eedbc7ff2417ad226e0c0829651f8ce544c"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/funding-rate.png",
+      "bytes": 78224,
+      "sha256": "419cb643b86020d5db0e2de5bb852f46964f37e26c6877873f4bba470cd0cebd"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/hip2.png",
+      "bytes": 84882,
+      "sha256": "ab10b0ff0bd78900205dc1c84b80ee3356157c5cdb32891a600eb05badabe5de"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/hip3.png",
+      "bytes": 80720,
+      "sha256": "61b9e3d316c1964ed27f38b60e155250f5cce34b26f4fab1b70e52acc80a5510"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/hip4.png",
+      "bytes": 84059,
+      "sha256": "4625392f0a3b8f4a1254adcad2323b1af0bdb1ea7fea6b4cc2081b0debe9539a"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/identities.png",
+      "bytes": 76438,
+      "sha256": "163a9495e7b985789ec84ef3dd8e4699930ebe539d6787e8cfeaad2f0d8d9262"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/liquidation.png",
+      "bytes": 81783,
+      "sha256": "a4173faeefc3410772795a863e025f9a4356b61f42ac8054004f71cbbf3fd495"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/margin.png",
+      "bytes": 76390,
+      "sha256": "df044f15a1adfcc71c459e638d11155164bd99c12f8e9cafa344d4e657056ea1"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/matching.png",
+      "bytes": 73250,
+      "sha256": "8fecfd0376faa968d28e5bad798fd69edbed9387a319493e9ba8b4d09bf8934c"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/oi.png",
+      "bytes": 81145,
+      "sha256": "2b93b76a4857b9210fcba41bdd246323617da79f8ee245eb4154a73aa19d510e"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/orders.png",
+      "bytes": 78099,
+      "sha256": "9da80a65d9c237a846381513275af65d65958aaab1b80b0e00553e03f3966afa"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/partial.png",
+      "bytes": 77667,
+      "sha256": "16f7325aa19e0d7f2402edc1c7ec5f2b54f3d9f3dd83bcf3285b00da528fa7de"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/perpetual.png",
+      "bytes": 76780,
+      "sha256": "2b57938d555451dee89f61b21dcfe547e9c50cb10ff81de84735725bc406e177"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/pnl.png",
+      "bytes": 73010,
+      "sha256": "e0c9bef0e3f5572f5e4abdc4c543e73ed135f9b8e403df6d293c18e0450b21b2"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/position.png",
+      "bytes": 68400,
+      "sha256": "cbfba5600b55705236f66cd7d67b06c437f2e4b7a104423a5125e31b64331977"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/precompiles.png",
+      "bytes": 82351,
+      "sha256": "cfb8df31b3e7ffd105aca949d045ac6b4664e2f40af33b6d445fdddead1bf07e"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/prices.png",
+      "bytes": 77186,
+      "sha256": "1f3fc403edcb2cd5ec1defb2f8114b7d967b00c68864d704503b4edee3a1617a"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/reconstruction.png",
+      "bytes": 86926,
+      "sha256": "e2e60a0a01d43feaf5c56d345b0712c521652d2cb2bc4c0d0c6ee11a0721e025"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/records.png",
+      "bytes": 74406,
+      "sha256": "89d73d6841b5cd3dba3d037f3fa34d05a64cde0cf81758f9c9da000fbc928c2d"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/runtime.png",
+      "bytes": 78547,
+      "sha256": "e8318dce6ead8c76cd5c68374ec05fe9adff40e72bedcf5d67e671756d0184e7"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/spot.png",
+      "bytes": 72426,
+      "sha256": "47cc28cd2eb632e0eedfa73078706034bbe3eace47ab06d5f6f4637e27215214"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/sql.png",
+      "bytes": 79174,
+      "sha256": "b5ff3f8c4632054eef88d293ed3fb7d7181b8a77398e19044b264d0c83c8d3e9"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/staking.png",
+      "bytes": 79187,
+      "sha256": "228872bbdb6485e1b1259106f549c8be25cc10383328312725ce78dff66eb3cb"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/token-pair.png",
+      "bytes": 76805,
+      "sha256": "66ef3707bbc16c310be21909d4b89de746759969cf95cfe9b6d9f2f5212cebab"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/transfers.png",
+      "bytes": 82557,
+      "sha256": "51e882837e8c1c30a9e90da2ca1ae456cb4747ed4ca92316707064f7d342b12b"
+    },
+    {
+      "path": "chains/hyperliquid/reports/figure-renders/vault.png",
+      "bytes": 79000,
+      "sha256": "d333932300dd82c8609429fccb0ede42cdb6e45dd68346e2d28260d807004864"
+    },
+    {
+      "path": "chains/hyperliquid/reports/final-acceptance.json",
+      "bytes": 1468,
+      "sha256": "0441c86cb51dd0407241f9056f2294a374bdad686b58921bfd2f607de8609303"
+    },
+    {
+      "path": "chains/hyperliquid/reports/final-acceptance.md",
+      "bytes": 5342,
+      "sha256": "e1d87ac4af37196e419634c3a00de81e98ca9bd245f195be965b83c3d1a7d611"
+    },
+    {
+      "path": "chains/hyperliquid/reports/financial-units-review.md",
+      "bytes": 1993,
+      "sha256": "88ef675688adec7638819640e70629c7acd884ac1778484f962fe92807d0146f"
+    },
+    {
+      "path": "chains/hyperliquid/reports/sql-static-review.md",
+      "bytes": 1443,
+      "sha256": "3c6ce4599b250d6c39027c45ab505a691048663ea35fdd24612ac7387d428875"
+    },
+    {
+      "path": "chains/hyperliquid/reports/sql-static-validation.json",
+      "bytes": 4387,
+      "sha256": "a05b8fd4f23cc0183a2bd429401f0306c9a1dff0d0f5bdd301333f097b966d95"
+    },
+    {
+      "path": "chains/hyperliquid/reports/technical-review.md",
+      "bytes": 2804,
+      "sha256": "86c3b44f5783a9ed7989964d6183a579fdeb99ff67322be2e541700d8d7fb2a9"
+    },
+    {
+      "path": "chains/hyperliquid/reports/text-geometry.json",
+      "bytes": 7385,
+      "sha256": "a68329991fdbf04a50063e6d58ec78da6b2611e96d0fc58875cb34b50f07049b"
+    },
+    {
+      "path": "chains/hyperliquid/reports/validation.json",
+      "bytes": 9389,
+      "sha256": "d916297709212bc6abf2fbd8deead4948ad7cc3809a2fd846078c29a92a5a364"
+    },
+    {
+      "path": "chains/hyperliquid/reports/visual-qa.json",
+      "bytes": 1022,
+      "sha256": "aaa7dccfe77760306904cbc2d589a4684f35358aacb7b49076dc0cfa15f1612d"
+    },
+    {
+      "path": "chains/hyperliquid/reports/word-counts.json",
+      "bytes": 741,
+      "sha256": "46c7afbb21b6a6372a2b9649c6ec811a555daff5a485aa60c4133035e5a5e081"
+    },
+    {
+      "path": "chains/hyperliquid/research/api-field-guide.md",
+      "bytes": 3793,
+      "sha256": "a95f0fa502437787faa377bd4ff6d32da15aef36d0fb067acc14f579c6dc4a95"
+    },
+    {
+      "path": "chains/hyperliquid/research/chapter-exercises.md",
+      "bytes": 4362,
+      "sha256": "a92cc3e5d33559ec419a846bb8d5a0d4b51de0a4dd9c8db74e27b7354dafab3f"
+    },
+    {
+      "path": "chains/hyperliquid/research/chapter_manifest.json",
+      "bytes": 31263,
+      "sha256": "317e9f1ac2375acd381d3a6990b9ed499c865e02d137e97545c8c1dacdc858c2"
+    },
+    {
+      "path": "chains/hyperliquid/research/data_table_cards.md",
+      "bytes": 38801,
+      "sha256": "be4172a21157c62d3c13cc0f87b4f3cf0b4197d8393307e52c0c43b4b7020377"
+    },
+    {
+      "path": "chains/hyperliquid/research/dune/catalog-hip4.json",
+      "bytes": 28335,
+      "sha256": "6668af6c8c7200a30b8f9721160fe3ec25eaf13ded09b31845fba5344ff0fa13"
+    },
+    {
+      "path": "chains/hyperliquid/research/dune/catalog-hypercore.json",
+      "bytes": 47326,
+      "sha256": "38ff5d390d881ca2d7b62e20051dcb7cdaf330da48421f56f56e3ebddcbd2273"
+    },
+    {
+      "path": "chains/hyperliquid/research/dune/catalog-hyperevm.json",
+      "bytes": 33924,
+      "sha256": "c0decb12a6352144d8dbf071807887a79a98072b4b2cf48e738b5b40405fe7d3"
+    },
+    {
+      "path": "chains/hyperliquid/research/dune/catalog-oracle.json",
+      "bytes": 16086,
+      "sha256": "7b3962e3419a27488ca489babd9f47e1f85b81dd0fccee747ea0f20976f511fd"
+    },
+    {
+      "path": "chains/hyperliquid/research/dune/catalog-outcome.json",
+      "bytes": 31786,
+      "sha256": "3ad3993b16a80ba006a5d71d56424eaaceb95330c49e7322cae63cfade03d494"
+    },
+    {
+      "path": "chains/hyperliquid/research/dune/queries/8675901.json",
+      "bytes": 3322,
+      "sha256": "4f1bc0806950cb6802ff87f2ad4ca04d2faddafe40c50caceea94593354bd7ed"
+    },
+    {
+      "path": "chains/hyperliquid/research/dune/queries/8675901.sql",
+      "bytes": 1019,
+      "sha256": "e0aa96970d25e90aa7bab92abfb83627e8cd1554af63e2d879b2ff6026511acf"
+    },
+    {
+      "path": "chains/hyperliquid/research/dune/queries/8675913.json",
+      "bytes": 2644,
+      "sha256": "9c8b171a09927099af301c3da5f094c5493c0dfef6d1dd98afc543e7ff1be6b4"
+    },
+    {
+      "path": "chains/hyperliquid/research/dune/queries/8675913.sql",
+      "bytes": 688,
+      "sha256": "3f253397442092bd4ce3e8bd4b2f5843afc93e41ff776deaefd7945c615dd85f"
+    },
+    {
+      "path": "chains/hyperliquid/research/dune/queries/8675918.json",
+      "bytes": 2251,
+      "sha256": "8ed36685e21d25233bb9cf28c5c58f34f2663ba7944cae498dfa8bf8deacff54"
+    },
+    {
+      "path": "chains/hyperliquid/research/dune/queries/8675918.sql",
+      "bytes": 502,
+      "sha256": "25362542db90500923e4f782cc41eac119e21eb2187309e41b49e22048d21c21"
+    },
+    {
+      "path": "chains/hyperliquid/research/dune/queries/8675927.json",
+      "bytes": 5312,
+      "sha256": "843362df17ba24f50b780de19a9c9939015789cb01a1b7242fd83cde6e1df0f2"
+    },
+    {
+      "path": "chains/hyperliquid/research/dune/queries/8675927.sql",
+      "bytes": 1971,
+      "sha256": "7417f39f45a9566da858ddecfadec6b8db9b6c4fef388b163d1498e2e7db7ba0"
+    },
+    {
+      "path": "chains/hyperliquid/research/dune/queries/8678766.json",
+      "bytes": 9876,
+      "sha256": "b87143061ca05f5ad0564877bcc822e9f3bf2419d7b2488e60e7fe3dac5d9483"
+    },
+    {
+      "path": "chains/hyperliquid/research/dune/queries/8678766.sql",
+      "bytes": 4100,
+      "sha256": "2618b39104f1264e8607d813979dcbf52c007b2ca035c866180a89fae9cebd15"
+    },
+    {
+      "path": "chains/hyperliquid/research/dune/queries/8678771.json",
+      "bytes": 3371,
+      "sha256": "fffb1b660b7aa756e9cef827349dcce0ef0446c9da116d93d1f8e97fe43dbc0e"
+    },
+    {
+      "path": "chains/hyperliquid/research/dune/queries/8678771.sql",
+      "bytes": 978,
+      "sha256": "c64c0eadfc6836ffb5d1172e33e0daf870c9ab7e0eaf3257544d13dd70c1b886"
+    },
+    {
+      "path": "chains/hyperliquid/research/dune/queries/8678774.json",
+      "bytes": 3199,
+      "sha256": "f2d4e4e4fe4b9f54da87a79816127e0f4dbea8a02647c1f4e480b83372d89e11"
+    },
+    {
+      "path": "chains/hyperliquid/research/dune/queries/8678774.sql",
+      "bytes": 920,
+      "sha256": "c08fba83a5bea62ee2b0508feaf6658aa18dd27e0a1d3eb94299bedbb3011dd0"
+    },
+    {
+      "path": "chains/hyperliquid/research/dune/queries/8678775.json",
+      "bytes": 2578,
+      "sha256": "41d77524eeb7fd2bdf61bf83853b35a896a51bc23aee5805579876448f69406b"
+    },
+    {
+      "path": "chains/hyperliquid/research/dune/queries/8678775.sql",
+      "bytes": 615,
+      "sha256": "98283adda5d25f6acbbeb1d648178938be50f85448e5399b08ecd281ae39a724"
+    },
+    {
+      "path": "chains/hyperliquid/research/dune/queries/8678780.json",
+      "bytes": 3296,
+      "sha256": "f47cd63af0246bec582b6dbc86364deac9ae97ee6bc997f7f4b2907066974a25"
+    },
+    {
+      "path": "chains/hyperliquid/research/dune/queries/8678780.sql",
+      "bytes": 911,
+      "sha256": "88c731932b8586b53163840a39350ce013c76383ca439994879cf120391c093a"
+    },
+    {
+      "path": "chains/hyperliquid/research/dune/queries/8678786.json",
+      "bytes": 2941,
+      "sha256": "ea3987eba3df7ca738274e6e2426c7d37f355da5a173522257ba45275b258612"
+    },
+    {
+      "path": "chains/hyperliquid/research/dune/queries/8678786.sql",
+      "bytes": 748,
+      "sha256": "495f5d056ee2d506d0ed2597ea86a8134a7da051ce2cc3ff3c2a74ce1c07de1d"
+    },
+    {
+      "path": "chains/hyperliquid/research/dune/queries/8678788.json",
+      "bytes": 5900,
+      "sha256": "f7c1ed620c841254c0324ed7939ef27aeaf27697a9ab79ffed3df59db59d09f4"
+    },
+    {
+      "path": "chains/hyperliquid/research/dune/queries/8678788.sql",
+      "bytes": 2152,
+      "sha256": "ed6da6573b0223cc462ff08d3494c653777b9ee3161742470cf74a49930364f5"
+    },
+    {
+      "path": "chains/hyperliquid/research/dune/queries/8678790.json",
+      "bytes": 2650,
+      "sha256": "5cc9ef90598207289990df71f298ef87eceefcb2ed2ce7248a1e968661f13392"
+    },
+    {
+      "path": "chains/hyperliquid/research/dune/queries/8678790.sql",
+      "bytes": 634,
+      "sha256": "f6d505b55fccfed5b6bffb8c471755d42c0bf84282a9b839be431cfacd0496f3"
+    },
+    {
+      "path": "chains/hyperliquid/research/dune/result-8675927.json",
+      "bytes": 2558,
+      "sha256": "40cd89cf4dbd085f0c96015a2be14f645cace517759de499f53467821650aac3"
+    },
+    {
+      "path": "chains/hyperliquid/research/dune/result-8678766.json",
+      "bytes": 2920,
+      "sha256": "a74b164ec075bc9f1c30b383b3f2f92c934fb8ff00554bd21c9d78d5968089ad"
+    },
+    {
+      "path": "chains/hyperliquid/research/dune/verified-schema.json",
+      "bytes": 58611,
+      "sha256": "97195240eb55e0c3f74a4eae9d93f14001bd17e26db65062844b4719ed525c44"
+    },
+    {
+      "path": "chains/hyperliquid/research/dune_query_catalog.md",
+      "bytes": 3621,
+      "sha256": "a60a2c70ac138ec03f83b10a4f194b25cf30364de7596cead07580a08b17b569"
+    },
+    {
+      "path": "chains/hyperliquid/research/evidence_index.md",
+      "bytes": 1535,
+      "sha256": "83fe5f99b6deaaf8f5326072fa8bd7183673b79f30ac46f0111129f73eea0ee0"
+    },
+    {
+      "path": "chains/hyperliquid/research/hypercore_schema.md",
+      "bytes": 2739,
+      "sha256": "11ca6607551ad513bc94c616a10b14b634fad352945ca50c3397f6dfd44e56a4"
+    },
+    {
+      "path": "chains/hyperliquid/research/hyperevm_schema.md",
+      "bytes": 1913,
+      "sha256": "637ba356a168624568ac39d189297602264496f7be1685c2d7380c67f4ad0b26"
+    },
+    {
+      "path": "chains/hyperliquid/research/market_registry.md",
+      "bytes": 1101,
+      "sha256": "94cbc8a0b3e864a6400299fed7c56119d2020b75ef0de69677d65f198cbdc884"
+    },
+    {
+      "path": "chains/hyperliquid/research/protocol_timeline.md",
+      "bytes": 1884,
+      "sha256": "3280cd89ffaf26eceee7344c60495adbbad904dceb4d4b5de68a83593e846773"
+    },
+    {
+      "path": "chains/hyperliquid/research/source_catalog.md",
+      "bytes": 19124,
+      "sha256": "cc76aa8b0aec7bdde52a5f40221ec8e716f32cfbfe7ca6e919274ae913ebfeed"
+    },
+    {
+      "path": "chains/hyperliquid/research/source_manifest.json",
+      "bytes": 33497,
+      "sha256": "b2e45c1f5a6823ae8452af5085c38582ab1fc6b1bc915b6fb1dda121ad136061"
+    },
+    {
+      "path": "chains/hyperliquid/research/unresolved.md",
+      "bytes": 2367,
+      "sha256": "61c53ef3c207c2bc061cb14293a5e795afd826bc07e0575ffd183df47f9b4d99"
+    },
+    {
+      "path": "chains/hyperliquid/scripts/verify_case_evidence.py",
+      "bytes": 6443,
+      "sha256": "4435b6f0c8adfd5abfd5b0841c9f2c19894d1c15725927e11470975154f35a97"
+    },
+    {
       "path": "chains/solana/00-overview/assets/data-world.drawio",
       "bytes": 4164,
       "sha256": "254faf63f231c8140ece5e29cd177193d6f04b2e878058e366e01897c3ccc55e"
@@ -4790,8 +6545,8 @@
     },
     {
       "path": "publication/CURRENT_FILES.md",
-      "bytes": 53743,
-      "sha256": "5409fcc1b8e57c262cee136e5641bc678d323aba2cc98bc9ade09d2ac9c36c42"
+      "bytes": 73354,
+      "sha256": "886af3b595761939475289ebe7d2c3229500f111979493e4091b82a61216b6b0"
     },
     {
       "path": "publication/FILES.md",
@@ -4800,8 +6555,8 @@
     },
     {
       "path": "publication/README.md",
-      "bytes": 2403,
-      "sha256": "9961acef261117e099283c4b742d20de13bfea600cbea21d3471ae094613e3ac"
+      "bytes": 2588,
+      "sha256": "efe91dc38acef4c2428cff287ff51206e4148689e528bc29b935597a8b0ff69c"
     },
     {
       "path": "publication/avalanche/2026-10-14-v0.1/CHANGES.md",
@@ -4897,6 +6652,36 @@
       "path": "publication/ethereum/2026-10-12-v0.1/manifest.json",
       "bytes": 38086,
       "sha256": "5eea8d11013cbf4827c49d317ee8aa9de74e08983a3e42a744f694b0b96a2174"
+    },
+    {
+      "path": "publication/hyperliquid/2026-10-14-v0.1/CHANGES.md",
+      "bytes": 2432,
+      "sha256": "fa65d9f6daaddc81275391711548926cbce57c56ecfccdf96897bc070bfea491"
+    },
+    {
+      "path": "publication/hyperliquid/2026-10-14-v0.1/CHECKS.md",
+      "bytes": 3263,
+      "sha256": "517df73d3fed03e20d73b7676410f696f72ca50c8d1b23372ad3a87175e79119"
+    },
+    {
+      "path": "publication/hyperliquid/2026-10-14-v0.1/FILES.md",
+      "bytes": 20182,
+      "sha256": "f3284a2108099d4a41e978ab71dc2470e45694023f5b97035701ee3059ef5ae4"
+    },
+    {
+      "path": "publication/hyperliquid/2026-10-14-v0.1/README.md",
+      "bytes": 1397,
+      "sha256": "eefd9aae6866978bc6ac215785457709f735e1ef7fc8a51ccd57ccf72aa988f4"
+    },
+    {
+      "path": "publication/hyperliquid/2026-10-14-v0.1/checks.json",
+      "bytes": 9425,
+      "sha256": "de0cbdee975c39fea58765c59a53e79265591273a09242e710058a78359e9050"
+    },
+    {
+      "path": "publication/hyperliquid/2026-10-14-v0.1/manifest.json",
+      "bytes": 93250,
+      "sha256": "e698a107ff16d2e5777ac13e136ae63cd1487ccb6821a5f99f1bb3f7f188e37e"
     },
     {
       "path": "publication/manifest.json",

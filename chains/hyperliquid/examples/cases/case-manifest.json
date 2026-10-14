@@ -1,0 +1,511 @@
+[
+  {
+    "case": 1,
+    "title": "普通ALO订单的状态与成交",
+    "status": "OBSERVED",
+    "evidence_level": 1,
+    "source_files": [
+      "examples/api/24-order-status.json",
+      "examples/api/17-fills-0.json"
+    ],
+    "data": {
+      "order": {
+        "status": "order",
+        "order": {
+          "order": {
+            "coin": "BTC",
+            "side": "A",
+            "limitPx": "83593.0",
+            "sz": "0.0",
+            "oid": 572838185047,
+            "timestamp": 1791871855214,
+            "triggerCondition": "N/A",
+            "isTrigger": false,
+            "triggerPx": "0.0",
+            "children": [],
+            "isPositionTpsl": false,
+            "reduceOnly": false,
+            "orderType": "Limit",
+            "origSz": "0.19929",
+            "tif": "Alo",
+            "cloid": "0x782a71cef50b10d421768157d48215ff"
+          },
+          "status": "filled",
+          "statusTimestamp": 1791871862164
+        }
+      },
+      "matching_fill": {
+        "coin": "BTC",
+        "px": "83593.0",
+        "sz": "0.19929",
+        "side": "A",
+        "time": 1791871862164,
+        "startPosition": "-7.39943",
+        "dir": "Open Short",
+        "closedPnl": "0.0",
+        "hash": "0xf80383326cf804b3f97d0446737c460206a1001807fb23869bcc2e852bfbde9e",
+        "oid": 572838185047,
+        "crossed": false,
+        "fee": "-0.499777",
+        "tid": 80700465700870,
+        "cloid": "0x782a71cef50b10d421768157d48215ff",
+        "feeToken": "USDC",
+        "twapId": null
+      }
+    },
+    "limitations": "订单终态与Fill可关联；原始签名Action未取得。",
+    "baseline": "2026-10-13"
+  },
+  {
+    "case": 2,
+    "title": "同一订单的两笔Fill",
+    "status": "OBSERVED_MULTIPLE_FILLS",
+    "evidence_level": 1,
+    "source_files": [
+      "examples/api/17-fills-0.json",
+      "examples/api/27-multiple-fill-order.json"
+    ],
+    "data": {
+      "fills": [
+        {
+          "coin": "BTC",
+          "px": "83727.0",
+          "sz": "0.16122",
+          "side": "A",
+          "time": 1791868498430,
+          "startPosition": "-7.60963",
+          "dir": "Open Short",
+          "closedPnl": "0.0",
+          "hash": "0x314a8b88200b696c32c4044672c4630208a9006dbb0e883ed51336dadf0f4356",
+          "oid": 572798292348,
+          "crossed": false,
+          "fee": "-0.404954",
+          "tid": 9984495647386,
+          "cloid": "0xc1bea5a136da753857f81ec1984915ff",
+          "feeToken": "USDC",
+          "twapId": null
+        },
+        {
+          "coin": "BTC",
+          "px": "83727.0",
+          "sz": "0.03776",
+          "side": "A",
+          "time": 1791868498430,
+          "startPosition": "-7.77085",
+          "dir": "Open Short",
+          "closedPnl": "0.0",
+          "hash": "0x314a8b88200b696c32c4044672c4630208a9006dbb0e883ed51336dadf0f4356",
+          "oid": 572798292348,
+          "crossed": false,
+          "fee": "-0.094845",
+          "tid": 986200093165237,
+          "cloid": "0xc1bea5a136da753857f81ec1984915ff",
+          "feeToken": "USDC",
+          "twapId": null
+        }
+      ],
+      "observed_size_btc": "0.19898",
+      "order_status": {
+        "status": "unknownOid"
+      }
+    },
+    "limitations": "unknownOid，原始总数量、余量和终态未知；不声称完全成交。",
+    "baseline": "2026-10-13"
+  },
+  {
+    "case": 3,
+    "title": "BTC一笔撮合与双侧Fill",
+    "status": "OBSERVED",
+    "evidence_level": 1,
+    "source_files": [
+      "examples/websocket/capture.json",
+      "examples/api/17-fills-0.json",
+      "examples/api/17-fills-1.json"
+    ],
+    "data": {
+      "trade": {
+        "coin": "BTC",
+        "side": "A",
+        "px": "83592.0",
+        "sz": "0.00012",
+        "time": 1791871824909,
+        "hash": "0x9b950e1c389b236e9d0e0446737a2e0205e30001d39e42403f5db96ef79efd59",
+        "tid": 972262344723288,
+        "users": [
+          "0x78dce96236804d6958bf3c4598cf5efbc371629c",
+          "0xab9b1d113cd5e91e13418c4cb70c2cd682ef2c2a"
+        ]
+      },
+      "buyer_fill": {
+        "coin": "BTC",
+        "px": "83592.0",
+        "sz": "0.00012",
+        "side": "B",
+        "time": 1791871824909,
+        "startPosition": "-7.53687",
+        "dir": "Close Short",
+        "closedPnl": "-0.04236",
+        "hash": "0x9b950e1c389b236e9d0e0446737a2e0205e30001d39e42403f5db96ef79efd59",
+        "oid": 572837845060,
+        "crossed": false,
+        "fee": "-0.0003",
+        "tid": 972262344723288,
+        "cloid": "0x40d33ceaf99a5c5a6c6cbd1ccac06fff",
+        "feeToken": "USDC",
+        "twapId": null
+      },
+      "seller_fill": {
+        "coin": "BTC",
+        "px": "83592.0",
+        "sz": "0.00012",
+        "side": "A",
+        "time": 1791871824909,
+        "startPosition": "0.00307",
+        "dir": "Close Long",
+        "closedPnl": "-0.005376",
+        "hash": "0x9b950e1c389b236e9d0e0446737a2e0205e30001d39e42403f5db96ef79efd59",
+        "oid": 572837864082,
+        "crossed": true,
+        "fee": "0.004513",
+        "tid": 972262344723288,
+        "feeToken": "USDC",
+        "twapId": null
+      },
+      "single_trade_quote_notional": "10.031040",
+      "double_leg_quote_sum": "20.062080",
+      "buyer_after_local": "-7.53675",
+      "seller_after_local": "0.00295"
+    },
+    "limitations": "本地后态是此事件局部推导；不是稍后API快照；两腿各在平空/平多。",
+    "baseline": "2026-10-13"
+  },
+  {
+    "case": 4,
+    "title": "实际用户资金费收款",
+    "status": "OBSERVED",
+    "evidence_level": 1,
+    "source_files": [
+      "examples/api/20-user-funding.json",
+      "examples/api/06-btc-funding.json"
+    ],
+    "data": {
+      "user_funding_excerpt": {
+        "time": 1791788400061,
+        "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "delta": {
+          "type": "funding",
+          "coin": "BTC",
+          "usdc": "9.034535",
+          "szi": "-9.69594",
+          "fundingRate": "0.0000110632",
+          "nSamples": null
+        }
+      },
+      "records_observed": 24
+    },
+    "limitations": "直接使用支付金额；未独立取得该轮完整Oracle输入并重算全协议。",
+    "baseline": "2026-10-13"
+  },
+  {
+    "case": 5,
+    "title": "清算事件",
+    "status": "BLOCKED_EVIDENCE",
+    "evidence_level": 1,
+    "source_files": [
+      "examples/api/30-hlp-child.json",
+      "examples/api/31-liquidator-fills.json"
+    ],
+    "data": {
+      "verified_liquidator_name": "HLP Liquidator",
+      "finite_30min_fills": []
+    },
+    "limitations": "两账户样本无清算标记；定向核对HLP Liquidator身份后，30分钟Fill返回空。无真实清算，不编造金额或终态，也不推断全市场没有清算。",
+    "baseline": "2026-10-13"
+  },
+  {
+    "case": 6,
+    "title": "HYPE现货身份与真实撮合",
+    "status": "OBSERVED",
+    "evidence_level": 1,
+    "source_files": [
+      "examples/api/03-spot-meta.json",
+      "examples/websocket/capture-hype.json"
+    ],
+    "data": {
+      "token": {
+        "name": "HYPE",
+        "szDecimals": 2,
+        "weiDecimals": 8,
+        "index": 150,
+        "tokenId": "0x0d01dc56dcaaca66ad901c959b4011ec",
+        "isCanonical": false,
+        "evmContract": null,
+        "fullName": "Hyperliquid",
+        "deployerTradingFeeShare": "0.0"
+      },
+      "pair": {
+        "tokens": [
+          150,
+          0
+        ],
+        "name": "@107",
+        "index": 107,
+        "isCanonical": false
+      },
+      "trade": {
+        "coin": "@107",
+        "side": "B",
+        "px": "82.859",
+        "sz": "2.09",
+        "time": 1791871942044,
+        "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "tid": 401744328572553,
+        "users": [
+          "0xf036a5261406a394bd63eb4df49c464634a66155",
+          "0xecb63caa47c7c4e77f60f1ce858cf28dc2b82b00"
+        ]
+      },
+      "order_asset_id": 10107
+    },
+    "limitations": "现货Trade真实；双方完整余额及费用未取得。",
+    "baseline": "2026-10-13"
+  },
+  {
+    "case": 7,
+    "title": "HIP-2策略事件链",
+    "status": "BLOCKED_EVIDENCE",
+    "evidence_level": 1,
+    "source_files": [],
+    "data": {},
+    "limitations": "只有正式规范；没有取得指定策略状态、身份和完整挂单变化。",
+    "baseline": "2026-10-13"
+  },
+  {
+    "case": 8,
+    "title": "Core/EVM接口观察与转移缺口",
+    "status": "OBSERVED_INTERFACE_ONLY",
+    "evidence_level": 2,
+    "source_files": [
+      "examples/api/25-read-oracle.json",
+      "examples/api/28-corewriter-code.json",
+      "examples/api/26-hype-transfer-logs.json",
+      "examples/api/15-evm-system.json"
+    ],
+    "data": {
+      "oracle_return": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x00000000000000000000000000000000000000000000000000000000000cc376"
+      },
+      "corewriter_code_bytes": 544,
+      "transfer_logs": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": []
+      },
+      "system_txs": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": []
+      }
+    },
+    "limitations": "0807读取与入口代码已观察；50区块日志为空，无真实资产转移闭环。",
+    "baseline": "2026-10-13"
+  },
+  {
+    "case": 9,
+    "title": "XYZ的TSLA价格关联永续",
+    "status": "OBSERVED",
+    "evidence_level": 2,
+    "source_files": [
+      "examples/api/04-perp-dexs.json",
+      "examples/api/09-hip3-meta.json"
+    ],
+    "data": {
+      "dex_index": 1,
+      "dex": {
+        "name": "xyz",
+        "fullName": "XYZ",
+        "deployer": "0x88806a71d74ad0a510b350545c9ae490912f0888",
+        "oracleUpdater": null,
+        "feeRecipient": "0x83ffcfb1f2ad843c474b2e28df86c721cb869d3a"
+      },
+      "market_index": 1,
+      "meta": {
+        "szDecimals": 3,
+        "name": "xyz:TSLA",
+        "maxLeverage": 20,
+        "marginTableId": 20,
+        "growthMode": "enabled",
+        "lastFeeScaleChangeTime": "2025-11-23T17:37:10.033211662",
+        "deployerFeeScale": "1.0"
+      },
+      "context": {
+        "funding": "0.0000079172",
+        "openInterest": "109629.86",
+        "prevDayPx": "383.4",
+        "dayNtlVlm": "18341916.6711999886",
+        "premium": "0.0005584353",
+        "oraclePx": "374.26",
+        "markPx": "374.42",
+        "midPx": "374.455",
+        "impactPxs": [
+          "374.45",
+          "374.488"
+        ],
+        "dayBaseVlm": "48376.127"
+      },
+      "asset_id": 110001,
+      "collateral_token": 0
+    },
+    "limitations": "不是股票所有权；Oracle具体外部定义与完整历史风险参数未独立核验。",
+    "baseline": "2026-10-13"
+  },
+  {
+    "case": 10,
+    "title": "Outcome 95历史结算与当前Question",
+    "status": "OBSERVED",
+    "evidence_level": 1,
+    "source_files": [
+      "examples/api/08-settled-outcome.json",
+      "examples/api/05-outcome-meta.json"
+    ],
+    "data": {
+      "settled_outcome_95": {
+        "spec": {
+          "outcome": 95,
+          "name": "Recurring",
+          "description": "class:priceBinary|underlying:BTC|expiry:20260526-0600|targetPrice:77363|period:1d",
+          "sideSpecs": [
+            {
+              "name": "Yes"
+            },
+            {
+              "name": "No"
+            }
+          ],
+          "quoteToken": "USDC"
+        },
+        "settleFraction": "0.0",
+        "details": "price:76876.9"
+      },
+      "current_outcome_count": 327,
+      "current_question_count": 35,
+      "question_excerpt": {
+        "question": 411,
+        "name": "template:sportsContestResult",
+        "description": "competition:UEFA Champions League|contestType:Match|countedPlay:regulation time, 90 minutes plus stoppage time|officialSource:Union of European Football Associations|participantA:RB Leipzig|participantB:PSV Eindhoven|resolutionDeadline:20261014-1900|scheduledStart:20261013-1900|season:2026/27|sport:Soccer|stage:Matchday 2",
+        "fallbackOutcome": 10823,
+        "namedOutcomes": [
+          10824,
+          10825,
+          10826
+        ],
+        "settledNamedOutcomes": []
+      }
+    },
+    "limitations": "结算比例直接取得；没有用户支付链，已有市场不证明任意部署权限。",
+    "baseline": "2026-10-13"
+  },
+  {
+    "case": 11,
+    "title": "HLP当前Vault身份与历史呈现",
+    "status": "OBSERVED",
+    "evidence_level": 2,
+    "source_files": [
+      "examples/api/29-hlp-vault.json",
+      "examples/api/30-hlp-child.json"
+    ],
+    "data": {
+      "parent": {
+        "name": "Hyperliquidity Provider (HLP)",
+        "vaultAddress": "0xdfc24b077bc1425ad1dea75bcb6f8158e10df303",
+        "leader": "0x677d831aef5328190852e24f13c46cac05f984e7",
+        "description": "This community-owned vault provides liquidity to Hyperliquid through multiple market making strategies, performs liquidations, and accrues platform fees.",
+        "leaderFraction": 0.0020053895374148403,
+        "isClosed": false,
+        "relationship": {
+          "type": "parent",
+          "data": {
+            "childAddresses": [
+              "0x010461c14e146ac35fe42271bdc1134ee31c703a",
+              "0x2e3d94f0562703b25c83308a05046ddaf9a8dd14",
+              "0x2ed5c4484ea3ff8b57d5f2fb152a40d9f2b68308",
+              "0x31ca8395cf837de08b24da3f660e77761dfb974b",
+              "0x469f690213c467c39a23efacfd2816896009d7d8",
+              "0x5e177e5e39c0f4e421f5865a6d8beed8d921cb70",
+              "0xb0a55f13d22f66e6d495ac98113841b2326e9540"
+            ]
+          }
+        }
+      },
+      "liquidator_child": {
+        "name": "HLP Liquidator",
+        "vaultAddress": "0x2e3d94f0562703b25c83308a05046ddaf9a8dd14",
+        "relationship": {
+          "type": "child"
+        }
+      }
+    },
+    "limitations": "原响应有权益历史，公开父子关系与HLP Liquidator身份已取得；没有完整申赎、份额与用户收益对账。",
+    "baseline": "2026-10-13"
+  },
+  {
+    "case": 12,
+    "title": "样本账户质押摘要",
+    "status": "SNAPSHOT_ONLY",
+    "evidence_level": 2,
+    "source_files": [
+      "examples/api/23-delegation.json"
+    ],
+    "data": {
+      "delegated": "0.0",
+      "undelegated": "0.0",
+      "totalPendingWithdrawal": "0.0",
+      "nPendingWithdrawals": 0
+    },
+    "limitations": "不构成真实委托或奖励事件链；不能由空值断言从未质押。",
+    "baseline": "2026-10-13"
+  },
+  {
+    "case": 13,
+    "title": "子账户USDC转移账务",
+    "status": "OBSERVED",
+    "evidence_level": 1,
+    "source_files": [
+      "examples/api/21-user-ledger.json"
+    ],
+    "data": {
+      "time": 1791843401112,
+      "hash": "0x1591c53917dc0683170b04466d677301de00dd1eb2df2555b95a708bd6dfe06d",
+      "delta": {
+        "type": "subAccountTransfer",
+        "usdc": "277.0",
+        "user": "0x78dce96236804d6958bf3c4598cf5efbc371629c",
+        "destination": "0x7839e2f2c375dd2935193f2736167514efff9916"
+      }
+    },
+    "limitations": "接口标注subAccountTransfer；技术关系不是现实受益归属证明。",
+    "baseline": "2026-10-13"
+  },
+  {
+    "case": 14,
+    "title": "固定HyperEVM区块与收据",
+    "status": "OBSERVED",
+    "evidence_level": 1,
+    "source_files": [
+      "examples/api/14-evm-block.json",
+      "examples/api/16-evm-receipt.json"
+    ],
+    "data": {
+      "height": 48408687,
+      "block_hash": "0xe0fa471844f22a3c77e41ceffee7bbc7fb547348f992f63888b6cab94102b404",
+      "transaction_hash": "0x24ff8a2f920e9bc8cb98be8feb9943713e3d1d6789f202d1152dd70e79c5432e",
+      "receipt_status": "0x1",
+      "gas_used": 66498,
+      "log_count": 1
+    },
+    "limitations": "固定块归属检查，非独立EVM或L1共识重放；不声称Core业务完成。",
+    "baseline": "2026-10-13"
+  }
+]

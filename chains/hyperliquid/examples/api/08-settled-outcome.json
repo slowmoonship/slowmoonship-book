@@ -1,0 +1,33 @@
+{
+  "network": "Mainnet",
+  "method": "POST",
+  "endpoint": "https://api.hyperliquid.xyz/info",
+  "request": {
+    "type": "settledOutcome",
+    "outcome": 95
+  },
+  "retrieved_at": "2026-10-13T06:09:31.429424+00:00",
+  "grain": "one historical outcome settlement",
+  "unit": "settleFraction quote units per Yes token",
+  "response": {
+    "spec": {
+      "outcome": 95,
+      "name": "Recurring",
+      "description": "class:priceBinary|underlying:BTC|expiry:20260526-0600|targetPrice:77363|period:1d",
+      "sideSpecs": [
+        {
+          "name": "Yes"
+        },
+        {
+          "name": "No"
+        }
+      ],
+      "quoteToken": "USDC"
+    },
+    "settleFraction": "0.0",
+    "details": "price:76876.9"
+  },
+  "status": "OBSERVED",
+  "limitations": "Finite sample, not full history; event time differs from response time.",
+  "http_status": 200
+}

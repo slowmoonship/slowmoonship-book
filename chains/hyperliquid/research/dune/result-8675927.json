@@ -1,0 +1,70 @@
+{
+  "result": {
+    "_meta": {
+      "mcp_event_id": "8dc66f90-4ce3-473e-b784-8167f6504304"
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"executionId\":\"01M27GDBJNJ3VVPBJEBR8X9357\",\"state\":\"COMPLETED\",\"resultMetadata\":{\"columns\":[{\"name\":\"date\",\"type\":\"date\"},{\"name\":\"interaction_type\",\"type\":\"varchar(25)\"},{\"name\":\"interaction_count\",\"type\":\"bigint\"},{\"name\":\"unique_transactions\",\"type\":\"bigint\"},{\"name\":\"unique_callers\",\"type\":\"bigint\"}],\"totalRowCount\":60,\"executionCostCredits\":\"0.531\"},\"data\":{\"rows\":[{\"date\":\"2026-08-12\",\"interaction_type\":\"corewriter_write\",\"interaction_count\":6541,\"unique_transactions\":6469,\"unique_callers\":186},{\"date\":\"2026-08-12\",\"interaction_type\":\"hypercore_read_precompile\",\"interaction_count\":201681,\"unique_transactions\":52774,\"unique_callers\":151},{\"date\":\"2026-08-13\",\"interaction_type\":\"corewriter_write\",\"interaction_count\":7105,\"unique_transactions\":7052,\"unique_callers\":148}]}}"
+      }
+    ],
+    "structuredContent": {
+      "executionId": "01M27GDBJNJ3VVPBJEBR8X9357",
+      "state": "COMPLETED",
+      "resultMetadata": {
+        "columns": [
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "interaction_type",
+            "type": "varchar(25)"
+          },
+          {
+            "name": "interaction_count",
+            "type": "bigint"
+          },
+          {
+            "name": "unique_transactions",
+            "type": "bigint"
+          },
+          {
+            "name": "unique_callers",
+            "type": "bigint"
+          }
+        ],
+        "totalRowCount": 60,
+        "executionCostCredits": "0.531"
+      },
+      "data": {
+        "rows": [
+          {
+            "date": "2026-08-12",
+            "interaction_type": "corewriter_write",
+            "interaction_count": 6541,
+            "unique_transactions": 6469,
+            "unique_callers": 186
+          },
+          {
+            "date": "2026-08-12",
+            "interaction_type": "hypercore_read_precompile",
+            "interaction_count": 201681,
+            "unique_transactions": 52774,
+            "unique_callers": 151
+          },
+          {
+            "date": "2026-08-13",
+            "interaction_type": "corewriter_write",
+            "interaction_count": 7105,
+            "unique_transactions": 7052,
+            "unique_callers": 148
+          }
+        ]
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 11
+}

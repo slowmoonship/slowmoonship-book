@@ -1,0 +1,85 @@
+{
+  "network": "Mainnet",
+  "method": "POST",
+  "endpoint": "https://api.hyperliquid.xyz/info",
+  "request": {
+    "type": "l2Book",
+    "coin": "#118050"
+  },
+  "retrieved_at": "2026-10-13T06:09:33.423365+00:00",
+  "grain": "one outcome side L2 snapshot",
+  "unit": "quote units per side token",
+  "response": {
+    "coin": "#118050",
+    "time": 1791871773619,
+    "levels": [
+      [
+        {
+          "px": "0.66418",
+          "sz": "151.0",
+          "n": 1
+        },
+        {
+          "px": "0.65918",
+          "sz": "152.0",
+          "n": 1
+        },
+        {
+          "px": "0.63418",
+          "sz": "158.0",
+          "n": 1
+        },
+        {
+          "px": "0.00333",
+          "sz": "602.0",
+          "n": 2
+        },
+        {
+          "px": "0.00025",
+          "sz": "16000.0",
+          "n": 4
+        },
+        {
+          "px": "0.00001",
+          "sz": "100000.0",
+          "n": 1
+        }
+      ],
+      [
+        {
+          "px": "0.67426",
+          "sz": "307.0",
+          "n": 1
+        },
+        {
+          "px": "0.67926",
+          "sz": "312.0",
+          "n": 1
+        },
+        {
+          "px": "0.70426",
+          "sz": "339.0",
+          "n": 1
+        },
+        {
+          "px": "0.99667",
+          "sz": "602.0",
+          "n": 2
+        },
+        {
+          "px": "0.99975",
+          "sz": "16000.0",
+          "n": 4
+        },
+        {
+          "px": "0.99999",
+          "sz": "100000.0",
+          "n": 1
+        }
+      ]
+    ]
+  },
+  "status": "OBSERVED",
+  "limitations": "Finite sample, not full history; event time differs from response time.",
+  "http_status": 200
+}

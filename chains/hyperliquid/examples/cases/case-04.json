@@ -1,0 +1,27 @@
+{
+  "case": 4,
+  "title": "实际用户资金费收款",
+  "status": "OBSERVED",
+  "evidence_level": 1,
+  "source_files": [
+    "examples/api/20-user-funding.json",
+    "examples/api/06-btc-funding.json"
+  ],
+  "data": {
+    "user_funding_excerpt": {
+      "time": 1791788400061,
+      "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "delta": {
+        "type": "funding",
+        "coin": "BTC",
+        "usdc": "9.034535",
+        "szi": "-9.69594",
+        "fundingRate": "0.0000110632",
+        "nSamples": null
+      }
+    },
+    "records_observed": 24
+  },
+  "limitations": "直接使用支付金额；未独立取得该轮完整Oracle输入并重算全协议。",
+  "baseline": "2026-10-13"
+}

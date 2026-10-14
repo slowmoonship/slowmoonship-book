@@ -1,0 +1,2641 @@
+{
+  "hip4_hyperliquid.open_interest_hourly": {
+    "full_name": "hip4_hyperliquid.open_interest_hourly",
+    "category": "spell",
+    "dataset_type": "spell",
+    "blockchains": [
+      "hyperliquid"
+    ],
+    "partition_columns": [
+      "block_month"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "block_month",
+          "nullable": true,
+          "type": "date"
+        },
+        {
+          "name": "hour",
+          "nullable": true,
+          "type": "timestamp"
+        },
+        {
+          "name": "market_id",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "event_id",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "market_oi_yes_contracts",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "market_oi_no_contracts",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "event_oi_contracts",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "volume_contracts",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "volume_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "trade_count",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "_updated_at",
+          "nullable": true,
+          "type": "timestamp"
+        }
+      ],
+      "type": "struct"
+    },
+    "metadata": {
+      "spell_type": "project"
+    },
+    "catalog_file": "research/dune/catalog-hip4.json"
+  },
+  "hip4_hyperliquid.positions_daily": {
+    "full_name": "hip4_hyperliquid.positions_daily",
+    "category": "spell",
+    "dataset_type": "spell",
+    "blockchains": [
+      "hyperliquid"
+    ],
+    "partition_columns": [
+      "block_month"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "block_month",
+          "nullable": true,
+          "type": "date"
+        },
+        {
+          "name": "day",
+          "nullable": true,
+          "type": "date"
+        },
+        {
+          "name": "trader",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "market_id",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "outcome_id",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "outcome_index",
+          "nullable": true,
+          "type": "integer"
+        },
+        {
+          "name": "balance",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "price",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "balance_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "_position_updated_at",
+          "nullable": true,
+          "type": "timestamp"
+        },
+        {
+          "name": "_updated_at",
+          "nullable": true,
+          "type": "timestamp"
+        }
+      ],
+      "type": "struct"
+    },
+    "metadata": {
+      "spell_type": "project"
+    },
+    "catalog_file": "research/dune/catalog-hip4.json"
+  },
+  "hip4_hyperliquid.ohlcv_hourly": {
+    "full_name": "hip4_hyperliquid.ohlcv_hourly",
+    "category": "spell",
+    "dataset_type": "spell",
+    "blockchains": [
+      "hyperliquid"
+    ],
+    "partition_columns": [
+      "block_month"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "block_month",
+          "nullable": true,
+          "type": "date"
+        },
+        {
+          "name": "hour",
+          "nullable": true,
+          "type": "timestamp"
+        },
+        {
+          "name": "market_id",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "outcome_id",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "outcome_index",
+          "nullable": true,
+          "type": "integer"
+        },
+        {
+          "name": "outcome_name",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "market_name",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "event_market_name",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "category",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "open",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "high",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "low",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "close",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "vwap",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "volume_contracts",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "volume_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "trade_count",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "market_end_time",
+          "nullable": true,
+          "type": "timestamp"
+        },
+        {
+          "name": "expected_expiration_time",
+          "nullable": true,
+          "type": "timestamp"
+        },
+        {
+          "name": "market_outcome",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "is_forward_filled",
+          "nullable": true,
+          "type": "boolean"
+        },
+        {
+          "name": "_updated_at",
+          "nullable": true,
+          "type": "timestamp"
+        }
+      ],
+      "type": "struct"
+    },
+    "metadata": {
+      "spell_type": "project"
+    },
+    "catalog_file": "research/dune/catalog-hip4.json"
+  },
+  "hip4_hyperliquid.market_details": {
+    "full_name": "hip4_hyperliquid.market_details",
+    "category": "spell",
+    "dataset_type": "spell",
+    "blockchains": [
+      "hyperliquid"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "market_id",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "event_id",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "yes_outcome_id",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "no_outcome_id",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "title",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "yes_outcome_name",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "no_outcome_name",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "event_title",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "template_id",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "is_fallback",
+          "nullable": true,
+          "type": "boolean"
+        },
+        {
+          "name": "market_type",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "is_mutually_exclusive_event",
+          "nullable": true,
+          "type": "boolean"
+        },
+        {
+          "name": "event_outcome_count",
+          "nullable": true,
+          "type": "integer"
+        },
+        {
+          "name": "outcome_position",
+          "nullable": true,
+          "type": "integer"
+        },
+        {
+          "name": "quote_token",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "deployer",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "deployer_venue",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "frequency",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "underlying",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "underlying_dex",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "strike_type",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "floor_strike",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "cap_strike",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "observation_seconds",
+          "nullable": true,
+          "type": "integer"
+        },
+        {
+          "name": "listed_at",
+          "nullable": true,
+          "type": "timestamp"
+        },
+        {
+          "name": "scheduled_start_time",
+          "nullable": true,
+          "type": "timestamp"
+        },
+        {
+          "name": "expected_expiration_time",
+          "nullable": true,
+          "type": "timestamp"
+        },
+        {
+          "name": "status",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "result",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "settlement_value_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "settlement_details",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "settlement_ts",
+          "nullable": true,
+          "type": "timestamp"
+        },
+        {
+          "name": "settlement_block_number",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "category",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "category_native",
+          "nullable": true,
+          "type": "array(varchar)"
+        },
+        {
+          "name": "template",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "description",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "event_description",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "template_fields",
+          "nullable": true,
+          "type": "map(varchar, varchar)"
+        },
+        {
+          "name": "event_template_fields",
+          "nullable": true,
+          "type": "map(varchar, varchar)"
+        },
+        {
+          "name": "source_updated_at",
+          "nullable": true,
+          "type": "timestamp"
+        },
+        {
+          "name": "_updated_at",
+          "nullable": true,
+          "type": "timestamp"
+        }
+      ],
+      "type": "struct"
+    },
+    "metadata": {
+      "spell_type": "project"
+    },
+    "catalog_file": "research/dune/catalog-hip4.json"
+  },
+  "hip4_hyperliquid.market_trades": {
+    "full_name": "hip4_hyperliquid.market_trades",
+    "category": "spell",
+    "dataset_type": "spell",
+    "blockchains": [
+      "hyperliquid"
+    ],
+    "partition_columns": [
+      "block_month"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "block_month",
+          "nullable": true,
+          "type": "date"
+        },
+        {
+          "name": "block_date",
+          "nullable": true,
+          "type": "date"
+        },
+        {
+          "name": "block_time",
+          "nullable": true,
+          "type": "timestamp"
+        },
+        {
+          "name": "block_number",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "event_index",
+          "nullable": true,
+          "type": "integer"
+        },
+        {
+          "name": "tx_hash",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "trade_id",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "order_id",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "client_order_id",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "twap_id",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "market_id",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "outcome_id",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "outcome_index",
+          "nullable": true,
+          "type": "integer"
+        },
+        {
+          "name": "trader",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "is_system_account",
+          "nullable": true,
+          "type": "boolean"
+        },
+        {
+          "name": "is_taker",
+          "nullable": true,
+          "type": "boolean"
+        },
+        {
+          "name": "side",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "dir",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "fill_type",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "start_position",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "price",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "num_contracts",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "amount_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "closed_pnl_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "fee_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "builder_fee_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "deployer_fee_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "fee_token",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "builder",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "_updated_at",
+          "nullable": true,
+          "type": "timestamp"
+        }
+      ],
+      "type": "struct"
+    },
+    "metadata": {
+      "spell_type": "project"
+    },
+    "catalog_file": "research/dune/catalog-hip4.json"
+  },
+  "hyperliquid.perp_trades": {
+    "full_name": "hyperliquid.perp_trades",
+    "category": "spell",
+    "dataset_type": "spell",
+    "blockchains": [
+      "hyperliquid"
+    ],
+    "partition_columns": [
+      "block_date"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "block_month",
+          "nullable": true,
+          "type": "date"
+        },
+        {
+          "name": "block_date",
+          "nullable": true,
+          "type": "date"
+        },
+        {
+          "name": "block_time",
+          "nullable": true,
+          "type": "timestamp"
+        },
+        {
+          "name": "block_number",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "event_index",
+          "nullable": true,
+          "type": "integer"
+        },
+        {
+          "name": "perp_dex",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "coin",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "market_symbol",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "asset_id",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "trader",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "is_taker",
+          "nullable": true,
+          "type": "boolean"
+        },
+        {
+          "name": "side",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "dir",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "fill_type",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "start_position",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "price",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "size",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "notional_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "closed_pnl_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "fee_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "builder_fee_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "deployer_fee_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "fee_token",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "priority_gas",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "tid",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "oid",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "cloid",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "builder",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "twap_id",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "liquidation_method",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "liquidated_trader",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "liquidation_mark_price",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "_updated_at",
+          "nullable": true,
+          "type": "timestamp"
+        }
+      ],
+      "type": "struct"
+    },
+    "metadata": {
+      "page_rank_score": 0.34575000000000006,
+      "spell_type": "project"
+    },
+    "catalog_file": "research/dune/catalog-outcome.json"
+  },
+  "hyperliquid.perp_market_details": {
+    "full_name": "hyperliquid.perp_market_details",
+    "category": "spell",
+    "dataset_type": "spell",
+    "blockchains": [
+      "hyperliquid"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "coin",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "perp_dex",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "market_symbol",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "asset_id",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "asset_index",
+          "nullable": true,
+          "type": "integer"
+        },
+        {
+          "name": "dex_index",
+          "nullable": true,
+          "type": "integer"
+        },
+        {
+          "name": "perp_dex_type",
+          "nullable": true,
+          "type": "varchar(11)"
+        },
+        {
+          "name": "builder_name",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "deployer",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "oracle_updater",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "fee_recipient",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "size_decimals",
+          "nullable": true,
+          "type": "integer"
+        },
+        {
+          "name": "max_leverage",
+          "nullable": true,
+          "type": "integer"
+        },
+        {
+          "name": "margin_table_id",
+          "nullable": true,
+          "type": "integer"
+        },
+        {
+          "name": "margin_tiers",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "is_tiered_margin",
+          "nullable": true,
+          "type": "boolean"
+        },
+        {
+          "name": "margin_mode",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "only_isolated",
+          "nullable": true,
+          "type": "boolean"
+        },
+        {
+          "name": "funding_multiplier",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "open_interest_cap_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "growth_mode",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "growth_mode_changed_at",
+          "nullable": true,
+          "type": "timestamp(3) with time zone"
+        },
+        {
+          "name": "is_delisted",
+          "nullable": true,
+          "type": "boolean"
+        },
+        {
+          "name": "is_halted",
+          "nullable": true,
+          "type": "boolean"
+        },
+        {
+          "name": "listed_at",
+          "nullable": true,
+          "type": "timestamp(3) with time zone"
+        },
+        {
+          "name": "delisted_at",
+          "nullable": true,
+          "type": "timestamp(3) with time zone"
+        },
+        {
+          "name": "market_category",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "asset_class",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "asset_type",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "underlying_ticker",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "description",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "metadata_last_updated",
+          "nullable": true,
+          "type": "date"
+        },
+        {
+          "name": "_updated_at",
+          "nullable": true,
+          "type": "timestamp(3) with time zone"
+        }
+      ],
+      "type": "struct"
+    },
+    "metadata": {
+      "page_rank_score": 1.2382499999999999,
+      "spell_type": "project"
+    },
+    "catalog_file": "research/dune/catalog-outcome.json"
+  },
+  "hyperliquid.perp_positions_hourly": {
+    "full_name": "hyperliquid.perp_positions_hourly",
+    "category": "spell",
+    "dataset_type": "spell",
+    "blockchains": [
+      "hyperliquid"
+    ],
+    "partition_columns": [
+      "block_month",
+      "trader_prefix"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "block_month",
+          "nullable": true,
+          "type": "date"
+        },
+        {
+          "name": "block_date",
+          "nullable": true,
+          "type": "date"
+        },
+        {
+          "name": "block_hour",
+          "nullable": true,
+          "type": "timestamp"
+        },
+        {
+          "name": "block_number",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "perp_dex",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "coin",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "market_symbol",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "asset_id",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "trader",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "trader_prefix",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "position_size",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "position_side",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "valuation_price",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "position_notional_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "funding_amount_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "funding_rate",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "_updated_at",
+          "nullable": true,
+          "type": "timestamp"
+        }
+      ],
+      "type": "struct"
+    },
+    "metadata": {
+      "page_rank_score": 1.05975,
+      "spell_type": "project"
+    },
+    "catalog_file": "research/dune/catalog-outcome.json"
+  },
+  "hyperliquid.perp_accounts_daily": {
+    "full_name": "hyperliquid.perp_accounts_daily",
+    "category": "spell",
+    "dataset_type": "spell",
+    "blockchains": [
+      "hyperliquid"
+    ],
+    "partition_columns": [
+      "block_date"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "block_month",
+          "nullable": true,
+          "type": "date"
+        },
+        {
+          "name": "block_date",
+          "nullable": true,
+          "type": "date"
+        },
+        {
+          "name": "trader",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "fills_count",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "taker_fills_count",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "maker_fills_count",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "volume_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "taker_volume_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "maker_volume_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "buy_volume_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "sell_volume_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "markets_traded",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "dexes_traded",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "realized_pnl_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "fee_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "builder_fee_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "deployer_fee_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "liquidation_count",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "liquidation_volume_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "adl_count",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "adl_volume_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "funding_paid_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "funding_received_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "net_pnl_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "open_positions_eod",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "position_notional_usd_eod",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "deposit_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "withdraw_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "transfer_in_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "transfer_out_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "spot_to_perp_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "perp_to_spot_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "vault_deposit_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "vault_withdraw_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "net_collateral_flow_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "_updated_at",
+          "nullable": true,
+          "type": "timestamp"
+        }
+      ],
+      "type": "struct"
+    },
+    "metadata": {
+      "page_rank_score": 0.792,
+      "spell_type": "project"
+    },
+    "catalog_file": "research/dune/catalog-outcome.json"
+  },
+  "hyperliquid.perp_market_metrics_daily": {
+    "full_name": "hyperliquid.perp_market_metrics_daily",
+    "category": "spell",
+    "dataset_type": "spell",
+    "blockchains": [
+      "hyperliquid"
+    ],
+    "partition_columns": [
+      "block_month"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "block_month",
+          "nullable": true,
+          "type": "date"
+        },
+        {
+          "name": "block_date",
+          "nullable": true,
+          "type": "date"
+        },
+        {
+          "name": "perp_dex",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "coin",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "market_symbol",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "asset_id",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "open_price",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "high_price",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "low_price",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "close_price",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "vwap",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "volume_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "volume_units",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "buy_volume_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "sell_volume_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "trades_count",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "unique_traders",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "unique_takers",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "unique_makers",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "fee_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "taker_fee_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "maker_fee_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "builder_fee_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "deployer_fee_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "forced_count",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "forced_volume_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "open_interest_units",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "open_interest_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "open_positions",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "funding_rate",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "funding_rate_annualized",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "funding_paid_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "_updated_at",
+          "nullable": true,
+          "type": "timestamp"
+        }
+      ],
+      "type": "struct"
+    },
+    "metadata": {
+      "page_rank_score": 1.0852499999999998,
+      "spell_type": "project"
+    },
+    "catalog_file": "research/dune/catalog-hypercore.json"
+  },
+  "hyperliquid.perp_orderbook_1m": {
+    "full_name": "hyperliquid.perp_orderbook_1m",
+    "category": "spell",
+    "dataset_type": "spell",
+    "blockchains": [
+      "hyperliquid"
+    ],
+    "partition_columns": [
+      "block_date"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "coin",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "interval_start",
+          "nullable": true,
+          "type": "timestamp(3) with time zone"
+        },
+        {
+          "name": "interval",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "block_time",
+          "nullable": true,
+          "type": "timestamp(3) with time zone"
+        },
+        {
+          "name": "height",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "bids",
+          "nullable": true,
+          "type": "array(row(\"n\" integer,\"px\" varchar,\"sz\" varchar))"
+        },
+        {
+          "name": "asks",
+          "nullable": true,
+          "type": "array(row(\"n\" integer,\"px\" varchar,\"sz\" varchar))"
+        },
+        {
+          "name": "staleness_seconds",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "derived_at",
+          "nullable": true,
+          "type": "timestamp(3) with time zone"
+        },
+        {
+          "name": "block_date",
+          "nullable": true,
+          "type": "date"
+        }
+      ],
+      "type": "struct"
+    },
+    "metadata": {
+      "spell_type": "project"
+    },
+    "catalog_file": "research/dune/catalog-outcome.json"
+  },
+  "hyperliquid.perp_market_metrics_hourly": {
+    "full_name": "hyperliquid.perp_market_metrics_hourly",
+    "category": "spell",
+    "dataset_type": "spell",
+    "blockchains": [
+      "hyperliquid"
+    ],
+    "partition_columns": [
+      "block_month"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "block_month",
+          "nullable": true,
+          "type": "date"
+        },
+        {
+          "name": "block_date",
+          "nullable": true,
+          "type": "date"
+        },
+        {
+          "name": "block_hour",
+          "nullable": true,
+          "type": "timestamp"
+        },
+        {
+          "name": "perp_dex",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "coin",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "market_symbol",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "asset_id",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "open_price",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "high_price",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "low_price",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "close_price",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "vwap",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "volume_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "volume_units",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "buy_volume_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "sell_volume_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "trades_count",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "unique_traders",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "unique_takers",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "unique_makers",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "fee_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "taker_fee_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "maker_fee_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "builder_fee_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "deployer_fee_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "forced_count",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "forced_volume_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "open_interest_units",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "open_interest_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "open_positions",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "funding_rate",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "funding_rate_annualized",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "funding_paid_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "_updated_at",
+          "nullable": true,
+          "type": "timestamp"
+        }
+      ],
+      "type": "struct"
+    },
+    "metadata": {
+      "spell_type": "project"
+    },
+    "catalog_file": "research/dune/catalog-oracle.json"
+  },
+  "hyperevm.logs": {
+    "full_name": "hyperevm.logs",
+    "category": "canonical",
+    "dataset_type": "dune_table",
+    "blockchains": [
+      "hyperevm"
+    ],
+    "partition_columns": [
+      "block_date"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "block_time",
+          "nullable": false,
+          "type": "timestamp"
+        },
+        {
+          "name": "block_number",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "block_hash",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "contract_address",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "topic0",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "topic1",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "topic2",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "topic3",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "data",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "tx_hash",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "index",
+          "nullable": false,
+          "type": "integer"
+        },
+        {
+          "name": "tx_index",
+          "nullable": false,
+          "type": "integer"
+        },
+        {
+          "name": "block_date",
+          "nullable": false,
+          "type": "date"
+        },
+        {
+          "name": "tx_from",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "tx_to",
+          "nullable": false,
+          "type": "varbinary"
+        }
+      ],
+      "type": "struct"
+    },
+    "metadata": {
+      "page_rank_score": 143.86222044943247
+    },
+    "catalog_file": "research/dune/catalog-hyperevm.json"
+  },
+  "hyperevm.transactions": {
+    "full_name": "hyperevm.transactions",
+    "category": "canonical",
+    "dataset_type": "dune_table",
+    "blockchains": [
+      "hyperevm"
+    ],
+    "partition_columns": [
+      "block_date"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "block_time",
+          "nullable": false,
+          "type": "timestamp"
+        },
+        {
+          "name": "block_number",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "value",
+          "nullable": false,
+          "type": "uint256"
+        },
+        {
+          "name": "gas_limit",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "gas_price",
+          "nullable": false,
+          "type": "uint256"
+        },
+        {
+          "name": "gas_used",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "max_fee_per_gas",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "max_priority_fee_per_gas",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "priority_fee_per_gas",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "nonce",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "index",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "success",
+          "nullable": false,
+          "type": "boolean"
+        },
+        {
+          "name": "from",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "to",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "block_hash",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "data",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "hash",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "type",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "access_list",
+          "nullable": false,
+          "type": "array(row(address varbinary,storageKeys array(varbinary)))"
+        },
+        {
+          "name": "chain_id",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "block_date",
+          "nullable": false,
+          "type": "date"
+        }
+      ],
+      "type": "struct"
+    },
+    "metadata": {
+      "page_rank_score": 81.74849103272525
+    },
+    "catalog_file": "research/dune/catalog-hyperevm.json"
+  },
+  "hyperevm.traces": {
+    "full_name": "hyperevm.traces",
+    "category": "canonical",
+    "dataset_type": "dune_table",
+    "blockchains": [
+      "hyperevm"
+    ],
+    "partition_columns": [
+      "block_date"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "block_time",
+          "nullable": false,
+          "type": "timestamp"
+        },
+        {
+          "name": "block_number",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "value",
+          "nullable": false,
+          "type": "uint256"
+        },
+        {
+          "name": "gas",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "gas_used",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "block_hash",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "success",
+          "nullable": false,
+          "type": "boolean"
+        },
+        {
+          "name": "tx_index",
+          "nullable": false,
+          "type": "integer"
+        },
+        {
+          "name": "tx_from",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "tx_to",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "sub_traces",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "error",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "tx_success",
+          "nullable": false,
+          "type": "boolean"
+        },
+        {
+          "name": "tx_hash",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "from",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "to",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "trace_address",
+          "nullable": false,
+          "type": "array(bigint)"
+        },
+        {
+          "name": "type",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "address",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "code",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "call_type",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "input",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "output",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "refund_address",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "revert_reason",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "block_date",
+          "nullable": false,
+          "type": "date"
+        }
+      ],
+      "type": "struct"
+    },
+    "metadata": {
+      "page_rank_score": 22.99104690041482
+    },
+    "catalog_file": "research/dune/catalog-hyperevm.json"
+  },
+  "hyperevm.creation_traces": {
+    "full_name": "hyperevm.creation_traces",
+    "category": "canonical",
+    "dataset_type": "dune_table",
+    "blockchains": [
+      "hyperevm"
+    ],
+    "partition_columns": [
+      "block_date"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "block_time",
+          "nullable": false,
+          "type": "timestamp"
+        },
+        {
+          "name": "block_number",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "tx_hash",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "address",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "from",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "code",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "block_month",
+          "nullable": false,
+          "type": "date"
+        }
+      ],
+      "type": "struct"
+    },
+    "metadata": {
+      "page_rank_score": 18.386488315878612
+    },
+    "catalog_file": "research/dune/catalog-hyperevm.json"
+  },
+  "hyperevm.blocks": {
+    "full_name": "hyperevm.blocks",
+    "category": "canonical",
+    "dataset_type": "dune_table",
+    "blockchains": [
+      "hyperevm"
+    ],
+    "partition_columns": [
+      "date"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "time",
+          "nullable": false,
+          "type": "timestamp"
+        },
+        {
+          "name": "number",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "gas_limit",
+          "nullable": false,
+          "type": "decimal(38,0)"
+        },
+        {
+          "name": "gas_used",
+          "nullable": false,
+          "type": "decimal(38,0)"
+        },
+        {
+          "name": "difficulty",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "total_difficulty",
+          "nullable": false,
+          "type": "decimal(38,0)"
+        },
+        {
+          "name": "size",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "base_fee_per_gas",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "hash",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "parent_hash",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "miner",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "nonce",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "state_root",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "transactions_root",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "receipts_root",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "date",
+          "nullable": false,
+          "type": "date"
+        },
+        {
+          "name": "blob_gas_used",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "excess_blob_gas",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "parent_beacon_block_root",
+          "nullable": false,
+          "type": "varbinary"
+        }
+      ],
+      "type": "struct"
+    },
+    "metadata": {
+      "page_rank_score": 11.490416388852005
+    },
+    "catalog_file": "research/dune/catalog-hyperevm.json"
+  },
+  "hyperevm.contracts": {
+    "full_name": "hyperevm.contracts",
+    "category": "canonical",
+    "dataset_type": "dune_table",
+    "blockchains": [
+      "hyperevm"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "abi_id",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "abi",
+          "nullable": false,
+          "type": "array(varchar)"
+        },
+        {
+          "name": "address",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "from",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "code",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "name",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "namespace",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "dynamic",
+          "nullable": false,
+          "type": "boolean"
+        },
+        {
+          "name": "base",
+          "nullable": false,
+          "type": "boolean"
+        },
+        {
+          "name": "factory",
+          "nullable": false,
+          "type": "boolean"
+        },
+        {
+          "name": "detection_source",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "created_at",
+          "nullable": false,
+          "type": "timestamp"
+        }
+      ],
+      "type": "struct"
+    },
+    "metadata": {
+      "page_rank_score": 9.752512961018153
+    },
+    "catalog_file": "research/dune/catalog-hyperevm.json"
+  },
+  "hyperevm.logs_decoded": {
+    "full_name": "hyperevm.logs_decoded",
+    "category": "canonical",
+    "dataset_type": "dune_table",
+    "blockchains": [
+      "hyperevm"
+    ],
+    "partition_columns": [
+      "contract_name",
+      "namespace"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "block_date",
+          "nullable": false,
+          "type": "date"
+        },
+        {
+          "name": "block_time",
+          "nullable": false,
+          "type": "timestamp"
+        },
+        {
+          "name": "block_number",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "namespace",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "contract_name",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "contract_address",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "tx_hash",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "tx_from",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "tx_to",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "tx_index",
+          "nullable": false,
+          "type": "integer"
+        },
+        {
+          "name": "index",
+          "nullable": false,
+          "type": "integer"
+        },
+        {
+          "name": "signature",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "event_name",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "decoded_json",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "created_at",
+          "nullable": false,
+          "type": "timestamp"
+        }
+      ],
+      "type": "struct"
+    },
+    "metadata": {
+      "page_rank_score": 5.820128268872125
+    },
+    "catalog_file": "research/dune/catalog-hyperevm.json"
+  },
+  "hyperevm.traces_decoded": {
+    "full_name": "hyperevm.traces_decoded",
+    "category": "canonical",
+    "dataset_type": "dune_table",
+    "blockchains": [
+      "hyperevm"
+    ],
+    "partition_columns": [
+      "contract_name",
+      "namespace"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "block_date",
+          "nullable": false,
+          "type": "date"
+        },
+        {
+          "name": "block_time",
+          "nullable": false,
+          "type": "timestamp"
+        },
+        {
+          "name": "block_number",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "namespace",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "contract_name",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "to",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "trace_address",
+          "nullable": false,
+          "type": "array(bigint)"
+        },
+        {
+          "name": "tx_hash",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "tx_from",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "tx_to",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "tx_index",
+          "nullable": false,
+          "type": "integer"
+        },
+        {
+          "name": "success",
+          "nullable": false,
+          "type": "boolean"
+        },
+        {
+          "name": "signature",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "function_name",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "decoded_input_json",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "decoded_output_json",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "created_at",
+          "nullable": false,
+          "type": "timestamp"
+        }
+      ],
+      "type": "struct"
+    },
+    "metadata": {
+      "page_rank_score": 1.9529999999999998
+    },
+    "catalog_file": "research/dune/catalog-hyperevm.json"
+  }
+}

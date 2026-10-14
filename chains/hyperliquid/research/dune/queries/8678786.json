@@ -1,0 +1,28 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"query_id\":8678786,\"user_id\":null,\"team_id\":953543,\"version\":1,\"name\":\"SMS HYPE 15: HyperEVM contract deployments (last 30 UTC days)\",\"description\":\"Per-UTC-day contract-creation trace count over the last 30 UTC days. Note: creation_traces schema confirmed at runtime 2026-09-11; filter uses block_time because the table exposes no block_date column.\",\"tags\":[],\"query\":\"-- SMS HYPE 15: HyperEVM contract deployments over the last 30 complete UTC days.\\n-- Source: hyperevm.creation_traces. The table lacks a block_date partition; we filter\\n-- on block_time using the standard UTC date arithmetic.\\n-- Grain: 1 row = 1 contract-creation trace candidate; distinct addresses may\\n-- include redeploys to the same address if any (not deduplicated here).\\n\\nSELECT\\n    CAST(block_time AS DATE) AS block_date,\\n    COUNT(*) AS creation_traces,\\n    COUNT(DISTINCT address) AS distinct_addresses\\nFROM hyperevm.creation_traces\\nWHERE block_time >= CAST(CAST(CURRENT_DATE - INTERVAL '30' DAY AS DATE) AS TIMESTAMP)\\n  AND block_time < CAST(CAST(CURRENT_DATE AS DATE) AS TIMESTAMP)\\nGROUP BY CAST(block_time AS DATE)\\nORDER BY block_date;\",\"parameters\":[],\"is_archived\":false,\"is_private\":false,\"is_temp\":true,\"latest_execution_id\":\"01M2835HG58PWZMXWGQ5C92VZ3\",\"latest_execution_state\":\"QUERY_STATE_COMPLETED\"}"
+      }
+    ],
+    "structuredContent": {
+      "query_id": 8678786,
+      "user_id": null,
+      "team_id": 953543,
+      "version": 1,
+      "name": "SMS HYPE 15: HyperEVM contract deployments (last 30 UTC days)",
+      "description": "Per-UTC-day contract-creation trace count over the last 30 UTC days. Note: creation_traces schema confirmed at runtime 2026-09-11; filter uses block_time because the table exposes no block_date column.",
+      "tags": [],
+      "query": "-- SMS HYPE 15: HyperEVM contract deployments over the last 30 complete UTC days.\n-- Source: hyperevm.creation_traces. The table lacks a block_date partition; we filter\n-- on block_time using the standard UTC date arithmetic.\n-- Grain: 1 row = 1 contract-creation trace candidate; distinct addresses may\n-- include redeploys to the same address if any (not deduplicated here).\n\nSELECT\n    CAST(block_time AS DATE) AS block_date,\n    COUNT(*) AS creation_traces,\n    COUNT(DISTINCT address) AS distinct_addresses\nFROM hyperevm.creation_traces\nWHERE block_time >= CAST(CAST(CURRENT_DATE - INTERVAL '30' DAY AS DATE) AS TIMESTAMP)\n  AND block_time < CAST(CAST(CURRENT_DATE AS DATE) AS TIMESTAMP)\nGROUP BY CAST(block_time AS DATE)\nORDER BY block_date;",
+      "parameters": [],
+      "is_archived": false,
+      "is_private": false,
+      "is_temp": true,
+      "latest_execution_id": "01M2835HG58PWZMXWGQ5C92VZ3",
+      "latest_execution_state": "QUERY_STATE_COMPLETED"
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 19
+}

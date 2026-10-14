@@ -1,0 +1,21 @@
+{
+  "network": "Mainnet",
+  "method": "POST",
+  "endpoint": "https://api.hyperliquid.xyz/info",
+  "request": {
+    "type": "delegatorSummary",
+    "user": "0x78dce96236804d6958bf3c4598cf5efbc371629c"
+  },
+  "retrieved_at": "2026-10-13T06:11:28.372387+00:00",
+  "grain": "staking current state",
+  "unit": "HYPE",
+  "response": {
+    "delegated": "0.0",
+    "undelegated": "0.0",
+    "totalPendingWithdrawal": "0.0",
+    "nPendingWithdrawals": 0
+  },
+  "status": "OBSERVED",
+  "limitations": "Finite sample, not full history; event time differs from response time.",
+  "http_status": 200
+}

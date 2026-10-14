@@ -1,0 +1,22 @@
+{
+  "network": "Mainnet",
+  "method": "POST",
+  "endpoint": "https://rpc.hyperliquid.xyz/evm",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_chainId",
+    "params": []
+  },
+  "retrieved_at": "2026-10-13T06:09:34.010684+00:00",
+  "grain": "network identity",
+  "unit": "endpoint-specific",
+  "response": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": "0x3e7"
+  },
+  "status": "OBSERVED",
+  "limitations": "Finite sample, not full history; event time differs from response time.",
+  "http_status": 200
+}

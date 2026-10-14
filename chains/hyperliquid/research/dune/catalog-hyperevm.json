@@ -1,0 +1,842 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"total\":8,\"results\":[{\"full_name\":\"hyperevm.logs\",\"category\":\"canonical\",\"dataset_type\":\"dune_table\",\"blockchains\":[\"hyperevm\"],\"partition_columns\":[\"block_date\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"block_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"topic0\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"topic1\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"topic2\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"topic3\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"data\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"tx_from\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"tx_to\",\"nullable\":false,\"type\":\"varbinary\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":143.86222044943247}},{\"full_name\":\"hyperevm.transactions\",\"category\":\"canonical\",\"dataset_type\":\"dune_table\",\"blockchains\":[\"hyperevm\"],\"partition_columns\":[\"block_date\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"value\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"gas_limit\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"gas_price\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"gas_used\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"max_fee_per_gas\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"max_priority_fee_per_gas\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"priority_fee_per_gas\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"nonce\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"index\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"from\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"to\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"block_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"data\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"type\",\"nullable\":false,\"type\":\"varchar\"},{\"name\":\"access_list\",\"nullable\":false,\"type\":\"array(row(address varbinary,storageKeys array(varbinary)))\"},{\"name\":\"chain_id\",\"nullable\":false,\"type\":\"varchar\"},{\"name\":\"block_date\",\"nullable\":false,\"type\":\"date\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":81.74849103272525}},{\"full_name\":\"hyperevm.traces\",\"category\":\"canonical\",\"dataset_type\":\"dune_table\",\"blockchains\":[\"hyperevm\"],\"partition_columns\":[\"block_date\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"value\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"gas\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"gas_used\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"block_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"tx_from\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"tx_to\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"sub_traces\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"error\",\"nullable\":false,\"type\":\"varchar\"},{\"name\":\"tx_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"from\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"to\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"type\",\"nullable\":false,\"type\":\"varchar\"},{\"name\":\"address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"code\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_type\",\"nullable\":false,\"type\":\"varchar\"},{\"name\":\"input\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"output\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"refund_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"revert_reason\",\"nullable\":false,\"type\":\"varchar\"},{\"name\":\"block_date\",\"nullable\":false,\"type\":\"date\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":22.99104690041482}},{\"full_name\":\"hyperevm.creation_traces\",\"category\":\"canonical\",\"dataset_type\":\"dune_table\",\"blockchains\":[\"hyperevm\"],\"partition_columns\":[\"block_date\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"from\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"code\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"block_month\",\"nullable\":false,\"type\":\"date\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":18.386488315878612}},{\"full_name\":\"hyperevm.blocks\",\"category\":\"canonical\",\"dataset_type\":\"dune_table\",\"blockchains\":[\"hyperevm\"],\"partition_columns\":[\"date\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"gas_limit\",\"nullable\":false,\"type\":\"decimal(38,0)\"},{\"name\":\"gas_used\",\"nullable\":false,\"type\":\"decimal(38,0)\"},{\"name\":\"difficulty\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"total_difficulty\",\"nullable\":false,\"type\":\"decimal(38,0)\"},{\"name\":\"size\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"base_fee_per_gas\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"parent_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"miner\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"nonce\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"state_root\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"transactions_root\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"receipts_root\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"blob_gas_used\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"excess_blob_gas\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"parent_beacon_block_root\",\"nullable\":false,\"type\":\"varbinary\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":11.490416388852005}},{\"full_name\":\"hyperevm.contracts\",\"category\":\"canonical\",\"dataset_type\":\"dune_table\",\"blockchains\":[\"hyperevm\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"abi_id\",\"nullable\":false,\"type\":\"varchar\"},{\"name\":\"abi\",\"nullable\":false,\"type\":\"array(varchar)\"},{\"name\":\"address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"from\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"code\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"name\",\"nullable\":false,\"type\":\"varchar\"},{\"name\":\"namespace\",\"nullable\":false,\"type\":\"varchar\"},{\"name\":\"dynamic\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"base\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"factory\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"detection_source\",\"nullable\":false,\"type\":\"varchar\"},{\"name\":\"created_at\",\"nullable\":false,\"type\":\"timestamp\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":9.752512961018153}},{\"full_name\":\"hyperevm.logs_decoded\",\"category\":\"canonical\",\"dataset_type\":\"dune_table\",\"blockchains\":[\"hyperevm\"],\"partition_columns\":[\"contract_name\",\"namespace\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"namespace\",\"nullable\":false,\"type\":\"varchar\"},{\"name\":\"contract_name\",\"nullable\":false,\"type\":\"varchar\"},{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"tx_from\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"tx_to\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"signature\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"event_name\",\"nullable\":false,\"type\":\"varchar\"},{\"name\":\"decoded_json\",\"nullable\":false,\"type\":\"varchar\"},{\"name\":\"created_at\",\"nullable\":false,\"type\":\"timestamp\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":5.820128268872125}},{\"full_name\":\"hyperevm.traces_decoded\",\"category\":\"canonical\",\"dataset_type\":\"dune_table\",\"blockchains\":[\"hyperevm\"],\"partition_columns\":[\"contract_name\",\"namespace\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"namespace\",\"nullable\":false,\"type\":\"varchar\"},{\"name\":\"contract_name\",\"nullable\":false,\"type\":\"varchar\"},{\"name\":\"to\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"tx_from\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"tx_to\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"signature\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"function_name\",\"nullable\":false,\"type\":\"varchar\"},{\"name\":\"decoded_input_json\",\"nullable\":false,\"type\":\"varchar\"},{\"name\":\"decoded_output_json\",\"nullable\":false,\"type\":\"varchar\"},{\"name\":\"created_at\",\"nullable\":false,\"type\":\"timestamp\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":1.9529999999999998}}],\"pagination\":{\"limit\":8,\"offset\":0,\"nextOffset\":null,\"hasMore\":false}}"
+      }
+    ],
+    "structuredContent": {
+      "total": 8,
+      "results": [
+        {
+          "full_name": "hyperevm.logs",
+          "category": "canonical",
+          "dataset_type": "dune_table",
+          "blockchains": [
+            "hyperevm"
+          ],
+          "partition_columns": [
+            "block_date"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "block_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "topic0",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "topic1",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "topic2",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "topic3",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "data",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "tx_from",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "tx_to",
+                "nullable": false,
+                "type": "varbinary"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 143.86222044943247
+          }
+        },
+        {
+          "full_name": "hyperevm.transactions",
+          "category": "canonical",
+          "dataset_type": "dune_table",
+          "blockchains": [
+            "hyperevm"
+          ],
+          "partition_columns": [
+            "block_date"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "value",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "gas_limit",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "gas_price",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "gas_used",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "max_fee_per_gas",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "max_priority_fee_per_gas",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "priority_fee_per_gas",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "nonce",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "index",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "from",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "to",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "block_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "data",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "type",
+                "nullable": false,
+                "type": "varchar"
+              },
+              {
+                "name": "access_list",
+                "nullable": false,
+                "type": "array(row(address varbinary,storageKeys array(varbinary)))"
+              },
+              {
+                "name": "chain_id",
+                "nullable": false,
+                "type": "varchar"
+              },
+              {
+                "name": "block_date",
+                "nullable": false,
+                "type": "date"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 81.74849103272525
+          }
+        },
+        {
+          "full_name": "hyperevm.traces",
+          "category": "canonical",
+          "dataset_type": "dune_table",
+          "blockchains": [
+            "hyperevm"
+          ],
+          "partition_columns": [
+            "block_date"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "value",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "gas",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "gas_used",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "block_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "tx_from",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "tx_to",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "sub_traces",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "error",
+                "nullable": false,
+                "type": "varchar"
+              },
+              {
+                "name": "tx_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "from",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "to",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "type",
+                "nullable": false,
+                "type": "varchar"
+              },
+              {
+                "name": "address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "code",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_type",
+                "nullable": false,
+                "type": "varchar"
+              },
+              {
+                "name": "input",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "output",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "refund_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "revert_reason",
+                "nullable": false,
+                "type": "varchar"
+              },
+              {
+                "name": "block_date",
+                "nullable": false,
+                "type": "date"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 22.99104690041482
+          }
+        },
+        {
+          "full_name": "hyperevm.creation_traces",
+          "category": "canonical",
+          "dataset_type": "dune_table",
+          "blockchains": [
+            "hyperevm"
+          ],
+          "partition_columns": [
+            "block_date"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "from",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "code",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "block_month",
+                "nullable": false,
+                "type": "date"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 18.386488315878612
+          }
+        },
+        {
+          "full_name": "hyperevm.blocks",
+          "category": "canonical",
+          "dataset_type": "dune_table",
+          "blockchains": [
+            "hyperevm"
+          ],
+          "partition_columns": [
+            "date"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "gas_limit",
+                "nullable": false,
+                "type": "decimal(38,0)"
+              },
+              {
+                "name": "gas_used",
+                "nullable": false,
+                "type": "decimal(38,0)"
+              },
+              {
+                "name": "difficulty",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "total_difficulty",
+                "nullable": false,
+                "type": "decimal(38,0)"
+              },
+              {
+                "name": "size",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "base_fee_per_gas",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "parent_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "miner",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "nonce",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "state_root",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "transactions_root",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "receipts_root",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "blob_gas_used",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "excess_blob_gas",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "parent_beacon_block_root",
+                "nullable": false,
+                "type": "varbinary"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 11.490416388852005
+          }
+        },
+        {
+          "full_name": "hyperevm.contracts",
+          "category": "canonical",
+          "dataset_type": "dune_table",
+          "blockchains": [
+            "hyperevm"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "abi_id",
+                "nullable": false,
+                "type": "varchar"
+              },
+              {
+                "name": "abi",
+                "nullable": false,
+                "type": "array(varchar)"
+              },
+              {
+                "name": "address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "from",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "code",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "name",
+                "nullable": false,
+                "type": "varchar"
+              },
+              {
+                "name": "namespace",
+                "nullable": false,
+                "type": "varchar"
+              },
+              {
+                "name": "dynamic",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "base",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "factory",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "detection_source",
+                "nullable": false,
+                "type": "varchar"
+              },
+              {
+                "name": "created_at",
+                "nullable": false,
+                "type": "timestamp"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 9.752512961018153
+          }
+        },
+        {
+          "full_name": "hyperevm.logs_decoded",
+          "category": "canonical",
+          "dataset_type": "dune_table",
+          "blockchains": [
+            "hyperevm"
+          ],
+          "partition_columns": [
+            "contract_name",
+            "namespace"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "namespace",
+                "nullable": false,
+                "type": "varchar"
+              },
+              {
+                "name": "contract_name",
+                "nullable": false,
+                "type": "varchar"
+              },
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "tx_from",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "tx_to",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "signature",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "event_name",
+                "nullable": false,
+                "type": "varchar"
+              },
+              {
+                "name": "decoded_json",
+                "nullable": false,
+                "type": "varchar"
+              },
+              {
+                "name": "created_at",
+                "nullable": false,
+                "type": "timestamp"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 5.820128268872125
+          }
+        },
+        {
+          "full_name": "hyperevm.traces_decoded",
+          "category": "canonical",
+          "dataset_type": "dune_table",
+          "blockchains": [
+            "hyperevm"
+          ],
+          "partition_columns": [
+            "contract_name",
+            "namespace"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "namespace",
+                "nullable": false,
+                "type": "varchar"
+              },
+              {
+                "name": "contract_name",
+                "nullable": false,
+                "type": "varchar"
+              },
+              {
+                "name": "to",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "tx_from",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "tx_to",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "signature",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "function_name",
+                "nullable": false,
+                "type": "varchar"
+              },
+              {
+                "name": "decoded_input_json",
+                "nullable": false,
+                "type": "varchar"
+              },
+              {
+                "name": "decoded_output_json",
+                "nullable": false,
+                "type": "varchar"
+              },
+              {
+                "name": "created_at",
+                "nullable": false,
+                "type": "timestamp"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 1.9529999999999998
+          }
+        }
+      ],
+      "pagination": {
+        "limit": 8,
+        "offset": 0,
+        "nextOffset": null,
+        "hasMore": false
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

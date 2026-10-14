@@ -1,0 +1,273 @@
+{
+  "status": "PASS",
+  "date": "2026-10-14",
+  "file_count": 1350,
+  "new_file_count": 357,
+  "markdown_files": 460,
+  "internal_references_checked": 3695,
+  "valid_internal_references": 3695,
+  "internal_fragment_references": 1,
+  "heading_ids_checked": 889,
+  "repeated_heading_bases": 0,
+  "heading_algorithm": "marked GFM + github-slugger 2.0.0",
+  "navigation_coverage": "46/46",
+  "protected_old_files": 985,
+  "source_before_after_equal": true,
+  "svg_chrome_renders": 40,
+  "hyperliquid": {
+    "source_file_count": 460,
+    "selected_source_files": 351,
+    "excluded_source_files": 109,
+    "markdown_files": 84,
+    "parts": 10,
+    "body_chapters": 40,
+    "reading_pages": 46,
+    "appendices": 5,
+    "svg_files": 40,
+    "drawio_files": 40,
+    "png_files": 40,
+    "sql_files": 30,
+    "new_sql_files": 18,
+    "historical_sql_files": 12,
+    "http_wrappers": 32,
+    "raw_http_responses": 32,
+    "websocket_sessions": 2,
+    "case_topics": 14,
+    "primary_cases": 10,
+    "interface_state_observations": 2,
+    "missing_event_topics": 2,
+    "fetched_official_sources": 67,
+    "offline_checks": 82,
+    "mechanical_changed_files": 17,
+    "all_reading_prose_preserved": true
+  },
+  "errors": [],
+  "warnings": [],
+  "api_sample_dates": [
+    {
+      "file": "chains/hyperliquid/examples/api/01-meta-context.json",
+      "retrieved_at": "2026-10-13T06:09:25.607991+00:00",
+      "bytes": 122930,
+      "original_response_equal": true
+    },
+    {
+      "file": "chains/hyperliquid/examples/api/02-btc-book.json",
+      "retrieved_at": "2026-10-13T06:09:26.781447+00:00",
+      "bytes": 4231,
+      "original_response_equal": true
+    },
+    {
+      "file": "chains/hyperliquid/examples/api/03-spot-meta.json",
+      "retrieved_at": "2026-10-13T06:09:27.460192+00:00",
+      "bytes": 223581,
+      "original_response_equal": true
+    },
+    {
+      "file": "chains/hyperliquid/examples/api/04-perp-dexs.json",
+      "retrieved_at": "2026-10-13T06:09:28.345142+00:00",
+      "bytes": 49036,
+      "original_response_equal": true
+    },
+    {
+      "file": "chains/hyperliquid/examples/api/05-outcome-meta.json",
+      "retrieved_at": "2026-10-13T06:09:29.020389+00:00",
+      "bytes": 159076,
+      "original_response_equal": true
+    },
+    {
+      "file": "chains/hyperliquid/examples/api/06-btc-funding.json",
+      "retrieved_at": "2026-10-13T06:09:29.823793+00:00",
+      "bytes": 3690,
+      "original_response_equal": true
+    },
+    {
+      "file": "chains/hyperliquid/examples/api/07-spot-context.json",
+      "retrieved_at": "2026-10-13T06:09:30.451401+00:00",
+      "bytes": 538766,
+      "original_response_equal": true
+    },
+    {
+      "file": "chains/hyperliquid/examples/api/08-settled-outcome.json",
+      "retrieved_at": "2026-10-13T06:09:31.429424+00:00",
+      "bytes": 859,
+      "original_response_equal": true
+    },
+    {
+      "file": "chains/hyperliquid/examples/api/09-hip3-meta.json",
+      "retrieved_at": "2026-10-13T06:09:32.068499+00:00",
+      "bytes": 95910,
+      "original_response_equal": true
+    },
+    {
+      "file": "chains/hyperliquid/examples/api/10-hype-book.json",
+      "retrieved_at": "2026-10-13T06:09:32.838235+00:00",
+      "bytes": 4103,
+      "original_response_equal": true
+    },
+    {
+      "file": "chains/hyperliquid/examples/api/11-outcome-book.json",
+      "retrieved_at": "2026-10-13T06:09:33.423365+00:00",
+      "bytes": 1649,
+      "original_response_equal": true
+    },
+    {
+      "file": "chains/hyperliquid/examples/api/12-evm-chain.json",
+      "retrieved_at": "2026-10-13T06:09:34.010684+00:00",
+      "bytes": 528,
+      "original_response_equal": true
+    },
+    {
+      "file": "chains/hyperliquid/examples/api/13-evm-height.json",
+      "retrieved_at": "2026-10-13T06:09:34.774339+00:00",
+      "bytes": 537,
+      "original_response_equal": true
+    },
+    {
+      "file": "chains/hyperliquid/examples/api/14-evm-block.json",
+      "retrieved_at": "2026-10-13T06:09:35.413427+00:00",
+      "bytes": 7825,
+      "original_response_equal": true
+    },
+    {
+      "file": "chains/hyperliquid/examples/api/15-evm-system.json",
+      "retrieved_at": "2026-10-13T06:09:36.016086+00:00",
+      "bytes": 587,
+      "original_response_equal": true
+    },
+    {
+      "file": "chains/hyperliquid/examples/api/16-evm-receipt.json",
+      "retrieved_at": "2026-10-13T06:09:36.655925+00:00",
+      "bytes": 2529,
+      "original_response_equal": true
+    },
+    {
+      "file": "chains/hyperliquid/examples/api/17-fills-0.json",
+      "retrieved_at": "2026-10-13T06:11:23.408042+00:00",
+      "bytes": 61317,
+      "original_response_equal": true
+    },
+    {
+      "file": "chains/hyperliquid/examples/api/17-fills-1.json",
+      "retrieved_at": "2026-10-13T06:11:24.128582+00:00",
+      "bytes": 31981,
+      "original_response_equal": true
+    },
+    {
+      "file": "chains/hyperliquid/examples/api/18-account.json",
+      "retrieved_at": "2026-10-13T06:11:24.933798+00:00",
+      "bytes": 1647,
+      "original_response_equal": true
+    },
+    {
+      "file": "chains/hyperliquid/examples/api/19-spot-account.json",
+      "retrieved_at": "2026-10-13T06:11:25.557470+00:00",
+      "bytes": 653,
+      "original_response_equal": true
+    },
+    {
+      "file": "chains/hyperliquid/examples/api/20-user-funding.json",
+      "retrieved_at": "2026-10-13T06:11:26.383418+00:00",
+      "bytes": 8244,
+      "original_response_equal": true
+    },
+    {
+      "file": "chains/hyperliquid/examples/api/21-user-ledger.json",
+      "retrieved_at": "2026-10-13T06:11:26.984481+00:00",
+      "bytes": 2634,
+      "original_response_equal": true
+    },
+    {
+      "file": "chains/hyperliquid/examples/api/22-abstraction.json",
+      "retrieved_at": "2026-10-13T06:11:27.751494+00:00",
+      "bytes": 494,
+      "original_response_equal": true
+    },
+    {
+      "file": "chains/hyperliquid/examples/api/23-delegation.json",
+      "retrieved_at": "2026-10-13T06:11:28.372387+00:00",
+      "bytes": 588,
+      "original_response_equal": true
+    },
+    {
+      "file": "chains/hyperliquid/examples/api/24-order-status.json",
+      "retrieved_at": "2026-10-13T06:11:28.971965+00:00",
+      "bytes": 1126,
+      "original_response_equal": true
+    },
+    {
+      "file": "chains/hyperliquid/examples/api/25-read-oracle.json",
+      "retrieved_at": "2026-10-13T06:11:29.574452+00:00",
+      "bytes": 806,
+      "original_response_equal": true
+    },
+    {
+      "file": "chains/hyperliquid/examples/api/26-hype-transfer-logs.json",
+      "retrieved_at": "2026-10-13T06:11:30.194683+00:00",
+      "bytes": 716,
+      "original_response_equal": true
+    },
+    {
+      "file": "chains/hyperliquid/examples/api/27-multiple-fill-order.json",
+      "retrieved_at": "2026-10-13T06:13:47.130480+00:00",
+      "bytes": 541,
+      "original_response_equal": true
+    },
+    {
+      "file": "chains/hyperliquid/examples/api/28-corewriter-code.json",
+      "retrieved_at": "2026-10-13T06:13:47.808349+00:00",
+      "bytes": 1725,
+      "original_response_equal": true
+    },
+    {
+      "file": "chains/hyperliquid/examples/api/29-hlp-vault.json",
+      "retrieved_at": "2026-10-13T06:13:48.407240+00:00",
+      "bytes": 127086,
+      "original_response_equal": true
+    },
+    {
+      "file": "chains/hyperliquid/examples/api/30-hlp-child.json",
+      "retrieved_at": "2026-10-13T11:58:34.407674+00:00",
+      "bytes": 74750,
+      "original_response_equal": true
+    },
+    {
+      "file": "chains/hyperliquid/examples/api/31-liquidator-fills.json",
+      "retrieved_at": "2026-10-13T11:58:36.295902+00:00",
+      "bytes": 608,
+      "original_response_equal": true
+    }
+  ],
+  "security_status": "NO_BLOCKING_FINDING",
+  "limits": [
+    "18 new SQL not executed; 12 historical queries not rerun",
+    "32 HTTP and 2 WS observations dated 2026-10-13, not refreshed",
+    "82 offline evidence checks do not prove full liquidation, transfers or financial replay",
+    "Author human review UNKNOWN; independent review NOT_PERFORMED",
+    "GitBook NOT_CONFIGURED from repository evidence; account and sync UNVERIFIED",
+    "Pattern/context scans cannot exclude every secret format",
+    "Third-party whole-document caches excluded; comprehensive permissions UNKNOWN",
+    "Remote verification recorded separately after publication"
+  ],
+  "svg_visual_sample": {
+    "status": "SAMPLE_REVIEWED",
+    "files": [
+      "runtime.svg",
+      "hip4.svg",
+      "liquidation.svg",
+      "funding-payment.svg",
+      "transfers.svg"
+    ],
+    "finding": "Five actual Chrome renders reviewed. Main labels and nodes readable; transfers.svg has crowded connector labels between the two upper rows. Nonblocking original layout retained for author review."
+  },
+  "security_context_review": {
+    "sensitive_json_key_candidates": 0,
+    "public_identifiers": "Public addresses/OIDs/TxHash/market and token identifiers retained. No assigned private keys or authentication values detected.",
+    "scope": "All current text files and XML scanned; PNG signature checked; comprehensive secret and copyright audit not claimed."
+  },
+  "remote_verification": "POST_PUBLICATION_SEPARATE",
+  "whitespace_check": {
+    "source_inherited_exception": "BOOK.md:1703 blank line at EOF, preserved byte-for-byte",
+    "command": "git -c core.whitespace=-blank-at-eof diff --cached --check",
+    "scope": "Ignore blank-at-eof only; other default checks retained; repository config unchanged"
+  }
+}

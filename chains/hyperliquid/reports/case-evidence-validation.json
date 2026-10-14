@@ -1,0 +1,417 @@
+{
+  "status": "PASS",
+  "count": 82,
+  "checks": [
+    {
+      "check": "trade-leg-0-coin",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "trade-leg-0-time",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "trade-leg-0-tid",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "trade-leg-0-hash",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "trade-leg-0-px",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "trade-leg-0-sz",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "trade-leg-1-coin",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "trade-leg-1-time",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "trade-leg-1-tid",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "trade-leg-1-hash",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "trade-leg-1-px",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "trade-leg-1-sz",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "buyer-seller-users",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "opposite-sides",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "opposite-maker-taker",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "buyer-closes-short",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "seller-closes-long",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "single-notional",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "double-legs",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "net-fee",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "local-buyer-after",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "local-seller-after",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "order-fill-coin",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "order-fill-cloid",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "order-status-filled",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "order-size",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "multiple-same-order",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "multiple-distinct-trades",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "multiple-decimal-sum",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "multiple-before-after-continuity",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "unknown-order-not-fabricated",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "funding-hourly-history",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "funding-rate-match-1791788400061",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "funding-rate-match-1791792000019",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "funding-rate-match-1791795600009",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "funding-rate-match-1791799200039",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "funding-rate-match-1791802800098",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "funding-rate-match-1791806400032",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "funding-rate-match-1791810000101",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "funding-rate-match-1791813600055",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "funding-rate-match-1791817200091",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "funding-rate-match-1791820800067",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "funding-rate-match-1791824400065",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "funding-rate-match-1791828000073",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "funding-rate-match-1791831600005",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "funding-rate-match-1791835200018",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "funding-rate-match-1791838800015",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "funding-rate-match-1791842400043",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "funding-rate-match-1791846000043",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "funding-rate-match-1791849600005",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "funding-rate-match-1791853200021",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "funding-rate-match-1791856800038",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "funding-rate-match-1791860400106",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "funding-rate-match-1791864000003",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "funding-rate-match-1791867600001",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "funding-rate-match-1791871200040",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "funding-rate-cross-source-coverage",
+      "pass": true,
+      "details": "24 matching rounds; exact payment not independently recalculated"
+    },
+    {
+      "check": "funding-account-direction",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "funding-zero-hash-preserved",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "HYPE-token-identity",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "HYPE-pair-identity",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "HYPE-spot-trade-market",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "HIP3-dex-identity",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "HIP3-market-identity",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "HIP3-asset-formula",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "outcome-identity",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "outcome-settle-bounds",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "outcome-settlement-price",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "mainnet-outcome-and-question-observed",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "mainnet-chain-id",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "receipt-block-hash",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "receipt-block-number",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "receipt-transaction-membership",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "receipt-log-ownership",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "precompile-read-nonerror",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "corewriter-code-nonempty",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "bounded-empty-transfer-sample",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "HLP-identity",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "HLP-liquidator-parent-child",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "empty-liquidator-window-not-fabricated",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "ledger-subaccount-type",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "simulated-book-arithmetic",
+      "pass": true,
+      "details": "teaching simulation, not case evidence"
+    }
+  ],
+  "scope": "offline identities, source-linked fields, Decimal arithmetic; not independent consensus, signing, full financial replay"
+}

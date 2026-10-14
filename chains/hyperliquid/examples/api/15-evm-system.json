@@ -1,0 +1,24 @@
+{
+  "network": "Mainnet",
+  "method": "POST",
+  "endpoint": "https://rpc.hyperliquid.xyz/evm",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getSystemTxsByBlockNumber",
+    "params": [
+      "0x2e2a86f"
+    ]
+  },
+  "retrieved_at": "2026-10-13T06:09:36.016086+00:00",
+  "grain": "system transactions at fixed EVM height",
+  "unit": "endpoint-specific",
+  "response": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": []
+  },
+  "status": "OBSERVED",
+  "limitations": "Finite sample, not full history; event time differs from response time.",
+  "http_status": 200
+}

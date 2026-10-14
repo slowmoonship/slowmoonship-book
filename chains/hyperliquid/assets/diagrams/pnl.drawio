@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" version="26" agent="slowmoonship-scene-export">
+  <diagram id="pnl" name="15 盈利为何不等于账户余额增加">
+    <mxGraphModel adaptiveColors="auto" dx="1200" dy="690" grid="1" page="1" pageWidth="1200" pageHeight="690">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="15｜盈利为何不等于账户余额增加" vertex="1" parent="1" style="text;html=1;fontSize=27;fontStyle=1;fontFamily=PingFang SC;align=left;strokeColor=none;fillColor=none;">
+          <mxGeometry x="32" y="20" width="1136" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n0" value="&lt;b&gt;持仓估值&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Unrealized PnL&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;Mark估值，尚未平仓&lt;/font&gt;" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=22;align=center;verticalAlign=middle;spacing=8;fillColor=#E5F0F7;strokeColor=#748797;fontColor=#20364A;">
+          <mxGeometry x="40" y="125" width="500" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="&lt;b&gt;平仓结果&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Realized PnL&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;成交与入场会计&lt;/font&gt;" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=22;align=center;verticalAlign=middle;spacing=8;fillColor=#EDE7F5;strokeColor=#748797;fontColor=#20364A;">
+          <mxGeometry x="660" y="125" width="500" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="&lt;b&gt;成交费用&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Fee / Rebate&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;正费用或负返佣&lt;/font&gt;" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=22;align=center;verticalAlign=middle;spacing=8;fillColor=#E4F2EC;strokeColor=#748797;fontColor=#20364A;">
+          <mxGeometry x="40" y="275" width="500" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="&lt;b&gt;持仓现金流&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Funding&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;每轮支付或收到&lt;/font&gt;" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=22;align=center;verticalAlign=middle;spacing=8;fillColor=#FFF0D9;strokeColor=#748797;fontColor=#20364A;">
+          <mxGeometry x="660" y="275" width="500" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="&lt;b&gt;账户资金&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Equity / Balance&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;另有出入金与转移&lt;/font&gt;" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=22;align=center;verticalAlign=middle;spacing=8;fillColor=#E5F0F7;strokeColor=#748797;fontColor=#20364A;">
+          <mxGeometry x="40" y="425" width="500" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="&lt;b&gt;期间对账&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Reconciliation&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;统一账户、单位与估值&lt;/font&gt;" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=22;align=center;verticalAlign=middle;spacing=8;fillColor=#EDE7F5;strokeColor=#748797;fontColor=#20364A;">
+          <mxGeometry x="660" y="425" width="500" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" edge="1" parent="1" source="n0" target="n4" value="影响" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#748797;fontSize=12;labelBackgroundColor=#ffffff;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="n1" target="n4" value="影响" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#748797;fontSize=12;labelBackgroundColor=#ffffff;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="n2" target="n4" value="影响" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#748797;fontSize=12;labelBackgroundColor=#ffffff;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="n3" target="n4" value="影响" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#748797;fontSize=12;labelBackgroundColor=#ffffff;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="n4" target="n5" value="核对" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#748797;fontSize=12;labelBackgroundColor=#ffffff;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="note" value="正Closed PnL不等于整个账户期间总收益；入金不是盈利。" vertex="1" parent="1" style="text;html=1;fontSize=16;fontFamily=PingFang SC;align=left;strokeColor=none;fillColor=none;">
+          <mxGeometry x="32" y="614" width="1136" height="62" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

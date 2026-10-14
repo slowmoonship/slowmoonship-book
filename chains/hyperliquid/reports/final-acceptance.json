@@ -1,0 +1,51 @@
+{
+  "baseline": "2026-10-13",
+  "path": "chains/hyperliquid",
+  "statuses": {
+    "overall": "VALIDATED",
+    "manuscript_engineering": "COMPLETE",
+    "protocol_technical_review": "VALIDATED_SELF_REVIEW",
+    "figures": "COMPLETE_LOCAL_XML_SVG_RENDER_QA",
+    "sql_static": "STATIC_CHECKED",
+    "sql_execution": "BLOCKED_READ_ONLY_ACCOUNT_NOT_ATTEMPTED",
+    "api_reads": "OBSERVED_32_HTTP_2_WS",
+    "cases": "VALIDATED_WITH_ITEMIZED_GAPS",
+    "financial_units": "VALIDATED_WITH_NO_FULL_REPLAY_OR_FX_PROOF",
+    "external_independent_review": "NOT_PERFORMED"
+  },
+  "counts": {
+    "parts": 10,
+    "chapters": 40,
+    "body_cjk": 33564,
+    "drawio": 40,
+    "svg": 40,
+    "png": 40,
+    "sql": 18,
+    "actual_api_http": 32,
+    "api_request_types": 25,
+    "ws_sessions": 2,
+    "cases_with_primary_evidence": 10,
+    "case_topics": 14,
+    "appendices": 5,
+    "official_hyperliquid_docs": 55,
+    "official_dune_sources": 12,
+    "fetched_sources": 67,
+    "live_catalog_tables": 20,
+    "existing_queries": 12,
+    "old_results": 2,
+    "case_checks": 82,
+    "local_checks": 31
+  },
+  "costs": {
+    "new_dune_executions": 0,
+    "dune_mcp_read_calls_excluding_handshake": 23,
+    "dune_read_billing": "not independently audited",
+    "jev_calls": 0,
+    "jev_usd": 0,
+    "requester_pays_downloads": 0,
+    "node_deployments": 0,
+    "new_paid_api_subscriptions": 0,
+    "purchases_or_account_upgrades": 0
+  },
+  "limits_file": "research/unresolved.md"
+}

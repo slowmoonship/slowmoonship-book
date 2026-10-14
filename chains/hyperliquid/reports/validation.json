@@ -1,0 +1,302 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "40 chapters / 10 Parts",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unique numbers and paths",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "all chapter files",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "UTF-8",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "800-1500 CJK each chapter",
+      "pass": true,
+      "detail": "{'1': 878, '2': 889, '3': 840, '4': 848, '5': 838, '6': 823, '7': 877, '8': 836, '9': 804, '10': 805, '11': 841, '12': 833, '13': 837, '14': 814, '15': 853, '16': 811, '17': 821, '18': 846, '19': 855, '20': 920, '21': 826, '22': 822, '23': 832, '24': 831, '25': 835, '26': 897, '27': 839, '28': 804, '29': 889, '30': 819, '31': 852, '32': 837, '33': 850, '34': 826, '35': 804, '36': 809, '37': 813, '38': 812, '39': 834, '40': 864}"
+    },
+    {
+      "check": "no unfinished chapter placeholders",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "summary maps all chapters",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "local Markdown links",
+      "pass": true,
+      "detail": {
+        "checked": 1096,
+        "broken": []
+      }
+    },
+    {
+      "check": "40 source/SVG pairs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "native XML and editable nodes",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "SVG XML / embedded source",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "40 actual PNG renders",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PNG readable / correct dimensions",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "5 visual contact pages",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "18 SQL files / live table references",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SQL static guards / no execution claim",
+      "pass": true,
+      "detail": [
+        {
+          "sql": "01-markets",
+          "pass": true,
+          "undefined_qualified_fields": [],
+          "scope": "balanced delimiters, read-only statement, live tables, qualified fields and authored grain/unit review; no engine parser or execution"
+        },
+        {
+          "sql": "02-volume",
+          "pass": true,
+          "undefined_qualified_fields": [],
+          "scope": "balanced delimiters, read-only statement, live tables, qualified fields and authored grain/unit review; no engine parser or execution"
+        },
+        {
+          "sql": "03-maker-taker",
+          "pass": true,
+          "undefined_qualified_fields": [],
+          "scope": "balanced delimiters, read-only statement, live tables, qualified fields and authored grain/unit review; no engine parser or execution"
+        },
+        {
+          "sql": "04-hourly-flow",
+          "pass": true,
+          "undefined_qualified_fields": [],
+          "scope": "balanced delimiters, read-only statement, live tables, qualified fields and authored grain/unit review; no engine parser or execution"
+        },
+        {
+          "sql": "05-open-interest",
+          "pass": true,
+          "undefined_qualified_fields": [],
+          "scope": "balanced delimiters, read-only statement, live tables, qualified fields and authored grain/unit review; no engine parser or execution"
+        },
+        {
+          "sql": "06-flow-stock",
+          "pass": true,
+          "undefined_qualified_fields": [],
+          "scope": "balanced delimiters, read-only statement, live tables, qualified fields and authored grain/unit review; no engine parser or execution"
+        },
+        {
+          "sql": "07-funding-rates",
+          "pass": true,
+          "undefined_qualified_fields": [],
+          "scope": "balanced delimiters, read-only statement, live tables, qualified fields and authored grain/unit review; no engine parser or execution"
+        },
+        {
+          "sql": "08-user-funding",
+          "pass": true,
+          "undefined_qualified_fields": [],
+          "scope": "balanced delimiters, read-only statement, live tables, qualified fields and authored grain/unit review; no engine parser or execution"
+        },
+        {
+          "sql": "09-liquidation",
+          "pass": true,
+          "undefined_qualified_fields": [],
+          "scope": "balanced delimiters, read-only statement, live tables, qualified fields and authored grain/unit review; no engine parser or execution"
+        },
+        {
+          "sql": "10-depth",
+          "pass": true,
+          "undefined_qualified_fields": [],
+          "scope": "balanced delimiters, read-only statement, live tables, qualified fields and authored grain/unit review; no engine parser or execution"
+        },
+        {
+          "sql": "11-spread",
+          "pass": true,
+          "undefined_qualified_fields": [],
+          "scope": "balanced delimiters, read-only statement, live tables, qualified fields and authored grain/unit review; no engine parser or execution"
+        },
+        {
+          "sql": "12-hip3-classification",
+          "pass": true,
+          "undefined_qualified_fields": [],
+          "scope": "balanced delimiters, read-only statement, live tables, qualified fields and authored grain/unit review; no engine parser or execution"
+        },
+        {
+          "sql": "13-first-hip3",
+          "pass": true,
+          "undefined_qualified_fields": [],
+          "scope": "balanced delimiters, read-only statement, live tables, qualified fields and authored grain/unit review; no engine parser or execution"
+        },
+        {
+          "sql": "14-evm-transactions",
+          "pass": true,
+          "undefined_qualified_fields": [],
+          "scope": "balanced delimiters, read-only statement, live tables, qualified fields and authored grain/unit review; no engine parser or execution"
+        },
+        {
+          "sql": "15-core-interfaces",
+          "pass": true,
+          "undefined_qualified_fields": [],
+          "scope": "balanced delimiters, read-only statement, live tables, qualified fields and authored grain/unit review; no engine parser or execution"
+        },
+        {
+          "sql": "16-outcome-volume",
+          "pass": true,
+          "undefined_qualified_fields": [],
+          "scope": "balanced delimiters, read-only statement, live tables, qualified fields and authored grain/unit review; no engine parser or execution"
+        },
+        {
+          "sql": "17-trade-book-join",
+          "pass": true,
+          "undefined_qualified_fields": [],
+          "scope": "balanced delimiters, read-only statement, live tables, qualified fields and authored grain/unit review; no engine parser or execution"
+        },
+        {
+          "sql": "18-kpi-and-quality",
+          "pass": true,
+          "undefined_qualified_fields": [],
+          "scope": "balanced delimiters, read-only statement, live tables, qualified fields and authored grain/unit review; no engine parser or execution"
+        }
+      ]
+    },
+    {
+      "check": "all JSON parseable",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "32 actual API reads / raw preserved",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "2 bounded real WebSocket captures",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unexecuted templates response null",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "case sources and explicit gaps",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence and Decimal checks",
+      "pass": true,
+      "detail": 82
+    },
+    {
+      "check": "market / asset identities",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "no obvious plaintext secret patterns",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "1504 protected existing files unchanged",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "merged BOOK and five appendices",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "required research / reports",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source hashes preserved",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "40 three-layer chapter reviews",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG embedded native source correspondence",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "final report counts match actual artifacts",
+      "pass": true,
+      "detail": {
+        "parts": 10,
+        "chapters": 40,
+        "body_cjk": 33564,
+        "drawio": 40,
+        "svg": 40,
+        "png": 40,
+        "sql": 18,
+        "actual_api_http": 32,
+        "appendices": 5,
+        "live_catalog_tables": 20,
+        "existing_queries": 12,
+        "case_checks": 82
+      }
+    }
+  ],
+  "passed": 31,
+  "total_checks": 31,
+  "stats": {
+    "parts": 10,
+    "chapters": 40,
+    "body_cjk": 33564,
+    "drawio": 40,
+    "svg": 40,
+    "sql": 18,
+    "actual_http_api": 32,
+    "websocket_sessions": 2,
+    "appendices": 5,
+    "catalog_tables": 20,
+    "existing_queries": 12,
+    "fetched_sources": 67
+  },
+  "scope": "local engineering / authored static review only; no new SQL runtime, chain replay or external independent review"
+}

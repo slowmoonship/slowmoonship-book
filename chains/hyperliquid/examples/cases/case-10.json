@@ -1,0 +1,46 @@
+{
+  "case": 10,
+  "title": "Outcome 95历史结算与当前Question",
+  "status": "OBSERVED",
+  "evidence_level": 1,
+  "source_files": [
+    "examples/api/08-settled-outcome.json",
+    "examples/api/05-outcome-meta.json"
+  ],
+  "data": {
+    "settled_outcome_95": {
+      "spec": {
+        "outcome": 95,
+        "name": "Recurring",
+        "description": "class:priceBinary|underlying:BTC|expiry:20260526-0600|targetPrice:77363|period:1d",
+        "sideSpecs": [
+          {
+            "name": "Yes"
+          },
+          {
+            "name": "No"
+          }
+        ],
+        "quoteToken": "USDC"
+      },
+      "settleFraction": "0.0",
+      "details": "price:76876.9"
+    },
+    "current_outcome_count": 327,
+    "current_question_count": 35,
+    "question_excerpt": {
+      "question": 411,
+      "name": "template:sportsContestResult",
+      "description": "competition:UEFA Champions League|contestType:Match|countedPlay:regulation time, 90 minutes plus stoppage time|officialSource:Union of European Football Associations|participantA:RB Leipzig|participantB:PSV Eindhoven|resolutionDeadline:20261014-1900|scheduledStart:20261013-1900|season:2026/27|sport:Soccer|stage:Matchday 2",
+      "fallbackOutcome": 10823,
+      "namedOutcomes": [
+        10824,
+        10825,
+        10826
+      ],
+      "settledNamedOutcomes": []
+    }
+  },
+  "limitations": "结算比例直接取得；没有用户支付链，已有市场不证明任意部署权限。",
+  "baseline": "2026-10-13"
+}

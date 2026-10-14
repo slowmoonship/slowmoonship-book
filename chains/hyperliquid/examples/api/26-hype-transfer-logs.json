@@ -1,0 +1,28 @@
+{
+  "network": "Mainnet",
+  "method": "POST",
+  "endpoint": "https://rpc.hyperliquid.xyz/evm",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getLogs",
+    "params": [
+      {
+        "fromBlock": "0x2e2a83e",
+        "toBlock": "0x2e2a86f",
+        "address": "0x2222222222222222222222222222222222222222"
+      }
+    ]
+  },
+  "retrieved_at": "2026-10-13T06:11:30.194683+00:00",
+  "grain": "HYPE EVM-to-Core Received logs, bounded 50 blocks",
+  "unit": "amount EVM raw 18 decimals",
+  "response": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": []
+  },
+  "status": "OBSERVED",
+  "limitations": "Finite sample, not full history; event time differs from response time.",
+  "http_status": 200
+}

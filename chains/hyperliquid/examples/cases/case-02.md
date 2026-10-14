@@ -1,0 +1,57 @@
+# Case 02｜同一订单的两笔Fill
+
+状态：**OBSERVED_MULTIPLE_FILLS**；证据层级：1；基准日2026-10-13。
+
+- [原始记录：17-fills-0.json](../../examples/api/17-fills-0.json)
+- [原始记录：27-multiple-fill-order.json](../../examples/api/27-multiple-fill-order.json)
+
+下列为教学节选或明确推导，完整原始响应在上述文件：
+
+```json
+{
+  "fills": [
+    {
+      "coin": "BTC",
+      "px": "83727.0",
+      "sz": "0.16122",
+      "side": "A",
+      "time": 1791868498430,
+      "startPosition": "-7.60963",
+      "dir": "Open Short",
+      "closedPnl": "0.0",
+      "hash": "0x314a8b88200b696c32c4044672c4630208a9006dbb0e883ed51336dadf0f4356",
+      "oid": 572798292348,
+      "crossed": false,
+      "fee": "-0.404954",
+      "tid": 9984495647386,
+      "cloid": "0xc1bea5a136da753857f81ec1984915ff",
+      "feeToken": "USDC",
+      "twapId": null
+    },
+    {
+      "coin": "BTC",
+      "px": "83727.0",
+      "sz": "0.03776",
+      "side": "A",
+      "time": 1791868498430,
+      "startPosition": "-7.77085",
+      "dir": "Open Short",
+      "closedPnl": "0.0",
+      "hash": "0x314a8b88200b696c32c4044672c4630208a9006dbb0e883ed51336dadf0f4356",
+      "oid": 572798292348,
+      "crossed": false,
+      "fee": "-0.094845",
+      "tid": 986200093165237,
+      "cloid": "0xc1bea5a136da753857f81ec1984915ff",
+      "feeToken": "USDC",
+      "twapId": null
+    }
+  ],
+  "observed_size_btc": "0.19898",
+  "order_status": {
+    "status": "unknownOid"
+  }
+}
+```
+
+边界：unknownOid，原始总数量、余量和终态未知；不声称完全成交。

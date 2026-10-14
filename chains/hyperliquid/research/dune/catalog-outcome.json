@@ -1,0 +1,770 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"total\":7,\"results\":[{\"full_name\":\"hyperliquid.perp_orderbook_1m\",\"category\":\"spell\",\"dataset_type\":\"spell\",\"blockchains\":[\"hyperliquid\"],\"partition_columns\":[\"block_date\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"coin\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"interval_start\",\"nullable\":true,\"type\":\"timestamp(3) with time zone\"},{\"name\":\"interval\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"block_time\",\"nullable\":true,\"type\":\"timestamp(3) with time zone\"},{\"name\":\"height\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"bids\",\"nullable\":true,\"type\":\"array(row(\\\"n\\\" integer,\\\"px\\\" varchar,\\\"sz\\\" varchar))\"},{\"name\":\"asks\",\"nullable\":true,\"type\":\"array(row(\\\"n\\\" integer,\\\"px\\\" varchar,\\\"sz\\\" varchar))\"},{\"name\":\"staleness_seconds\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"derived_at\",\"nullable\":true,\"type\":\"timestamp(3) with time zone\"},{\"name\":\"block_date\",\"nullable\":true,\"type\":\"date\"}],\"type\":\"struct\"},\"metadata\":{\"spell_type\":\"project\"}},{\"full_name\":\"hyperliquid.perp_accounts_daily\",\"category\":\"spell\",\"dataset_type\":\"spell\",\"blockchains\":[\"hyperliquid\"],\"partition_columns\":[\"block_date\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"block_month\",\"nullable\":true,\"type\":\"date\"},{\"name\":\"block_date\",\"nullable\":true,\"type\":\"date\"},{\"name\":\"trader\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"fills_count\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"taker_fills_count\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"maker_fills_count\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"volume_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"taker_volume_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"maker_volume_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"buy_volume_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"sell_volume_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"markets_traded\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"dexes_traded\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"realized_pnl_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"fee_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"builder_fee_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"deployer_fee_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"liquidation_count\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"liquidation_volume_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"adl_count\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"adl_volume_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"funding_paid_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"funding_received_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"net_pnl_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"open_positions_eod\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"position_notional_usd_eod\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"deposit_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"withdraw_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"transfer_in_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"transfer_out_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"spot_to_perp_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"perp_to_spot_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"vault_deposit_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"vault_withdraw_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"net_collateral_flow_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"_updated_at\",\"nullable\":true,\"type\":\"timestamp\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":0.792,\"spell_type\":\"project\"}},{\"full_name\":\"hyperliquid.perp_trades\",\"category\":\"spell\",\"dataset_type\":\"spell\",\"blockchains\":[\"hyperliquid\"],\"partition_columns\":[\"block_date\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"block_month\",\"nullable\":true,\"type\":\"date\"},{\"name\":\"block_date\",\"nullable\":true,\"type\":\"date\"},{\"name\":\"block_time\",\"nullable\":true,\"type\":\"timestamp\"},{\"name\":\"block_number\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"event_index\",\"nullable\":true,\"type\":\"integer\"},{\"name\":\"perp_dex\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"coin\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"market_symbol\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"asset_id\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"trader\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"is_taker\",\"nullable\":true,\"type\":\"boolean\"},{\"name\":\"side\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"dir\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"fill_type\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"start_position\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"price\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"size\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"notional_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"closed_pnl_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"fee_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"builder_fee_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"deployer_fee_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"fee_token\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"priority_gas\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"tid\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"oid\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"cloid\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"builder\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"twap_id\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"liquidation_method\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"liquidated_trader\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"liquidation_mark_price\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"_updated_at\",\"nullable\":true,\"type\":\"timestamp\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":0.34575000000000006,\"spell_type\":\"project\"}},{\"full_name\":\"hyperliquid.perp_positions_hourly\",\"category\":\"spell\",\"dataset_type\":\"spell\",\"blockchains\":[\"hyperliquid\"],\"partition_columns\":[\"block_month\",\"trader_prefix\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"block_month\",\"nullable\":true,\"type\":\"date\"},{\"name\":\"block_date\",\"nullable\":true,\"type\":\"date\"},{\"name\":\"block_hour\",\"nullable\":true,\"type\":\"timestamp\"},{\"name\":\"block_number\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"perp_dex\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"coin\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"market_symbol\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"asset_id\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"trader\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"trader_prefix\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"position_size\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"position_side\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"valuation_price\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"position_notional_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"funding_amount_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"funding_rate\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"_updated_at\",\"nullable\":true,\"type\":\"timestamp\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":1.05975,\"spell_type\":\"project\"}},{\"full_name\":\"hyperliquid.perp_market_details\",\"category\":\"spell\",\"dataset_type\":\"spell\",\"blockchains\":[\"hyperliquid\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"coin\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"perp_dex\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"market_symbol\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"asset_id\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"asset_index\",\"nullable\":true,\"type\":\"integer\"},{\"name\":\"dex_index\",\"nullable\":true,\"type\":\"integer\"},{\"name\":\"perp_dex_type\",\"nullable\":true,\"type\":\"varchar(11)\"},{\"name\":\"builder_name\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"deployer\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"oracle_updater\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"fee_recipient\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"size_decimals\",\"nullable\":true,\"type\":\"integer\"},{\"name\":\"max_leverage\",\"nullable\":true,\"type\":\"integer\"},{\"name\":\"margin_table_id\",\"nullable\":true,\"type\":\"integer\"},{\"name\":\"margin_tiers\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"is_tiered_margin\",\"nullable\":true,\"type\":\"boolean\"},{\"name\":\"margin_mode\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"only_isolated\",\"nullable\":true,\"type\":\"boolean\"},{\"name\":\"funding_multiplier\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"open_interest_cap_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"growth_mode\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"growth_mode_changed_at\",\"nullable\":true,\"type\":\"timestamp(3) with time zone\"},{\"name\":\"is_delisted\",\"nullable\":true,\"type\":\"boolean\"},{\"name\":\"is_halted\",\"nullable\":true,\"type\":\"boolean\"},{\"name\":\"listed_at\",\"nullable\":true,\"type\":\"timestamp(3) with time zone\"},{\"name\":\"delisted_at\",\"nullable\":true,\"type\":\"timestamp(3) with time zone\"},{\"name\":\"market_category\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"asset_class\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"asset_type\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"underlying_ticker\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"description\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"metadata_last_updated\",\"nullable\":true,\"type\":\"date\"},{\"name\":\"_updated_at\",\"nullable\":true,\"type\":\"timestamp(3) with time zone\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":1.2382499999999999,\"spell_type\":\"project\"}}],\"pagination\":{\"limit\":5,\"offset\":0,\"nextOffset\":5,\"hasMore\":true}}"
+      }
+    ],
+    "structuredContent": {
+      "total": 7,
+      "results": [
+        {
+          "full_name": "hyperliquid.perp_orderbook_1m",
+          "category": "spell",
+          "dataset_type": "spell",
+          "blockchains": [
+            "hyperliquid"
+          ],
+          "partition_columns": [
+            "block_date"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "coin",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "interval_start",
+                "nullable": true,
+                "type": "timestamp(3) with time zone"
+              },
+              {
+                "name": "interval",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "block_time",
+                "nullable": true,
+                "type": "timestamp(3) with time zone"
+              },
+              {
+                "name": "height",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "bids",
+                "nullable": true,
+                "type": "array(row(\"n\" integer,\"px\" varchar,\"sz\" varchar))"
+              },
+              {
+                "name": "asks",
+                "nullable": true,
+                "type": "array(row(\"n\" integer,\"px\" varchar,\"sz\" varchar))"
+              },
+              {
+                "name": "staleness_seconds",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "derived_at",
+                "nullable": true,
+                "type": "timestamp(3) with time zone"
+              },
+              {
+                "name": "block_date",
+                "nullable": true,
+                "type": "date"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "spell_type": "project"
+          }
+        },
+        {
+          "full_name": "hyperliquid.perp_accounts_daily",
+          "category": "spell",
+          "dataset_type": "spell",
+          "blockchains": [
+            "hyperliquid"
+          ],
+          "partition_columns": [
+            "block_date"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "block_month",
+                "nullable": true,
+                "type": "date"
+              },
+              {
+                "name": "block_date",
+                "nullable": true,
+                "type": "date"
+              },
+              {
+                "name": "trader",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "fills_count",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "taker_fills_count",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "maker_fills_count",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "volume_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "taker_volume_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "maker_volume_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "buy_volume_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "sell_volume_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "markets_traded",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "dexes_traded",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "realized_pnl_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "fee_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "builder_fee_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "deployer_fee_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "liquidation_count",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "liquidation_volume_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "adl_count",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "adl_volume_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "funding_paid_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "funding_received_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "net_pnl_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "open_positions_eod",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "position_notional_usd_eod",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "deposit_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "withdraw_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "transfer_in_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "transfer_out_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "spot_to_perp_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "perp_to_spot_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "vault_deposit_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "vault_withdraw_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "net_collateral_flow_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "_updated_at",
+                "nullable": true,
+                "type": "timestamp"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 0.792,
+            "spell_type": "project"
+          }
+        },
+        {
+          "full_name": "hyperliquid.perp_trades",
+          "category": "spell",
+          "dataset_type": "spell",
+          "blockchains": [
+            "hyperliquid"
+          ],
+          "partition_columns": [
+            "block_date"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "block_month",
+                "nullable": true,
+                "type": "date"
+              },
+              {
+                "name": "block_date",
+                "nullable": true,
+                "type": "date"
+              },
+              {
+                "name": "block_time",
+                "nullable": true,
+                "type": "timestamp"
+              },
+              {
+                "name": "block_number",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "event_index",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "name": "perp_dex",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "coin",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "market_symbol",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "asset_id",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "trader",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "is_taker",
+                "nullable": true,
+                "type": "boolean"
+              },
+              {
+                "name": "side",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "dir",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "fill_type",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "start_position",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "price",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "size",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "notional_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "closed_pnl_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "fee_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "builder_fee_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "deployer_fee_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "fee_token",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "priority_gas",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "tid",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "oid",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "cloid",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "builder",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "twap_id",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "liquidation_method",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "liquidated_trader",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "liquidation_mark_price",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "_updated_at",
+                "nullable": true,
+                "type": "timestamp"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 0.34575000000000006,
+            "spell_type": "project"
+          }
+        },
+        {
+          "full_name": "hyperliquid.perp_positions_hourly",
+          "category": "spell",
+          "dataset_type": "spell",
+          "blockchains": [
+            "hyperliquid"
+          ],
+          "partition_columns": [
+            "block_month",
+            "trader_prefix"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "block_month",
+                "nullable": true,
+                "type": "date"
+              },
+              {
+                "name": "block_date",
+                "nullable": true,
+                "type": "date"
+              },
+              {
+                "name": "block_hour",
+                "nullable": true,
+                "type": "timestamp"
+              },
+              {
+                "name": "block_number",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "perp_dex",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "coin",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "market_symbol",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "asset_id",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "trader",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "trader_prefix",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "position_size",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "position_side",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "valuation_price",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "position_notional_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "funding_amount_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "funding_rate",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "_updated_at",
+                "nullable": true,
+                "type": "timestamp"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 1.05975,
+            "spell_type": "project"
+          }
+        },
+        {
+          "full_name": "hyperliquid.perp_market_details",
+          "category": "spell",
+          "dataset_type": "spell",
+          "blockchains": [
+            "hyperliquid"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "coin",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "perp_dex",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "market_symbol",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "asset_id",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "asset_index",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "name": "dex_index",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "name": "perp_dex_type",
+                "nullable": true,
+                "type": "varchar(11)"
+              },
+              {
+                "name": "builder_name",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "deployer",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "oracle_updater",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "fee_recipient",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "size_decimals",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "name": "max_leverage",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "name": "margin_table_id",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "name": "margin_tiers",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "is_tiered_margin",
+                "nullable": true,
+                "type": "boolean"
+              },
+              {
+                "name": "margin_mode",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "only_isolated",
+                "nullable": true,
+                "type": "boolean"
+              },
+              {
+                "name": "funding_multiplier",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "open_interest_cap_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "growth_mode",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "growth_mode_changed_at",
+                "nullable": true,
+                "type": "timestamp(3) with time zone"
+              },
+              {
+                "name": "is_delisted",
+                "nullable": true,
+                "type": "boolean"
+              },
+              {
+                "name": "is_halted",
+                "nullable": true,
+                "type": "boolean"
+              },
+              {
+                "name": "listed_at",
+                "nullable": true,
+                "type": "timestamp(3) with time zone"
+              },
+              {
+                "name": "delisted_at",
+                "nullable": true,
+                "type": "timestamp(3) with time zone"
+              },
+              {
+                "name": "market_category",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "asset_class",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "asset_type",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "underlying_ticker",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "description",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "metadata_last_updated",
+                "nullable": true,
+                "type": "date"
+              },
+              {
+                "name": "_updated_at",
+                "nullable": true,
+                "type": "timestamp(3) with time zone"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 1.2382499999999999,
+            "spell_type": "project"
+          }
+        }
+      ],
+      "pagination": {
+        "limit": 5,
+        "offset": 0,
+        "nextOffset": 5,
+        "hasMore": true
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 4
+}

@@ -1,0 +1,28 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"query_id\":8678774,\"user_id\":null,\"team_id\":953543,\"version\":1,\"name\":\"SMS HYPE 12: HyperEVM active sender addresses (last 30 / 90 UTC days)\",\"description\":\"Active distinct `from` addresses in hyperevm.transactions for the 30D and 90D windows. Powers Dashboard 220012 active-senders KPI.\",\"tags\":[],\"query\":\"-- SMS HYPE 12: HyperEVM active sender addresses over 30D and 90D windows.\\n-- Source: hyperevm.transactions.from. An address is NOT a user; an address can be\\n-- an EOA, a contract, or a multisig. We compute COUNT(DISTINCT from) for both\\n-- windows in one Query to keep the panel comparable.\\n\\nWITH\\nwin30 AS (\\n    SELECT COUNT(DISTINCT \\\"from\\\") AS active_senders_30d\\n    FROM hyperevm.transactions\\n    WHERE block_date >= CAST(CURRENT_DATE - INTERVAL '30' DAY AS DATE)\\n      AND block_date < CURRENT_DATE\\n),\\nwin90 AS (\\n    SELECT COUNT(DISTINCT \\\"from\\\") AS active_senders_90d\\n    FROM hyperevm.transactions\\n    WHERE block_date >= CAST(CURRENT_DATE - INTERVAL '90' DAY AS DATE)\\n      AND block_date < CURRENT_DATE\\n)\\n\\nSELECT\\n    (SELECT active_senders_30d FROM win30) AS active_senders_30d,\\n    (SELECT active_senders_90d FROM win90) AS active_senders_90d,\\n    CAST(CURRENT_DATE - INTERVAL '1' DAY AS DATE) AS reference_day;\",\"parameters\":[],\"is_archived\":false,\"is_private\":false,\"is_temp\":true,\"latest_execution_id\":\"01M2834B8JZQD1V96SR47Z2F0R\",\"latest_execution_state\":\"QUERY_STATE_COMPLETED\"}"
+      }
+    ],
+    "structuredContent": {
+      "query_id": 8678774,
+      "user_id": null,
+      "team_id": 953543,
+      "version": 1,
+      "name": "SMS HYPE 12: HyperEVM active sender addresses (last 30 / 90 UTC days)",
+      "description": "Active distinct `from` addresses in hyperevm.transactions for the 30D and 90D windows. Powers Dashboard 220012 active-senders KPI.",
+      "tags": [],
+      "query": "-- SMS HYPE 12: HyperEVM active sender addresses over 30D and 90D windows.\n-- Source: hyperevm.transactions.from. An address is NOT a user; an address can be\n-- an EOA, a contract, or a multisig. We compute COUNT(DISTINCT from) for both\n-- windows in one Query to keep the panel comparable.\n\nWITH\nwin30 AS (\n    SELECT COUNT(DISTINCT \"from\") AS active_senders_30d\n    FROM hyperevm.transactions\n    WHERE block_date >= CAST(CURRENT_DATE - INTERVAL '30' DAY AS DATE)\n      AND block_date < CURRENT_DATE\n),\nwin90 AS (\n    SELECT COUNT(DISTINCT \"from\") AS active_senders_90d\n    FROM hyperevm.transactions\n    WHERE block_date >= CAST(CURRENT_DATE - INTERVAL '90' DAY AS DATE)\n      AND block_date < CURRENT_DATE\n)\n\nSELECT\n    (SELECT active_senders_30d FROM win30) AS active_senders_30d,\n    (SELECT active_senders_90d FROM win90) AS active_senders_90d,\n    CAST(CURRENT_DATE - INTERVAL '1' DAY AS DATE) AS reference_day;",
+      "parameters": [],
+      "is_archived": false,
+      "is_private": false,
+      "is_temp": true,
+      "latest_execution_id": "01M2834B8JZQD1V96SR47Z2F0R",
+      "latest_execution_state": "QUERY_STATE_COMPLETED"
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 16
+}

@@ -1,0 +1,19 @@
+{
+  "network": "Mainnet",
+  "method": "POST",
+  "endpoint": "https://api.hyperliquid.xyz/info",
+  "request": {
+    "type": "orderStatus",
+    "user": "0x78dce96236804d6958bf3c4598cf5efbc371629c",
+    "oid": 572798292348
+  },
+  "retrieved_at": "2026-10-13T06:13:47.130480+00:00",
+  "grain": "one multiple-fill order status",
+  "unit": "endpoint-specific",
+  "response": {
+    "status": "unknownOid"
+  },
+  "status": "OBSERVED",
+  "limitations": "Finite sample, not full history; event time differs from response time.",
+  "http_status": 200
+}

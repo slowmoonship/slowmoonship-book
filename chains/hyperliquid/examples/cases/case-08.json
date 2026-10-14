@@ -1,0 +1,32 @@
+{
+  "case": 8,
+  "title": "Core/EVM接口观察与转移缺口",
+  "status": "OBSERVED_INTERFACE_ONLY",
+  "evidence_level": 2,
+  "source_files": [
+    "examples/api/25-read-oracle.json",
+    "examples/api/28-corewriter-code.json",
+    "examples/api/26-hype-transfer-logs.json",
+    "examples/api/15-evm-system.json"
+  ],
+  "data": {
+    "oracle_return": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "result": "0x00000000000000000000000000000000000000000000000000000000000cc376"
+    },
+    "corewriter_code_bytes": 544,
+    "transfer_logs": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "result": []
+    },
+    "system_txs": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "result": []
+    }
+  },
+  "limitations": "0807读取与入口代码已观察；50区块日志为空，无真实资产转移闭环。",
+  "baseline": "2026-10-13"
+}

@@ -1,5 +1,9 @@
 # 出版更新记录
 
+## 2026-10-14 · Hyperliquid v0.1
+
+新增第六条公链：10 Part、40章、前言、5附录和完整BOOK.md；40对SVG/draw.io，18条新教学SQL、12份历史SQL、32份真实HTTP响应、2次WebSocket、10个主体案例（14研究主题）。实际选入351个源文件；PNG按引用闭包保留，详细统计见[文件清单](publication/hyperliquid/2026-10-14-v0.1/FILES.md)。原稿VALIDATED及研究缺口保持，SQL未执行，API为2026-10-13历史快照，作者审读UNKNOWN。旧五链和旧快照不变；GitBook NOT_CONFIGURED，无新增许可证、Tag、Release或PR。
+
 ## 2026-10-14 · Bitcoin v0.1
 
 新增原有9 Part、36章、前言和5附录，34对SVG/draw.io、16条新教学SQL与10份历史Query SQL、12组Core 31.0.0 RPC请求、10个案例主题/8个主TxID及3条后续花费边。保留原组织、正文、SQL与案例；只修复官方缓存引用及出版说明。原稿VALIDATED限于已有检查；新SQL未执行、RPC未实调、案例未追到当前链头，作者审读UNKNOWN。旧四链及历史快照保持。见[检查](publication/bitcoin/2026-10-14-v0.1/CHECKS.md)。无Tag/Release；GitBook仓库NOT_CONFIGURED、账户同步UNVERIFIED。

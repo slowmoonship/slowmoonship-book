@@ -1,0 +1,70 @@
+{
+  "result": {
+    "_meta": {
+      "mcp_event_id": "9e725e43-7fdb-4343-8db0-0c62b720b5ec"
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"executionId\":\"01M2833JAJENX5B0F8HGVATAGQ\",\"state\":\"COMPLETED\",\"resultMetadata\":{\"columns\":[{\"name\":\"date\",\"type\":\"date\"},{\"name\":\"metric_name\",\"type\":\"varchar(44)\"},{\"name\":\"metric_value\",\"type\":\"double\"},{\"name\":\"source_table\",\"type\":\"varchar(21)\"},{\"name\":\"metric_scope\",\"type\":\"varchar(108)\"}],\"totalRowCount\":6,\"executionCostCredits\":\"0.036\"},\"data\":{\"rows\":[{\"date\":\"2026-09-10\",\"metric_name\":\"hyperevm_blocks_24h\",\"metric_value\":87840,\"source_table\":\"hyperevm.blocks\",\"metric_scope\":\"HyperEVM block headers in the latest complete UTC day\"},{\"date\":\"2026-09-10\",\"metric_name\":\"hyperevm_corewriter_calls_24h\",\"metric_value\":6678,\"source_table\":\"hyperevm.traces\",\"metric_scope\":\"HyperEVM traces with to=0x3333...3333 (CoreWriter) in the latest complete UTC day\"},{\"date\":\"2026-09-10\",\"metric_name\":\"hyperevm_event_logs_24h\",\"metric_value\":1656324,\"source_table\":\"hyperevm.logs\",\"metric_scope\":\"HyperEVM raw event-log rows in the latest complete UTC day\"}]}}"
+      }
+    ],
+    "structuredContent": {
+      "executionId": "01M2833JAJENX5B0F8HGVATAGQ",
+      "state": "COMPLETED",
+      "resultMetadata": {
+        "columns": [
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "metric_name",
+            "type": "varchar(44)"
+          },
+          {
+            "name": "metric_value",
+            "type": "double"
+          },
+          {
+            "name": "source_table",
+            "type": "varchar(21)"
+          },
+          {
+            "name": "metric_scope",
+            "type": "varchar(108)"
+          }
+        ],
+        "totalRowCount": 6,
+        "executionCostCredits": "0.036"
+      },
+      "data": {
+        "rows": [
+          {
+            "date": "2026-09-10",
+            "metric_name": "hyperevm_blocks_24h",
+            "metric_value": 87840,
+            "source_table": "hyperevm.blocks",
+            "metric_scope": "HyperEVM block headers in the latest complete UTC day"
+          },
+          {
+            "date": "2026-09-10",
+            "metric_name": "hyperevm_corewriter_calls_24h",
+            "metric_value": 6678,
+            "source_table": "hyperevm.traces",
+            "metric_scope": "HyperEVM traces with to=0x3333...3333 (CoreWriter) in the latest complete UTC day"
+          },
+          {
+            "date": "2026-09-10",
+            "metric_name": "hyperevm_event_logs_24h",
+            "metric_value": 1656324,
+            "source_table": "hyperevm.logs",
+            "metric_scope": "HyperEVM raw event-log rows in the latest complete UTC day"
+          }
+        ]
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 10
+}

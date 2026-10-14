@@ -1,0 +1,242 @@
+[
+  {
+    "figure": "abstraction",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "account-state",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "accounts",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "backstop",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "book",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "click",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "consensus",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "corewriter",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "data-sources",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "dune",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "evm-data",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "evm",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "fees",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "funding-flow",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "funding-payment",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "funding-rate",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "hip2",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "hip3",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "hip4",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "identities",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "liquidation",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "margin",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "matching",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "oi",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "orders",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "partial",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "perpetual",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "pnl",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "position",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "precompiles",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "prices",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "reconstruction",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "records",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "runtime",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "spot",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "sql",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "staking",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "token-pair",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "transfers",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  },
+  {
+    "figure": "vault",
+    "canvas_text_overflow_candidates": [],
+    "node_overlaps": [],
+    "metric_font": "STHeiti Light substitute; rendered SVG font stack may differ"
+  }
+]

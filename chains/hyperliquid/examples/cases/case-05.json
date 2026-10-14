@@ -1,0 +1,16 @@
+{
+  "case": 5,
+  "title": "清算事件",
+  "status": "BLOCKED_EVIDENCE",
+  "evidence_level": 1,
+  "source_files": [
+    "examples/api/30-hlp-child.json",
+    "examples/api/31-liquidator-fills.json"
+  ],
+  "data": {
+    "verified_liquidator_name": "HLP Liquidator",
+    "finite_30min_fills": []
+  },
+  "limitations": "两账户样本无清算标记；定向核对HLP Liquidator身份后，30分钟Fill返回空。无真实清算，不编造金额或终态，也不推断全市场没有清算。",
+  "baseline": "2026-10-13"
+}

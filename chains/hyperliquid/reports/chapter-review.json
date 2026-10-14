@@ -1,0 +1,737 @@
+[
+  {
+    "chapter": 1,
+    "title": "点击买入之后，链上发生了什么",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "about-hyperliquid",
+      "hypercore__overview"
+    ],
+    "case_ids": [
+      3
+    ],
+    "sql_ids": [],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 2,
+    "title": "订单先后顺序为何需要共识",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "hypercore__order-book",
+      "hypercore__staking"
+    ],
+    "case_ids": [],
+    "sql_ids": [],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 3,
+    "title": "同一条L1的两种执行环境",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "hyperevm",
+      "for-developers__hyperevm__interacting-with-hypercore",
+      "for-developers__hyperevm__interaction-timings"
+    ],
+    "case_ids": [
+      8
+    ],
+    "sql_ids": [],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 4,
+    "title": "把一次金融行为拆成不同记录",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "for-developers__nodes__l1-data-schemas",
+      "for-developers__api__websocket__subscriptions",
+      "dune-perp-trades"
+    ],
+    "case_ids": [
+      3,
+      13
+    ],
+    "sql_ids": [],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 5,
+    "title": "一个地址为何有多种余额",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "trading__account-abstraction-modes",
+      "for-developers__api__info-endpoint__spot",
+      "hypercore__staking"
+    ],
+    "case_ids": [],
+    "sql_ids": [],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 6,
+    "title": "账户模式决定保证金怎样共享",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "trading__account-abstraction-modes",
+      "trading__margining",
+      "trading__portfolio-margin"
+    ],
+    "case_ids": [],
+    "sql_ids": [],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 7,
+    "title": "主账户、子账户和代理钱包",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "trading__sub-accounts",
+      "for-developers__api__nonces-and-api-wallets",
+      "hypercore__vaults"
+    ],
+    "case_ids": [
+      13
+    ],
+    "sql_ids": [],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 8,
+    "title": "怎样读懂一份账户状态",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "for-developers__api__info-endpoint__perpetuals",
+      "for-developers__api__info-endpoint__spot",
+      "trading__account-abstraction-modes"
+    ],
+    "case_ids": [],
+    "sql_ids": [],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 9,
+    "title": "读懂订单簿的两边",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "hypercore__order-book",
+      "for-developers__api__tick-and-lot-size",
+      "for-developers__api__info-endpoint"
+    ],
+    "case_ids": [],
+    "sql_ids": [],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 10,
+    "title": "撮合怎样选择交易对手",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "hypercore__order-book",
+      "trading__self-trade-prevention",
+      "trading__fees"
+    ],
+    "case_ids": [
+      3
+    ],
+    "sql_ids": [],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 11,
+    "title": "一张订单怎样分成多个成交",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "for-developers__api__info-endpoint",
+      "for-developers__api__websocket__subscriptions"
+    ],
+    "case_ids": [
+      2
+    ],
+    "sql_ids": [],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 12,
+    "title": "挂单、撤单和条件订单的生命周期",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "trading__order-types",
+      "for-developers__api__exchange-endpoint",
+      "hypercore__order-book"
+    ],
+    "case_ids": [
+      1
+    ],
+    "sql_ids": [],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 13,
+    "title": "买入BTC永续为何没有收到BTC",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "trading__contract-specifications",
+      "hypercore__clearinghouse"
+    ],
+    "case_ids": [
+      3
+    ],
+    "sql_ids": [],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 14,
+    "title": "成交方向怎样改变持仓",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "trading__entry-price-and-pnl",
+      "for-developers__api__info-endpoint"
+    ],
+    "case_ids": [
+      3
+    ],
+    "sql_ids": [],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 15,
+    "title": "盈利为何不等于账户余额增加",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "trading__entry-price-and-pnl",
+      "trading__margining",
+      "trading__fees"
+    ],
+    "case_ids": [
+      3
+    ],
+    "sql_ids": [],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 16,
+    "title": "成交量与未平仓量分别数什么",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "dune-perp-market-metrics-hourly",
+      "dune-perp-positions-hourly",
+      "dune-perp-trades"
+    ],
+    "case_ids": [
+      3
+    ],
+    "sql_ids": [
+      5,
+      6
+    ],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 17,
+    "title": "成交价、标记价与预言机价",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "trading__robust-price-indices",
+      "hypercore__oracle",
+      "dune-perp-oracle-prices"
+    ],
+    "case_ids": [],
+    "sql_ids": [],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 18,
+    "title": "保证金是怎样一层层检查的",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "trading__margining",
+      "trading__margin-tiers",
+      "trading__portfolio-margin"
+    ],
+    "case_ids": [],
+    "sql_ids": [],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 19,
+    "title": "清算为何不是一次普通卖出",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "trading__liquidations",
+      "dune-perp-trades"
+    ],
+    "case_ids": [
+      5
+    ],
+    "sql_ids": [
+      9
+    ],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 20,
+    "title": "后备接管与自动减仓的区别",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "trading__liquidations",
+      "trading__auto-deleveraging",
+      "hyperliquid-improvement-proposals-hips__hip-3-builder-deployed-perpetuals",
+      "trading__portfolio-margin"
+    ],
+    "case_ids": [
+      5
+    ],
+    "sql_ids": [],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 21,
+    "title": "持仓没有交易，为何出现现金流",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "trading__funding",
+      "for-developers__api__info-endpoint__perpetuals"
+    ],
+    "case_ids": [
+      4
+    ],
+    "sql_ids": [],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 22,
+    "title": "资金费率怎样从溢价产生",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "trading__funding",
+      "trading__contract-specifications",
+      "for-developers__api__hip-3-deployer-actions"
+    ],
+    "case_ids": [
+      4
+    ],
+    "sql_ids": [
+      7
+    ],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 23,
+    "title": "怎样核对用户实际资金费用",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "for-developers__api__info-endpoint__perpetuals",
+      "dune-perp-positions-hourly"
+    ],
+    "case_ids": [
+      4
+    ],
+    "sql_ids": [
+      8
+    ],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 24,
+    "title": "手续费、返佣与协议收入",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "trading__fees",
+      "trading__builder-codes",
+      "hyperliquid-improvement-proposals-hips__hip-1-native-token-standard"
+    ],
+    "case_ids": [
+      3
+    ],
+    "sql_ids": [
+      3
+    ],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 25,
+    "title": "现货成交如何改变两种资产",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "for-developers__api__info-endpoint__spot",
+      "for-developers__api__websocket__subscriptions"
+    ],
+    "case_ids": [
+      6
+    ],
+    "sql_ids": [],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 26,
+    "title": "Token编号与Pair编号的区别",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "for-developers__api__asset-ids",
+      "hyperliquid-improvement-proposals-hips__hip-1-native-token-standard",
+      "hypercore__permissionless-spot-quote-assets"
+    ],
+    "case_ids": [
+      6
+    ],
+    "sql_ids": [],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 27,
+    "title": "HIP-2怎样把流动性放进订单簿",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "hyperliquid-improvement-proposals-hips__hip-2-hyperliquidity"
+    ],
+    "case_ids": [
+      7
+    ],
+    "sql_ids": [],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 28,
+    "title": "Core与EVM之间怎样移动资产",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "for-developers__hyperevm__hypercore-less-than-greater-than-hyperevm-transfers",
+      "for-developers__hyperevm__interaction-timings"
+    ],
+    "case_ids": [
+      8
+    ],
+    "sql_ids": [],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 29,
+    "title": "HyperEVM的区块与Gas",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "for-developers__hyperevm",
+      "for-developers__hyperevm__dual-block-architecture",
+      "for-developers__hyperevm__json-rpc"
+    ],
+    "case_ids": [
+      14
+    ],
+    "sql_ids": [
+      14
+    ],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 30,
+    "title": "智能合约怎样读取Core状态",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "for-developers__hyperevm__interacting-with-hypercore",
+      "for-developers__hyperevm__json-rpc"
+    ],
+    "case_ids": [
+      8
+    ],
+    "sql_ids": [],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 31,
+    "title": "CoreWriter为何需要两阶段核对",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "for-developers__hyperevm__interacting-with-hypercore",
+      "for-developers__hyperevm__interaction-timings"
+    ],
+    "case_ids": [
+      8
+    ],
+    "sql_ids": [
+      15
+    ],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 32,
+    "title": "EVM交易、日志与调用树",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "dune-hyperevm",
+      "for-developers__hyperevm__json-rpc"
+    ],
+    "case_ids": [
+      14
+    ],
+    "sql_ids": [
+      14,
+      15
+    ],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 33,
+    "title": "HIP-3怎样定义一个独立市场",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "hyperliquid-improvement-proposals-hips__hip-3-builder-deployed-perpetuals",
+      "for-developers__api__hip-3-deployer-actions",
+      "dune-perp-market-details"
+    ],
+    "case_ids": [
+      9
+    ],
+    "sql_ids": [
+      1,
+      12,
+      13
+    ],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 34,
+    "title": "HIP-4从交易走向结果结算",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "hyperliquid-improvement-proposals-hips__hip-4-outcome-markets",
+      "for-developers__api__hip-4-deployer-actions",
+      "trading__contract-specifications",
+      "dune-hip4"
+    ],
+    "case_ids": [
+      10
+    ],
+    "sql_ids": [
+      16
+    ],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 35,
+    "title": "质押怎样连接验证者与共识",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "hypercore__staking",
+      "validators"
+    ],
+    "case_ids": [
+      12
+    ],
+    "sql_ids": [],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 36,
+    "title": "HLP与Vault的份额和盈亏",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "hypercore__vaults",
+      "hypercore__vaults__protocol-vaults",
+      "trading__fees"
+    ],
+    "case_ids": [
+      11
+    ],
+    "sql_ids": [],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 37,
+    "title": "协议状态怎样进入数据接口",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "for-developers__nodes__l1-data-schemas",
+      "historical-data",
+      "for-developers__api__websocket__subscriptions"
+    ],
+    "case_ids": [],
+    "sql_ids": [],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 38,
+    "title": "Dune表的粒度、覆盖与权限",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "dune-perps",
+      "dune-hip4",
+      "dune-hyperevm"
+    ],
+    "case_ids": [],
+    "sql_ids": [
+      1,
+      18
+    ],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 39,
+    "title": "把金融问题写成可审查的SQL",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "dune-perp-trades",
+      "dune-perp-market-metrics-hourly",
+      "dune-perp-orderbook-1m",
+      "dune-hip4"
+    ],
+    "case_ids": [],
+    "sql_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  },
+  {
+    "chapter": 40,
+    "title": "重建历史状态并解释研究边界",
+    "readability": "REVIEWED: one question, concrete opening, short paragraphs and conceptual closure",
+    "technical": "REVIEWED_WITH_RECORDED_LIMITS: source/version, record grain, identity and units",
+    "consistency": "REVIEWED: stable cases, financial roles, source links and bilingual scene",
+    "source_ids": [
+      "for-developers__nodes__l1-data-schemas",
+      "dune-perp-orderbook-1m",
+      "for-developers__api__websocket__subscriptions"
+    ],
+    "case_ids": [],
+    "sql_ids": [
+      17,
+      18
+    ],
+    "external_execution": "NOT_CLAIMED",
+    "reviewer": "author self-review, not independent external review"
+  }
+]

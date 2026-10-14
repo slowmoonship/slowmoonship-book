@@ -1,0 +1,28 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"query_id\":8675901,\"user_id\":null,\"team_id\":953543,\"version\":1,\"name\":\"D01: HyperEVM Daily Blocks (90d)\",\"description\":\"Dashboard 01: HyperEVM Daily Blocks — last 90 complete UTC days; runtime evidence dashboard for Visualization 01.\",\"tags\":[],\"query\":\"-- Dashboard 01: HyperEVM Daily Blocks — runtime evidence\\nWITH block_sequence AS (\\n    SELECT\\n        date AS block_date,\\n        time AS block_time,\\n        number AS block_number,\\n        LAG(time) OVER (ORDER BY number) AS previous_block_time\\n    FROM hyperevm.blocks\\n    WHERE date >= CURRENT_DATE - INTERVAL '91' DAY\\n      AND date < CURRENT_DATE\\n),\\n\\ndaily_blocks AS (\\n    SELECT\\n        block_date AS date,\\n        COUNT(*) AS block_count,\\n        MIN(block_number) AS first_block_number,\\n        MAX(block_number) AS last_block_number,\\n        AVG(\\n            CAST(\\n                DATE_DIFF('millisecond', previous_block_time, block_time)\\n                AS DOUBLE\\n            )\\n        ) / 1000.0 AS avg_block_interval_seconds\\n    FROM block_sequence\\n    WHERE block_date >= CURRENT_DATE - INTERVAL '90' DAY\\n      AND block_date < CURRENT_DATE\\n    GROUP BY 1\\n)\\n\\nSELECT\\n    date,\\n    block_count,\\n    first_block_number,\\n    last_block_number,\\n    avg_block_interval_seconds\\nFROM daily_blocks\\nORDER BY date;\",\"parameters\":[],\"is_archived\":false,\"is_private\":false,\"is_temp\":true,\"latest_execution_id\":\"01M27GA4QYW7V3NSYM125HFS47\",\"latest_execution_state\":\"QUERY_STATE_COMPLETED\"}"
+      }
+    ],
+    "structuredContent": {
+      "query_id": 8675901,
+      "user_id": null,
+      "team_id": 953543,
+      "version": 1,
+      "name": "D01: HyperEVM Daily Blocks (90d)",
+      "description": "Dashboard 01: HyperEVM Daily Blocks — last 90 complete UTC days; runtime evidence dashboard for Visualization 01.",
+      "tags": [],
+      "query": "-- Dashboard 01: HyperEVM Daily Blocks — runtime evidence\nWITH block_sequence AS (\n    SELECT\n        date AS block_date,\n        time AS block_time,\n        number AS block_number,\n        LAG(time) OVER (ORDER BY number) AS previous_block_time\n    FROM hyperevm.blocks\n    WHERE date >= CURRENT_DATE - INTERVAL '91' DAY\n      AND date < CURRENT_DATE\n),\n\ndaily_blocks AS (\n    SELECT\n        block_date AS date,\n        COUNT(*) AS block_count,\n        MIN(block_number) AS first_block_number,\n        MAX(block_number) AS last_block_number,\n        AVG(\n            CAST(\n                DATE_DIFF('millisecond', previous_block_time, block_time)\n                AS DOUBLE\n            )\n        ) / 1000.0 AS avg_block_interval_seconds\n    FROM block_sequence\n    WHERE block_date >= CURRENT_DATE - INTERVAL '90' DAY\n      AND block_date < CURRENT_DATE\n    GROUP BY 1\n)\n\nSELECT\n    date,\n    block_count,\n    first_block_number,\n    last_block_number,\n    avg_block_interval_seconds\nFROM daily_blocks\nORDER BY date;",
+      "parameters": [],
+      "is_archived": false,
+      "is_private": false,
+      "is_temp": true,
+      "latest_execution_id": "01M27GA4QYW7V3NSYM125HFS47",
+      "latest_execution_state": "QUERY_STATE_COMPLETED"
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 10
+}

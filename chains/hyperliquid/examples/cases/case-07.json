@@ -1,0 +1,10 @@
+{
+  "case": 7,
+  "title": "HIP-2策略事件链",
+  "status": "BLOCKED_EVIDENCE",
+  "evidence_level": 1,
+  "source_files": [],
+  "data": {},
+  "limitations": "只有正式规范；没有取得指定策略状态、身份和完整挂单变化。",
+  "baseline": "2026-10-13"
+}

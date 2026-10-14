@@ -1,0 +1,21 @@
+{
+  "case": 13,
+  "title": "子账户USDC转移账务",
+  "status": "OBSERVED",
+  "evidence_level": 1,
+  "source_files": [
+    "examples/api/21-user-ledger.json"
+  ],
+  "data": {
+    "time": 1791843401112,
+    "hash": "0x1591c53917dc0683170b04466d677301de00dd1eb2df2555b95a708bd6dfe06d",
+    "delta": {
+      "type": "subAccountTransfer",
+      "usdc": "277.0",
+      "user": "0x78dce96236804d6958bf3c4598cf5efbc371629c",
+      "destination": "0x7839e2f2c375dd2935193f2736167514efff9916"
+    }
+  },
+  "limitations": "接口标注subAccountTransfer；技术关系不是现实受益归属证明。",
+  "baseline": "2026-10-13"
+}

@@ -1,0 +1,58 @@
+# Case 01｜普通ALO订单的状态与成交
+
+状态：**OBSERVED**；证据层级：1；基准日2026-10-13。
+
+- [原始记录：24-order-status.json](../../examples/api/24-order-status.json)
+- [原始记录：17-fills-0.json](../../examples/api/17-fills-0.json)
+
+下列为教学节选或明确推导，完整原始响应在上述文件：
+
+```json
+{
+  "order": {
+    "status": "order",
+    "order": {
+      "order": {
+        "coin": "BTC",
+        "side": "A",
+        "limitPx": "83593.0",
+        "sz": "0.0",
+        "oid": 572838185047,
+        "timestamp": 1791871855214,
+        "triggerCondition": "N/A",
+        "isTrigger": false,
+        "triggerPx": "0.0",
+        "children": [],
+        "isPositionTpsl": false,
+        "reduceOnly": false,
+        "orderType": "Limit",
+        "origSz": "0.19929",
+        "tif": "Alo",
+        "cloid": "0x782a71cef50b10d421768157d48215ff"
+      },
+      "status": "filled",
+      "statusTimestamp": 1791871862164
+    }
+  },
+  "matching_fill": {
+    "coin": "BTC",
+    "px": "83593.0",
+    "sz": "0.19929",
+    "side": "A",
+    "time": 1791871862164,
+    "startPosition": "-7.39943",
+    "dir": "Open Short",
+    "closedPnl": "0.0",
+    "hash": "0xf80383326cf804b3f97d0446737c460206a1001807fb23869bcc2e852bfbde9e",
+    "oid": 572838185047,
+    "crossed": false,
+    "fee": "-0.499777",
+    "tid": 80700465700870,
+    "cloid": "0x782a71cef50b10d421768157d48215ff",
+    "feeToken": "USDC",
+    "twapId": null
+  }
+}
+```
+
+边界：订单终态与Fill可关联；原始签名Action未取得。

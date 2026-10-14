@@ -1,0 +1,49 @@
+# Case 06｜HYPE现货身份与真实撮合
+
+状态：**OBSERVED**；证据层级：1；基准日2026-10-13。
+
+- [原始记录：03-spot-meta.json](../../examples/api/03-spot-meta.json)
+- [原始记录：capture-hype.json](../../examples/websocket/capture-hype.json)
+
+下列为教学节选或明确推导，完整原始响应在上述文件：
+
+```json
+{
+  "token": {
+    "name": "HYPE",
+    "szDecimals": 2,
+    "weiDecimals": 8,
+    "index": 150,
+    "tokenId": "0x0d01dc56dcaaca66ad901c959b4011ec",
+    "isCanonical": false,
+    "evmContract": null,
+    "fullName": "Hyperliquid",
+    "deployerTradingFeeShare": "0.0"
+  },
+  "pair": {
+    "tokens": [
+      150,
+      0
+    ],
+    "name": "@107",
+    "index": 107,
+    "isCanonical": false
+  },
+  "trade": {
+    "coin": "@107",
+    "side": "B",
+    "px": "82.859",
+    "sz": "2.09",
+    "time": 1791871942044,
+    "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "tid": 401744328572553,
+    "users": [
+      "0xf036a5261406a394bd63eb4df49c464634a66155",
+      "0xecb63caa47c7c4e77f60f1ce858cf28dc2b82b00"
+    ]
+  },
+  "order_asset_id": 10107
+}
+```
+
+边界：现货Trade真实；双方完整余额及费用未取得。

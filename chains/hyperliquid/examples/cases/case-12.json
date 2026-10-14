@@ -1,0 +1,17 @@
+{
+  "case": 12,
+  "title": "样本账户质押摘要",
+  "status": "SNAPSHOT_ONLY",
+  "evidence_level": 2,
+  "source_files": [
+    "examples/api/23-delegation.json"
+  ],
+  "data": {
+    "delegated": "0.0",
+    "undelegated": "0.0",
+    "totalPendingWithdrawal": "0.0",
+    "nPendingWithdrawals": 0
+  },
+  "limitations": "不构成真实委托或奖励事件链；不能由空值断言从未质押。",
+  "baseline": "2026-10-13"
+}

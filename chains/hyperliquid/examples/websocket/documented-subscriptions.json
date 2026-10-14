@@ -1,0 +1,59 @@
+[
+  {
+    "network": "Mainnet",
+    "method": "subscribe",
+    "endpoint": "wss://api.hyperliquid.xyz/ws",
+    "request": {
+      "method": "subscribe",
+      "subscription": {
+        "type": "orderUpdates",
+        "user": "0x0000000000000000000000000000000000000000"
+      }
+    },
+    "response": null,
+    "time": null,
+    "data_source": "official websocket subscriptions documentation",
+    "status": "DOCUMENTED_NOT_EXECUTED",
+    "grain": "user order lifecycle",
+    "unit": "order price/base size",
+    "limitations": "Placeholder user; no call or invented response"
+  },
+  {
+    "network": "Mainnet",
+    "method": "subscribe",
+    "endpoint": "wss://api.hyperliquid.xyz/ws",
+    "request": {
+      "method": "subscribe",
+      "subscription": {
+        "type": "userFills",
+        "user": "0x0000000000000000000000000000000000000000"
+      }
+    },
+    "response": null,
+    "time": null,
+    "data_source": "official websocket subscriptions documentation",
+    "status": "DOCUMENTED_NOT_EXECUTED",
+    "grain": "user fill stream with snapshot flag",
+    "unit": "base quantity, quote fee",
+    "limitations": "Placeholder user; no call or invented response"
+  },
+  {
+    "network": "Mainnet",
+    "method": "subscribe",
+    "endpoint": "wss://api.hyperliquid.xyz/ws",
+    "request": {
+      "method": "subscribe",
+      "subscription": {
+        "type": "userFundings",
+        "user": "0x0000000000000000000000000000000000000000"
+      }
+    },
+    "response": null,
+    "time": null,
+    "data_source": "official websocket subscriptions documentation",
+    "status": "DOCUMENTED_NOT_EXECUTED",
+    "grain": "user settled funding stream",
+    "unit": "signed quote payment",
+    "limitations": "Placeholder user; no call or invented response"
+  }
+]

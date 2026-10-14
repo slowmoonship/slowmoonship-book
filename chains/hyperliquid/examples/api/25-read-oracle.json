@@ -1,0 +1,28 @@
+{
+  "network": "Mainnet",
+  "method": "POST",
+  "endpoint": "https://rpc.hyperliquid.xyz/evm",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_call",
+    "params": [
+      {
+        "to": "0x0000000000000000000000000000000000000807",
+        "data": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "latest"
+    ]
+  },
+  "retrieved_at": "2026-10-13T06:11:29.574452+00:00",
+  "grain": "precompile BTC oracle latest state",
+  "unit": "integer scaled per L1Read conventions",
+  "response": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": "0x00000000000000000000000000000000000000000000000000000000000cc376"
+  },
+  "status": "OBSERVED",
+  "limitations": "Finite sample, not full history; event time differs from response time.",
+  "http_status": 200
+}

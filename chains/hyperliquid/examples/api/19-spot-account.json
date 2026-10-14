@@ -1,0 +1,26 @@
+{
+  "network": "Mainnet",
+  "method": "POST",
+  "endpoint": "https://api.hyperliquid.xyz/info",
+  "request": {
+    "type": "spotClearinghouseState",
+    "user": "0x78dce96236804d6958bf3c4598cf5efbc371629c"
+  },
+  "retrieved_at": "2026-10-13T06:11:25.557470+00:00",
+  "grain": "user current spot balances",
+  "unit": "endpoint-specific",
+  "response": {
+    "balances": [
+      {
+        "coin": "USDC",
+        "token": 0,
+        "total": "0.0",
+        "hold": "0.0",
+        "entryNtl": "0.0"
+      }
+    ]
+  },
+  "status": "OBSERVED",
+  "limitations": "Finite sample, not full history; event time differs from response time.",
+  "http_status": 200
+}

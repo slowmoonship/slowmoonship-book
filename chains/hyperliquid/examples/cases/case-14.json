@@ -1,0 +1,20 @@
+{
+  "case": 14,
+  "title": "固定HyperEVM区块与收据",
+  "status": "OBSERVED",
+  "evidence_level": 1,
+  "source_files": [
+    "examples/api/14-evm-block.json",
+    "examples/api/16-evm-receipt.json"
+  ],
+  "data": {
+    "height": 48408687,
+    "block_hash": "0xe0fa471844f22a3c77e41ceffee7bbc7fb547348f992f63888b6cab94102b404",
+    "transaction_hash": "0x24ff8a2f920e9bc8cb98be8feb9943713e3d1d6789f202d1152dd70e79c5432e",
+    "receipt_status": "0x1",
+    "gas_used": 66498,
+    "log_count": 1
+  },
+  "limitations": "固定块归属检查，非独立EVM或L1共识重放；不声称Core业务完成。",
+  "baseline": "2026-10-13"
+}

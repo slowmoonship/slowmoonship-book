@@ -1,0 +1,1215 @@
+[
+  {
+    "number": 1,
+    "part": 1,
+    "title": "点击买入之后，链上发生了什么",
+    "slug": "click",
+    "path": "book/part-01/01-click.md",
+    "question": "点击买入之后，链上发生了什么？",
+    "prerequisites": [],
+    "source_ids": [
+      "about-hyperliquid",
+      "hypercore__overview"
+    ],
+    "diagram": "click",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [
+      3
+    ],
+    "sql_ids": [],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 2,
+    "part": 1,
+    "title": "订单先后顺序为何需要共识",
+    "slug": "consensus",
+    "path": "book/part-01/02-consensus.md",
+    "question": "订单先后顺序为何需要共识？",
+    "prerequisites": [
+      1
+    ],
+    "source_ids": [
+      "hypercore__order-book",
+      "hypercore__staking"
+    ],
+    "diagram": "consensus",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [],
+    "sql_ids": [],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 3,
+    "part": 1,
+    "title": "同一条L1的两种执行环境",
+    "slug": "runtime",
+    "path": "book/part-01/03-runtime.md",
+    "question": "同一条L1的两种执行环境？",
+    "prerequisites": [
+      2
+    ],
+    "source_ids": [
+      "hyperevm",
+      "for-developers__hyperevm__interacting-with-hypercore",
+      "for-developers__hyperevm__interaction-timings"
+    ],
+    "diagram": "runtime",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [
+      8
+    ],
+    "sql_ids": [],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 4,
+    "part": 1,
+    "title": "把一次金融行为拆成不同记录",
+    "slug": "records",
+    "path": "book/part-01/04-records.md",
+    "question": "把一次金融行为拆成不同记录？",
+    "prerequisites": [
+      3
+    ],
+    "source_ids": [
+      "for-developers__nodes__l1-data-schemas",
+      "for-developers__api__websocket__subscriptions",
+      "dune-perp-trades"
+    ],
+    "diagram": "records",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [
+      3,
+      13
+    ],
+    "sql_ids": [],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 5,
+    "part": 2,
+    "title": "一个地址为何有多种余额",
+    "slug": "accounts",
+    "path": "book/part-02/05-accounts.md",
+    "question": "一个地址为何有多种余额？",
+    "prerequisites": [
+      4
+    ],
+    "source_ids": [
+      "trading__account-abstraction-modes",
+      "for-developers__api__info-endpoint__spot",
+      "hypercore__staking"
+    ],
+    "diagram": "accounts",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [],
+    "sql_ids": [],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 6,
+    "part": 2,
+    "title": "账户模式决定保证金怎样共享",
+    "slug": "abstraction",
+    "path": "book/part-02/06-abstraction.md",
+    "question": "账户模式决定保证金怎样共享？",
+    "prerequisites": [
+      5
+    ],
+    "source_ids": [
+      "trading__account-abstraction-modes",
+      "trading__margining",
+      "trading__portfolio-margin"
+    ],
+    "diagram": "abstraction",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [],
+    "sql_ids": [],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 7,
+    "part": 2,
+    "title": "主账户、子账户和代理钱包",
+    "slug": "identities",
+    "path": "book/part-02/07-identities.md",
+    "question": "主账户、子账户和代理钱包？",
+    "prerequisites": [
+      6
+    ],
+    "source_ids": [
+      "trading__sub-accounts",
+      "for-developers__api__nonces-and-api-wallets",
+      "hypercore__vaults"
+    ],
+    "diagram": "identities",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [
+      13
+    ],
+    "sql_ids": [],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 8,
+    "part": 2,
+    "title": "怎样读懂一份账户状态",
+    "slug": "account-state",
+    "path": "book/part-02/08-account-state.md",
+    "question": "怎样读懂一份账户状态？",
+    "prerequisites": [
+      7
+    ],
+    "source_ids": [
+      "for-developers__api__info-endpoint__perpetuals",
+      "for-developers__api__info-endpoint__spot",
+      "trading__account-abstraction-modes"
+    ],
+    "diagram": "account-state",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [],
+    "sql_ids": [],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 9,
+    "part": 3,
+    "title": "读懂订单簿的两边",
+    "slug": "book",
+    "path": "book/part-03/09-book.md",
+    "question": "读懂订单簿的两边？",
+    "prerequisites": [
+      8
+    ],
+    "source_ids": [
+      "hypercore__order-book",
+      "for-developers__api__tick-and-lot-size",
+      "for-developers__api__info-endpoint"
+    ],
+    "diagram": "book",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [],
+    "sql_ids": [],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 10,
+    "part": 3,
+    "title": "撮合怎样选择交易对手",
+    "slug": "matching",
+    "path": "book/part-03/10-matching.md",
+    "question": "撮合怎样选择交易对手？",
+    "prerequisites": [
+      9
+    ],
+    "source_ids": [
+      "hypercore__order-book",
+      "trading__self-trade-prevention",
+      "trading__fees"
+    ],
+    "diagram": "matching",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [
+      3
+    ],
+    "sql_ids": [],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 11,
+    "part": 3,
+    "title": "一张订单怎样分成多个成交",
+    "slug": "partial",
+    "path": "book/part-03/11-partial.md",
+    "question": "一张订单怎样分成多个成交？",
+    "prerequisites": [
+      10
+    ],
+    "source_ids": [
+      "for-developers__api__info-endpoint",
+      "for-developers__api__websocket__subscriptions"
+    ],
+    "diagram": "partial",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [
+      2
+    ],
+    "sql_ids": [],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 12,
+    "part": 3,
+    "title": "挂单、撤单和条件订单的生命周期",
+    "slug": "orders",
+    "path": "book/part-03/12-orders.md",
+    "question": "挂单、撤单和条件订单的生命周期？",
+    "prerequisites": [
+      11
+    ],
+    "source_ids": [
+      "trading__order-types",
+      "for-developers__api__exchange-endpoint",
+      "hypercore__order-book"
+    ],
+    "diagram": "orders",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [
+      1
+    ],
+    "sql_ids": [],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 13,
+    "part": 4,
+    "title": "买入BTC永续为何没有收到BTC",
+    "slug": "perpetual",
+    "path": "book/part-04/13-perpetual.md",
+    "question": "买入BTC永续为何没有收到BTC？",
+    "prerequisites": [
+      12
+    ],
+    "source_ids": [
+      "trading__contract-specifications",
+      "hypercore__clearinghouse"
+    ],
+    "diagram": "perpetual",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [
+      3
+    ],
+    "sql_ids": [],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 14,
+    "part": 4,
+    "title": "成交方向怎样改变持仓",
+    "slug": "position",
+    "path": "book/part-04/14-position.md",
+    "question": "成交方向怎样改变持仓？",
+    "prerequisites": [
+      13
+    ],
+    "source_ids": [
+      "trading__entry-price-and-pnl",
+      "for-developers__api__info-endpoint"
+    ],
+    "diagram": "position",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [
+      3
+    ],
+    "sql_ids": [],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 15,
+    "part": 4,
+    "title": "盈利为何不等于账户余额增加",
+    "slug": "pnl",
+    "path": "book/part-04/15-pnl.md",
+    "question": "盈利为何不等于账户余额增加？",
+    "prerequisites": [
+      14
+    ],
+    "source_ids": [
+      "trading__entry-price-and-pnl",
+      "trading__margining",
+      "trading__fees"
+    ],
+    "diagram": "pnl",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [
+      3
+    ],
+    "sql_ids": [],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 16,
+    "part": 4,
+    "title": "成交量与未平仓量分别数什么",
+    "slug": "oi",
+    "path": "book/part-04/16-oi.md",
+    "question": "成交量与未平仓量分别数什么？",
+    "prerequisites": [
+      15
+    ],
+    "source_ids": [
+      "dune-perp-market-metrics-hourly",
+      "dune-perp-positions-hourly",
+      "dune-perp-trades"
+    ],
+    "diagram": "oi",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [
+      3
+    ],
+    "sql_ids": [
+      5,
+      6
+    ],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 17,
+    "part": 5,
+    "title": "成交价、标记价与预言机价",
+    "slug": "prices",
+    "path": "book/part-05/17-prices.md",
+    "question": "成交价、标记价与预言机价？",
+    "prerequisites": [
+      16
+    ],
+    "source_ids": [
+      "trading__robust-price-indices",
+      "hypercore__oracle",
+      "dune-perp-oracle-prices"
+    ],
+    "diagram": "prices",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [],
+    "sql_ids": [],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 18,
+    "part": 5,
+    "title": "保证金是怎样一层层检查的",
+    "slug": "margin",
+    "path": "book/part-05/18-margin.md",
+    "question": "保证金是怎样一层层检查的？",
+    "prerequisites": [
+      17
+    ],
+    "source_ids": [
+      "trading__margining",
+      "trading__margin-tiers",
+      "trading__portfolio-margin"
+    ],
+    "diagram": "margin",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [],
+    "sql_ids": [],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 19,
+    "part": 5,
+    "title": "清算为何不是一次普通卖出",
+    "slug": "liquidation",
+    "path": "book/part-05/19-liquidation.md",
+    "question": "清算为何不是一次普通卖出？",
+    "prerequisites": [
+      18
+    ],
+    "source_ids": [
+      "trading__liquidations",
+      "dune-perp-trades"
+    ],
+    "diagram": "liquidation",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [
+      5
+    ],
+    "sql_ids": [
+      9
+    ],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 20,
+    "part": 5,
+    "title": "后备接管与自动减仓的区别",
+    "slug": "backstop",
+    "path": "book/part-05/20-backstop.md",
+    "question": "后备接管与自动减仓的区别？",
+    "prerequisites": [
+      19
+    ],
+    "source_ids": [
+      "trading__liquidations",
+      "trading__auto-deleveraging",
+      "hyperliquid-improvement-proposals-hips__hip-3-builder-deployed-perpetuals",
+      "trading__portfolio-margin"
+    ],
+    "diagram": "backstop",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [
+      5
+    ],
+    "sql_ids": [],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 21,
+    "part": 6,
+    "title": "持仓没有交易，为何出现现金流",
+    "slug": "funding-flow",
+    "path": "book/part-06/21-funding-flow.md",
+    "question": "持仓没有交易，为何出现现金流？",
+    "prerequisites": [
+      20
+    ],
+    "source_ids": [
+      "trading__funding",
+      "for-developers__api__info-endpoint__perpetuals"
+    ],
+    "diagram": "funding-flow",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [
+      4
+    ],
+    "sql_ids": [],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 22,
+    "part": 6,
+    "title": "资金费率怎样从溢价产生",
+    "slug": "funding-rate",
+    "path": "book/part-06/22-funding-rate.md",
+    "question": "资金费率怎样从溢价产生？",
+    "prerequisites": [
+      21
+    ],
+    "source_ids": [
+      "trading__funding",
+      "trading__contract-specifications",
+      "for-developers__api__hip-3-deployer-actions"
+    ],
+    "diagram": "funding-rate",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [
+      4
+    ],
+    "sql_ids": [
+      7
+    ],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 23,
+    "part": 6,
+    "title": "怎样核对用户实际资金费用",
+    "slug": "funding-payment",
+    "path": "book/part-06/23-funding-payment.md",
+    "question": "怎样核对用户实际资金费用？",
+    "prerequisites": [
+      22
+    ],
+    "source_ids": [
+      "for-developers__api__info-endpoint__perpetuals",
+      "dune-perp-positions-hourly"
+    ],
+    "diagram": "funding-payment",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [
+      4
+    ],
+    "sql_ids": [
+      8
+    ],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 24,
+    "part": 6,
+    "title": "手续费、返佣与协议收入",
+    "slug": "fees",
+    "path": "book/part-06/24-fees.md",
+    "question": "手续费、返佣与协议收入？",
+    "prerequisites": [
+      23
+    ],
+    "source_ids": [
+      "trading__fees",
+      "trading__builder-codes",
+      "hyperliquid-improvement-proposals-hips__hip-1-native-token-standard"
+    ],
+    "diagram": "fees",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [
+      3
+    ],
+    "sql_ids": [
+      3
+    ],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 25,
+    "part": 7,
+    "title": "现货成交如何改变两种资产",
+    "slug": "spot",
+    "path": "book/part-07/25-spot.md",
+    "question": "现货成交如何改变两种资产？",
+    "prerequisites": [
+      24
+    ],
+    "source_ids": [
+      "for-developers__api__info-endpoint__spot",
+      "for-developers__api__websocket__subscriptions"
+    ],
+    "diagram": "spot",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [
+      6
+    ],
+    "sql_ids": [],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 26,
+    "part": 7,
+    "title": "Token编号与Pair编号的区别",
+    "slug": "token-pair",
+    "path": "book/part-07/26-token-pair.md",
+    "question": "Token编号与Pair编号的区别？",
+    "prerequisites": [
+      25
+    ],
+    "source_ids": [
+      "for-developers__api__asset-ids",
+      "hyperliquid-improvement-proposals-hips__hip-1-native-token-standard",
+      "hypercore__permissionless-spot-quote-assets"
+    ],
+    "diagram": "token-pair",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [
+      6
+    ],
+    "sql_ids": [],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 27,
+    "part": 7,
+    "title": "HIP-2怎样把流动性放进订单簿",
+    "slug": "hip2",
+    "path": "book/part-07/27-hip2.md",
+    "question": "HIP-2怎样把流动性放进订单簿？",
+    "prerequisites": [
+      26
+    ],
+    "source_ids": [
+      "hyperliquid-improvement-proposals-hips__hip-2-hyperliquidity"
+    ],
+    "diagram": "hip2",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [
+      7
+    ],
+    "sql_ids": [],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 28,
+    "part": 7,
+    "title": "Core与EVM之间怎样移动资产",
+    "slug": "transfers",
+    "path": "book/part-07/28-transfers.md",
+    "question": "Core与EVM之间怎样移动资产？",
+    "prerequisites": [
+      27
+    ],
+    "source_ids": [
+      "for-developers__hyperevm__hypercore-less-than-greater-than-hyperevm-transfers",
+      "for-developers__hyperevm__interaction-timings"
+    ],
+    "diagram": "transfers",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [
+      8
+    ],
+    "sql_ids": [],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 29,
+    "part": 8,
+    "title": "HyperEVM的区块与Gas",
+    "slug": "evm",
+    "path": "book/part-08/29-evm.md",
+    "question": "HyperEVM的区块与Gas？",
+    "prerequisites": [
+      28
+    ],
+    "source_ids": [
+      "for-developers__hyperevm",
+      "for-developers__hyperevm__dual-block-architecture",
+      "for-developers__hyperevm__json-rpc"
+    ],
+    "diagram": "evm",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [
+      14
+    ],
+    "sql_ids": [
+      14
+    ],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 30,
+    "part": 8,
+    "title": "智能合约怎样读取Core状态",
+    "slug": "precompiles",
+    "path": "book/part-08/30-precompiles.md",
+    "question": "智能合约怎样读取Core状态？",
+    "prerequisites": [
+      29
+    ],
+    "source_ids": [
+      "for-developers__hyperevm__interacting-with-hypercore",
+      "for-developers__hyperevm__json-rpc"
+    ],
+    "diagram": "precompiles",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [
+      8
+    ],
+    "sql_ids": [],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 31,
+    "part": 8,
+    "title": "CoreWriter为何需要两阶段核对",
+    "slug": "corewriter",
+    "path": "book/part-08/31-corewriter.md",
+    "question": "CoreWriter为何需要两阶段核对？",
+    "prerequisites": [
+      30
+    ],
+    "source_ids": [
+      "for-developers__hyperevm__interacting-with-hypercore",
+      "for-developers__hyperevm__interaction-timings"
+    ],
+    "diagram": "corewriter",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [
+      8
+    ],
+    "sql_ids": [
+      15
+    ],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 32,
+    "part": 8,
+    "title": "EVM交易、日志与调用树",
+    "slug": "evm-data",
+    "path": "book/part-08/32-evm-data.md",
+    "question": "EVM交易、日志与调用树？",
+    "prerequisites": [
+      31
+    ],
+    "source_ids": [
+      "dune-hyperevm",
+      "for-developers__hyperevm__json-rpc"
+    ],
+    "diagram": "evm-data",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [
+      14
+    ],
+    "sql_ids": [
+      14,
+      15
+    ],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 33,
+    "part": 9,
+    "title": "HIP-3怎样定义一个独立市场",
+    "slug": "hip3",
+    "path": "book/part-09/33-hip3.md",
+    "question": "HIP-3怎样定义一个独立市场？",
+    "prerequisites": [
+      32
+    ],
+    "source_ids": [
+      "hyperliquid-improvement-proposals-hips__hip-3-builder-deployed-perpetuals",
+      "for-developers__api__hip-3-deployer-actions",
+      "dune-perp-market-details"
+    ],
+    "diagram": "hip3",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [
+      9
+    ],
+    "sql_ids": [
+      1,
+      12,
+      13
+    ],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 34,
+    "part": 9,
+    "title": "HIP-4从交易走向结果结算",
+    "slug": "hip4",
+    "path": "book/part-09/34-hip4.md",
+    "question": "HIP-4从交易走向结果结算？",
+    "prerequisites": [
+      33
+    ],
+    "source_ids": [
+      "hyperliquid-improvement-proposals-hips__hip-4-outcome-markets",
+      "for-developers__api__hip-4-deployer-actions",
+      "trading__contract-specifications",
+      "dune-hip4"
+    ],
+    "diagram": "hip4",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [
+      10
+    ],
+    "sql_ids": [
+      16
+    ],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 35,
+    "part": 9,
+    "title": "质押怎样连接验证者与共识",
+    "slug": "staking",
+    "path": "book/part-09/35-staking.md",
+    "question": "质押怎样连接验证者与共识？",
+    "prerequisites": [
+      34
+    ],
+    "source_ids": [
+      "hypercore__staking",
+      "validators"
+    ],
+    "diagram": "staking",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [
+      12
+    ],
+    "sql_ids": [],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 36,
+    "part": 9,
+    "title": "HLP与Vault的份额和盈亏",
+    "slug": "vault",
+    "path": "book/part-09/36-vault.md",
+    "question": "HLP与Vault的份额和盈亏？",
+    "prerequisites": [
+      35
+    ],
+    "source_ids": [
+      "hypercore__vaults",
+      "hypercore__vaults__protocol-vaults",
+      "trading__fees"
+    ],
+    "diagram": "vault",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [
+      11
+    ],
+    "sql_ids": [],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 37,
+    "part": 10,
+    "title": "协议状态怎样进入数据接口",
+    "slug": "data-sources",
+    "path": "book/part-10/37-data-sources.md",
+    "question": "协议状态怎样进入数据接口？",
+    "prerequisites": [
+      36
+    ],
+    "source_ids": [
+      "for-developers__nodes__l1-data-schemas",
+      "historical-data",
+      "for-developers__api__websocket__subscriptions"
+    ],
+    "diagram": "data-sources",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [],
+    "sql_ids": [],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 38,
+    "part": 10,
+    "title": "Dune表的粒度、覆盖与权限",
+    "slug": "dune",
+    "path": "book/part-10/38-dune.md",
+    "question": "Dune表的粒度、覆盖与权限？",
+    "prerequisites": [
+      37
+    ],
+    "source_ids": [
+      "dune-perps",
+      "dune-hip4",
+      "dune-hyperevm"
+    ],
+    "diagram": "dune",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [],
+    "sql_ids": [
+      1,
+      18
+    ],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 39,
+    "part": 10,
+    "title": "把金融问题写成可审查的SQL",
+    "slug": "sql",
+    "path": "book/part-10/39-sql.md",
+    "question": "把金融问题写成可审查的SQL？",
+    "prerequisites": [
+      38
+    ],
+    "source_ids": [
+      "dune-perp-trades",
+      "dune-perp-market-metrics-hourly",
+      "dune-perp-orderbook-1m",
+      "dune-hip4"
+    ],
+    "diagram": "sql",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [],
+    "sql_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  },
+  {
+    "number": 40,
+    "part": 10,
+    "title": "重建历史状态并解释研究边界",
+    "slug": "reconstruction",
+    "path": "book/part-10/40-reconstruction.md",
+    "question": "重建历史状态并解释研究边界？",
+    "prerequisites": [
+      39
+    ],
+    "source_ids": [
+      "for-developers__nodes__l1-data-schemas",
+      "dune-perp-orderbook-1m",
+      "for-developers__api__websocket__subscriptions"
+    ],
+    "diagram": "reconstruction",
+    "data_exercise": "research/chapter-exercises.md",
+    "validation": [
+      "readability",
+      "protocol semantics",
+      "grain and units",
+      "links and illustration"
+    ],
+    "status": "DONE",
+    "case_ids": [],
+    "sql_ids": [
+      17,
+      18
+    ],
+    "completion_scope": "manuscript/illustration/self-review; external gaps retained separately"
+  }
+]

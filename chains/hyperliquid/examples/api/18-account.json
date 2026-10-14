@@ -1,0 +1,57 @@
+{
+  "network": "Mainnet",
+  "method": "POST",
+  "endpoint": "https://api.hyperliquid.xyz/info",
+  "request": {
+    "type": "clearinghouseState",
+    "user": "0x78dce96236804d6958bf3c4598cf5efbc371629c"
+  },
+  "retrieved_at": "2026-10-13T06:11:24.933798+00:00",
+  "grain": "user perpetual current state",
+  "unit": "endpoint-specific",
+  "response": {
+    "marginSummary": {
+      "accountValue": "25882.073247",
+      "totalNtlPos": "635298.58432",
+      "totalRawUsd": "661180.657567",
+      "totalMarginUsed": "24434.560935"
+    },
+    "crossMarginSummary": {
+      "accountValue": "25882.073247",
+      "totalNtlPos": "635298.58432",
+      "totalRawUsd": "661180.657567",
+      "totalMarginUsed": "24434.560935"
+    },
+    "crossMaintenanceMarginUsed": "7941.232304",
+    "withdrawable": "0.0",
+    "assetPositions": [
+      {
+        "type": "oneWay",
+        "position": {
+          "coin": "BTC",
+          "szi": "-7.59872",
+          "leverage": {
+            "type": "cross",
+            "value": 26
+          },
+          "entryPx": "83248.3",
+          "positionValue": "635298.58432",
+          "unrealizedPnl": "-2717.920695",
+          "returnOnEquity": "-0.1117105567",
+          "liquidationPx": "85937.8860386363",
+          "marginUsed": "24434.560935",
+          "maxLeverage": 40,
+          "cumFunding": {
+            "allTime": "-13126.251511",
+            "sinceOpen": "-1391.938386",
+            "sinceChange": "0.0"
+          }
+        }
+      }
+    ],
+    "time": 1791871885231
+  },
+  "status": "OBSERVED",
+  "limitations": "Finite sample, not full history; event time differs from response time.",
+  "http_status": 200
+}

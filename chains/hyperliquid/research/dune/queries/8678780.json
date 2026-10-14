@@ -1,0 +1,28 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"query_id\":8678780,\"user_id\":null,\"team_id\":953543,\"version\":1,\"name\":\"SMS HYPE 14: HyperEVM top contracts by inbound transactions (30D, top 15)\",\"description\":\"Top 15 destination addresses by inbound transaction count over the last 30 UTC days. Note \\\"to\\\" may include EOAs; provides tx-side complement to log-side contract panel.\",\"tags\":[],\"query\":\"-- SMS HYPE 14: top contracts by inbound transactions over the last 30 complete UTC days.\\n-- Source: hyperevm.transactions.\\\"to\\\". This is a tx-side complement to SMS HYPE 13\\n-- (which is log-side). A row here means at least one transaction targeted that\\n-- address; \\\"to\\\" is not guaranteed to be a contract — it can also be an EOA.\\n-- We exclude NULL destinations (contract-creation transactions) so the panel\\n-- focuses on destination contracts.\\n\\nSELECT\\n    t.\\\"to\\\" AS destination_address,\\n    COUNT(*) AS tx_in_count,\\n    COUNT(DISTINCT t.\\\"from\\\") AS distinct_senders,\\n    SUM(CASE WHEN t.success THEN 1 ELSE 0 END) AS success_count,\\n    SUM(CASE WHEN NOT t.success THEN 1 ELSE 0 END) AS failure_count\\nFROM hyperevm.transactions t\\nWHERE t.block_date >= CAST(CURRENT_DATE - INTERVAL '30' DAY AS DATE)\\n  AND t.block_date < CURRENT_DATE\\n  AND t.\\\"to\\\" IS NOT NULL\\nGROUP BY t.\\\"to\\\"\\nORDER BY tx_in_count DESC\\nLIMIT 15;\",\"parameters\":[],\"is_archived\":false,\"is_private\":false,\"is_temp\":true,\"latest_execution_id\":\"01M28351C2GAN2MCRSNKSMYVZ1\",\"latest_execution_state\":\"QUERY_STATE_COMPLETED\"}"
+      }
+    ],
+    "structuredContent": {
+      "query_id": 8678780,
+      "user_id": null,
+      "team_id": 953543,
+      "version": 1,
+      "name": "SMS HYPE 14: HyperEVM top contracts by inbound transactions (30D, top 15)",
+      "description": "Top 15 destination addresses by inbound transaction count over the last 30 UTC days. Note \"to\" may include EOAs; provides tx-side complement to log-side contract panel.",
+      "tags": [],
+      "query": "-- SMS HYPE 14: top contracts by inbound transactions over the last 30 complete UTC days.\n-- Source: hyperevm.transactions.\"to\". This is a tx-side complement to SMS HYPE 13\n-- (which is log-side). A row here means at least one transaction targeted that\n-- address; \"to\" is not guaranteed to be a contract — it can also be an EOA.\n-- We exclude NULL destinations (contract-creation transactions) so the panel\n-- focuses on destination contracts.\n\nSELECT\n    t.\"to\" AS destination_address,\n    COUNT(*) AS tx_in_count,\n    COUNT(DISTINCT t.\"from\") AS distinct_senders,\n    SUM(CASE WHEN t.success THEN 1 ELSE 0 END) AS success_count,\n    SUM(CASE WHEN NOT t.success THEN 1 ELSE 0 END) AS failure_count\nFROM hyperevm.transactions t\nWHERE t.block_date >= CAST(CURRENT_DATE - INTERVAL '30' DAY AS DATE)\n  AND t.block_date < CURRENT_DATE\n  AND t.\"to\" IS NOT NULL\nGROUP BY t.\"to\"\nORDER BY tx_in_count DESC\nLIMIT 15;",
+      "parameters": [],
+      "is_archived": false,
+      "is_private": false,
+      "is_temp": true,
+      "latest_execution_id": "01M28351C2GAN2MCRSNKSMYVZ1",
+      "latest_execution_state": "QUERY_STATE_COMPLETED"
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 18
+}

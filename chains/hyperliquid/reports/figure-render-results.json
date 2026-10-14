@@ -1,0 +1,242 @@
+[
+  {
+    "file": "abstraction.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 690
+  },
+  {
+    "file": "account-state.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 690
+  },
+  {
+    "file": "accounts.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 690
+  },
+  {
+    "file": "backstop.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 690
+  },
+  {
+    "file": "book.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 690
+  },
+  {
+    "file": "click.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 540
+  },
+  {
+    "file": "consensus.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 540
+  },
+  {
+    "file": "corewriter.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 690
+  },
+  {
+    "file": "data-sources.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 690
+  },
+  {
+    "file": "dune.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 690
+  },
+  {
+    "file": "evm-data.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 690
+  },
+  {
+    "file": "evm.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 690
+  },
+  {
+    "file": "fees.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 690
+  },
+  {
+    "file": "funding-flow.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 690
+  },
+  {
+    "file": "funding-payment.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 690
+  },
+  {
+    "file": "funding-rate.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 690
+  },
+  {
+    "file": "hip2.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 690
+  },
+  {
+    "file": "hip3.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 690
+  },
+  {
+    "file": "hip4.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 690
+  },
+  {
+    "file": "identities.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 690
+  },
+  {
+    "file": "liquidation.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 690
+  },
+  {
+    "file": "margin.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 690
+  },
+  {
+    "file": "matching.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 690
+  },
+  {
+    "file": "oi.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 690
+  },
+  {
+    "file": "orders.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 690
+  },
+  {
+    "file": "partial.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 690
+  },
+  {
+    "file": "perpetual.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 690
+  },
+  {
+    "file": "pnl.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 690
+  },
+  {
+    "file": "position.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 690
+  },
+  {
+    "file": "precompiles.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 690
+  },
+  {
+    "file": "prices.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 690
+  },
+  {
+    "file": "reconstruction.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 690
+  },
+  {
+    "file": "records.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 690
+  },
+  {
+    "file": "runtime.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 690
+  },
+  {
+    "file": "spot.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 690
+  },
+  {
+    "file": "sql.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 690
+  },
+  {
+    "file": "staking.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 690
+  },
+  {
+    "file": "token-pair.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 690
+  },
+  {
+    "file": "transfers.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 690
+  },
+  {
+    "file": "vault.svg",
+    "status": "RENDERED",
+    "width": 1200,
+    "height": 690
+  }
+]
