@@ -1,0 +1,308 @@
+[
+  {
+    "slug": "wallet",
+    "title": "钱包中的余额 / Wallet Balance",
+    "width": 640,
+    "height": 632,
+    "node_count": 5,
+    "edge_count": 4,
+    "visual_status": "PENDING"
+  },
+  {
+    "slug": "payment",
+    "title": "教学转账 / Hypothetical Payment",
+    "width": 640,
+    "height": 632,
+    "node_count": 5,
+    "edge_count": 3,
+    "visual_status": "PENDING"
+  },
+  {
+    "slug": "outpoint",
+    "title": "定位旧输出 / Outpoint Reference",
+    "width": 640,
+    "height": 632,
+    "node_count": 4,
+    "edge_count": 3,
+    "visual_status": "PENDING"
+  },
+  {
+    "slug": "utxo",
+    "title": "UTXO 生命周期 / UTXO Lifecycle",
+    "width": 640,
+    "height": 916,
+    "node_count": 6,
+    "edge_count": 5,
+    "visual_status": "PENDING"
+  },
+  {
+    "slug": "transaction",
+    "title": "交易结构 / Transaction Anatomy",
+    "width": 640,
+    "height": 774,
+    "node_count": 6,
+    "edge_count": 4,
+    "visual_status": "PENDING"
+  },
+  {
+    "slug": "segwit",
+    "title": "见证与标识 / SegWit Identifiers",
+    "width": 640,
+    "height": 632,
+    "node_count": 6,
+    "edge_count": 4,
+    "visual_status": "PENDING"
+  },
+  {
+    "slug": "script",
+    "title": "花费验证 / Script Validation",
+    "width": 640,
+    "height": 632,
+    "node_count": 5,
+    "edge_count": 3,
+    "visual_status": "PENDING"
+  },
+  {
+    "slug": "address-types",
+    "title": "地址与脚本 / Addresses and Scripts",
+    "width": 640,
+    "height": 632,
+    "node_count": 6,
+    "edge_count": 0,
+    "visual_status": "PENDING"
+  },
+  {
+    "slug": "timelocks",
+    "title": "授权与等待 / Authorization and Time",
+    "width": 640,
+    "height": 632,
+    "node_count": 5,
+    "edge_count": 4,
+    "visual_status": "PENDING"
+  },
+  {
+    "slug": "block",
+    "title": "区块结构 / Bitcoin Block Anatomy",
+    "width": 640,
+    "height": 774,
+    "node_count": 5,
+    "edge_count": 4,
+    "visual_status": "PENDING"
+  },
+  {
+    "slug": "mining",
+    "title": "工作量与确认 / Work and Confirmations",
+    "width": 640,
+    "height": 774,
+    "node_count": 5,
+    "edge_count": 4,
+    "visual_status": "PENDING"
+  },
+  {
+    "slug": "coinbase",
+    "title": "Coinbase 奖励 / Subsidy and Fees",
+    "width": 640,
+    "height": 774,
+    "node_count": 5,
+    "edge_count": 4,
+    "visual_status": "PENDING"
+  },
+  {
+    "slug": "fees",
+    "title": "金额与资源 / Fee and Resource Units",
+    "width": 640,
+    "height": 632,
+    "node_count": 5,
+    "edge_count": 4,
+    "visual_status": "PENDING"
+  },
+  {
+    "slug": "lifecycle",
+    "title": "交易生命周期 / Transaction Lifecycle",
+    "width": 640,
+    "height": 774,
+    "node_count": 6,
+    "edge_count": 5,
+    "visual_status": "PENDING"
+  },
+  {
+    "slug": "rbf-cpfp",
+    "title": "两种加费 / RBF vs CPFP",
+    "width": 640,
+    "height": 632,
+    "node_count": 6,
+    "edge_count": 4,
+    "visual_status": "PENDING"
+  },
+  {
+    "slug": "taproot",
+    "title": "Taproot 花费路径 / Key vs Script Path",
+    "width": 640,
+    "height": 632,
+    "node_count": 5,
+    "edge_count": 4,
+    "visual_status": "PENDING"
+  },
+  {
+    "slug": "proposal",
+    "title": "提案与部署 / Proposal and Deployment",
+    "width": 640,
+    "height": 774,
+    "node_count": 5,
+    "edge_count": 4,
+    "visual_status": "PENDING"
+  },
+  {
+    "slug": "dune-model",
+    "title": "Dune 四表 / Bitcoin Raw Data Model",
+    "width": 640,
+    "height": 774,
+    "node_count": 6,
+    "edge_count": 5,
+    "visual_status": "PENDING"
+  },
+  {
+    "slug": "rpc",
+    "title": "三个读取窗口 / RPC Observation Windows",
+    "width": 640,
+    "height": 632,
+    "node_count": 5,
+    "edge_count": 4,
+    "visual_status": "PENDING"
+  },
+  {
+    "slug": "joins",
+    "title": "避免行数放大 / Prevent Join Multiplication",
+    "width": 640,
+    "height": 774,
+    "node_count": 6,
+    "edge_count": 7,
+    "visual_status": "PENDING"
+  },
+  {
+    "slug": "balance",
+    "title": "截止余额 / Balance at a Cutoff",
+    "width": 640,
+    "height": 632,
+    "node_count": 5,
+    "edge_count": 3,
+    "visual_status": "PENDING"
+  },
+  {
+    "slug": "age",
+    "title": "年龄与币天 / Age and CDD",
+    "width": 640,
+    "height": 632,
+    "node_count": 6,
+    "edge_count": 4,
+    "visual_status": "PENDING"
+  },
+  {
+    "slug": "metrics",
+    "title": "计数对象 / What Is Being Counted?",
+    "width": 640,
+    "height": 632,
+    "node_count": 5,
+    "edge_count": 4,
+    "visual_status": "PENDING"
+  },
+  {
+    "slug": "spend-graph",
+    "title": "三层真实依赖 / Three-Hop Spend Graph",
+    "width": 640,
+    "height": 916,
+    "node_count": 6,
+    "edge_count": 4,
+    "visual_status": "PENDING"
+  },
+  {
+    "slug": "change",
+    "title": "找零候选 / Change Heuristic",
+    "width": 640,
+    "height": 632,
+    "node_count": 5,
+    "edge_count": 5,
+    "visual_status": "PENDING"
+  },
+  {
+    "slug": "coinjoin",
+    "title": "共同输入的边界 / Shared Inputs",
+    "width": 640,
+    "height": 632,
+    "node_count": 5,
+    "edge_count": 3,
+    "visual_status": "PENDING"
+  },
+  {
+    "slug": "entity",
+    "title": "交易图与实体图 / Transaction vs Entity",
+    "width": 640,
+    "height": 632,
+    "node_count": 5,
+    "edge_count": 4,
+    "visual_status": "PENDING"
+  },
+  {
+    "slug": "lineage",
+    "title": "三类追踪 / Three Tracking Definitions",
+    "width": 640,
+    "height": 632,
+    "node_count": 5,
+    "edge_count": 3,
+    "visual_status": "PENDING"
+  },
+  {
+    "slug": "probability",
+    "title": "比例血缘 / Proportional Allocation",
+    "width": 640,
+    "height": 632,
+    "node_count": 5,
+    "edge_count": 4,
+    "visual_status": "PENDING"
+  },
+  {
+    "slug": "overlay",
+    "title": "数据解释层 / Overlay Data Layers",
+    "width": 640,
+    "height": 632,
+    "node_count": 5,
+    "edge_count": 3,
+    "visual_status": "PENDING"
+  },
+  {
+    "slug": "lightning",
+    "title": "主网可见性 / Lightning Visibility",
+    "width": 640,
+    "height": 632,
+    "node_count": 5,
+    "edge_count": 4,
+    "visual_status": "PENDING"
+  },
+  {
+    "slug": "evidence",
+    "title": "证据分级 / Evidence Levels",
+    "width": 640,
+    "height": 774,
+    "node_count": 6,
+    "edge_count": 5,
+    "visual_status": "PENDING"
+  },
+  {
+    "slug": "data-model",
+    "title": "两种基础模型 / UTXO vs Account",
+    "width": 640,
+    "height": 632,
+    "node_count": 6,
+    "edge_count": 4,
+    "visual_status": "PENDING"
+  },
+  {
+    "slug": "payment-real",
+    "title": "真实交易 / Mainnet Payment Structure",
+    "width": 640,
+    "height": 632,
+    "node_count": 5,
+    "edge_count": 3,
+    "visual_status": "PENDING"
+  }
+]

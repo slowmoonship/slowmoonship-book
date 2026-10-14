@@ -1,0 +1,142 @@
+[
+  {
+    "slug": "bip16",
+    "status": "FETCHED_GITHUB_MCP",
+    "uri": "repo://bitcoin/bips/sha/927b6de9915c9262615a6399de51b200f81e5aa4/contents/bip-0016.mediawiki"
+  },
+  {
+    "slug": "bip30",
+    "status": "FETCHED_GITHUB_MCP",
+    "uri": "repo://bitcoin/bips/sha/927b6de9915c9262615a6399de51b200f81e5aa4/contents/bip-0030.mediawiki"
+  },
+  {
+    "slug": "bip34",
+    "status": "FETCHED_GITHUB_MCP",
+    "uri": "repo://bitcoin/bips/sha/927b6de9915c9262615a6399de51b200f81e5aa4/contents/bip-0034.mediawiki"
+  },
+  {
+    "slug": "bip65",
+    "status": "FETCHED_GITHUB_MCP",
+    "uri": "repo://bitcoin/bips/sha/927b6de9915c9262615a6399de51b200f81e5aa4/contents/bip-0065.mediawiki"
+  },
+  {
+    "slug": "bip68",
+    "status": "FETCHED_GITHUB_MCP",
+    "uri": "repo://bitcoin/bips/sha/927b6de9915c9262615a6399de51b200f81e5aa4/contents/bip-0068.mediawiki"
+  },
+  {
+    "slug": "bip112",
+    "status": "FETCHED_GITHUB_MCP",
+    "uri": "repo://bitcoin/bips/sha/927b6de9915c9262615a6399de51b200f81e5aa4/contents/bip-0112.mediawiki"
+  },
+  {
+    "slug": "bip113",
+    "status": "FETCHED_GITHUB_MCP",
+    "uri": "repo://bitcoin/bips/sha/927b6de9915c9262615a6399de51b200f81e5aa4/contents/bip-0113.mediawiki"
+  },
+  {
+    "slug": "bip125",
+    "status": "FETCHED_GITHUB_MCP",
+    "uri": "repo://bitcoin/bips/sha/927b6de9915c9262615a6399de51b200f81e5aa4/contents/bip-0125.mediawiki"
+  },
+  {
+    "slug": "bip141",
+    "status": "FETCHED_GITHUB_MCP",
+    "uri": "repo://bitcoin/bips/sha/927b6de9915c9262615a6399de51b200f81e5aa4/contents/bip-0141.mediawiki"
+  },
+  {
+    "slug": "bip143",
+    "status": "FETCHED_GITHUB_MCP",
+    "uri": "repo://bitcoin/bips/sha/927b6de9915c9262615a6399de51b200f81e5aa4/contents/bip-0143.mediawiki"
+  },
+  {
+    "slug": "bip144",
+    "status": "FETCHED_GITHUB_MCP",
+    "uri": "repo://bitcoin/bips/sha/927b6de9915c9262615a6399de51b200f81e5aa4/contents/bip-0144.mediawiki"
+  },
+  {
+    "slug": "bip173",
+    "status": "FETCHED_GITHUB_MCP",
+    "uri": "repo://bitcoin/bips/sha/927b6de9915c9262615a6399de51b200f81e5aa4/contents/bip-0173.mediawiki"
+  },
+  {
+    "slug": "bip340",
+    "status": "FETCHED_GITHUB_MCP",
+    "uri": "repo://bitcoin/bips/sha/927b6de9915c9262615a6399de51b200f81e5aa4/contents/bip-0340.mediawiki"
+  },
+  {
+    "slug": "bip341",
+    "status": "FETCHED_GITHUB_MCP",
+    "uri": "repo://bitcoin/bips/sha/927b6de9915c9262615a6399de51b200f81e5aa4/contents/bip-0341.mediawiki"
+  },
+  {
+    "slug": "bip342",
+    "status": "FETCHED_GITHUB_MCP",
+    "uri": "repo://bitcoin/bips/sha/927b6de9915c9262615a6399de51b200f81e5aa4/contents/bip-0342.mediawiki"
+  },
+  {
+    "slug": "bip350",
+    "status": "FETCHED_GITHUB_MCP",
+    "uri": "repo://bitcoin/bips/sha/927b6de9915c9262615a6399de51b200f81e5aa4/contents/bip-0350.mediawiki"
+  },
+  {
+    "slug": "bip380",
+    "status": "FETCHED_GITHUB_MCP",
+    "uri": "repo://bitcoin/bips/sha/927b6de9915c9262615a6399de51b200f81e5aa4/contents/bip-0380.mediawiki"
+  },
+  {
+    "slug": "bip119",
+    "status": "FETCHED_GITHUB_MCP",
+    "uri": "repo://bitcoin/bips/sha/927b6de9915c9262615a6399de51b200f81e5aa4/contents/bip-0119.mediawiki"
+  },
+  {
+    "slug": "bip118",
+    "status": "FETCHED_GITHUB_MCP",
+    "uri": "repo://bitcoin/bips/sha/927b6de9915c9262615a6399de51b200f81e5aa4/contents/bip-0118.mediawiki"
+  },
+  {
+    "slug": "bip347",
+    "status": "FETCHED_GITHUB_MCP",
+    "uri": "repo://bitcoin/bips/sha/927b6de9915c9262615a6399de51b200f81e5aa4/contents/bip-0347.mediawiki"
+  },
+  {
+    "slug": "bip78",
+    "status": "FETCHED_GITHUB_MCP",
+    "uri": "repo://bitcoin/bips/sha/927b6de9915c9262615a6399de51b200f81e5aa4/contents/bip-0078.mediawiki"
+  },
+  {
+    "slug": "core-chainparams",
+    "status": "FETCHED_GITHUB_MCP",
+    "uri": "repo://bitcoin/bitcoin/sha/84b62e1e8dbc9bbb393d0cb50c863b161b378f35/contents/src/kernel/chainparams.cpp"
+  },
+  {
+    "slug": "core-consensus",
+    "status": "FETCHED_GITHUB_MCP",
+    "uri": "repo://bitcoin/bitcoin/sha/84b62e1e8dbc9bbb393d0cb50c863b161b378f35/contents/src/consensus/consensus.h"
+  },
+  {
+    "slug": "core-interpreter",
+    "status": "FETCHED_GITHUB_MCP",
+    "uri": "repo://bitcoin/bitcoin/sha/84b62e1e8dbc9bbb393d0cb50c863b161b378f35/contents/src/script/interpreter.cpp"
+  },
+  {
+    "slug": "core-coins",
+    "status": "FETCHED_GITHUB_MCP",
+    "uri": "repo://bitcoin/bitcoin/sha/84b62e1e8dbc9bbb393d0cb50c863b161b378f35/contents/src/coins.h"
+  },
+  {
+    "slug": "lightning",
+    "status": "FETCHED_GITHUB_MCP",
+    "uri": "repo://lightning/bolts/sha/1aadb719b4007c4cea0ba6e36b08c4fb53788dee/contents/02-peer-protocol.md"
+  },
+  {
+    "slug": "lightning-routing",
+    "status": "FETCHED_GITHUB_MCP",
+    "uri": "repo://lightning/bolts/sha/1aadb719b4007c4cea0ba6e36b08c4fb53788dee/contents/04-onion-routing.md"
+  },
+  {
+    "slug": "esplora",
+    "status": "FETCHED_GITHUB_MCP",
+    "uri": "repo://Blockstream/esplora/sha/cfcb22c45e7db4c8f8cff4ff1fc6e9581fdc7173/contents/API.md"
+  }
+]

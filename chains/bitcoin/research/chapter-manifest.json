@@ -1,0 +1,469 @@
+[
+  {
+    "n": 1,
+    "slug": "wallet-balance",
+    "title": "钱包显示的 1 BTC，究竟在哪里？",
+    "figure": "wallet",
+    "sources": [
+      "wallets",
+      "transactions"
+    ],
+    "path": "book/part-01/01-wallet-balance.md",
+    "part": 1
+  },
+  {
+    "n": 2,
+    "slug": "one-payment",
+    "title": "为什么转出 0.3 BTC，要花掉整笔 1 BTC？",
+    "figure": "payment",
+    "sources": [
+      "transactions",
+      "tx-reference"
+    ],
+    "path": "book/part-01/02-one-payment.md",
+    "part": 1
+  },
+  {
+    "n": 3,
+    "slug": "outpoint",
+    "title": "怎样准确找到一笔旧输出？",
+    "figure": "outpoint",
+    "sources": [
+      "tx-reference",
+      "bip30"
+    ],
+    "path": "book/part-01/03-outpoint.md",
+    "part": 1
+  },
+  {
+    "n": 4,
+    "slug": "utxo-lifecycle",
+    "title": "旧输出被花掉以后，还留下什么？",
+    "figure": "utxo",
+    "sources": [
+      "core-coins",
+      "core-consensus",
+      "blocks"
+    ],
+    "path": "book/part-01/04-utxo-lifecycle.md",
+    "part": 1
+  },
+  {
+    "n": 5,
+    "slug": "transaction-anatomy",
+    "title": "一笔交易为什么可以有很多输入和输出？",
+    "figure": "transaction",
+    "sources": [
+      "tx-reference",
+      "bip144"
+    ],
+    "path": "book/part-02/05-transaction-anatomy.md",
+    "part": 2
+  },
+  {
+    "n": 6,
+    "slug": "bytes-and-identifiers",
+    "title": "浏览器怎样把一串字节变成交易页面？",
+    "figure": "segwit",
+    "sources": [
+      "tx-reference",
+      "bip141",
+      "bip144"
+    ],
+    "path": "book/part-02/06-bytes-and-identifiers.md",
+    "part": 2
+  },
+  {
+    "n": 7,
+    "slug": "signatures-and-scripts",
+    "title": "网络怎样判断谁有权花掉一笔输出？",
+    "figure": "script",
+    "sources": [
+      "transactions",
+      "bip143",
+      "bip340"
+    ],
+    "path": "book/part-02/07-signatures-and-scripts.md",
+    "part": 2
+  },
+  {
+    "n": 8,
+    "slug": "addresses-and-conditions",
+    "title": "为什么地址长得不同，花费方式也不同？",
+    "figure": "address-types",
+    "sources": [
+      "bip16",
+      "bip173",
+      "bip350",
+      "bip341"
+    ],
+    "path": "book/part-02/08-addresses-and-conditions.md",
+    "part": 2
+  },
+  {
+    "n": 9,
+    "slug": "multisig-and-timelocks",
+    "title": "有了私钥，为什么仍可能暂时花不了？",
+    "figure": "timelocks",
+    "sources": [
+      "bip65",
+      "bip68",
+      "bip112",
+      "bip113",
+      "bip380"
+    ],
+    "path": "book/part-03/09-multisig-and-timelocks.md",
+    "part": 3
+  },
+  {
+    "n": 10,
+    "slug": "block-anatomy",
+    "title": "一笔交易被装进区块时，多了哪些证据？",
+    "figure": "block",
+    "sources": [
+      "block-reference",
+      "bip141",
+      "bip34"
+    ],
+    "path": "book/part-03/10-block-anatomy.md",
+    "part": 3
+  },
+  {
+    "n": 11,
+    "slug": "proof-of-work",
+    "title": "为什么六次确认也不是绝对不可逆？",
+    "figure": "mining",
+    "sources": [
+      "mining",
+      "blocks",
+      "block-reference"
+    ],
+    "path": "book/part-03/11-proof-of-work.md",
+    "part": 3
+  },
+  {
+    "n": 12,
+    "slug": "coinbase-and-halving",
+    "title": "矿工新得到的 BTC，为什么不是普通转账？",
+    "figure": "coinbase",
+    "sources": [
+      "bip34",
+      "core-consensus",
+      "rpc-getblockstats"
+    ],
+    "path": "book/part-03/12-coinbase-and-halving.md",
+    "part": 3
+  },
+  {
+    "n": 13,
+    "slug": "fees-and-units",
+    "title": "为什么转账金额小，手续费却可能更高？",
+    "figure": "fees",
+    "sources": [
+      "bip141",
+      "rpc-estimatesmartfee",
+      "tx-reference"
+    ],
+    "path": "book/part-04/13-fees-and-units.md",
+    "part": 4
+  },
+  {
+    "n": 14,
+    "slug": "mempool-and-policy",
+    "title": "未确认交易究竟存在哪个地方？",
+    "figure": "lifecycle",
+    "sources": [
+      "p2p",
+      "core28",
+      "core29",
+      "core31"
+    ],
+    "path": "book/part-04/14-mempool-and-policy.md",
+    "part": 4
+  },
+  {
+    "n": 15,
+    "slug": "rbf-and-cpfp",
+    "title": "想让交易快一点，为什么有两种加费方式？",
+    "figure": "rbf-cpfp",
+    "sources": [
+      "bip125",
+      "core28",
+      "core29",
+      "core31"
+    ],
+    "path": "book/part-04/15-rbf-and-cpfp.md",
+    "part": 4
+  },
+  {
+    "n": 16,
+    "slug": "segwit-and-commitments",
+    "title": "见证移到哪里去了，为什么还有两种交易标识？",
+    "figure": "segwit",
+    "sources": [
+      "bip141",
+      "bip143",
+      "bip144"
+    ],
+    "path": "book/part-04/16-segwit-and-commitments.md",
+    "part": 4
+  },
+  {
+    "n": 17,
+    "slug": "taproot-paths",
+    "title": "一个 Taproot 输出，藏着几种未来可能？",
+    "figure": "taproot",
+    "sources": [
+      "bip340",
+      "bip341",
+      "bip342"
+    ],
+    "path": "book/part-05/17-taproot-paths.md",
+    "part": 5
+  },
+  {
+    "n": 18,
+    "slug": "proposals-and-activation",
+    "title": "有了 BIP 编号，就已经能在主网使用吗？",
+    "figure": "proposal",
+    "sources": [
+      "bip119",
+      "bip118",
+      "bip347",
+      "core-chainparams"
+    ],
+    "path": "book/part-05/18-proposals-and-activation.md",
+    "part": 5
+  },
+  {
+    "n": 19,
+    "slug": "dune-data-map",
+    "title": "四张表，怎样把 Bitcoin 历史接起来？",
+    "figure": "dune-model",
+    "sources": [
+      "dune-blocks",
+      "dune-transactions",
+      "dune-inputs",
+      "dune-outputs"
+    ],
+    "path": "book/part-05/19-dune-data-map.md",
+    "part": 5
+  },
+  {
+    "n": 20,
+    "slug": "core-rpc",
+    "title": "为什么一个节点查不到交易，不能证明交易不存在？",
+    "figure": "rpc",
+    "sources": [
+      "rpc-getrawtransaction",
+      "rpc-gettxout",
+      "rpc-gettxoutsetinfo",
+      "rpc-getblock"
+    ],
+    "path": "book/part-05/20-core-rpc.md",
+    "part": 5
+  },
+  {
+    "n": 21,
+    "slug": "single-transaction-sql",
+    "title": "怎样用 SQL 读完一笔交易，而不漏掉旧输出？",
+    "figure": "outpoint",
+    "sources": [
+      "dune-transactions",
+      "dune-inputs",
+      "dune-outputs"
+    ],
+    "path": "book/part-06/21-single-transaction-sql.md",
+    "part": 6
+  },
+  {
+    "n": 22,
+    "slug": "join-grain",
+    "title": "为什么三条输入加四条输出，可能查出十二行？",
+    "figure": "joins",
+    "sources": [
+      "dune-transactions",
+      "dune-inputs",
+      "dune-outputs"
+    ],
+    "path": "book/part-06/22-join-grain.md",
+    "part": 6
+  },
+  {
+    "n": 23,
+    "slug": "balance-at-height",
+    "title": "怎样计算某地址在指定高度的余额？",
+    "figure": "balance",
+    "sources": [
+      "dune-inputs",
+      "dune-outputs",
+      "rpc-gettxout"
+    ],
+    "path": "book/part-06/23-balance-at-height.md",
+    "part": 6
+  },
+  {
+    "n": 24,
+    "slug": "age-and-cdd",
+    "title": "一个输出很久没动，究竟说明什么？",
+    "figure": "age",
+    "sources": [
+      "dune-inputs",
+      "dune-outputs",
+      "rpc-getblockheader"
+    ],
+    "path": "book/part-06/24-age-and-cdd.md",
+    "part": 6
+  },
+  {
+    "n": 25,
+    "slug": "network-metrics",
+    "title": "数了很多输出，为什么仍不知道有多少用户？",
+    "figure": "metrics",
+    "sources": [
+      "dune-blocks",
+      "dune-transactions",
+      "dune-outputs"
+    ],
+    "path": "book/part-07/25-network-metrics.md",
+    "part": 7
+  },
+  {
+    "n": 26,
+    "slug": "transaction-graph",
+    "title": "一张资金图里，哪些箭头可以严格重建？",
+    "figure": "spend-graph",
+    "sources": [
+      "tx-reference",
+      "dune-inputs",
+      "dune-outputs"
+    ],
+    "path": "book/part-07/26-transaction-graph.md",
+    "part": 7
+  },
+  {
+    "n": 27,
+    "slug": "change-heuristics",
+    "title": "两个输出，哪一个才是付款，哪一个是找零？",
+    "figure": "change",
+    "sources": [
+      "transactions",
+      "clustering"
+    ],
+    "path": "book/part-07/27-change-heuristics.md",
+    "part": 7
+  },
+  {
+    "n": 28,
+    "slug": "coinjoin-and-clusters",
+    "title": "为什么共同花费的输入，未必属于同一个人？",
+    "figure": "coinjoin",
+    "sources": [
+      "coinjoin",
+      "clustering",
+      "bip78"
+    ],
+    "path": "book/part-07/28-coinjoin-and-clusters.md",
+    "part": 7
+  },
+  {
+    "n": 29,
+    "slug": "exchange-attribution",
+    "title": "链上为什么没有一份权威交易所地址名单？",
+    "figure": "entity",
+    "sources": [
+      "bitfinex-wallets",
+      "clustering"
+    ],
+    "path": "book/part-08/29-exchange-attribution.md",
+    "part": 8
+  },
+  {
+    "n": 30,
+    "slug": "lineage-methods",
+    "title": "可以追踪输出，为什么不能直接追踪一枚永久编号的 BTC？",
+    "figure": "lineage",
+    "sources": [
+      "tx-reference",
+      "ord-overview",
+      "dune-inputs"
+    ],
+    "path": "book/part-08/30-lineage-methods.md",
+    "part": 8
+  },
+  {
+    "n": 31,
+    "slug": "proportional-model",
+    "title": "按比例分配价值，怎样把假设写进计算？",
+    "figure": "probability",
+    "sources": [
+      "tx-reference",
+      "dune-inputs"
+    ],
+    "path": "book/part-08/31-proportional-model.md",
+    "part": 8
+  },
+  {
+    "n": 32,
+    "slug": "ordinals-and-inscriptions",
+    "title": "为什么同一份交易字节，还能被解释成铭文？",
+    "figure": "overlay",
+    "sources": [
+      "ord-overview",
+      "inscriptions",
+      "brc20"
+    ],
+    "path": "book/part-08/32-ordinals-and-inscriptions.md",
+    "part": 8
+  },
+  {
+    "n": 33,
+    "slug": "runes-and-runestones",
+    "title": "OP_RETURN 里有数据，就一定是有效代币转移吗？",
+    "figure": "overlay",
+    "sources": [
+      "runes",
+      "dune-outputs"
+    ],
+    "path": "book/part-09/33-runes-and-runestones.md",
+    "part": 9
+  },
+  {
+    "n": 34,
+    "slug": "lightning-and-custody",
+    "title": "一笔真实 BTC 支付，为什么链上可能没有对应交易？",
+    "figure": "lightning",
+    "sources": [
+      "lightning",
+      "lightning-routing"
+    ],
+    "path": "book/part-09/34-lightning-and-custody.md",
+    "part": 9
+  },
+  {
+    "n": 35,
+    "slug": "where-is-the-btc",
+    "title": "从一笔早期交易出发，今天还能说它在哪里吗？",
+    "figure": "spend-graph",
+    "sources": [
+      "tx-reference",
+      "ord-overview",
+      "dune-inputs"
+    ],
+    "path": "book/part-09/35-where-is-the-btc.md",
+    "part": 9
+  },
+  {
+    "n": 36,
+    "slug": "practical-evidence",
+    "title": "遇到陌生交易，怎样写出一份可复查的结论？",
+    "figure": "evidence",
+    "sources": [
+      "esplora",
+      "dune-inputs",
+      "rpc-getrawtransaction"
+    ],
+    "path": "book/part-09/36-practical-evidence.md",
+    "part": 9
+  }
+]

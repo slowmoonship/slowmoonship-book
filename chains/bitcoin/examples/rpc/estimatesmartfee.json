@@ -1,0 +1,20 @@
+{
+  "network": "Bitcoin Mainnet",
+  "documentation_version": "31.0.0",
+  "source": "https://bitcoincore.org/en/doc/31.0.0/rpc/util/estimatesmartfee/",
+  "status": "NOT_EXECUTED",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": "bitcoin-book",
+    "method": "estimatesmartfee",
+    "params": [
+      6,
+      "CONSERVATIVE"
+    ]
+  },
+  "node_source": null,
+  "node_version": null,
+  "retrieved_at": null,
+  "response": null,
+  "notes": "输出BTC/kvB；乘100000为sat/vB；估计不保证确认目标。"
+}

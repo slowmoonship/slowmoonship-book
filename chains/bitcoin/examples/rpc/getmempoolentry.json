@@ -1,0 +1,19 @@
+{
+  "network": "Bitcoin Mainnet",
+  "documentation_version": "31.0.0",
+  "source": "https://bitcoincore.org/en/doc/31.0.0/rpc/blockchain/getmempoolentry/",
+  "status": "NOT_EXECUTED",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": "bitcoin-book",
+    "method": "getmempoolentry",
+    "params": [
+      "f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16"
+    ]
+  },
+  "node_source": null,
+  "node_version": null,
+  "retrieved_at": null,
+  "response": null,
+  "notes": "该确认种子是故意的不存在于当前池示例，未执行、不伪造错误返回。"
+}

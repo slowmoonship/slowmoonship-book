@@ -1,0 +1,458 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"total\":4,\"results\":[{\"full_name\":\"bitcoin.transactions\",\"category\":\"canonical\",\"dataset_type\":\"dune_table\",\"blockchains\":[\"\"],\"partition_columns\":[\"block_date\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"block_time\",\"nullable\":true,\"type\":\"timestamp\"},{\"name\":\"block_date\",\"nullable\":true,\"type\":\"date\"},{\"name\":\"block_height\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"index\",\"nullable\":true,\"type\":\"integer\"},{\"name\":\"block_hash\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"id\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"lock_time\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"size\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"virtual_size\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"coinbase\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"is_coinbase\",\"nullable\":true,\"type\":\"boolean\"},{\"name\":\"version\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"input_count\",\"nullable\":true,\"type\":\"integer\"},{\"name\":\"output_count\",\"nullable\":true,\"type\":\"integer\"},{\"name\":\"input_value\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"output_value\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"fee\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"hex\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"input\",\"nullable\":true,\"type\":\"array(row(value double, coinbase varbinary, height bigint, tx_id varbinary, output_number bigint, script_pub_key row(address varchar, asm varchar, desc varchar, hex varbinary, type varchar), script_signature row(asm varchar, hex varbinary), sequence bigint, witness_data array(varbinary)))\"},{\"name\":\"output\",\"nullable\":true,\"type\":\"array(row(index bigint, script_pub_key row(address varchar, asm varchar, desc varchar, hex varbinary, type varchar), value double))\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":5758.654325734359}},{\"full_name\":\"bitcoin.blocks\",\"category\":\"canonical\",\"dataset_type\":\"dune_table\",\"blockchains\":[\"\"],\"partition_columns\":[\"date\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"time\",\"nullable\":true,\"type\":\"timestamp\"},{\"name\":\"height\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"date\",\"nullable\":true,\"type\":\"date\"},{\"name\":\"hash\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"bits\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"chainwork\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"difficulty\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"total_fees\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"total_reward\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"mint_reward\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"merkle_root\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"transaction_count\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"nonce\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"coinbase\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"previous_block_hash\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"size\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"stripped_size\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"version\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"weight\",\"nullable\":true,\"type\":\"bigint\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":2852.7264505505436}},{\"full_name\":\"bitcoin.outputs\",\"category\":\"canonical\",\"dataset_type\":\"dune_table\",\"blockchains\":[\"\"],\"partition_columns\":[\"block_date\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"block_time\",\"nullable\":true,\"type\":\"timestamp\"},{\"name\":\"block_date\",\"nullable\":true,\"type\":\"date\"},{\"name\":\"block_height\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"block_hash\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"tx_id\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"index\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"value\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"address\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"type\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"script_asm\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"script_hex\",\"nullable\":true,\"type\":\"varbinary\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":705.4182320099729}},{\"full_name\":\"bitcoin.inputs\",\"category\":\"canonical\",\"dataset_type\":\"dune_table\",\"blockchains\":[\"\"],\"partition_columns\":[\"block_date\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"block_time\",\"nullable\":true,\"type\":\"timestamp\"},{\"name\":\"block_date\",\"nullable\":true,\"type\":\"date\"},{\"name\":\"block_height\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"block_hash\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"tx_id\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"index\",\"nullable\":true,\"type\":\"integer\"},{\"name\":\"spent_block_height\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"spent_tx_id\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"spent_output_number\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"value\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"address\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"type\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"coinbase\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"is_coinbase\",\"nullable\":true,\"type\":\"boolean\"},{\"name\":\"script_asm\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"script_hex\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"script_desc\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"script_signature_asm\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"script_signature_hex\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"sequence\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"witness_data\",\"nullable\":true,\"type\":\"array(varbinary)\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":626.9226067293458}}],\"pagination\":{\"limit\":8,\"offset\":0,\"nextOffset\":null,\"hasMore\":false}}"
+      }
+    ],
+    "structuredContent": {
+      "total": 4,
+      "results": [
+        {
+          "full_name": "bitcoin.transactions",
+          "category": "canonical",
+          "dataset_type": "dune_table",
+          "blockchains": [
+            ""
+          ],
+          "partition_columns": [
+            "block_date"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "block_time",
+                "nullable": true,
+                "type": "timestamp"
+              },
+              {
+                "name": "block_date",
+                "nullable": true,
+                "type": "date"
+              },
+              {
+                "name": "block_height",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "index",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "name": "block_hash",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "id",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "lock_time",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "size",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "virtual_size",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "coinbase",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "is_coinbase",
+                "nullable": true,
+                "type": "boolean"
+              },
+              {
+                "name": "version",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "input_count",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "name": "output_count",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "name": "input_value",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "output_value",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "fee",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "hex",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "input",
+                "nullable": true,
+                "type": "array(row(value double, coinbase varbinary, height bigint, tx_id varbinary, output_number bigint, script_pub_key row(address varchar, asm varchar, desc varchar, hex varbinary, type varchar), script_signature row(asm varchar, hex varbinary), sequence bigint, witness_data array(varbinary)))"
+              },
+              {
+                "name": "output",
+                "nullable": true,
+                "type": "array(row(index bigint, script_pub_key row(address varchar, asm varchar, desc varchar, hex varbinary, type varchar), value double))"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 5758.654325734359
+          }
+        },
+        {
+          "full_name": "bitcoin.blocks",
+          "category": "canonical",
+          "dataset_type": "dune_table",
+          "blockchains": [
+            ""
+          ],
+          "partition_columns": [
+            "date"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "time",
+                "nullable": true,
+                "type": "timestamp"
+              },
+              {
+                "name": "height",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "date",
+                "nullable": true,
+                "type": "date"
+              },
+              {
+                "name": "hash",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "bits",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "chainwork",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "difficulty",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "total_fees",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "total_reward",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "mint_reward",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "merkle_root",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "transaction_count",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "nonce",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "coinbase",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "previous_block_hash",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "size",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "stripped_size",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "version",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "weight",
+                "nullable": true,
+                "type": "bigint"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 2852.7264505505436
+          }
+        },
+        {
+          "full_name": "bitcoin.outputs",
+          "category": "canonical",
+          "dataset_type": "dune_table",
+          "blockchains": [
+            ""
+          ],
+          "partition_columns": [
+            "block_date"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "block_time",
+                "nullable": true,
+                "type": "timestamp"
+              },
+              {
+                "name": "block_date",
+                "nullable": true,
+                "type": "date"
+              },
+              {
+                "name": "block_height",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "block_hash",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "tx_id",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "index",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "value",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "address",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "type",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "script_asm",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "script_hex",
+                "nullable": true,
+                "type": "varbinary"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 705.4182320099729
+          }
+        },
+        {
+          "full_name": "bitcoin.inputs",
+          "category": "canonical",
+          "dataset_type": "dune_table",
+          "blockchains": [
+            ""
+          ],
+          "partition_columns": [
+            "block_date"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "block_time",
+                "nullable": true,
+                "type": "timestamp"
+              },
+              {
+                "name": "block_date",
+                "nullable": true,
+                "type": "date"
+              },
+              {
+                "name": "block_height",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "block_hash",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "tx_id",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "index",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "name": "spent_block_height",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "spent_tx_id",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "spent_output_number",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "value",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "address",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "type",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "coinbase",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "is_coinbase",
+                "nullable": true,
+                "type": "boolean"
+              },
+              {
+                "name": "script_asm",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "script_hex",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "script_desc",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "script_signature_asm",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "script_signature_hex",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "sequence",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "witness_data",
+                "nullable": true,
+                "type": "array(varbinary)"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 626.9226067293458
+          }
+        }
+      ],
+      "pagination": {
+        "limit": 8,
+        "offset": 0,
+        "nextOffset": null,
+        "hasMore": false
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 2
+}

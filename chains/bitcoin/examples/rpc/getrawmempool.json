@@ -1,0 +1,19 @@
+{
+  "network": "Bitcoin Mainnet",
+  "documentation_version": "31.0.0",
+  "source": "https://bitcoincore.org/en/doc/31.0.0/rpc/blockchain/getrawmempool/",
+  "status": "NOT_EXECUTED",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": "bitcoin-book",
+    "method": "getrawmempool",
+    "params": [
+      false
+    ]
+  },
+  "node_source": null,
+  "node_version": null,
+  "retrieved_at": null,
+  "response": null,
+  "notes": "只读教学请求；执行前确认授权节点网络、同步和数据可用性。"
+}

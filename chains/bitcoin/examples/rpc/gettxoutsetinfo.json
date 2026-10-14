@@ -1,0 +1,19 @@
+{
+  "network": "Bitcoin Mainnet",
+  "documentation_version": "31.0.0",
+  "source": "https://bitcoincore.org/en/doc/31.0.0/rpc/blockchain/gettxoutsetinfo/",
+  "status": "NOT_EXECUTED",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": "bitcoin-book",
+    "method": "gettxoutsetinfo",
+    "params": [
+      "none"
+    ]
+  },
+  "node_source": null,
+  "node_version": null,
+  "retrieved_at": null,
+  "response": null,
+  "notes": "none避免哈希扫描；仍需核对节点成本、索引与统计完整性。"
+}

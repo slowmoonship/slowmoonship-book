@@ -1,0 +1,268 @@
+{
+  "scope": "Local structure, hashes, integer amounts, indexer prevouts and spend edges. Not signature/PoW/full-node consensus verification or Dune execution.",
+  "checks": [
+    {
+      "check": "case-01 txid",
+      "pass": true
+    },
+    {
+      "check": "case-01 raw metadata",
+      "pass": true
+    },
+    {
+      "check": "case-01 output bytes",
+      "pass": true
+    },
+    {
+      "check": "case-01 block location",
+      "pass": true
+    },
+    {
+      "check": "case-01 prevout references",
+      "pass": true
+    },
+    {
+      "check": "case-01 integer fee",
+      "pass": true
+    },
+    {
+      "check": "case-02 txid",
+      "pass": true
+    },
+    {
+      "check": "case-02 raw metadata",
+      "pass": true
+    },
+    {
+      "check": "case-02 output bytes",
+      "pass": true
+    },
+    {
+      "check": "case-02 block location",
+      "pass": true
+    },
+    {
+      "check": "case-02 prevout references",
+      "pass": true
+    },
+    {
+      "check": "case-02 integer fee",
+      "pass": true
+    },
+    {
+      "check": "case-03 txid",
+      "pass": true
+    },
+    {
+      "check": "case-03 raw metadata",
+      "pass": true
+    },
+    {
+      "check": "case-03 output bytes",
+      "pass": true
+    },
+    {
+      "check": "case-03 block location",
+      "pass": true
+    },
+    {
+      "check": "case-03 prevout references",
+      "pass": true
+    },
+    {
+      "check": "case-03 integer fee",
+      "pass": true
+    },
+    {
+      "check": "case-04 txid",
+      "pass": true
+    },
+    {
+      "check": "case-04 raw metadata",
+      "pass": true
+    },
+    {
+      "check": "case-04 output bytes",
+      "pass": true
+    },
+    {
+      "check": "case-04 block location",
+      "pass": true
+    },
+    {
+      "check": "case-04 prevout references",
+      "pass": true
+    },
+    {
+      "check": "case-04 integer fee",
+      "pass": true
+    },
+    {
+      "check": "case-05 txid",
+      "pass": true
+    },
+    {
+      "check": "case-05 raw metadata",
+      "pass": true
+    },
+    {
+      "check": "case-05 output bytes",
+      "pass": true
+    },
+    {
+      "check": "case-05 block location",
+      "pass": true
+    },
+    {
+      "check": "case-05 prevout references",
+      "pass": true
+    },
+    {
+      "check": "case-05 integer fee",
+      "pass": true
+    },
+    {
+      "check": "case-06 txid",
+      "pass": true
+    },
+    {
+      "check": "case-06 raw metadata",
+      "pass": true
+    },
+    {
+      "check": "case-06 output bytes",
+      "pass": true
+    },
+    {
+      "check": "case-06 block location",
+      "pass": true
+    },
+    {
+      "check": "case-06 special coinbase input",
+      "pass": true
+    },
+    {
+      "check": "case-07 txid",
+      "pass": true
+    },
+    {
+      "check": "case-07 raw metadata",
+      "pass": true
+    },
+    {
+      "check": "case-07 output bytes",
+      "pass": true
+    },
+    {
+      "check": "case-07 block location",
+      "pass": true
+    },
+    {
+      "check": "case-07 prevout references",
+      "pass": true
+    },
+    {
+      "check": "case-07 integer fee",
+      "pass": true
+    },
+    {
+      "check": "case-08 txid",
+      "pass": true
+    },
+    {
+      "check": "case-08 raw metadata",
+      "pass": true
+    },
+    {
+      "check": "case-08 output bytes",
+      "pass": true
+    },
+    {
+      "check": "case-08 block location",
+      "pass": true
+    },
+    {
+      "check": "case-08 prevout references",
+      "pass": true
+    },
+    {
+      "check": "case-08 integer fee",
+      "pass": true
+    },
+    {
+      "check": "case-09 txid",
+      "pass": true
+    },
+    {
+      "check": "case-09 raw metadata",
+      "pass": true
+    },
+    {
+      "check": "case-09 output bytes",
+      "pass": true
+    },
+    {
+      "check": "case-09 block location",
+      "pass": true
+    },
+    {
+      "check": "case-09 prevout references",
+      "pass": true
+    },
+    {
+      "check": "case-09 integer fee",
+      "pass": true
+    },
+    {
+      "check": "case-10 txid",
+      "pass": true
+    },
+    {
+      "check": "case-10 raw metadata",
+      "pass": true
+    },
+    {
+      "check": "case-10 output bytes",
+      "pass": true
+    },
+    {
+      "check": "case-10 block location",
+      "pass": true
+    },
+    {
+      "check": "case-10 prevout references",
+      "pass": true
+    },
+    {
+      "check": "case-10 integer fee",
+      "pass": true
+    },
+    {
+      "check": "spend edge 1",
+      "pass": true
+    },
+    {
+      "check": "spend edge 2",
+      "pass": true
+    },
+    {
+      "check": "spend edge 3",
+      "pass": true
+    },
+    {
+      "check": "cross-provider seed core fields",
+      "pass": true
+    },
+    {
+      "check": "exchange address prevout",
+      "pass": true
+    },
+    {
+      "check": "runestone candidate marker",
+      "pass": true
+    }
+  ],
+  "passed": 65,
+  "total": 65,
+  "distinct_primary_txids": 8
+}

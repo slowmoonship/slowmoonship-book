@@ -1,7 +1,7 @@
 {
   "as_of": "2026-10-14",
-  "file_count": 748,
-  "self_hash_note": "Git commit tree binds this manifest; only publication/current-manifest.json hash is excluded. All other current files are hashed.",
+  "file_count": 993,
+  "self_hash_note": "Only publication/current-manifest.json hash is excluded. Git commit tree binds this manifest; all other current files are hashed.",
   "files": [
     {
       "path": ".gitignore",
@@ -10,23 +10,23 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 2057,
-      "sha256": "716afd215635314fe33b84e219921a34e33a1545b794aba4f776f8f1b3a7d910"
+      "bytes": 2657,
+      "sha256": "06e653848590cb29a542f7b139061f2564efe34e0033c58ef6de2d0fd51bb690"
     },
     {
       "path": "PUBLICATION_STATUS.md",
-      "bytes": 2273,
-      "sha256": "5fcca11dd592ecef1eec5d31097e84461d1c9d0c02b48f9e193c81c003837a0e"
+      "bytes": 2948,
+      "sha256": "7a68e983edc9862c2eb76ffa308aba0c28ba0709d8b9b3e86497e5526d6ac401"
     },
     {
       "path": "README.md",
-      "bytes": 3319,
-      "sha256": "b1bcb6b758cef7980fd718fb7831100a520eec2f533cb9e1d7e48ea5a34ec05b"
+      "bytes": 3907,
+      "sha256": "00097b976e12ceabe9c187a89315367da53098d958e3a74b57ddcd3e08e6051d"
     },
     {
       "path": "SUMMARY.md",
-      "bytes": 20889,
-      "sha256": "1d89e7a78bc7e67d7afadbc0902ef73ca8bd55999cd42b3e3b7be89a26dd878d"
+      "bytes": 26581,
+      "sha256": "d0e206058339bc2c8c8c920873426c07d3dc62d7514ea13e04ea3201f1e1c537"
     },
     {
       "path": "chains/avalanche/README.md",
@@ -1237,6 +1237,1201 @@
       "path": "chains/avalanche/research/unresolved.md",
       "bytes": 1387,
       "sha256": "d9e2d5d5e02effec6bc0621a4a168790572d1c3fdc7f5268710d0364255e34c6"
+    },
+    {
+      "path": "chains/bitcoin/BOOK.md",
+      "bytes": 129297,
+      "sha256": "c5590423c23aa16a8bf3d0f2ddac70e50582886e74e87670aea6876727e1e31d"
+    },
+    {
+      "path": "chains/bitcoin/README.md",
+      "bytes": 2030,
+      "sha256": "b7b64fb9462fb091b18b31cdab40c1a13dfdc3d65b3cc46e9165f35a4ebb036f"
+    },
+    {
+      "path": "chains/bitcoin/SUMMARY.md",
+      "bytes": 4603,
+      "sha256": "0123f8da24606daacb7fcc47cbbb06ae831240ee4e6f2eecc45790ca2b555057"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/DIAGRAM_INDEX.md",
+      "bytes": 3079,
+      "sha256": "84b196f38f14d4250104889a008b3714fc7ce1dc8701acfb219dcfb1860d5817"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/address-types.drawio",
+      "bytes": 4241,
+      "sha256": "bc5d821b09dd03973645abda94a33e88fdfb94a47bf0f59400d6a73847eb96da"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/address-types.svg",
+      "bytes": 10493,
+      "sha256": "9a7f259affd91a91fce7bd5e5efc179d63cd8682ad2f37ac9952180a15a39b93"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/age.drawio",
+      "bytes": 6312,
+      "sha256": "04ac93902fa383633a43b3008573dc61f0de23c01e1888e7d0ceb1880da2be4e"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/age.svg",
+      "bytes": 13455,
+      "sha256": "78795e6530057411f6346b5aef5ae1b54240b0578bdb6567cf9fa713b7c340f3"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/balance.drawio",
+      "bytes": 5320,
+      "sha256": "ab676208daad318a3c02b137c61ddb93f41d3901b590c7bfb2f3f284a4371383"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/balance.svg",
+      "bytes": 11658,
+      "sha256": "60b69e77201c83d019ce84f767a6fccee117164a65f6bc003da38e88f1cb9076"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/block.drawio",
+      "bytes": 5857,
+      "sha256": "415a5af3b0f54a4ce7cf4b234bb77042bc52ed417132083125d4aff64678403a"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/block.svg",
+      "bytes": 12765,
+      "sha256": "010cd89f77701755e90e51feab1a9cb1b8c9d6f87a7c2f85d6b7f2fba1ca602a"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/change.drawio",
+      "bytes": 6232,
+      "sha256": "6e62794d0919fd5beeed32d5afcfe089eff58944bb9bcbc90442367c6d0fb663"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/change.svg",
+      "bytes": 13359,
+      "sha256": "478e78f2532d49a2b5e89765bd93e690d8055ed8996703bd1ce710754cd1eea1"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/coinbase.drawio",
+      "bytes": 5825,
+      "sha256": "f893c2ce08beee16477a244656409d0b9d7b64945564cc2630f4f0de2a23e79e"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/coinbase.svg",
+      "bytes": 12209,
+      "sha256": "4e096ad67bf502de525248e242c1760c8e0cb774145ebba22947ad835d32fd0d"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/coinjoin.drawio",
+      "bytes": 5346,
+      "sha256": "91f04f55939fd19e612a5f70f21afe5e1bff8a7751af1b046c5e9a0758386e04"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/coinjoin.svg",
+      "bytes": 11703,
+      "sha256": "62dc785684c35ccc09dc444e146d9519dfc4978b468e6ac2562b2b1afab161fe"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/data-model.drawio",
+      "bytes": 6428,
+      "sha256": "018e741b720f1050f78e4c0471aee8c2854f64812ae251d4f80ed56788dd71a3"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/data-model.svg",
+      "bytes": 13687,
+      "sha256": "5ed0fea69a2bf301609a699c704dd5604b42ce32ca2e83623008977c83852883"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/diagram-manifest.json",
+      "bytes": 6692,
+      "sha256": "2dfa75d31ac4d5848e21f4d2bdfc81c07d60b9006d8e950519b48084a8682f2b"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/dune-model.drawio",
+      "bytes": 6796,
+      "sha256": "08d356d423c02fdd2af65f85590c7004cb05111fc757be184dc0b139febdc4fb"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/dune-model.svg",
+      "bytes": 14854,
+      "sha256": "fcba2b8438b27aeb9aa35e212f34abfc9a7719b6b3302a6683f39c7229369769"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/entity.drawio",
+      "bytes": 5868,
+      "sha256": "74149c131ee8c20bfa226646d63a3311a0c47827eeb3625870f5492eb02f68a7"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/entity.svg",
+      "bytes": 12551,
+      "sha256": "b584f531cfd3702acd6a61fef69decad2004fdfe0dac52a146ea5991fb8b9b79"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/evidence.drawio",
+      "bytes": 6825,
+      "sha256": "bb186b273d693a696a100f56755a2c71b5c53c2864ccc2977ce65f78c4685cc7"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/evidence.svg",
+      "bytes": 14840,
+      "sha256": "771f6619e2bb98a51e74bd850cb21287e4bf052298add3cfc6b4748df38dba79"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/fees.drawio",
+      "bytes": 5787,
+      "sha256": "8eedfc7cde5acc124ea1cc458132cc4548609a75ec5c66545498f904c7869fa9"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/fees.svg",
+      "bytes": 12297,
+      "sha256": "02a4d80216e7b2dddfeace610e179b3eeaadaec3dfefee3261d1874dcfe29c36"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/joins.drawio",
+      "bytes": 7935,
+      "sha256": "65a9d435f3f934e421d7f0e8607d360aabe19a19183a40bd86f330cd6ea3aa32"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/joins.svg",
+      "bytes": 16190,
+      "sha256": "61d229042174cf8638f5a002a724aff69e1974f04d7c548707bf0685b9bdd927"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/lifecycle.drawio",
+      "bytes": 6689,
+      "sha256": "24c6448bc3a9146236546d9848380ba800b7c3aa234c9d676544b5d6054ef70e"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/lifecycle.svg",
+      "bytes": 14220,
+      "sha256": "20bc5f2350522d093f047ced27870023e86ec4cb88637a30e689dd3f6419edba"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/lightning.drawio",
+      "bytes": 5776,
+      "sha256": "baad3509bf33a654ba3fbd881281c9744b5ddd48908311a2c7c751cd0512868e"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/lightning.svg",
+      "bytes": 12833,
+      "sha256": "76b14c8daccbdc3bd72e7fcee0dba2546a87a0ed6745caa9e7e98353c8c790d5"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/lineage.drawio",
+      "bytes": 5305,
+      "sha256": "050612ad31f8b43ab892b6a0a3216351fbabfe183f056cad98f99cb2e8c2de40"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/lineage.svg",
+      "bytes": 11649,
+      "sha256": "ae1ff00e6e8ae2f92a7aed0165b21476c4e79389f8d5e01b360cb57549763881"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/metrics.drawio",
+      "bytes": 5809,
+      "sha256": "cda70d5300939478a63e79f8428b907f42281edfa71a20d1149356ffba6d7980"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/metrics.svg",
+      "bytes": 12175,
+      "sha256": "79352d5aafc9dfd4cfe67886ef0fef5e3cb22588caf704d1dddb2049b551dfd0"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/mining.drawio",
+      "bytes": 5752,
+      "sha256": "89f18b30f77fafc29922b884520e3a9d200209b5071112a84fbb62e921de6a7c"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/mining.svg",
+      "bytes": 12135,
+      "sha256": "474f2c40571f7b7ac1689a39a7a50c055ab978916fc40f52b2017bd62291d292"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/outpoint.drawio",
+      "bytes": 4656,
+      "sha256": "6e3e34e7aa6d149252edb9ea2d3597b1548237070af3b77d289e8728c5c68451"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/outpoint.svg",
+      "bytes": 10456,
+      "sha256": "dcf34f962a99cf6ebe04ceb04bf7189173372215ae84a57c79e78e6ddad86449"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/overlay.drawio",
+      "bytes": 5353,
+      "sha256": "6dcfd5f70a1e3dae7a5b369abc85edbb89e8d6a68d95bb40d41d6913e2348e01"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/overlay.svg",
+      "bytes": 11724,
+      "sha256": "a9fb3839ee72e26969a53799fa3c6b5c41c5fa1e9d1cbca907b99761eac30529"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/payment-real.drawio",
+      "bytes": 5316,
+      "sha256": "c82a7ccf370264e8f336f5e417e3bcebef9fd2cd5826056ef40ab2907f6f442e"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/payment-real.svg",
+      "bytes": 11978,
+      "sha256": "247ac533713d7d65e71b581f8e5c727c87189a184b53846ab77e7c771a07e328"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/payment.drawio",
+      "bytes": 5271,
+      "sha256": "a8cfd2cb5ce5d9b608430709652ed08b8c280f7a8af733fdcfa18be68e6262bc"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/payment.svg",
+      "bytes": 11396,
+      "sha256": "c836c6c6f50b357aa7cc6df978d6c3c74f72a23f2d8f8dd2a5443a5d56c7c8dc"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/probability.drawio",
+      "bytes": 5827,
+      "sha256": "69dfeb742d3a619146c0eb979a4cda1db3056207332d03fb2efe3925924d4f0f"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/probability.svg",
+      "bytes": 12957,
+      "sha256": "2848c594e586d7e0e3234dccfa5c1633b0f829b5d9bb3f7c245b4c383b07828d"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/proposal.drawio",
+      "bytes": 5747,
+      "sha256": "ea6a080f3aee5e1ba16b1f09246af1a22707ea9aa36f93a46f5fd7ef96c31da5"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/proposal.svg",
+      "bytes": 12825,
+      "sha256": "2eed0af955bc38df9bf1cebe5dcf43427406337b8ddc8887fc0d01ce36c066fa"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/rbf-cpfp.drawio",
+      "bytes": 6408,
+      "sha256": "5b5b15a3b3fd2854fce7aad0ea7518937df90d43a18e8d20480c8cdf3d28f731"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/rbf-cpfp.svg",
+      "bytes": 13998,
+      "sha256": "ef50b89c0680efe3fc88f2b613bf471ffb3d1f11c9801dd733402be93f21b097"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/rpc.drawio",
+      "bytes": 5819,
+      "sha256": "5d51c41d67c088882e62162568fcacdb493982546441d2f1aa040a85fcd8312b"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/rpc.svg",
+      "bytes": 12195,
+      "sha256": "40c5d415aff7b57040c21b1a4ef269fe6176a777a8027ed9a131989dc6d81cfd"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/script.drawio",
+      "bytes": 5293,
+      "sha256": "f59467833e6f36dcc7d190c26ec8716fafb59f4ef05e463fffb6bea26df272be"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/script.svg",
+      "bytes": 11440,
+      "sha256": "d379c77e9e12e2f359e4e348cfdced96d4c540ba17382a5cddb8f05d62e17c71"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/segwit.drawio",
+      "bytes": 6332,
+      "sha256": "efcdbcad480365745a4812e7f2bc6913c01f053dc0418ea0c4a0651cc68bb068"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/segwit.svg",
+      "bytes": 13495,
+      "sha256": "3c788296879eb4ee680f0b22c99fdb43437deab38b01461e7b1822cb78e0f3e5"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/spend-graph.drawio",
+      "bytes": 6429,
+      "sha256": "7631f9114bdb5962e03c74703e9841daa7e15b49ee1282e86b0ce2baf512a4c4"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/spend-graph.svg",
+      "bytes": 14345,
+      "sha256": "0ab1f4907668ed2ecaa9771c877a5fa5f77a92d3a70e8ab4058aa11334a4c4ad"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/taproot.drawio",
+      "bytes": 5840,
+      "sha256": "7d2ce8fe48aa8ef0920d3571cd5d1ea8556e30d1c4d073781bd86f53144fa837"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/taproot.svg",
+      "bytes": 12567,
+      "sha256": "85fb28445b06da177593779540050604f54340f98baf8fc39cfb450f4b7f49ab"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/timelocks.drawio",
+      "bytes": 5819,
+      "sha256": "ca7b709431d51ad543901cad47bf2199ac2cf5237946eb4f298ce3e0238fa279"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/timelocks.svg",
+      "bytes": 12382,
+      "sha256": "a1349fc3d926d95e9676139cc16deb63a6a1cdf938b2e2931eabfebed2b4faa6"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/transaction.drawio",
+      "bytes": 6386,
+      "sha256": "466d5537e631c9ad5cd844de641a3464937e99fb8e70159a58b780d48264f204"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/transaction.svg",
+      "bytes": 13925,
+      "sha256": "82b29cc1e7e7e692142a4c562c426ec2ae59a46d55fb4798c3559e89cccbfe82"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/utxo.drawio",
+      "bytes": 6861,
+      "sha256": "135012b581e61fa621f140451294dfdf67625533edc96a7423d08664916e42a1"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/utxo.svg",
+      "bytes": 14422,
+      "sha256": "b9f2df50364ef0f2cc4afd6cdbe2d90822190a9ec6972f7107900e20771e9ab8"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/wallet.drawio",
+      "bytes": 5801,
+      "sha256": "7483e6ba4f8b68f21a4fc31f59e2240bdf230baa10a5656bfd63c13397666acf"
+    },
+    {
+      "path": "chains/bitcoin/assets/diagrams/wallet.svg",
+      "bytes": 12161,
+      "sha256": "3e8790e111891d85fd4427aed650e11ab39ce8c0edd71c88d862cfa6c02833b0"
+    },
+    {
+      "path": "chains/bitcoin/book/00-preface.md",
+      "bytes": 1701,
+      "sha256": "19f9f1fed886f1a81b8b85c56148333a299017f140e16e95fa8bf9d0b8cb986a"
+    },
+    {
+      "path": "chains/bitcoin/book/appendix/data-table-index.md",
+      "bytes": 549,
+      "sha256": "34a2a34c542c47d173b15116be42b661584bdcd56c73b7bdbb21025bba323067"
+    },
+    {
+      "path": "chains/bitcoin/book/appendix/glossary.md",
+      "bytes": 3176,
+      "sha256": "68cf4e458e0d43d063f7ac636cb2bda5e13b6d9755fbfecbdd313d9c66cf6196"
+    },
+    {
+      "path": "chains/bitcoin/book/appendix/query-index.md",
+      "bytes": 3697,
+      "sha256": "7b352f829c1ed33e3586313b2bfe05051634189a1d4bbcde399a97909b5b1199"
+    },
+    {
+      "path": "chains/bitcoin/book/appendix/references.md",
+      "bytes": 793,
+      "sha256": "96f525e6ad098b936966b80d5d34f6963ceb1a7fa1daf55d491c2d4601938cac"
+    },
+    {
+      "path": "chains/bitcoin/book/appendix/script-types.md",
+      "bytes": 895,
+      "sha256": "744b837cfb8751cee6892687e140f7bd4af9ee4887099662f487e70122b02339"
+    },
+    {
+      "path": "chains/bitcoin/book/part-01/01-wallet-balance.md",
+      "bytes": 3848,
+      "sha256": "6bd55b501cf1fec999446fbe5acca8ec0938974fa9213f1f6e4691856156a0fd"
+    },
+    {
+      "path": "chains/bitcoin/book/part-01/02-one-payment.md",
+      "bytes": 3799,
+      "sha256": "777c5a4417b0116539717d895e556e3d98c762072c84bec9e73d9fbc487a7190"
+    },
+    {
+      "path": "chains/bitcoin/book/part-01/03-outpoint.md",
+      "bytes": 3633,
+      "sha256": "c32b7390302b16a6643f8c88d96fa67895330631c0a95ac18ceb3a6e20f70811"
+    },
+    {
+      "path": "chains/bitcoin/book/part-01/04-utxo-lifecycle.md",
+      "bytes": 3763,
+      "sha256": "031c0ad186e07c67ac3bf9e1b68c3db87136612e33e272667d94017b4ef02fa7"
+    },
+    {
+      "path": "chains/bitcoin/book/part-01/index.md",
+      "bytes": 355,
+      "sha256": "5fd9ee5602c5c855c1b26c7b84c896a160e67b025a8541eb023a0aeee6637e03"
+    },
+    {
+      "path": "chains/bitcoin/book/part-02/05-transaction-anatomy.md",
+      "bytes": 3652,
+      "sha256": "8e05295af35d29674147c1a2c76043e27b5d1783c4b10d51a08d3668c8cc9a7b"
+    },
+    {
+      "path": "chains/bitcoin/book/part-02/06-bytes-and-identifiers.md",
+      "bytes": 3647,
+      "sha256": "c1775c7fe865216f5d31d1b6c0efbde72cda85109a9c98015f58e760b979d5f9"
+    },
+    {
+      "path": "chains/bitcoin/book/part-02/07-signatures-and-scripts.md",
+      "bytes": 3601,
+      "sha256": "149af00eb1e8331c2df266a3b191a3ec76f681bc530dd36223bf8b36ac064905"
+    },
+    {
+      "path": "chains/bitcoin/book/part-02/08-addresses-and-conditions.md",
+      "bytes": 3754,
+      "sha256": "d05a29d2f785908fa26dbc5d1771d4d7c89647b9cfded150492eb1cbd0f4e4c1"
+    },
+    {
+      "path": "chains/bitcoin/book/part-02/index.md",
+      "bytes": 437,
+      "sha256": "5fbdab43ffb52c7719056c972c2908fec1837ffe731eccc4ebbe15fa488fd7e6"
+    },
+    {
+      "path": "chains/bitcoin/book/part-03/09-multisig-and-timelocks.md",
+      "bytes": 3964,
+      "sha256": "417ee75c19c62a87d3902273b323a91fa2194032d8be40a6976ce166403d3a10"
+    },
+    {
+      "path": "chains/bitcoin/book/part-03/10-block-anatomy.md",
+      "bytes": 3779,
+      "sha256": "c8b877e5cd1fa9c49db86fb8fc36da35cc755038492d788e52647e0ff9f41bcc"
+    },
+    {
+      "path": "chains/bitcoin/book/part-03/11-proof-of-work.md",
+      "bytes": 3591,
+      "sha256": "c04eae738896739d00aa5f0f182c4812b1c693d8ef0802fb93cce062f395f1d7"
+    },
+    {
+      "path": "chains/bitcoin/book/part-03/12-coinbase-and-halving.md",
+      "bytes": 3686,
+      "sha256": "cf4fae70fccb503bd4d3a0e03aed6c15233b78a371c369450d63ab06f15859a0"
+    },
+    {
+      "path": "chains/bitcoin/book/part-03/index.md",
+      "bytes": 426,
+      "sha256": "a9d0b7e26f43376d9375248fdddade571527327a3508c67505fb8c6362a3e687"
+    },
+    {
+      "path": "chains/bitcoin/book/part-04/13-fees-and-units.md",
+      "bytes": 3757,
+      "sha256": "15e95094fff6343a0cfabe5c9eef131d0c25689bea3a9d7f67c01cb50f486003"
+    },
+    {
+      "path": "chains/bitcoin/book/part-04/14-mempool-and-policy.md",
+      "bytes": 3627,
+      "sha256": "2571bb349810ccaa51366f3b7bb5ac5c5a99867dbadbccc25c66558e61eca137"
+    },
+    {
+      "path": "chains/bitcoin/book/part-04/15-rbf-and-cpfp.md",
+      "bytes": 3678,
+      "sha256": "b1fd8c7e86289b8907308aa047e736ccfdc445aae9643aeb716ec49d1b3db229"
+    },
+    {
+      "path": "chains/bitcoin/book/part-04/16-segwit-and-commitments.md",
+      "bytes": 3799,
+      "sha256": "636ebd87ea68c06d0ed113a95ed80ca777264903e25892b72e3c7e9b54675fda"
+    },
+    {
+      "path": "chains/bitcoin/book/part-04/index.md",
+      "bytes": 429,
+      "sha256": "71f21325791dc5c451fe7cffcc80f5989b842183784712dd3c1bdf62c0812417"
+    },
+    {
+      "path": "chains/bitcoin/book/part-05/17-taproot-paths.md",
+      "bytes": 3799,
+      "sha256": "e698a0723c0258eeb4ac92d14ec6f1b12887e47e961b4e363bc1041678523d65"
+    },
+    {
+      "path": "chains/bitcoin/book/part-05/18-proposals-and-activation.md",
+      "bytes": 3853,
+      "sha256": "ed6a4bb016aa0ba9fa6abcb9d4651944bcfdb611acfb9f1118bfbbb68fa73071"
+    },
+    {
+      "path": "chains/bitcoin/book/part-05/19-dune-data-map.md",
+      "bytes": 3896,
+      "sha256": "108ec896aa03df8a3d08dafcb0819199b8da7a26c928b9a2cdba78e5f2c32441"
+    },
+    {
+      "path": "chains/bitcoin/book/part-05/20-core-rpc.md",
+      "bytes": 3809,
+      "sha256": "0b147a69e6dee2303a4ab969805a9544fd3659b34916e4827e4a2fa3adf9f5a4"
+    },
+    {
+      "path": "chains/bitcoin/book/part-05/index.md",
+      "bytes": 427,
+      "sha256": "1b69a1242cf9a8eae803959ef7b27bb7dd7fcb2e3c61c11e59463a213cd0aede"
+    },
+    {
+      "path": "chains/bitcoin/book/part-06/21-single-transaction-sql.md",
+      "bytes": 3619,
+      "sha256": "c983877caac22b37ef7de06c86fbe91c644cb81217ce61bf7016f3a6eea9b2ed"
+    },
+    {
+      "path": "chains/bitcoin/book/part-06/22-join-grain.md",
+      "bytes": 3502,
+      "sha256": "d33a286dc98b6d87fee636ddb7db95587a9bd8a68bfa15b56bb0848254d939c3"
+    },
+    {
+      "path": "chains/bitcoin/book/part-06/23-balance-at-height.md",
+      "bytes": 3643,
+      "sha256": "001da71f87c776eba3845bb821755ec054dea20f632562c69355cd119abb84c0"
+    },
+    {
+      "path": "chains/bitcoin/book/part-06/24-age-and-cdd.md",
+      "bytes": 3578,
+      "sha256": "d99927b7eea6c471a21463314ece2fec213b66335c4f49b6bcecfafbf43a7afe"
+    },
+    {
+      "path": "chains/bitcoin/book/part-06/index.md",
+      "bytes": 422,
+      "sha256": "bcb43275da40323a0c58ff515b8c2b54e5535df6469970c5c58a617dd54c25d2"
+    },
+    {
+      "path": "chains/bitcoin/book/part-07/25-network-metrics.md",
+      "bytes": 3653,
+      "sha256": "6af6c28c6ba2d2ca07380482fda664d505ce23634a1acad6d1628e3bfdac4e6b"
+    },
+    {
+      "path": "chains/bitcoin/book/part-07/26-transaction-graph.md",
+      "bytes": 3636,
+      "sha256": "1a3de5257fa54291376e913d7740a7afaa4b8ced23fcf87cbf1fdc01d3a368d0"
+    },
+    {
+      "path": "chains/bitcoin/book/part-07/27-change-heuristics.md",
+      "bytes": 3526,
+      "sha256": "7dc5ae80181b13212668a41f37ad0bf316a9cc79b3e33c862fbf5a67fd77db1b"
+    },
+    {
+      "path": "chains/bitcoin/book/part-07/28-coinjoin-and-clusters.md",
+      "bytes": 3551,
+      "sha256": "9a81cc3fced9b0797683119462e4dfddc6792c6ff4711784f28b9ed4cd671b7c"
+    },
+    {
+      "path": "chains/bitcoin/book/part-07/index.md",
+      "bytes": 454,
+      "sha256": "d3646166d481ca3f39b8a413798fa3176e5b319681f28a4deb01067910f63716"
+    },
+    {
+      "path": "chains/bitcoin/book/part-08/29-exchange-attribution.md",
+      "bytes": 3670,
+      "sha256": "2e7b098d4d33dacf0f0701b8c56a1ff17c1af65f02ac5c72cffc88cfd2f341e1"
+    },
+    {
+      "path": "chains/bitcoin/book/part-08/30-lineage-methods.md",
+      "bytes": 3508,
+      "sha256": "2bacbee2327832693e623a8fbd92411adb61597f328836647914f2e1d3921dea"
+    },
+    {
+      "path": "chains/bitcoin/book/part-08/31-proportional-model.md",
+      "bytes": 3655,
+      "sha256": "8e8c69f503acb0ca684e0ed53eaaf9ae35082c5c97827a57b75b305d89068565"
+    },
+    {
+      "path": "chains/bitcoin/book/part-08/32-ordinals-and-inscriptions.md",
+      "bytes": 3690,
+      "sha256": "fffdc60bb37773489f77e40824c02f094c2b5fa16fe6399df6c0b6e0fe4daf0b"
+    },
+    {
+      "path": "chains/bitcoin/book/part-08/index.md",
+      "bytes": 472,
+      "sha256": "4de2817fc177d0df18b08d8984bd281b570a3471a89fe665ab0062bbb57d6140"
+    },
+    {
+      "path": "chains/bitcoin/book/part-09/33-runes-and-runestones.md",
+      "bytes": 3696,
+      "sha256": "b3a0f5fcae4917949175f30f9c79a3e8a37d52a4147f0cfdaecd14f418f10de3"
+    },
+    {
+      "path": "chains/bitcoin/book/part-09/34-lightning-and-custody.md",
+      "bytes": 3537,
+      "sha256": "4b82123bff2f7cc4946a0fc3f1db8949ef6e3318d3595a965386145224a4da25"
+    },
+    {
+      "path": "chains/bitcoin/book/part-09/35-where-is-the-btc.md",
+      "bytes": 3523,
+      "sha256": "9b2693748f37eddb209eccc4b4522e09a54e6aad208aa2c4a00cdd7909de9466"
+    },
+    {
+      "path": "chains/bitcoin/book/part-09/36-practical-evidence.md",
+      "bytes": 3532,
+      "sha256": "7f4e8ecf04660a691bd0e020a56b5968f2937f91f2a3d535b506c23629893e0b"
+    },
+    {
+      "path": "chains/bitcoin/book/part-09/index.md",
+      "bytes": 474,
+      "sha256": "7843895db968951fe25b5a9d4d17d751db76da407b1a614e804fc518de6d1a99"
+    },
+    {
+      "path": "chains/bitcoin/examples/python/decode_transaction.py",
+      "bytes": 1640,
+      "sha256": "1d3d36bee2659e92124c77ab423cad9d6c2a137769b35dccb5c58e5f93eec59e"
+    },
+    {
+      "path": "chains/bitcoin/examples/python/proportional_lineage.py",
+      "bytes": 1040,
+      "sha256": "cb7879fccafdfa18a02bed15aff349633f968d2dd131e586a533687258c04658"
+    },
+    {
+      "path": "chains/bitcoin/examples/rpc/estimatesmartfee.json",
+      "bytes": 506,
+      "sha256": "786436f4e7d6849ba932df8993e962aefbdc2909c1e69c1bdfb9a52f900eaf58"
+    },
+    {
+      "path": "chains/bitcoin/examples/rpc/getblock.json",
+      "bytes": 565,
+      "sha256": "d2f697d40c32027cfcb9de1444dedc52f17949c04f2f786fb2be4689329f83d2"
+    },
+    {
+      "path": "chains/bitcoin/examples/rpc/getblockchaininfo.json",
+      "bytes": 496,
+      "sha256": "c0fd6ee2bcb85d6e1c4397886eecba8f884fd8df3e4a2d2f77c08c8a364c5eb6"
+    },
+    {
+      "path": "chains/bitcoin/examples/rpc/getblockhash.json",
+      "bytes": 504,
+      "sha256": "067afb7d1e5598a745ae11243e3a0e04def5d2824753e4a88d904bcd3df0bcf3"
+    },
+    {
+      "path": "chains/bitcoin/examples/rpc/getblockheader.json",
+      "bytes": 580,
+      "sha256": "d72cefcb09b17ffcef720632b941f42a09370d4dd0a0a0dc835da86da0fd5466"
+    },
+    {
+      "path": "chains/bitcoin/examples/rpc/getblockstats.json",
+      "bytes": 582,
+      "sha256": "5e3fa12fafc61c5bd94525581960c055e150b007b6c64c0bd06a0cb54eb9b602"
+    },
+    {
+      "path": "chains/bitcoin/examples/rpc/getmempoolentry.json",
+      "bytes": 579,
+      "sha256": "fc1b0338c9b92d00cec0445b315d74369e6e409241a1a2856e63ce9f199fca00"
+    },
+    {
+      "path": "chains/bitcoin/examples/rpc/getnetworkinfo.json",
+      "bytes": 487,
+      "sha256": "5b5bfd40682f1e9331150d5795c9234feb24844c44dbb350923efc47a6c9d7b6"
+    },
+    {
+      "path": "chains/bitcoin/examples/rpc/getrawmempool.json",
+      "bytes": 505,
+      "sha256": "344f3fa106c61ccab6845eb5c5e560274b72e6414abfa6c49728bceba4b73094"
+    },
+    {
+      "path": "chains/bitcoin/examples/rpc/getrawtransaction.json",
+      "bytes": 680,
+      "sha256": "df0e906dc316160b94add54c3d3cf49e98b7ffbff6dba7271d7da118d0de984f"
+    },
+    {
+      "path": "chains/bitcoin/examples/rpc/gettxout.json",
+      "bytes": 588,
+      "sha256": "6208c6fcd804b782f5150b861da41e5f8ec0e98e66ec553dfd73219c21c946c8"
+    },
+    {
+      "path": "chains/bitcoin/examples/rpc/gettxoutsetinfo.json",
+      "bytes": 505,
+      "sha256": "cc283c4270aabcb75ae8ae1eea541819c43d3de5093a4e84e170ad24748748a4"
+    },
+    {
+      "path": "chains/bitcoin/examples/sql/01-transaction.sql",
+      "bytes": 625,
+      "sha256": "1b79c99ce3d09f4860d9d8932c5715acd6cb55e28b3392d67e01715e196b7617"
+    },
+    {
+      "path": "chains/bitcoin/examples/sql/02-inputs.sql",
+      "bytes": 670,
+      "sha256": "f001515fae239998c9f03f57ed407ca760324e95a6254af20085dbc609b948ce"
+    },
+    {
+      "path": "chains/bitcoin/examples/sql/03-outputs.sql",
+      "bytes": 575,
+      "sha256": "b581adcab2f6bd357f5523e3df01629e2ffc914bb913db33dc648ce3c5a786e1"
+    },
+    {
+      "path": "chains/bitcoin/examples/sql/04-fee.sql",
+      "bytes": 866,
+      "sha256": "dc8512eb5cbe6ef5796222051a956c781cc73e6ab0773caad52ec62649c7a57e"
+    },
+    {
+      "path": "chains/bitcoin/examples/sql/05-utxo-lifecycle.sql",
+      "bytes": 1209,
+      "sha256": "09f6a22aeb5219d2fba0d1ecbac852e20a06144df029f8c9ccd7e5f7d585de14"
+    },
+    {
+      "path": "chains/bitcoin/examples/sql/06-address-utxo-candidates.sql",
+      "bytes": 885,
+      "sha256": "9ae7498cc9727d138847f61a56744e8fca780529789e6463ce2fdd1fb6e0e4e2"
+    },
+    {
+      "path": "chains/bitcoin/examples/sql/07-balance-at-height.sql",
+      "bytes": 1315,
+      "sha256": "ab864c7cf80b5bac5227a32ddf1cc2f0e1008c6d658bf6aeec32cd74c91b248e"
+    },
+    {
+      "path": "chains/bitcoin/examples/sql/08-script-types.sql",
+      "bytes": 521,
+      "sha256": "91f791aa53b2c57a9f4448d070e08a44c0d30a6ec8e318b673f2d485ef08f804"
+    },
+    {
+      "path": "chains/bitcoin/examples/sql/09-block-fees.sql",
+      "bytes": 828,
+      "sha256": "ef413f0a73ac4fa825348a7077bc7e56a2bef1a0c4f94366109ae50a4e11d612"
+    },
+    {
+      "path": "chains/bitcoin/examples/sql/10-coinbase.sql",
+      "bytes": 744,
+      "sha256": "1be7144714361c1a4796127b6e4a9eb9e64e7840e276664b129fa36007f6e1c7"
+    },
+    {
+      "path": "chains/bitcoin/examples/sql/11-utxo-age.sql",
+      "bytes": 1090,
+      "sha256": "bbeca383f145693b2744e61e7db6c5508d788c046296a42da36baaab6538f941"
+    },
+    {
+      "path": "chains/bitcoin/examples/sql/12-coin-days-destroyed.sql",
+      "bytes": 1180,
+      "sha256": "945aec7656125fc55a389a96cf8428502cb193330db6b37887042bccc9058bac"
+    },
+    {
+      "path": "chains/bitcoin/examples/sql/13-two-hop-graph.sql",
+      "bytes": 1363,
+      "sha256": "91549a5113439bc1d1b060a45eb3ae8e7694312e6a4fe1de0f63c65a5c3008f4"
+    },
+    {
+      "path": "chains/bitcoin/examples/sql/14-consolidation-candidates.sql",
+      "bytes": 558,
+      "sha256": "6aa09c8de6b98a7bce5eb031bd430c5c55fe1938ed577b17e8e04d86fbb5f7ef"
+    },
+    {
+      "path": "chains/bitcoin/examples/sql/15-change-candidates.sql",
+      "bytes": 988,
+      "sha256": "6de5552f57d04198adfb6a0eb29329492426fc746064dff3f9b8785b6ac4676b"
+    },
+    {
+      "path": "chains/bitcoin/examples/sql/16-confirmed-feerates.sql",
+      "bytes": 766,
+      "sha256": "eea1931c9f5c512a9e9bbfa2f9682c6cf5d9c84897c1e11b5e1653451e994ab7"
+    },
+    {
+      "path": "chains/bitcoin/examples/sql/query-manifest.json",
+      "bytes": 6009,
+      "sha256": "b2a5658e4da3809cbec701564f8dcd18fdcadac889654e2774f66a2b913fb328"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/block-170.json",
+      "bytes": 815,
+      "sha256": "b9e80c58bfdc72ed72d0dea2a2ac1b3656e685d8dd2ae49f5f04e73d50aa9ec4"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/block-481824.json",
+      "bytes": 848,
+      "sha256": "89572cc2b4bcc018f632c8282ef8bf50567c039fe85b70d2a0a08e77d31ca419"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/block-709632.json",
+      "bytes": 851,
+      "sha256": "37a979f76ccdc60750095bc98e56778fd3f2e59787ba313c23e8ba67b1722c7d"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/block-840000.json",
+      "bytes": 850,
+      "sha256": "409e24791a19b62deedcfd8ce74039944ce88071eecceb7abe853d1defde155f"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/case-index.json",
+      "bytes": 11523,
+      "sha256": "7e7bfe7ac64cf3d3f64d23b11746dc8a58dece1e072d7b955eda451162b41729"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/cross-f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16.json",
+      "bytes": 2608,
+      "sha256": "932508c434a5afb2e3d7b82437965ec068802c500279c23e78650163ffc91304"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/decoded-transactions.json",
+      "bytes": 83318,
+      "sha256": "b2e7197e9b48cf7e06efd9dddd316ffd986405c23444a57a9a34ac7c3bb46b39"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/exchange-address-sample.json",
+      "bytes": 86355,
+      "sha256": "f648a27511849a59eb834c84061b083b6ab24113dade8297a04b08e72eaac082"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/height-170.json",
+      "bytes": 342,
+      "sha256": "f0ba97eae96b637188ea4f7bfe7f702c90e0b13f4d79080811d77bf34100ef2e"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/height-481824.json",
+      "bytes": 345,
+      "sha256": "d78d28ad3faa76d9e0c2bd6b7d7e73d62df31683539ecb39ed5819fe787774cf"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/height-709632.json",
+      "bytes": 345,
+      "sha256": "6c62c719980edcbf3e78b31c906056a9c9b72f3513075b1dbcea9a19e46c5199"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/height-840000.json",
+      "bytes": 345,
+      "sha256": "348f751a1ca61060ebb47388c07d8622859e6d3646b6822f041701bec213676a"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/hex-04bf3fd6f4baf459608ec7ef80fe091d19a727e9c0fe41a499fec66ed2678568.json",
+      "bytes": 1127,
+      "sha256": "614f9acabbd42243ff0c8691aaaefd418d6b0d2fc49ccc8726e0f57121a5d062"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/hex-2bb85f4b004be6da54f766c17c1e855187327112c231ef2ff35ebad0ea67c69e.json",
+      "bytes": 993,
+      "sha256": "2e3187cbdd111d66ece283265430314b5cd091a485137830d351576c19a81846"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/hex-4e99434f63a13b659cd94f4eb3b3811f1d88eb2ef9080840549ec50a0641a422.json",
+      "bytes": 53077,
+      "sha256": "cc28462d195ea36a48015c6781072cc6be4f0d877755fc0f6fea1b5fe600ad74"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/hex-777c998695de4b7ecec54c058c73b2cab71184cf1655840935cd9388923dc288.json",
+      "bytes": 791,
+      "sha256": "a38a486ba7b5b1736d8f38bd99f261912d1db4bba3406d8c89053883733b24bf"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/hex-a0db149ace545beabbd87a8d6b20ffd6aa3b5a50e58add49a3d435f898c272cf.json",
+      "bytes": 965,
+      "sha256": "479714d836498e137b5c02b596176c65566da54cc31685e8a4f52d6ba98d7c85"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/hex-c2bfb6f1bf791308c6b8f73f5d4181be9aa490da6e73c188f9ebd0723e8531b6.json",
+      "bytes": 783,
+      "sha256": "91ccd4f203fb21d3439558c6d5b3aa59db00683f36bfc840051da5ef7346dc11"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/hex-d0a11ea1df62e05fb76a7b9e19cc0e63d39ac1e20097f6171b92be00bf1a6510.json",
+      "bytes": 3663,
+      "sha256": "86612463975e92fedb80d11ef8b615b6c43dc38d75084f6343cb70463d4a20dd"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/hex-f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16.json",
+      "bytes": 883,
+      "sha256": "46a8ef73c16bdbc3d44994502aee223b349e5eebfb6e020d5bae8c5caad57580"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/outspends-dd11322ddb4487a0a7a597838df02fbfd2070870721cd648f3b37f0a164efed9.json",
+      "bytes": 1019,
+      "sha256": "e2ab46fb5d3987abd7808560a4288f1c74365737cdca949e5e30db9349e773e7"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/outspends-ea44e97271691990157559d0bdd9959e02790c34db6c006d779e82fa5aee708e.json",
+      "bytes": 680,
+      "sha256": "2996a1debea1337c168ee6092c4a6da2b57d2aeeeaed2784470ac5fea84d005c"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/outspends-f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16.json",
+      "bytes": 1017,
+      "sha256": "73b55506f8a8ca99616067fa63029ccee2f7a6938864b2d18b4d739cdccc592e"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/sample-170.json",
+      "bytes": 3930,
+      "sha256": "8ef226c1b31c79c95419a32a30afb1bf66856ba3d9aaa5c8be7613b398493f85"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/sample-481824.json",
+      "bytes": 437786,
+      "sha256": "951441be7781cc81fd9bb4a8c0338cc345add6393637dff0e6d93145eeb473a6"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/sample-709632.json",
+      "bytes": 69000,
+      "sha256": "d0c9d005b053366677791cdb9814a4feb75de47c24795e6a0fb9d40992d1b7a1"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/sample-840000.json",
+      "bytes": 55169,
+      "sha256": "0b60162433c1c24a27c05f82dc12faedc9aa1c10e1252b7f2f04bfd7b9ad1680"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/spend-graph.json",
+      "bytes": 665,
+      "sha256": "4da6d15cc275f815f24a2db80a55c76a5163ccd204687e9243217d60de0a9b7b"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/tx-04bf3fd6f4baf459608ec7ef80fe091d19a727e9c0fe41a499fec66ed2678568.json",
+      "bytes": 3575,
+      "sha256": "d7a9bd0feb8b11af97a0b3f9ec80372a3f24b18de022db91e42e4062a00b55df"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/tx-2bb85f4b004be6da54f766c17c1e855187327112c231ef2ff35ebad0ea67c69e.json",
+      "bytes": 2560,
+      "sha256": "6fc08c88ad3c65e42a57cb46c96ec401508f002b638dc2dae81612dcf77cced3"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/tx-4e99434f63a13b659cd94f4eb3b3811f1d88eb2ef9080840549ec50a0641a422.json",
+      "bytes": 194575,
+      "sha256": "da9fe682be6129a53f92607d8a66fc8545d20d120859935364065ec6824fc185"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/tx-777c998695de4b7ecec54c058c73b2cab71184cf1655840935cd9388923dc288.json",
+      "bytes": 2219,
+      "sha256": "3dea86e4ef44052f0278fc3ffa731dfc31e5f8c4b672c4778acd2ef9e5db2617"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/tx-8aab0beac1b5c76e59e9dc52acd1164a15a2a4694f64d9d028429ddf77202797.json",
+      "bytes": 2665,
+      "sha256": "4a956a75ac01f1fa355c8e55705553e880ff6ea6b9f5b520d85c340ae5a538ef"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/tx-a0db149ace545beabbd87a8d6b20ffd6aa3b5a50e58add49a3d435f898c272cf.json",
+      "bytes": 2574,
+      "sha256": "b8f0cd77b51fd029a365bafd2c4bc9468543b9ac3c8f149c52a38d1b2af85f55"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/tx-c2bfb6f1bf791308c6b8f73f5d4181be9aa490da6e73c188f9ebd0723e8531b6.json",
+      "bytes": 2542,
+      "sha256": "9802f8005621ae74f20387c4173c7593c47a899c91bc2d8af499419788d87acc"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/tx-d0a11ea1df62e05fb76a7b9e19cc0e63d39ac1e20097f6171b92be00bf1a6510.json",
+      "bytes": 12936,
+      "sha256": "667a11aa29e41a8e9c08898d950f008ea3d86cb80e03ae16079a31eaa73b9862"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/tx-dd11322ddb4487a0a7a597838df02fbfd2070870721cd648f3b37f0a164efed9.json",
+      "bytes": 2665,
+      "sha256": "1ec694035a5e6c1a6a7c3b6a03896533309637d6fb82e1253243e7faed54b9a7"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/tx-ea44e97271691990157559d0bdd9959e02790c34db6c006d779e82fa5aee708e.json",
+      "bytes": 2091,
+      "sha256": "0be2aa9f76bf7eb353137f09ac4efa20f0f77297a020ea98cfe4e07469bc8b04"
+    },
+    {
+      "path": "chains/bitcoin/examples/transactions/tx-f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16.json",
+      "bytes": 2594,
+      "sha256": "6dfff625b53fd17d7bce335f75ffe5f589180620e084d028134c23223b90583b"
+    },
+    {
+      "path": "chains/bitcoin/reports/case-validation.json",
+      "bytes": 4849,
+      "sha256": "4fcb47fd614981fb772e36f5a09299e391465c2b9ae094bf64b76208b71bb72e"
+    },
+    {
+      "path": "chains/bitcoin/reports/editorial-review.md",
+      "bytes": 921,
+      "sha256": "f7e78ebd0fd061f12af7be74947ab77eeafa8313936fc6b0f43e6c501e0c7661"
+    },
+    {
+      "path": "chains/bitcoin/reports/final-acceptance.md",
+      "bytes": 4033,
+      "sha256": "e9799c598cb78dce0d6a72d66a971a729156890a1111ead08dc888fa639f28a1"
+    },
+    {
+      "path": "chains/bitcoin/reports/proportional-model-result.json",
+      "bytes": 443,
+      "sha256": "ea4b5815bc8fb5075ae0451e547edd9eb8643761e4db3203d76a10d14cf91cb6"
+    },
+    {
+      "path": "chains/bitcoin/reports/sql-static-review.md",
+      "bytes": 1132,
+      "sha256": "4ae022d76ef1eb4d7dc13409326e82a5febbd8ed81310a3684871dc32f766a95"
+    },
+    {
+      "path": "chains/bitcoin/reports/technical-review.md",
+      "bytes": 1536,
+      "sha256": "35181d79bb8ceeaceac6e3537c18eca78699d4d17edf4b73358c10fa40a84239"
+    },
+    {
+      "path": "chains/bitcoin/reports/validation.json",
+      "bytes": 3263,
+      "sha256": "58219239a5c5908ef7738e05bfca62a3b5daf7fb585fd2062192efb5caf61098"
+    },
+    {
+      "path": "chains/bitcoin/reports/visual-qa.json",
+      "bytes": 4182,
+      "sha256": "cc155a4983686fa53c68448561a1dd532af555ab6b3ff804b54bc3e2a42db6b5"
+    },
+    {
+      "path": "chains/bitcoin/reports/word-counts.json",
+      "bytes": 4129,
+      "sha256": "223e1521ad228c340131e657a8e300d786586e4ab35a693932c15e36e4932b61"
+    },
+    {
+      "path": "chains/bitcoin/research/bitcoin_schema.md",
+      "bytes": 4518,
+      "sha256": "4fc457fcbf4de3053791c4cad209f9347f361135a12795983ca0f8dac2404585"
+    },
+    {
+      "path": "chains/bitcoin/research/catalog-normalized.json",
+      "bytes": 10556,
+      "sha256": "1b68b34cd4c4d55d4859976d4b5d3cda8b9ad029d55d3e0d0836f3dd24393968"
+    },
+    {
+      "path": "chains/bitcoin/research/chapter-manifest.json",
+      "bytes": 10810,
+      "sha256": "e0269a402c0c9e963061af0c7e2acbce86b34148f22a8acbf443ede80a83827f"
+    },
+    {
+      "path": "chains/bitcoin/research/dune/01M0YQB55RNQNBP2768V4BQR2C.json",
+      "bytes": 5296,
+      "sha256": "24c78c588c0010ab11cb7321eef1e50bb7a31688f3f70c76f85b61ca322de364"
+    },
+    {
+      "path": "chains/bitcoin/research/dune/01M0YQKDTP1GKGSXS4XYFXK1Q1.json",
+      "bytes": 2694,
+      "sha256": "71257a3524c22ee9cffd0a708bed49f58b1acec1ade1b64ad57cb33e971e739e"
+    },
+    {
+      "path": "chains/bitcoin/research/dune/8471262.json",
+      "bytes": 17588,
+      "sha256": "d86c1f0ad50915bd21f52703760bd36d2c3e683bedf8603d460856a795f00739"
+    },
+    {
+      "path": "chains/bitcoin/research/dune/8471262.sql",
+      "bytes": 7786,
+      "sha256": "17869fb9871542fcfec6324d53a78afdbe2534403dd1f075c7420b92fd1936e8"
+    },
+    {
+      "path": "chains/bitcoin/research/dune/8471408.json",
+      "bytes": 6283,
+      "sha256": "296dc3ab4ad5ef61f4f26511b2bfd0a44cbdcd0da4477063bc55d2ac5423bc48"
+    },
+    {
+      "path": "chains/bitcoin/research/dune/8471408.sql",
+      "bytes": 2405,
+      "sha256": "b071b9742fecf38de55fa318483a42c180db96ab836125c17fff63f34bc75713"
+    },
+    {
+      "path": "chains/bitcoin/research/dune/8471410.json",
+      "bytes": 8847,
+      "sha256": "e68f354c1c2677498d8d0f4c904aa0d86934861ac4d06da94dc340903ae92f12"
+    },
+    {
+      "path": "chains/bitcoin/research/dune/8471410.sql",
+      "bytes": 3642,
+      "sha256": "883e70f29b17aa134e8b25b159448615f76a7695b076666d00a7e4d0b51e5716"
+    },
+    {
+      "path": "chains/bitcoin/research/dune/8471475.json",
+      "bytes": 3634,
+      "sha256": "0b70ff24aaebcaed3b03a2fc50fb8f37f3ac02c397acdad7da0e5804f47563a9"
+    },
+    {
+      "path": "chains/bitcoin/research/dune/8471475.sql",
+      "bytes": 1106,
+      "sha256": "774bcfe780714532a8eb22750b04030cc8d96a4640ec0d61ce28dff6ff98486a"
+    },
+    {
+      "path": "chains/bitcoin/research/dune/8471478.json",
+      "bytes": 3854,
+      "sha256": "a553540aab242efcf65ee50593513ac54e4d93c4f8164e137ffef76eaf4cd760"
+    },
+    {
+      "path": "chains/bitcoin/research/dune/8471478.sql",
+      "bytes": 1194,
+      "sha256": "dfb6428f9e92a9a84d53b062c5dacd0abd15256ae1ecc6c684053e1e48c6cfda"
+    },
+    {
+      "path": "chains/bitcoin/research/dune/8471514.json",
+      "bytes": 4264,
+      "sha256": "5a54dabe931a7c8e90241e43e4c950620c4a144d361437baa20f9170c4ea80f8"
+    },
+    {
+      "path": "chains/bitcoin/research/dune/8471514.sql",
+      "bytes": 1432,
+      "sha256": "78e39ce956bddbf58e1e5f6a0f168a808c72902d7903ccbde1cbbebba3e833be"
+    },
+    {
+      "path": "chains/bitcoin/research/dune/8471516.json",
+      "bytes": 3239,
+      "sha256": "14d3ea968a1d5900ed9691ed5383eef397a80dcabc091b7fbbb678d73c072d39"
+    },
+    {
+      "path": "chains/bitcoin/research/dune/8471516.sql",
+      "bytes": 924,
+      "sha256": "db7f394e9366adc80e063ddb1dc8e2d3a335fba03dc3d77d1d5cb744833f7bf6"
+    },
+    {
+      "path": "chains/bitcoin/research/dune/8471578.json",
+      "bytes": 8962,
+      "sha256": "bf559f2d294455c5487947c7ade1e8167cc7c8047d2e6db7785f1c9737320b64"
+    },
+    {
+      "path": "chains/bitcoin/research/dune/8471578.sql",
+      "bytes": 3703,
+      "sha256": "a2cf494d10721bf840e38edfad6099070268428a9429e03588cfbabffe3d2d65"
+    },
+    {
+      "path": "chains/bitcoin/research/dune/8471581.json",
+      "bytes": 5337,
+      "sha256": "e6886c8b16b39a9fd35aff6fc51e941e2ad861b389afe9642e553915d25544a2"
+    },
+    {
+      "path": "chains/bitcoin/research/dune/8471581.sql",
+      "bytes": 1926,
+      "sha256": "28b94ab3abe963b08051bd7dc3c4cf245bf43e684c48bfbc92dd54814b42d0a6"
+    },
+    {
+      "path": "chains/bitcoin/research/dune/8471584.json",
+      "bytes": 5275,
+      "sha256": "a46a491fde2ef5f3cbc0db874daa676034cc9bb7f6cbdbb81706129f84ea5a70"
+    },
+    {
+      "path": "chains/bitcoin/research/dune/8471584.sql",
+      "bytes": 1896,
+      "sha256": "9e8ec16879389c8a876a2731ae14c8dce436318e19940885a5c06dea10994cb3"
+    },
+    {
+      "path": "chains/bitcoin/research/dune/catalog.json",
+      "bytes": 18698,
+      "sha256": "3b4355f4539c7f422aa35d15f0c8cfc06f210ac1e7f5156c973c152ca13b6a8e"
+    },
+    {
+      "path": "chains/bitcoin/research/dune_query_catalog.md",
+      "bytes": 2338,
+      "sha256": "17034087ca35d6c487db8da59370107b3093ceab5cf1d9c8173a45ac91c547ec"
+    },
+    {
+      "path": "chains/bitcoin/research/evidence_index.md",
+      "bytes": 947,
+      "sha256": "1d55358ca97122fc2e6b379cede278b92f49cac6778d92ae31dcaede7021d1ed"
+    },
+    {
+      "path": "chains/bitcoin/research/exchange-wallet-source.json",
+      "bytes": 9938,
+      "sha256": "a33ee222a349aaabf076a04533c4d957d25e90144b4ceca21ea3f48519fd9dad"
+    },
+    {
+      "path": "chains/bitcoin/research/github-source-status.json",
+      "bytes": 4919,
+      "sha256": "17b6d25d857edd6f75094ccec53fb188308040111dfe98c36fcb58bed59ddb7e"
+    },
+    {
+      "path": "chains/bitcoin/research/protocol_timeline.md",
+      "bytes": 1023,
+      "sha256": "7be92e50d412af472b531096c2584ccf48fb6d84b0c467b1172a7746410ed3e6"
+    },
+    {
+      "path": "chains/bitcoin/research/source-snapshot.json",
+      "bytes": 23771,
+      "sha256": "ebb020bf5a86dc30880c57e182390703c08c4116cad5910bdcda8187ba28c377"
+    },
+    {
+      "path": "chains/bitcoin/research/source_catalog.md",
+      "bytes": 11030,
+      "sha256": "a7475a18e8c42599e3c59a0e825ae1de42a1e033ff1a825bba6ca5eb39e9ed90"
+    },
+    {
+      "path": "chains/bitcoin/research/transaction_case_index.md",
+      "bytes": 11727,
+      "sha256": "be75ca07b7e14a55b5d4b767074a14496d26407feda7c2e3f61b79f0c395eb86"
+    },
+    {
+      "path": "chains/bitcoin/research/unresolved.md",
+      "bytes": 1259,
+      "sha256": "8a8d9eb5729bdddf9261621faeca9ed10c4492710644272967032617b809e189"
+    },
+    {
+      "path": "chains/bitcoin/scripts/verify_case_evidence.py",
+      "bytes": 3235,
+      "sha256": "788f902d9ac59ed4ebf4b98059f2bb64f64f4729f4997f991afa453e2d72a620"
     },
     {
       "path": "chains/ethereum/README.md",
@@ -3595,8 +4790,8 @@
     },
     {
       "path": "publication/CURRENT_FILES.md",
-      "bytes": 39831,
-      "sha256": "ca56f3c3ac3645de68682395b4f79416b32daba31048b7b5e2e00a077039f6ac"
+      "bytes": 53743,
+      "sha256": "5409fcc1b8e57c262cee136e5641bc678d323aba2cc98bc9ade09d2ac9c36c42"
     },
     {
       "path": "publication/FILES.md",
@@ -3605,8 +4800,8 @@
     },
     {
       "path": "publication/README.md",
-      "bytes": 2234,
-      "sha256": "8f7b0abb53afadb0430f1dfe606a08c5a0d0f83b9764daffc9a4b0e2c5b851da"
+      "bytes": 2403,
+      "sha256": "9961acef261117e099283c4b742d20de13bfea600cbea21d3471ae094613e3ac"
     },
     {
       "path": "publication/avalanche/2026-10-14-v0.1/CHANGES.md",
@@ -3637,6 +4832,36 @@
       "path": "publication/avalanche/2026-10-14-v0.1/manifest.json",
       "bytes": 64875,
       "sha256": "19217153d190fd95bff73f619b8082871dab59a0953836195516a26312d1bcdb"
+    },
+    {
+      "path": "publication/bitcoin/2026-10-14-v0.1/CHANGES.md",
+      "bytes": 1585,
+      "sha256": "c7da789237b969b30876c9663cb28260601ef652d266ec4176d9113e84c42383"
+    },
+    {
+      "path": "publication/bitcoin/2026-10-14-v0.1/CHECKS.md",
+      "bytes": 3159,
+      "sha256": "b8eb0c331e5c79b5ce44b1666d34a2c1cb40abf653f7ce6358dd15ed739759a2"
+    },
+    {
+      "path": "publication/bitcoin/2026-10-14-v0.1/FILES.md",
+      "bytes": 14253,
+      "sha256": "e7ccc6ddcbf4f8285cc9b2dd5cf1342d7e83e82a7793818ccf87d41d63564965"
+    },
+    {
+      "path": "publication/bitcoin/2026-10-14-v0.1/README.md",
+      "bytes": 891,
+      "sha256": "fca62fc1802fcd6d4350c39357bd378f711776a06d1dd24c34f02b92cd0f7141"
+    },
+    {
+      "path": "publication/bitcoin/2026-10-14-v0.1/checks.json",
+      "bytes": 2706,
+      "sha256": "3dd9f4655ea11a41fdb975fdf0da0cd0bb697b5850ce970b9e96428b0dd5d3ee"
+    },
+    {
+      "path": "publication/bitcoin/2026-10-14-v0.1/manifest.json",
+      "bytes": 64056,
+      "sha256": "3fc4f545b0544c02e88e15b87342d867dc23426fb70f8c672630752b10a63aec"
     },
     {
       "path": "publication/checks.json",

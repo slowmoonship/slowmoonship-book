@@ -1,0 +1,8 @@
+{
+  "source": "https://blockstream.info/api/block-height/481824",
+  "network": "Bitcoin Mainnet",
+  "retrieved_at": "2026-10-13T02:09:06.178142+00:00",
+  "source_node_version": null,
+  "raw_sha256": "c30a50ae0139c789a1f42a7e842b4e5fc60dc34659df4fd1a53e3d697607a9d2",
+  "data": "0000000000000000001c8018d9cb3b742ef25114f27563e3fc4a1902167f9893"
+}

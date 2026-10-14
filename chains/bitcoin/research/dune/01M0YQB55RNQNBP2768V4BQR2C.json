@@ -1,0 +1,131 @@
+{
+  "result": {
+    "_meta": {
+      "mcp_event_id": "de233afc-aa6c-4ceb-b27c-65fc41899050"
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"executionId\":\"01M0YQB55RNQNBP2768V4BQR2C\",\"state\":\"COMPLETED\",\"resultMetadata\":{\"columns\":[{\"name\":\"qa_date\",\"type\":\"date\"},{\"name\":\"sampled_block_height\",\"type\":\"bigint\"},{\"name\":\"block_declared_transaction_count\",\"type\":\"bigint\"},{\"name\":\"transaction_rows\",\"type\":\"bigint\"},{\"name\":\"distinct_transaction_ids\",\"type\":\"bigint\"},{\"name\":\"declared_input_rows\",\"type\":\"bigint\"},{\"name\":\"input_rows\",\"type\":\"bigint\"},{\"name\":\"distinct_input_keys\",\"type\":\"bigint\"},{\"name\":\"declared_output_rows\",\"type\":\"bigint\"},{\"name\":\"output_rows\",\"type\":\"bigint\"},{\"name\":\"distinct_output_keys\",\"type\":\"bigint\"},{\"name\":\"coinbase_transaction_rows\",\"type\":\"bigint\"},{\"name\":\"coinbase_input_rows\",\"type\":\"bigint\"},{\"name\":\"coinbase_inputs_without_previous_outpoint\",\"type\":\"bigint\"},{\"name\":\"fee_formula_mismatch_rows\",\"type\":\"bigint\"},{\"name\":\"reference_candidate_rows\",\"type\":\"bigint\"},{\"name\":\"matched_previous_output_rows\",\"type\":\"bigint\"},{\"name\":\"matched_value_rows\",\"type\":\"bigint\"},{\"name\":\"null_address_rows\",\"type\":\"bigint\"},{\"name\":\"null_script_type_rows\",\"type\":\"bigint\"}],\"totalRowCount\":1,\"executionCostCredits\":\"2.746\"},\"data\":{\"rows\":[{\"qa_date\":\"2026-08-24\",\"sampled_block_height\":963924,\"block_declared_transaction_count\":1860,\"transaction_rows\":1860,\"distinct_transaction_ids\":1860,\"declared_input_rows\":4062,\"input_rows\":4062,\"distinct_input_keys\":4062,\"declared_output_rows\":5207,\"output_rows\":5207,\"distinct_output_keys\":5207,\"coinbase_transaction_rows\":1,\"coinbase_input_rows\":1,\"coinbase_inputs_without_previous_outpoint\":1,\"fee_formula_mismatch_rows\":0,\"reference_candidate_rows\":1000,\"matched_previous_output_rows\":1000,\"matched_value_rows\":1000,\"null_address_rows\":105,\"null_script_type_rows\":0}]}}"
+      }
+    ],
+    "structuredContent": {
+      "executionId": "01M0YQB55RNQNBP2768V4BQR2C",
+      "state": "COMPLETED",
+      "resultMetadata": {
+        "columns": [
+          {
+            "name": "qa_date",
+            "type": "date"
+          },
+          {
+            "name": "sampled_block_height",
+            "type": "bigint"
+          },
+          {
+            "name": "block_declared_transaction_count",
+            "type": "bigint"
+          },
+          {
+            "name": "transaction_rows",
+            "type": "bigint"
+          },
+          {
+            "name": "distinct_transaction_ids",
+            "type": "bigint"
+          },
+          {
+            "name": "declared_input_rows",
+            "type": "bigint"
+          },
+          {
+            "name": "input_rows",
+            "type": "bigint"
+          },
+          {
+            "name": "distinct_input_keys",
+            "type": "bigint"
+          },
+          {
+            "name": "declared_output_rows",
+            "type": "bigint"
+          },
+          {
+            "name": "output_rows",
+            "type": "bigint"
+          },
+          {
+            "name": "distinct_output_keys",
+            "type": "bigint"
+          },
+          {
+            "name": "coinbase_transaction_rows",
+            "type": "bigint"
+          },
+          {
+            "name": "coinbase_input_rows",
+            "type": "bigint"
+          },
+          {
+            "name": "coinbase_inputs_without_previous_outpoint",
+            "type": "bigint"
+          },
+          {
+            "name": "fee_formula_mismatch_rows",
+            "type": "bigint"
+          },
+          {
+            "name": "reference_candidate_rows",
+            "type": "bigint"
+          },
+          {
+            "name": "matched_previous_output_rows",
+            "type": "bigint"
+          },
+          {
+            "name": "matched_value_rows",
+            "type": "bigint"
+          },
+          {
+            "name": "null_address_rows",
+            "type": "bigint"
+          },
+          {
+            "name": "null_script_type_rows",
+            "type": "bigint"
+          }
+        ],
+        "totalRowCount": 1,
+        "executionCostCredits": "2.746"
+      },
+      "data": {
+        "rows": [
+          {
+            "qa_date": "2026-08-24",
+            "sampled_block_height": 963924,
+            "block_declared_transaction_count": 1860,
+            "transaction_rows": 1860,
+            "distinct_transaction_ids": 1860,
+            "declared_input_rows": 4062,
+            "input_rows": 4062,
+            "distinct_input_keys": 4062,
+            "declared_output_rows": 5207,
+            "output_rows": 5207,
+            "distinct_output_keys": 5207,
+            "coinbase_transaction_rows": 1,
+            "coinbase_input_rows": 1,
+            "coinbase_inputs_without_previous_outpoint": 1,
+            "fee_formula_mismatch_rows": 0,
+            "reference_candidate_rows": 1000,
+            "matched_previous_output_rows": 1000,
+            "matched_value_rows": 1000,
+            "null_address_rows": 105,
+            "null_script_type_rows": 0
+          }
+        ]
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 25
+}

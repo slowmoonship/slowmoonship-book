@@ -1,0 +1,28 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"query_id\":8471581,\"user_id\":null,\"team_id\":953543,\"version\":2,\"name\":\"Bitcoin Output Value Distribution ｜ Bitcoin 输出金额分布\",\"description\":\"Seven complete UTC days of transaction-output value buckets in BTC. This is output-row structure, not wallet wealth or economic transaction volume.\",\"tags\":[],\"query\":\"-- Purpose:\\n-- Describe recent Bitcoin transaction-output value buckets as output rows,\\n-- not wallet wealth, users, transfers, or economic transaction volume.\\n--\\n-- Source table grain:\\n-- bitcoin.outputs has one row per transaction output.\\n--\\n-- Time range:\\n-- The most recent seven complete UTC calendar days ending two days before today.\\n\\n-- Read only output values from the partition-pruned seven-day window.\\nWITH filtered_outputs AS (\\n    SELECT\\n        value\\n    FROM bitcoin.outputs\\n    WHERE block_date >= CURRENT_DATE - INTERVAL '8' DAY\\n      AND block_date < CURRENT_DATE - INTERVAL '1' DAY\\n),\\n\\n-- Assign each output row to a BTC-denominated value bucket.\\nbucketed_outputs AS (\\n    SELECT\\n        CASE\\n            WHEN value < 0.001 THEN '< 0.001 BTC'\\n            WHEN value < 0.01 THEN '0.001 - 0.01 BTC'\\n            WHEN value < 0.1 THEN '0.01 - 0.1 BTC'\\n            WHEN value < 1 THEN '0.1 - 1 BTC'\\n            WHEN value < 10 THEN '1 - 10 BTC'\\n            WHEN value < 100 THEN '10 - 100 BTC'\\n            ELSE '>= 100 BTC'\\n        END AS value_bucket,\\n        CASE\\n            WHEN value < 0.001 THEN 1\\n            WHEN value < 0.01 THEN 2\\n            WHEN value < 0.1 THEN 3\\n            WHEN value < 1 THEN 4\\n            WHEN value < 10 THEN 5\\n            WHEN value < 100 THEN 6\\n            ELSE 7\\n        END AS bucket_order,\\n        value\\n    FROM filtered_outputs\\n),\\n\\n-- Aggregate output rows and assigned BTC by bucket.\\nbucket_summary AS (\\n    SELECT\\n        value_bucket,\\n        bucket_order,\\n        COUNT(*) AS output_count,\\n        SUM(value) AS output_value_btc\\n    FROM bucketed_outputs\\n    GROUP BY 1, 2\\n)\\n\\nSELECT\\n    value_bucket,           -- BTC value range assigned to each transaction output\\n    output_count,           -- Number of output rows in the bucket\\n    output_value_btc        -- BTC assigned to output rows in the bucket; not wallet wealth\\nFROM bucket_summary\\nORDER BY bucket_order\",\"parameters\":[],\"is_archived\":false,\"is_private\":false,\"is_temp\":false,\"latest_execution_id\":\"01M0YQQ68C4PJDQZ7SXSNY1QKG\",\"latest_execution_state\":\"QUERY_STATE_COMPLETED\"}"
+      }
+    ],
+    "structuredContent": {
+      "query_id": 8471581,
+      "user_id": null,
+      "team_id": 953543,
+      "version": 2,
+      "name": "Bitcoin Output Value Distribution ｜ Bitcoin 输出金额分布",
+      "description": "Seven complete UTC days of transaction-output value buckets in BTC. This is output-row structure, not wallet wealth or economic transaction volume.",
+      "tags": [],
+      "query": "-- Purpose:\n-- Describe recent Bitcoin transaction-output value buckets as output rows,\n-- not wallet wealth, users, transfers, or economic transaction volume.\n--\n-- Source table grain:\n-- bitcoin.outputs has one row per transaction output.\n--\n-- Time range:\n-- The most recent seven complete UTC calendar days ending two days before today.\n\n-- Read only output values from the partition-pruned seven-day window.\nWITH filtered_outputs AS (\n    SELECT\n        value\n    FROM bitcoin.outputs\n    WHERE block_date >= CURRENT_DATE - INTERVAL '8' DAY\n      AND block_date < CURRENT_DATE - INTERVAL '1' DAY\n),\n\n-- Assign each output row to a BTC-denominated value bucket.\nbucketed_outputs AS (\n    SELECT\n        CASE\n            WHEN value < 0.001 THEN '< 0.001 BTC'\n            WHEN value < 0.01 THEN '0.001 - 0.01 BTC'\n            WHEN value < 0.1 THEN '0.01 - 0.1 BTC'\n            WHEN value < 1 THEN '0.1 - 1 BTC'\n            WHEN value < 10 THEN '1 - 10 BTC'\n            WHEN value < 100 THEN '10 - 100 BTC'\n            ELSE '>= 100 BTC'\n        END AS value_bucket,\n        CASE\n            WHEN value < 0.001 THEN 1\n            WHEN value < 0.01 THEN 2\n            WHEN value < 0.1 THEN 3\n            WHEN value < 1 THEN 4\n            WHEN value < 10 THEN 5\n            WHEN value < 100 THEN 6\n            ELSE 7\n        END AS bucket_order,\n        value\n    FROM filtered_outputs\n),\n\n-- Aggregate output rows and assigned BTC by bucket.\nbucket_summary AS (\n    SELECT\n        value_bucket,\n        bucket_order,\n        COUNT(*) AS output_count,\n        SUM(value) AS output_value_btc\n    FROM bucketed_outputs\n    GROUP BY 1, 2\n)\n\nSELECT\n    value_bucket,           -- BTC value range assigned to each transaction output\n    output_count,           -- Number of output rows in the bucket\n    output_value_btc        -- BTC assigned to output rows in the bucket; not wallet wealth\nFROM bucket_summary\nORDER BY bucket_order",
+      "parameters": [],
+      "is_archived": false,
+      "is_private": false,
+      "is_temp": false,
+      "latest_execution_id": "01M0YQQ68C4PJDQZ7SXSNY1QKG",
+      "latest_execution_state": "QUERY_STATE_COMPLETED"
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 17
+}

@@ -1,0 +1,17 @@
+{
+  "evidence_level": "RESEARCH_MODEL",
+  "assumption": "Fully proportional value mixing; not identity probability; Fraction values are model shares, not fractional protocol outputs",
+  "unit": "satoshi share",
+  "allocations": {
+    "A": {
+      "output_0": "12000000",
+      "output_1": "27960000",
+      "fee_sink": "40000"
+    },
+    "B": {
+      "output_0": "18000000",
+      "output_1": "41940000",
+      "fee_sink": "60000"
+    }
+  }
+}

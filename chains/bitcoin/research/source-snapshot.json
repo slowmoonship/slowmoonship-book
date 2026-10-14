@@ -1,0 +1,641 @@
+[
+  {
+    "id": "transactions",
+    "url": "https://developer.bitcoin.org/devguide/transactions.html",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (28) Connection timed out after 35002 milliseconds\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:09:34.371753+00:00"
+  },
+  {
+    "id": "tx-reference",
+    "url": "https://developer.bitcoin.org/reference/transactions.html",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (28) Connection timed out after 35006 milliseconds\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:09:34.377243+00:00"
+  },
+  {
+    "id": "blocks",
+    "url": "https://developer.bitcoin.org/devguide/block_chain.html",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (28) Connection timed out after 35006 milliseconds\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:09:34.375627+00:00"
+  },
+  {
+    "id": "block-reference",
+    "url": "https://developer.bitcoin.org/reference/block_chain.html",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (28) Connection timed out after 35008 milliseconds\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:09.404392+00:00"
+  },
+  {
+    "id": "wallets",
+    "url": "https://developer.bitcoin.org/devguide/wallets.html",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (28) Connection timed out after 35011 milliseconds\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:09.405107+00:00"
+  },
+  {
+    "id": "contracts",
+    "url": "https://developer.bitcoin.org/devguide/contracts.html",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (28) Connection timed out after 35011 milliseconds\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:09.410334+00:00"
+  },
+  {
+    "id": "p2p",
+    "url": "https://developer.bitcoin.org/devguide/p2p_network.html",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (28) Connection timed out after 35006 milliseconds\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:44.433027+00:00"
+  },
+  {
+    "id": "mining",
+    "url": "https://developer.bitcoin.org/devguide/mining.html",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (28) Connection timed out after 35006 milliseconds\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:44.434688+00:00"
+  },
+  {
+    "id": "core31",
+    "url": "https://bitcoincore.org/en/releases/31.0/",
+    "status": "FETCHED",
+    "bytes": 405409,
+    "error": null,
+    "sha256": "34cc9a66df5ad5059f82cae9e3e608f0a2f1ed4332fee6773bf01d075af8ee2e",
+    "retrieved_at": "2026-10-13T02:10:11.677336+00:00"
+  },
+  {
+    "id": "core30",
+    "url": "https://bitcoincore.org/en/releases/30.0/",
+    "status": "UNAVAILABLE",
+    "bytes": 65536,
+    "error": "curl: (28) Operation timed out after 35005 milliseconds with 65536 out of 413444 bytes received\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:46.696765+00:00"
+  },
+  {
+    "id": "core29",
+    "url": "https://bitcoincore.org/en/releases/29.0/",
+    "status": "FETCHED",
+    "bytes": 404807,
+    "error": null,
+    "sha256": "2506e18ed120827b086c6b5b0746eb8f352694d3644939fd926f960d939f76d3",
+    "retrieved_at": "2026-10-13T02:10:46.358221+00:00"
+  },
+  {
+    "id": "core28",
+    "url": "https://bitcoincore.org/en/releases/28.0/",
+    "status": "FETCHED",
+    "bytes": 405904,
+    "error": null,
+    "sha256": "9f16132f8bfe472ed6ab3e47f1ed5032ddd4ef779d87e07a2e0126c6ecdd34fa",
+    "retrieved_at": "2026-10-13T02:10:46.435569+00:00"
+  },
+  {
+    "id": "core-validation",
+    "url": "https://raw.githubusercontent.com/bitcoin/bitcoin/v31.0/src/validation.cpp",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (7) Failed to connect to raw.githubusercontent.com port 443 after 51 ms: Couldn't connect to server\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:46.423114+00:00"
+  },
+  {
+    "id": "core-policy",
+    "url": "https://raw.githubusercontent.com/bitcoin/bitcoin/v31.0/src/policy/policy.cpp",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (7) Failed to connect to raw.githubusercontent.com port 443 after 5 ms: Couldn't connect to server\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:46.447311+00:00"
+  },
+  {
+    "id": "core-consensus",
+    "url": "https://raw.githubusercontent.com/bitcoin/bitcoin/v31.0/src/consensus/consensus.h",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (7) Failed to connect to raw.githubusercontent.com port 443 after 2 ms: Couldn't connect to server\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:46.452893+00:00"
+  },
+  {
+    "id": "core-chainparams",
+    "url": "https://raw.githubusercontent.com/bitcoin/bitcoin/v31.0/src/kernel/chainparams.cpp",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (7) Failed to connect to raw.githubusercontent.com port 443 after 8 ms: Couldn't connect to server\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:46.469952+00:00"
+  },
+  {
+    "id": "ord-overview",
+    "url": "https://docs.ordinals.com/overview.html",
+    "status": "FETCHED",
+    "bytes": 25962,
+    "error": null,
+    "sha256": "f23c90f114150c8c15029a26a47b66b4f9caa7db3222c7f3de5d7cc6841a30ca",
+    "retrieved_at": "2026-10-13T02:10:47.534313+00:00"
+  },
+  {
+    "id": "inscriptions",
+    "url": "https://docs.ordinals.com/inscriptions.html",
+    "status": "FETCHED",
+    "bytes": 24155,
+    "error": null,
+    "sha256": "23fbe84932463644e4044de65fb0c55a6da1a9ce0d127fdf78fe57f66401f4fd",
+    "retrieved_at": "2026-10-13T02:10:47.533025+00:00"
+  },
+  {
+    "id": "runes",
+    "url": "https://docs.ordinals.com/runes/specification.html",
+    "status": "FETCHED",
+    "bytes": 37144,
+    "error": null,
+    "sha256": "fe4ec5a4f8d4b93f0af0b57c0cec58b25ed2406fbabdc9e00523cc3f0b138d2a",
+    "retrieved_at": "2026-10-13T02:10:47.582970+00:00"
+  },
+  {
+    "id": "brc20",
+    "url": "https://layer1.gitbook.io/layer1-foundation/brc-20/brc-20-standard",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (56) The requested URL returned error: 404\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:49.740503+00:00"
+  },
+  {
+    "id": "lightning",
+    "url": "https://raw.githubusercontent.com/lightning/bolts/master/02-peer-protocol.md",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (7) Failed to connect to raw.githubusercontent.com port 443 after 5 ms: Couldn't connect to server\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:47.550878+00:00"
+  },
+  {
+    "id": "lightning-routing",
+    "url": "https://raw.githubusercontent.com/lightning/bolts/master/04-onion-routing.md",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (7) Failed to connect to raw.githubusercontent.com port 443 after 4 ms: Couldn't connect to server\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:47.567233+00:00"
+  },
+  {
+    "id": "coinjoin",
+    "url": "https://bitcointalk.org/index.php?topic=279249.0",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (28) Connection timed out after 35001 milliseconds\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:11:22.582904+00:00"
+  },
+  {
+    "id": "clustering",
+    "url": "https://www.usenix.org/conference/imc13/technical-sessions/presentation/meiklejohn",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (56) The requested URL returned error: 404\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:49.253307+00:00"
+  },
+  {
+    "id": "binance-por",
+    "url": "https://www.binance.com/en/proof-of-reserves",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (7) Failed to connect to www.binance.com port 443 after 49 ms: Couldn't connect to server\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:49.321322+00:00"
+  },
+  {
+    "id": "esplora",
+    "url": "https://raw.githubusercontent.com/Blockstream/esplora/master/API.md",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (7) Failed to connect to raw.githubusercontent.com port 443 after 3 ms: Couldn't connect to server\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:49.339630+00:00"
+  },
+  {
+    "id": "bip16",
+    "url": "https://raw.githubusercontent.com/bitcoin/bips/master/bip-0016.mediawiki",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (7) Failed to connect to raw.githubusercontent.com port 443 after 3 ms: Couldn't connect to server\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:49.356479+00:00"
+  },
+  {
+    "id": "bip30",
+    "url": "https://raw.githubusercontent.com/bitcoin/bips/master/bip-0030.mediawiki",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (7) Failed to connect to raw.githubusercontent.com port 443 after 3 ms: Couldn't connect to server\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:49.374246+00:00"
+  },
+  {
+    "id": "bip34",
+    "url": "https://raw.githubusercontent.com/bitcoin/bips/master/bip-0034.mediawiki",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (7) Failed to connect to raw.githubusercontent.com port 443 after 2 ms: Couldn't connect to server\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:49.388393+00:00"
+  },
+  {
+    "id": "bip65",
+    "url": "https://raw.githubusercontent.com/bitcoin/bips/master/bip-0065.mediawiki",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (7) Failed to connect to raw.githubusercontent.com port 443 after 3 ms: Couldn't connect to server\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:49.402962+00:00"
+  },
+  {
+    "id": "bip68",
+    "url": "https://raw.githubusercontent.com/bitcoin/bips/master/bip-0068.mediawiki",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (7) Failed to connect to raw.githubusercontent.com port 443 after 3 ms: Couldn't connect to server\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:49.417118+00:00"
+  },
+  {
+    "id": "bip112",
+    "url": "https://raw.githubusercontent.com/bitcoin/bips/master/bip-0112.mediawiki",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (7) Failed to connect to raw.githubusercontent.com port 443 after 3 ms: Couldn't connect to server\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:49.431121+00:00"
+  },
+  {
+    "id": "bip113",
+    "url": "https://raw.githubusercontent.com/bitcoin/bips/master/bip-0113.mediawiki",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (7) Failed to connect to raw.githubusercontent.com port 443 after 2 ms: Couldn't connect to server\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:49.444155+00:00"
+  },
+  {
+    "id": "bip125",
+    "url": "https://raw.githubusercontent.com/bitcoin/bips/master/bip-0125.mediawiki",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (7) Failed to connect to raw.githubusercontent.com port 443 after 4 ms: Couldn't connect to server\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:49.458184+00:00"
+  },
+  {
+    "id": "bip141",
+    "url": "https://raw.githubusercontent.com/bitcoin/bips/master/bip-0141.mediawiki",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (7) Failed to connect to raw.githubusercontent.com port 443 after 2 ms: Couldn't connect to server\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:49.472728+00:00"
+  },
+  {
+    "id": "bip143",
+    "url": "https://raw.githubusercontent.com/bitcoin/bips/master/bip-0143.mediawiki",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (7) Failed to connect to raw.githubusercontent.com port 443 after 3 ms: Couldn't connect to server\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:49.486154+00:00"
+  },
+  {
+    "id": "bip144",
+    "url": "https://raw.githubusercontent.com/bitcoin/bips/master/bip-0144.mediawiki",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (7) Failed to connect to raw.githubusercontent.com port 443 after 6 ms: Couldn't connect to server\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:49.503564+00:00"
+  },
+  {
+    "id": "bip173",
+    "url": "https://raw.githubusercontent.com/bitcoin/bips/master/bip-0173.mediawiki",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (7) Failed to connect to raw.githubusercontent.com port 443 after 4 ms: Couldn't connect to server\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:49.518369+00:00"
+  },
+  {
+    "id": "bip322",
+    "url": "https://raw.githubusercontent.com/bitcoin/bips/master/bip-0322.mediawiki",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (7) Failed to connect to raw.githubusercontent.com port 443 after 2 ms: Couldn't connect to server\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:49.535208+00:00"
+  },
+  {
+    "id": "bip340",
+    "url": "https://raw.githubusercontent.com/bitcoin/bips/master/bip-0340.mediawiki",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (7) Failed to connect to raw.githubusercontent.com port 443 after 3 ms: Couldn't connect to server\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:49.550324+00:00"
+  },
+  {
+    "id": "bip341",
+    "url": "https://raw.githubusercontent.com/bitcoin/bips/master/bip-0341.mediawiki",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (7) Failed to connect to raw.githubusercontent.com port 443 after 3 ms: Couldn't connect to server\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:49.564230+00:00"
+  },
+  {
+    "id": "bip342",
+    "url": "https://raw.githubusercontent.com/bitcoin/bips/master/bip-0342.mediawiki",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (7) Failed to connect to raw.githubusercontent.com port 443 after 3 ms: Couldn't connect to server\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:49.579045+00:00"
+  },
+  {
+    "id": "bip350",
+    "url": "https://raw.githubusercontent.com/bitcoin/bips/master/bip-0350.mediawiki",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (7) Failed to connect to raw.githubusercontent.com port 443 after 6 ms: Couldn't connect to server\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:49.596275+00:00"
+  },
+  {
+    "id": "bip379",
+    "url": "https://raw.githubusercontent.com/bitcoin/bips/master/bip-0379.mediawiki",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (7) Failed to connect to raw.githubusercontent.com port 443 after 4 ms: Couldn't connect to server\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:49.611598+00:00"
+  },
+  {
+    "id": "bip380",
+    "url": "https://raw.githubusercontent.com/bitcoin/bips/master/bip-0380.mediawiki",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (7) Failed to connect to raw.githubusercontent.com port 443 after 3 ms: Couldn't connect to server\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:49.626871+00:00"
+  },
+  {
+    "id": "bip381",
+    "url": "https://raw.githubusercontent.com/bitcoin/bips/master/bip-0381.mediawiki",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (7) Failed to connect to raw.githubusercontent.com port 443 after 11 ms: Couldn't connect to server\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:49.648723+00:00"
+  },
+  {
+    "id": "bip382",
+    "url": "https://raw.githubusercontent.com/bitcoin/bips/master/bip-0382.mediawiki",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (7) Failed to connect to raw.githubusercontent.com port 443 after 4 ms: Couldn't connect to server\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:49.670716+00:00"
+  },
+  {
+    "id": "bip383",
+    "url": "https://raw.githubusercontent.com/bitcoin/bips/master/bip-0383.mediawiki",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (7) Failed to connect to raw.githubusercontent.com port 443 after 3 ms: Couldn't connect to server\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:49.690060+00:00"
+  },
+  {
+    "id": "bip385",
+    "url": "https://raw.githubusercontent.com/bitcoin/bips/master/bip-0385.mediawiki",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (7) Failed to connect to raw.githubusercontent.com port 443 after 3 ms: Couldn't connect to server\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:49.706645+00:00"
+  },
+  {
+    "id": "bip386",
+    "url": "https://raw.githubusercontent.com/bitcoin/bips/master/bip-0386.mediawiki",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (7) Failed to connect to raw.githubusercontent.com port 443 after 2 ms: Couldn't connect to server\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:49.722094+00:00"
+  },
+  {
+    "id": "bip387",
+    "url": "https://raw.githubusercontent.com/bitcoin/bips/master/bip-0387.mediawiki",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (7) Failed to connect to raw.githubusercontent.com port 443 after 3 ms: Couldn't connect to server\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:49.737939+00:00"
+  },
+  {
+    "id": "bip388",
+    "url": "https://raw.githubusercontent.com/bitcoin/bips/master/bip-0388.mediawiki",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (7) Failed to connect to raw.githubusercontent.com port 443 after 3 ms: Couldn't connect to server\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:49.756032+00:00"
+  },
+  {
+    "id": "bip119",
+    "url": "https://raw.githubusercontent.com/bitcoin/bips/master/bip-0119.mediawiki",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (7) Failed to connect to raw.githubusercontent.com port 443 after 3 ms: Couldn't connect to server\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:49.755795+00:00"
+  },
+  {
+    "id": "bip118",
+    "url": "https://raw.githubusercontent.com/bitcoin/bips/master/bip-0118.mediawiki",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (7) Failed to connect to raw.githubusercontent.com port 443 after 6 ms: Couldn't connect to server\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:49.779593+00:00"
+  },
+  {
+    "id": "bip347",
+    "url": "https://raw.githubusercontent.com/bitcoin/bips/master/bip-0347.mediawiki",
+    "status": "UNAVAILABLE",
+    "bytes": 0,
+    "error": "curl: (7) Failed to connect to raw.githubusercontent.com port 443 after 6 ms: Couldn't connect to server\n",
+    "sha256": null,
+    "retrieved_at": "2026-10-13T02:10:49.779294+00:00"
+  },
+  {
+    "id": "dune-blocks",
+    "url": "https://docs.dune.com/data-catalog/bitcoin/blocks.md",
+    "status": "FETCHED",
+    "bytes": 3055,
+    "error": null,
+    "sha256": "3d43f2a2e1d2147b57bf11123e57766669c065049aeb8273b22a710c8857b914",
+    "retrieved_at": "2026-10-13T02:10:51.229186+00:00"
+  },
+  {
+    "id": "dune-transactions",
+    "url": "https://docs.dune.com/data-catalog/bitcoin/transactions.md",
+    "status": "FETCHED",
+    "bytes": 6158,
+    "error": null,
+    "sha256": "48cd7b9039117548f4289a39cd50efa1a258f9b3dfab7f917aeea0b0855c1ff1",
+    "retrieved_at": "2026-10-13T02:10:51.183331+00:00"
+  },
+  {
+    "id": "dune-inputs",
+    "url": "https://docs.dune.com/data-catalog/bitcoin/inputs.md",
+    "status": "FETCHED",
+    "bytes": 3364,
+    "error": null,
+    "sha256": "a27cae798da6be17d7d666d268d249bce4fe01eba6fc410ead33e39807679374",
+    "retrieved_at": "2026-10-13T02:10:52.020914+00:00"
+  },
+  {
+    "id": "dune-outputs",
+    "url": "https://docs.dune.com/data-catalog/bitcoin/outputs.md",
+    "status": "FETCHED",
+    "bytes": 2235,
+    "error": null,
+    "sha256": "b5304ba5d423a509f6832e1168262631c50699ebbb735ceee2e6843ffe4ae3ad",
+    "retrieved_at": "2026-10-13T02:10:52.168499+00:00"
+  },
+  {
+    "id": "rpc-getblockchaininfo",
+    "url": "https://bitcoincore.org/en/doc/31.0.0/rpc/blockchain/getblockchaininfo/",
+    "status": "FETCHED",
+    "bytes": 409537,
+    "error": null,
+    "sha256": "557b8d51fb82d261db845a66963b99ad7739f2d0052b02d611403e58e0f74478",
+    "retrieved_at": "2026-10-13T02:10:53.970347+00:00"
+  },
+  {
+    "id": "rpc-getblock",
+    "url": "https://bitcoincore.org/en/doc/31.0.0/rpc/blockchain/getblock/",
+    "status": "FETCHED",
+    "bytes": 412281,
+    "error": null,
+    "sha256": "c699c25e6a4432cb24f363db2a668724919c04efc9165b31848197d00040fe8c",
+    "retrieved_at": "2026-10-13T02:10:54.292871+00:00"
+  },
+  {
+    "id": "rpc-getblockhash",
+    "url": "https://bitcoincore.org/en/doc/31.0.0/rpc/blockchain/getblockhash/",
+    "status": "FETCHED",
+    "bytes": 407225,
+    "error": null,
+    "sha256": "65da7c7f8c15d29d3d21aa9c1252021f3ddebe75c2ae63b505da11ca15e219e0",
+    "retrieved_at": "2026-10-13T02:10:56.103755+00:00"
+  },
+  {
+    "id": "rpc-getblockheader",
+    "url": "https://bitcoincore.org/en/doc/31.0.0/rpc/blockchain/getblockheader/",
+    "status": "FETCHED",
+    "bytes": 409094,
+    "error": null,
+    "sha256": "0a653f4f4ab6b4e5fd0900219761cea7b764de2fc7d9ae13f9c3e34ceb62cb1b",
+    "retrieved_at": "2026-10-13T02:10:56.370625+00:00"
+  },
+  {
+    "id": "rpc-getrawtransaction",
+    "url": "https://bitcoincore.org/en/doc/31.0.0/rpc/rawtransactions/getrawtransaction/",
+    "status": "FETCHED",
+    "bytes": 413079,
+    "error": null,
+    "sha256": "6a5fae14254aa20a4d909ff64927c6b0c39767d37d1e212ca1efc433c341e818",
+    "retrieved_at": "2026-10-13T02:10:58.196248+00:00"
+  },
+  {
+    "id": "rpc-gettxout",
+    "url": "https://bitcoincore.org/en/doc/31.0.0/rpc/blockchain/gettxout/",
+    "status": "FETCHED",
+    "bytes": 408311,
+    "error": null,
+    "sha256": "c799338ad9a66daa2defc1d5b7a38ba1262bf711782f72e8afcb39d8b5c9ec7c",
+    "retrieved_at": "2026-10-13T02:10:58.406355+00:00"
+  },
+  {
+    "id": "rpc-gettxoutsetinfo",
+    "url": "https://bitcoincore.org/en/doc/31.0.0/rpc/blockchain/gettxoutsetinfo/",
+    "status": "FETCHED",
+    "bytes": 411024,
+    "error": null,
+    "sha256": "883b150687c85e8578d13a862d3e766f12df7d75ced7bbd9581ff8209b11ad46",
+    "retrieved_at": "2026-10-13T02:11:00.173446+00:00"
+  },
+  {
+    "id": "rpc-getblockstats",
+    "url": "https://bitcoincore.org/en/doc/31.0.0/rpc/blockchain/getblockstats/",
+    "status": "FETCHED",
+    "bytes": 411424,
+    "error": null,
+    "sha256": "bfbf9868d70f7e7542bd68bb09500e81653c3b2763283637b135a0fd5c6067cd",
+    "retrieved_at": "2026-10-13T02:11:00.573440+00:00"
+  },
+  {
+    "id": "rpc-getrawmempool",
+    "url": "https://bitcoincore.org/en/doc/31.0.0/rpc/blockchain/getrawmempool/",
+    "status": "FETCHED",
+    "bytes": 410872,
+    "error": null,
+    "sha256": "18c69c8c53b08785d1dc96ee5075167e16baf1055040e8182d2f69e278e535ba",
+    "retrieved_at": "2026-10-13T02:11:02.089966+00:00"
+  },
+  {
+    "id": "rpc-getmempoolentry",
+    "url": "https://bitcoincore.org/en/doc/31.0.0/rpc/blockchain/getmempoolentry/",
+    "status": "FETCHED",
+    "bytes": 410030,
+    "error": null,
+    "sha256": "460a842e93051d2bf8fda225aab8da55ae825132f09e89a87d5ecee361af60ea",
+    "retrieved_at": "2026-10-13T02:11:02.683656+00:00"
+  },
+  {
+    "id": "rpc-estimatesmartfee",
+    "url": "https://bitcoincore.org/en/doc/31.0.0/rpc/util/estimatesmartfee/",
+    "status": "FETCHED",
+    "bytes": 408922,
+    "error": null,
+    "sha256": "692ae998ae41d5a306f6a11b631bce5039ededd5af6280d5b49d10d378942d77",
+    "retrieved_at": "2026-10-13T02:11:04.054710+00:00"
+  },
+  {
+    "id": "rpc-getnetworkinfo",
+    "url": "https://bitcoincore.org/en/doc/31.0.0/rpc/network/getnetworkinfo/",
+    "status": "FETCHED",
+    "bytes": 410004,
+    "error": null,
+    "sha256": "2a96aac3f7f48eb8fb0176efc8fb8b208eec4e2884628bd51e7e3d7fd2710122",
+    "retrieved_at": "2026-10-13T02:11:04.649043+00:00"
+  }
+]

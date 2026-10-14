@@ -1,0 +1,70 @@
+{
+  "result": {
+    "_meta": {
+      "mcp_event_id": "d002976c-1ced-411f-980b-cf094c3e4c7b"
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"executionId\":\"01M0YQKDTP1GKGSXS4XYFXK1Q1\",\"state\":\"COMPLETED\",\"resultMetadata\":{\"columns\":[{\"name\":\"date\",\"type\":\"date\"},{\"name\":\"outputs_created\",\"type\":\"bigint\"},{\"name\":\"outputs_spent\",\"type\":\"bigint\"},{\"name\":\"output_value_created_btc\",\"type\":\"double\"},{\"name\":\"output_value_spent_btc\",\"type\":\"double\"}],\"totalRowCount\":14,\"executionCostCredits\":\"5.016\"},\"data\":{\"rows\":[{\"date\":\"2026-08-11\",\"outputs_created\":1398126,\"outputs_spent\":1000585,\"output_value_created_btc\":716800.476040636,\"output_value_spent_btc\":716397.3510406397},{\"date\":\"2026-08-12\",\"outputs_created\":1496468,\"outputs_spent\":1075420,\"output_value_created_btc\":971941.8400545727,\"output_value_spent_btc\":971501.2150545787},{\"date\":\"2026-08-13\",\"outputs_created\":1542731,\"outputs_spent\":1114305,\"output_value_created_btc\":818886.7545282015,\"output_value_spent_btc\":818430.5045282048}]}}"
+      }
+    ],
+    "structuredContent": {
+      "executionId": "01M0YQKDTP1GKGSXS4XYFXK1Q1",
+      "state": "COMPLETED",
+      "resultMetadata": {
+        "columns": [
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "outputs_created",
+            "type": "bigint"
+          },
+          {
+            "name": "outputs_spent",
+            "type": "bigint"
+          },
+          {
+            "name": "output_value_created_btc",
+            "type": "double"
+          },
+          {
+            "name": "output_value_spent_btc",
+            "type": "double"
+          }
+        ],
+        "totalRowCount": 14,
+        "executionCostCredits": "5.016"
+      },
+      "data": {
+        "rows": [
+          {
+            "date": "2026-08-11",
+            "outputs_created": 1398126,
+            "outputs_spent": 1000585,
+            "output_value_created_btc": 716800.476040636,
+            "output_value_spent_btc": 716397.3510406397
+          },
+          {
+            "date": "2026-08-12",
+            "outputs_created": 1496468,
+            "outputs_spent": 1075420,
+            "output_value_created_btc": 971941.8400545727,
+            "output_value_spent_btc": 971501.2150545787
+          },
+          {
+            "date": "2026-08-13",
+            "outputs_created": 1542731,
+            "outputs_spent": 1114305,
+            "output_value_created_btc": 818886.7545282015,
+            "output_value_spent_btc": 818430.5045282048
+          }
+        ]
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 26
+}

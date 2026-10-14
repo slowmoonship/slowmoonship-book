@@ -1,0 +1,28 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"query_id\":8471514,\"user_id\":null,\"team_id\":953543,\"version\":2,\"name\":\"Bitcoin Coinbase Transactions ｜ Bitcoin Coinbase 交易\",\"description\":\"14 complete UTC days of coinbase transaction counts and reward composition. Coinbase here is the Bitcoin protocol transaction type, not the exchange.\",\"tags\":[],\"query\":\"-- Purpose:\\n-- Show Bitcoin's special coinbase transaction and separate its total outputs\\n-- into the block subsidy and transaction-fee components.\\n--\\n-- Source table grain:\\n-- query_8471410 has one row per date from bitcoin.transactions, including explicit\\n-- is_coinbase classification and coinbase output_value.\\n-- query_8471408 has one row per date from bitcoin.blocks with mint_reward,\\n-- total_fees, and total_reward fields.\\n--\\n-- Time range:\\n-- The 14 complete UTC days shared by Query 8471410 and Query 8471408.\\n\\n-- Join daily transaction-level coinbase facts to block-level reward components.\\nWITH daily_coinbase AS (\\n    SELECT\\n        t.date,\\n        t.coinbase_transaction_count,\\n        t.total_coinbase_output_btc,\\n        b.mint_reward_btc,\\n        b.total_fees_btc,\\n        b.total_reward_btc\\n    FROM query_8471410 AS t\\n    INNER JOIN query_8471408 AS b\\n        ON t.date = b.date\\n)\\n\\nSELECT\\n    date,                           -- Complete UTC calendar date\\n    coinbase_transaction_count,     -- Transactions classified as coinbase; normally one per block\\n    total_coinbase_output_btc,      -- BTC assigned to outputs of coinbase transactions\\n    mint_reward_btc,                -- Newly issued block subsidy in BTC\\n    total_fees_btc,                 -- Transaction fees collected by miners in BTC\\n    total_reward_btc                -- Block subsidy plus transaction fees in BTC\\nFROM daily_coinbase\\nORDER BY date\",\"parameters\":[],\"is_archived\":false,\"is_private\":false,\"is_temp\":false,\"latest_execution_id\":\"01M0YQN34ZK8HAB3H4TQG9BWPP\",\"latest_execution_state\":\"QUERY_STATE_COMPLETED\"}"
+      }
+    ],
+    "structuredContent": {
+      "query_id": 8471514,
+      "user_id": null,
+      "team_id": 953543,
+      "version": 2,
+      "name": "Bitcoin Coinbase Transactions ｜ Bitcoin Coinbase 交易",
+      "description": "14 complete UTC days of coinbase transaction counts and reward composition. Coinbase here is the Bitcoin protocol transaction type, not the exchange.",
+      "tags": [],
+      "query": "-- Purpose:\n-- Show Bitcoin's special coinbase transaction and separate its total outputs\n-- into the block subsidy and transaction-fee components.\n--\n-- Source table grain:\n-- query_8471410 has one row per date from bitcoin.transactions, including explicit\n-- is_coinbase classification and coinbase output_value.\n-- query_8471408 has one row per date from bitcoin.blocks with mint_reward,\n-- total_fees, and total_reward fields.\n--\n-- Time range:\n-- The 14 complete UTC days shared by Query 8471410 and Query 8471408.\n\n-- Join daily transaction-level coinbase facts to block-level reward components.\nWITH daily_coinbase AS (\n    SELECT\n        t.date,\n        t.coinbase_transaction_count,\n        t.total_coinbase_output_btc,\n        b.mint_reward_btc,\n        b.total_fees_btc,\n        b.total_reward_btc\n    FROM query_8471410 AS t\n    INNER JOIN query_8471408 AS b\n        ON t.date = b.date\n)\n\nSELECT\n    date,                           -- Complete UTC calendar date\n    coinbase_transaction_count,     -- Transactions classified as coinbase; normally one per block\n    total_coinbase_output_btc,      -- BTC assigned to outputs of coinbase transactions\n    mint_reward_btc,                -- Newly issued block subsidy in BTC\n    total_fees_btc,                 -- Transaction fees collected by miners in BTC\n    total_reward_btc                -- Block subsidy plus transaction fees in BTC\nFROM daily_coinbase\nORDER BY date",
+      "parameters": [],
+      "is_archived": false,
+      "is_private": false,
+      "is_temp": false,
+      "latest_execution_id": "01M0YQN34ZK8HAB3H4TQG9BWPP",
+      "latest_execution_state": "QUERY_STATE_COMPLETED"
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 16
+}

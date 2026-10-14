@@ -1,0 +1,20 @@
+{
+  "source": "https://blockstream.info/api/tx/ea44e97271691990157559d0bdd9959e02790c34db6c006d779e82fa5aee708e/outspends",
+  "network": "Bitcoin Mainnet",
+  "retrieved_at": "2026-10-13T02:09:18.559932+00:00",
+  "source_node_version": null,
+  "raw_sha256": "6900124ce931f9b4be278aa0f0e9fac2afb433ee610017fb048e8d6870700b54",
+  "data": [
+    {
+      "spent": true,
+      "txid": "dd11322ddb4487a0a7a597838df02fbfd2070870721cd648f3b37f0a164efed9",
+      "vin": 0,
+      "status": {
+        "confirmed": true,
+        "block_height": 92241,
+        "block_hash": "0000000000045e87f01651f0f0ccf0ca1dc256d5fdd7a2052fcabcb5bfbd7415",
+        "block_time": 1289940704
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "source": "https://blockstream.info/api/block/0000000000000000001c8018d9cb3b742ef25114f27563e3fc4a1902167f9893",
+  "network": "Bitcoin Mainnet",
+  "retrieved_at": "2026-10-13T02:09:07.110619+00:00",
+  "source_node_version": null,
+  "raw_sha256": "f316ad439adc2c3781a71f9c6422688d038f9d0923a22a6108ecb805b669dac4",
+  "data": {
+    "id": "0000000000000000001c8018d9cb3b742ef25114f27563e3fc4a1902167f9893",
+    "height": 481824,
+    "version": 536870914,
+    "timestamp": 1503539857,
+    "tx_count": 1866,
+    "size": 989323,
+    "weight": 3954880,
+    "merkle_root": "6438250cad442b982801ae6994edb8a9ec63c0a0ba117779fbe7ef7f07cad140",
+    "previousblockhash": "000000000000000000cbeff0b533f8e1189cf09dfbebf57a8ebe349362811b80",
+    "mediantime": 1503536701,
+    "nonce": 575995682,
+    "bits": 402734313,
+    "difficulty": 888171856257.3206
+  }
+}

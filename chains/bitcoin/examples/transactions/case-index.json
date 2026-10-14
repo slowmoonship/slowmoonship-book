@@ -1,0 +1,320 @@
+[
+  {
+    "case_id": "case-01",
+    "title": "单输入双输出：支付结构，找零未证实",
+    "network": "Bitcoin Mainnet",
+    "txid": "f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16",
+    "block_height": 170,
+    "block_hash": "00000000d1145790a8694403d4063f323d499e655c83426834d4ce2f8dd4a2ee",
+    "timestamp": 1231731025,
+    "inputs": 1,
+    "outputs": 2,
+    "fee_sat": 0,
+    "value_unit": "integer satoshi",
+    "explorer": "https://blockstream.info/tx/f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16",
+    "api": "https://blockstream.info/api/tx/f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16",
+    "dune_query": null,
+    "verified_fields": [
+      "txid",
+      "confirmed block location",
+      "vin previous outpoint",
+      "prevout value (indexer enriched)",
+      "vout value/script",
+      "fee from integer totals"
+    ],
+    "unverified_fields": [
+      "real identities",
+      "payment purpose",
+      "change ownership",
+      "Dune same-transaction result",
+      "independent local full-node consensus verification"
+    ]
+  },
+  {
+    "case_id": "case-02",
+    "title": "多输入单输出：整合候选，所有权未证实",
+    "network": "Bitcoin Mainnet",
+    "txid": "d0a11ea1df62e05fb76a7b9e19cc0e63d39ac1e20097f6171b92be00bf1a6510",
+    "block_height": 481824,
+    "block_hash": "0000000000000000001c8018d9cb3b742ef25114f27563e3fc4a1902167f9893",
+    "timestamp": 1503539857,
+    "inputs": 11,
+    "outputs": 1,
+    "fee_sat": 0,
+    "value_unit": "integer satoshi",
+    "explorer": "https://blockstream.info/tx/d0a11ea1df62e05fb76a7b9e19cc0e63d39ac1e20097f6171b92be00bf1a6510",
+    "api": "https://blockstream.info/api/tx/d0a11ea1df62e05fb76a7b9e19cc0e63d39ac1e20097f6171b92be00bf1a6510",
+    "dune_query": null,
+    "verified_fields": [
+      "txid",
+      "confirmed block location",
+      "vin previous outpoint",
+      "prevout value (indexer enriched)",
+      "vout value/script",
+      "fee from integer totals"
+    ],
+    "unverified_fields": [
+      "real identities",
+      "payment purpose",
+      "change ownership",
+      "Dune same-transaction result",
+      "independent local full-node consensus verification"
+    ]
+  },
+  {
+    "case_id": "case-03",
+    "title": "P2PKH花费",
+    "network": "Bitcoin Mainnet",
+    "txid": "c2bfb6f1bf791308c6b8f73f5d4181be9aa490da6e73c188f9ebd0723e8531b6",
+    "block_height": 481824,
+    "block_hash": "0000000000000000001c8018d9cb3b742ef25114f27563e3fc4a1902167f9893",
+    "timestamp": 1503539857,
+    "inputs": 1,
+    "outputs": 2,
+    "fee_sat": 96236,
+    "value_unit": "integer satoshi",
+    "explorer": "https://blockstream.info/tx/c2bfb6f1bf791308c6b8f73f5d4181be9aa490da6e73c188f9ebd0723e8531b6",
+    "api": "https://blockstream.info/api/tx/c2bfb6f1bf791308c6b8f73f5d4181be9aa490da6e73c188f9ebd0723e8531b6",
+    "dune_query": null,
+    "verified_fields": [
+      "txid",
+      "confirmed block location",
+      "vin previous outpoint",
+      "prevout value (indexer enriched)",
+      "vout value/script",
+      "fee from integer totals"
+    ],
+    "unverified_fields": [
+      "real identities",
+      "payment purpose",
+      "change ownership",
+      "Dune same-transaction result",
+      "independent local full-node consensus verification"
+    ]
+  },
+  {
+    "case_id": "case-04",
+    "title": "SegWit花费",
+    "network": "Bitcoin Mainnet",
+    "txid": "777c998695de4b7ecec54c058c73b2cab71184cf1655840935cd9388923dc288",
+    "block_height": 709632,
+    "block_hash": "0000000000000000000687bca986194dc2c1f949318629b44bb54ec0a94d8244",
+    "timestamp": 1636866927,
+    "inputs": 1,
+    "outputs": 2,
+    "fee_sat": 369604,
+    "value_unit": "integer satoshi",
+    "explorer": "https://blockstream.info/tx/777c998695de4b7ecec54c058c73b2cab71184cf1655840935cd9388923dc288",
+    "api": "https://blockstream.info/api/tx/777c998695de4b7ecec54c058c73b2cab71184cf1655840935cd9388923dc288",
+    "dune_query": null,
+    "verified_fields": [
+      "txid",
+      "confirmed block location",
+      "vin previous outpoint",
+      "prevout value (indexer enriched)",
+      "vout value/script",
+      "fee from integer totals"
+    ],
+    "unverified_fields": [
+      "real identities",
+      "payment purpose",
+      "change ownership",
+      "Dune same-transaction result",
+      "independent local full-node consensus verification"
+    ]
+  },
+  {
+    "case_id": "case-05",
+    "title": "Taproot花费",
+    "network": "Bitcoin Mainnet",
+    "txid": "2bb85f4b004be6da54f766c17c1e855187327112c231ef2ff35ebad0ea67c69e",
+    "block_height": 840000,
+    "block_hash": "0000000000000000000320283a032748cef8227873ff4872689bf23f1cda83a5",
+    "timestamp": 1713571767,
+    "inputs": 1,
+    "outputs": 2,
+    "fee_sat": 673200000,
+    "value_unit": "integer satoshi",
+    "explorer": "https://blockstream.info/tx/2bb85f4b004be6da54f766c17c1e855187327112c231ef2ff35ebad0ea67c69e",
+    "api": "https://blockstream.info/api/tx/2bb85f4b004be6da54f766c17c1e855187327112c231ef2ff35ebad0ea67c69e",
+    "dune_query": null,
+    "verified_fields": [
+      "txid",
+      "confirmed block location",
+      "vin previous outpoint",
+      "prevout value (indexer enriched)",
+      "vout value/script",
+      "fee from integer totals"
+    ],
+    "unverified_fields": [
+      "real identities",
+      "payment purpose",
+      "change ownership",
+      "Dune same-transaction result",
+      "independent local full-node consensus verification"
+    ]
+  },
+  {
+    "case_id": "case-06",
+    "title": "840000 Coinbase",
+    "network": "Bitcoin Mainnet",
+    "txid": "a0db149ace545beabbd87a8d6b20ffd6aa3b5a50e58add49a3d435f898c272cf",
+    "block_height": 840000,
+    "block_hash": "0000000000000000000320283a032748cef8227873ff4872689bf23f1cda83a5",
+    "timestamp": 1713571767,
+    "inputs": 1,
+    "outputs": 3,
+    "fee_sat": 0,
+    "value_unit": "integer satoshi",
+    "explorer": "https://blockstream.info/tx/a0db149ace545beabbd87a8d6b20ffd6aa3b5a50e58add49a3d435f898c272cf",
+    "api": "https://blockstream.info/api/tx/a0db149ace545beabbd87a8d6b20ffd6aa3b5a50e58add49a3d435f898c272cf",
+    "dune_query": null,
+    "verified_fields": [
+      "txid",
+      "confirmed block location",
+      "special coinbase input",
+      "vout integer value/script",
+      "output total",
+      "witness commitment prefix structure"
+    ],
+    "unverified_fields": [
+      "real identities",
+      "payment purpose",
+      "change ownership",
+      "Dune same-transaction result",
+      "independent local full-node consensus verification",
+      "full block fee sum independently reconstructed",
+      "normal fee formula not applicable",
+      "full block fee sum independently reconstructed",
+      "normal fee formula not applicable"
+    ]
+  },
+  {
+    "case_id": "case-07",
+    "title": "早期交易的三层花费依赖",
+    "network": "Bitcoin Mainnet",
+    "txid": "f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16",
+    "block_height": 170,
+    "block_hash": "00000000d1145790a8694403d4063f323d499e655c83426834d4ce2f8dd4a2ee",
+    "timestamp": 1231731025,
+    "inputs": 1,
+    "outputs": 2,
+    "fee_sat": 0,
+    "value_unit": "integer satoshi",
+    "explorer": "https://blockstream.info/tx/f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16",
+    "api": "https://blockstream.info/api/tx/f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16",
+    "dune_query": null,
+    "verified_fields": [
+      "txid",
+      "confirmed block location",
+      "vin previous outpoint",
+      "prevout value (indexer enriched)",
+      "vout value/script",
+      "fee from integer totals"
+    ],
+    "unverified_fields": [
+      "real identities",
+      "payment purpose",
+      "change ownership",
+      "Dune same-transaction result",
+      "independent local full-node consensus verification"
+    ]
+  },
+  {
+    "case_id": "case-08",
+    "title": "Bitfinex公开披露BTC热钱包参与的确认交易",
+    "network": "Bitcoin Mainnet",
+    "txid": "04bf3fd6f4baf459608ec7ef80fe091d19a727e9c0fe41a499fec66ed2678568",
+    "block_height": 971171,
+    "block_hash": "00000000000000000002010defb848531e4ad3b00b446f4046230906b3b18606",
+    "timestamp": 1791857887,
+    "inputs": 2,
+    "outputs": 2,
+    "fee_sat": 1376,
+    "value_unit": "integer satoshi",
+    "explorer": "https://blockstream.info/tx/04bf3fd6f4baf459608ec7ef80fe091d19a727e9c0fe41a499fec66ed2678568",
+    "api": "https://blockstream.info/api/tx/04bf3fd6f4baf459608ec7ef80fe091d19a727e9c0fe41a499fec66ed2678568",
+    "dune_query": null,
+    "attribution_address": "1Kr6QSydW9bFQG1mXiPNNu6WpJGmUa9i1g",
+    "attribution_source": "https://github.com/bitfinexcom/pub/blob/83d06bdb5f5a2ce05d5ba2db5a426dd44c9f5128/wallets.txt",
+    "attribution_level": "EXTERNAL_ATTRIBUTION; official self-disclosure; not independent key-control proof",
+    "verified_fields": [
+      "txid",
+      "confirmed block location",
+      "vin previous outpoint",
+      "integer values",
+      "fee identity",
+      "address appears in prevout",
+      "official file labels address BTC hot wallet"
+    ],
+    "unverified_fields": [
+      "beneficial owners",
+      "customer payments",
+      "full wallet cluster",
+      "current independent key control",
+      "same-transaction Dune result"
+    ]
+  },
+  {
+    "case_id": "case-09",
+    "title": "复杂多输入多输出；不认定CoinJoin",
+    "network": "Bitcoin Mainnet",
+    "txid": "4e99434f63a13b659cd94f4eb3b3811f1d88eb2ef9080840549ec50a0641a422",
+    "block_height": 481824,
+    "block_hash": "0000000000000000001c8018d9cb3b742ef25114f27563e3fc4a1902167f9893",
+    "timestamp": 1503539857,
+    "inputs": 176,
+    "outputs": 11,
+    "fee_sat": 16133806,
+    "value_unit": "integer satoshi",
+    "explorer": "https://blockstream.info/tx/4e99434f63a13b659cd94f4eb3b3811f1d88eb2ef9080840549ec50a0641a422",
+    "api": "https://blockstream.info/api/tx/4e99434f63a13b659cd94f4eb3b3811f1d88eb2ef9080840549ec50a0641a422",
+    "dune_query": null,
+    "verified_fields": [
+      "txid",
+      "confirmed block location",
+      "vin previous outpoint",
+      "prevout value (indexer enriched)",
+      "vout value/script",
+      "fee from integer totals"
+    ],
+    "unverified_fields": [
+      "real identities",
+      "payment purpose",
+      "change ownership",
+      "Dune same-transaction result",
+      "independent local full-node consensus verification"
+    ]
+  },
+  {
+    "case_id": "case-10",
+    "title": "Runestone标记候选；资产状态未索引",
+    "network": "Bitcoin Mainnet",
+    "txid": "2bb85f4b004be6da54f766c17c1e855187327112c231ef2ff35ebad0ea67c69e",
+    "block_height": 840000,
+    "block_hash": "0000000000000000000320283a032748cef8227873ff4872689bf23f1cda83a5",
+    "timestamp": 1713571767,
+    "inputs": 1,
+    "outputs": 2,
+    "fee_sat": 673200000,
+    "value_unit": "integer satoshi",
+    "explorer": "https://blockstream.info/tx/2bb85f4b004be6da54f766c17c1e855187327112c231ef2ff35ebad0ea67c69e",
+    "api": "https://blockstream.info/api/tx/2bb85f4b004be6da54f766c17c1e855187327112c231ef2ff35ebad0ea67c69e",
+    "dune_query": null,
+    "verified_fields": [
+      "txid",
+      "confirmed block location",
+      "vin previous outpoint",
+      "prevout value (indexer enriched)",
+      "vout value/script",
+      "fee from integer totals"
+    ],
+    "unverified_fields": [
+      "real identities",
+      "payment purpose",
+      "change ownership",
+      "Dune same-transaction result",
+      "independent local full-node consensus verification"
+    ]
+  }
+]

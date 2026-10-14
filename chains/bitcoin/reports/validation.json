@@ -1,0 +1,150 @@
+{
+  "overall": "PASS",
+  "checks": [
+    {
+      "name": "01 chapter completeness",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "02 contents matches files",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "03 UTF8",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "04 unique heading numbers",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "05 local Markdown references",
+      "pass": true,
+      "detail": "609 local links; []"
+    },
+    {
+      "name": "06 valid drawio XML",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "07 SVG pairs nonempty",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "08 actual SVG rendering",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "09 visual QA",
+      "pass": true,
+      "detail": "Human visual review of contacts plus repaired individual figures; geometry check is supplementary."
+    },
+    {
+      "name": "10 teaching SQL",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "11 RPC teaching files",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "12 JSON parseable",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "13 valid mainnet TxIDs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "14 case index alignment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "15 reasonable output indices",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "16 UTXO/hash/amount evidence",
+      "pass": true,
+      "detail": "Offline byte/hash/amount/outpoint checks; no signature or PoW verification."
+    },
+    {
+      "name": "17 source traceability",
+      "pass": true,
+      "detail": "Source access evidence from this run; not a fresh HTTP check of every external URL."
+    },
+    {
+      "name": "18 glossary core terms",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "19 body length",
+      "pass": true,
+      "detail": "30428 Han characters; titles/code/captions/sources/navigation excluded."
+    },
+    {
+      "name": "20 no unfinished manuscript placeholders",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "21 no apparent API secrets",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "22 SQL execution honestly marked",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "23 model vs raw evidence labels",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "24 floating-point limits retained",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "25 protected book unchanged",
+      "pass": true,
+      "detail": "[]"
+    }
+  ],
+  "counts": {
+    "parts": 9,
+    "chapters": 36,
+    "body_han": 30428,
+    "drawio": 34,
+    "svg": 34,
+    "sql": 16,
+    "rpc_teaching_requests": 12,
+    "rpc_executed": 0,
+    "case_themes": 10,
+    "distinct_primary_txids": 8,
+    "spend_edges": 3
+  },
+  "limits": [
+    "No Dune SQL executed",
+    "No Core RPC executed",
+    "No independent full consensus validation",
+    "Visual QA not a proof of pixel identity with every native-editor font",
+    "External source access recorded, not repeated with one HTTP client"
+  ]
+}

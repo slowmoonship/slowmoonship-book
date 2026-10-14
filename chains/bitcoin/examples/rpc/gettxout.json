@@ -1,0 +1,21 @@
+{
+  "network": "Bitcoin Mainnet",
+  "documentation_version": "31.0.0",
+  "source": "https://bitcoincore.org/en/doc/31.0.0/rpc/blockchain/gettxout/",
+  "status": "NOT_EXECUTED",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": "bitcoin-book",
+    "method": "gettxout",
+    "params": [
+      "f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16",
+      0,
+      false
+    ]
+  },
+  "node_source": null,
+  "node_version": null,
+  "retrieved_at": null,
+  "response": null,
+  "notes": "当前视图；早期输出已花费，null不能说明从未创建；include_mempool=false。"
+}

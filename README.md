@@ -6,12 +6,13 @@
 
 ## 当前出版
 
-当前公开书稿为 **Ethereum v0.1**（2026-10-12）、**Solana v0.1**（2026-10-13）、**Sui v0.1**（2026-10-13）和 **Avalanche v0.1**（2026-10-14）。各公链独立迭代，不要求共享版本号；本轮不设全书版本标签。
+当前公开书稿为 **Ethereum v0.1**（2026-10-12）、**Solana v0.1**（2026-10-13）、**Sui v0.1**（2026-10-13）、**Avalanche v0.1**（2026-10-14）和 **Bitcoin v0.1**（2026-10-14）。各公链独立迭代，不要求共享版本号；本轮不设全书版本标签。
 
 - [Ethereum 阅读入口](chains/ethereum/README.md)
 - [Solana 阅读入口](chains/solana/README.md) · [从数据地图开始](chains/solana/00-overview/index.md)
 - [Sui 阅读入口](chains/sui/README.md) · [从 Runtime 与 Data 两张地图开始](chains/sui/00-from-runtime-to-data/index.md)
 - [Avalanche 阅读入口](chains/avalanche/README.md) · [从钱包里的 AVAX 开始](chains/avalanche/book/00-preface.md)
+- [Bitcoin 阅读入口](chains/bitcoin/README.md) · [从钱包里的 BTC 开始](chains/bitcoin/book/00-preface.md)
 - [从前言开始](chains/ethereum/book/00-preface.md)
 - [全书目录](SUMMARY.md) · [Ethereum 目录](chains/ethereum/SUMMARY.md)
 - [真实交易案例](chains/ethereum/examples/transactions/README.md) · [教学 SQL](chains/ethereum/examples/sql/README.md)
@@ -26,7 +27,9 @@ Sui 原稿整体 **PARTIAL**：10核心模块及SUI 00/99、45篇阅读正文完
 
 Avalanche 原稿 **VALIDATED**：10 Part、40正文章、前言及5附录，40对SVG/draw.io、9组主网案例及15份真实API示例。10条新SQL为 **STATIC_CHECKED / NOT_EXECUTED**，新执行0；ICM仅确认源侧，Beam管理端初始化与完整生命周期未验证。作者人工审读 **UNKNOWN**。
 
-[Avalanche原验收与缺口](chains/avalanche/reports/final-acceptance.md) · [Sui原验收与缺口](chains/sui/_project/overnight-report.md) · [Ethereum原验收与缺口](chains/ethereum/reports/final-acceptance.md) · [Solana原验收](chains/solana/_project/overnight-report.md) · [各次出版检查](publication/README.md)。出版结构通过及 GitHub 可访问，不表示技术事实、案例原始材料和 SQL 已全部验证。
+Bitcoin 原稿 **VALIDATED**：9 Part、36正文章、前言和5附录，34对SVG/draw.io，10个案例主题/8个主TxID及3条后续花费边。16条新DuneSQL为 **STATIC_CHECKED / NOT_EXECUTED**，12个Core 31.0.0 RPC为 **NOT_EXECUTED**。有限离线结构证据不能证明身份、比例血缘或当前最终归宿。作者人工审读 **UNKNOWN**。
+
+[Bitcoin原验收与缺口](chains/bitcoin/reports/final-acceptance.md) · [Avalanche原验收与缺口](chains/avalanche/reports/final-acceptance.md) · [Sui原验收与缺口](chains/sui/_project/overnight-report.md) · [Ethereum原验收与缺口](chains/ethereum/reports/final-acceptance.md) · [Solana原验收](chains/solana/_project/overnight-report.md) · [各次出版检查](publication/README.md)。出版结构通过及 GitHub 可访问，不表示技术事实、案例原始材料和 SQL 已全部验证。
 
 ## 更新与反馈
 

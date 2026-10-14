@@ -1,0 +1,178 @@
+[
+  {
+    "n": 1,
+    "file": "01-transaction.sql",
+    "title": "定位单笔真实交易",
+    "scope": "一行确认交易；Case01；BTC DOUBLE",
+    "evidence_level": "INDEXED_DERIVED",
+    "static_status": "STATIC_CHECKED",
+    "execution_status": "BLOCKED_READ_ONLY_ACCOUNT",
+    "execution_id": null,
+    "results": null
+  },
+  {
+    "n": 2,
+    "file": "02-inputs.sql",
+    "title": "展开全部输入",
+    "scope": "每输入一行；金额来自前序索引；BTC DOUBLE",
+    "evidence_level": "INDEXED_STRUCTURE",
+    "static_status": "STATIC_CHECKED",
+    "execution_status": "BLOCKED_READ_ONLY_ACCOUNT",
+    "execution_id": null,
+    "results": null
+  },
+  {
+    "n": 3,
+    "file": "03-outputs.sql",
+    "title": "展开全部输出",
+    "scope": "每创建输出一行；不代表当前未花费",
+    "evidence_level": "INDEXED_STRUCTURE",
+    "static_status": "STATIC_CHECKED",
+    "execution_status": "BLOCKED_READ_ONLY_ACCOUNT",
+    "execution_id": null,
+    "results": null
+  },
+  {
+    "n": 4,
+    "file": "04-fee.sql",
+    "title": "普通交易手续费",
+    "scope": "交易层金额合计DOUBLE舍入，仅近似；精确费用用JSON整数复核",
+    "evidence_level": "INDEXED_DERIVED",
+    "static_status": "STATIC_CHECKED",
+    "execution_status": "BLOCKED_READ_ONLY_ACCOUNT",
+    "execution_id": null,
+    "results": null
+  },
+  {
+    "n": 5,
+    "file": "05-utxo-lifecycle.sql",
+    "title": "一个输出的有界生命周期",
+    "scope": "Case07种子输出零；花费窗口2010-11-16至18，空值不代表今日UTXO",
+    "evidence_level": "INDEXED_DERIVED",
+    "static_status": "STATIC_CHECKED",
+    "execution_status": "BLOCKED_READ_ONLY_ACCOUNT",
+    "execution_id": null,
+    "results": null
+  },
+  {
+    "n": 6,
+    "file": "06-address-utxo-candidates.sql",
+    "title": "地址窗口内未花费候选",
+    "scope": "仅2017-08-24创建候选，块481824末；不覆盖更早地址输出；普通花费只可能在创建后",
+    "evidence_level": "INDEXED_DERIVED",
+    "static_status": "STATIC_CHECKED",
+    "execution_status": "BLOCKED_READ_ONLY_ACCOUNT",
+    "execution_id": null,
+    "results": null
+  },
+  {
+    "n": 7,
+    "file": "07-balance-at-height.sql",
+    "title": "地址在指定高度的确认余额",
+    "scope": "一个地址，完整历史至481824；成本需审核；余额非可立即花费金额；P2PKH案例地址",
+    "evidence_level": "INDEXED_DERIVED",
+    "static_status": "STATIC_CHECKED",
+    "execution_status": "BLOCKED_READ_ONLY_ACCOUNT",
+    "execution_id": null,
+    "results": null
+  },
+  {
+    "n": 8,
+    "file": "08-script-types.sql",
+    "title": "输出脚本类型分布",
+    "scope": "一个UTC日；输出粒度；不是用户数或经济付款量",
+    "evidence_level": "INDEXED_DERIVED",
+    "static_status": "STATIC_CHECKED",
+    "execution_status": "BLOCKED_READ_ONLY_ACCOUNT",
+    "execution_id": null,
+    "results": null
+  },
+  {
+    "n": 9,
+    "file": "09-block-fees.sql",
+    "title": "区块手续费与交易汇总核对",
+    "scope": "块840000；普通交易每交易一次汇总；DOUBLE差额非整数精度证明",
+    "evidence_level": "INDEXED_DERIVED",
+    "static_status": "STATIC_CHECKED",
+    "execution_status": "BLOCKED_READ_ONLY_ACCOUNT",
+    "execution_id": null,
+    "results": null
+  },
+  {
+    "n": 10,
+    "file": "10-coinbase.sql",
+    "title": "Coinbase补贴、费用与领取",
+    "scope": "每块Coinbase；平台奖励列需解释，允许少领；输出成熟期另查",
+    "evidence_level": "INDEXED_DERIVED",
+    "static_status": "STATIC_CHECKED",
+    "execution_status": "BLOCKED_READ_ONLY_ACCOUNT",
+    "execution_id": null,
+    "results": null
+  },
+  {
+    "n": 11,
+    "file": "11-utxo-age.sql",
+    "title": "已花费输出年龄",
+    "scope": "仅种子输出于2010-11-16至18花费；块时间差非精确持有时间",
+    "evidence_level": "INDEXED_DERIVED",
+    "static_status": "STATIC_CHECKED",
+    "execution_status": "BLOCKED_READ_ONLY_ACCOUNT",
+    "execution_id": null,
+    "results": null
+  },
+  {
+    "n": 12,
+    "file": "12-coin-days-destroyed.sql",
+    "title": "2010窗口币天销毁",
+    "scope": "单位BTC-days；值DOUBLE；负时间差显式排除并需另审异常；非卖出指标",
+    "evidence_level": "INDEXED_DERIVED",
+    "static_status": "STATIC_CHECKED",
+    "execution_status": "BLOCKED_READ_ONLY_ACCOUNT",
+    "execution_id": null,
+    "results": null
+  },
+  {
+    "n": 13,
+    "file": "13-two-hop-graph.sql",
+    "title": "两层输出花费依赖",
+    "scope": "创建分区2009-01-12与2010-11-16至18；花费分区2010-11-16至18；不分配输入到新输出经济份额；可有多分支",
+    "evidence_level": "INDEXED_STRUCTURE",
+    "static_status": "STATIC_CHECKED",
+    "execution_status": "BLOCKED_READ_ONLY_ACCOUNT",
+    "execution_id": null,
+    "results": null
+  },
+  {
+    "n": 14,
+    "file": "14-consolidation-candidates.sql",
+    "title": "多输入整合结构候选",
+    "scope": "25条结构候选；不证明共同所有权或业务整合",
+    "evidence_level": "HEURISTIC",
+    "static_status": "STATIC_CHECKED",
+    "execution_status": "BLOCKED_READ_ONLY_ACCOUNT",
+    "execution_id": null,
+    "results": null
+  },
+  {
+    "n": 15,
+    "file": "15-change-candidates.sql",
+    "title": "找零候选与反例",
+    "scope": "较大输出找零候选；等额不判；LIMIT可能截断交易仅展示；不用来证明经济量",
+    "evidence_level": "HEURISTIC",
+    "static_status": "STATIC_CHECKED",
+    "execution_status": "BLOCKED_READ_ONLY_ACCOUNT",
+    "execution_id": null,
+    "results": null
+  },
+  {
+    "n": 16,
+    "file": "16-confirmed-feerates.sql",
+    "title": "确认费率与区块时间分布",
+    "scope": "两UTC日；无首次广播字段，不计算确认等待或因果关系",
+    "evidence_level": "INDEXED_DERIVED",
+    "static_status": "STATIC_CHECKED",
+    "execution_status": "BLOCKED_READ_ONLY_ACCOUNT",
+    "execution_id": null,
+    "results": null
+  }
+]

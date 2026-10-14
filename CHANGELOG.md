@@ -1,5 +1,9 @@
 # 出版更新记录
 
+## 2026-10-14 · Bitcoin v0.1
+
+新增原有9 Part、36章、前言和5附录，34对SVG/draw.io、16条新教学SQL与10份历史Query SQL、12组Core 31.0.0 RPC请求、10个案例主题/8个主TxID及3条后续花费边。保留原组织、正文、SQL与案例；只修复官方缓存引用及出版说明。原稿VALIDATED限于已有检查；新SQL未执行、RPC未实调、案例未追到当前链头，作者审读UNKNOWN。旧四链及历史快照保持。见[检查](publication/bitcoin/2026-10-14-v0.1/CHECKS.md)。无Tag/Release；GitBook仓库NOT_CONFIGURED、账户同步UNVERIFIED。
+
 ## 2026-10-14 · Avalanche v0.1
 
 新增Avalanche原有10 Part、40章、前言及5附录，40对SVG/draw.io、10条教学SQL、3份历史Query SQL、15份API示例和9组/12笔主网案例。只整理连续阅读导航、官方来源链接和公开安全说明，保留技术正文与SQL逻辑。原验收VALIDATED，新SQL执行0；目标消息、完整原始收据/Trace、Beam管理及退出证据缺口保留。作者审读UNKNOWN，GitBook仓库无配置证据；Ethereum、Solana、Sui和历史验收快照保持。详见[本轮检查](publication/avalanche/2026-10-14-v0.1/CHECKS.md)。无Tag/Release。
