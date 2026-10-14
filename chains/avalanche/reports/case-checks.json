@@ -1,0 +1,83 @@
+{
+  "checks": [
+    {
+      "name": "atomic_identity_asset_amount",
+      "passed": true,
+      "detail": {
+        "utxo": "T2mukyoWT33c4XqMESsent6Cd2Ti7S11SibUN1hvJ6XKhcnNc",
+        "raw_amount": 100010366235
+      }
+    },
+    {
+      "name": "atomic_direction",
+      "passed": true,
+      "detail": {
+        "source": "2q9e4r6Mu3U68nU1fYjgbR6JvwrRx36CohpAX5UQxse55x1Q5",
+        "destination": "11111111111111111111111111111111LpoYY"
+      }
+    },
+    {
+      "name": "import_to_delegation",
+      "passed": true,
+      "detail": {
+        "utxo": "22K76AKLGqZG1gftJLgvrV3XdrgwhP9EJF4UVw2vR9HUYxkWCr",
+        "followup": "EDAKbagtkyMLKspgXnbRbE1aXtvDRW9BgHRJQFGPztxhPtnpi"
+      }
+    },
+    {
+      "name": "x_detail_to_indexed_totals",
+      "passed": true,
+      "detail": {
+        "input": 16488949287000,
+        "output": 16488948187000,
+        "difference": 1100000,
+        "fee_field": "not returned; difference not independently verified as fee"
+      }
+    },
+    {
+      "name": "beam_chain_id",
+      "passed": true,
+      "detail": {
+        "directory": "4337",
+        "genesis": 4337,
+        "rpc": 4337
+      }
+    },
+    {
+      "name": "beam_p_chain_mapping",
+      "passed": true,
+      "detail": {
+        "blockchain": "2tmrrBo1Lgt1mzzvPSFt73kkQKFas5d1AP88tv9cicwoFp8BSn",
+        "subnet": "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC"
+      }
+    },
+    {
+      "name": "beam_registration_identity",
+      "passed": true,
+      "detail": {
+        "validation_id": "kqXr1SyxTamwmm48kHkpmXxhB5MuzFo3g1EdAV1g3kQEZ9VpV",
+        "node_id": "NodeID-AL1WAtQHsgfUzoVJeTkaD1VQQcNQnM52U",
+        "observed_balance_difference": 16842240
+      }
+    },
+    {
+      "name": "beam_receipt_link",
+      "passed": true,
+      "detail": {
+        "transaction": "0x752ec9874ac7187f2e0d710013ae3f4cf93c1a55cbb85bc71b75af456d604563",
+        "height": 9694501
+      }
+    },
+    {
+      "name": "erc20_indexed_asset",
+      "passed": true,
+      "detail": {
+        "raw": "400000000",
+        "display_units": "400",
+        "log_index": 0
+      }
+    }
+  ],
+  "passed": true,
+  "scope": "saved finite sample only; no live or whole-network inference"
+}

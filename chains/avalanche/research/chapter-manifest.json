@@ -1,0 +1,795 @@
+[
+  {
+    "number": 1,
+    "part": 1,
+    "slug": "one-wallet-many-ledgers",
+    "title": "同样是 AVAX，为什么还要换一条链？",
+    "path": "book/part-01/01-one-wallet-many-ledgers.md",
+    "question": "同样是 AVAX，为什么还要换一条链？",
+    "prerequisites": [],
+    "sources": [
+      "primary-network",
+      "p-rpc",
+      "dune-overview"
+    ],
+    "diagram": "three-models",
+    "state": "DONE",
+    "hanzi_body": 939
+  },
+  {
+    "number": 2,
+    "part": 1,
+    "slug": "network-and-primary",
+    "title": "Primary Network 是整个 Avalanche 吗？",
+    "path": "book/part-01/02-network-and-primary.md",
+    "question": "Primary Network 是整个 Avalanche 吗？",
+    "prerequisites": [
+      1
+    ],
+    "sources": [
+      "primary-network",
+      "l1s",
+      "acp-77"
+    ],
+    "diagram": "network-overview",
+    "state": "DONE",
+    "hanzi_body": 923
+  },
+  {
+    "number": 3,
+    "part": 1,
+    "slug": "identities",
+    "title": "三个 Chain ID，究竟哪个能用来关联数据？",
+    "path": "book/part-01/03-identities.md",
+    "question": "三个 Chain ID，究竟哪个能用来关联数据？",
+    "prerequisites": [
+      2
+    ],
+    "sources": [
+      "primary-network",
+      "p-rpc",
+      "x-rpc",
+      "acp-77"
+    ],
+    "diagram": "identifiers",
+    "state": "DONE",
+    "hanzi_body": 859
+  },
+  {
+    "number": 4,
+    "part": 1,
+    "slug": "three-models",
+    "title": "三条链为什么不能共用一张转账表？",
+    "path": "book/part-01/04-three-models.md",
+    "question": "三条链为什么不能共用一张转账表？",
+    "prerequisites": [
+      3
+    ],
+    "sources": [
+      "primary-network",
+      "p-rpc",
+      "x-rpc",
+      "dune-transactions"
+    ],
+    "diagram": "three-models",
+    "state": "DONE",
+    "hanzi_body": 912
+  },
+  {
+    "number": 5,
+    "part": 2,
+    "slug": "consensus-and-vm",
+    "title": "谁决定接受，谁决定余额怎样变化？",
+    "path": "book/part-02/05-consensus-and-vm.md",
+    "question": "谁决定接受，谁决定余额怎样变化？",
+    "prerequisites": [
+      4
+    ],
+    "sources": [
+      "virtual-machines",
+      "consensus",
+      "continuous-execution"
+    ],
+    "diagram": "consensus-vm",
+    "state": "DONE",
+    "hanzi_body": 934
+  },
+  {
+    "number": 6,
+    "part": 2,
+    "slug": "snowman",
+    "title": "抽样投票为什么能形成最终接受？",
+    "path": "book/part-02/06-snowman.md",
+    "question": "抽样投票为什么能形成最终接受？",
+    "prerequisites": [
+      5
+    ],
+    "sources": [
+      "consensus",
+      "cortina-release",
+      "virtual-machines"
+    ],
+    "diagram": "snowman",
+    "state": "DONE",
+    "hanzi_body": 916
+  },
+  {
+    "number": 7,
+    "part": 2,
+    "slug": "helicon",
+    "title": "Helicon 为什么让接受和执行分开？",
+    "path": "book/part-02/07-helicon.md",
+    "question": "Helicon 为什么让接受和执行分开？",
+    "prerequisites": [
+      6
+    ],
+    "sources": [
+      "helicon",
+      "continuous-execution",
+      "acp-194",
+      "release-1.15.0"
+    ],
+    "diagram": "helicon",
+    "state": "DONE",
+    "hanzi_body": 856
+  },
+  {
+    "number": 8,
+    "part": 2,
+    "slug": "execution-artifacts",
+    "title": "区块、收据和状态为什么不总是同时出现？",
+    "path": "book/part-02/08-execution-artifacts.md",
+    "question": "区块、收据和状态为什么不总是同时出现？",
+    "prerequisites": [
+      7
+    ],
+    "sources": [
+      "c-rpc",
+      "dune-transactions",
+      "dune-logs",
+      "dune-traces",
+      "acp-194"
+    ],
+    "diagram": "c-execution",
+    "state": "DONE",
+    "hanzi_body": 953
+  },
+  {
+    "number": 9,
+    "part": 3,
+    "slug": "c-transfer",
+    "title": "一笔普通 AVAX 转账在 C-Chain 留下什么？",
+    "path": "book/part-03/09-c-transfer.md",
+    "question": "一笔普通 AVAX 转账在 C-Chain 留下什么？",
+    "prerequisites": [
+      8
+    ],
+    "sources": [
+      "c-rpc",
+      "dune-transactions",
+      "api-evm-transactions"
+    ],
+    "diagram": "c-transfer",
+    "state": "DONE",
+    "hanzi_body": 907
+  },
+  {
+    "number": 10,
+    "part": 3,
+    "slug": "tokens-and-logs",
+    "title": "转了 USDT，为什么交易的 To 是合约？",
+    "path": "book/part-03/10-tokens-and-logs.md",
+    "question": "转了 USDT，为什么交易的 To 是合约？",
+    "prerequisites": [
+      9
+    ],
+    "sources": [
+      "dune-logs",
+      "dune-traces",
+      "api-evm-transactions"
+    ],
+    "diagram": "token-logs",
+    "state": "DONE",
+    "hanzi_body": 869
+  },
+  {
+    "number": 11,
+    "part": 3,
+    "slug": "fees",
+    "title": "Gas Limit 为什么也会影响实际计费？",
+    "path": "book/part-03/11-fees.md",
+    "question": "Gas Limit 为什么也会影响实际计费？",
+    "prerequisites": [
+      10
+    ],
+    "sources": [
+      "acp-194",
+      "continuous-execution",
+      "helicon",
+      "dune-transactions",
+      "l1-config"
+    ],
+    "diagram": "fees",
+    "state": "DONE",
+    "hanzi_body": 865
+  },
+  {
+    "number": 12,
+    "part": 3,
+    "slug": "dune-raw",
+    "title": "四张 Raw 表怎样围绕一笔交易连接？",
+    "path": "book/part-03/12-dune-raw.md",
+    "question": "四张 Raw 表怎样围绕一笔交易连接？",
+    "prerequisites": [
+      11
+    ],
+    "sources": [
+      "dune-blocks",
+      "dune-transactions",
+      "dune-logs",
+      "dune-traces"
+    ],
+    "diagram": "dune-raw",
+    "state": "DONE",
+    "hanzi_body": 868
+  },
+  {
+    "number": 13,
+    "part": 4,
+    "slug": "p-chain-role",
+    "title": "P-Chain 为什么不是普通合约链？",
+    "path": "book/part-04/13-p-chain-role.md",
+    "question": "P-Chain 为什么不是普通合约链？",
+    "prerequisites": [
+      12
+    ],
+    "sources": [
+      "p-rpc",
+      "p-format",
+      "acp-77",
+      "api-primary-transactions"
+    ],
+    "diagram": "p-data-model",
+    "state": "DONE",
+    "hanzi_body": 872
+  },
+  {
+    "number": 14,
+    "part": 4,
+    "slug": "p-objects",
+    "title": "服务器、Node 和注册记录怎样分开？",
+    "path": "book/part-04/14-p-objects.md",
+    "question": "服务器、Node 和注册记录怎样分开？",
+    "prerequisites": [
+      13
+    ],
+    "sources": [
+      "acp-77",
+      "p-rpc",
+      "api-l1-validators",
+      "api-subnet"
+    ],
+    "diagram": "validator-identities",
+    "state": "DONE",
+    "hanzi_body": 876
+  },
+  {
+    "number": 15,
+    "part": 4,
+    "slug": "primary-staking",
+    "title": "质押与委托在 P-Chain 怎样留下记录？",
+    "path": "book/part-04/15-primary-staking.md",
+    "question": "质押与委托在 P-Chain 怎样留下记录？",
+    "prerequisites": [
+      14
+    ],
+    "sources": [
+      "helicon",
+      "p-format",
+      "p-rpc",
+      "api-primary-transactions"
+    ],
+    "diagram": "primary-staking",
+    "state": "DONE",
+    "hanzi_body": 850
+  },
+  {
+    "number": 16,
+    "part": 4,
+    "slug": "p-transaction-types",
+    "title": "七种 L1 相关交易分别改变什么？",
+    "path": "book/part-04/16-p-transaction-types.md",
+    "question": "七种 L1 相关交易分别改变什么？",
+    "prerequisites": [
+      15
+    ],
+    "sources": [
+      "p-format",
+      "acp-77",
+      "acp-99",
+      "helicon"
+    ],
+    "diagram": "p-transaction-types",
+    "state": "DONE",
+    "hanzi_body": 845
+  },
+  {
+    "number": 17,
+    "part": 5,
+    "slug": "x-utxo",
+    "title": "X-Chain 的钱为什么由一组输出组成？",
+    "path": "book/part-05/17-x-utxo.md",
+    "question": "X-Chain 的钱为什么由一组输出组成？",
+    "prerequisites": [
+      16
+    ],
+    "sources": [
+      "x-rpc",
+      "x-format",
+      "cortina-release",
+      "data-api"
+    ],
+    "diagram": "x-utxo",
+    "state": "DONE",
+    "hanzi_body": 863
+  },
+  {
+    "number": 18,
+    "part": 5,
+    "slug": "x-real-transfer",
+    "title": "两个输入、两个输出，究竟转了几次钱？",
+    "path": "book/part-05/18-x-real-transfer.md",
+    "question": "两个输入、两个输出，究竟转了几次钱？",
+    "prerequisites": [
+      17
+    ],
+    "sources": [
+      "x-format",
+      "x-rpc",
+      "api-primary-transactions"
+    ],
+    "diagram": "x-transfer-case",
+    "state": "DONE",
+    "hanzi_body": 865
+  },
+  {
+    "number": 19,
+    "part": 5,
+    "slug": "atomic-transfer",
+    "title": "C→P 的 Export 和 Import 怎样接上？",
+    "path": "book/part-05/19-atomic-transfer.md",
+    "question": "C→P 的 Export 和 Import 怎样接上？",
+    "prerequisites": [
+      18
+    ],
+    "sources": [
+      "atomic-format",
+      "p-format",
+      "c-rpc",
+      "api-primary-transactions"
+    ],
+    "diagram": "atomic-transfer",
+    "state": "DONE",
+    "hanzi_body": 818
+  },
+  {
+    "number": 20,
+    "part": 5,
+    "slug": "atomic-reconciliation",
+    "title": "导出和导入为什么不能各算一次资金流？",
+    "path": "book/part-05/20-atomic-reconciliation.md",
+    "question": "导出和导入为什么不能各算一次资金流？",
+    "prerequisites": [
+      19
+    ],
+    "sources": [
+      "atomic-format",
+      "p-format",
+      "helicon",
+      "c-rpc"
+    ],
+    "diagram": "atomic-reconcile",
+    "state": "DONE",
+    "hanzi_body": 866
+  },
+  {
+    "number": 21,
+    "part": 6,
+    "slug": "etna-and-subnets",
+    "title": "Etna 之后，Subnet 的名字为什么还在？",
+    "path": "book/part-06/21-etna-and-subnets.md",
+    "question": "Etna 之后，Subnet 的名字为什么还在？",
+    "prerequisites": [
+      20
+    ],
+    "sources": [
+      "acp-77",
+      "etna-release",
+      "manager-readme",
+      "api-subnet"
+    ],
+    "diagram": "etna-comparison",
+    "state": "DONE",
+    "hanzi_body": 843
+  },
+  {
+    "number": 22,
+    "part": 6,
+    "slug": "launch-objects",
+    "title": "创建一条 L1，实际创建了哪些对象？",
+    "path": "book/part-06/22-launch-objects.md",
+    "question": "创建一条 L1，实际创建了哪些对象？",
+    "prerequisites": [
+      21
+    ],
+    "sources": [
+      "p-format",
+      "manager-readme",
+      "l1-config",
+      "api-subnet"
+    ],
+    "diagram": "launch-l1",
+    "state": "DONE",
+    "hanzi_body": 864
+  },
+  {
+    "number": 23,
+    "part": 6,
+    "slug": "genesis-and-gas-token",
+    "title": "自己的 Gas Token 为什么没有消除 AVAX 成本？",
+    "path": "book/part-06/23-genesis-and-gas-token.md",
+    "question": "自己的 Gas Token 为什么没有消除 AVAX 成本？",
+    "prerequisites": [
+      22
+    ],
+    "sources": [
+      "l1-config",
+      "l1s",
+      "acp-77",
+      "manager-readme"
+    ],
+    "diagram": "gas-token-costs",
+    "state": "DONE",
+    "hanzi_body": 821
+  },
+  {
+    "number": 24,
+    "part": 6,
+    "slug": "beam-creation",
+    "title": "怎样证明 Beam 的身份与今天的运行有关？",
+    "path": "book/part-06/24-beam-creation.md",
+    "question": "怎样证明 Beam 的身份与今天的运行有关？",
+    "prerequisites": [
+      23
+    ],
+    "sources": [
+      "api-subnet",
+      "p-rpc",
+      "l1-config",
+      "acp-77"
+    ],
+    "diagram": "beam-evidence",
+    "state": "DONE",
+    "hanzi_body": 822
+  },
+  {
+    "number": 25,
+    "part": 7,
+    "slug": "validator-manager",
+    "title": "Validator Manager 怎样管理真正的节点？",
+    "path": "book/part-07/25-validator-manager.md",
+    "question": "Validator Manager 怎样管理真正的节点？",
+    "prerequisites": [
+      24
+    ],
+    "sources": [
+      "acp-77",
+      "acp-99",
+      "manager-readme",
+      "manager-contracts"
+    ],
+    "diagram": "validator-manager",
+    "state": "DONE",
+    "hanzi_body": 837
+  },
+  {
+    "number": 26,
+    "part": 7,
+    "slug": "manager-bootstrap",
+    "title": "转换成功以后，为什么还需要初始化验证者集合？",
+    "path": "book/part-07/26-manager-bootstrap.md",
+    "question": "转换成功以后，为什么还需要初始化验证者集合？",
+    "prerequisites": [
+      25
+    ],
+    "sources": [
+      "manager-readme",
+      "acp-99",
+      "acp-77"
+    ],
+    "diagram": "manager-bootstrap",
+    "state": "DONE",
+    "hanzi_body": 938
+  },
+  {
+    "number": 27,
+    "part": 7,
+    "slug": "validator-lifecycle",
+    "title": "停用、费用耗尽和权重归零是同一种退出吗？",
+    "path": "book/part-07/27-validator-lifecycle.md",
+    "question": "停用、费用耗尽和权重归零是同一种退出吗？",
+    "prerequisites": [
+      26
+    ],
+    "sources": [
+      "acp-77",
+      "p-rpc",
+      "manager-readme",
+      "api-l1-validators"
+    ],
+    "diagram": "validator-lifecycle",
+    "state": "DONE",
+    "hanzi_body": 876
+  },
+  {
+    "number": 28,
+    "part": 7,
+    "slug": "continuous-fees",
+    "title": "剩余费用余额能告诉我们链还会运行多久吗？",
+    "path": "book/part-07/28-continuous-fees.md",
+    "question": "剩余费用余额能告诉我们链还会运行多久吗？",
+    "prerequisites": [
+      27
+    ],
+    "sources": [
+      "acp-77",
+      "p-rpc",
+      "api-l1-validators"
+    ],
+    "diagram": "continuous-fees",
+    "state": "DONE",
+    "hanzi_body": 895
+  },
+  {
+    "number": 29,
+    "part": 8,
+    "slug": "warp-trust",
+    "title": "不同验证者集合之间，怎样验证消息是真的？",
+    "path": "book/part-08/29-warp-trust.md",
+    "question": "不同验证者集合之间，怎样验证消息是真的？",
+    "prerequisites": [
+      28
+    ],
+    "sources": [
+      "icm-overview",
+      "icm-deep-dive",
+      "acp-77",
+      "acp-181"
+    ],
+    "diagram": "warp-flow",
+    "state": "DONE",
+    "hanzi_body": 941
+  },
+  {
+    "number": 30,
+    "part": 8,
+    "slug": "teleporter",
+    "title": "AWM、ICM 与 Teleporter 分别是哪一层？",
+    "path": "book/part-08/30-teleporter.md",
+    "question": "AWM、ICM 与 Teleporter 分别是哪一层？",
+    "prerequisites": [
+      29
+    ],
+    "sources": [
+      "icm-overview",
+      "icm-deep-dive",
+      "teleporter-interface",
+      "manager-readme"
+    ],
+    "diagram": "icm-layers",
+    "state": "DONE",
+    "hanzi_body": 823
+  },
+  {
+    "number": 31,
+    "part": 8,
+    "slug": "message-stages",
+    "title": "发送成功，为什么目标业务仍可能失败？",
+    "path": "book/part-08/31-message-stages.md",
+    "question": "发送成功，为什么目标业务仍可能失败？",
+    "prerequisites": [
+      30
+    ],
+    "sources": [
+      "teleporter-interface",
+      "icm-overview",
+      "icm-deep-dive"
+    ],
+    "diagram": "message-states",
+    "state": "DONE",
+    "hanzi_body": 850
+  },
+  {
+    "number": 32,
+    "part": 8,
+    "slug": "asset-messaging",
+    "title": "原子转移、ICM 资产协议与第三方桥怎么区分？",
+    "path": "book/part-08/32-asset-messaging.md",
+    "question": "原子转移、ICM 资产协议与第三方桥怎么区分？",
+    "prerequisites": [
+      31
+    ],
+    "sources": [
+      "atomic-format",
+      "icm-overview",
+      "teleporter-interface",
+      "l1s"
+    ],
+    "diagram": "cross-chain-mechanisms",
+    "state": "DONE",
+    "hanzi_body": 847
+  },
+  {
+    "number": 33,
+    "part": 9,
+    "slug": "data-sources",
+    "title": "为什么 Dune、RPC 和 Data API 都需要保留？",
+    "path": "book/part-09/33-data-sources.md",
+    "question": "为什么 Dune、RPC 和 Data API 都需要保留？",
+    "prerequisites": [
+      32
+    ],
+    "sources": [
+      "data-api",
+      "p-rpc",
+      "x-rpc",
+      "c-rpc",
+      "dune-overview"
+    ],
+    "diagram": "data-architecture",
+    "state": "DONE",
+    "hanzi_body": 806
+  },
+  {
+    "number": 34,
+    "part": 9,
+    "slug": "decoded-curated",
+    "title": "解码表和加工表为何仍要回查原始记录？",
+    "path": "book/part-09/34-decoded-curated.md",
+    "question": "解码表和加工表为何仍要回查原始记录？",
+    "prerequisites": [
+      33
+    ],
+    "sources": [
+      "dune-logs",
+      "dune-traces",
+      "dune-transactions",
+      "api-evm-transactions"
+    ],
+    "diagram": "data-lineage",
+    "state": "DONE",
+    "hanzi_body": 828
+  },
+  {
+    "number": 35,
+    "part": 9,
+    "slug": "sql-grain",
+    "title": "一条 SQL 正确，为什么统计仍可能错误？",
+    "path": "book/part-09/35-sql-grain.md",
+    "question": "一条 SQL 正确，为什么统计仍可能错误？",
+    "prerequisites": [
+      34
+    ],
+    "sources": [
+      "dune-transactions",
+      "dune-blocks",
+      "dune-logs",
+      "dune-traces"
+    ],
+    "diagram": "sql-grain",
+    "state": "DONE",
+    "hanzi_body": 839
+  },
+  {
+    "number": 36,
+    "part": 9,
+    "slug": "normalize-json",
+    "title": "怎样把 P/X JSON 接入本地分析？",
+    "path": "book/part-09/36-normalize-json.md",
+    "question": "怎样把 P/X JSON 接入本地分析？",
+    "prerequisites": [
+      35
+    ],
+    "sources": [
+      "p-rpc",
+      "x-rpc",
+      "api-primary-transactions",
+      "api-subnet"
+    ],
+    "diagram": "json-normalization",
+    "state": "DONE",
+    "hanzi_body": 821
+  },
+  {
+    "number": 37,
+    "part": 10,
+    "slug": "multi-chain-model",
+    "title": "一张统一网络地图怎样保留链的差异？",
+    "path": "book/part-10/37-multi-chain-model.md",
+    "question": "一张统一网络地图怎样保留链的差异？",
+    "prerequisites": [
+      36
+    ],
+    "sources": [
+      "primary-network",
+      "l1s",
+      "p-rpc",
+      "icm-overview",
+      "api-subnet"
+    ],
+    "diagram": "multi-chain-model",
+    "state": "DONE",
+    "hanzi_body": 802
+  },
+  {
+    "number": 38,
+    "part": 10,
+    "slug": "whole-network-balance",
+    "title": "一个地址在 Avalanche 全网络有多少 AVAX？",
+    "path": "book/part-10/38-whole-network-balance.md",
+    "question": "一个地址在 Avalanche 全网络有多少 AVAX？",
+    "prerequisites": [
+      37
+    ],
+    "sources": [
+      "c-rpc",
+      "p-rpc",
+      "x-rpc",
+      "atomic-format",
+      "data-api"
+    ],
+    "diagram": "network-balance",
+    "state": "DONE",
+    "hanzi_body": 846
+  },
+  {
+    "number": 39,
+    "part": 10,
+    "slug": "end-to-end",
+    "title": "怎样从跨链资金走到一笔真实平台操作？",
+    "path": "book/part-10/39-end-to-end.md",
+    "question": "怎样从跨链资金走到一笔真实平台操作？",
+    "prerequisites": [
+      38
+    ],
+    "sources": [
+      "atomic-format",
+      "p-format",
+      "acp-77",
+      "api-primary-transactions"
+    ],
+    "diagram": "end-to-end",
+    "state": "DONE",
+    "hanzi_body": 811
+  },
+  {
+    "number": 40,
+    "part": 10,
+    "slug": "observability",
+    "title": "打开一个陌生 L1，怎样判断它走到了哪一步？",
+    "path": "book/part-10/40-observability.md",
+    "question": "打开一个陌生 L1，怎样判断它走到了哪一步？",
+    "prerequisites": [
+      39
+    ],
+    "sources": [
+      "l1s",
+      "p-rpc",
+      "icm-overview",
+      "data-api"
+    ],
+    "diagram": "observability",
+    "state": "DONE",
+    "hanzi_body": 838
+  }
+]

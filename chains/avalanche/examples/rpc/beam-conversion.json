@@ -1,0 +1,387 @@
+{
+  "network": "Mainnet",
+  "network_id": 1,
+  "url": "https://data-api.avax.network/v1/networks/mainnet/blockchains/p-chain/transactions/VgR2jZVe3AC8jPPsNcE76KktsRi9J4Jke9kGCk5e8zZBzWTXr",
+  "method": "HTTP GET",
+  "request": null,
+  "retrieved_at": "2026-10-12T11:11:41.817250+00:00",
+  "http_status": 200,
+  "response": {
+    "txHash": "VgR2jZVe3AC8jPPsNcE76KktsRi9J4Jke9kGCk5e8zZBzWTXr",
+    "txType": "ConvertSubnetToL1Tx",
+    "blockTimestamp": 1741360003,
+    "blockNumber": "20870478",
+    "blockHash": "U83H7YvnzgQcBnqpfycDuRnZLsAuux3xRdxn5AXzEjQ2e1prW",
+    "memo": "0x",
+    "nodeId": "NodeID-2dchm5kCaDsq6KqZbSGyWH9biNAcCeEk6",
+    "subnetId": "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+    "l1ValidatorDetails": [
+      {
+        "validationId": "25gz43vNQWzPawgHdZ4FrixkAGd6aW2ePASGMUKwsznD8RxmAz",
+        "validationIdHex": "8e580947c3cb7de98d606e0e1e266ee5fd6a17b62895a05614065c6c35f2dc0b",
+        "nodeId": "NodeID-2jwucSXXmuzoqAQyPksWYqm5KuSMqFXro",
+        "subnetId": "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+        "weight": 2500000000,
+        "remainingBalance": 8000000000,
+        "balanceChange": 8000000000,
+        "blsCredentials": {
+          "publicKey": "8ce5717b847c513a4e6f0b6aeac495eaaaa97127d59ae9281bfa05c4856da0d542ccdf615cac2948401bc8bdae1d84e5",
+          "proofOfPossession": "81caa0928bf1ee28ca648c209c07f51e89ea49269acabd0c0a7ba5bb8068007af98616a241e2c45991c6133ebe89418801336005bdf31a0b8b4f75d49051f02e33bd40fc3b4452ae889a57d051b4356d8bb225d4b3fa7fc2947c0b5115fd81e6"
+        }
+      },
+      {
+        "validationId": "JX4nGG7PkyztMMaFvRqNPSGNZXrpH5v2d1Ls84PheW2Hw76zS",
+        "validationIdHex": "27c71037083fd7a72e49107d051d8dc1475b629ce07e8a2ad8dd7c96ba66d22a",
+        "nodeId": "NodeID-DSwQ2Z4MJQtwAeJPoda5ayj8e2BUb158Q",
+        "subnetId": "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+        "weight": 5000000000,
+        "remainingBalance": 8000000000,
+        "balanceChange": 8000000000,
+        "blsCredentials": {
+          "publicKey": "a5baa1bedcf55bbb3f731d941459bcce6c696b98ded01293e2f6a21c52eb2f116d5c108588d0658162cca7f59a2713f6",
+          "proofOfPossession": "96b6a4de60a32324b3b679616cc23ffb0e6b61e30c51054c4fd91b9bfbcd02e252968336c36ef675f6271e99560550b3175528d0715395f1cb871d357adbe013770854a2fd72bb7d40fa23e43c0144ac2f36438b0f1c16b84aa17ab1b5f0c69c"
+        }
+      },
+      {
+        "validationId": "cy41KLdBfuZ4zJZQKGESQjHBZThJjWXWejmnFUGVrywLXcwTe",
+        "validationIdHex": "51aa87d7711a3ea9c886d022b5f000313bffd030eb6c5864d9f0a589be22b8f7",
+        "nodeId": "NodeID-3Ku1ouQfk8HAkD9nQEfcGdAshF3sSCrcV",
+        "subnetId": "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+        "weight": 2500000000,
+        "remainingBalance": 8000000000,
+        "balanceChange": 8000000000,
+        "blsCredentials": {
+          "publicKey": "8d1e256fa9c583a95c9bade67a0116b5c53c6e34cb3aa53e47db246e71564c7580174eebb83b2db66826a38d9918cd2a",
+          "proofOfPossession": "832481ff024adb44f9b6db2881064cb29fb06ac8aa7b82aad7459d0749e187c4a56a1ee7d061ac17eadf348bf05dcc200e8e5d070f95a1222a821dcfb4d203e4b154e3a0dd16d87c3a93e4bd99f2ee907fa5071042f528854f61e75f5ef06deb"
+        }
+      },
+      {
+        "validationId": "A2oQic3Tb1xG5ZArpDJSeXGLL12TANkjZP1ugnupbg1fHN6gj",
+        "validationIdHex": "14818e1aff7ae1c4ac893bbbb47c8b8a17c8b7a76d612d222c85860c92419776",
+        "nodeId": "NodeID-2dchm5kCaDsq6KqZbSGyWH9biNAcCeEk6",
+        "subnetId": "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+        "weight": 2000000000,
+        "remainingBalance": 8000000000,
+        "balanceChange": 8000000000,
+        "blsCredentials": {
+          "publicKey": "abce219e1eeac3a648cb9ded33cd66b8c688b44fb09c91e1e689148f0dcfc78b1502935d55bb2c6f67b362f5a6fdf99b",
+          "proofOfPossession": "8fd8f3a5abd5f90920e88a081b41f7e444520ad5f03752b708a6de7ec09b8acee9a5cde8eb2438c8ee0b2963c59c9db0136c5b86e908402ce31cd4df657e8e8e4ff57badd4740ae2b9d2a41a8161b7c6528f11e66b4578b3282c4c775c3bffe2"
+        }
+      },
+      {
+        "validationId": "2kcyoN84fnyddUKXvvM1fLHemcGiTiL6E5nSUfAvGNJBoKpGxb",
+        "validationIdHex": "e6bdcc324ab99ac78d410c389ecfeb354b288db900a92c84dbb403b40be969dd",
+        "nodeId": "NodeID-NMWuQ1Wu82xTRjtQMFFXU7GJ7kiAwSvGC",
+        "subnetId": "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+        "weight": 3000000000,
+        "remainingBalance": 8000000000,
+        "balanceChange": 8000000000,
+        "blsCredentials": {
+          "publicKey": "9687298caa190c3816db7e78e97a81cba16bd109031861259f02085b4a67bef54b627abfe077250cdfcfc111cdcbed9a",
+          "proofOfPossession": "89cce75a305aefe74f24f0930507905af7a0c8f51c040d4dbf4d8cdaae5bb0353b63ea7fc776a2f95172f107b705ec3a1584505ad0a79287e66d86d5e4b2d0a178c35b0fd59507b1c81ea0f818daad68d1ac53e4a9ba942c5124eb78a3556166"
+        }
+      },
+      {
+        "validationId": "bnRZKQw6hsKpxJWgczPUanHQL3tVZHTcjgUbcqyuZDY26pCji",
+        "validationIdHex": "4efabb922b2422af3a0c3d95478b3bfb9c09c9c78b5900cf1bbb7bb0bef93d60",
+        "nodeId": "NodeID-AGUTF7pTPysaw8vJzpYwD2WDwn7w59XB8",
+        "subnetId": "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+        "weight": 14000000000,
+        "remainingBalance": 8000000000,
+        "balanceChange": 8000000000,
+        "blsCredentials": {
+          "publicKey": "b9236d591ba8ef5a24051e5da8962567f00714a576b9d36078d19ec887c35bc0bfdc39bb40ec20f1fd48e3a59af6fe15",
+          "proofOfPossession": "b45603d6b80673da44446e2d8b9df6bf434f313edc0af122fd8f396ce33b7f2782191fcd6dcf28f8c18c96dfc609cfa619a0dbde6d090203a03fa303dea843e0a8ce28b9bc132d8f8abd9858ba887028590f443f02bae487c937e651393386c9"
+        }
+      },
+      {
+        "validationId": "fUjZnZA6mSCuERfCAdVR3XFat9gdp7UxbG8fDwC4kdCT9WxcH",
+        "validationIdHex": "575e908b5b429323396a494c317d8fd3a2911bd87f2a3e3fd7d717725b208744",
+        "nodeId": "NodeID-34LgrtVF4L5Vgexanj5BGaiYR5fkM8mxJ",
+        "subnetId": "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+        "weight": 3500000000,
+        "remainingBalance": 8000000000,
+        "balanceChange": 8000000000,
+        "blsCredentials": {
+          "publicKey": "a57b74f1532ecab352cc98a6fac946905c1b7b837bad69aefbcda0000f502913a244c98353b77bfff6aae945c49bbd51",
+          "proofOfPossession": "b823a73dc342bb0956dc99809b66f818bf9f675c49d8407da1d37a7ed48213b7f97de3ff0b3b8b81e94d2a220a774c88191dde5ee51e9df293638bd6f5f0b8664eeed9538813db77a828f1d09f23e9b40c1c08ab810e756b54a6a931ed356b90"
+        }
+      },
+      {
+        "validationId": "djwQLt1M2x9Z5zaCNc1hRKPjkxS7oDEcr1UcJ1kz2Ft8AndSA",
+        "validationIdHex": "536c61daf3b0f1731658f9ed1f833ec2920c07ef0ac80bff847e8c93903b4e1b",
+        "nodeId": "NodeID-EoT4snrm97ibRLAvMYpL8B7Dnt7RmXU76",
+        "subnetId": "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+        "weight": 6000000000,
+        "remainingBalance": 8000000000,
+        "balanceChange": 8000000000,
+        "blsCredentials": {
+          "publicKey": "b4019f71003565f811833adc7a36cea866b9022aef01fa0733a5f9a70a7bdb9843218b23aadf37acb9fdf42be04ad8fa",
+          "proofOfPossession": "ae9d0b2bb14161132bc73dbd18d3ee00674acbd91c8d80d2f2fbbc97e0cd7f40cb30584206e8f845869760d986bf3e980d2b36e045b3a85d6298d8c47f4e15d13416e059e2768a979638b01729a074a255669e6cbd4b7a2c3bc2af030e61b94a"
+        }
+      },
+      {
+        "validationId": "22vKe8ZudEmtaciy5Kvs3k16sojaFKGCtrYGnNyUoqbcXmYXcd",
+        "validationIdHex": "880ddea234441d49072d14869dd96066c23e9596da122e4ac7d8f1beee2d7139",
+        "nodeId": "NodeID-3jzPVdByMgEP5ZfT9ggm2UrNg7sfKTFZV",
+        "subnetId": "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+        "weight": 17000000000,
+        "remainingBalance": 8000000000,
+        "balanceChange": 8000000000,
+        "blsCredentials": {
+          "publicKey": "8249a73a4e062b69a0501e26ce35e0b420f168d4c39d9045c3982d67d20e6e1a56ee9f669ebd2d633731bc4c2163ecc7",
+          "proofOfPossession": "8adbe8ebc383d089541186f0329e9148a1251a8ca6f2da8b7abd2a839624f46991ff1fa875937afe4424161e226a1fa7143792e3009db7e3a9a92e9015427a2fcd70f51bc801b85aa1820775f3e43306744ba2ccc8ce2a6f56e8e49a923cf807"
+        }
+      },
+      {
+        "validationId": "o3SPi9uzc8wYYG2tTkSTJfGSjmD5GhahkTwbD66GghHgVyDks",
+        "validationIdHex": "688b47bc4c9d5d8b1028781b0b04f91913b45398568d02b695ce2fce03e0d548",
+        "nodeId": "NodeID-BfUM3Vt5jASmTbbcNMv9GpGYAATQLc78S",
+        "subnetId": "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+        "weight": 4500000000,
+        "remainingBalance": 8000000000,
+        "balanceChange": 8000000000,
+        "blsCredentials": {
+          "publicKey": "acd65cea103d32f0d703887d7232dcfcb5454676d51b9e3642d9bf229deaf61c84f70add6b824fbd592de61e6ab39f29",
+          "proofOfPossession": "901091b8fca172bdf9c75a7cedb20504df806911c95f093db9501b783c5c04314bf0920c9ffd79c3de327bf096ea52fc12a6264216ca8ed9cb43b4d757c824776e3fea984babbd91fff66f6cd6946fa233d01bcad6128d0aefd0a00ce87eb65f"
+        }
+      },
+      {
+        "validationId": "L6Rxjo13a9GDPx1q1WtBipiofgqK986qRWGFgMmSksdpYXyE9",
+        "validationIdHex": "2b5abafd3c90d84844acf639e9256f25526d85613101d95d7b727f7a21ac9dfd",
+        "nodeId": "NodeID-BvVftbjLUjM7vtEMhD2juMHm6dd8qQzPf",
+        "subnetId": "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+        "weight": 11000000000,
+        "remainingBalance": 8000000000,
+        "balanceChange": 8000000000,
+        "blsCredentials": {
+          "publicKey": "9549cf1623d97ac807bb6204a585da8e3c36fe707971813de6e5f31723e08b5f91981b7bad80244d87700d403f8b5281",
+          "proofOfPossession": "8abbeb8cdca20655b42ea6e1d6579d910d5425a8fc1de6ca73e4bc754c878081d2f5e2c005703a08d1575e81efccdf3a0bf9c2fd822faa78d761aedb55aab49cba4794073fd5c3193ea9a8624215db9af5faf9b8f0b29d4c859b5cc48ee17d18"
+        }
+      },
+      {
+        "validationId": "3uG4UdQ9i1QVZ594JFF8F4qZZCQy2SSTLrbK6dZwZfkCB1VdB",
+        "validationIdHex": "06964ed101ac5278c48af7c849b264b5fc4b10701c2a94d3b4550de626c05005",
+        "nodeId": "NodeID-E7qYUVgiJjAifGdhxcCWTBRTPn9rwKtYe",
+        "subnetId": "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+        "weight": 9000000000,
+        "remainingBalance": 8000000000,
+        "balanceChange": 8000000000,
+        "blsCredentials": {
+          "publicKey": "b82bab0ab58792edcd61911c3bd8ee7ed79a44c242daa760f83ae4d117686b96138d712c2b114d1dc709347ebf070003",
+          "proofOfPossession": "8dd2e6e012dbdff536185d9f3fb4a6d2576bc0130842d15e7311fa1a2f8232feac1a27ce52bbaa394b593ded9901046b18d61036e0130b2e220103732791d60d05ac5436d451e8f46869b82a5e0de75f3e320e92e4400e720cc2dbf5f06b602c"
+        }
+      },
+      {
+        "validationId": "2YWWBy48XjqL33cMjTQ27g2kTvJpoqmWhJW1zpMxErAGnpNnyM",
+        "validationIdHex": "cb3d8ae7798c962357e5eb151ad68cd006c59781df69a6f8d316461b05c014ce",
+        "nodeId": "NodeID-MKikhF5TaHRUpQtc1ZmwN4AiquFVHcjZj",
+        "subnetId": "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+        "weight": 7500000000,
+        "remainingBalance": 8000000000,
+        "balanceChange": 8000000000,
+        "blsCredentials": {
+          "publicKey": "a3f4c214594c36622fc86035d90f98505e4b811ffaa764a307a66fc1d5baba5a00ca4e0a1c1fbc8caefd50c906d0a11d",
+          "proofOfPossession": "aacda10e88eba6d45a6953e889793adc23f97c90722fc6eb6a96d62ef04571342a769e32e87911ab3afa1f54492183cd13f89c27bd13eb20694c944bd657cefeec347280fd1d8026147a512c6aeaa177eecc041288d4d62ab3ada7d82df5e66f"
+        }
+      }
+    ],
+    "l1ValidatorManagerDetails": {
+      "blockchainId": "2tmrrBo1Lgt1mzzvPSFt73kkQKFas5d1AP88tv9cicwoFp8BSn",
+      "contractAddress": "0x46d5a1b62095ce9497c6cc7ab1bdb8a09d7e3c36"
+    },
+    "blsCredentials": {
+      "publicKey": "8249a73a4e062b69a0501e26ce35e0b420f168d4c39d9045c3982d67d20e6e1a56ee9f669ebd2d633731bc4c2163ecc7",
+      "proofOfPossession": "81caa0928bf1ee28ca648c209c07f51e89ea49269acabd0c0a7ba5bb8068007af98616a241e2c45991c6133ebe89418801336005bdf31a0b8b4f75d49051f02e33bd40fc3b4452ae889a57d051b4356d8bb225d4b3fa7fc2947c0b5115fd81e6"
+    },
+    "consumedUtxos": [
+      {
+        "addresses": [
+          "avax1x5crhu8d9lsmsc26snpn4ct43tcchhynrh4snd"
+        ],
+        "utxoId": "2vDY2RkUMH6MoDmkCBHDSebg3zzFtmoSG4CzRvBujqcAG4wTki",
+        "txHash": "ubgpLSv65QTjcPmpiHZPTFYbd13PqRfP61fcdMH3b2pbFBhe",
+        "outputIndex": 0,
+        "blockTimestamp": 1738925743,
+        "blockNumber": "20668486",
+        "consumingTxHash": "VgR2jZVe3AC8jPPsNcE76KktsRi9J4Jke9kGCk5e8zZBzWTXr",
+        "consumingBlockTimestamp": 1741360003,
+        "consumingBlockNumber": "20870478",
+        "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+        "asset": {
+          "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+          "name": "Avalanche",
+          "symbol": "AVAX",
+          "denomination": 9,
+          "type": "secp256k1",
+          "amount": "983000000"
+        },
+        "utxoType": "TRANSFER",
+        "amount": "983000000",
+        "platformLocktime": 0,
+        "threshold": 1,
+        "createdOnChainId": "11111111111111111111111111111111LpoYY",
+        "consumedOnChainId": "11111111111111111111111111111111LpoYY",
+        "staked": false
+      },
+      {
+        "addresses": [
+          "avax1x5crhu8d9lsmsc26snpn4ct43tcchhynrh4snd"
+        ],
+        "utxoId": "2ZbpWfoG4kfKsBaxHcTupwBaLaNfzQTPqi3MErLFp5HgPiLyeK",
+        "txHash": "2r2JxED9J1KYWPnHkUz5h1KqLUxcLC9sNmAiwUTKY9LrDtTtE1",
+        "outputIndex": 0,
+        "blockTimestamp": 1738932244,
+        "blockNumber": "20669137",
+        "consumingTxHash": "VgR2jZVe3AC8jPPsNcE76KktsRi9J4Jke9kGCk5e8zZBzWTXr",
+        "consumingBlockTimestamp": 1741360003,
+        "consumingBlockNumber": "20870478",
+        "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+        "asset": {
+          "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+          "name": "Avalanche",
+          "symbol": "AVAX",
+          "denomination": 9,
+          "type": "secp256k1",
+          "amount": "971000000"
+        },
+        "utxoType": "TRANSFER",
+        "amount": "971000000",
+        "platformLocktime": 0,
+        "threshold": 1,
+        "createdOnChainId": "11111111111111111111111111111111LpoYY",
+        "consumedOnChainId": "11111111111111111111111111111111LpoYY",
+        "staked": false
+      },
+      {
+        "addresses": [
+          "avax1x5crhu8d9lsmsc26snpn4ct43tcchhynrh4snd"
+        ],
+        "utxoId": "FmEijsVdKNQdzFjo4SNDaRRm2B21dJeMnH7MVHBd4Rfam3eFB",
+        "txHash": "erBbqY1iwmnd8wx7EvVAWRtjYB7BPw9DH9t19tXvUMSDu6dK4",
+        "outputIndex": 0,
+        "blockTimestamp": 1741357053,
+        "blockNumber": "20870287",
+        "consumingTxHash": "VgR2jZVe3AC8jPPsNcE76KktsRi9J4Jke9kGCk5e8zZBzWTXr",
+        "consumingBlockTimestamp": 1741360003,
+        "consumingBlockNumber": "20870478",
+        "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+        "asset": {
+          "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+          "name": "Avalanche",
+          "symbol": "AVAX",
+          "denomination": 9,
+          "type": "secp256k1",
+          "amount": "104999995865"
+        },
+        "utxoType": "TRANSFER",
+        "amount": "104999995865",
+        "platformLocktime": 0,
+        "threshold": 1,
+        "createdOnChainId": "11111111111111111111111111111111LpoYY",
+        "consumedOnChainId": "11111111111111111111111111111111LpoYY",
+        "staked": false
+      },
+      {
+        "addresses": [
+          "avax1x5crhu8d9lsmsc26snpn4ct43tcchhynrh4snd"
+        ],
+        "utxoId": "r7SBviH245SYSTewefnJA4joPoecv56T2cQ1pRg8nLufe9fLQ",
+        "txHash": "2LCHWX4PL1Ko5QTNsZEb5UbYPVra4cJouSixCeVPGgxNuGmntN",
+        "outputIndex": 2,
+        "blockTimestamp": 1733069184,
+        "blockNumber": "19673714",
+        "consumingTxHash": "VgR2jZVe3AC8jPPsNcE76KktsRi9J4Jke9kGCk5e8zZBzWTXr",
+        "consumingBlockTimestamp": 1741360003,
+        "consumingBlockNumber": "20870478",
+        "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+        "asset": {
+          "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+          "name": "Avalanche",
+          "symbol": "AVAX",
+          "denomination": 9,
+          "type": "secp256k1",
+          "amount": "40889082735"
+        },
+        "utxoType": "TRANSFER",
+        "amount": "40889082735",
+        "platformLocktime": 0,
+        "threshold": 1,
+        "createdOnChainId": "11111111111111111111111111111111LpoYY",
+        "consumedOnChainId": "11111111111111111111111111111111LpoYY",
+        "staked": false
+      }
+    ],
+    "emittedUtxos": [
+      {
+        "addresses": [
+          "avax1x5crhu8d9lsmsc26snpn4ct43tcchhynrh4snd"
+        ],
+        "utxoId": "2bfy5gjK7QcsEg4Z6HKML38AaYimSp9kBdgYpwoPgEsYcJUZaE",
+        "txHash": "VgR2jZVe3AC8jPPsNcE76KktsRi9J4Jke9kGCk5e8zZBzWTXr",
+        "outputIndex": 0,
+        "blockTimestamp": 1741360003,
+        "blockNumber": "20870478",
+        "consumingTxHash": "Fy122QryaL9BbNoppbX6vEu9qTVKXM9oMdwWke31BdYvRfKX2",
+        "consumingBlockTimestamp": 1741767122,
+        "consumingBlockNumber": "20909327",
+        "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+        "asset": {
+          "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+          "name": "Avalanche",
+          "symbol": "AVAX",
+          "denomination": 9,
+          "type": "secp256k1",
+          "amount": "43842816548"
+        },
+        "utxoType": "TRANSFER",
+        "amount": "43842816548",
+        "platformLocktime": 0,
+        "threshold": 1,
+        "createdOnChainId": "11111111111111111111111111111111LpoYY",
+        "consumedOnChainId": "11111111111111111111111111111111LpoYY",
+        "staked": false
+      }
+    ],
+    "value": [
+      {
+        "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+        "name": "Avalanche",
+        "symbol": "AVAX",
+        "denomination": 9,
+        "type": "secp256k1",
+        "amount": "43842816548"
+      }
+    ],
+    "amountBurned": [
+      {
+        "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+        "name": "Avalanche",
+        "symbol": "AVAX",
+        "denomination": 9,
+        "type": "secp256k1",
+        "amount": "104000262052"
+      }
+    ],
+    "amountStaked": [
+      {
+        "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+        "name": "Avalanche",
+        "symbol": "AVAX",
+        "denomination": 9,
+        "type": "secp256k1",
+        "amount": "0"
+      }
+    ],
+    "amountL1ValidatorBalanceBurned": [
+      {
+        "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+        "name": "Avalanche",
+        "symbol": "AVAX",
+        "denomination": 9,
+        "type": "secp256k1",
+        "amount": "104000000000"
+      }
+    ]
+  }
+}

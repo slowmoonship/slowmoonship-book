@@ -1,0 +1,33 @@
+{
+  "run_date": "2026-10-13",
+  "status": "PASS",
+  "checks": {
+    "chapters": 40,
+    "parts": 10,
+    "chapter_body_hanzi": 34604,
+    "utf8_files": 342,
+    "json_files": 96,
+    "local_links_checked": 626,
+    "json_code_fences": 4,
+    "drawio": 40,
+    "svg": 40,
+    "full_renders": 40,
+    "official_sources": 40,
+    "sql_static_templates": 10,
+    "sql_new_executions": 0,
+    "real_case_groups": 9,
+    "distinct_real_transactions": 12,
+    "case_relationship_checks": 9,
+    "rpc_json_examples": 15
+  },
+  "errors": [],
+  "warnings": [
+    "Case 08 lacks returned height; retained as explicit gap"
+  ],
+  "limits": [
+    "Raw upstream Markdown snapshots retain upstream links and are provenance-checked, not rewritten as publication links.",
+    "External availability based on saved HTTP/MCP reads; no claim all upstream deep links were individually crawled.",
+    "SQL checks use live-catalog snapshots and manual semantics, not Dune engine execution or full parser validation.",
+    "Native desktop draw.io import was not performed."
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "network": "Mainnet",
+  "network_id": 1,
+  "url": "https://data-api.avax.network/v1/networks/mainnet/subnets/eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+  "method": "HTTP GET",
+  "request": null,
+  "retrieved_at": "2026-10-12T11:07:00.024762+00:00",
+  "http_status": 200,
+  "response": {
+    "createBlockTimestamp": 1691764893,
+    "createBlockIndex": "7767891",
+    "subnetId": "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+    "ownerAddresses": [
+      "P-avax1rlet75nd00snnyf7ugkxdzzutn7etffxlpx05m",
+      "P-avax1x5crhu8d9lsmsc26snpn4ct43tcchhynrh4snd",
+      "P-avax1v6js96gc6ffhzzy40wtdrcfnpafh48e033vmug",
+      "P-avax10w0gjt0cmxaa9eakzjqw7ydkfyvh40hu546kvx",
+      "P-avax15tfw00nsrvyfygdk80s9y9gptk0x7xrlszp2dw",
+      "P-avax1ckqxduq03gdgyh5ma9k6ju9hekc2g7jun4dnyh",
+      "P-avax1a2zl2qr2px879lz5d7nu73xtflgsn8k8nye6rz",
+      "P-avax1l4eer7z666ymerhm4tczujy9taetjdzs2p9mtk"
+    ],
+    "threshold": 4,
+    "locktime": 0,
+    "subnetOwnershipInfo": {
+      "addresses": [
+        "P-avax1pcaxpgflxxus0rxc2fnch4yjh2cze8t3macl70",
+        "P-avax1yqc66ar59xudvgjt0k9y8xqzxu7x4798wjvc9w",
+        "P-avax1x5crhu8d9lsmsc26snpn4ct43tcchhynrh4snd",
+        "P-avax1j0a0twmcaxtgt6lfdgyg93qk5and33vuaekshg",
+        "P-avax159whn4fjxs2ftr47pfsxez8cjdr5z28zdjse7h",
+        "P-avax15tfw00nsrvyfygdk80s9y9gptk0x7xrlszp2dw",
+        "P-avax1ck8x8ahs9taxmfpnz4arlm5kxwp2mxhlphv5dg"
+      ],
+      "locktime": 0,
+      "threshold": 4
+    },
+    "isL1": true,
+    "l1ConversionTransactionHash": "VgR2jZVe3AC8jPPsNcE76KktsRi9J4Jke9kGCk5e8zZBzWTXr",
+    "l1ValidatorManagerDetails": {
+      "blockchainId": "2tmrrBo1Lgt1mzzvPSFt73kkQKFas5d1AP88tv9cicwoFp8BSn",
+      "contractAddress": "0x46d5a1b62095ce9497c6cc7ab1bdb8a09d7e3c36"
+    },
+    "blockchains": [
+      {
+        "createBlockTimestamp": 1691766067,
+        "createBlockNumber": "7768389",
+        "blockchainId": "2tmrrBo1Lgt1mzzvPSFt73kkQKFas5d1AP88tv9cicwoFp8BSn",
+        "vmId": "kLPs8zGsTVZ28DhP1VefPCFbCgS7o5bDNez8JUxPVw9E6Ubbz",
+        "subnetId": "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+        "blockchainName": "beam",
+        "evmChainId": 4337
+      }
+    ]
+  }
+}

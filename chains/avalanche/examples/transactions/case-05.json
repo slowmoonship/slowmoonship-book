@@ -1,0 +1,40 @@
+{
+  "id": 5,
+  "title": "X-Chain 多输入转移",
+  "network": "Mainnet",
+  "network_id": 1,
+  "records": [
+    {
+      "blockchain_id": "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM",
+      "transaction_id": "cf7EMNn6ionatrWAxYDcDipQSQKD5j6vX2gSDptoDtiiBN1qa",
+      "block_height": 532938,
+      "block_hash": "VSyJCyAMQMDXSKu1Ghqv4stFCDvvwidRJ4NXVj3497AExWBom",
+      "timestamp": "2026-10-12T11:05:19+00:00",
+      "transaction_type": "BaseTx",
+      "fields_obtained": [
+        "amountCreated",
+        "amountUnlocked",
+        "blockHash",
+        "blockHeight",
+        "chainFormat",
+        "consumedUtxos",
+        "emittedUtxos",
+        "memo",
+        "timestamp",
+        "txHash",
+        "txType"
+      ]
+    }
+  ],
+  "sources": [
+    "research/raw/data-x-chain-latest.json",
+    "research/raw/x-avax-asset.json"
+  ],
+  "missing_fields_or_evidence": [
+    "钱包全 UTXO 快照、找零所有权解释",
+    "响应未返回独立费用字段"
+  ],
+  "verification_status": "VALIDATED",
+  "retrieval_date": "2026-10-12",
+  "evidence_layer": "DIRECT_DATA; derived conclusions separately labelled"
+}

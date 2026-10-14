@@ -1,0 +1,178 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"dashboardId\":220085,\"name\":\"Avalanche Network — L1s, Validators & Interchain Activity\",\"slug\":\"avalanche-network-l1s-validators-interchain-activity\",\"isPrivate\":false,\"tags\":[],\"dashboardUrl\":\"https://dune.com/slowmoonship/avalanche-network-l1s-validators-interchain-activity\",\"visualizationWidgets\":[{\"widgetId\":2422580,\"visualizationId\":12697830,\"position\":{\"col\":0,\"row\":9,\"sizeX\":6,\"sizeY\":4}},{\"widgetId\":2422581,\"visualizationId\":12697727,\"position\":{\"col\":0,\"row\":13,\"sizeX\":6,\"sizeY\":12}},{\"widgetId\":2422582,\"visualizationId\":12697821,\"position\":{\"col\":0,\"row\":25,\"sizeX\":6,\"sizeY\":8}},{\"widgetId\":2422583,\"visualizationId\":12697832,\"position\":{\"col\":0,\"row\":36,\"sizeX\":6,\"sizeY\":7}},{\"widgetId\":2422584,\"visualizationId\":12697852,\"position\":{\"col\":0,\"row\":46,\"sizeX\":6,\"sizeY\":8}},{\"widgetId\":2422585,\"visualizationId\":12697853,\"position\":{\"col\":0,\"row\":54,\"sizeX\":6,\"sizeY\":10}}],\"textWidgets\":[{\"widgetId\":2422573,\"text\":\"## How Avalanche Works\\nAvalanche is not a single chain. The **Primary Network** contains **P-Chain** (platform / validators / L1 metadata), **C-Chain** (EVM execution) and **X-Chain** (AVAX asset exchange). Beyond the Primary Network, additional **L1** execution chains can be created; each has its own validator configuration.\\n\\nThis dashboard uses Dune's observed chain directory, observed validator memberships and C-Chain-side Teleporter endpoint events. These are **observations**, not an authoritative view of all Avalanche activity.\",\"position\":{\"col\":0,\"row\":4,\"sizeX\":6,\"sizeY\":3}},{\"widgetId\":2422574,\"text\":\"## Observed L1 Landscape\\nThe chain directory and creation trend come from a community-uploaded snapshot (`dune.suzaku.dataset_avalanche_chains`). `blockchain_id` identifies chains; EVM chain IDs and names can repeat. **Observed L1 records ≠ total Avalanche L1s.**\",\"position\":{\"col\":0,\"row\":7,\"sizeX\":6,\"sizeY\":2}},{\"widgetId\":2422577,\"text\":\"## Coverage & Limitations\\nThis dashboard cannot reliably answer:\\n- Total active Avalanche L1s (community snapshot is an observation, not an authoritative registry)\\n- Per-L1 transaction or user rankings\\n- Subnet → L1 historical conversion series\\n- Active validator totals, stake concentration, operator identity\\n- Avalanche-wide Teleporter traffic, payload value, end-to-end completion\\n- AVAX burn or net issuance\\n- Stablecoin supply, NFT analytics, token price, market cap, TVL, developer count\\n\\nFor C-Chain runtime, contracts, fees and stablecoin transfer activity, see the companion dashboard **Avalanche C-Chain — Runtime, Contracts & Onchain Economy**. For deferred work, see FOLLOW_UP.md.\",\"position\":{\"col\":0,\"row\":64,\"sizeX\":6,\"sizeY\":6}},{\"widgetId\":2422572,\"text\":\"# Avalanche Network — L1s, Validators & Interchain Activity\\n**SlowMoonShip: Gateway to Onchain Data · v0.2**\\nAvalanche is a network of multiple L1 execution chains coordinated through a Primary Network that contains P-Chain, C-Chain and X-Chain. This dashboard treats the network itself: observed chain directory, validator memberships and interchain endpoint observations. C-Chain runtime metrics live in the companion dashboard.\",\"position\":{\"col\":0,\"row\":1,\"sizeX\":6,\"sizeY\":3}},{\"widgetId\":2422575,\"text\":\"## Validators\\nThe distribution table counts unique `(subnet_id, node_id)` memberships, grouped by the number of distinct subnets each NodeID is observed in. A NodeID shared across subnets shows **membership overlap, not common operator ownership**. `weight` is not interpreted as AVAX stake. The current daily upload only covers 45 dates between 2026-06-24 and 2026-09-10, so no continuous historical line is published.\",\"position\":{\"col\":0,\"row\":33,\"sizeX\":6,\"sizeY\":3}},{\"widgetId\":2422576,\"text\":\"## Interchain Activity\\nThe trend and peer table show decoded Teleporter send and receive events observed **on C-Chain only**. Send and receive populations differ; their ratio is **not a delivery or completion rate**. Peer names come from the community directory; full blockchain IDs remain visible.\",\"position\":{\"col\":0,\"row\":43,\"sizeX\":6,\"sizeY\":3}},{\"widgetId\":2422578,\"text\":\"## Methodology & Data Notes\\n**Data sources:** `dune.suzaku.dataset_avalanche_chains`, `dune.suzaku.dataset_avalanche_validators`; decoded C-Chain Teleporter send + receive events (`avalanche_teleporter_avalanche_c.teleportermessenger_evt_sendcrosschainmessage`, `..._evt_receivecrosschainmessage`).\\n\\n**Time:** Current snapshot for chain directory and validator membership (publisher-reported timestamps). 90 complete UTC days for Teleporter trend and peer ranking (current day excluded).\\n\\n**Validation:** `blockchain_id` and `subnet_id` unique in the snapshot; creation timestamps populated; validator `(subnet_id, node_id)` memberships unique; no null keys; Teleporter event keys deduplicated; trend aggregated to one row per UTC day and direction.\\n\\n**Limitations:** community registry coverage and pipeline selection criteria unverified; nullable metadata differs from actual raw values; missing validator history; no continuous historical validator line; addresses are not humans; community registry ≠ official Avalanche registry.\",\"position\":{\"col\":0,\"row\":70,\"sizeX\":6,\"sizeY\":14}},{\"widgetId\":2422579,\"text\":\"## Source Queries / 可复核查询\\nAll SQL is inspectable via Dune.\\n- [SMS AVAX 06 — Observed Avalanche Chain Directory](https://dune.com/queries/8676240)\\n- [SMS AVAX 15 — Observed Chain Creation](https://dune.com/queries/8676309)\\n- [SMS AVAX 18 — Observed Validator Distribution](https://dune.com/queries/8676320)\\n- [SMS AVAX 20 — C-Chain Teleporter Messages](https://dune.com/queries/8676338)\\n- [SMS AVAX 24 — C-Chain Teleporter Peers](https://dune.com/queries/8676375)\\n\\nValidation queries:\\n- [SMS AVAX 01 — L1 Registry Validation](https://dune.com/queries/8674861)\\n- [SMS AVAX 02 — Registry Quality](https://dune.com/queries/8674922)\\n- [SMS AVAX 04 — Validator Snapshot Quality](https://dune.com/queries/8674925)\\n- [SMS AVAX 07 — Teleporter Coverage Validation](https://dune.com/queries/8676245)\\n- [SMS AVAX 09 — Validator History Validation](https://dune.com/queries/8676250)\\n- [SMS AVAX 26 — Teleporter Correlation QA](https://dune.com/queries/8676385)\",\"position\":{\"col\":0,\"row\":84,\"sizeX\":6,\"sizeY\":18}}],\"paramWidgets\":[{\"widgetId\":\"8091497b-e362-5d1e-a4e4-b111e5c270ea\",\"key\":\"days\",\"queryId\":8676338,\"visualizationWidgetId\":2422584,\"position\":{\"col\":0,\"row\":0,\"sizeX\":1,\"sizeY\":1}}]}"
+      }
+    ],
+    "structuredContent": {
+      "dashboardId": 220085,
+      "name": "Avalanche Network — L1s, Validators & Interchain Activity",
+      "slug": "avalanche-network-l1s-validators-interchain-activity",
+      "isPrivate": false,
+      "tags": [],
+      "dashboardUrl": "https://dune.com/slowmoonship/avalanche-network-l1s-validators-interchain-activity",
+      "visualizationWidgets": [
+        {
+          "widgetId": 2422580,
+          "visualizationId": 12697830,
+          "position": {
+            "col": 0,
+            "row": 9,
+            "sizeX": 6,
+            "sizeY": 4
+          }
+        },
+        {
+          "widgetId": 2422581,
+          "visualizationId": 12697727,
+          "position": {
+            "col": 0,
+            "row": 13,
+            "sizeX": 6,
+            "sizeY": 12
+          }
+        },
+        {
+          "widgetId": 2422582,
+          "visualizationId": 12697821,
+          "position": {
+            "col": 0,
+            "row": 25,
+            "sizeX": 6,
+            "sizeY": 8
+          }
+        },
+        {
+          "widgetId": 2422583,
+          "visualizationId": 12697832,
+          "position": {
+            "col": 0,
+            "row": 36,
+            "sizeX": 6,
+            "sizeY": 7
+          }
+        },
+        {
+          "widgetId": 2422584,
+          "visualizationId": 12697852,
+          "position": {
+            "col": 0,
+            "row": 46,
+            "sizeX": 6,
+            "sizeY": 8
+          }
+        },
+        {
+          "widgetId": 2422585,
+          "visualizationId": 12697853,
+          "position": {
+            "col": 0,
+            "row": 54,
+            "sizeX": 6,
+            "sizeY": 10
+          }
+        }
+      ],
+      "textWidgets": [
+        {
+          "widgetId": 2422573,
+          "text": "## How Avalanche Works\nAvalanche is not a single chain. The **Primary Network** contains **P-Chain** (platform / validators / L1 metadata), **C-Chain** (EVM execution) and **X-Chain** (AVAX asset exchange). Beyond the Primary Network, additional **L1** execution chains can be created; each has its own validator configuration.\n\nThis dashboard uses Dune's observed chain directory, observed validator memberships and C-Chain-side Teleporter endpoint events. These are **observations**, not an authoritative view of all Avalanche activity.",
+          "position": {
+            "col": 0,
+            "row": 4,
+            "sizeX": 6,
+            "sizeY": 3
+          }
+        },
+        {
+          "widgetId": 2422574,
+          "text": "## Observed L1 Landscape\nThe chain directory and creation trend come from a community-uploaded snapshot (`dune.suzaku.dataset_avalanche_chains`). `blockchain_id` identifies chains; EVM chain IDs and names can repeat. **Observed L1 records ≠ total Avalanche L1s.**",
+          "position": {
+            "col": 0,
+            "row": 7,
+            "sizeX": 6,
+            "sizeY": 2
+          }
+        },
+        {
+          "widgetId": 2422577,
+          "text": "## Coverage & Limitations\nThis dashboard cannot reliably answer:\n- Total active Avalanche L1s (community snapshot is an observation, not an authoritative registry)\n- Per-L1 transaction or user rankings\n- Subnet → L1 historical conversion series\n- Active validator totals, stake concentration, operator identity\n- Avalanche-wide Teleporter traffic, payload value, end-to-end completion\n- AVAX burn or net issuance\n- Stablecoin supply, NFT analytics, token price, market cap, TVL, developer count\n\nFor C-Chain runtime, contracts, fees and stablecoin transfer activity, see the companion dashboard **Avalanche C-Chain — Runtime, Contracts & Onchain Economy**. For deferred work, see FOLLOW_UP.md.",
+          "position": {
+            "col": 0,
+            "row": 64,
+            "sizeX": 6,
+            "sizeY": 6
+          }
+        },
+        {
+          "widgetId": 2422572,
+          "text": "# Avalanche Network — L1s, Validators & Interchain Activity\n**SlowMoonShip: Gateway to Onchain Data · v0.2**\nAvalanche is a network of multiple L1 execution chains coordinated through a Primary Network that contains P-Chain, C-Chain and X-Chain. This dashboard treats the network itself: observed chain directory, validator memberships and interchain endpoint observations. C-Chain runtime metrics live in the companion dashboard.",
+          "position": {
+            "col": 0,
+            "row": 1,
+            "sizeX": 6,
+            "sizeY": 3
+          }
+        },
+        {
+          "widgetId": 2422575,
+          "text": "## Validators\nThe distribution table counts unique `(subnet_id, node_id)` memberships, grouped by the number of distinct subnets each NodeID is observed in. A NodeID shared across subnets shows **membership overlap, not common operator ownership**. `weight` is not interpreted as AVAX stake. The current daily upload only covers 45 dates between 2026-06-24 and 2026-09-10, so no continuous historical line is published.",
+          "position": {
+            "col": 0,
+            "row": 33,
+            "sizeX": 6,
+            "sizeY": 3
+          }
+        },
+        {
+          "widgetId": 2422576,
+          "text": "## Interchain Activity\nThe trend and peer table show decoded Teleporter send and receive events observed **on C-Chain only**. Send and receive populations differ; their ratio is **not a delivery or completion rate**. Peer names come from the community directory; full blockchain IDs remain visible.",
+          "position": {
+            "col": 0,
+            "row": 43,
+            "sizeX": 6,
+            "sizeY": 3
+          }
+        },
+        {
+          "widgetId": 2422578,
+          "text": "## Methodology & Data Notes\n**Data sources:** `dune.suzaku.dataset_avalanche_chains`, `dune.suzaku.dataset_avalanche_validators`; decoded C-Chain Teleporter send + receive events (`avalanche_teleporter_avalanche_c.teleportermessenger_evt_sendcrosschainmessage`, `..._evt_receivecrosschainmessage`).\n\n**Time:** Current snapshot for chain directory and validator membership (publisher-reported timestamps). 90 complete UTC days for Teleporter trend and peer ranking (current day excluded).\n\n**Validation:** `blockchain_id` and `subnet_id` unique in the snapshot; creation timestamps populated; validator `(subnet_id, node_id)` memberships unique; no null keys; Teleporter event keys deduplicated; trend aggregated to one row per UTC day and direction.\n\n**Limitations:** community registry coverage and pipeline selection criteria unverified; nullable metadata differs from actual raw values; missing validator history; no continuous historical validator line; addresses are not humans; community registry ≠ official Avalanche registry.",
+          "position": {
+            "col": 0,
+            "row": 70,
+            "sizeX": 6,
+            "sizeY": 14
+          }
+        },
+        {
+          "widgetId": 2422579,
+          "text": "## Source Queries / 可复核查询\nAll SQL is inspectable via Dune.\n- [SMS AVAX 06 — Observed Avalanche Chain Directory](https://dune.com/queries/8676240)\n- [SMS AVAX 15 — Observed Chain Creation](https://dune.com/queries/8676309)\n- [SMS AVAX 18 — Observed Validator Distribution](https://dune.com/queries/8676320)\n- [SMS AVAX 20 — C-Chain Teleporter Messages](https://dune.com/queries/8676338)\n- [SMS AVAX 24 — C-Chain Teleporter Peers](https://dune.com/queries/8676375)\n\nValidation queries:\n- [SMS AVAX 01 — L1 Registry Validation](https://dune.com/queries/8674861)\n- [SMS AVAX 02 — Registry Quality](https://dune.com/queries/8674922)\n- [SMS AVAX 04 — Validator Snapshot Quality](https://dune.com/queries/8674925)\n- [SMS AVAX 07 — Teleporter Coverage Validation](https://dune.com/queries/8676245)\n- [SMS AVAX 09 — Validator History Validation](https://dune.com/queries/8676250)\n- [SMS AVAX 26 — Teleporter Correlation QA](https://dune.com/queries/8676385)",
+          "position": {
+            "col": 0,
+            "row": 84,
+            "sizeX": 6,
+            "sizeY": 18
+          }
+        }
+      ],
+      "paramWidgets": [
+        {
+          "widgetId": "8091497b-e362-5d1e-a4e4-b111e5c270ea",
+          "key": "days",
+          "queryId": 8676338,
+          "visualizationWidgetId": 2422584,
+          "position": {
+            "col": 0,
+            "row": 0,
+            "sizeX": 1,
+            "sizeY": 1
+          }
+        }
+      ]
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 13
+}

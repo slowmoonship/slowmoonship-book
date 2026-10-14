@@ -1,0 +1,26 @@
+{
+  "network": "Mainnet",
+  "network_id": 1,
+  "url": "https://api.avax.network/ext/bc/X",
+  "method": "avm.getAssetDescription",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "avm.getAssetDescription",
+    "params": {
+      "assetID": "AVAX"
+    }
+  },
+  "retrieved_at": "2026-10-12T11:04:04.175652+00:00",
+  "http_status": 200,
+  "response": {
+    "jsonrpc": "2.0",
+    "result": {
+      "assetID": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+      "name": "Avalanche",
+      "symbol": "AVAX",
+      "denomination": "9"
+    },
+    "id": 1
+  }
+}

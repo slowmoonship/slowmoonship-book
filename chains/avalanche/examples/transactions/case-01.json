@@ -1,0 +1,49 @@
+{
+  "id": 1,
+  "title": "C-Chain 原生 AVAX 转账",
+  "network": "Mainnet",
+  "network_id": 1,
+  "records": [
+    {
+      "blockchain_id": "2q9e4r6Mu3U68nU1fYjgbR6JvwrRx36CohpAX5UQxse55x1Q5",
+      "transaction_id": "0x566b431b5c10e7c52022943dce0a4aa724cad760eb18de696665ae869fc852d7",
+      "block_height": "97355822",
+      "block_hash": "0x94aefa0b7871db2e1eb38fc8e5314586710d80693bf52c1a53ffd51a3c9fede5",
+      "timestamp": "2026-10-12T11:06:57+00:00",
+      "transaction_type": 0,
+      "fields_obtained": [
+        "baseFeePerGas",
+        "blockHash",
+        "blockIndex",
+        "blockNumber",
+        "blockTimestamp",
+        "blockTimestampMilliseconds",
+        "chainId",
+        "from",
+        "gasLimit",
+        "gasPrice",
+        "gasUsed",
+        "input",
+        "maxFeePerGas",
+        "maxPriorityFeePerGas",
+        "method",
+        "nonce",
+        "to",
+        "txHash",
+        "txStatus",
+        "txType",
+        "value"
+      ]
+    }
+  ],
+  "sources": [
+    "research/raw/c-native-detail.json"
+  ],
+  "missing_fields_or_evidence": [
+    "原始 RPC 收据、目标历史代码、逐交易前后余额",
+    "Dune 同笔新查询结果"
+  ],
+  "verification_status": "VALIDATED",
+  "retrieval_date": "2026-10-12",
+  "evidence_layer": "DIRECT_DATA; derived conclusions separately labelled"
+}

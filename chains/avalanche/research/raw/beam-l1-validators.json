@@ -1,0 +1,140 @@
+{
+  "network": "Mainnet",
+  "network_id": 1,
+  "url": "https://data-api.avax.network/v1/networks/mainnet/l1Validators?subnetId=eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC&pageSize=5",
+  "method": "HTTP GET",
+  "request": null,
+  "retrieved_at": "2026-10-12T11:07:00.725761+00:00",
+  "http_status": 200,
+  "response": {
+    "validators": [
+      {
+        "validationId": "kqXr1SyxTamwmm48kHkpmXxhB5MuzFo3g1EdAV1g3kQEZ9VpV",
+        "validationIdHex": "63896632e8ed9eb32b19f17dea3baf5996e23c512bb8cddb2af51860c66ea55d",
+        "creationTimestamp": 1791770284,
+        "nodeId": "NodeID-AL1WAtQHsgfUzoVJeTkaD1VQQcNQnM52U",
+        "subnetId": "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+        "weight": 20000,
+        "remainingBalance": 1316491093,
+        "blsCredentials": {
+          "publicKey": "967ec625d8321b9430780107a8b08a45fb2846255bf2b42ec42a379af2302c4ecd74d3d2550c92cec29c5b858b95719b",
+          "proofOfPossession": "8871b52aca6a2dd68019d504e194fa022081d592e4afce02aee46f3f545aad980222e5bd230e081e8a46e6bf829a458c0a96b6eaafd2155412a94f97ddb7a4546f0c6c6e805c81df5d2852d5bdbcddad9609739ca6ff152e9b5bb534a8a233b1"
+        },
+        "remainingBalanceOwner": {
+          "addresses": [
+            "avax1nr2n6apj940a3jky9jfn3uqhcl5enuc9uy4dfl"
+          ],
+          "threshold": 1
+        },
+        "deactivationOwner": {
+          "addresses": [
+            "avax1m03jar35fw6q9rk63wqkl5j925xqwxhct8g5w6"
+          ],
+          "threshold": 1
+        }
+      },
+      {
+        "validationId": "2t7Rw2DBS2w4FeUV3z6uj3LPuXy2BvEKgmYKupJLAiZrFCRxfa",
+        "validationIdHex": "f7bfe2cbc636a34dfd0e9796b649cea356223170aec77e8f098e76c55f6d8ade",
+        "creationTimestamp": 1743624664,
+        "nodeId": "NodeID-NuQDePyvPK8acA4yeh5XCp7syRVRQMo95",
+        "subnetId": "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+        "weight": 50097933,
+        "remainingBalance": 451207168,
+        "blsCredentials": {
+          "publicKey": "b3c53f513a514d037b4c589c1bfd11ac40d7853f0b835a8de20ccdc38200622cdbf05bea63a80195cd3cb150de755c73",
+          "proofOfPossession": "b6fc6cbaf658c63b463d5aec9907f4b4baee1b1a966a052b79fc8abd16e02bd7acc035337ee5e6e916894a1dc0dd40820c3a4264a3ff77d800a85ef7957b6eaa8d5a6316c4fac2cc309ed98710f1760a7b1aff3bd3cb9282adc7f729f7a08e54"
+        },
+        "remainingBalanceOwner": {
+          "addresses": [
+            "avax1nr2n6apj940a3jky9jfn3uqhcl5enuc9uy4dfl"
+          ],
+          "threshold": 1
+        },
+        "deactivationOwner": {
+          "addresses": [
+            "avax1tmjce78790wyvn97ekvekpuad2sc5lmvdfc6rc"
+          ],
+          "threshold": 1
+        }
+      },
+      {
+        "validationId": "2nRJLf9HTXprvNAX3FckATVFyCD4f3qaXbP5q7qnKYhLD1eLCd",
+        "validationIdHex": "ead34b8c96803a2be8f783fe6496e5163ebcf24f530b9626878c4130e339b277",
+        "creationTimestamp": 1741800020,
+        "nodeId": "NodeID-CEsABmctyhhNGQHbPGCRaAyejHEiAD1NU",
+        "subnetId": "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+        "weight": 14636722,
+        "remainingBalance": 514806016,
+        "blsCredentials": {
+          "publicKey": "b4ddf7729dfb584ccbc2659238f6c7b7335de3857c425414a9c3bf0ec0af0d237c8e27acb3b434050db8b9b42661740d",
+          "proofOfPossession": "8cc851bac61635f863fdbc271b79a8d2c21f18f8f5686afb84733c2e1c7c14b77d62ef57ecde2d40ad5c9d87e37aa3da10969aea98bdd673b8f2b96cb2c490d8adb8505e0b64bf50ac663eeb83cc504021a63d19c80c1992fc61436e2868133b"
+        },
+        "remainingBalanceOwner": {
+          "addresses": [
+            "avax1nr2n6apj940a3jky9jfn3uqhcl5enuc9uy4dfl"
+          ],
+          "threshold": 1
+        },
+        "deactivationOwner": {
+          "addresses": [
+            "avax1x0nacamrjya80un6t6kctry3qg8mvnvwfpqd8y"
+          ],
+          "threshold": 1
+        }
+      },
+      {
+        "validationId": "2CKDPjTwkQTCK3mejkv3LhQr5dbBq4CEkJTEHstYDStgQsU5zJ",
+        "validationIdHex": "9d62cfa90ba2ccac926bc327ad9b212fab9ab2211ac2b418848dbc4f18efd897",
+        "creationTimestamp": 1743446561,
+        "nodeId": "NodeID-7PH2vVEMWogadte18M46TLxEQ8zrBK5pj",
+        "subnetId": "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+        "weight": 46000,
+        "remainingBalance": 380021952,
+        "blsCredentials": {
+          "publicKey": "a9dea49797a2c840e2c8f01628b421030685f5e9dc45404ecbd362e9f4e6f5de95bfc0391ec6c36aa8636d37cd571685",
+          "proofOfPossession": "ac07398b696691fb7ea2c2ca24ef66bd4806e9eed833dddddf3b8a52ec06b7961e1630d4f75c0d0e31f225d12501542007bed6e7bb300690bc35b023f20db72a84fc268f6d357bd9ed35fe3a6ea338bbea8b21802a6c47ceab12e8c3501f4ab9"
+        },
+        "remainingBalanceOwner": {
+          "addresses": [
+            "avax1nr2n6apj940a3jky9jfn3uqhcl5enuc9uy4dfl"
+          ],
+          "threshold": 1
+        },
+        "deactivationOwner": {
+          "addresses": [
+            "avax1plf0dqeg8vlr4swlt34d3mkz9hs35krst4ra73"
+          ],
+          "threshold": 1
+        }
+      },
+      {
+        "validationId": "28Xcc8SSfmc8jBYZzH7p5vgYiP5a2bVpYkHsgfoxopmiZvZo4",
+        "validationIdHex": "0290b93ef6747cca73b7983fbd4cee0d0dd2849018495f6e52dc43e49b165806",
+        "creationTimestamp": 1741824531,
+        "nodeId": "NodeID-46dw6FLobSUvtkyAS9BvyacykyuFP46gf",
+        "subnetId": "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+        "weight": 1880163,
+        "remainingBalance": 451338752,
+        "blsCredentials": {
+          "publicKey": "b47a24bd92d85538de2419751826ed3aaf39f81e3b15b70e211888d4e9576d4c87cd8197dd2bcc15a48dd641b0dee245",
+          "proofOfPossession": "8837a59d02690b6b3162e0e7076ab287632b1c1448590615f3bdefd2f9a44cd69bd38d98c0767cba3607ea4bb30e6f9a03a51fe4938e9fb98f7f620b3089ad1212667c25a34568eb26d9c52b9f4110085eeb3d662f91e141905dac4ca263b661"
+        },
+        "remainingBalanceOwner": {
+          "addresses": [
+            "avax1nr2n6apj940a3jky9jfn3uqhcl5enuc9uy4dfl"
+          ],
+          "threshold": 1
+        },
+        "deactivationOwner": {
+          "addresses": [
+            "avax1dexrjlc20j7u8qe6fxj7wd2j23wjx6dkjkqsx9"
+          ],
+          "threshold": 1
+        }
+      }
+    ],
+    "blockHeight": "25659532",
+    "nextPageToken": "88c53cd9-d79c-47fd-b145-6a359e0aa88e"
+  }
+}

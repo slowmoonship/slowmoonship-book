@@ -1,0 +1,1838 @@
+[
+  {
+    "full_name": "avalanche_c.transactions",
+    "category": "canonical",
+    "dataset_type": "dune_table",
+    "blockchains": [
+      "avalanche_c"
+    ],
+    "partition_columns": [
+      "block_date"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "block_time",
+          "nullable": false,
+          "type": "timestamp"
+        },
+        {
+          "name": "block_number",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "value",
+          "nullable": false,
+          "type": "decimal(38,0)"
+        },
+        {
+          "name": "gas_limit",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "gas_price",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "gas_used",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "max_fee_per_gas",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "max_priority_fee_per_gas",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "priority_fee_per_gas",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "nonce",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "index",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "success",
+          "nullable": false,
+          "type": "boolean"
+        },
+        {
+          "name": "from",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "to",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "block_hash",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "data",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "hash",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "type",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "access_list",
+          "nullable": false,
+          "type": "array(row(address varbinary,storageKeys array(varbinary)))"
+        },
+        {
+          "name": "block_date",
+          "nullable": false,
+          "type": "date"
+        }
+      ],
+      "type": "struct"
+    },
+    "metadata": {
+      "page_rank_score": 457.2770913709815
+    }
+  },
+  {
+    "full_name": "avalanche_c.logs",
+    "category": "canonical",
+    "dataset_type": "dune_table",
+    "blockchains": [
+      "avalanche_c"
+    ],
+    "partition_columns": [
+      "block_date"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "block_time",
+          "nullable": false,
+          "type": "timestamp"
+        },
+        {
+          "name": "block_number",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "block_hash",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "contract_address",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "topic0",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "topic1",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "topic2",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "topic3",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "data",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "tx_hash",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "index",
+          "nullable": false,
+          "type": "integer"
+        },
+        {
+          "name": "tx_index",
+          "nullable": false,
+          "type": "integer"
+        },
+        {
+          "name": "block_date",
+          "nullable": false,
+          "type": "date"
+        },
+        {
+          "name": "tx_from",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "tx_to",
+          "nullable": false,
+          "type": "varbinary"
+        }
+      ],
+      "type": "struct"
+    },
+    "metadata": {
+      "page_rank_score": 159.69234684464982
+    }
+  },
+  {
+    "full_name": "avalanche_c.creation_traces",
+    "category": "canonical",
+    "dataset_type": "dune_table",
+    "blockchains": [
+      "avalanche_c"
+    ],
+    "partition_columns": [
+      "block_date"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "block_time",
+          "nullable": false,
+          "type": "timestamp"
+        },
+        {
+          "name": "block_number",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "tx_hash",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "address",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "from",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "code",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "block_month",
+          "nullable": false,
+          "type": "date"
+        }
+      ],
+      "type": "struct"
+    },
+    "metadata": {
+      "page_rank_score": 139.57603024770435
+    }
+  },
+  {
+    "full_name": "avalanche_c.traces",
+    "category": "canonical",
+    "dataset_type": "dune_table",
+    "blockchains": [
+      "avalanche_c"
+    ],
+    "partition_columns": [
+      "block_date"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "block_time",
+          "nullable": false,
+          "type": "timestamp"
+        },
+        {
+          "name": "block_number",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "value",
+          "nullable": false,
+          "type": "uint256"
+        },
+        {
+          "name": "gas",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "gas_used",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "block_hash",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "success",
+          "nullable": false,
+          "type": "boolean"
+        },
+        {
+          "name": "tx_index",
+          "nullable": false,
+          "type": "integer"
+        },
+        {
+          "name": "sub_traces",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "error",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "tx_success",
+          "nullable": false,
+          "type": "boolean"
+        },
+        {
+          "name": "tx_hash",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "from",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "to",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "trace_address",
+          "nullable": false,
+          "type": "array(bigint)"
+        },
+        {
+          "name": "type",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "address",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "code",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "call_type",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "input",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "output",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "refund_address",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "block_date",
+          "nullable": false,
+          "type": "date"
+        }
+      ],
+      "type": "struct"
+    },
+    "metadata": {
+      "page_rank_score": 27.72019841578594
+    }
+  },
+  {
+    "full_name": "avalanche_c.blocks",
+    "category": "canonical",
+    "dataset_type": "dune_table",
+    "blockchains": [
+      "avalanche_c"
+    ],
+    "partition_columns": [
+      "date"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "time",
+          "nullable": false,
+          "type": "timestamp"
+        },
+        {
+          "name": "number",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "gas_limit",
+          "nullable": false,
+          "type": "decimal(38,0)"
+        },
+        {
+          "name": "gas_used",
+          "nullable": false,
+          "type": "decimal(38,0)"
+        },
+        {
+          "name": "difficulty",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "total_difficulty",
+          "nullable": false,
+          "type": "decimal(38,0)"
+        },
+        {
+          "name": "size",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "base_fee_per_gas",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "hash",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "parent_hash",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "miner",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "nonce",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "date",
+          "nullable": false,
+          "type": "date"
+        }
+      ],
+      "type": "struct"
+    },
+    "metadata": {
+      "page_rank_score": 11.52416479949712
+    }
+  },
+  {
+    "full_name": "avalanche_c.contracts",
+    "category": "canonical",
+    "dataset_type": "dune_table",
+    "blockchains": [
+      "avalanche_c"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "abi_id",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "abi",
+          "nullable": false,
+          "type": "array(varchar)"
+        },
+        {
+          "name": "address",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "from",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "code",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "name",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "namespace",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "dynamic",
+          "nullable": false,
+          "type": "boolean"
+        },
+        {
+          "name": "base",
+          "nullable": false,
+          "type": "boolean"
+        },
+        {
+          "name": "factory",
+          "nullable": false,
+          "type": "boolean"
+        },
+        {
+          "name": "detection_source",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "created_at",
+          "nullable": false,
+          "type": "timestamp"
+        }
+      ],
+      "type": "struct"
+    },
+    "metadata": {
+      "page_rank_score": 10.585177225287948
+    }
+  },
+  {
+    "full_name": "avalanche_c.logs_decoded",
+    "category": "canonical",
+    "dataset_type": "dune_table",
+    "blockchains": [
+      "avalanche_c"
+    ],
+    "partition_columns": [
+      "contract_name",
+      "namespace"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "block_date",
+          "nullable": false,
+          "type": "date"
+        },
+        {
+          "name": "block_time",
+          "nullable": false,
+          "type": "timestamp"
+        },
+        {
+          "name": "block_number",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "namespace",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "contract_name",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "contract_address",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "tx_hash",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "tx_from",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "tx_to",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "tx_index",
+          "nullable": false,
+          "type": "integer"
+        },
+        {
+          "name": "index",
+          "nullable": false,
+          "type": "integer"
+        },
+        {
+          "name": "signature",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "event_name",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "decoded_json",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "created_at",
+          "nullable": false,
+          "type": "timestamp"
+        }
+      ],
+      "type": "struct"
+    },
+    "metadata": {
+      "page_rank_score": 1.9015872103554339
+    }
+  },
+  {
+    "full_name": "avalanche_c.traces_decoded",
+    "category": "canonical",
+    "dataset_type": "dune_table",
+    "blockchains": [
+      "avalanche_c"
+    ],
+    "partition_columns": [
+      "contract_name",
+      "namespace"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "block_date",
+          "nullable": false,
+          "type": "date"
+        },
+        {
+          "name": "block_time",
+          "nullable": false,
+          "type": "timestamp"
+        },
+        {
+          "name": "block_number",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "namespace",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "contract_name",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "to",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "trace_address",
+          "nullable": false,
+          "type": "array(bigint)"
+        },
+        {
+          "name": "tx_hash",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "tx_from",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "tx_to",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "tx_index",
+          "nullable": false,
+          "type": "integer"
+        },
+        {
+          "name": "success",
+          "nullable": false,
+          "type": "boolean"
+        },
+        {
+          "name": "signature",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "function_name",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "decoded_input_json",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "decoded_output_json",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "created_at",
+          "nullable": false,
+          "type": "timestamp"
+        }
+      ],
+      "type": "struct"
+    },
+    "metadata": {
+      "page_rank_score": 1.0622763570239826
+    }
+  },
+  {
+    "full_name": "avalanche_c.signatures",
+    "category": "canonical",
+    "dataset_type": "dune_table",
+    "blockchains": [
+      "avalanche_c"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "id",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "signature",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "abi",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "type",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "namespace",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "name",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "created_at",
+          "nullable": false,
+          "type": "timestamp"
+        }
+      ],
+      "type": "struct"
+    },
+    "metadata": {
+      "page_rank_score": 0.4024038461538462
+    }
+  },
+  {
+    "full_name": "tokens.transfers",
+    "category": "spell",
+    "dataset_type": "spell",
+    "blockchains": [
+      "abstract",
+      "apechain",
+      "arbitrum",
+      "arc",
+      "avalanche_c",
+      "b3",
+      "base",
+      "berachain",
+      "blast",
+      "bnb",
+      "bob",
+      "boba",
+      "celo",
+      "corn",
+      "cronos",
+      "degen",
+      "ethereum",
+      "fantom",
+      "flare",
+      "gnosis",
+      "hemi",
+      "henesys",
+      "hyperevm",
+      "ink",
+      "kaia",
+      "katana",
+      "linea",
+      "mantle",
+      "megaeth",
+      "mezo",
+      "monad",
+      "morph",
+      "nova",
+      "opbnb",
+      "optimism",
+      "peaq",
+      "plasma",
+      "plume",
+      "polygon",
+      "robinhood",
+      "ronin",
+      "rise",
+      "scroll",
+      "sei",
+      "shape",
+      "somnia",
+      "sonic",
+      "sophon",
+      "story",
+      "superseed",
+      "tac",
+      "taiko",
+      "tempo",
+      "tezos_evm",
+      "tron",
+      "unichain",
+      "viction",
+      "worldchain",
+      "xlayer",
+      "zkevm",
+      "zksync",
+      "zora",
+      "lens"
+    ],
+    "partition_columns": [
+      "block_month",
+      "blockchain"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "unique_key",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "blockchain",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "block_month",
+          "nullable": true,
+          "type": "date"
+        },
+        {
+          "name": "block_date",
+          "nullable": true,
+          "type": "date"
+        },
+        {
+          "name": "block_time",
+          "nullable": true,
+          "type": "timestamp(3) with time zone"
+        },
+        {
+          "name": "block_number",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "tx_hash",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "evt_index",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "trace_address",
+          "nullable": true,
+          "type": "array(bigint)"
+        },
+        {
+          "name": "token_standard",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "tx_from",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "tx_to",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "tx_index",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "from",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "to",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "contract_address",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "symbol",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "amount_raw",
+          "nullable": true,
+          "type": "uint256"
+        },
+        {
+          "name": "amount",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "price_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "amount_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "_updated_at",
+          "nullable": true,
+          "type": "timestamp(3) with time zone"
+        }
+      ],
+      "type": "struct"
+    }
+  },
+  {
+    "full_name": "dex.trades",
+    "category": "spell",
+    "dataset_type": "spell",
+    "blockchains": [
+      "abstract",
+      "apechain",
+      "arbitrum",
+      "arc",
+      "avalanche_c",
+      "base",
+      "berachain",
+      "blast",
+      "bnb",
+      "boba",
+      "celo",
+      "corn",
+      "cronos",
+      "ethereum",
+      "fantom",
+      "flare",
+      "flow",
+      "gnosis",
+      "hemi",
+      "hyperevm",
+      "ink",
+      "kaia",
+      "katana",
+      "linea",
+      "mantle",
+      "megaeth",
+      "mezo",
+      "monad",
+      "morph",
+      "nova",
+      "opbnb",
+      "optimism",
+      "peaq",
+      "plasma",
+      "plume",
+      "polygon",
+      "robinhood",
+      "ronin",
+      "scroll",
+      "sei",
+      "shape",
+      "somnia",
+      "sonic",
+      "sophon",
+      "story",
+      "superseed",
+      "tac",
+      "taiko",
+      "tempo",
+      "tezos_evm",
+      "unichain",
+      "worldchain",
+      "xlayer",
+      "zkevm",
+      "zksync",
+      "zora"
+    ],
+    "partition_columns": [
+      "blockchain",
+      "project",
+      "block_month"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "blockchain",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "project",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "version",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "block_month",
+          "nullable": true,
+          "type": "date"
+        },
+        {
+          "name": "block_date",
+          "nullable": true,
+          "type": "date"
+        },
+        {
+          "name": "block_time",
+          "nullable": true,
+          "type": "timestamp"
+        },
+        {
+          "name": "block_number",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "token_bought_symbol",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "token_sold_symbol",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "token_pair",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "token_bought_amount",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "token_sold_amount",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "token_bought_amount_raw",
+          "nullable": true,
+          "type": "uint256"
+        },
+        {
+          "name": "token_sold_amount_raw",
+          "nullable": true,
+          "type": "uint256"
+        },
+        {
+          "name": "amount_usd",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "token_bought_address",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "token_sold_address",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "taker",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "maker",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "project_contract_address",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "tx_hash",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "tx_from",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "tx_to",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "evt_index",
+          "nullable": true,
+          "type": "bigint"
+        },
+        {
+          "name": "_updated_at",
+          "nullable": true,
+          "type": "timestamp"
+        }
+      ],
+      "type": "struct"
+    }
+  },
+  {
+    "full_name": "tokens.erc20",
+    "category": "spell",
+    "dataset_type": "spell",
+    "blockchains": [
+      "abstract",
+      "apechain",
+      "arbitrum",
+      "arc",
+      "avalanche_c",
+      "b3",
+      "base",
+      "berachain",
+      "blast",
+      "bnb",
+      "bob",
+      "boba",
+      "celo",
+      "corn",
+      "cronos",
+      "degen",
+      "ethereum",
+      "fantom",
+      "flare",
+      "flow",
+      "gnosis",
+      "hedera",
+      "hemi",
+      "henesys",
+      "hyperevm",
+      "ink",
+      "kaia",
+      "katana",
+      "lens",
+      "linea",
+      "mantle",
+      "megaeth",
+      "mezo",
+      "monad",
+      "morph",
+      "nova",
+      "opbnb",
+      "optimism",
+      "peaq",
+      "plasma",
+      "plume",
+      "polygon",
+      "robinhood",
+      "ronin",
+      "rise",
+      "scroll",
+      "sei",
+      "shape",
+      "somnia",
+      "sophon",
+      "sonic",
+      "story",
+      "superseed",
+      "tac",
+      "taiko",
+      "tempo",
+      "tezos_evm",
+      "tron",
+      "unichain",
+      "viction",
+      "worldchain",
+      "xlayer",
+      "zkevm",
+      "zksync",
+      "zora"
+    ],
+    "partition_columns": [
+      "blockchain"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "blockchain",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "contract_address",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "symbol",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "name",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "decimals",
+          "nullable": true,
+          "type": "integer"
+        },
+        {
+          "name": "_updated_at",
+          "nullable": true,
+          "type": "timestamp(3) with time zone"
+        }
+      ],
+      "type": "struct"
+    }
+  },
+  {
+    "full_name": "tokens.supply_latest",
+    "category": "spell",
+    "dataset_type": "spell",
+    "blockchains": [
+      "abstract",
+      "apechain",
+      "arbitrum",
+      "arc",
+      "avalanche_c",
+      "base",
+      "berachain",
+      "bnb",
+      "bob",
+      "boba",
+      "celo",
+      "corn",
+      "cronos",
+      "degen",
+      "ethereum",
+      "fantom",
+      "flare",
+      "flow",
+      "gnosis",
+      "hedera",
+      "hyperevm",
+      "ink",
+      "kaia",
+      "katana",
+      "lens",
+      "linea",
+      "mantle",
+      "megaeth",
+      "mezo",
+      "monad",
+      "morph",
+      "nova",
+      "opbnb",
+      "optimism",
+      "peaq",
+      "plasma",
+      "plume",
+      "polygon",
+      "robinhood",
+      "ronin",
+      "rise",
+      "scroll",
+      "sei",
+      "shape",
+      "somnia",
+      "sophon",
+      "sonic",
+      "story",
+      "superseed",
+      "tac",
+      "taiko",
+      "tempo",
+      "tezos_evm",
+      "unichain",
+      "worldchain",
+      "xlayer",
+      "zksync",
+      "zora"
+    ],
+    "partition_columns": [
+      "blockchain"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "blockchain",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "token_address",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "symbol",
+          "nullable": true,
+          "type": "varchar"
+        },
+        {
+          "name": "decimals",
+          "nullable": true,
+          "type": "integer"
+        },
+        {
+          "name": "supply_raw",
+          "nullable": true,
+          "type": "uint256"
+        },
+        {
+          "name": "supply",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "_updated_at",
+          "nullable": true,
+          "type": "timestamp(3) with time zone"
+        }
+      ],
+      "type": "struct"
+    }
+  },
+  {
+    "full_name": "avalanche_teleporter_avalanche_c.teleportermessenger_call_sendcrosschainmessage",
+    "category": "decoded",
+    "dataset_type": "decoded_table",
+    "blockchains": [
+      "avalanche_c"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "contract_address",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "call_success",
+          "nullable": false,
+          "type": "boolean"
+        },
+        {
+          "name": "call_tx_hash",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "call_tx_from",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "call_tx_to",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "call_tx_index",
+          "nullable": false,
+          "type": "integer"
+        },
+        {
+          "name": "call_trace_address",
+          "nullable": false,
+          "type": "array(bigint)"
+        },
+        {
+          "name": "call_block_time",
+          "nullable": false,
+          "type": "timestamp"
+        },
+        {
+          "name": "call_block_number",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "call_block_date",
+          "nullable": false,
+          "type": "date"
+        },
+        {
+          "name": "messageInput",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "output_0",
+          "nullable": false,
+          "type": "varbinary"
+        }
+      ],
+      "type": "struct"
+    }
+  },
+  {
+    "full_name": "avalanche_teleporter_avalanche_c.teleportermessenger_evt_sendcrosschainmessage",
+    "category": "decoded",
+    "dataset_type": "decoded_table",
+    "blockchains": [
+      "avalanche_c"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "contract_address",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "evt_tx_hash",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "evt_tx_from",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "evt_tx_to",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "evt_tx_index",
+          "nullable": false,
+          "type": "integer"
+        },
+        {
+          "name": "evt_index",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "evt_block_time",
+          "nullable": false,
+          "type": "timestamp"
+        },
+        {
+          "name": "evt_block_number",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "evt_block_date",
+          "nullable": false,
+          "type": "date"
+        },
+        {
+          "name": "destinationBlockchainID",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "feeInfo",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "message",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "messageID",
+          "nullable": false,
+          "type": "varbinary"
+        }
+      ],
+      "type": "struct"
+    }
+  },
+  {
+    "full_name": "avalanche_teleporter_avalanche_c.teleportermessenger_call_receivecrosschainmessage",
+    "category": "decoded",
+    "dataset_type": "decoded_table",
+    "blockchains": [
+      "avalanche_c"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "contract_address",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "call_success",
+          "nullable": false,
+          "type": "boolean"
+        },
+        {
+          "name": "call_tx_hash",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "call_tx_from",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "call_tx_to",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "call_tx_index",
+          "nullable": false,
+          "type": "integer"
+        },
+        {
+          "name": "call_trace_address",
+          "nullable": false,
+          "type": "array(bigint)"
+        },
+        {
+          "name": "call_block_time",
+          "nullable": false,
+          "type": "timestamp"
+        },
+        {
+          "name": "call_block_number",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "call_block_date",
+          "nullable": false,
+          "type": "date"
+        },
+        {
+          "name": "messageIndex",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "relayerRewardAddress",
+          "nullable": false,
+          "type": "varbinary"
+        }
+      ],
+      "type": "struct"
+    }
+  },
+  {
+    "full_name": "avalanche_teleporter_avalanche_c.teleportermessenger_evt_receivecrosschainmessage",
+    "category": "decoded",
+    "dataset_type": "decoded_table",
+    "blockchains": [
+      "avalanche_c"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "contract_address",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "evt_tx_hash",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "evt_tx_from",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "evt_tx_to",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "evt_tx_index",
+          "nullable": false,
+          "type": "integer"
+        },
+        {
+          "name": "evt_index",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "evt_block_time",
+          "nullable": false,
+          "type": "timestamp"
+        },
+        {
+          "name": "evt_block_number",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "evt_block_date",
+          "nullable": false,
+          "type": "date"
+        },
+        {
+          "name": "deliverer",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "message",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "messageID",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "rewardRedeemer",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "sourceBlockchainID",
+          "nullable": false,
+          "type": "varbinary"
+        }
+      ],
+      "type": "struct"
+    }
+  },
+  {
+    "full_name": "circle_multichain.messagetransmitter_call_sendmessage",
+    "category": "decoded",
+    "dataset_type": "decoded_table",
+    "blockchains": [
+      "arbitrum",
+      "avalanche_c",
+      "base",
+      "ethereum",
+      "optimism",
+      "polygon",
+      "unichain"
+    ],
+    "visibility": "public",
+    "schema": {
+      "fields": [
+        {
+          "name": "chain",
+          "nullable": false,
+          "type": "varchar"
+        },
+        {
+          "name": "contract_address",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "call_success",
+          "nullable": false,
+          "type": "boolean"
+        },
+        {
+          "name": "call_tx_hash",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "call_tx_from",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "call_tx_to",
+          "nullable": true,
+          "type": "varbinary"
+        },
+        {
+          "name": "call_tx_index",
+          "nullable": false,
+          "type": "integer"
+        },
+        {
+          "name": "call_trace_address",
+          "nullable": false,
+          "type": "array(bigint)"
+        },
+        {
+          "name": "call_block_time",
+          "nullable": false,
+          "type": "timestamp"
+        },
+        {
+          "name": "call_block_number",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "call_block_date",
+          "nullable": true,
+          "type": "date"
+        },
+        {
+          "name": "destinationDomain",
+          "nullable": false,
+          "type": "bigint"
+        },
+        {
+          "name": "messageBody",
+          "nullable": false,
+          "type": "varbinary"
+        },
+        {
+          "name": "output_0",
+          "nullable": false,
+          "type": "uint256"
+        },
+        {
+          "name": "recipient",
+          "nullable": false,
+          "type": "varbinary"
+        }
+      ],
+      "type": "struct"
+    }
+  }
+]

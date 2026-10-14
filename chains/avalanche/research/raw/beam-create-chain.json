@@ -1,0 +1,269 @@
+{
+  "network": "Mainnet",
+  "network_id": 1,
+  "url": "https://data-api.avax.network/v1/networks/mainnet/blockchains/p-chain/transactions/2tmrrBo1Lgt1mzzvPSFt73kkQKFas5d1AP88tv9cicwoFp8BSn",
+  "method": "HTTP GET",
+  "request": null,
+  "retrieved_at": "2026-10-12T11:05:45.791817+00:00",
+  "http_status": 200,
+  "response": {
+    "txHash": "2tmrrBo1Lgt1mzzvPSFt73kkQKFas5d1AP88tv9cicwoFp8BSn",
+    "txType": "CreateChainTx",
+    "blockTimestamp": 1691766067,
+    "blockNumber": "7768389",
+    "blockHash": "2bnqKPrcQngPZAyb2FdDe3Dc7N7akME9KVF2rAvkjjc3qaBdhi",
+    "memo": "0x",
+    "subnetId": "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+    "blockchainInfo": {
+      "chainName": "beam",
+      "vmId": "kLPs8zGsTVZ28DhP1VefPCFbCgS7o5bDNez8JUxPVw9E6Ubbz",
+      "genesisData": {
+        "config": {
+          "byzantiumBlock": 0,
+          "chainId": 4337,
+          "constantinopleBlock": 0,
+          "contractDeployerAllowListConfig": {
+            "adminAddresses": [
+              "0x277280e8337E64a3A8E8b795D4E8E5e00BF6e203",
+              "0x5e6892eb367D35344Fab7321b974Ea3e5317eac4",
+              "0x070a6FB7DB4e0E3Ebb41A6D09383119feC5f7CEb",
+              "0x172FFFc69ED471B7fF2465aE97504985F7071593",
+              "0x1cD22E79976Cb97FB65CCbadA316EBd46881Fa12",
+              "0xBCa66eAf37B4C08B49D41e682E701e153F17E1D6"
+            ],
+            "enabledAddresses": [
+              "0xC5D3Bac272a464d1bBC0D28934Aa36d1c66C13fE",
+              "0x20B1E4c488Ee32F1D91868a6d763736f58EFC7bf",
+              "0x9f403140bc0574d7d36ea472b82daa1bbd4ef327",
+              "0x9180c04ce75b762f9973c7aeb5a86c1642477738"
+            ],
+            "blockTimestamp": 0
+          },
+          "eip150Block": 0,
+          "eip150Hash": "0x2086799aeebeae135c246c65021c82b4e15a2c451340993aacfd2751886514f0",
+          "eip155Block": 0,
+          "eip158Block": 0,
+          "feeConfig": {
+            "gasLimit": 8000000,
+            "targetBlockRate": 2,
+            "minBaseFee": 10000000000,
+            "targetGas": 50000000,
+            "baseFeeChangeDenominator": 72,
+            "minBlockGasCost": 0,
+            "maxBlockGasCost": 1000000,
+            "blockGasCostStep": 100000
+          },
+          "feeManagerConfig": {
+            "adminAddresses": [
+              "0x277280e8337E64a3A8E8b795D4E8E5e00BF6e203",
+              "0x5e6892eb367D35344Fab7321b974Ea3e5317eac4",
+              "0x070a6FB7DB4e0E3Ebb41A6D09383119feC5f7CEb",
+              "0x172FFFc69ED471B7fF2465aE97504985F7071593",
+              "0x1cD22E79976Cb97FB65CCbadA316EBd46881Fa12",
+              "0xC5D3Bac272a464d1bBC0D28934Aa36d1c66C13fE",
+              "0xBCa66eAf37B4C08B49D41e682E701e153F17E1D6"
+            ],
+            "blockTimestamp": 0
+          },
+          "homesteadBlock": 0,
+          "istanbulBlock": 0,
+          "muirGlacierBlock": 0,
+          "petersburgBlock": 0,
+          "rewardManagerConfig": {
+            "adminAddresses": [
+              "0x277280e8337E64a3A8E8b795D4E8E5e00BF6e203",
+              "0x5e6892eb367D35344Fab7321b974Ea3e5317eac4",
+              "0x070a6FB7DB4e0E3Ebb41A6D09383119feC5f7CEb",
+              "0x172FFFc69ED471B7fF2465aE97504985F7071593",
+              "0x1cD22E79976Cb97FB65CCbadA316EBd46881Fa12",
+              "0xC5D3Bac272a464d1bBC0D28934Aa36d1c66C13fE",
+              "0xBCa66eAf37B4C08B49D41e682E701e153F17E1D6"
+            ],
+            "blockTimestamp": 0,
+            "initialRewardConfig": {
+              "allowFeeRecipients": true,
+              "rewardAddress": "0x0000000000000000000000000000000000000000"
+            }
+          },
+          "subnetEVMTimestamp": 0
+        },
+        "nonce": "0x0",
+        "timestamp": "0x0",
+        "extraData": "0x",
+        "gasLimit": "0x7a1200",
+        "difficulty": "0x0",
+        "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "coinbase": "0x0000000000000000000000000000000000000000",
+        "alloc": {
+          "277280e8337E64a3A8E8b795D4E8E5e00BF6e203": {
+            "balance": "0x152d02c7e14af6800000"
+          },
+          "20B1E4c488Ee32F1D91868a6d763736f58EFC7bf": {
+            "balance": "0xd3c21bcecceda1000000"
+          },
+          "5e6892eb367D35344Fab7321b974Ea3e5317eac4": {
+            "balance": "0xd3c21bcecceda1000000"
+          },
+          "070a6FB7DB4e0E3Ebb41A6D09383119feC5f7CEb": {
+            "balance": "0xd3c21bcecceda1000000"
+          },
+          "172FFFc69ED471B7fF2465aE97504985F7071593": {
+            "balance": "0x152d02c7e14af6800000"
+          },
+          "1cD22E79976Cb97FB65CCbadA316EBd46881Fa12": {
+            "balance": "0xd3c21bcecceda1000000"
+          },
+          "C5D3Bac272a464d1bBC0D28934Aa36d1c66C13fE": {
+            "balance": "0xd3c21bcecceda1000000"
+          },
+          "BCa66eAf37B4C08B49D41e682E701e153F17E1D6": {
+            "balance": "0xd3c21bcecceda1000000"
+          },
+          "9f403140bc0574d7d36ea472b82daa1bbd4ef327": {
+            "balance": "0xd3c21bcecceda1000000"
+          },
+          "9180c04ce75b762f9973c7aeb5a86c1642477738": {
+            "balance": "0xd3c21bcecceda1000000"
+          }
+        },
+        "airdropHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "airdropAmount": null,
+        "number": "0x0",
+        "gasUsed": "0x0",
+        "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "baseFeePerGas": null
+      }
+    },
+    "consumedUtxos": [
+      {
+        "addresses": [
+          "avax1l4eer7z666ymerhm4tczujy9taetjdzs2p9mtk"
+        ],
+        "utxoId": "22ry7oTYqLd2RzGc246UhmeThUJgZT1LFPdMo2MFig5PN2xAZf",
+        "txHash": "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+        "outputIndex": 0,
+        "blockTimestamp": 1691764893,
+        "blockNumber": "7767891",
+        "consumingTxHash": "2tmrrBo1Lgt1mzzvPSFt73kkQKFas5d1AP88tv9cicwoFp8BSn",
+        "consumingBlockTimestamp": 1691766067,
+        "consumingBlockNumber": "7768389",
+        "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+        "asset": {
+          "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+          "name": "Avalanche",
+          "symbol": "AVAX",
+          "denomination": 9,
+          "type": "secp256k1",
+          "amount": "95600000"
+        },
+        "utxoType": "TRANSFER",
+        "amount": "95600000",
+        "platformLocktime": 0,
+        "threshold": 1,
+        "createdOnChainId": "11111111111111111111111111111111LpoYY",
+        "consumedOnChainId": "11111111111111111111111111111111LpoYY",
+        "staked": false
+      },
+      {
+        "addresses": [
+          "avax1l4eer7z666ymerhm4tczujy9taetjdzs2p9mtk"
+        ],
+        "utxoId": "GFtxszQHjDasHGhTTnisa5KKJsKMtfp5vA3X2gacKgDn6mJpN",
+        "txHash": "CvWYUTu9ybrqnTPUQrn4TtHfu5artQBxqwEkJ1NhfHRtq84K8",
+        "outputIndex": 0,
+        "blockTimestamp": 1691763511,
+        "blockNumber": "7767305",
+        "consumingTxHash": "2tmrrBo1Lgt1mzzvPSFt73kkQKFas5d1AP88tv9cicwoFp8BSn",
+        "consumingBlockTimestamp": 1691766067,
+        "consumingBlockNumber": "7768389",
+        "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+        "asset": {
+          "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+          "name": "Avalanche",
+          "symbol": "AVAX",
+          "denomination": 9,
+          "type": "secp256k1",
+          "amount": "1596000000"
+        },
+        "utxoType": "TRANSFER",
+        "amount": "1596000000",
+        "platformLocktime": 0,
+        "threshold": 1,
+        "createdOnChainId": "11111111111111111111111111111111LpoYY",
+        "consumedOnChainId": "11111111111111111111111111111111LpoYY",
+        "staked": false
+      }
+    ],
+    "emittedUtxos": [
+      {
+        "addresses": [
+          "avax1l4eer7z666ymerhm4tczujy9taetjdzs2p9mtk"
+        ],
+        "utxoId": "2rVW8tB8NtT7PGyXca6NE9PSa9Jd3WmRz8ABiwB1RbLem5tp3U",
+        "txHash": "2tmrrBo1Lgt1mzzvPSFt73kkQKFas5d1AP88tv9cicwoFp8BSn",
+        "outputIndex": 0,
+        "blockTimestamp": 1691766067,
+        "blockNumber": "7768389",
+        "consumingTxHash": "2oyEEDk9nx957uDDWqvyMZ2mHUnDRGSLBiUKiqQXYvksm2XyAX",
+        "consumingBlockTimestamp": 1692020194,
+        "consumingBlockNumber": "7805494",
+        "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+        "asset": {
+          "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+          "name": "Avalanche",
+          "symbol": "AVAX",
+          "denomination": 9,
+          "type": "secp256k1",
+          "amount": "691600000"
+        },
+        "utxoType": "TRANSFER",
+        "amount": "691600000",
+        "platformLocktime": 0,
+        "threshold": 1,
+        "createdOnChainId": "11111111111111111111111111111111LpoYY",
+        "consumedOnChainId": "11111111111111111111111111111111LpoYY",
+        "staked": false
+      }
+    ],
+    "value": [
+      {
+        "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+        "name": "Avalanche",
+        "symbol": "AVAX",
+        "denomination": 9,
+        "type": "secp256k1",
+        "amount": "691600000"
+      }
+    ],
+    "amountBurned": [
+      {
+        "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+        "name": "Avalanche",
+        "symbol": "AVAX",
+        "denomination": 9,
+        "type": "secp256k1",
+        "amount": "1000000000"
+      }
+    ],
+    "amountStaked": [
+      {
+        "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+        "name": "Avalanche",
+        "symbol": "AVAX",
+        "denomination": 9,
+        "type": "secp256k1",
+        "amount": "0"
+      }
+    ],
+    "amountL1ValidatorBalanceBurned": [
+      {
+        "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+        "name": "Avalanche",
+        "symbol": "AVAX",
+        "denomination": 9,
+        "type": "secp256k1",
+        "amount": "0"
+      }
+    ]
+  }
+}

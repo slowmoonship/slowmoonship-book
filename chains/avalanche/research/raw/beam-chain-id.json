@@ -1,0 +1,19 @@
+{
+  "network": "Mainnet",
+  "network_id": 1,
+  "url": "https://subnets.avax.network/beam/mainnet/rpc",
+  "method": "eth_chainId",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_chainId",
+    "params": []
+  },
+  "retrieved_at": "2026-10-12T11:05:43.104761+00:00",
+  "http_status": 200,
+  "response": {
+    "result": "0x10f1",
+    "id": 1,
+    "jsonrpc": "2.0"
+  }
+}

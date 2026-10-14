@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram name="管理集合初始化" id="manager-bootstrap">
+    <mxGraphModel page="1" pageWidth="640" pageHeight="774" grid="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" vertex="1" value="管理集合初始化" style="text;html=0;fontFamily=PingFang SC;fontSize=25;fontStyle=1;align=left;strokeColor=none;fillColor=none;">
+          <mxGeometry x="28" y="20" width="584" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="edge0" parent="1" edge="1" source="n0" target="n1" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;endArrow=block;strokeColor=#73869A;fontFamily=PingFang SC;fontSize=13;labelBackgroundColor=#ffffff;dashed=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170.0" y="245.0" />
+              <mxPoint x="170.0" y="245.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge1" parent="1" edge="1" source="n1" target="n3" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;endArrow=block;strokeColor=#73869A;fontFamily=PingFang SC;fontSize=13;labelBackgroundColor=#ffffff;dashed=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170.0" y="387.0" />
+              <mxPoint x="170.0" y="387.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge2" parent="1" edge="1" source="n2" target="n3" value="独立必要条件" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;endArrow=block;strokeColor=#73869A;fontFamily=PingFang SC;fontSize=13;labelBackgroundColor=#ffffff;dashed=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470.0" y="387.0" />
+              <mxPoint x="170.0" y="387.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge3" parent="1" edge="1" source="n3" target="n4" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;endArrow=block;strokeColor=#73869A;fontFamily=PingFang SC;fontSize=13;labelBackgroundColor=#ffffff;dashed=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170.0" y="529.0" />
+              <mxPoint x="170.0" y="529.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n0" parent="1" vertex="1" value="&lt;b&gt;转换已被接受&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;Conversion Accepted&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;初始验证者数据&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=21;align=center;verticalAlign=middle;spacing=10;fillColor=#EDF3FB;strokeColor=#7890A3;fontColor=#243B4D;">
+          <mxGeometry x="40" y="120" width="260" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" parent="1" vertex="1" value="&lt;b&gt;取得转换证明&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;Conversion Message&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;P-Chain 认证&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=21;align=center;verticalAlign=middle;spacing=10;fillColor=#EDF3FB;strokeColor=#7890A3;fontColor=#243B4D;">
+          <mxGeometry x="40" y="262" width="260" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" parent="1" vertex="1" value="&lt;b&gt;合约自身配置&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;Contract Initialize&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;代理、权限与参数&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=21;align=center;verticalAlign=middle;spacing=10;fillColor=#EDF3FB;strokeColor=#7890A3;fontColor=#243B4D;">
+          <mxGeometry x="340" y="262" width="260" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" parent="1" vertex="1" value="&lt;b&gt;对齐初始集合&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;initializeValidatorSet&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;对应转换起点&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=21;align=center;verticalAlign=middle;spacing=10;fillColor=#EAF5EF;strokeColor=#7890A3;fontColor=#243B4D;">
+          <mxGeometry x="40" y="404" width="260" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" parent="1" vertex="1" value="&lt;b&gt;后续成员管理&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;Further Management&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;初始 PoA 有特殊规则&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=21;align=center;verticalAlign=middle;spacing=10;fillColor=#EDF3FB;strokeColor=#7890A3;fontColor=#243B4D;">
+          <mxGeometry x="40" y="546" width="260" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="note" parent="1" vertex="1" value="图为官方合约教学流程；Beam 的该初始化事件本轮未取得。" style="text;html=0;fontFamily=PingFang SC;fontSize=16;align=left;strokeColor=none;fillColor=none;">
+          <mxGeometry x="28" y="691" width="584" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

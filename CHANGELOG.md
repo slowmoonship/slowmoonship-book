@@ -1,5 +1,9 @@
 # 出版更新记录
 
+## 2026-10-14 · Avalanche v0.1
+
+新增Avalanche原有10 Part、40章、前言及5附录，40对SVG/draw.io、10条教学SQL、3份历史Query SQL、15份API示例和9组/12笔主网案例。只整理连续阅读导航、官方来源链接和公开安全说明，保留技术正文与SQL逻辑。原验收VALIDATED，新SQL执行0；目标消息、完整原始收据/Trace、Beam管理及退出证据缺口保留。作者审读UNKNOWN，GitBook仓库无配置证据；Ethereum、Solana、Sui和历史验收快照保持。详见[本轮检查](publication/avalanche/2026-10-14-v0.1/CHECKS.md)。无Tag/Release。
+
 ## 2026-10-13 · Sui v0.1
 
 新增Sui独立篇章：10核心模块、SUI 00及SUI 99，45篇阅读内容，13组SVG/draw.io/PNG，9份新教学SQL及12份历史SQL，3个官方GraphQL案例及必要Schema/验证证据。保留原结构；出版副本只整理入口、证据链接及本机信息，详见[机械修改](publication/sui/2026-10-13-v0.1/CHANGES.md)。原稿PARTIAL、39 COMPLETE/6 VALIDATED和Dune 402缺口保留，新SQL成功执行0；作者审读UNKNOWN。Ethereum、Solana与历史快照不变。无Tag/Release，GitBook未配置。

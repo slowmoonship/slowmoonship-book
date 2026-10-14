@@ -1,0 +1,73 @@
+{
+  "network": "Mainnet",
+  "network_id": 1,
+  "url": "https://subnets.avax.network/beam/mainnet/rpc",
+  "method": "eth_getBlockByNumber",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getBlockByNumber",
+    "params": [
+      "latest",
+      true
+    ]
+  },
+  "retrieved_at": "2026-10-12T11:05:43.806887+00:00",
+  "http_status": 200,
+  "response": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": {
+      "baseFeePerGas": "0xe8d4a51000",
+      "blobGasUsed": "0x0",
+      "blockGasCost": "0x0",
+      "difficulty": "0x1",
+      "excessBlobGas": "0x0",
+      "extraData": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000520800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "gasLimit": "0x17d7840",
+      "gasUsed": "0x5208",
+      "hash": "0x8ef1af38600d74ac0b154713fa06a4b55243dedaa2be4e719539035966aa046a",
+      "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "minDelayExcess": "0x799e14",
+      "miner": "0x39c694a6f5c2987b9ce12fdc037b8d5e3c026aec",
+      "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "nonce": "0x0000000000000000",
+      "number": "0x93ed25",
+      "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "parentHash": "0xcd995305abeec8dd6135400f822b47b1c0c3f9d54c6993abedc60e71560faa2f",
+      "receiptsRoot": "0xf78dfb743fbd92ade140711c8bbc542b5e307f0ab7984eff35d751969fe57efa",
+      "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+      "size": "0x30b",
+      "stateRoot": "0x0279ffd1e8b3486d4fc191c115ea04dae7a938d37cf9eac08dea1eeda979d74c",
+      "timestamp": "0x6accbf04",
+      "timestampMilliseconds": "0x1a12fca289b",
+      "totalDifficulty": "0x93ed25",
+      "transactions": [
+        {
+          "blockHash": "0x8ef1af38600d74ac0b154713fa06a4b55243dedaa2be4e719539035966aa046a",
+          "blockNumber": "0x93ed25",
+          "from": "0x3e25fafdd7333cee401958cea8d8fc57bab2501e",
+          "gas": "0x61a8",
+          "gasPrice": "0xe8d4a51000",
+          "maxFeePerGas": "0xe8d4a51000",
+          "maxPriorityFeePerGas": "0xe8d4a51000",
+          "hash": "0x752ec9874ac7187f2e0d710013ae3f4cf93c1a55cbb85bc71b75af456d604563",
+          "input": "0x",
+          "nonce": "0xe4",
+          "to": "0x98ff4a9a5161e2a6e43789fc4cec5c328d0c0a53",
+          "transactionIndex": "0x0",
+          "value": "0x44aa97cf30cb22e",
+          "type": "0x2",
+          "accessList": [],
+          "chainId": "0x10f1",
+          "v": "0x0",
+          "r": "0x11706f76f604973a017b48964b65c349549ceba35b7128ad242ba29efc8ff3d6",
+          "s": "0x1673b7b276b2dc81350b6b04a1bb519aebce95857380f82b9799896f01c93bd",
+          "yParity": "0x0"
+        }
+      ],
+      "transactionsRoot": "0xe48f9359ed90fc53b7fc793dbb10343cd826747aeb5ecb53efa67c1fb7b9ff94",
+      "uncles": []
+    }
+  }
+}

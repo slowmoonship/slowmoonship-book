@@ -1,0 +1,207 @@
+[
+  {
+    "id": 1,
+    "title": "C-Chain 每日交易和成功发送地址",
+    "path": "examples/sql/01-daily-transactions.sql",
+    "tables": {
+      "avalanche_c.transactions": [
+        "block_time",
+        "block_date",
+        "success",
+        "from"
+      ]
+    },
+    "status": "STATIC_CHECKED",
+    "execution_status": "BLOCKED_READ_ONLY_ACCOUNT",
+    "limits": "地址不是人数；只包括 C-Chain。"
+  },
+  {
+    "id": 2,
+    "title": "Case 01 交易定位",
+    "path": "examples/sql/02-one-transaction.sql",
+    "tables": {
+      "avalanche_c.transactions": [
+        "hash",
+        "block_hash",
+        "block_number",
+        "block_time",
+        "from",
+        "to",
+        "value",
+        "success",
+        "gas_limit",
+        "gas_used",
+        "gas_price",
+        "block_date"
+      ]
+    },
+    "status": "STATIC_CHECKED",
+    "execution_status": "BLOCKED_READ_ONLY_ACCOUNT",
+    "limits": "未运行，不保证索引已收录；value 为十八位原始整数。"
+  },
+  {
+    "id": 3,
+    "title": "观测到的 C-Chain 执行费",
+    "path": "examples/sql/03-execution-fees.sql",
+    "tables": {
+      "avalanche_c.transactions": [
+        "block_time",
+        "gas_used",
+        "gas_price",
+        "block_date"
+      ]
+    },
+    "status": "STATIC_CHECKED",
+    "execution_status": "BLOCKED_READ_ONLY_ACCOUNT",
+    "limits": "含失败；double 为显示近似；Helicon 后字段与收据尚待逐笔核对，不代表全网烧毁或净发行。"
+  },
+  {
+    "id": 4,
+    "title": "区块与交易的定位一致性",
+    "path": "examples/sql/04-block-link.sql",
+    "tables": {
+      "avalanche_c.blocks": [
+        "number",
+        "hash",
+        "time",
+        "date"
+      ],
+      "avalanche_c.transactions": [
+        "hash",
+        "block_hash",
+        "block_date"
+      ]
+    },
+    "status": "STATIC_CHECKED",
+    "execution_status": "BLOCKED_READ_ONLY_ACCOUNT",
+    "limits": "保留无交易块；不假定 CE 原始块头 gas 等于同块交易消耗。"
+  },
+  {
+    "id": 5,
+    "title": "Case 02 的原始日志候选",
+    "path": "examples/sql/05-erc20-logs.sql",
+    "tables": {
+      "avalanche_c.logs": [
+        "tx_hash",
+        "index",
+        "contract_address",
+        "topic0",
+        "topic1",
+        "topic2",
+        "topic3",
+        "data",
+        "block_date"
+      ]
+    },
+    "status": "STATIC_CHECKED",
+    "execution_status": "BLOCKED_READ_ONLY_ACCOUNT",
+    "limits": "解码需历史 ABI；topic0 不独立识别 ERC20 与 ERC721。"
+  },
+  {
+    "id": 6,
+    "title": "Case 02 的调用树候选",
+    "path": "examples/sql/06-trace-tree.sql",
+    "tables": {
+      "avalanche_c.traces": [
+        "tx_hash",
+        "trace_address",
+        "type",
+        "call_type",
+        "from",
+        "to",
+        "value",
+        "success",
+        "tx_success",
+        "error",
+        "input",
+        "output",
+        "block_date"
+      ]
+    },
+    "status": "STATIC_CHECKED",
+    "execution_status": "BLOCKED_READ_ONLY_ACCOUNT",
+    "limits": "调用不是另一笔签名交易；局部成功还需检查失败祖先。"
+  },
+  {
+    "id": 7,
+    "title": "各明细分支先汇总到交易粒度",
+    "path": "examples/sql/07-safe-join.sql",
+    "tables": {
+      "avalanche_c.logs": [
+        "tx_hash",
+        "block_date"
+      ],
+      "avalanche_c.traces": [
+        "tx_hash",
+        "block_date"
+      ],
+      "avalanche_c.transactions": [
+        "hash",
+        "value",
+        "block_date"
+      ]
+    },
+    "status": "STATIC_CHECKED",
+    "execution_status": "BLOCKED_READ_ONLY_ACCOUNT",
+    "limits": "轨迹包含根；计数对象不等于经济转移。"
+  },
+  {
+    "id": 8,
+    "title": "USDT 加工转移样本与估值覆盖",
+    "path": "examples/sql/08-usdt-movements.sql",
+    "tables": {
+      "tokens.transfers": [
+        "block_time",
+        "tx_hash",
+        "evt_index",
+        "from",
+        "to",
+        "amount_raw",
+        "amount",
+        "amount_usd",
+        "price_usd",
+        "blockchain",
+        "block_date",
+        "contract_address"
+      ]
+    },
+    "status": "STATIC_CHECKED",
+    "execution_status": "BLOCKED_READ_ONLY_ACCOUNT",
+    "limits": "毛流量不是付款量或净流入；当前日不完整；价格缺失不填零。"
+  },
+  {
+    "id": 9,
+    "title": "DEX 成交段与独立交易数",
+    "path": "examples/sql/09-dex-segments.sql",
+    "tables": {
+      "dex.trades": [
+        "project",
+        "tx_hash",
+        "amount_usd",
+        "blockchain",
+        "block_date",
+        "block_time"
+      ]
+    },
+    "status": "STATIC_CHECKED",
+    "execution_status": "BLOCKED_READ_ONLY_ACCOUNT",
+    "limits": "多跳可多段；NULL 估值保留；不是用户数。"
+  },
+  {
+    "id": 10,
+    "title": "C-Chain 发送事件与窗口内消息身份",
+    "path": "examples/sql/10-icm-sent.sql",
+    "tables": {
+      "avalanche_teleporter_avalanche_c.teleportermessenger_evt_sendcrosschainmessage": [
+        "contract_address",
+        "destinationBlockchainID",
+        "messageID",
+        "evt_block_date",
+        "evt_block_time"
+      ]
+    },
+    "status": "STATIC_CHECKED",
+    "execution_status": "BLOCKED_READ_ONLY_ACCOUNT",
+    "limits": "只观测 C 端发送，不是全网流量或完成率；回执与重试需协议解释。"
+  }
+]

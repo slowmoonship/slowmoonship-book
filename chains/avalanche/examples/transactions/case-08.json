@@ -1,0 +1,39 @@
+{
+  "id": 8,
+  "title": "ICM 源侧发送事件",
+  "network": "Mainnet",
+  "network_id": 1,
+  "records": [
+    {
+      "blockchain_id": "2q9e4r6Mu3U68nU1fYjgbR6JvwrRx36CohpAX5UQxse55x1Q5",
+      "transaction_id": "0xee1073b8722275e98fa37dd3b4be24fcab323c2797b3ce3f14782e1d014e7a9f",
+      "block_height": null,
+      "timestamp": "2026-09-10 23:56:48.000 UTC",
+      "event_index": 17,
+      "messenger": "0x253b2784c75e510dd0ff1da844684a1ac0aa5fcf",
+      "message_id": "0x4da12b4f157ce256259ebff3f9deec0b2abdfe32e6c3c9e815f77512307cf7e2",
+      "destination_blockchain_id_hex": "0x84bdd5b728daf315c23da60a4dc97e82da8027bfc64389f4b04ae1d3d91686b2",
+      "fields_obtained": [
+        "contract_address",
+        "destinationBlockchainID",
+        "evt_block_time",
+        "evt_index",
+        "evt_tx_hash",
+        "message",
+        "messageID"
+      ]
+    }
+  ],
+  "sources": [
+    "research/raw/dune-result-8676245-parsed.json",
+    "research/raw/dune-query-8676245-parsed.json"
+  ],
+  "missing_fields_or_evidence": [
+    "本结果未返回源高度",
+    "签名本体、目标交易、接收、执行和余额",
+    "目标是否完成未知"
+  ],
+  "verification_status": "VALIDATED",
+  "retrieval_date": "2026-10-12",
+  "evidence_layer": "DIRECT_DATA; derived conclusions separately labelled"
+}

@@ -1,0 +1,51 @@
+{
+  "id": 9,
+  "title": "Beam 独立 L1 交易",
+  "network": "Mainnet",
+  "network_id": 1,
+  "records": [
+    {
+      "blockchain_id": "2tmrrBo1Lgt1mzzvPSFt73kkQKFas5d1AP88tv9cicwoFp8BSn",
+      "evm_chain_id": 4337,
+      "transaction_id": "0x752ec9874ac7187f2e0d710013ae3f4cf93c1a55cbb85bc71b75af456d604563",
+      "block_height": 9694501,
+      "block_hash": "0x8ef1af38600d74ac0b154713fa06a4b55243dedaa2be4e719539035966aa046a",
+      "timestamp": "2026-10-12T11:05:40+00:00",
+      "fields_obtained": [
+        "accessList",
+        "blockHash",
+        "blockNumber",
+        "chainId",
+        "from",
+        "gas",
+        "gasPrice",
+        "hash",
+        "input",
+        "maxFeePerGas",
+        "maxPriorityFeePerGas",
+        "nonce",
+        "r",
+        "s",
+        "to",
+        "transactionIndex",
+        "type",
+        "v",
+        "value",
+        "yParity"
+      ],
+      "receipt_status": "0x1"
+    }
+  ],
+  "sources": [
+    "research/raw/beam-block.json",
+    "research/raw/beam-receipt.json",
+    "research/raw/beam-chain-id.json",
+    "examples/transactions/beam-identity.json"
+  ],
+  "missing_fields_or_evidence": [
+    "长期持续运行、所有节点一致性"
+  ],
+  "verification_status": "COMPLETE",
+  "retrieval_date": "2026-10-12",
+  "evidence_layer": "DIRECT_DATA; derived conclusions separately labelled"
+}

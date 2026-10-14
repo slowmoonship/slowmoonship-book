@@ -1,0 +1,28 @@
+{
+  "chainId": "4337",
+  "status": "OK",
+  "chainName": "Beam L1",
+  "description": "An opinionated chain built for gaming.",
+  "platformChainId": "2tmrrBo1Lgt1mzzvPSFt73kkQKFas5d1AP88tv9cicwoFp8BSn",
+  "subnetId": "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+  "vmId": "kLPs8zGsTVZ28DhP1VefPCFbCgS7o5bDNez8JUxPVw9E6Ubbz",
+  "vmName": "EVM",
+  "explorerUrl": "https://subnets.avax.network/beam",
+  "rpcUrl": "https://subnets.avax.network/beam/mainnet/rpc",
+  "isTestnet": false,
+  "utilityAddresses": {
+    "multicall": "0x4956f15efdc3dc16645e90cc356eafa65ffc65ec"
+  },
+  "networkToken": {
+    "name": "Beam",
+    "symbol": "BEAM",
+    "decimals": 18,
+    "logoUri": "https://images.ctfassets.net/gcj8jwzm6086/2ZXZw0POSuXhwoGTiv2fzh/5b9d9e81acb434461da5addb1965f59d/chain-logo.png",
+    "description": "Beam Token is the central token on the Beam Subnet and used to pay gas for all transactions."
+  },
+  "chainLogoUri": "https://images.ctfassets.net/gcj8jwzm6086/2ZXZw0POSuXhwoGTiv2fzh/5b9d9e81acb434461da5addb1965f59d/chain-logo.png",
+  "private": false,
+  "enabledFeatures": [
+    "webhooks"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"query_id\":8676245,\"user_id\":null,\"team_id\":953543,\"version\":4,\"name\":\"SMS AVAX 07 — Teleporter Coverage Validation / 消息覆盖验证\",\"description\":\"Validate decoded Teleporter send and receive events observed on C-Chain, including event keys, message keys, peer identifiers and time coverage.\",\"tags\":[\"avalanche\",\"slowmoonship\",\"book-research\",\"validation\"],\"query\":\"-- Last complete UTC day; deterministic bounded sample. No assumption of send/receive pairing on C-Chain.\\nSELECT\\n    evt_block_time,\\n    evt_tx_hash,\\n    evt_index,\\n    contract_address,\\n    \\\"messageID\\\",\\n    \\\"destinationBlockchainID\\\",\\n    message\\nFROM avalanche_teleporter_avalanche_c.teleportermessenger_evt_sendcrosschainmessage\\nWHERE evt_block_date = current_date - interval '1' day\\n  AND evt_block_time >= current_date - interval '1' day\\n  AND evt_block_time < current_date\\nORDER BY evt_block_time DESC, evt_tx_hash DESC, evt_index DESC\\nLIMIT 5\",\"parameters\":[],\"is_archived\":false,\"is_private\":false,\"is_temp\":false,\"latest_execution_id\":\"01M284AHJYDGCT2VJB50ZHDJ4J\",\"latest_execution_state\":\"QUERY_STATE_COMPLETED\"}"
+      }
+    ],
+    "structuredContent": {
+      "query_id": 8676245,
+      "user_id": null,
+      "team_id": 953543,
+      "version": 4,
+      "name": "SMS AVAX 07 — Teleporter Coverage Validation / 消息覆盖验证",
+      "description": "Validate decoded Teleporter send and receive events observed on C-Chain, including event keys, message keys, peer identifiers and time coverage.",
+      "tags": [
+        "avalanche",
+        "slowmoonship",
+        "book-research",
+        "validation"
+      ],
+      "query": "-- Last complete UTC day; deterministic bounded sample. No assumption of send/receive pairing on C-Chain.\nSELECT\n    evt_block_time,\n    evt_tx_hash,\n    evt_index,\n    contract_address,\n    \"messageID\",\n    \"destinationBlockchainID\",\n    message\nFROM avalanche_teleporter_avalanche_c.teleportermessenger_evt_sendcrosschainmessage\nWHERE evt_block_date = current_date - interval '1' day\n  AND evt_block_time >= current_date - interval '1' day\n  AND evt_block_time < current_date\nORDER BY evt_block_time DESC, evt_tx_hash DESC, evt_index DESC\nLIMIT 5",
+      "parameters": [],
+      "is_archived": false,
+      "is_private": false,
+      "is_temp": false,
+      "latest_execution_id": "01M284AHJYDGCT2VJB50ZHDJ4J",
+      "latest_execution_state": "QUERY_STATE_COMPLETED"
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 16
+}

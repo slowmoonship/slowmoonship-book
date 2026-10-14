@@ -1,0 +1,95 @@
+{
+  "id": 6,
+  "title": "Beam 网络、链与转换",
+  "network": "Mainnet",
+  "network_id": 1,
+  "records": [
+    {
+      "blockchain_id": "11111111111111111111111111111111LpoYY",
+      "transaction_id": "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+      "block_height": "7767891",
+      "block_hash": "2aWJQSzzdQnxFrAHYDBWtZvQcKs6bGsu6yFE3A6bibEFbCDAFc",
+      "timestamp": "2023-08-11T14:41:33+00:00",
+      "transaction_type": "CreateSubnetTx",
+      "fields_obtained": [
+        "amountBurned",
+        "amountL1ValidatorBalanceBurned",
+        "amountStaked",
+        "blockHash",
+        "blockNumber",
+        "blockTimestamp",
+        "consumedUtxos",
+        "emittedUtxos",
+        "memo",
+        "subnetId",
+        "subnetOwnershipInfo",
+        "txHash",
+        "txType",
+        "value"
+      ]
+    },
+    {
+      "blockchain_id": "11111111111111111111111111111111LpoYY",
+      "transaction_id": "2tmrrBo1Lgt1mzzvPSFt73kkQKFas5d1AP88tv9cicwoFp8BSn",
+      "block_height": "7768389",
+      "block_hash": "2bnqKPrcQngPZAyb2FdDe3Dc7N7akME9KVF2rAvkjjc3qaBdhi",
+      "timestamp": "2023-08-11T15:01:07+00:00",
+      "transaction_type": "CreateChainTx",
+      "fields_obtained": [
+        "amountBurned",
+        "amountL1ValidatorBalanceBurned",
+        "amountStaked",
+        "blockHash",
+        "blockNumber",
+        "blockTimestamp",
+        "blockchainInfo",
+        "consumedUtxos",
+        "emittedUtxos",
+        "memo",
+        "subnetId",
+        "txHash",
+        "txType",
+        "value"
+      ]
+    },
+    {
+      "blockchain_id": "11111111111111111111111111111111LpoYY",
+      "transaction_id": "VgR2jZVe3AC8jPPsNcE76KktsRi9J4Jke9kGCk5e8zZBzWTXr",
+      "block_height": "20870478",
+      "block_hash": "U83H7YvnzgQcBnqpfycDuRnZLsAuux3xRdxn5AXzEjQ2e1prW",
+      "timestamp": "2025-03-07T15:06:43+00:00",
+      "transaction_type": "ConvertSubnetToL1Tx",
+      "fields_obtained": [
+        "amountBurned",
+        "amountL1ValidatorBalanceBurned",
+        "amountStaked",
+        "blockHash",
+        "blockNumber",
+        "blockTimestamp",
+        "blsCredentials",
+        "consumedUtxos",
+        "emittedUtxos",
+        "l1ValidatorDetails",
+        "l1ValidatorManagerDetails",
+        "memo",
+        "nodeId",
+        "subnetId",
+        "txHash",
+        "txType",
+        "value"
+      ]
+    }
+  ],
+  "sources": [
+    "research/raw/beam-subnet.json",
+    "research/raw/beam-create-chain.json",
+    "research/raw/beam-conversion.json",
+    "research/raw/beam-subnet-detail.json"
+  ],
+  "missing_fields_or_evidence": [
+    "管理端初始化事件、完整权限与历史升级"
+  ],
+  "verification_status": "VALIDATED",
+  "retrieval_date": "2026-10-12",
+  "evidence_layer": "DIRECT_DATA; derived conclusions separately labelled"
+}

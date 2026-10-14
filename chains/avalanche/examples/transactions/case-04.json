@@ -1,0 +1,47 @@
+{
+  "id": 4,
+  "title": "Primary Network 后续委托",
+  "network": "Mainnet",
+  "network_id": 1,
+  "records": [
+    {
+      "blockchain_id": "11111111111111111111111111111111LpoYY",
+      "transaction_id": "EDAKbagtkyMLKspgXnbRbE1aXtvDRW9BgHRJQFGPztxhPtnpi",
+      "block_height": "25659489",
+      "block_hash": "YGBcuwKuQSpG4xqP2SjXYHHksVVQKxWWWiaQaGqskPYMQDg6g",
+      "timestamp": "2026-10-12T11:04:23+00:00",
+      "transaction_type": "AddPermissionlessDelegatorTx",
+      "fields_obtained": [
+        "amountBurned",
+        "amountL1ValidatorBalanceBurned",
+        "amountStaked",
+        "blockHash",
+        "blockNumber",
+        "blockTimestamp",
+        "consumedUtxos",
+        "emittedUtxos",
+        "endTimestamp",
+        "estimatedReward",
+        "memo",
+        "nodeId",
+        "rewardAddresses",
+        "startTimestamp",
+        "subnetId",
+        "txHash",
+        "txType",
+        "value"
+      ]
+    }
+  ],
+  "sources": [
+    "research/raw/atomic-p-import.json",
+    "research/raw/atomic-p-followup.json"
+  ],
+  "missing_fields_or_evidence": [
+    "奖励最终支付",
+    "全部资金来源的经济分摊"
+  ],
+  "verification_status": "VALIDATED",
+  "retrieval_date": "2026-10-12",
+  "evidence_layer": "DIRECT_DATA; derived conclusions separately labelled"
+}

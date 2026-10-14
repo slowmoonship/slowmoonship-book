@@ -6,11 +6,12 @@
 
 ## 当前出版
 
-当前公开书稿为 **Ethereum v0.1**（2026-10-12）、**Solana v0.1**（2026-10-13）和 **Sui v0.1**（2026-10-13）。各公链独立迭代，不要求共享版本号；本轮不设全书版本标签。
+当前公开书稿为 **Ethereum v0.1**（2026-10-12）、**Solana v0.1**（2026-10-13）、**Sui v0.1**（2026-10-13）和 **Avalanche v0.1**（2026-10-14）。各公链独立迭代，不要求共享版本号；本轮不设全书版本标签。
 
 - [Ethereum 阅读入口](chains/ethereum/README.md)
 - [Solana 阅读入口](chains/solana/README.md) · [从数据地图开始](chains/solana/00-overview/index.md)
 - [Sui 阅读入口](chains/sui/README.md) · [从 Runtime 与 Data 两张地图开始](chains/sui/00-from-runtime-to-data/index.md)
+- [Avalanche 阅读入口](chains/avalanche/README.md) · [从钱包里的 AVAX 开始](chains/avalanche/book/00-preface.md)
 - [从前言开始](chains/ethereum/book/00-preface.md)
 - [全书目录](SUMMARY.md) · [Ethereum 目录](chains/ethereum/SUMMARY.md)
 - [真实交易案例](chains/ethereum/examples/transactions/README.md) · [教学 SQL](chains/ethereum/examples/sql/README.md)
@@ -23,7 +24,9 @@ Solana 原稿 **COMPLETE** 覆盖46篇本地阅读内容；25段教学SQL为 **S
 
 Sui 原稿整体 **PARTIAL**：10核心模块及SUI 00/99、45篇阅读正文完成（39 COMPLETE、6 VALIDATED），13组SVG/draw.io/PNG；9份新SQL为 **STATIC_CHECKED / NOT_EXECUTED**，Dune 402限额缺口保留。12份历史SQL与一行旧缓存结果不替代新执行，作者人工审读 **UNKNOWN**。
 
-[Sui原验收与缺口](chains/sui/_project/overnight-report.md) · [Ethereum原验收与缺口](chains/ethereum/reports/final-acceptance.md) · [Solana原验收](chains/solana/_project/overnight-report.md) · [各次出版检查](publication/README.md)。出版结构通过及 GitHub 可访问，不表示技术事实、案例原始材料和 SQL 已全部验证。
+Avalanche 原稿 **VALIDATED**：10 Part、40正文章、前言及5附录，40对SVG/draw.io、9组主网案例及15份真实API示例。10条新SQL为 **STATIC_CHECKED / NOT_EXECUTED**，新执行0；ICM仅确认源侧，Beam管理端初始化与完整生命周期未验证。作者人工审读 **UNKNOWN**。
+
+[Avalanche原验收与缺口](chains/avalanche/reports/final-acceptance.md) · [Sui原验收与缺口](chains/sui/_project/overnight-report.md) · [Ethereum原验收与缺口](chains/ethereum/reports/final-acceptance.md) · [Solana原验收](chains/solana/_project/overnight-report.md) · [各次出版检查](publication/README.md)。出版结构通过及 GitHub 可访问，不表示技术事实、案例原始材料和 SQL 已全部验证。
 
 ## 更新与反馈
 

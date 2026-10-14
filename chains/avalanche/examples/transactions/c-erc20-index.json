@@ -1,0 +1,29 @@
+{
+  "chainId": "43114",
+  "blockNumber": "97355819",
+  "blockIndex": 0,
+  "blockHash": "0x107454fa907f148f5e9b6f17ce7af06e3c2cbebd6f0eb5c311d3d5183304d370",
+  "txHash": "0x017c257f6fd9abff097e0740e27422d19e1e0ad7c8973e247827495f847b3242",
+  "txStatus": "1",
+  "txType": 2,
+  "gasLimit": "44404",
+  "gasUsed": "44026",
+  "gasPrice": "6500000000",
+  "nonce": "33",
+  "blockTimestamp": 1791803215,
+  "blockTimestampMilliseconds": 1791803215119,
+  "from": {
+    "address": "0x03555bDb03B5c0176dB7bFBA4B6462C680536204"
+  },
+  "to": {
+    "address": "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7",
+    "name": "TetherToken",
+    "symbol": "USDT",
+    "logoUri": "https://images.ctfassets.net/gcj8jwzm6086/1BBNU6BTJz7A38puMbeyHW/cd805bc934bf8981163c6ce928769273/USDT-logo.svg"
+  },
+  "method": {
+    "callType": "CONTRACT_CALL",
+    "methodHash": "0xa9059cbb"
+  },
+  "value": "0"
+}

@@ -1,0 +1,27 @@
+{
+  "chainId": "43114",
+  "blockNumber": "97355822",
+  "blockIndex": 0,
+  "blockHash": "0x94aefa0b7871db2e1eb38fc8e5314586710d80693bf52c1a53ffd51a3c9fede5",
+  "txHash": "0x566b431b5c10e7c52022943dce0a4aa724cad760eb18de696665ae869fc852d7",
+  "txStatus": "1",
+  "txType": 0,
+  "gasLimit": "23000",
+  "gasUsed": "21000",
+  "gasPrice": "6300000000",
+  "nonce": "345",
+  "blockTimestamp": 1791803217,
+  "blockTimestampMilliseconds": 1791803217525,
+  "from": {
+    "address": "0xb57C2972A0A50281133C8d0e9d2a5E28eB9Cb9b3"
+  },
+  "to": {
+    "address": "0xBED5e4B1c610C59DD84203A90778caC448ea138b"
+  },
+  "method": {
+    "callType": "NATIVE_TRANSFER",
+    "methodHash": "",
+    "methodName": "Native Transfer"
+  },
+  "value": "16000000000"
+}

@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram name="H｜共识与虚拟机" id="consensus-vm">
+    <mxGraphModel page="1" pageWidth="640" pageHeight="774" grid="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" vertex="1" value="H｜共识与虚拟机" style="text;html=0;fontFamily=PingFang SC;fontSize=25;fontStyle=1;align=left;strokeColor=none;fillColor=none;">
+          <mxGeometry x="28" y="20" width="584" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="edge0" parent="1" edge="1" source="n0" target="n1" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;endArrow=block;strokeColor=#73869A;fontFamily=PingFang SC;fontSize=13;labelBackgroundColor=#ffffff;dashed=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170.0" y="245.0" />
+              <mxPoint x="170.0" y="245.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge1" parent="1" edge="1" source="n0" target="n2" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;endArrow=block;strokeColor=#73869A;fontFamily=PingFang SC;fontSize=13;labelBackgroundColor=#ffffff;dashed=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170.0" y="245.0" />
+              <mxPoint x="470.0" y="245.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge2" parent="1" edge="1" source="n2" target="n3" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;endArrow=block;strokeColor=#73869A;fontFamily=PingFang SC;fontSize=13;labelBackgroundColor=#ffffff;dashed=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470.0" y="387.0" />
+              <mxPoint x="470.0" y="387.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge3" parent="1" edge="1" source="n1" target="n4" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;endArrow=block;strokeColor=#73869A;fontFamily=PingFang SC;fontSize=13;labelBackgroundColor=#ffffff;dashed=1;exitX=0;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="22" y="316.0" />
+              <mxPoint x="22" y="600.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge4" parent="1" edge="1" source="n3" target="n4" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;endArrow=block;strokeColor=#73869A;fontFamily=PingFang SC;fontSize=13;labelBackgroundColor=#ffffff;dashed=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470.0" y="529.0" />
+              <mxPoint x="170.0" y="529.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n0" parent="1" vertex="1" value="&lt;b&gt;节点与候选块&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;Node / Candidate&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;AvalancheGo 组织组件&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=21;align=center;verticalAlign=middle;spacing=10;fillColor=#EDF3FB;strokeColor=#7890A3;fontColor=#243B4D;">
+          <mxGeometry x="40" y="120" width="260" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" parent="1" vertex="1" value="&lt;b&gt;共识接受职责&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;Consensus&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;决定接受的历史&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=21;align=center;verticalAlign=middle;spacing=10;fillColor=#EDF3FB;strokeColor=#7890A3;fontColor=#243B4D;">
+          <mxGeometry x="40" y="262" width="260" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" parent="1" vertex="1" value="&lt;b&gt;VM 状态规则&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;Virtual Machine&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;定义合法状态转换&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=21;align=center;verticalAlign=middle;spacing=10;fillColor=#EDF3FB;strokeColor=#7890A3;fontColor=#243B4D;">
+          <mxGeometry x="340" y="262" width="260" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" parent="1" vertex="1" value="&lt;b&gt;具体链实例&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;Blockchain Instance&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;独立 Genesis 与状态&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=21;align=center;verticalAlign=middle;spacing=10;fillColor=#EAF5EF;strokeColor=#7890A3;fontColor=#243B4D;">
+          <mxGeometry x="340" y="404" width="260" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" parent="1" vertex="1" value="&lt;b&gt;运行结果观察&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;Blocks / State / Results&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;时序依版本&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=21;align=center;verticalAlign=middle;spacing=10;fillColor=#FFF4DF;strokeColor=#7890A3;fontColor=#243B4D;">
+          <mxGeometry x="40" y="546" width="260" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="note" parent="1" vertex="1" value="共识不是执行器；共享组件不合并链状态；CE 时序另见专图。" style="text;html=0;fontFamily=PingFang SC;fontSize=16;align=left;strokeColor=none;fillColor=none;">
+          <mxGeometry x="28" y="691" width="584" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

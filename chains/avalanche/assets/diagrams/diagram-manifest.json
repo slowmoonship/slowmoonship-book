@@ -1,0 +1,402 @@
+[
+  {
+    "slug": "network-overview",
+    "title": "A｜Avalanche 网络架构",
+    "width": 640,
+    "height": 916,
+    "node_count": 8,
+    "edge_count": 7,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "three-models",
+    "title": "B｜三链，三种数据模型",
+    "width": 640,
+    "height": 632,
+    "node_count": 5,
+    "edge_count": 6,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "identifiers",
+    "title": "身份先于关联",
+    "width": 640,
+    "height": 774,
+    "node_count": 5,
+    "edge_count": 4,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "consensus-vm",
+    "title": "H｜共识与虚拟机",
+    "width": 640,
+    "height": 774,
+    "node_count": 5,
+    "edge_count": 5,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "snowman",
+    "title": "抽样到接受",
+    "width": 640,
+    "height": 774,
+    "node_count": 5,
+    "edge_count": 4,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "helicon",
+    "title": "Helicon｜前后执行时序",
+    "width": 640,
+    "height": 632,
+    "node_count": 6,
+    "edge_count": 4,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "c-execution",
+    "title": "D｜C-Chain 执行与证据",
+    "width": 640,
+    "height": 774,
+    "node_count": 6,
+    "edge_count": 6,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "c-transfer",
+    "title": "Case 01｜原生转账证据",
+    "width": 640,
+    "height": 774,
+    "node_count": 5,
+    "edge_count": 4,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "token-logs",
+    "title": "Case 02｜请求目标与收款人",
+    "width": 640,
+    "height": 774,
+    "node_count": 5,
+    "edge_count": 4,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "fees",
+    "title": "计费额度、数量与资产",
+    "width": 640,
+    "height": 632,
+    "node_count": 6,
+    "edge_count": 4,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "dune-raw",
+    "title": "四张 Raw 表的粒度",
+    "width": 640,
+    "height": 774,
+    "node_count": 5,
+    "edge_count": 5,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "p-data-model",
+    "title": "E｜P-Chain 对象模型",
+    "width": 640,
+    "height": 774,
+    "node_count": 6,
+    "edge_count": 5,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "validator-identities",
+    "title": "节点、注册与运营者",
+    "width": 640,
+    "height": 774,
+    "node_count": 5,
+    "edge_count": 4,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "primary-staking",
+    "title": "Primary Network 质押与周期",
+    "width": 640,
+    "height": 774,
+    "node_count": 5,
+    "edge_count": 4,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "p-transaction-types",
+    "title": "平台操作改变不同对象",
+    "width": 640,
+    "height": 774,
+    "node_count": 5,
+    "edge_count": 4,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "x-utxo",
+    "title": "F｜X-Chain UTXO 模型",
+    "width": 640,
+    "height": 774,
+    "node_count": 5,
+    "edge_count": 4,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "x-transfer-case",
+    "title": "Case 05｜多输入真实转移",
+    "width": 640,
+    "height": 774,
+    "node_count": 5,
+    "edge_count": 3,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "atomic-transfer",
+    "title": "G｜C→P Atomic Transfer",
+    "width": 640,
+    "height": 916,
+    "node_count": 6,
+    "edge_count": 5,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "atomic-reconcile",
+    "title": "原子转移的经济口径",
+    "width": 640,
+    "height": 632,
+    "node_count": 5,
+    "edge_count": 4,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "etna-comparison",
+    "title": "I｜Legacy Subnet → L1",
+    "width": 640,
+    "height": 774,
+    "node_count": 5,
+    "edge_count": 4,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "launch-l1",
+    "title": "J｜从创建记录到运行",
+    "width": 640,
+    "height": 774,
+    "node_count": 6,
+    "edge_count": 6,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "gas-token-costs",
+    "title": "自己的币与平台费用",
+    "width": 640,
+    "height": 632,
+    "node_count": 5,
+    "edge_count": 2,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "beam-evidence",
+    "title": "O｜Beam 身份与证据",
+    "width": 640,
+    "height": 774,
+    "node_count": 5,
+    "edge_count": 4,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "validator-manager",
+    "title": "Validator Manager 的职责",
+    "width": 640,
+    "height": 774,
+    "node_count": 5,
+    "edge_count": 4,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "manager-bootstrap",
+    "title": "管理集合初始化",
+    "width": 640,
+    "height": 774,
+    "node_count": 5,
+    "edge_count": 4,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "validator-lifecycle",
+    "title": "K｜注册、活跃与移除",
+    "width": 640,
+    "height": 774,
+    "node_count": 5,
+    "edge_count": 4,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "continuous-fees",
+    "title": "费用余额与运行判断",
+    "width": 640,
+    "height": 774,
+    "node_count": 5,
+    "edge_count": 4,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "warp-flow",
+    "title": "L｜L1 A 到 L1 B 的 Warp 消息",
+    "width": 640,
+    "height": 916,
+    "node_count": 6,
+    "edge_count": 5,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "icm-layers",
+    "title": "消息的四个功能层",
+    "width": 640,
+    "height": 774,
+    "node_count": 5,
+    "edge_count": 4,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "message-states",
+    "title": "发出、接收、执行",
+    "width": 640,
+    "height": 774,
+    "node_count": 5,
+    "edge_count": 4,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "cross-chain-mechanisms",
+    "title": "M｜三种跨链机制",
+    "width": 640,
+    "height": 632,
+    "node_count": 5,
+    "edge_count": 4,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "data-architecture",
+    "title": "N｜多链数据入口",
+    "width": 640,
+    "height": 774,
+    "node_count": 6,
+    "edge_count": 5,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "data-lineage",
+    "title": "Raw → Decoded → Curated",
+    "width": 640,
+    "height": 774,
+    "node_count": 6,
+    "edge_count": 5,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "sql-grain",
+    "title": "避免 Join 放大",
+    "width": 640,
+    "height": 774,
+    "node_count": 6,
+    "edge_count": 7,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "json-normalization",
+    "title": "从 JSON 到局部分析",
+    "width": 640,
+    "height": 774,
+    "node_count": 5,
+    "edge_count": 4,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "multi-chain-model",
+    "title": "统一身份，保留异构子模型",
+    "width": 640,
+    "height": 774,
+    "node_count": 6,
+    "edge_count": 6,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "network-balance",
+    "title": "全网络资产观察范围",
+    "width": 640,
+    "height": 774,
+    "node_count": 5,
+    "edge_count": 5,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "end-to-end",
+    "title": "O｜跨链到平台操作",
+    "width": 640,
+    "height": 916,
+    "node_count": 6,
+    "edge_count": 5,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "observability",
+    "title": "判断陌生 L1 的完成阶段",
+    "width": 640,
+    "height": 916,
+    "node_count": 5,
+    "edge_count": 4,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  },
+  {
+    "slug": "runtime-map",
+    "title": "C｜Avalanche 运行地图",
+    "width": 640,
+    "height": 916,
+    "node_count": 7,
+    "edge_count": 7,
+    "visual_status": "REVIEWED_FULL_RENDER",
+    "render_method": "bundled sharp SVG rasterization; desktop draw.io not used"
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "id": 7,
+  "title": "Beam 注册与后续费用快照",
+  "network": "Mainnet",
+  "network_id": 1,
+  "records": [
+    {
+      "blockchain_id": "11111111111111111111111111111111LpoYY",
+      "transaction_id": "48zjm4YyZkKH7TWRABnnbuA2Dro5tYkXCpdvjDcNp79gixw2J",
+      "block_height": "25657805",
+      "block_hash": "26D5mhrnHuLt4ahoE163gDQhx9BUou2JPK9YpSUwcbPtdHotoD",
+      "timestamp": "2026-10-12T01:58:04+00:00",
+      "transaction_type": "RegisterL1ValidatorTx",
+      "fields_obtained": [
+        "amountBurned",
+        "amountL1ValidatorBalanceBurned",
+        "amountStaked",
+        "blockHash",
+        "blockNumber",
+        "blockTimestamp",
+        "blsCredentials",
+        "consumedUtxos",
+        "emittedUtxos",
+        "l1ValidatorDetails",
+        "memo",
+        "nodeId",
+        "subnetId",
+        "txHash",
+        "txType",
+        "value"
+      ]
+    }
+  ],
+  "sources": [
+    "research/raw/beam-validator-history.json",
+    "research/raw/beam-l1-validators.json"
+  ],
+  "missing_fields_or_evidence": [
+    "管理端发起与确认",
+    "完整权重、停用、充值、移除历史"
+  ],
+  "verification_status": "VALIDATED",
+  "retrieval_date": "2026-10-12",
+  "evidence_layer": "DIRECT_DATA; derived conclusions separately labelled"
+}

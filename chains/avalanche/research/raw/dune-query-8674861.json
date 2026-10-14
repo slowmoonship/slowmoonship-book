@@ -1,0 +1,33 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"query_id\":8674861,\"user_id\":null,\"team_id\":953543,\"version\":2,\"name\":\"SMS AVAX 01 — L1 Registry Validation / L1 目录验证\",\"description\":\"Sample the Suzaku Avalanche chain upload and inspect its identifiers, classifications, creation timestamps, fetch states and refresh timestamp.\",\"tags\":[\"avalanche\",\"slowmoonship\",\"book-research\",\"validation\"],\"query\":\"-- Community registry sample; no claim of complete Avalanche network coverage.\\nWITH sampled AS (\\n SELECT blockchain_id, subnet_id, blockchain_name, name, evm_chain_id,\\n chain_type, chain_created_at, data_refreshed_at, pchain_fetch_status,\\n glacier_fetch_status, rpc_fetch_status\\n FROM dune.suzaku.dataset_avalanche_chains\\n LIMIT 10\\n)\\nSELECT blockchain_id, subnet_id, blockchain_name, name, evm_chain_id,\\n chain_type, chain_created_at, data_refreshed_at, pchain_fetch_status,\\n glacier_fetch_status, rpc_fetch_status FROM sampled\",\"parameters\":[],\"is_archived\":false,\"is_private\":false,\"is_temp\":false,\"latest_execution_id\":\"01M278XXCVSPD1DGPBS2ZZEXYP\",\"latest_execution_state\":\"QUERY_STATE_COMPLETED\"}"
+      }
+    ],
+    "structuredContent": {
+      "query_id": 8674861,
+      "user_id": null,
+      "team_id": 953543,
+      "version": 2,
+      "name": "SMS AVAX 01 — L1 Registry Validation / L1 目录验证",
+      "description": "Sample the Suzaku Avalanche chain upload and inspect its identifiers, classifications, creation timestamps, fetch states and refresh timestamp.",
+      "tags": [
+        "avalanche",
+        "slowmoonship",
+        "book-research",
+        "validation"
+      ],
+      "query": "-- Community registry sample; no claim of complete Avalanche network coverage.\nWITH sampled AS (\n SELECT blockchain_id, subnet_id, blockchain_name, name, evm_chain_id,\n chain_type, chain_created_at, data_refreshed_at, pchain_fetch_status,\n glacier_fetch_status, rpc_fetch_status\n FROM dune.suzaku.dataset_avalanche_chains\n LIMIT 10\n)\nSELECT blockchain_id, subnet_id, blockchain_name, name, evm_chain_id,\n chain_type, chain_created_at, data_refreshed_at, pchain_fetch_status,\n glacier_fetch_status, rpc_fetch_status FROM sampled",
+      "parameters": [],
+      "is_archived": false,
+      "is_private": false,
+      "is_temp": false,
+      "latest_execution_id": "01M278XXCVSPD1DGPBS2ZZEXYP",
+      "latest_execution_state": "QUERY_STATE_COMPLETED"
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 17
+}

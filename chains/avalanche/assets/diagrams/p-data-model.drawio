@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram name="E｜P-Chain 对象模型" id="p-data-model">
+    <mxGraphModel page="1" pageWidth="640" pageHeight="774" grid="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" vertex="1" value="E｜P-Chain 对象模型" style="text;html=0;fontFamily=PingFang SC;fontSize=25;fontStyle=1;align=left;strokeColor=none;fillColor=none;">
+          <mxGeometry x="28" y="20" width="584" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="edge0" parent="1" edge="1" source="n0" target="n1" value="归属" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;endArrow=block;strokeColor=#73869A;fontFamily=PingFang SC;fontSize=13;labelBackgroundColor=#ffffff;dashed=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170.0" y="245.0" />
+              <mxPoint x="170.0" y="245.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge1" parent="1" edge="1" source="n0" target="n2" value="注册" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;endArrow=block;strokeColor=#73869A;fontFamily=PingFang SC;fontSize=13;labelBackgroundColor=#ffffff;dashed=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170.0" y="245.0" />
+              <mxPoint x="470.0" y="245.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge2" parent="1" edge="1" source="n1" target="n3" value="运行观察" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;endArrow=block;strokeColor=#73869A;fontFamily=PingFang SC;fontSize=13;labelBackgroundColor=#ffffff;dashed=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170.0" y="387.0" />
+              <mxPoint x="170.0" y="387.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge3" parent="1" edge="1" source="n2" target="n4" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;endArrow=block;strokeColor=#73869A;fontFamily=PingFang SC;fontSize=13;labelBackgroundColor=#ffffff;dashed=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470.0" y="387.0" />
+              <mxPoint x="470.0" y="387.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge4" parent="1" edge="1" source="n2" target="n5" value="状态" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;endArrow=block;strokeColor=#73869A;fontFamily=PingFang SC;fontSize=13;labelBackgroundColor=#ffffff;dashed=1;exitX=1;exitY=0.5;entryX=1;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="618" y="316.0" />
+              <mxPoint x="618" y="600.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n0" parent="1" vertex="1" value="&lt;b&gt;网络组织&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;Subnet / L1&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;平台身份与管理关系&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=21;align=center;verticalAlign=middle;spacing=10;fillColor=#EDF3FB;strokeColor=#7890A3;fontColor=#243B4D;">
+          <mxGeometry x="40" y="120" width="260" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" parent="1" vertex="1" value="&lt;b&gt;区块链记录&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;Blockchain Record&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;VM · Genesis&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=21;align=center;verticalAlign=middle;spacing=10;fillColor=#EDF3FB;strokeColor=#7890A3;fontColor=#243B4D;">
+          <mxGeometry x="40" y="262" width="260" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" parent="1" vertex="1" value="&lt;b&gt;验证注册关系&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;Validator Registration&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;网络中的注册身份&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=21;align=center;verticalAlign=middle;spacing=10;fillColor=#EDF3FB;strokeColor=#7890A3;fontColor=#243B4D;">
+          <mxGeometry x="340" y="262" width="260" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" parent="1" vertex="1" value="&lt;b&gt;链的运行历史&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;Blocks / Transactions&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;应用链独立执行&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=21;align=center;verticalAlign=middle;spacing=10;fillColor=#FFF4DF;strokeColor=#7890A3;fontColor=#243B4D;">
+          <mxGeometry x="40" y="404" width="260" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" parent="1" vertex="1" value="&lt;b&gt;节点与公钥&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;Node / BLS Key&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;不是服务器或运营者&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=21;align=center;verticalAlign=middle;spacing=10;fillColor=#EDF3FB;strokeColor=#7890A3;fontColor=#243B4D;">
+          <mxGeometry x="340" y="404" width="260" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" parent="1" vertex="1" value="&lt;b&gt;权重与费用状态&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;Weight / Fee State&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;分开记录与单位&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=21;align=center;verticalAlign=middle;spacing=10;fillColor=#EAF5EF;strokeColor=#7890A3;fontColor=#243B4D;">
+          <mxGeometry x="340" y="546" width="260" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="note" parent="1" vertex="1" value="L1 可承载多条链；Node ID、Validation ID 与 Blockchain ID 不相等。" style="text;html=0;fontFamily=PingFang SC;fontSize=16;align=left;strokeColor=none;fillColor=none;">
+          <mxGeometry x="28" y="691" width="584" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

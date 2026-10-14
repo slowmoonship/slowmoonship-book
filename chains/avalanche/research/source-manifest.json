@@ -1,0 +1,523 @@
+[
+  {
+    "id": "primary-network",
+    "url": "https://build.avax.network/docs/primary-network.md",
+    "retrieved_at": "2026-10-12T11:02:20.292690+00:00",
+    "status": 200,
+    "final_url": "https://build.avax.network/docs/primary-network.md",
+    "sha256": "641df33c96f0115cb345ee38358407c31002816fb4476b0f9102918c732863cb",
+    "bytes": 7031,
+    "excluded_local_snapshot": "research/sources/primary-network.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "l1s",
+    "url": "https://build.avax.network/docs/avalanche-l1s.md",
+    "retrieved_at": "2026-10-12T11:02:20.293184+00:00",
+    "status": 200,
+    "final_url": "https://build.avax.network/docs/avalanche-l1s.md",
+    "sha256": "f9a5915184514d290daa9311d5cf87cc12d18eb015956e84112c66b446417a91",
+    "bytes": 9869,
+    "excluded_local_snapshot": "research/sources/l1s.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "helicon",
+    "url": "https://build.avax.network/docs/primary-network/helicon-upgrade.md",
+    "retrieved_at": "2026-10-12T11:02:20.293317+00:00",
+    "status": 200,
+    "final_url": "https://build.avax.network/docs/primary-network/helicon-upgrade.md",
+    "sha256": "aa3b446791fe3ad4c84a5b6363d7239ead216daca658f17475608654e64fb375",
+    "bytes": 9635,
+    "excluded_local_snapshot": "research/sources/helicon.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "continuous-execution",
+    "url": "https://build.avax.network/docs/nodes/architecture/execution/continuous-execution.md",
+    "retrieved_at": "2026-10-12T11:02:20.293456+00:00",
+    "status": 200,
+    "final_url": "https://build.avax.network/docs/nodes/architecture/execution/continuous-execution.md",
+    "sha256": "57f5530d0b8deaecddbd21842c0aa0a9d499230caca1d0713a5bf91d32e92a64",
+    "bytes": 8883,
+    "excluded_local_snapshot": "research/sources/continuous-execution.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "coreth-history",
+    "url": "https://build.avax.network/docs/primary-network/coreth.md",
+    "retrieved_at": "2026-10-12T11:02:20.293591+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "consensus",
+    "url": "https://build.avax.network/docs/primary-network/avalanche-consensus.md",
+    "retrieved_at": "2026-10-12T11:02:21.711641+00:00",
+    "status": 200,
+    "final_url": "https://build.avax.network/docs/primary-network/avalanche-consensus.md",
+    "sha256": "20531c588e46fb026ad1cbac72a1be6c2ce1c9bcc2dc1d582fd68549759958db",
+    "bytes": 15113,
+    "excluded_local_snapshot": "research/sources/consensus.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "virtual-machines",
+    "url": "https://build.avax.network/docs/primary-network/virtual-machines.md",
+    "retrieved_at": "2026-10-12T11:02:21.765155+00:00",
+    "status": 200,
+    "final_url": "https://build.avax.network/docs/primary-network/virtual-machines.md",
+    "sha256": "55a03cd232ee80c8f7847c74c6b083d3194286e1f8b4a3d5bd9987ff35cbd7d1",
+    "bytes": 3965,
+    "excluded_local_snapshot": "research/sources/virtual-machines.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "p-rpc",
+    "url": "https://build.avax.network/docs/rpcs/p-chain.md",
+    "retrieved_at": "2026-10-12T11:02:21.777684+00:00",
+    "status": 200,
+    "final_url": "https://build.avax.network/docs/rpcs/p-chain.md",
+    "sha256": "f8960ea63a95de6f065df572da7df15449b5641e9ebf6be31994e81eaca0f03f",
+    "bytes": 61606,
+    "excluded_local_snapshot": "research/sources/p-rpc.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "x-rpc",
+    "url": "https://build.avax.network/docs/rpcs/x-chain.md",
+    "retrieved_at": "2026-10-12T11:02:21.819747+00:00",
+    "status": 200,
+    "final_url": "https://build.avax.network/docs/rpcs/x-chain.md",
+    "sha256": "74aa563185d21ef4ab175cd2e2f77c926ace1d7267937efb148c61ef44d9e22d",
+    "bytes": 23208,
+    "excluded_local_snapshot": "research/sources/x-rpc.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "c-rpc",
+    "url": "https://build.avax.network/docs/rpcs/c-chain.md",
+    "retrieved_at": "2026-10-12T11:02:22.384460+00:00",
+    "status": 200,
+    "final_url": "https://build.avax.network/docs/rpcs/c-chain.md",
+    "sha256": "0d6ebe0c4d0d8b4c3ea9874765ad8f1a056d896ae822eb8e21c7fc954dbef844",
+    "bytes": 17875,
+    "excluded_local_snapshot": "research/sources/c-rpc.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "info-rpc",
+    "url": "https://build.avax.network/docs/rpcs/info.md",
+    "retrieved_at": "2026-10-12T11:02:22.391710+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "p-format",
+    "url": "https://build.avax.network/docs/api-reference/p-chain/txn-format.md",
+    "retrieved_at": "2026-10-12T11:02:22.500891+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "x-format",
+    "url": "https://build.avax.network/docs/api-reference/x-chain/txn-format.md",
+    "retrieved_at": "2026-10-12T11:02:22.553219+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "atomic-format",
+    "url": "https://build.avax.network/docs/api-reference/c-chain/txn-format.md",
+    "retrieved_at": "2026-10-12T11:02:22.789219+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "icm-overview",
+    "url": "https://build.avax.network/docs/cross-chain/avalanche-warp-messaging/overview.md",
+    "retrieved_at": "2026-10-12T11:02:23.027304+00:00",
+    "status": 200,
+    "final_url": "https://build.avax.network/docs/cross-chain/avalanche-warp-messaging/overview.md",
+    "sha256": "f7f5d03371022eb06c7dafa16654da147d3cdab2058290fe55723a068748bad5",
+    "bytes": 5079,
+    "excluded_local_snapshot": "research/sources/icm-overview.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "icm-deep-dive",
+    "url": "https://build.avax.network/docs/cross-chain/avalanche-warp-messaging/deep-dive.md",
+    "retrieved_at": "2026-10-12T11:02:23.032509+00:00",
+    "status": 200,
+    "final_url": "https://build.avax.network/docs/cross-chain/avalanche-warp-messaging/deep-dive.md",
+    "sha256": "e316c277f7caed0af185393af918ded849732c0b7f66802ae42075f8e6aadcff",
+    "bytes": 9217,
+    "excluded_local_snapshot": "research/sources/icm-deep-dive.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "manager-contracts",
+    "url": "https://build.avax.network/docs/avalanche-l1s/validator-manager/contract.md",
+    "retrieved_at": "2026-10-12T11:02:23.123385+00:00",
+    "status": 200,
+    "final_url": "https://build.avax.network/docs/avalanche-l1s/validator-manager/contract.md",
+    "sha256": "853c1a5b4104df532c85ff3fcd22f258178a5485fa05942ffd7e7474fcb76955",
+    "bytes": 19071,
+    "excluded_local_snapshot": "research/sources/manager-contracts.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "etna",
+    "url": "https://build.avax.network/blog/etna-enhancing-sovereignty-avalanche-l1s.md",
+    "retrieved_at": "2026-10-12T11:02:23.189783+00:00",
+    "status": 200,
+    "final_url": "https://build.avax.network/blog/etna-enhancing-sovereignty-avalanche-l1s.md",
+    "sha256": "d7c9a70ce3148d07264fffca58c728e106c5bd38071c7834033cbe8ddc1a7f83",
+    "bytes": 109,
+    "excluded_local_snapshot": "research/sources/etna.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "data-api",
+    "url": "https://build.avax.network/docs/api-reference/data-api.md",
+    "retrieved_at": "2026-10-12T11:02:23.395820+00:00",
+    "status": 200,
+    "final_url": "https://build.avax.network/docs/api-reference/data-api.md",
+    "sha256": "84469b2da9975ca81fb37f5197a8294dab5ce158edce1f56147a254e97072af4",
+    "bytes": 10558,
+    "excluded_local_snapshot": "research/sources/data-api.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "icm-protocol",
+    "url": "https://build.avax.network/academy/avalanche-l1/interchain-messaging/03-icm-protocol/01-what-is-icm.md",
+    "retrieved_at": "2026-10-12T11:02:23.677292+00:00",
+    "status": 200,
+    "final_url": "https://build.avax.network/academy/avalanche-l1/interchain-messaging/03-icm-protocol/01-what-is-icm.md",
+    "sha256": "00de25967e8e13e798e60128c590445f849d34c24ab5f899d830e87587038964",
+    "bytes": 109,
+    "excluded_local_snapshot": "research/sources/icm-protocol.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "warp-format",
+    "url": "https://build.avax.network/academy/avalanche-l1/interchain-messaging/08-avalanche-warp-messaging/03-warp-message-format.md",
+    "retrieved_at": "2026-10-12T11:02:23.782663+00:00",
+    "status": 200,
+    "final_url": "https://build.avax.network/academy/avalanche-l1/interchain-messaging/08-avalanche-warp-messaging/03-warp-message-format.md",
+    "sha256": "61edb7953b20cff82b5f6c7aad08ca24b71eaee578fe4572c992b89630fe562e",
+    "bytes": 119,
+    "excluded_local_snapshot": "research/sources/warp-format.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "l1-config",
+    "url": "https://build.avax.network/docs/avalanche-l1s/evm-configuration/customize-avalanche-l1.md",
+    "retrieved_at": "2026-10-12T11:02:23.789113+00:00",
+    "status": 200,
+    "final_url": "https://build.avax.network/docs/avalanche-l1s/evm-configuration/customize-avalanche-l1.md",
+    "sha256": "bc601f767bb0de2eea1b8ee1c37a7579a9e0ebb85ff89badd7decf5120d3153f",
+    "bytes": 50084,
+    "excluded_local_snapshot": "research/sources/l1-config.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "acp-77",
+    "url": "https://raw.githubusercontent.com/avalanche-foundation/ACPs/main/ACPs/77-reinventing-subnets/README.md",
+    "retrieved_at": "2026-10-12T11:02:23.803592+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/avalanche-foundation/ACPs/main/ACPs/77-reinventing-subnets/README.md",
+    "sha256": "b3f2faeab3c4c686e11bbcc19a24a611ad232f9530cad382c34bfb8a880b529e",
+    "bytes": 44743,
+    "excluded_local_snapshot": "research/sources/acp-77.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "acp-99",
+    "url": "https://raw.githubusercontent.com/avalanche-foundation/ACPs/main/ACPs/99-validators-manager-contract/README.md",
+    "retrieved_at": "2026-10-12T11:02:24.033183+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "acp-194",
+    "url": "https://raw.githubusercontent.com/avalanche-foundation/ACPs/main/ACPs/194-continuous-execution/README.md",
+    "retrieved_at": "2026-10-12T11:02:24.327352+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/avalanche-foundation/ACPs/main/ACPs/194-continuous-execution/README.md",
+    "sha256": "2abaa2ecfeaddd85bf075066c90413a921d0c6debc976dfa8d791109e8683097",
+    "bytes": 21740,
+    "excluded_local_snapshot": "research/sources/acp-194.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "dune-overview",
+    "url": "https://docs.dune.com/data-catalog/evm/avalanche/overview.md",
+    "retrieved_at": "2026-10-12T11:02:24.408643+00:00",
+    "status": 200,
+    "final_url": "https://docs.dune.com/data-catalog/evm/avalanche/overview.md",
+    "sha256": "02b838a6721529a7825d27d22018926b34b9ea8ad2c6074c6ad77186ba3d8e90",
+    "bytes": 2431,
+    "excluded_local_snapshot": "research/sources/dune-overview.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "dune-transactions",
+    "url": "https://docs.dune.com/data-catalog/evm/avalanche/raw/transactions.md",
+    "retrieved_at": "2026-10-12T11:02:24.508424+00:00",
+    "status": 200,
+    "final_url": "https://docs.dune.com/data-catalog/evm/avalanche/raw/transactions.md",
+    "sha256": "a231e5704f2843c493e3fff7ff88b0782abcfa10c3c2aafaf1edc829870ad2dd",
+    "bytes": 5864,
+    "excluded_local_snapshot": "research/sources/dune-transactions.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "dune-blocks",
+    "url": "https://docs.dune.com/data-catalog/evm/avalanche/raw/blocks.md",
+    "retrieved_at": "2026-10-12T11:02:24.626573+00:00",
+    "status": 200,
+    "final_url": "https://docs.dune.com/data-catalog/evm/avalanche/raw/blocks.md",
+    "sha256": "726a253db509a993ebee5f3948e0f20d774e59ea424621b6f8c1f478a1f5e83b",
+    "bytes": 4434,
+    "excluded_local_snapshot": "research/sources/dune-blocks.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "dune-logs",
+    "url": "https://docs.dune.com/data-catalog/evm/avalanche/raw/logs.md",
+    "retrieved_at": "2026-10-12T11:02:24.704649+00:00",
+    "status": 200,
+    "final_url": "https://docs.dune.com/data-catalog/evm/avalanche/raw/logs.md",
+    "sha256": "1f0c44222ebaabebd8a1a587d83ceda58431d11686199d7eb589990941723d8c",
+    "bytes": 5008,
+    "excluded_local_snapshot": "research/sources/dune-logs.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "dune-traces",
+    "url": "https://docs.dune.com/data-catalog/evm/avalanche/raw/traces.md",
+    "retrieved_at": "2026-10-12T11:02:24.917846+00:00",
+    "status": 200,
+    "final_url": "https://docs.dune.com/data-catalog/evm/avalanche/raw/traces.md",
+    "sha256": "21260697d85a65ae10d40f31910c786708369503d07536de6ac6b94c31a0114a",
+    "bytes": 5307,
+    "excluded_local_snapshot": "research/sources/dune-traces.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "release-1.15.0",
+    "url": "https://api.github.com/repos/ava-labs/avalanchego/releases/tags/v1.15.0",
+    "retrieved_at": "2026-10-12T11:02:25.937182+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/ava-labs/avalanchego/releases/tags/v1.15.0",
+    "sha256": "088c6d6313e610ed3cc956ea73cb6f446753f4b1abebf15ee224cf97afb5a65c",
+    "bytes": 72713,
+    "excluded_local_snapshot": "research/sources/release-1.15.0.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "teleporter-interface",
+    "url": "https://raw.githubusercontent.com/ava-labs/icm-contracts/main/contracts/teleporter/ITeleporterMessenger.sol",
+    "retrieved_at": "2026-10-12T11:02:25.937598+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/ava-labs/icm-contracts/main/contracts/teleporter/ITeleporterMessenger.sol",
+    "sha256": "7c5ba71f8700340571debea51fb5ff16e0cab08fe49eb8b43fc503fa3737652b",
+    "bytes": 10730,
+    "excluded_local_snapshot": "research/sources/teleporter-interface.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "acp-99",
+    "url": "https://raw.githubusercontent.com/avalanche-foundation/ACPs/main/ACPs/99-validatorsetmanager-contract/README.md",
+    "retrieved_at": "2026-10-12T11:05:03.441042+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/avalanche-foundation/ACPs/main/ACPs/99-validatorsetmanager-contract/README.md",
+    "sha256": "ec9ac4f12fbf79cc5873b8f6560bb135eb2375d757297308010ddf87fc1c7016",
+    "bytes": 20395,
+    "excluded_local_snapshot": "research/sources/acp-99.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "etna-release",
+    "url": "https://api.github.com/repos/ava-labs/avalanchego/releases/tags/v1.12.0",
+    "retrieved_at": "2026-10-12T11:05:03.441495+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/ava-labs/avalanchego/releases/tags/v1.12.0",
+    "sha256": "87f4999fdc99fe868d7919adf8cc3b082b4d60b12036b4a9875ba2d411770ee5",
+    "bytes": 17592,
+    "excluded_local_snapshot": "research/sources/etna-release.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "cortina-release",
+    "url": "https://api.github.com/repos/ava-labs/avalanchego/releases/tags/v1.10.0",
+    "retrieved_at": "2026-10-12T11:05:03.441587+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/ava-labs/avalanchego/releases/tags/v1.10.0",
+    "sha256": "6a314fda991035677b1fdcfcc47f36ebb53f8564d022b9d0c0e37e3057d51fd6",
+    "bytes": 19550,
+    "excluded_local_snapshot": "research/sources/cortina-release.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "banff-release",
+    "url": "https://api.github.com/repos/ava-labs/avalanchego/releases/tags/v1.9.0",
+    "retrieved_at": "2026-10-12T11:05:03.441689+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/ava-labs/avalanchego/releases/tags/v1.9.0",
+    "sha256": "f643546e9735f9a41a2100ba0fe1bcb1a2f84e8de92e14176024d468e0072226",
+    "bytes": 15662,
+    "excluded_local_snapshot": "research/sources/banff-release.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "durango-release",
+    "url": "https://api.github.com/repos/ava-labs/avalanchego/releases/tags/v1.11.0",
+    "retrieved_at": "2026-10-12T11:05:04.073827+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/ava-labs/avalanchego/releases/tags/v1.11.0",
+    "sha256": "a33f1601c76f0e608c2ead6471a3ea7b469c96807ad3af8c0cde67e96971b699",
+    "bytes": 21555,
+    "excluded_local_snapshot": "research/sources/durango-release.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "p-format",
+    "url": "https://build.avax.network/docs/rpcs/p-chain/txn-format.md",
+    "retrieved_at": "2026-10-12T11:05:04.100800+00:00",
+    "status": 200,
+    "final_url": "https://build.avax.network/docs/rpcs/p-chain/txn-format.md",
+    "sha256": "43be7b33a12cef6c09918ea808fa82c90d4282d5a1a394d56f1f416c9130bbd7",
+    "bytes": 138446,
+    "excluded_local_snapshot": "research/sources/p-format.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "x-format",
+    "url": "https://build.avax.network/docs/rpcs/x-chain/txn-format.md",
+    "retrieved_at": "2026-10-12T11:05:04.128761+00:00",
+    "status": 200,
+    "final_url": "https://build.avax.network/docs/rpcs/x-chain/txn-format.md",
+    "sha256": "292352832f9c9959fe02573fc5a3fe6e1812dafb573847ffbd52733d79c793af",
+    "bytes": 95043,
+    "excluded_local_snapshot": "research/sources/x-format.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "atomic-format",
+    "url": "https://build.avax.network/docs/rpcs/c-chain/txn-format.md",
+    "retrieved_at": "2026-10-12T11:05:04.130763+00:00",
+    "status": 200,
+    "final_url": "https://build.avax.network/docs/rpcs/c-chain/txn-format.md",
+    "sha256": "d89946259341e8e32ff208d78b72aaf2f59515dff2aa6f3d6a2553d905b848ac",
+    "bytes": 37716,
+    "excluded_local_snapshot": "research/sources/atomic-format.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "p-tx-data-api",
+    "url": "https://build.avax.network/docs/api-reference/data-api/primary-network/transactions.md",
+    "retrieved_at": "2026-10-12T11:05:04.798165+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "manager-readme",
+    "url": "https://raw.githubusercontent.com/ava-labs/icm-contracts/main/contracts/validator-manager/README.md",
+    "retrieved_at": "2026-10-12T11:05:04.891377+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/ava-labs/icm-contracts/main/contracts/validator-manager/README.md",
+    "sha256": "c46a093b4939000eff19934f8e602c227c751b535c3f0e93c2f0d4216026097d",
+    "bytes": 18530,
+    "excluded_local_snapshot": "research/sources/manager-readme.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "validator-go",
+    "url": "https://raw.githubusercontent.com/ava-labs/avalanchego/v1.15.0/vms/platformvm/txs/convert_subnet_to_l1_tx.go",
+    "retrieved_at": "2026-10-12T11:05:05.198300+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/ava-labs/avalanchego/v1.15.0/vms/platformvm/txs/convert_subnet_to_l1_tx.go",
+    "sha256": "1956669582330601c0c01205681c78265386b862ad14d47047a08370328fd490",
+    "bytes": 4467,
+    "excluded_local_snapshot": "research/sources/validator-go.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "atomic-go",
+    "url": "https://raw.githubusercontent.com/ava-labs/avalanchego/v1.15.0/vms/saevm/cchain/atomic/export_tx.go",
+    "retrieved_at": "2026-10-12T11:05:05.238018+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "api-primary-transactions",
+    "url": "https://build.avax.network/docs/api-reference/data-api/primary-network-transactions/listLatestPrimaryNetworkTransactions.md",
+    "retrieved_at": "2026-10-12T11:07:05.988841+00:00",
+    "status": 200,
+    "final_url": "https://build.avax.network/docs/api-reference/data-api/primary-network-transactions/listLatestPrimaryNetworkTransactions.md",
+    "sha256": "7d2f8a5e70ef4f1438b3e10846c423b96479c7e7a93ed0d2b5e1e27a9121a89e",
+    "bytes": 1370,
+    "excluded_local_snapshot": "research/sources/api-primary-transactions.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "api-evm-transactions",
+    "url": "https://build.avax.network/docs/api-reference/data-api/evm-transactions/listLatestTransactions.md",
+    "retrieved_at": "2026-10-12T11:07:07.094231+00:00",
+    "status": 200,
+    "final_url": "https://build.avax.network/docs/api-reference/data-api/evm-transactions/listLatestTransactions.md",
+    "sha256": "bb89ab093be7f627262e4bc87e0794ada2859865fb6188b4532fead1ac9629be",
+    "bytes": 458,
+    "excluded_local_snapshot": "research/sources/api-evm-transactions.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "api-subnet",
+    "url": "https://build.avax.network/docs/api-reference/data-api/primary-network/getSubnetById.md",
+    "retrieved_at": "2026-10-12T11:07:10.369046+00:00",
+    "status": 200,
+    "final_url": "https://build.avax.network/docs/api-reference/data-api/primary-network/getSubnetById.md",
+    "sha256": "667ee93c0016a26760ef7c26bbd4d4cf001332c9f4b3fd0a40d7b3712e44fae3",
+    "bytes": 456,
+    "excluded_local_snapshot": "research/sources/api-subnet.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "api-l1-validators",
+    "url": "https://build.avax.network/docs/api-reference/data-api/primary-network/listL1Validators.md",
+    "retrieved_at": "2026-10-12T11:07:11.101013+00:00",
+    "status": 200,
+    "final_url": "https://build.avax.network/docs/api-reference/data-api/primary-network/listL1Validators.md",
+    "sha256": "eee5a462750ec678ab904ec3f1730be2495828525e18161e3d31240b45678c36",
+    "bytes": 549,
+    "excluded_local_snapshot": "research/sources/api-l1-validators.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "fortuna-release",
+    "url": "https://api.github.com/repos/ava-labs/avalanchego/releases/tags/v1.13.0",
+    "retrieved_at": "2026-10-12T11:49:43.612507+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/ava-labs/avalanchego/releases/tags/v1.13.0",
+    "sha256": "1a9670fffcf2cae0045fc5be625cad34f80bb97c7c575a62448c0ce852229a0c",
+    "bytes": 26555,
+    "excluded_local_snapshot": "research/sources/fortuna-release.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "granite-release",
+    "url": "https://api.github.com/repos/ava-labs/avalanchego/releases/tags/v1.14.0",
+    "retrieved_at": "2026-10-12T11:49:44.333531+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/ava-labs/avalanchego/releases/tags/v1.14.0",
+    "sha256": "39911e73a2662c7d78f1b443832f7ba8d954b51f9164343bac9305872247ac1d",
+    "bytes": 29701,
+    "excluded_local_snapshot": "research/sources/granite-release.md",
+    "snapshot_distributed": false
+  },
+  {
+    "id": "acp-181",
+    "url": "https://raw.githubusercontent.com/avalanche-foundation/ACPs/main/ACPs/181-p-chain-epoched-views/README.md",
+    "retrieved_at": "2026-10-13T00:27:52.528369+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/avalanche-foundation/ACPs/main/ACPs/181-p-chain-epoched-views/README.md",
+    "sha256": "e391cb25976cbc034dff01fc5c099d7186e269a66f299935e0d867f1d66741c9",
+    "bytes": 14319,
+    "excluded_local_snapshot": "research/sources/acp-181.md",
+    "snapshot_distributed": false
+  }
+]

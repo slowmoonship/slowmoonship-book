@@ -1,0 +1,23 @@
+{
+  "network": "Mainnet",
+  "network_id": 1,
+  "url": "https://api.avax.network/ext/info",
+  "method": "info.getBlockchainID",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "info.getBlockchainID",
+    "params": {
+      "alias": "X"
+    }
+  },
+  "retrieved_at": "2026-10-12T11:04:00.238826+00:00",
+  "http_status": 200,
+  "response": {
+    "jsonrpc": "2.0",
+    "result": {
+      "blockchainID": "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM"
+    },
+    "id": 1
+  }
+}

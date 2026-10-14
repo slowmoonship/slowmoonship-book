@@ -1,0 +1,667 @@
+{
+  "network": "Mainnet",
+  "network_id": 1,
+  "url": "https://data-api.avax.network/v1/networks/mainnet/blockchains/x-chain/transactions?pageSize=5",
+  "method": "HTTP GET",
+  "request": null,
+  "retrieved_at": "2026-10-12T11:05:40.329383+00:00",
+  "http_status": 200,
+  "response": {
+    "transactions": [
+      {
+        "txHash": "cf7EMNn6ionatrWAxYDcDipQSQKD5j6vX2gSDptoDtiiBN1qa",
+        "chainFormat": "linear",
+        "blockHash": "VSyJCyAMQMDXSKu1Ghqv4stFCDvvwidRJ4NXVj3497AExWBom",
+        "blockHeight": 532938,
+        "txType": "BaseTx",
+        "timestamp": 1791803119,
+        "memo": "0x00000000",
+        "consumedUtxos": [
+          {
+            "addresses": [
+              "avax14fcd7fz2265nzn3q2wm3mylunpjyec2z4c2uy0"
+            ],
+            "utxoId": "4feGTWdM37yiuT9WyMoAE8wZcxYvzNsrUV2TEmc6aSZwPETwC",
+            "asset": {
+              "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+              "name": "Avalanche",
+              "symbol": "AVAX",
+              "denomination": 9,
+              "type": "secp256k1",
+              "amount": "10555772946000"
+            },
+            "utxoType": "transfer",
+            "outputIndex": "1",
+            "timestamp": 1791803119,
+            "creationTxHash": "Z3Q1vuUCuJGep4Ni3rMQpeeNmg55e3CQV945AT3918HK8NVyg",
+            "consumingTxHash": "cf7EMNn6ionatrWAxYDcDipQSQKD5j6vX2gSDptoDtiiBN1qa",
+            "consumingTxTimestamp": 1791803119,
+            "locktime": 0,
+            "threshold": 1,
+            "createdOnChainId": "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM",
+            "consumedOnChainId": "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM",
+            "credentials": [
+              {
+                "publicKey": "ArUP54LcwlSU9l6lStK+u2U965Z8mXhvghzDKjfp/tiX",
+                "signature": "BXf5F1PPPdeKfeOLI9PIMHXACWieTkAUHHcZ61zewlkfjfzcKB0GeblWm+zkbrax0xZwVaXyUXjCGjiB41ljfAA"
+              }
+            ]
+          },
+          {
+            "addresses": [
+              "avax14fcd7fz2265nzn3q2wm3mylunpjyec2z4c2uy0"
+            ],
+            "utxoId": "pMyABdH4arEpjgCSER15ofpwXK43g4ACGjxHUcqBKHKu86GfW",
+            "asset": {
+              "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+              "name": "Avalanche",
+              "symbol": "AVAX",
+              "denomination": 9,
+              "type": "secp256k1",
+              "amount": "5933176341000"
+            },
+            "utxoType": "transfer",
+            "outputIndex": "1",
+            "timestamp": 1791803119,
+            "creationTxHash": "JH1N6NcF3sEgnpihNJH3LXnLRiid6jXSCBuT7n7i7wY77kCAY",
+            "consumingTxHash": "cf7EMNn6ionatrWAxYDcDipQSQKD5j6vX2gSDptoDtiiBN1qa",
+            "consumingTxTimestamp": 1791803119,
+            "locktime": 0,
+            "threshold": 1,
+            "createdOnChainId": "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM",
+            "consumedOnChainId": "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM",
+            "credentials": [
+              {
+                "publicKey": "ArUP54LcwlSU9l6lStK+u2U965Z8mXhvghzDKjfp/tiX",
+                "signature": "loEs/1xeDk3EJoR+DcqHuxW01Ep9jblhpVwO7uXdbF5dl+GQZjzqOz0C9WUWAO//9iHCAVeUzKuNPxiL7/RLnAE"
+              }
+            ]
+          }
+        ],
+        "emittedUtxos": [
+          {
+            "addresses": [
+              "avax14fcd7fz2265nzn3q2wm3mylunpjyec2z4c2uy0"
+            ],
+            "utxoId": "M6CUTyueFCe6fxnEveD2LsyKHh6foFeWuNZ7pdXDKrLqWcyro",
+            "asset": {
+              "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+              "name": "Avalanche",
+              "symbol": "AVAX",
+              "denomination": 9,
+              "type": "secp256k1",
+              "amount": "4119356117000"
+            },
+            "utxoType": "transfer",
+            "outputIndex": "0",
+            "timestamp": 1791803119,
+            "creationTxHash": "cf7EMNn6ionatrWAxYDcDipQSQKD5j6vX2gSDptoDtiiBN1qa",
+            "locktime": 0,
+            "threshold": 1,
+            "createdOnChainId": "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM",
+            "consumedOnChainId": "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM"
+          },
+          {
+            "addresses": [
+              "avax1zas9muyctnt87rk2r63xk6rjhjyhqsn6ad553f"
+            ],
+            "utxoId": "P6LYFaLpQrPsevVfbXh4oBtYUyKDRuy8uWywyar2mPNuSbBRT",
+            "asset": {
+              "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+              "name": "Avalanche",
+              "symbol": "AVAX",
+              "denomination": 9,
+              "type": "secp256k1",
+              "amount": "12369592070000"
+            },
+            "utxoType": "transfer",
+            "outputIndex": "1",
+            "timestamp": 1791803119,
+            "creationTxHash": "cf7EMNn6ionatrWAxYDcDipQSQKD5j6vX2gSDptoDtiiBN1qa",
+            "locktime": 0,
+            "threshold": 1,
+            "createdOnChainId": "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM",
+            "consumedOnChainId": "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM"
+          }
+        ],
+        "amountUnlocked": [
+          {
+            "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+            "name": "Avalanche",
+            "symbol": "AVAX",
+            "denomination": 9,
+            "type": "secp256k1",
+            "amount": "16488949287000"
+          }
+        ],
+        "amountCreated": [
+          {
+            "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+            "name": "Avalanche",
+            "symbol": "AVAX",
+            "denomination": 9,
+            "type": "secp256k1",
+            "amount": "16488948187000"
+          }
+        ]
+      },
+      {
+        "txHash": "JH1N6NcF3sEgnpihNJH3LXnLRiid6jXSCBuT7n7i7wY77kCAY",
+        "chainFormat": "linear",
+        "blockHash": "2j6YG8pUrrL5jsku53ZcqULmj8TRGFHz35y4pXPhenKwFcB4Bw",
+        "blockHeight": 532937,
+        "txType": "BaseTx",
+        "timestamp": 1791802659,
+        "memo": "0x00000000",
+        "consumedUtxos": [
+          {
+            "addresses": [
+              "avax1zas9muyctnt87rk2r63xk6rjhjyhqsn6ad553f"
+            ],
+            "utxoId": "m1CjyUnwucFsLaqYuufGaSUK7us68qMbArH5jB9hC9E3KN8gd",
+            "asset": {
+              "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+              "name": "Avalanche",
+              "symbol": "AVAX",
+              "denomination": 9,
+              "type": "secp256k1",
+              "amount": "2748535300000"
+            },
+            "utxoType": "transfer",
+            "outputIndex": "1",
+            "timestamp": 1791802659,
+            "creationTxHash": "2bpFMa6zsh5BbcEqYaoo2QTXmrr2hxAV8WnA2bPp5J7HU9irDj",
+            "consumingTxHash": "JH1N6NcF3sEgnpihNJH3LXnLRiid6jXSCBuT7n7i7wY77kCAY",
+            "consumingTxTimestamp": 1791802659,
+            "locktime": 0,
+            "threshold": 1,
+            "createdOnChainId": "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM",
+            "consumedOnChainId": "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM",
+            "credentials": [
+              {
+                "publicKey": "A9B+o5/uwlDkp6eJDcAnsEzY+KcB9nM1GjWFIeIac/rn",
+                "signature": "cWoO0xFQxZ/Y3gr0ShAtX0evq+qbj6kw6/uETyn2jAJvMoxBSMVQuezY4SxhLevrw5lJg3FJ33MsbhmZP1AugwA"
+              }
+            ]
+          },
+          {
+            "addresses": [
+              "avax1zas9muyctnt87rk2r63xk6rjhjyhqsn6ad553f"
+            ],
+            "utxoId": "nWypvUzExVSJrwzPP5iFKJGcGoU5evCiPTbjzQcMjtpxYrFKK",
+            "asset": {
+              "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+              "name": "Avalanche",
+              "symbol": "AVAX",
+              "denomination": 9,
+              "type": "secp256k1",
+              "amount": "3792593093000"
+            },
+            "utxoType": "transfer",
+            "outputIndex": "1",
+            "timestamp": 1791802659,
+            "creationTxHash": "2nhgng1dscrqkHPKekAokTUEUFxaLcmmhH55vEGtX74q1HowKf",
+            "consumingTxHash": "JH1N6NcF3sEgnpihNJH3LXnLRiid6jXSCBuT7n7i7wY77kCAY",
+            "consumingTxTimestamp": 1791802659,
+            "locktime": 0,
+            "threshold": 1,
+            "createdOnChainId": "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM",
+            "consumedOnChainId": "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM",
+            "credentials": [
+              {
+                "publicKey": "A9B+o5/uwlDkp6eJDcAnsEzY+KcB9nM1GjWFIeIac/rn",
+                "signature": "kUCt211zw+BpXDH5Gi2pXh/9mlSD0SCuAhdjUM5hSCkO06CsSqhTZjnxtm42K+WeJ0i6SJFFKcbd8eHQYtE/UAE"
+              }
+            ]
+          },
+          {
+            "addresses": [
+              "avax1zas9muyctnt87rk2r63xk6rjhjyhqsn6ad553f"
+            ],
+            "utxoId": "29gjEhy4wWwSrwNfuV7tR5iZ1jXXfe6LjvHrQkrF66dF97rC1T",
+            "asset": {
+              "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+              "name": "Avalanche",
+              "symbol": "AVAX",
+              "denomination": 9,
+              "type": "secp256k1",
+              "amount": "9990000000"
+            },
+            "utxoType": "transfer",
+            "outputIndex": "1",
+            "timestamp": 1791802659,
+            "creationTxHash": "2DorMvNNbtTEp3jTMFv6D2MbFd2ACe1v7Fn3FqmEdUqdKk5tkX",
+            "consumingTxHash": "JH1N6NcF3sEgnpihNJH3LXnLRiid6jXSCBuT7n7i7wY77kCAY",
+            "consumingTxTimestamp": 1791802659,
+            "locktime": 0,
+            "threshold": 1,
+            "createdOnChainId": "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM",
+            "consumedOnChainId": "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM",
+            "credentials": [
+              {
+                "publicKey": "A9B+o5/uwlDkp6eJDcAnsEzY+KcB9nM1GjWFIeIac/rn",
+                "signature": "T/HxwhQFmORZeYHf5CY3TOPnvLmlzPxMKVA4k6Sfm9RihXUVowrGEsQQviVDBgcdkzyxUAaYki8qeO6VmHZBVAE"
+              }
+            ]
+          },
+          {
+            "addresses": [
+              "avax1zas9muyctnt87rk2r63xk6rjhjyhqsn6ad553f"
+            ],
+            "utxoId": "ypN89ksGHyXANTp16hHVdpFE92LfDSRcBc5qvS15WcXdLknix",
+            "asset": {
+              "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+              "name": "Avalanche",
+              "symbol": "AVAX",
+              "denomination": 9,
+              "type": "secp256k1",
+              "amount": "245879832550"
+            },
+            "utxoType": "transfer",
+            "outputIndex": "1",
+            "timestamp": 1791802659,
+            "creationTxHash": "26XUPcajuByaJFqhMaMxBs7PTbc7gveR5ofUpTLAXQTiKeJkrK",
+            "consumingTxHash": "JH1N6NcF3sEgnpihNJH3LXnLRiid6jXSCBuT7n7i7wY77kCAY",
+            "consumingTxTimestamp": 1791802659,
+            "locktime": 0,
+            "threshold": 1,
+            "createdOnChainId": "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM",
+            "consumedOnChainId": "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM",
+            "credentials": [
+              {
+                "publicKey": "A9B+o5/uwlDkp6eJDcAnsEzY+KcB9nM1GjWFIeIac/rn",
+                "signature": "gKWMAN1fluGBD2iB4PsaOJWga/Zw0BDnVkiUI0kx7cNmKvVxoPmX0Yf2blrew+77uygP9LZsMZ7P4wFvgdiWvQA"
+              }
+            ]
+          }
+        ],
+        "emittedUtxos": [
+          {
+            "addresses": [
+              "avax1zas9muyctnt87rk2r63xk6rjhjyhqsn6ad553f"
+            ],
+            "utxoId": "2dZVkh1Y5FRJ9zSSBQRFUB67Fzfj35nModUpNwes5JZzsPjxcY",
+            "asset": {
+              "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+              "name": "Avalanche",
+              "symbol": "AVAX",
+              "denomination": 9,
+              "type": "secp256k1",
+              "amount": "863820784550"
+            },
+            "utxoType": "transfer",
+            "outputIndex": "0",
+            "timestamp": 1791802659,
+            "creationTxHash": "JH1N6NcF3sEgnpihNJH3LXnLRiid6jXSCBuT7n7i7wY77kCAY",
+            "locktime": 0,
+            "threshold": 1,
+            "createdOnChainId": "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM",
+            "consumedOnChainId": "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM"
+          },
+          {
+            "addresses": [
+              "avax14fcd7fz2265nzn3q2wm3mylunpjyec2z4c2uy0"
+            ],
+            "utxoId": "pMyABdH4arEpjgCSER15ofpwXK43g4ACGjxHUcqBKHKu86GfW",
+            "asset": {
+              "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+              "name": "Avalanche",
+              "symbol": "AVAX",
+              "denomination": 9,
+              "type": "secp256k1",
+              "amount": "5933176341000"
+            },
+            "utxoType": "transfer",
+            "outputIndex": "1",
+            "timestamp": 1791802659,
+            "creationTxHash": "JH1N6NcF3sEgnpihNJH3LXnLRiid6jXSCBuT7n7i7wY77kCAY",
+            "consumingTxHash": "cf7EMNn6ionatrWAxYDcDipQSQKD5j6vX2gSDptoDtiiBN1qa",
+            "consumingTxTimestamp": 1791803119,
+            "locktime": 0,
+            "threshold": 1,
+            "createdOnChainId": "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM",
+            "consumedOnChainId": "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM",
+            "credentials": [
+              {
+                "publicKey": "ArUP54LcwlSU9l6lStK+u2U965Z8mXhvghzDKjfp/tiX",
+                "signature": "loEs/1xeDk3EJoR+DcqHuxW01Ep9jblhpVwO7uXdbF5dl+GQZjzqOz0C9WUWAO//9iHCAVeUzKuNPxiL7/RLnAE"
+              }
+            ]
+          }
+        ],
+        "amountUnlocked": [
+          {
+            "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+            "name": "Avalanche",
+            "symbol": "AVAX",
+            "denomination": 9,
+            "type": "secp256k1",
+            "amount": "6796998225550"
+          }
+        ],
+        "amountCreated": [
+          {
+            "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+            "name": "Avalanche",
+            "symbol": "AVAX",
+            "denomination": 9,
+            "type": "secp256k1",
+            "amount": "6796997125550"
+          }
+        ]
+      },
+      {
+        "txHash": "2od6j7ueY2rduvq8samULxRBqFshfdT28gEtK582GyJZYPAVRY",
+        "chainFormat": "linear",
+        "blockHash": "2KtnuuubNZKtgBFCEZuzLfrW4cH8upopXReXogQqDQBptmBo2G",
+        "blockHeight": 532936,
+        "txType": "BaseTx",
+        "timestamp": 1791802210,
+        "memo": "0x",
+        "consumedUtxos": [
+          {
+            "addresses": [
+              "avax13k6hxpfuu80dlnqlqs0dxxjrzl4lxz94n38vnw"
+            ],
+            "utxoId": "2Vk36HeZV3hNAD6XNmaPbfjGorMMienoXYk23ZosK1ySyo9fGV",
+            "asset": {
+              "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+              "name": "Avalanche",
+              "symbol": "AVAX",
+              "denomination": 9,
+              "type": "secp256k1",
+              "amount": "19215290000"
+            },
+            "utxoType": "transfer",
+            "outputIndex": "0",
+            "timestamp": 1791802210,
+            "creationTxHash": "26shzbYDHtzDK1nTZqr2JEsRkfhGfKkKQ3JRgbriQ3AYrYRUuE",
+            "consumingTxHash": "2od6j7ueY2rduvq8samULxRBqFshfdT28gEtK582GyJZYPAVRY",
+            "consumingTxTimestamp": 1791802210,
+            "locktime": 0,
+            "threshold": 1,
+            "createdOnChainId": "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM",
+            "consumedOnChainId": "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM",
+            "credentials": [
+              {
+                "publicKey": "AvCSms7xsWdAlkjQls79JIUUJ9oC0Bcxu9RgCY270ZK/",
+                "signature": "ZXoK8NhrpqwK7ap8QeIyZzDM3AXWj+i6Pynv/b0bGBomAAIKDeuDbiGelbynHmfINkbGCALR47D1cUkWz4MpRAA"
+              }
+            ]
+          }
+        ],
+        "emittedUtxos": [
+          {
+            "addresses": [
+              "avax13k6hxpfuu80dlnqlqs0dxxjrzl4lxz94n38vnw"
+            ],
+            "utxoId": "2TPpab1qS4hhp4Wf8wxHcCBLKDtZipeRHqLL3W5HA6njA9992L",
+            "asset": {
+              "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+              "name": "Avalanche",
+              "symbol": "AVAX",
+              "denomination": 9,
+              "type": "secp256k1",
+              "amount": "9369440000"
+            },
+            "utxoType": "transfer",
+            "outputIndex": "0",
+            "timestamp": 1791802210,
+            "creationTxHash": "2od6j7ueY2rduvq8samULxRBqFshfdT28gEtK582GyJZYPAVRY",
+            "locktime": 0,
+            "threshold": 1,
+            "createdOnChainId": "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM",
+            "consumedOnChainId": "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM"
+          },
+          {
+            "addresses": [
+              "avax1axaet088jfwye7atavq823yjt0769he8anh5vp"
+            ],
+            "utxoId": "2E3u5wjz61dRiFqVukB62hnsPtUpX9yRVngmWXR2mg5F85UVDs",
+            "asset": {
+              "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+              "name": "Avalanche",
+              "symbol": "AVAX",
+              "denomination": 9,
+              "type": "secp256k1",
+              "amount": "9844850000"
+            },
+            "utxoType": "transfer",
+            "outputIndex": "1",
+            "timestamp": 1791802210,
+            "creationTxHash": "2od6j7ueY2rduvq8samULxRBqFshfdT28gEtK582GyJZYPAVRY",
+            "locktime": 0,
+            "threshold": 1,
+            "createdOnChainId": "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM",
+            "consumedOnChainId": "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM"
+          }
+        ],
+        "amountUnlocked": [
+          {
+            "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+            "name": "Avalanche",
+            "symbol": "AVAX",
+            "denomination": 9,
+            "type": "secp256k1",
+            "amount": "19215290000"
+          }
+        ],
+        "amountCreated": [
+          {
+            "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+            "name": "Avalanche",
+            "symbol": "AVAX",
+            "denomination": 9,
+            "type": "secp256k1",
+            "amount": "19214290000"
+          }
+        ]
+      },
+      {
+        "txHash": "F3M5spgcvJJoojVdvk6X6XjHWbjs5keF9tN9LoRTAgry4D1nT",
+        "chainFormat": "linear",
+        "blockHash": "QPRvL8Cnp2fAbKnoqXfbJET23XMQxpLxY6L6EZ3eHVS2JPLmz",
+        "blockHeight": 532935,
+        "txType": "BaseTx",
+        "timestamp": 1791801768,
+        "memo": "0x",
+        "consumedUtxos": [
+          {
+            "addresses": [
+              "avax1up042d2a92cuq7sx8xl9744lvt2ga8uzw4mafk"
+            ],
+            "utxoId": "taFeqZEni74nYciZ5Wdv32gA45nCYhNikNB3j87BkMaNwj1Ls",
+            "asset": {
+              "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+              "name": "Avalanche",
+              "symbol": "AVAX",
+              "denomination": 9,
+              "type": "secp256k1",
+              "amount": "579400000000"
+            },
+            "utxoType": "transfer",
+            "outputIndex": "0",
+            "timestamp": 1791801768,
+            "creationTxHash": "izbcSqBMxSWPP6mL5A9cfQZ5V4YX98ASHY7UfxBGEWzmh1uA6",
+            "consumingTxHash": "F3M5spgcvJJoojVdvk6X6XjHWbjs5keF9tN9LoRTAgry4D1nT",
+            "consumingTxTimestamp": 1791801768,
+            "locktime": 0,
+            "threshold": 1,
+            "createdOnChainId": "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM",
+            "consumedOnChainId": "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM",
+            "credentials": [
+              {
+                "publicKey": "Awf9BittqGgXoREJrr68VouwpNJrhznNQ5qNZZigduCH",
+                "signature": "tBhGU0Cm2T4JiXzfdbxZmApJMhYEOR9kRbkIlxzGRKhNdnx2AXls655izs+776HYE3uR1jI8tTdCvXqlJxl7vwE"
+              }
+            ]
+          }
+        ],
+        "emittedUtxos": [
+          {
+            "addresses": [
+              "avax13k6hxpfuu80dlnqlqs0dxxjrzl4lxz94n38vnw"
+            ],
+            "utxoId": "2T4MorZQaBgDankbd5rzh9gXJqmEKhnHyUJL8ASvXvLL8w5fpL",
+            "asset": {
+              "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+              "name": "Avalanche",
+              "symbol": "AVAX",
+              "denomination": 9,
+              "type": "secp256k1",
+              "amount": "579399000000"
+            },
+            "utxoType": "transfer",
+            "outputIndex": "0",
+            "timestamp": 1791801768,
+            "creationTxHash": "F3M5spgcvJJoojVdvk6X6XjHWbjs5keF9tN9LoRTAgry4D1nT",
+            "locktime": 0,
+            "threshold": 1,
+            "createdOnChainId": "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM",
+            "consumedOnChainId": "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM"
+          }
+        ],
+        "amountUnlocked": [
+          {
+            "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+            "name": "Avalanche",
+            "symbol": "AVAX",
+            "denomination": 9,
+            "type": "secp256k1",
+            "amount": "579400000000"
+          }
+        ],
+        "amountCreated": [
+          {
+            "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+            "name": "Avalanche",
+            "symbol": "AVAX",
+            "denomination": 9,
+            "type": "secp256k1",
+            "amount": "579399000000"
+          }
+        ]
+      },
+      {
+        "txHash": "izbcSqBMxSWPP6mL5A9cfQZ5V4YX98ASHY7UfxBGEWzmh1uA6",
+        "chainFormat": "linear",
+        "blockHash": "UQRaJvA4tfPdwmWLQH81kRnC6Jm3AEJgDazvKLeWwzZUNYEmP",
+        "blockHeight": 532934,
+        "txType": "BaseTx",
+        "timestamp": 1791801220,
+        "memo": "0x",
+        "consumedUtxos": [
+          {
+            "addresses": [
+              "avax1ju2khnvkex4u30rt5jm5x8jd3jdfhvawg7ed9x"
+            ],
+            "utxoId": "S6QieYFGi3o4KVtqeQNdMWYTcXFH55V48eaq6z2EvPBDCwmHV",
+            "asset": {
+              "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+              "name": "Avalanche",
+              "symbol": "AVAX",
+              "denomination": 9,
+              "type": "secp256k1",
+              "amount": "3199993290000"
+            },
+            "utxoType": "transfer",
+            "outputIndex": "0",
+            "timestamp": 1791801220,
+            "creationTxHash": "2EqDHrCJnG5HJ7D3MAyC6AyRBARopVi6Eis5Voq4F24XYHdiU9",
+            "consumingTxHash": "izbcSqBMxSWPP6mL5A9cfQZ5V4YX98ASHY7UfxBGEWzmh1uA6",
+            "consumingTxTimestamp": 1791801220,
+            "locktime": 0,
+            "threshold": 1,
+            "createdOnChainId": "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM",
+            "consumedOnChainId": "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM",
+            "credentials": [
+              {
+                "publicKey": "AgseH721hHwrgzzBUYkI+La+ZocbroER1vuPS2P820MU",
+                "signature": "HUnOgVWuSASrwYqGfREH+2PK1I8OqH9ecZ3mySXgBcsmGi/uND/JeIBJWZurPLnbz+U9BZj7C0iQVBizfo10zgE"
+              }
+            ]
+          }
+        ],
+        "emittedUtxos": [
+          {
+            "addresses": [
+              "avax1up042d2a92cuq7sx8xl9744lvt2ga8uzw4mafk"
+            ],
+            "utxoId": "taFeqZEni74nYciZ5Wdv32gA45nCYhNikNB3j87BkMaNwj1Ls",
+            "asset": {
+              "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+              "name": "Avalanche",
+              "symbol": "AVAX",
+              "denomination": 9,
+              "type": "secp256k1",
+              "amount": "579400000000"
+            },
+            "utxoType": "transfer",
+            "outputIndex": "0",
+            "timestamp": 1791801220,
+            "creationTxHash": "izbcSqBMxSWPP6mL5A9cfQZ5V4YX98ASHY7UfxBGEWzmh1uA6",
+            "consumingTxHash": "F3M5spgcvJJoojVdvk6X6XjHWbjs5keF9tN9LoRTAgry4D1nT",
+            "consumingTxTimestamp": 1791801768,
+            "locktime": 0,
+            "threshold": 1,
+            "createdOnChainId": "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM",
+            "consumedOnChainId": "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM",
+            "credentials": [
+              {
+                "publicKey": "Awf9BittqGgXoREJrr68VouwpNJrhznNQ5qNZZigduCH",
+                "signature": "tBhGU0Cm2T4JiXzfdbxZmApJMhYEOR9kRbkIlxzGRKhNdnx2AXls655izs+776HYE3uR1jI8tTdCvXqlJxl7vwE"
+              }
+            ]
+          },
+          {
+            "addresses": [
+              "avax1ju2khnvkex4u30rt5jm5x8jd3jdfhvawg7ed9x"
+            ],
+            "utxoId": "LX443Rh6ovZ7Xuimjdiw8RKkmLKrTqdSUsFmWkrxrBCBrMm11",
+            "asset": {
+              "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+              "name": "Avalanche",
+              "symbol": "AVAX",
+              "denomination": 9,
+              "type": "secp256k1",
+              "amount": "2620592290000"
+            },
+            "utxoType": "transfer",
+            "outputIndex": "1",
+            "timestamp": 1791801220,
+            "creationTxHash": "izbcSqBMxSWPP6mL5A9cfQZ5V4YX98ASHY7UfxBGEWzmh1uA6",
+            "locktime": 0,
+            "threshold": 1,
+            "createdOnChainId": "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM",
+            "consumedOnChainId": "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM"
+          }
+        ],
+        "amountUnlocked": [
+          {
+            "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+            "name": "Avalanche",
+            "symbol": "AVAX",
+            "denomination": 9,
+            "type": "secp256k1",
+            "amount": "3199993290000"
+          }
+        ],
+        "amountCreated": [
+          {
+            "assetId": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+            "name": "Avalanche",
+            "symbol": "AVAX",
+            "denomination": 9,
+            "type": "secp256k1",
+            "amount": "3199992290000"
+          }
+        ]
+      }
+    ],
+    "nextPageToken": "d6897d1a-6950-4e76-a449-4f0ec44d407a",
+    "chainInfo": {
+      "chainName": "x-chain",
+      "network": "mainnet"
+    }
+  }
+}

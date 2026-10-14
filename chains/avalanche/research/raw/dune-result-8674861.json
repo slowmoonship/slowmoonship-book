@@ -1,0 +1,203 @@
+{
+  "result": {
+    "_meta": {
+      "mcp_event_id": "b7203932-22c6-4b29-8533-3fe224543389"
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"executionId\":\"01M278XXCVSPD1DGPBS2ZZEXYP\",\"state\":\"COMPLETED\",\"resultMetadata\":{\"columns\":[{\"name\":\"blockchain_id\",\"type\":\"varchar\"},{\"name\":\"subnet_id\",\"type\":\"varchar\"},{\"name\":\"blockchain_name\",\"type\":\"varchar\"},{\"name\":\"name\",\"type\":\"varchar\"},{\"name\":\"evm_chain_id\",\"type\":\"bigint\"},{\"name\":\"chain_type\",\"type\":\"varchar\"},{\"name\":\"chain_created_at\",\"type\":\"varchar\"},{\"name\":\"data_refreshed_at\",\"type\":\"varchar\"},{\"name\":\"pchain_fetch_status\",\"type\":\"varchar\"},{\"name\":\"glacier_fetch_status\",\"type\":\"varchar\"},{\"name\":\"rpc_fetch_status\",\"type\":\"varchar\"}],\"totalRowCount\":10,\"executionCostCredits\":\"0.016\"},\"data\":{\"rows\":[{\"blockchain_id\":\"AWJN2rFNhdj49QL8F6Nq5gUX7PDFCDGBZtXMjDw9sxZNGPFpc\",\"subnet_id\":\"2fXwaoJwsBoujXgwEucfC1ZrZdbR59iMgcgsbwFb9JNZQjKPA2\",\"blockchain_name\":null,\"name\":null,\"evm_chain_id\":20162025,\"chain_type\":\"L1\",\"chain_created_at\":\"2025-06-03T02:08:28Z\",\"data_refreshed_at\":\"2026-09-10T18:56:03Z\",\"pchain_fetch_status\":\"ok\",\"glacier_fetch_status\":\"missing\",\"rpc_fetch_status\":null},{\"blockchain_id\":\"SDG9NDpCk7GFcbADon17apfRe1ynDpA94gbVMTAFHjzPA8bbB\",\"subnet_id\":\"wuCkRgTHeMZyj7KCiQDpNZoAmFduLx8KRwNxzJYaK7RzVGR6z\",\"blockchain_name\":null,\"name\":null,\"evm_chain_id\":56395,\"chain_type\":\"L1\",\"chain_created_at\":\"2025-06-02T02:50:55Z\",\"data_refreshed_at\":\"2026-09-10T18:56:03Z\",\"pchain_fetch_status\":\"ok\",\"glacier_fetch_status\":\"missing\",\"rpc_fetch_status\":null},{\"blockchain_id\":\"2nsYq166yzgV5qvtM3vJQ6vKJTUXx8WLEg9HSJ7GfSx7xtRhvi\",\"subnet_id\":\"qCccbQ4CJekniXpdgfdoFinEAkUf4wys9T89JNTK9CuvcMW81\",\"blockchain_name\":null,\"name\":null,\"evm_chain_id\":99185,\"chain_type\":\"L1\",\"chain_created_at\":\"2025-05-23T23:47:15Z\",\"data_refreshed_at\":\"2026-09-10T18:56:03Z\",\"pchain_fetch_status\":\"ok\",\"glacier_fetch_status\":\"missing\",\"rpc_fetch_status\":null},{\"blockchain_id\":\"s1vB7Hv5aCwEdfWGyPtvtuha4Ec8hjE17bkGrqsq8KALDkQE6\",\"subnet_id\":\"3inyDoxM3Wksbxbo1oRXvxLKHyxK98XZYww5AknyapjfhQoRT\",\"blockchain_name\":null,\"name\":null,\"evm_chain_id\":47037,\"chain_type\":\"L1\",\"chain_created_at\":\"2025-05-18T00:43:23Z\",\"data_refreshed_at\":\"2026-09-10T18:56:03Z\",\"pchain_fetch_status\":\"ok\",\"glacier_fetch_status\":\"missing\",\"rpc_fetch_status\":null},{\"blockchain_id\":\"27FMeej7V525fJRjqoyz26ZLcfgWeTFUdKMKLJC2judEb3sUEU\",\"subnet_id\":\"2pTWAFD3vGZQfg7wVJQvyr3RLscmjTczudAe9PspWHGixhNa1k\",\"blockchain_name\":null,\"name\":null,\"evm_chain_id\":90278,\"chain_type\":\"Subnet\",\"chain_created_at\":\"2025-05-17T12:47:31Z\",\"data_refreshed_at\":\"2026-09-10T18:56:03Z\",\"pchain_fetch_status\":\"ok\",\"glacier_fetch_status\":\"missing\",\"rpc_fetch_status\":null},{\"blockchain_id\":\"2CkSqfaCYCoRb8TmEYoamGHp1QpwEkdUQpaLsxYbpULc2YcBWz\",\"subnet_id\":\"2MFMK4igZd3bL133TE8qao9QTKi56s2AK83yTL2hE9JYkZde5U\",\"blockchain_name\":\"AcadChain\",\"name\":\"AcadChain\",\"evm_chain_id\":7890,\"chain_type\":\"L1\",\"chain_created_at\":\"2025-03-07T08:04:05Z\",\"data_refreshed_at\":\"2026-09-10T18:56:03Z\",\"pchain_fetch_status\":\"ok\",\"glacier_fetch_status\":\"missing\",\"rpc_fetch_status\":null},{\"blockchain_id\":\"2wgBBD7vYiDTvxxzxKnVFW7W3TEe6gz9pKzmxMF7hzn3BTtEjM\",\"subnet_id\":\"2H1TLFqf4y1rbcdC9R6iaospSLuDQVkjhYzZ5Vy2gCNGkubXqp\",\"blockchain_name\":\"AcadChain\",\"name\":\"AcadChain\",\"evm_chain_id\":7890,\"chain_type\":\"L1\",\"chain_created_at\":\"2025-03-07T09:10:50Z\",\"data_refreshed_at\":\"2026-09-10T18:56:03Z\",\"pchain_fetch_status\":\"ok\",\"glacier_fetch_status\":\"missing\",\"rpc_fetch_status\":null},{\"blockchain_id\":\"2FUHgWJcZ4j8FrEi1DsdGyq6vMWQXeQGbZLuzcU6sFAazvnrYd\",\"subnet_id\":\"2qJPnDkDH6hn3PVzxzkUdTqDD1HeAnTT8FL4t2BJagc2iuq8j7\",\"blockchain_name\":\"AIBTRUSTMainnet\",\"name\":\"AIBTRUST\",\"evm_chain_id\":80000,\"chain_type\":\"L1\",\"chain_created_at\":\"2024-11-28T01:21:55Z\",\"data_refreshed_at\":\"2026-09-10T18:56:03Z\",\"pchain_fetch_status\":\"ok\",\"glacier_fetch_status\":\"missing\",\"rpc_fetch_status\":null},{\"blockchain_id\":\"2Spwr581ETDYZSnppCDx2d4k639igEZKBKutU6vhY95RvQ1zg3\",\"subnet_id\":\"qgbXLmxHTsTkRbAmXYFEtrPQ1D9TUqw3c4oAR4jm4RpXicH35\",\"blockchain_name\":\"AIBTRUSTMainnet\",\"name\":\"AIBTRUSTMainnet\",\"evm_chain_id\":20000,\"chain_type\":\"Subnet\",\"chain_created_at\":\"2024-11-27T05:45:20Z\",\"data_refreshed_at\":\"2026-09-10T18:56:03Z\",\"pchain_fetch_status\":\"ok\",\"glacier_fetch_status\":\"missing\",\"rpc_fetch_status\":null},{\"blockchain_id\":\"48CGt26jWt2YauRcV222Uryzj1tLojpKBKYkXYzWBTnma7QrF\",\"subnet_id\":\"2LxjhW4wfLc26Jn1HnzEhcnvsBpbgKKz6LSvEwgRtT7qHw4y3u\",\"blockchain_name\":\"Amichain\",\"name\":\"Amichain\",\"evm_chain_id\":588785742,\"chain_type\":\"L1\",\"chain_created_at\":\"2025-09-01T13:34:01Z\",\"data_refreshed_at\":\"2026-09-10T18:56:03Z\",\"pchain_fetch_status\":\"ok\",\"glacier_fetch_status\":\"missing\",\"rpc_fetch_status\":null}]}}"
+      }
+    ],
+    "structuredContent": {
+      "executionId": "01M278XXCVSPD1DGPBS2ZZEXYP",
+      "state": "COMPLETED",
+      "resultMetadata": {
+        "columns": [
+          {
+            "name": "blockchain_id",
+            "type": "varchar"
+          },
+          {
+            "name": "subnet_id",
+            "type": "varchar"
+          },
+          {
+            "name": "blockchain_name",
+            "type": "varchar"
+          },
+          {
+            "name": "name",
+            "type": "varchar"
+          },
+          {
+            "name": "evm_chain_id",
+            "type": "bigint"
+          },
+          {
+            "name": "chain_type",
+            "type": "varchar"
+          },
+          {
+            "name": "chain_created_at",
+            "type": "varchar"
+          },
+          {
+            "name": "data_refreshed_at",
+            "type": "varchar"
+          },
+          {
+            "name": "pchain_fetch_status",
+            "type": "varchar"
+          },
+          {
+            "name": "glacier_fetch_status",
+            "type": "varchar"
+          },
+          {
+            "name": "rpc_fetch_status",
+            "type": "varchar"
+          }
+        ],
+        "totalRowCount": 10,
+        "executionCostCredits": "0.016"
+      },
+      "data": {
+        "rows": [
+          {
+            "blockchain_id": "AWJN2rFNhdj49QL8F6Nq5gUX7PDFCDGBZtXMjDw9sxZNGPFpc",
+            "subnet_id": "2fXwaoJwsBoujXgwEucfC1ZrZdbR59iMgcgsbwFb9JNZQjKPA2",
+            "blockchain_name": null,
+            "name": null,
+            "evm_chain_id": 20162025,
+            "chain_type": "L1",
+            "chain_created_at": "2025-06-03T02:08:28Z",
+            "data_refreshed_at": "2026-09-10T18:56:03Z",
+            "pchain_fetch_status": "ok",
+            "glacier_fetch_status": "missing",
+            "rpc_fetch_status": null
+          },
+          {
+            "blockchain_id": "SDG9NDpCk7GFcbADon17apfRe1ynDpA94gbVMTAFHjzPA8bbB",
+            "subnet_id": "wuCkRgTHeMZyj7KCiQDpNZoAmFduLx8KRwNxzJYaK7RzVGR6z",
+            "blockchain_name": null,
+            "name": null,
+            "evm_chain_id": 56395,
+            "chain_type": "L1",
+            "chain_created_at": "2025-06-02T02:50:55Z",
+            "data_refreshed_at": "2026-09-10T18:56:03Z",
+            "pchain_fetch_status": "ok",
+            "glacier_fetch_status": "missing",
+            "rpc_fetch_status": null
+          },
+          {
+            "blockchain_id": "2nsYq166yzgV5qvtM3vJQ6vKJTUXx8WLEg9HSJ7GfSx7xtRhvi",
+            "subnet_id": "qCccbQ4CJekniXpdgfdoFinEAkUf4wys9T89JNTK9CuvcMW81",
+            "blockchain_name": null,
+            "name": null,
+            "evm_chain_id": 99185,
+            "chain_type": "L1",
+            "chain_created_at": "2025-05-23T23:47:15Z",
+            "data_refreshed_at": "2026-09-10T18:56:03Z",
+            "pchain_fetch_status": "ok",
+            "glacier_fetch_status": "missing",
+            "rpc_fetch_status": null
+          },
+          {
+            "blockchain_id": "s1vB7Hv5aCwEdfWGyPtvtuha4Ec8hjE17bkGrqsq8KALDkQE6",
+            "subnet_id": "3inyDoxM3Wksbxbo1oRXvxLKHyxK98XZYww5AknyapjfhQoRT",
+            "blockchain_name": null,
+            "name": null,
+            "evm_chain_id": 47037,
+            "chain_type": "L1",
+            "chain_created_at": "2025-05-18T00:43:23Z",
+            "data_refreshed_at": "2026-09-10T18:56:03Z",
+            "pchain_fetch_status": "ok",
+            "glacier_fetch_status": "missing",
+            "rpc_fetch_status": null
+          },
+          {
+            "blockchain_id": "27FMeej7V525fJRjqoyz26ZLcfgWeTFUdKMKLJC2judEb3sUEU",
+            "subnet_id": "2pTWAFD3vGZQfg7wVJQvyr3RLscmjTczudAe9PspWHGixhNa1k",
+            "blockchain_name": null,
+            "name": null,
+            "evm_chain_id": 90278,
+            "chain_type": "Subnet",
+            "chain_created_at": "2025-05-17T12:47:31Z",
+            "data_refreshed_at": "2026-09-10T18:56:03Z",
+            "pchain_fetch_status": "ok",
+            "glacier_fetch_status": "missing",
+            "rpc_fetch_status": null
+          },
+          {
+            "blockchain_id": "2CkSqfaCYCoRb8TmEYoamGHp1QpwEkdUQpaLsxYbpULc2YcBWz",
+            "subnet_id": "2MFMK4igZd3bL133TE8qao9QTKi56s2AK83yTL2hE9JYkZde5U",
+            "blockchain_name": "AcadChain",
+            "name": "AcadChain",
+            "evm_chain_id": 7890,
+            "chain_type": "L1",
+            "chain_created_at": "2025-03-07T08:04:05Z",
+            "data_refreshed_at": "2026-09-10T18:56:03Z",
+            "pchain_fetch_status": "ok",
+            "glacier_fetch_status": "missing",
+            "rpc_fetch_status": null
+          },
+          {
+            "blockchain_id": "2wgBBD7vYiDTvxxzxKnVFW7W3TEe6gz9pKzmxMF7hzn3BTtEjM",
+            "subnet_id": "2H1TLFqf4y1rbcdC9R6iaospSLuDQVkjhYzZ5Vy2gCNGkubXqp",
+            "blockchain_name": "AcadChain",
+            "name": "AcadChain",
+            "evm_chain_id": 7890,
+            "chain_type": "L1",
+            "chain_created_at": "2025-03-07T09:10:50Z",
+            "data_refreshed_at": "2026-09-10T18:56:03Z",
+            "pchain_fetch_status": "ok",
+            "glacier_fetch_status": "missing",
+            "rpc_fetch_status": null
+          },
+          {
+            "blockchain_id": "2FUHgWJcZ4j8FrEi1DsdGyq6vMWQXeQGbZLuzcU6sFAazvnrYd",
+            "subnet_id": "2qJPnDkDH6hn3PVzxzkUdTqDD1HeAnTT8FL4t2BJagc2iuq8j7",
+            "blockchain_name": "AIBTRUSTMainnet",
+            "name": "AIBTRUST",
+            "evm_chain_id": 80000,
+            "chain_type": "L1",
+            "chain_created_at": "2024-11-28T01:21:55Z",
+            "data_refreshed_at": "2026-09-10T18:56:03Z",
+            "pchain_fetch_status": "ok",
+            "glacier_fetch_status": "missing",
+            "rpc_fetch_status": null
+          },
+          {
+            "blockchain_id": "2Spwr581ETDYZSnppCDx2d4k639igEZKBKutU6vhY95RvQ1zg3",
+            "subnet_id": "qgbXLmxHTsTkRbAmXYFEtrPQ1D9TUqw3c4oAR4jm4RpXicH35",
+            "blockchain_name": "AIBTRUSTMainnet",
+            "name": "AIBTRUSTMainnet",
+            "evm_chain_id": 20000,
+            "chain_type": "Subnet",
+            "chain_created_at": "2024-11-27T05:45:20Z",
+            "data_refreshed_at": "2026-09-10T18:56:03Z",
+            "pchain_fetch_status": "ok",
+            "glacier_fetch_status": "missing",
+            "rpc_fetch_status": null
+          },
+          {
+            "blockchain_id": "48CGt26jWt2YauRcV222Uryzj1tLojpKBKYkXYzWBTnma7QrF",
+            "subnet_id": "2LxjhW4wfLc26Jn1HnzEhcnvsBpbgKKz6LSvEwgRtT7qHw4y3u",
+            "blockchain_name": "Amichain",
+            "name": "Amichain",
+            "evm_chain_id": 588785742,
+            "chain_type": "L1",
+            "chain_created_at": "2025-09-01T13:34:01Z",
+            "data_refreshed_at": "2026-09-10T18:56:03Z",
+            "pchain_fetch_status": "ok",
+            "glacier_fetch_status": "missing",
+            "rpc_fetch_status": null
+          }
+        ]
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 22
+}

@@ -1,0 +1,312 @@
+{
+  "status": "PASS",
+  "date": "2026-10-14",
+  "file_count": 748,
+  "new_file_count": 248,
+  "markdown_files": 302,
+  "internal_references_checked": 1925,
+  "valid_internal_references": 1925,
+  "internal_fragment_references": 0,
+  "heading_ids_checked": 567,
+  "repeated_heading_bases": 0,
+  "heading_algorithm": "marked GFM + github-slugger 2.0.0",
+  "protected_old_files": 492,
+  "source_before_after_equal": true,
+  "svg_chrome_renders": 40,
+  "avalanche": {
+    "selected_source_files": 242,
+    "source_file_count": 396,
+    "excluded_source_files": 154,
+    "markdown_files": 79,
+    "reading_pages": 46,
+    "body_chapters": 40,
+    "appendices": 5,
+    "svg_files": 40,
+    "drawio_files": 40,
+    "sql_files": 13,
+    "new_sql_files": 10,
+    "historical_sql_files": 3,
+    "new_sql_executions": 0,
+    "rpc_json_examples": 15,
+    "case_groups": 9,
+    "distinct_transactions": 12,
+    "internal_references_checked": 488,
+    "json_reference_paths_checked": 90,
+    "offline_relationship_checks": 9,
+    "mechanically_changed_files": 54,
+    "all_reading_prose_preserved": true
+  },
+  "errors": [],
+  "warnings": [],
+  "svg_xml_checks": [
+    {
+      "path": "chains/avalanche/assets/diagrams/atomic-transfer.svg",
+      "width": "640",
+      "height": "916",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/x-utxo.svg",
+      "width": "640",
+      "height": "774",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/p-transaction-types.svg",
+      "width": "640",
+      "height": "774",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/cross-chain-mechanisms.svg",
+      "width": "640",
+      "height": "632",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/x-transfer-case.svg",
+      "width": "640",
+      "height": "774",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/validator-manager.svg",
+      "width": "640",
+      "height": "774",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/end-to-end.svg",
+      "width": "640",
+      "height": "916",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/primary-staking.svg",
+      "width": "640",
+      "height": "774",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/dune-raw.svg",
+      "width": "640",
+      "height": "774",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/validator-lifecycle.svg",
+      "width": "640",
+      "height": "774",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/observability.svg",
+      "width": "640",
+      "height": "916",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/icm-layers.svg",
+      "width": "640",
+      "height": "774",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/helicon.svg",
+      "width": "640",
+      "height": "632",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/data-architecture.svg",
+      "width": "640",
+      "height": "774",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/gas-token-costs.svg",
+      "width": "640",
+      "height": "632",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/multi-chain-model.svg",
+      "width": "640",
+      "height": "774",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/message-states.svg",
+      "width": "640",
+      "height": "774",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/beam-evidence.svg",
+      "width": "640",
+      "height": "774",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/fees.svg",
+      "width": "640",
+      "height": "632",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/three-models.svg",
+      "width": "640",
+      "height": "632",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/continuous-fees.svg",
+      "width": "640",
+      "height": "774",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/c-transfer.svg",
+      "width": "640",
+      "height": "774",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/identifiers.svg",
+      "width": "640",
+      "height": "774",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/network-balance.svg",
+      "width": "640",
+      "height": "774",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/sql-grain.svg",
+      "width": "640",
+      "height": "774",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/manager-bootstrap.svg",
+      "width": "640",
+      "height": "774",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/snowman.svg",
+      "width": "640",
+      "height": "774",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/consensus-vm.svg",
+      "width": "640",
+      "height": "774",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/p-data-model.svg",
+      "width": "640",
+      "height": "774",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/runtime-map.svg",
+      "width": "640",
+      "height": "916",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/c-execution.svg",
+      "width": "640",
+      "height": "774",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/json-normalization.svg",
+      "width": "640",
+      "height": "774",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/etna-comparison.svg",
+      "width": "640",
+      "height": "774",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/launch-l1.svg",
+      "width": "640",
+      "height": "774",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/data-lineage.svg",
+      "width": "640",
+      "height": "774",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/token-logs.svg",
+      "width": "640",
+      "height": "774",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/validator-identities.svg",
+      "width": "640",
+      "height": "774",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/atomic-reconcile.svg",
+      "width": "640",
+      "height": "632",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/warp-flow.svg",
+      "width": "640",
+      "height": "916",
+      "native_embedded_equal": true
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/network-overview.svg",
+      "width": "640",
+      "height": "916",
+      "native_embedded_equal": true
+    }
+  ],
+  "security_status": "PATTERN_SCAN_AND_CONTEXT_REVIEW_NO_BLOCKING_FINDING",
+  "limits": [
+    "No new SQL/API acquisition or deployment",
+    "No all-external-link crawl or comprehensive protocol revalidation",
+    "Author human review UNKNOWN; original editorial self-review is not independent confirmation",
+    "GitBook NOT_CONFIGURED by repository evidence; account and sync UNVERIFIED",
+    "Not all unknown secret forms can be ruled out",
+    "Upstream full-text snapshots excluded; comprehensive third-party authorization UNKNOWN",
+    "Native draw.io desktop interaction not performed",
+    "Remote and visual samples separately recorded"
+  ],
+  "svg_visual_sample": {
+    "status": "SAMPLE_REVIEWED",
+    "files": [
+      "network-overview.svg",
+      "manager-bootstrap.svg",
+      "message-states.svg",
+      "atomic-transfer.svg"
+    ],
+    "finding": "Chinese/English labels and arrows legible, no observed clipping in four samples; not all diagrams visually reviewed in this publication run."
+  },
+  "remote_verification": "POST_PUSH_SEPARATE",
+  "security_context_review": {
+    "url_credential_candidates": 0,
+    "public_keys": "BLS publicKey fields from public on-chain API; not private key material",
+    "pagination": "nextPageToken is API pagination cursor; not an access credential",
+    "token_fields": "networkToken/erc20Token are asset metadata",
+    "third_party_snapshots": "40 whole-document upstream source copies excluded"
+  }
+}

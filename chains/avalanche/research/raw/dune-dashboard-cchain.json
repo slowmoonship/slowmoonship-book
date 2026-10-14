@@ -1,0 +1,375 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"dashboardId\":220086,\"name\":\"Avalanche C-Chain — Runtime, Contracts & Onchain Economy\",\"slug\":\"avalanche-c-chain-runtime-contracts-onchain-economy\",\"isPrivate\":false,\"tags\":[],\"dashboardUrl\":\"https://dune.com/slowmoonship/avalanche-c-chain-runtime-contracts-onchain-economy\",\"visualizationWidgets\":[{\"widgetId\":2422632,\"visualizationId\":12697826,\"position\":{\"col\":0,\"row\":8,\"sizeX\":3,\"sizeY\":5}},{\"widgetId\":2422633,\"visualizationId\":12697827,\"position\":{\"col\":3,\"row\":8,\"sizeX\":3,\"sizeY\":5}},{\"widgetId\":2422634,\"visualizationId\":12697828,\"position\":{\"col\":0,\"row\":13,\"sizeX\":3,\"sizeY\":5}},{\"widgetId\":2422635,\"visualizationId\":12697829,\"position\":{\"col\":3,\"row\":13,\"sizeX\":3,\"sizeY\":5}},{\"widgetId\":2422636,\"visualizationId\":12697757,\"position\":{\"col\":0,\"row\":21,\"sizeX\":3,\"sizeY\":8}},{\"widgetId\":2422637,\"visualizationId\":12697804,\"position\":{\"col\":3,\"row\":21,\"sizeX\":3,\"sizeY\":8}},{\"widgetId\":2422638,\"visualizationId\":12697805,\"position\":{\"col\":0,\"row\":29,\"sizeX\":3,\"sizeY\":8}},{\"widgetId\":2422639,\"visualizationId\":12697806,\"position\":{\"col\":3,\"row\":29,\"sizeX\":3,\"sizeY\":8}},{\"widgetId\":2422640,\"visualizationId\":12697818,\"position\":{\"col\":0,\"row\":37,\"sizeX\":3,\"sizeY\":8}},{\"widgetId\":2422641,\"visualizationId\":12697819,\"position\":{\"col\":3,\"row\":37,\"sizeX\":3,\"sizeY\":8}},{\"widgetId\":2422642,\"visualizationId\":12697820,\"position\":{\"col\":0,\"row\":45,\"sizeX\":6,\"sizeY\":7}},{\"widgetId\":2422643,\"visualizationId\":12697808,\"position\":{\"col\":0,\"row\":55,\"sizeX\":3,\"sizeY\":8}},{\"widgetId\":2422644,\"visualizationId\":12697809,\"position\":{\"col\":3,\"row\":55,\"sizeX\":3,\"sizeY\":8}},{\"widgetId\":2422645,\"visualizationId\":12697810,\"position\":{\"col\":0,\"row\":63,\"sizeX\":6,\"sizeY\":7}},{\"widgetId\":2422646,\"visualizationId\":12703854,\"position\":{\"col\":0,\"row\":70,\"sizeX\":3,\"sizeY\":8}},{\"widgetId\":2422647,\"visualizationId\":12703856,\"position\":{\"col\":3,\"row\":70,\"sizeX\":3,\"sizeY\":8}},{\"widgetId\":2422648,\"visualizationId\":12703858,\"position\":{\"col\":0,\"row\":78,\"sizeX\":6,\"sizeY\":4}},{\"widgetId\":2422649,\"visualizationId\":12697822,\"position\":{\"col\":0,\"row\":85,\"sizeX\":3,\"sizeY\":8}},{\"widgetId\":2422650,\"visualizationId\":12697823,\"position\":{\"col\":3,\"row\":85,\"sizeX\":3,\"sizeY\":8}},{\"widgetId\":2422651,\"visualizationId\":12697831,\"position\":{\"col\":0,\"row\":93,\"sizeX\":6,\"sizeY\":11}},{\"widgetId\":2422652,\"visualizationId\":12697849,\"position\":{\"col\":0,\"row\":107,\"sizeX\":6,\"sizeY\":8}},{\"widgetId\":2422653,\"visualizationId\":12697850,\"position\":{\"col\":0,\"row\":115,\"sizeX\":3,\"sizeY\":8}},{\"widgetId\":2422654,\"visualizationId\":12697851,\"position\":{\"col\":3,\"row\":115,\"sizeX\":3,\"sizeY\":8}},{\"widgetId\":2422655,\"visualizationId\":12697852,\"position\":{\"col\":0,\"row\":126,\"sizeX\":6,\"sizeY\":8}},{\"widgetId\":2422656,\"visualizationId\":12697853,\"position\":{\"col\":0,\"row\":134,\"sizeX\":6,\"sizeY\":10}}],\"textWidgets\":[{\"widgetId\":2422622,\"text\":\"# Avalanche C-Chain — Runtime, Contracts & Onchain Economy\\n**SlowMoonShip: Gateway to Onchain Data · v0.2**\\nC-Chain is one EVM execution chain within the Avalanche Primary Network. This dashboard measures C-Chain-specific runtime, contract activity, fees and on-chain asset flows. It is **not** a measurement of all Avalanche L1s; for the network view see the companion dashboard.\",\"position\":{\"col\":0,\"row\":0,\"sizeX\":6,\"sizeY\":5}},{\"widgetId\":2422623,\"text\":\"## Latest Complete UTC Day\\nThe four counters above cover the **last complete UTC calendar day**, not a rolling 24-hour window. Active senders are distinct addresses initiating successful transactions; no contract filter is applied and the metric is not a people count. Daily fees equal `gas_used × effective gas_price / 10^18` AVAX and include failed transactions.\",\"position\":{\"col\":0,\"row\":5,\"sizeX\":6,\"sizeY\":3}},{\"widgetId\":2422624,\"text\":\"## Runtime\\nTransactions include success and failure. Active senders count only successful top-level transaction initiators. The intensity chart includes both all-transactions / successful-senders and successful-transactions / successful-senders; these populations differ. Block intervals are observed timestamp differences between consecutive blocks, not finality latency.\",\"position\":{\"col\":0,\"row\":18,\"sizeX\":6,\"sizeY\":3}},{\"widgetId\":2422625,\"text\":\"## Fees / Burn\\nDaily fees equal `sum(gas_used × effective gas_price / 10^18)` AVAX over complete UTC days; failed transactions are included. The new **fee burn** series equals the same daily total — this is the **observed C-Chain transaction-fee burn only** and is **not** total Avalanche network AVAX burn, **not** net issuance, and **not** supply change. Failed transactions contribute to the burn because gas is consumed even on revert. The cumulative line is within the 90-day window.\",\"position\":{\"col\":0,\"row\":52,\"sizeX\":6,\"sizeY\":3}},{\"widgetId\":2422626,\"text\":\"## Contracts & Applications\\nA contract is a deduplicated nonempty-code creation-trace address deployed no later than the transaction. Only top-level destinations are ranked; internal calls are not extra transactions. Top 10/20 shares use all C-Chain transactions as denominator. **Deployments are not developers**; addresses are not people; protocol attribution from address alone is unsupported.\",\"position\":{\"col\":0,\"row\":82,\"sizeX\":6,\"sizeY\":3}},{\"widgetId\":2422627,\"text\":\"## Stablecoins & Onchain Economy\\nFour explicit contracts: native USDC, native USDt, bridged USDC.e, bridged USDT.e. Positive ERC-20 transfers only; zero-address mint/burn events excluded. **Volume is gross transfer flow**, not net capital inflow, payments, TVL or stablecoin supply. Token-level sender and transaction counts must not be summed into ecosystem totals. Transfer senders can include contracts.\",\"position\":{\"col\":0,\"row\":104,\"sizeX\":6,\"sizeY\":3}},{\"widgetId\":2422628,\"text\":\"## C-Chain Interchain Activity\\nThe trend and peer table show decoded Teleporter send and receive events observed **on C-Chain only**. The C-Chain endpoint view shows which peers C-Chain exchanges messages with — it is **not** full Avalanche interchain topology and the local send/receive ratio is **not** a delivery or completion rate.\",\"position\":{\"col\":0,\"row\":123,\"sizeX\":6,\"sizeY\":3}},{\"widgetId\":2422629,\"text\":\"## Limitations\\nThis dashboard cannot reliably answer:\\n- Avalanche network-wide activity (C-Chain is one execution chain)\\n- Other Avalanche L1 runtime / fees / contracts / assets\\n- Per-sender people counts or KYC identity\\n- Protocol attribution from address alone\\n- Stablecoin supply or net flow\\n- AVAX burn beyond C-Chain execution fees\\n- NFT analytics, token price, market cap, TVL, developer count\\n\\nFor the Avalanche network-level view, see the companion dashboard **Avalanche Network — L1s, Validators & Interchain Activity**.\",\"position\":{\"col\":0,\"row\":144,\"sizeX\":6,\"sizeY\":6}},{\"widgetId\":2422630,\"text\":\"## Methodology & Data Notes\\n**Data sources:** `avalanche_c.transactions`, `avalanche_c.blocks`, `avalanche_c.creation_traces`; `tokens.transfers`; decoded C-Chain Teleporter send + receive events.\\n\\n**Time:** Complete UTC days, current day excluded. Eight production query pages expose a 7 / 30 / 90 / 365-day enum and default to 90 days. The new fee burn query is hardcoded to 90 days to match the dashboard render.\\n\\n**Freshness:** Raw bounds checked through 2026-09-11 06:36:07 UTC; first blocks 2020-09-23 11:02:06 UTC, first transactions 2020-09-23 12:14:43 UTC. Bounds do not prove uninterrupted ingestion. Dune execution timestamps govern individual chart results.\\n\\n**Validation:** 90-day transaction hashes and block hashes unique at daily grain; required transaction fields present; 7-day block-hash joins checked; selected stablecoin transfers have no duplicate keys or missing USD prices; Teleporter event keys checked; trend aggregated to one row per UTC day and direction; new fee burn query has zero duplicate_hashes and zero missing_required across the 90-day window.\\n\\n**Limitations:** addresses are not natural-person users; gross stablecoin flow is not net flow; AVAX burn is C-Chain execution fee only and not network-wide; per-L1 / per-sender activity are not C-Chain scope; selected stablecoins are an explicit four-contract allowlist (native + bridged forms separate).\",\"position\":{\"col\":0,\"row\":150,\"sizeX\":6,\"sizeY\":14}},{\"widgetId\":2422631,\"text\":\"## Source Queries / 可复核查询\\nAll SQL is inspectable via Dune.\\n- [SMS AVAX 13 — C-Chain Runtime & Fees](https://dune.com/queries/8676290)\\n- [SMS AVAX 14 — Contract Activity & Concentration](https://dune.com/queries/8676302)\\n- [SMS AVAX 16 — C-Chain Blocks](https://dune.com/queries/8676312)\\n- [SMS AVAX 17 — Stablecoin Transfers](https://dune.com/queries/8676316)\\n- [SMS AVAX 19 — C-Chain Contract Breadth](https://dune.com/queries/8676326)\\n- [SMS AVAX 20 — C-Chain Teleporter Messages](https://dune.com/queries/8676338)\\n- [SMS AVAX 21 — C-Chain Contract Deployments](https://dune.com/queries/8676339)\\n- [SMS AVAX 22 — C-Chain Latest Complete Day](https://dune.com/queries/8676346)\\n- [SMS AVAX 24 — C-Chain Teleporter Peers](https://dune.com/queries/8676375)\\n- [SMS AVAX 27 — C-Chain Fee Burn (NEW)](https://dune.com/queries/8681700)\\n\\nValidation queries:\\n- [SMS AVAX 03 — C-Chain Transaction Sample](https://dune.com/queries/8674923)\\n- [SMS AVAX 05 — C-Chain Runtime Validation](https://dune.com/queries/8676235)\\n- [SMS AVAX 08 — Stablecoin Coverage Validation](https://dune.com/queries/8676249)\\n- [SMS AVAX 10 — Contract Execution Validation](https://dune.com/queries/8676263)\\n- [SMS AVAX 11 — Contract Registry Validation](https://dune.com/queries/8676270)\\n- [SMS AVAX 12 — C-Chain Coverage Bounds](https://dune.com/queries/8676282)\\n- [SMS AVAX 23 — Failed Transaction Concentration](https://dune.com/queries/8676364)\\n- [SMS AVAX 25 — Sender Classification QA](https://dune.com/queries/8676383)\",\"position\":{\"col\":0,\"row\":164,\"sizeX\":6,\"sizeY\":18}}],\"paramWidgets\":[]}"
+      }
+    ],
+    "structuredContent": {
+      "dashboardId": 220086,
+      "name": "Avalanche C-Chain — Runtime, Contracts & Onchain Economy",
+      "slug": "avalanche-c-chain-runtime-contracts-onchain-economy",
+      "isPrivate": false,
+      "tags": [],
+      "dashboardUrl": "https://dune.com/slowmoonship/avalanche-c-chain-runtime-contracts-onchain-economy",
+      "visualizationWidgets": [
+        {
+          "widgetId": 2422632,
+          "visualizationId": 12697826,
+          "position": {
+            "col": 0,
+            "row": 8,
+            "sizeX": 3,
+            "sizeY": 5
+          }
+        },
+        {
+          "widgetId": 2422633,
+          "visualizationId": 12697827,
+          "position": {
+            "col": 3,
+            "row": 8,
+            "sizeX": 3,
+            "sizeY": 5
+          }
+        },
+        {
+          "widgetId": 2422634,
+          "visualizationId": 12697828,
+          "position": {
+            "col": 0,
+            "row": 13,
+            "sizeX": 3,
+            "sizeY": 5
+          }
+        },
+        {
+          "widgetId": 2422635,
+          "visualizationId": 12697829,
+          "position": {
+            "col": 3,
+            "row": 13,
+            "sizeX": 3,
+            "sizeY": 5
+          }
+        },
+        {
+          "widgetId": 2422636,
+          "visualizationId": 12697757,
+          "position": {
+            "col": 0,
+            "row": 21,
+            "sizeX": 3,
+            "sizeY": 8
+          }
+        },
+        {
+          "widgetId": 2422637,
+          "visualizationId": 12697804,
+          "position": {
+            "col": 3,
+            "row": 21,
+            "sizeX": 3,
+            "sizeY": 8
+          }
+        },
+        {
+          "widgetId": 2422638,
+          "visualizationId": 12697805,
+          "position": {
+            "col": 0,
+            "row": 29,
+            "sizeX": 3,
+            "sizeY": 8
+          }
+        },
+        {
+          "widgetId": 2422639,
+          "visualizationId": 12697806,
+          "position": {
+            "col": 3,
+            "row": 29,
+            "sizeX": 3,
+            "sizeY": 8
+          }
+        },
+        {
+          "widgetId": 2422640,
+          "visualizationId": 12697818,
+          "position": {
+            "col": 0,
+            "row": 37,
+            "sizeX": 3,
+            "sizeY": 8
+          }
+        },
+        {
+          "widgetId": 2422641,
+          "visualizationId": 12697819,
+          "position": {
+            "col": 3,
+            "row": 37,
+            "sizeX": 3,
+            "sizeY": 8
+          }
+        },
+        {
+          "widgetId": 2422642,
+          "visualizationId": 12697820,
+          "position": {
+            "col": 0,
+            "row": 45,
+            "sizeX": 6,
+            "sizeY": 7
+          }
+        },
+        {
+          "widgetId": 2422643,
+          "visualizationId": 12697808,
+          "position": {
+            "col": 0,
+            "row": 55,
+            "sizeX": 3,
+            "sizeY": 8
+          }
+        },
+        {
+          "widgetId": 2422644,
+          "visualizationId": 12697809,
+          "position": {
+            "col": 3,
+            "row": 55,
+            "sizeX": 3,
+            "sizeY": 8
+          }
+        },
+        {
+          "widgetId": 2422645,
+          "visualizationId": 12697810,
+          "position": {
+            "col": 0,
+            "row": 63,
+            "sizeX": 6,
+            "sizeY": 7
+          }
+        },
+        {
+          "widgetId": 2422646,
+          "visualizationId": 12703854,
+          "position": {
+            "col": 0,
+            "row": 70,
+            "sizeX": 3,
+            "sizeY": 8
+          }
+        },
+        {
+          "widgetId": 2422647,
+          "visualizationId": 12703856,
+          "position": {
+            "col": 3,
+            "row": 70,
+            "sizeX": 3,
+            "sizeY": 8
+          }
+        },
+        {
+          "widgetId": 2422648,
+          "visualizationId": 12703858,
+          "position": {
+            "col": 0,
+            "row": 78,
+            "sizeX": 6,
+            "sizeY": 4
+          }
+        },
+        {
+          "widgetId": 2422649,
+          "visualizationId": 12697822,
+          "position": {
+            "col": 0,
+            "row": 85,
+            "sizeX": 3,
+            "sizeY": 8
+          }
+        },
+        {
+          "widgetId": 2422650,
+          "visualizationId": 12697823,
+          "position": {
+            "col": 3,
+            "row": 85,
+            "sizeX": 3,
+            "sizeY": 8
+          }
+        },
+        {
+          "widgetId": 2422651,
+          "visualizationId": 12697831,
+          "position": {
+            "col": 0,
+            "row": 93,
+            "sizeX": 6,
+            "sizeY": 11
+          }
+        },
+        {
+          "widgetId": 2422652,
+          "visualizationId": 12697849,
+          "position": {
+            "col": 0,
+            "row": 107,
+            "sizeX": 6,
+            "sizeY": 8
+          }
+        },
+        {
+          "widgetId": 2422653,
+          "visualizationId": 12697850,
+          "position": {
+            "col": 0,
+            "row": 115,
+            "sizeX": 3,
+            "sizeY": 8
+          }
+        },
+        {
+          "widgetId": 2422654,
+          "visualizationId": 12697851,
+          "position": {
+            "col": 3,
+            "row": 115,
+            "sizeX": 3,
+            "sizeY": 8
+          }
+        },
+        {
+          "widgetId": 2422655,
+          "visualizationId": 12697852,
+          "position": {
+            "col": 0,
+            "row": 126,
+            "sizeX": 6,
+            "sizeY": 8
+          }
+        },
+        {
+          "widgetId": 2422656,
+          "visualizationId": 12697853,
+          "position": {
+            "col": 0,
+            "row": 134,
+            "sizeX": 6,
+            "sizeY": 10
+          }
+        }
+      ],
+      "textWidgets": [
+        {
+          "widgetId": 2422622,
+          "text": "# Avalanche C-Chain — Runtime, Contracts & Onchain Economy\n**SlowMoonShip: Gateway to Onchain Data · v0.2**\nC-Chain is one EVM execution chain within the Avalanche Primary Network. This dashboard measures C-Chain-specific runtime, contract activity, fees and on-chain asset flows. It is **not** a measurement of all Avalanche L1s; for the network view see the companion dashboard.",
+          "position": {
+            "col": 0,
+            "row": 0,
+            "sizeX": 6,
+            "sizeY": 5
+          }
+        },
+        {
+          "widgetId": 2422623,
+          "text": "## Latest Complete UTC Day\nThe four counters above cover the **last complete UTC calendar day**, not a rolling 24-hour window. Active senders are distinct addresses initiating successful transactions; no contract filter is applied and the metric is not a people count. Daily fees equal `gas_used × effective gas_price / 10^18` AVAX and include failed transactions.",
+          "position": {
+            "col": 0,
+            "row": 5,
+            "sizeX": 6,
+            "sizeY": 3
+          }
+        },
+        {
+          "widgetId": 2422624,
+          "text": "## Runtime\nTransactions include success and failure. Active senders count only successful top-level transaction initiators. The intensity chart includes both all-transactions / successful-senders and successful-transactions / successful-senders; these populations differ. Block intervals are observed timestamp differences between consecutive blocks, not finality latency.",
+          "position": {
+            "col": 0,
+            "row": 18,
+            "sizeX": 6,
+            "sizeY": 3
+          }
+        },
+        {
+          "widgetId": 2422625,
+          "text": "## Fees / Burn\nDaily fees equal `sum(gas_used × effective gas_price / 10^18)` AVAX over complete UTC days; failed transactions are included. The new **fee burn** series equals the same daily total — this is the **observed C-Chain transaction-fee burn only** and is **not** total Avalanche network AVAX burn, **not** net issuance, and **not** supply change. Failed transactions contribute to the burn because gas is consumed even on revert. The cumulative line is within the 90-day window.",
+          "position": {
+            "col": 0,
+            "row": 52,
+            "sizeX": 6,
+            "sizeY": 3
+          }
+        },
+        {
+          "widgetId": 2422626,
+          "text": "## Contracts & Applications\nA contract is a deduplicated nonempty-code creation-trace address deployed no later than the transaction. Only top-level destinations are ranked; internal calls are not extra transactions. Top 10/20 shares use all C-Chain transactions as denominator. **Deployments are not developers**; addresses are not people; protocol attribution from address alone is unsupported.",
+          "position": {
+            "col": 0,
+            "row": 82,
+            "sizeX": 6,
+            "sizeY": 3
+          }
+        },
+        {
+          "widgetId": 2422627,
+          "text": "## Stablecoins & Onchain Economy\nFour explicit contracts: native USDC, native USDt, bridged USDC.e, bridged USDT.e. Positive ERC-20 transfers only; zero-address mint/burn events excluded. **Volume is gross transfer flow**, not net capital inflow, payments, TVL or stablecoin supply. Token-level sender and transaction counts must not be summed into ecosystem totals. Transfer senders can include contracts.",
+          "position": {
+            "col": 0,
+            "row": 104,
+            "sizeX": 6,
+            "sizeY": 3
+          }
+        },
+        {
+          "widgetId": 2422628,
+          "text": "## C-Chain Interchain Activity\nThe trend and peer table show decoded Teleporter send and receive events observed **on C-Chain only**. The C-Chain endpoint view shows which peers C-Chain exchanges messages with — it is **not** full Avalanche interchain topology and the local send/receive ratio is **not** a delivery or completion rate.",
+          "position": {
+            "col": 0,
+            "row": 123,
+            "sizeX": 6,
+            "sizeY": 3
+          }
+        },
+        {
+          "widgetId": 2422629,
+          "text": "## Limitations\nThis dashboard cannot reliably answer:\n- Avalanche network-wide activity (C-Chain is one execution chain)\n- Other Avalanche L1 runtime / fees / contracts / assets\n- Per-sender people counts or KYC identity\n- Protocol attribution from address alone\n- Stablecoin supply or net flow\n- AVAX burn beyond C-Chain execution fees\n- NFT analytics, token price, market cap, TVL, developer count\n\nFor the Avalanche network-level view, see the companion dashboard **Avalanche Network — L1s, Validators & Interchain Activity**.",
+          "position": {
+            "col": 0,
+            "row": 144,
+            "sizeX": 6,
+            "sizeY": 6
+          }
+        },
+        {
+          "widgetId": 2422630,
+          "text": "## Methodology & Data Notes\n**Data sources:** `avalanche_c.transactions`, `avalanche_c.blocks`, `avalanche_c.creation_traces`; `tokens.transfers`; decoded C-Chain Teleporter send + receive events.\n\n**Time:** Complete UTC days, current day excluded. Eight production query pages expose a 7 / 30 / 90 / 365-day enum and default to 90 days. The new fee burn query is hardcoded to 90 days to match the dashboard render.\n\n**Freshness:** Raw bounds checked through 2026-09-11 06:36:07 UTC; first blocks 2020-09-23 11:02:06 UTC, first transactions 2020-09-23 12:14:43 UTC. Bounds do not prove uninterrupted ingestion. Dune execution timestamps govern individual chart results.\n\n**Validation:** 90-day transaction hashes and block hashes unique at daily grain; required transaction fields present; 7-day block-hash joins checked; selected stablecoin transfers have no duplicate keys or missing USD prices; Teleporter event keys checked; trend aggregated to one row per UTC day and direction; new fee burn query has zero duplicate_hashes and zero missing_required across the 90-day window.\n\n**Limitations:** addresses are not natural-person users; gross stablecoin flow is not net flow; AVAX burn is C-Chain execution fee only and not network-wide; per-L1 / per-sender activity are not C-Chain scope; selected stablecoins are an explicit four-contract allowlist (native + bridged forms separate).",
+          "position": {
+            "col": 0,
+            "row": 150,
+            "sizeX": 6,
+            "sizeY": 14
+          }
+        },
+        {
+          "widgetId": 2422631,
+          "text": "## Source Queries / 可复核查询\nAll SQL is inspectable via Dune.\n- [SMS AVAX 13 — C-Chain Runtime & Fees](https://dune.com/queries/8676290)\n- [SMS AVAX 14 — Contract Activity & Concentration](https://dune.com/queries/8676302)\n- [SMS AVAX 16 — C-Chain Blocks](https://dune.com/queries/8676312)\n- [SMS AVAX 17 — Stablecoin Transfers](https://dune.com/queries/8676316)\n- [SMS AVAX 19 — C-Chain Contract Breadth](https://dune.com/queries/8676326)\n- [SMS AVAX 20 — C-Chain Teleporter Messages](https://dune.com/queries/8676338)\n- [SMS AVAX 21 — C-Chain Contract Deployments](https://dune.com/queries/8676339)\n- [SMS AVAX 22 — C-Chain Latest Complete Day](https://dune.com/queries/8676346)\n- [SMS AVAX 24 — C-Chain Teleporter Peers](https://dune.com/queries/8676375)\n- [SMS AVAX 27 — C-Chain Fee Burn (NEW)](https://dune.com/queries/8681700)\n\nValidation queries:\n- [SMS AVAX 03 — C-Chain Transaction Sample](https://dune.com/queries/8674923)\n- [SMS AVAX 05 — C-Chain Runtime Validation](https://dune.com/queries/8676235)\n- [SMS AVAX 08 — Stablecoin Coverage Validation](https://dune.com/queries/8676249)\n- [SMS AVAX 10 — Contract Execution Validation](https://dune.com/queries/8676263)\n- [SMS AVAX 11 — Contract Registry Validation](https://dune.com/queries/8676270)\n- [SMS AVAX 12 — C-Chain Coverage Bounds](https://dune.com/queries/8676282)\n- [SMS AVAX 23 — Failed Transaction Concentration](https://dune.com/queries/8676364)\n- [SMS AVAX 25 — Sender Classification QA](https://dune.com/queries/8676383)",
+          "position": {
+            "col": 0,
+            "row": 164,
+            "sizeX": 6,
+            "sizeY": 18
+          }
+        }
+      ],
+      "paramWidgets": []
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 14
+}

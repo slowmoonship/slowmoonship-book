@@ -1,0 +1,49 @@
+{
+  "id": 2,
+  "title": "C-Chain USDT transfer",
+  "network": "Mainnet",
+  "network_id": 1,
+  "records": [
+    {
+      "blockchain_id": "2q9e4r6Mu3U68nU1fYjgbR6JvwrRx36CohpAX5UQxse55x1Q5",
+      "transaction_id": "0x017c257f6fd9abff097e0740e27422d19e1e0ad7c8973e247827495f847b3242",
+      "block_height": "97355819",
+      "block_hash": "0x107454fa907f148f5e9b6f17ce7af06e3c2cbebd6f0eb5c311d3d5183304d370",
+      "timestamp": "2026-10-12T11:06:55+00:00",
+      "transaction_type": 2,
+      "fields_obtained": [
+        "baseFeePerGas",
+        "blockHash",
+        "blockIndex",
+        "blockNumber",
+        "blockTimestamp",
+        "blockTimestampMilliseconds",
+        "chainId",
+        "from",
+        "gasLimit",
+        "gasPrice",
+        "gasUsed",
+        "input",
+        "maxFeePerGas",
+        "maxPriorityFeePerGas",
+        "method",
+        "nonce",
+        "to",
+        "txHash",
+        "txStatus",
+        "txType",
+        "value"
+      ]
+    }
+  ],
+  "sources": [
+    "research/raw/c-erc20-detail.json"
+  ],
+  "missing_fields_or_evidence": [
+    "原始完整 Logs/Trace、历史余额",
+    "ABI/实现完整独立审查"
+  ],
+  "verification_status": "VALIDATED",
+  "retrieval_date": "2026-10-12",
+  "evidence_layer": "DIRECT_DATA; derived conclusions separately labelled"
+}

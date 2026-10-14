@@ -1,0 +1,21 @@
+{
+  "network": "Mainnet",
+  "network_id": 1,
+  "url": "https://api.avax.network/ext/info",
+  "method": "info.getNetworkID",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "info.getNetworkID",
+    "params": {}
+  },
+  "retrieved_at": "2026-10-12T11:03:59.029104+00:00",
+  "http_status": 200,
+  "response": {
+    "jsonrpc": "2.0",
+    "result": {
+      "networkID": "1"
+    },
+    "id": 1
+  }
+}

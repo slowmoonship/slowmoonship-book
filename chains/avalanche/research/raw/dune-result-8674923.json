@@ -1,0 +1,217 @@
+{
+  "result": {
+    "_meta": {
+      "mcp_event_id": "fa187d9a-7400-4595-a1a0-0aedb9161d43"
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"executionId\":\"01M284AH3HM3H1GRJ4BGNC79TE\",\"state\":\"COMPLETED\",\"resultMetadata\":{\"columns\":[{\"name\":\"block_time\",\"type\":\"timestamp(3) with time zone\"},{\"name\":\"block_number\",\"type\":\"bigint\"},{\"name\":\"hash\",\"type\":\"varbinary\"},{\"name\":\"block_hash\",\"type\":\"varbinary\"},{\"name\":\"from\",\"type\":\"varbinary\"},{\"name\":\"to\",\"type\":\"varbinary\"},{\"name\":\"success\",\"type\":\"boolean\"},{\"name\":\"type\",\"type\":\"varchar\"},{\"name\":\"gas_price\",\"type\":\"bigint\"},{\"name\":\"gas_used\",\"type\":\"bigint\"},{\"name\":\"max_fee_per_gas\",\"type\":\"bigint\"},{\"name\":\"priority_fee_per_gas\",\"type\":\"bigint\"}],\"totalRowCount\":10,\"executionCostCredits\":\"0.034\"},\"data\":{\"rows\":[{\"block_time\":\"2026-09-11 11:40:22.000 UTC\",\"block_number\":95015134,\"hash\":\"0xf3d4a9d4ffe3e24e6d1455e573114acff8083434c375c76e36a23b66e97227ec\",\"block_hash\":\"0xdd7c21029572f589df9387651a1c374d3a67c38c066a5828285f99a3fb67e606\",\"from\":\"0xb1943e7fb72e542dc3963b2ea8b777acf817ac09\",\"to\":\"0x81faa7d48b8e7c0759a18b5e9b79aaf9fcad740a\",\"success\":true,\"type\":\"DynamicFee\",\"gas_price\":62561636,\"gas_used\":56738,\"max_fee_per_gas\":25000000001,\"priority_fee_per_gas\":1},{\"block_time\":\"2026-09-11 11:40:22.000 UTC\",\"block_number\":95015134,\"hash\":\"0xe877f60447f48003e8eca83161658f28da80bab29d7b90ff8beccd6fac3b70bc\",\"block_hash\":\"0xdd7c21029572f589df9387651a1c374d3a67c38c066a5828285f99a3fb67e606\",\"from\":\"0xfbff617095a71d0f40a4ec1b50533e53259b38b4\",\"to\":\"0x28d9ccedf1b7ac9b3f090f4f0292837de87c1d39\",\"success\":true,\"type\":\"DynamicFee\",\"gas_price\":384068832,\"gas_used\":29713,\"max_fee_per_gas\":588674961,\"priority_fee_per_gas\":321507197},{\"block_time\":\"2026-09-11 11:40:22.000 UTC\",\"block_number\":95015134,\"hash\":\"0xe7da3bb4782be1bcd345c2c1211317062609df14fd32780158a1dd5a1602474e\",\"block_hash\":\"0xdd7c21029572f589df9387651a1c374d3a67c38c066a5828285f99a3fb67e606\",\"from\":\"0xfed574b3550f72bf3e73d6b653bc8d44ea290022\",\"to\":\"0x4bef02f3dac22707fcb0aa054962fd4d2041726d\",\"success\":true,\"type\":\"DynamicFee\",\"gas_price\":1062561635,\"gas_used\":297699,\"max_fee_per_gas\":100000000000,\"priority_fee_per_gas\":1000000000},{\"block_time\":\"2026-09-11 11:40:22.000 UTC\",\"block_number\":95015134,\"hash\":\"0xdeca888c1b7ef3af3966552acb743747773e71b76372f8959e7f31b1a494341e\",\"block_hash\":\"0xdd7c21029572f589df9387651a1c374d3a67c38c066a5828285f99a3fb67e606\",\"from\":\"0x5f4c6579ae09a3f73b5ddfc56df4d00b49571754\",\"to\":\"0x350b239e26690202e2a2d46f55a844e4396f0485\",\"success\":false,\"type\":\"DynamicFee\",\"gas_price\":63561635,\"gas_used\":7166284,\"max_fee_per_gas\":1000000000,\"priority_fee_per_gas\":1000000},{\"block_time\":\"2026-09-11 11:40:22.000 UTC\",\"block_number\":95015134,\"hash\":\"0xde5b2db850c9aea2377cbfccd558812b590cd0c025f4a95d706472e753178068\",\"block_hash\":\"0xdd7c21029572f589df9387651a1c374d3a67c38c066a5828285f99a3fb67e606\",\"from\":\"0x7cf9dc1c2d027d5621f6e91e5acbad482d25a8f1\",\"to\":\"0x28d9ccedf1b7ac9b3f090f4f0292837de87c1d39\",\"success\":true,\"type\":\"DynamicFee\",\"gas_price\":333421119,\"gas_used\":29713,\"max_fee_per_gas\":404443366,\"priority_fee_per_gas\":270859484},{\"block_time\":\"2026-09-11 11:40:22.000 UTC\",\"block_number\":95015134,\"hash\":\"0xdafb2cb43dffcb265eeaa3a6aabdd25d2dd05661a043ac4a626cec61bcb996dc\",\"block_hash\":\"0xdd7c21029572f589df9387651a1c374d3a67c38c066a5828285f99a3fb67e606\",\"from\":\"0xc619d03a6c5d2c0f2182794fc8eb76fb71230a4e\",\"to\":\"0x28d9ccedf1b7ac9b3f090f4f0292837de87c1d39\",\"success\":true,\"type\":\"DynamicFee\",\"gas_price\":397574889,\"gas_used\":32935,\"max_fee_per_gas\":602181018,\"priority_fee_per_gas\":335013254},{\"block_time\":\"2026-09-11 11:40:22.000 UTC\",\"block_number\":95015134,\"hash\":\"0xd06cb7d8d70c7984b3206191a9857f26122f279f2058b94161fa847ce49bf39a\",\"block_hash\":\"0xdd7c21029572f589df9387651a1c374d3a67c38c066a5828285f99a3fb67e606\",\"from\":\"0x9c82b2720e57a7535523421d80966326436de8b5\",\"to\":\"0xe1a0ddeb9b5b55e489977b438764e60e314e917c\",\"success\":true,\"type\":\"Legacy\",\"gas_price\":80921755,\"gas_used\":21000,\"max_fee_per_gas\":null,\"priority_fee_per_gas\":null},{\"block_time\":\"2026-09-11 11:40:22.000 UTC\",\"block_number\":95015134,\"hash\":\"0xc2c817b50de624cd09f0100dcd52d46f2aaee46bfcf4bc285cae63c09fdbf032\",\"block_hash\":\"0xdd7c21029572f589df9387651a1c374d3a67c38c066a5828285f99a3fb67e606\",\"from\":\"0x3d4d2cd21fe7c5a73df3b4e0451ce7ca1f271589\",\"to\":\"0xcecafd906c3763d9cf2f2e2a24e96f3ee606eec1\",\"success\":true,\"type\":\"DynamicFee\",\"gas_price\":64561635,\"gas_used\":255317,\"max_fee_per_gas\":10002000000,\"priority_fee_per_gas\":2000000},{\"block_time\":\"2026-09-11 11:40:22.000 UTC\",\"block_number\":95015134,\"hash\":\"0xaa23f436638ba9250412611f4a7ad8bbcc37a05cfad3cb8a503be1f99d3f49be\",\"block_hash\":\"0xdd7c21029572f589df9387651a1c374d3a67c38c066a5828285f99a3fb67e606\",\"from\":\"0xb79e839e9601b8014df7a0d5ded6f3d91f6e283c\",\"to\":\"0x28d9ccedf1b7ac9b3f090f4f0292837de87c1d39\",\"success\":true,\"type\":\"DynamicFee\",\"gas_price\":390821861,\"gas_used\":29713,\"max_fee_per_gas\":595427990,\"priority_fee_per_gas\":328260226},{\"block_time\":\"2026-09-11 11:40:22.000 UTC\",\"block_number\":95015134,\"hash\":\"0xa8c32486e33730d870dfbb829dfdffe90ccc618821ca06435861ecf911afe232\",\"block_hash\":\"0xdd7c21029572f589df9387651a1c374d3a67c38c066a5828285f99a3fb67e606\",\"from\":\"0xfe3eea0185d24f42307157eedbc79279f9b918d5\",\"to\":\"0x28d9ccedf1b7ac9b3f090f4f0292837de87c1d39\",\"success\":true,\"type\":\"DynamicFee\",\"gas_price\":394198375,\"gas_used\":29713,\"max_fee_per_gas\":598804504,\"priority_fee_per_gas\":331636740}]}}"
+      }
+    ],
+    "structuredContent": {
+      "executionId": "01M284AH3HM3H1GRJ4BGNC79TE",
+      "state": "COMPLETED",
+      "resultMetadata": {
+        "columns": [
+          {
+            "name": "block_time",
+            "type": "timestamp(3) with time zone"
+          },
+          {
+            "name": "block_number",
+            "type": "bigint"
+          },
+          {
+            "name": "hash",
+            "type": "varbinary"
+          },
+          {
+            "name": "block_hash",
+            "type": "varbinary"
+          },
+          {
+            "name": "from",
+            "type": "varbinary"
+          },
+          {
+            "name": "to",
+            "type": "varbinary"
+          },
+          {
+            "name": "success",
+            "type": "boolean"
+          },
+          {
+            "name": "type",
+            "type": "varchar"
+          },
+          {
+            "name": "gas_price",
+            "type": "bigint"
+          },
+          {
+            "name": "gas_used",
+            "type": "bigint"
+          },
+          {
+            "name": "max_fee_per_gas",
+            "type": "bigint"
+          },
+          {
+            "name": "priority_fee_per_gas",
+            "type": "bigint"
+          }
+        ],
+        "totalRowCount": 10,
+        "executionCostCredits": "0.034"
+      },
+      "data": {
+        "rows": [
+          {
+            "block_time": "2026-09-11 11:40:22.000 UTC",
+            "block_number": 95015134,
+            "hash": "0xf3d4a9d4ffe3e24e6d1455e573114acff8083434c375c76e36a23b66e97227ec",
+            "block_hash": "0xdd7c21029572f589df9387651a1c374d3a67c38c066a5828285f99a3fb67e606",
+            "from": "0xb1943e7fb72e542dc3963b2ea8b777acf817ac09",
+            "to": "0x81faa7d48b8e7c0759a18b5e9b79aaf9fcad740a",
+            "success": true,
+            "type": "DynamicFee",
+            "gas_price": 62561636,
+            "gas_used": 56738,
+            "max_fee_per_gas": 25000000001,
+            "priority_fee_per_gas": 1
+          },
+          {
+            "block_time": "2026-09-11 11:40:22.000 UTC",
+            "block_number": 95015134,
+            "hash": "0xe877f60447f48003e8eca83161658f28da80bab29d7b90ff8beccd6fac3b70bc",
+            "block_hash": "0xdd7c21029572f589df9387651a1c374d3a67c38c066a5828285f99a3fb67e606",
+            "from": "0xfbff617095a71d0f40a4ec1b50533e53259b38b4",
+            "to": "0x28d9ccedf1b7ac9b3f090f4f0292837de87c1d39",
+            "success": true,
+            "type": "DynamicFee",
+            "gas_price": 384068832,
+            "gas_used": 29713,
+            "max_fee_per_gas": 588674961,
+            "priority_fee_per_gas": 321507197
+          },
+          {
+            "block_time": "2026-09-11 11:40:22.000 UTC",
+            "block_number": 95015134,
+            "hash": "0xe7da3bb4782be1bcd345c2c1211317062609df14fd32780158a1dd5a1602474e",
+            "block_hash": "0xdd7c21029572f589df9387651a1c374d3a67c38c066a5828285f99a3fb67e606",
+            "from": "0xfed574b3550f72bf3e73d6b653bc8d44ea290022",
+            "to": "0x4bef02f3dac22707fcb0aa054962fd4d2041726d",
+            "success": true,
+            "type": "DynamicFee",
+            "gas_price": 1062561635,
+            "gas_used": 297699,
+            "max_fee_per_gas": 100000000000,
+            "priority_fee_per_gas": 1000000000
+          },
+          {
+            "block_time": "2026-09-11 11:40:22.000 UTC",
+            "block_number": 95015134,
+            "hash": "0xdeca888c1b7ef3af3966552acb743747773e71b76372f8959e7f31b1a494341e",
+            "block_hash": "0xdd7c21029572f589df9387651a1c374d3a67c38c066a5828285f99a3fb67e606",
+            "from": "0x5f4c6579ae09a3f73b5ddfc56df4d00b49571754",
+            "to": "0x350b239e26690202e2a2d46f55a844e4396f0485",
+            "success": false,
+            "type": "DynamicFee",
+            "gas_price": 63561635,
+            "gas_used": 7166284,
+            "max_fee_per_gas": 1000000000,
+            "priority_fee_per_gas": 1000000
+          },
+          {
+            "block_time": "2026-09-11 11:40:22.000 UTC",
+            "block_number": 95015134,
+            "hash": "0xde5b2db850c9aea2377cbfccd558812b590cd0c025f4a95d706472e753178068",
+            "block_hash": "0xdd7c21029572f589df9387651a1c374d3a67c38c066a5828285f99a3fb67e606",
+            "from": "0x7cf9dc1c2d027d5621f6e91e5acbad482d25a8f1",
+            "to": "0x28d9ccedf1b7ac9b3f090f4f0292837de87c1d39",
+            "success": true,
+            "type": "DynamicFee",
+            "gas_price": 333421119,
+            "gas_used": 29713,
+            "max_fee_per_gas": 404443366,
+            "priority_fee_per_gas": 270859484
+          },
+          {
+            "block_time": "2026-09-11 11:40:22.000 UTC",
+            "block_number": 95015134,
+            "hash": "0xdafb2cb43dffcb265eeaa3a6aabdd25d2dd05661a043ac4a626cec61bcb996dc",
+            "block_hash": "0xdd7c21029572f589df9387651a1c374d3a67c38c066a5828285f99a3fb67e606",
+            "from": "0xc619d03a6c5d2c0f2182794fc8eb76fb71230a4e",
+            "to": "0x28d9ccedf1b7ac9b3f090f4f0292837de87c1d39",
+            "success": true,
+            "type": "DynamicFee",
+            "gas_price": 397574889,
+            "gas_used": 32935,
+            "max_fee_per_gas": 602181018,
+            "priority_fee_per_gas": 335013254
+          },
+          {
+            "block_time": "2026-09-11 11:40:22.000 UTC",
+            "block_number": 95015134,
+            "hash": "0xd06cb7d8d70c7984b3206191a9857f26122f279f2058b94161fa847ce49bf39a",
+            "block_hash": "0xdd7c21029572f589df9387651a1c374d3a67c38c066a5828285f99a3fb67e606",
+            "from": "0x9c82b2720e57a7535523421d80966326436de8b5",
+            "to": "0xe1a0ddeb9b5b55e489977b438764e60e314e917c",
+            "success": true,
+            "type": "Legacy",
+            "gas_price": 80921755,
+            "gas_used": 21000,
+            "max_fee_per_gas": null,
+            "priority_fee_per_gas": null
+          },
+          {
+            "block_time": "2026-09-11 11:40:22.000 UTC",
+            "block_number": 95015134,
+            "hash": "0xc2c817b50de624cd09f0100dcd52d46f2aaee46bfcf4bc285cae63c09fdbf032",
+            "block_hash": "0xdd7c21029572f589df9387651a1c374d3a67c38c066a5828285f99a3fb67e606",
+            "from": "0x3d4d2cd21fe7c5a73df3b4e0451ce7ca1f271589",
+            "to": "0xcecafd906c3763d9cf2f2e2a24e96f3ee606eec1",
+            "success": true,
+            "type": "DynamicFee",
+            "gas_price": 64561635,
+            "gas_used": 255317,
+            "max_fee_per_gas": 10002000000,
+            "priority_fee_per_gas": 2000000
+          },
+          {
+            "block_time": "2026-09-11 11:40:22.000 UTC",
+            "block_number": 95015134,
+            "hash": "0xaa23f436638ba9250412611f4a7ad8bbcc37a05cfad3cb8a503be1f99d3f49be",
+            "block_hash": "0xdd7c21029572f589df9387651a1c374d3a67c38c066a5828285f99a3fb67e606",
+            "from": "0xb79e839e9601b8014df7a0d5ded6f3d91f6e283c",
+            "to": "0x28d9ccedf1b7ac9b3f090f4f0292837de87c1d39",
+            "success": true,
+            "type": "DynamicFee",
+            "gas_price": 390821861,
+            "gas_used": 29713,
+            "max_fee_per_gas": 595427990,
+            "priority_fee_per_gas": 328260226
+          },
+          {
+            "block_time": "2026-09-11 11:40:22.000 UTC",
+            "block_number": 95015134,
+            "hash": "0xa8c32486e33730d870dfbb829dfdffe90ccc618821ca06435861ecf911afe232",
+            "block_hash": "0xdd7c21029572f589df9387651a1c374d3a67c38c066a5828285f99a3fb67e606",
+            "from": "0xfe3eea0185d24f42307157eedbc79279f9b918d5",
+            "to": "0x28d9ccedf1b7ac9b3f090f4f0292837de87c1d39",
+            "success": true,
+            "type": "DynamicFee",
+            "gas_price": 394198375,
+            "gas_used": 29713,
+            "max_fee_per_gas": 598804504,
+            "priority_fee_per_gas": 331636740
+          }
+        ]
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 20
+}

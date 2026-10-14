@@ -1,0 +1,1220 @@
+{
+  "date": "2026-10-14",
+  "chain": "avalanche",
+  "version": "v0.1",
+  "file_count": 242,
+  "scope": "Selected Avalanche content; audit files excluded from this manifest to prevent cycles. Git tree binds audit files.",
+  "source_before_after": "PATHS_AND_SHA256_UNCHANGED",
+  "files": [
+    {
+      "path": "chains/avalanche/README.md",
+      "source_sha256": "feff07a9bf6e87df4bb252494a2d8d923b772466d5c495079d3d2b90b8332267",
+      "published_sha256": "de3a3ec2e81b568a391af4b9bae331b517119b9aae668d0c6dc0ed2a5ffa55cc"
+    },
+    {
+      "path": "chains/avalanche/SUMMARY.md",
+      "source_sha256": "53721b05c5cc7168e7caa501d0ba436c58f7a92b3222ef00d6698f80dd720942",
+      "published_sha256": "53721b05c5cc7168e7caa501d0ba436c58f7a92b3222ef00d6698f80dd720942"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/DIAGRAM_INDEX.md",
+      "source_sha256": "ca924c1d47b3e5cc5b812f8579f78994021df5451beb83a702b5e9c2cbab7f8a",
+      "published_sha256": "ca924c1d47b3e5cc5b812f8579f78994021df5451beb83a702b5e9c2cbab7f8a"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/atomic-reconcile.drawio",
+      "source_sha256": "94e8dfe3d605a770112861258135ccbb75c06f725fcae0571b95f580b47fd909",
+      "published_sha256": "94e8dfe3d605a770112861258135ccbb75c06f725fcae0571b95f580b47fd909"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/atomic-reconcile.svg",
+      "source_sha256": "0739afd2417a3f374dc3bdf600bc5e07e6530c4f63b677d43ad50fb47627931e",
+      "published_sha256": "0739afd2417a3f374dc3bdf600bc5e07e6530c4f63b677d43ad50fb47627931e"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/atomic-transfer.drawio",
+      "source_sha256": "cbf74a1a75065afd47b5c6e01334b852e61ac94efcf91c181bb42e0ffe65cd30",
+      "published_sha256": "cbf74a1a75065afd47b5c6e01334b852e61ac94efcf91c181bb42e0ffe65cd30"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/atomic-transfer.svg",
+      "source_sha256": "14a11eb969c97da1a63bd49db0fd1042982c13f4b65e6710bd42baa0178c7d71",
+      "published_sha256": "14a11eb969c97da1a63bd49db0fd1042982c13f4b65e6710bd42baa0178c7d71"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/beam-evidence.drawio",
+      "source_sha256": "ba17b9020738c0586d7a09af2a4e86ad8baf978863c5aa30042b645a9dcfca8e",
+      "published_sha256": "ba17b9020738c0586d7a09af2a4e86ad8baf978863c5aa30042b645a9dcfca8e"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/beam-evidence.svg",
+      "source_sha256": "960a49269f13ae42d614a596cb0e7651ebea2bfe2b45c5c093e069727ad2f27b",
+      "published_sha256": "960a49269f13ae42d614a596cb0e7651ebea2bfe2b45c5c093e069727ad2f27b"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/c-execution.drawio",
+      "source_sha256": "756deaef54e541100726eb751ba5efc3e441dde714021aa9e5bc92f6804b94d4",
+      "published_sha256": "756deaef54e541100726eb751ba5efc3e441dde714021aa9e5bc92f6804b94d4"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/c-execution.svg",
+      "source_sha256": "cdda526e2293186da7db94b35a1fe73f073e721bd2a698b3e43af06edb2de2cc",
+      "published_sha256": "cdda526e2293186da7db94b35a1fe73f073e721bd2a698b3e43af06edb2de2cc"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/c-transfer.drawio",
+      "source_sha256": "b9ca83020654c7011f3e9838ea1420ca8340c876fa332a8befa9bbd684190dd4",
+      "published_sha256": "b9ca83020654c7011f3e9838ea1420ca8340c876fa332a8befa9bbd684190dd4"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/c-transfer.svg",
+      "source_sha256": "9b3d2e1a071a9cdac3aa785038e4db92435df947c861617721ef882e4bd90916",
+      "published_sha256": "9b3d2e1a071a9cdac3aa785038e4db92435df947c861617721ef882e4bd90916"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/consensus-vm.drawio",
+      "source_sha256": "2ddb3f9d924de781c5adc00a2d49ef3479503d0b68b75a8dfe8cc1492d77f697",
+      "published_sha256": "2ddb3f9d924de781c5adc00a2d49ef3479503d0b68b75a8dfe8cc1492d77f697"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/consensus-vm.svg",
+      "source_sha256": "7d57abb7bf03fa6fccc37c5195d18a21cd75ece6f63583f54476b9ebacb94afb",
+      "published_sha256": "7d57abb7bf03fa6fccc37c5195d18a21cd75ece6f63583f54476b9ebacb94afb"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/continuous-fees.drawio",
+      "source_sha256": "861902d16853bb3a0b63dc76a653a142b87bf721cba3abe67317e39c90600b0f",
+      "published_sha256": "861902d16853bb3a0b63dc76a653a142b87bf721cba3abe67317e39c90600b0f"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/continuous-fees.svg",
+      "source_sha256": "a75ebef47a98c2f2d5f3412d85865e99f8b316c076caa5503cb22dfc08f2b207",
+      "published_sha256": "a75ebef47a98c2f2d5f3412d85865e99f8b316c076caa5503cb22dfc08f2b207"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/cross-chain-mechanisms.drawio",
+      "source_sha256": "25f3e697d6c9b4e0a10c937c6744904f846bb3d74f885f65e6ddc9365a5fb2e0",
+      "published_sha256": "25f3e697d6c9b4e0a10c937c6744904f846bb3d74f885f65e6ddc9365a5fb2e0"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/cross-chain-mechanisms.svg",
+      "source_sha256": "13e6fea163fbc7a9493fd6a221c391e9bb67abc187df96e828d8dc1941c19f9a",
+      "published_sha256": "13e6fea163fbc7a9493fd6a221c391e9bb67abc187df96e828d8dc1941c19f9a"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/data-architecture.drawio",
+      "source_sha256": "6a4d150d63945fe2b2c96cbf351419419e4efb0f1e6cecb018cc01d50f597c26",
+      "published_sha256": "6a4d150d63945fe2b2c96cbf351419419e4efb0f1e6cecb018cc01d50f597c26"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/data-architecture.svg",
+      "source_sha256": "31d12e0e233913e9c015b8682f1d1b7cfbe3383f193b36be5f0866628c19269e",
+      "published_sha256": "31d12e0e233913e9c015b8682f1d1b7cfbe3383f193b36be5f0866628c19269e"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/data-lineage.drawio",
+      "source_sha256": "9c70c1c72fe20e850e5ebec15e0eabf8123eaa0875111bee446154aa8069877b",
+      "published_sha256": "9c70c1c72fe20e850e5ebec15e0eabf8123eaa0875111bee446154aa8069877b"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/data-lineage.svg",
+      "source_sha256": "9459cb68dc20e45120e5f4d6dcf5484c8f3f0b7dbb30ab7198290a6b16d11c94",
+      "published_sha256": "9459cb68dc20e45120e5f4d6dcf5484c8f3f0b7dbb30ab7198290a6b16d11c94"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/diagram-manifest.json",
+      "source_sha256": "3e184a508411e3e589cf09b845b97a41dae19ddf2d2e544dc71df937df41eaa4",
+      "published_sha256": "3e184a508411e3e589cf09b845b97a41dae19ddf2d2e544dc71df937df41eaa4"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/dune-raw.drawio",
+      "source_sha256": "76945be24f2cec087d7d61ef64c62b34b315f9b296b0b5eda5cbd3d60b08afde",
+      "published_sha256": "76945be24f2cec087d7d61ef64c62b34b315f9b296b0b5eda5cbd3d60b08afde"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/dune-raw.svg",
+      "source_sha256": "a4f4c281695f0a2f0da8526c93e786409a5e0af677c03995acf4409b24001275",
+      "published_sha256": "a4f4c281695f0a2f0da8526c93e786409a5e0af677c03995acf4409b24001275"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/end-to-end.drawio",
+      "source_sha256": "d96d59f55119d460c158171d12b6a17ceb1c294865fd9a66d386ce8e8885303c",
+      "published_sha256": "d96d59f55119d460c158171d12b6a17ceb1c294865fd9a66d386ce8e8885303c"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/end-to-end.svg",
+      "source_sha256": "28dcf8237d047af27a47bdcaacb5d8d368c80c766f29ebc7a572d3c87019ee12",
+      "published_sha256": "28dcf8237d047af27a47bdcaacb5d8d368c80c766f29ebc7a572d3c87019ee12"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/etna-comparison.drawio",
+      "source_sha256": "321f6e7c5c49d51542d3f5ebbff27576bf775de38ecd1ab0c2eda2b6192895b0",
+      "published_sha256": "321f6e7c5c49d51542d3f5ebbff27576bf775de38ecd1ab0c2eda2b6192895b0"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/etna-comparison.svg",
+      "source_sha256": "c526c0c42067b8091cc7c59073bb7a3bd675e39f199c435dae9b9f4a662a9d42",
+      "published_sha256": "c526c0c42067b8091cc7c59073bb7a3bd675e39f199c435dae9b9f4a662a9d42"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/fees.drawio",
+      "source_sha256": "d011e5091e36cdf9b7ac6a215e4da0169d9111701caf44e83ab61baab56f4099",
+      "published_sha256": "d011e5091e36cdf9b7ac6a215e4da0169d9111701caf44e83ab61baab56f4099"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/fees.svg",
+      "source_sha256": "abce6f312726f151597d88dd310f2f0c43fa95fa37192a3bc7bb8b71b7621aa2",
+      "published_sha256": "abce6f312726f151597d88dd310f2f0c43fa95fa37192a3bc7bb8b71b7621aa2"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/gas-token-costs.drawio",
+      "source_sha256": "6b23dd0b202725b3165bbec5898a1f19065efdbb6dac36680d29515cc1d165a4",
+      "published_sha256": "6b23dd0b202725b3165bbec5898a1f19065efdbb6dac36680d29515cc1d165a4"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/gas-token-costs.svg",
+      "source_sha256": "f2da524f05776799b5cadfdefbe7913b92c404996062ea253eb961421dba95f6",
+      "published_sha256": "f2da524f05776799b5cadfdefbe7913b92c404996062ea253eb961421dba95f6"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/helicon.drawio",
+      "source_sha256": "55ea2d993b5a90e263a364699048bbf96a37f475c854f1871945d53d780e2ee3",
+      "published_sha256": "55ea2d993b5a90e263a364699048bbf96a37f475c854f1871945d53d780e2ee3"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/helicon.svg",
+      "source_sha256": "a0a58042530d87bee1719bbf9b102229b4426fae4f267848107c311f82f5d057",
+      "published_sha256": "a0a58042530d87bee1719bbf9b102229b4426fae4f267848107c311f82f5d057"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/icm-layers.drawio",
+      "source_sha256": "f1e614025bfb93159cefc9111af4b6913402211fc6f46db6a61f8944f2deadce",
+      "published_sha256": "f1e614025bfb93159cefc9111af4b6913402211fc6f46db6a61f8944f2deadce"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/icm-layers.svg",
+      "source_sha256": "95ae0d759e3a5795bdd889f0c498af3308da714d9343932e483ed863f59572b8",
+      "published_sha256": "95ae0d759e3a5795bdd889f0c498af3308da714d9343932e483ed863f59572b8"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/identifiers.drawio",
+      "source_sha256": "81196e169975934cba2bffeeb1bbee41ea05eaafa5a27cd5a55173cf9f17225a",
+      "published_sha256": "81196e169975934cba2bffeeb1bbee41ea05eaafa5a27cd5a55173cf9f17225a"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/identifiers.svg",
+      "source_sha256": "60caedb0b260f2875dd00ff12e61816b5ea76e2ad8c8382f9b10e884882a7943",
+      "published_sha256": "60caedb0b260f2875dd00ff12e61816b5ea76e2ad8c8382f9b10e884882a7943"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/json-normalization.drawio",
+      "source_sha256": "5df6df80f1f448f0b15b3143dca29e93a74c00c76dce1b6320e5ae9de5865ef0",
+      "published_sha256": "5df6df80f1f448f0b15b3143dca29e93a74c00c76dce1b6320e5ae9de5865ef0"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/json-normalization.svg",
+      "source_sha256": "430ea57aa11eec646d5d613cf53b0df54bcd8860b8e76b7d0e225cf7d318fa5d",
+      "published_sha256": "430ea57aa11eec646d5d613cf53b0df54bcd8860b8e76b7d0e225cf7d318fa5d"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/launch-l1.drawio",
+      "source_sha256": "05e2bf2df8fc9d02bcd205a897da96aa6db34e1c266d831c8c100e1dafe88ef8",
+      "published_sha256": "05e2bf2df8fc9d02bcd205a897da96aa6db34e1c266d831c8c100e1dafe88ef8"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/launch-l1.svg",
+      "source_sha256": "ca4d53db8357e733475ae7019a8c81a8eb1a3a3e84b725698e3e9959623d4a76",
+      "published_sha256": "ca4d53db8357e733475ae7019a8c81a8eb1a3a3e84b725698e3e9959623d4a76"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/manager-bootstrap.drawio",
+      "source_sha256": "c22a5a98ceae08e9fc455b57aea724bde940e1a1a56af3eacbca7b4fa12d2934",
+      "published_sha256": "c22a5a98ceae08e9fc455b57aea724bde940e1a1a56af3eacbca7b4fa12d2934"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/manager-bootstrap.svg",
+      "source_sha256": "1e3efa8a4b16d493551c4cd758814d8726210c04467585042946ed7030bf2896",
+      "published_sha256": "1e3efa8a4b16d493551c4cd758814d8726210c04467585042946ed7030bf2896"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/message-states.drawio",
+      "source_sha256": "93fd7dc2e6385f378fef8023d91e33a5aeadad7ff05f5a7b4a2fb9cf08c983d6",
+      "published_sha256": "93fd7dc2e6385f378fef8023d91e33a5aeadad7ff05f5a7b4a2fb9cf08c983d6"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/message-states.svg",
+      "source_sha256": "681adf8677bfd28e5fc5e44d9db34aefa9b70d907afcded3f0ee9307cc2ad7fe",
+      "published_sha256": "681adf8677bfd28e5fc5e44d9db34aefa9b70d907afcded3f0ee9307cc2ad7fe"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/multi-chain-model.drawio",
+      "source_sha256": "558a4d60508a3bfe8b8bd190926108469e08ef186505f2b88e442d5ab19935d7",
+      "published_sha256": "558a4d60508a3bfe8b8bd190926108469e08ef186505f2b88e442d5ab19935d7"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/multi-chain-model.svg",
+      "source_sha256": "44d77947317f2d7120300b138cc21c0abc32dd5a87773bdc154efc5ee0a7aecd",
+      "published_sha256": "44d77947317f2d7120300b138cc21c0abc32dd5a87773bdc154efc5ee0a7aecd"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/network-balance.drawio",
+      "source_sha256": "9228b323a9e165e13d55635369ddb3522b76a2af37811f5303a4aa3f67652045",
+      "published_sha256": "9228b323a9e165e13d55635369ddb3522b76a2af37811f5303a4aa3f67652045"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/network-balance.svg",
+      "source_sha256": "31080a1066aaa6d38496d84f1b9c5b67627b398389bd4f38cef2367fb1a04bb0",
+      "published_sha256": "31080a1066aaa6d38496d84f1b9c5b67627b398389bd4f38cef2367fb1a04bb0"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/network-overview.drawio",
+      "source_sha256": "c7edd7ccbc5a80f48aeda9c94881055ace5eff3385d4902a2767b07993ee118b",
+      "published_sha256": "c7edd7ccbc5a80f48aeda9c94881055ace5eff3385d4902a2767b07993ee118b"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/network-overview.svg",
+      "source_sha256": "d6bc52e6018c317a8da2b7eb7f49c0ee1824418f047553aefe36e5924951e497",
+      "published_sha256": "d6bc52e6018c317a8da2b7eb7f49c0ee1824418f047553aefe36e5924951e497"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/observability.drawio",
+      "source_sha256": "d8d983f1ef4109385c093a0a979fd526f4eff263c8876946052b597acee869ba",
+      "published_sha256": "d8d983f1ef4109385c093a0a979fd526f4eff263c8876946052b597acee869ba"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/observability.svg",
+      "source_sha256": "7de0dfac8b839b5fb704a77624c45a7d05b5d14948f43830a6a972a353dacc49",
+      "published_sha256": "7de0dfac8b839b5fb704a77624c45a7d05b5d14948f43830a6a972a353dacc49"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/p-data-model.drawio",
+      "source_sha256": "cfd7d55dd4bdb134ebb5c16e7c1dd7220aafee61db5de532e4c99f06b46fb5bd",
+      "published_sha256": "cfd7d55dd4bdb134ebb5c16e7c1dd7220aafee61db5de532e4c99f06b46fb5bd"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/p-data-model.svg",
+      "source_sha256": "6a80cf159591d46dd7aae730ecee09488ffd9aa41e44e647ab3ef1e35890db4d",
+      "published_sha256": "6a80cf159591d46dd7aae730ecee09488ffd9aa41e44e647ab3ef1e35890db4d"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/p-transaction-types.drawio",
+      "source_sha256": "3ae0c03495ee479b6545ae62576044da6c45702d743259bc73b843221245cf8c",
+      "published_sha256": "3ae0c03495ee479b6545ae62576044da6c45702d743259bc73b843221245cf8c"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/p-transaction-types.svg",
+      "source_sha256": "a108e47a246829ed79f6c93dcb90f4f29ea7c2c1ebdc0349c307fd4cac68776b",
+      "published_sha256": "a108e47a246829ed79f6c93dcb90f4f29ea7c2c1ebdc0349c307fd4cac68776b"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/primary-staking.drawio",
+      "source_sha256": "f1415ab8ec06e023f1617723fa7c0bc6ad2026ccee1e7b3e5aee1ef85206fa7e",
+      "published_sha256": "f1415ab8ec06e023f1617723fa7c0bc6ad2026ccee1e7b3e5aee1ef85206fa7e"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/primary-staking.svg",
+      "source_sha256": "4efd2b177145ba6c425cad8ac334eee851ca86d3d80efb5dcdb94f38af35cf1a",
+      "published_sha256": "4efd2b177145ba6c425cad8ac334eee851ca86d3d80efb5dcdb94f38af35cf1a"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/runtime-map.drawio",
+      "source_sha256": "4f9ee895c540a6f190caca940b98dfc18a6f26ad6a2b235ee33b394fb944f246",
+      "published_sha256": "4f9ee895c540a6f190caca940b98dfc18a6f26ad6a2b235ee33b394fb944f246"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/runtime-map.svg",
+      "source_sha256": "4b184cf612d2fcff0e2a931b13baf5eecdd3eedc5392af5bb3a3c3b01ef5be83",
+      "published_sha256": "4b184cf612d2fcff0e2a931b13baf5eecdd3eedc5392af5bb3a3c3b01ef5be83"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/snowman.drawio",
+      "source_sha256": "333323f504fd9dcfac2c3011669947a5d592dd83b1132291fea06fc391d23852",
+      "published_sha256": "333323f504fd9dcfac2c3011669947a5d592dd83b1132291fea06fc391d23852"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/snowman.svg",
+      "source_sha256": "c6562e4c495e0a82ea4c94dd61f859e497ff0035d50fc0ee82e755c907d84d61",
+      "published_sha256": "c6562e4c495e0a82ea4c94dd61f859e497ff0035d50fc0ee82e755c907d84d61"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/sql-grain.drawio",
+      "source_sha256": "3121ef2578ae0c3994b7e01cb569d6b9a70e558192a097a91e33c6fd0cb0c81a",
+      "published_sha256": "3121ef2578ae0c3994b7e01cb569d6b9a70e558192a097a91e33c6fd0cb0c81a"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/sql-grain.svg",
+      "source_sha256": "41107074f90fefa22ba61edc084f3db843b0c778c06e9522e21c23017b080b85",
+      "published_sha256": "41107074f90fefa22ba61edc084f3db843b0c778c06e9522e21c23017b080b85"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/three-models.drawio",
+      "source_sha256": "dba699935bd1820a0e2bfa4d2ab231f6dce2daf4da19348eb460d69fc04634b0",
+      "published_sha256": "dba699935bd1820a0e2bfa4d2ab231f6dce2daf4da19348eb460d69fc04634b0"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/three-models.svg",
+      "source_sha256": "446a51af13fa5a745cf5264102a66678fcfe08b7fd92f61f865c4ceea430d14e",
+      "published_sha256": "446a51af13fa5a745cf5264102a66678fcfe08b7fd92f61f865c4ceea430d14e"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/token-logs.drawio",
+      "source_sha256": "3dc8335f1d5278f80ea7f9d716d76954a1a8af7ac567f8e33ecd80dc990003fd",
+      "published_sha256": "3dc8335f1d5278f80ea7f9d716d76954a1a8af7ac567f8e33ecd80dc990003fd"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/token-logs.svg",
+      "source_sha256": "3186652ea09d2bef4a880118751f353865ab4edf29a5c3bfb30345da9f401d0d",
+      "published_sha256": "3186652ea09d2bef4a880118751f353865ab4edf29a5c3bfb30345da9f401d0d"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/validator-identities.drawio",
+      "source_sha256": "5a19011a6252601bc02d2441d4c43a68e5b84a60d0769c903267e8917dbfcbc0",
+      "published_sha256": "5a19011a6252601bc02d2441d4c43a68e5b84a60d0769c903267e8917dbfcbc0"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/validator-identities.svg",
+      "source_sha256": "15fae0715796052766db94fc7bc2f2f43b5ab13e6d6420d5b8aa85193db36055",
+      "published_sha256": "15fae0715796052766db94fc7bc2f2f43b5ab13e6d6420d5b8aa85193db36055"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/validator-lifecycle.drawio",
+      "source_sha256": "3ca0efedf78519e0be5fd7b29a896987449423a16b8d770d4b2681d03a553e33",
+      "published_sha256": "3ca0efedf78519e0be5fd7b29a896987449423a16b8d770d4b2681d03a553e33"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/validator-lifecycle.svg",
+      "source_sha256": "77180265ea2f7958737ed80de2b6f288866728462521629eb11c99b82ebbc18d",
+      "published_sha256": "77180265ea2f7958737ed80de2b6f288866728462521629eb11c99b82ebbc18d"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/validator-manager.drawio",
+      "source_sha256": "f1ea471a00449471c2b55846c3c2f73e68c3159b893345a8255ec61a7213f28d",
+      "published_sha256": "f1ea471a00449471c2b55846c3c2f73e68c3159b893345a8255ec61a7213f28d"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/validator-manager.svg",
+      "source_sha256": "cb2de0ad51581f629d06c34e09c44ecd40c7ad23c373365a5cac64a2bcfadb33",
+      "published_sha256": "cb2de0ad51581f629d06c34e09c44ecd40c7ad23c373365a5cac64a2bcfadb33"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/warp-flow.drawio",
+      "source_sha256": "441b22dd0561a9829a232c17a0ad41ae6636e15456a019780449840d6a90f4d3",
+      "published_sha256": "441b22dd0561a9829a232c17a0ad41ae6636e15456a019780449840d6a90f4d3"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/warp-flow.svg",
+      "source_sha256": "a96135139db1e9a8942474a5dc8e45c75625231f4bfd9b1bf206fb54d2135273",
+      "published_sha256": "a96135139db1e9a8942474a5dc8e45c75625231f4bfd9b1bf206fb54d2135273"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/x-transfer-case.drawio",
+      "source_sha256": "53acd8d13ba2113c59adca23f7e672baa9aa8b7ae6a8f298c26d929240dec6b9",
+      "published_sha256": "53acd8d13ba2113c59adca23f7e672baa9aa8b7ae6a8f298c26d929240dec6b9"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/x-transfer-case.svg",
+      "source_sha256": "c2cd6f104d9661611f58a9cf02821b8c0d91c9d73b5b5169e51d158f081fa498",
+      "published_sha256": "c2cd6f104d9661611f58a9cf02821b8c0d91c9d73b5b5169e51d158f081fa498"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/x-utxo.drawio",
+      "source_sha256": "7f59263e8190d478d3b230b6140a7aaaeb199623749ab3a483b43d0b3ea98245",
+      "published_sha256": "7f59263e8190d478d3b230b6140a7aaaeb199623749ab3a483b43d0b3ea98245"
+    },
+    {
+      "path": "chains/avalanche/assets/diagrams/x-utxo.svg",
+      "source_sha256": "053dd02bc900dc1d65096d71eb2251852b0c2a14e7261b1949f0f4b3c70f79bd",
+      "published_sha256": "053dd02bc900dc1d65096d71eb2251852b0c2a14e7261b1949f0f4b3c70f79bd"
+    },
+    {
+      "path": "chains/avalanche/book/00-preface.md",
+      "source_sha256": "1f6a5a85cbdbcde994e1b06cd9115fc8df6ee17ab6512c1aea3cfa21687121b5",
+      "published_sha256": "c6ad051eddab02a16d65d5bd3770a1fd9e828d1b1a6e6a06dcf34758c503775a"
+    },
+    {
+      "path": "chains/avalanche/book/appendix/chain-identifiers.md",
+      "source_sha256": "aa1170c03a4c940e8247cd9b3b0d2bc3c7b5227c8efa973d7fd4a47aeda74aaf",
+      "published_sha256": "7de99b7522fac0171af4241f3fe069b070b18846090cdbd3cab4e8d3acd42974"
+    },
+    {
+      "path": "chains/avalanche/book/appendix/data-source-index.md",
+      "source_sha256": "218ee3e9fa91c7fc2cce82403e7e1104055343786eaf00d5f24ffd13000886bd",
+      "published_sha256": "782afa830a48d4ddafbc63067fb90ae5f9228fd837cc0bcbf2e67cec2dcd5c34"
+    },
+    {
+      "path": "chains/avalanche/book/appendix/glossary.md",
+      "source_sha256": "942d3d21fd8145d5a1f7dce7137a4b763ccf65e2bcae8d5d6cef9012e6ca7c38",
+      "published_sha256": "3b9b07d07fa5373715e546fc33ddef6a4ab57175362b6797b62c7939cc88717c"
+    },
+    {
+      "path": "chains/avalanche/book/appendix/references.md",
+      "source_sha256": "04df07a9729f0403016965f406d370ac4bd8293d31ce8505f4c5d924af089a3b",
+      "published_sha256": "ad806029074a790f14e3ef88af382161f793ae9a07df44740498e4e682a283ba"
+    },
+    {
+      "path": "chains/avalanche/book/appendix/transaction-types.md",
+      "source_sha256": "0735839d7340bccf5072e544a8d43847362737be7e0146be8ca71b8e0d503ae0",
+      "published_sha256": "d33c5db42ea851e54dcef6c4cd710030a76b94116d6f9793caf8620800f33a1a"
+    },
+    {
+      "path": "chains/avalanche/book/part-01/01-one-wallet-many-ledgers.md",
+      "source_sha256": "fd21e843d397448296c4edbe3ebbee2f4b1073490d6da0ce8105a0da5cacd3fc",
+      "published_sha256": "d5178300a5375a3806131eaaa1cacff42a6b14e9317934b15ee53e6d15804a19"
+    },
+    {
+      "path": "chains/avalanche/book/part-01/02-network-and-primary.md",
+      "source_sha256": "aae93dad107679d0bfee5b218b5f08a472c879d25326df8b9af564ce59487aea",
+      "published_sha256": "471e70fd3292c5addc88dbe1a1cda2ac6fc51bb15a3b841139ae6fc633dcdc1f"
+    },
+    {
+      "path": "chains/avalanche/book/part-01/03-identities.md",
+      "source_sha256": "a1000461d8050224d400a0bfa51daf3125f5d662e8ffde9f728b86d6835539e8",
+      "published_sha256": "419bc5c5e4a86942402eb8dbfa17fd013d32c68b0961c0b0d43ebf1e4948649d"
+    },
+    {
+      "path": "chains/avalanche/book/part-01/04-three-models.md",
+      "source_sha256": "f8968a968767fa451e212590878ea7c0b87a915c17453548aa5191d0a1f3cea6",
+      "published_sha256": "64a3a54363e864259ef78ae59199d04034dfe09c53ec29b7b71fff4600af08e5"
+    },
+    {
+      "path": "chains/avalanche/book/part-02/05-consensus-and-vm.md",
+      "source_sha256": "0468ecbcdc2463e88d20e962d714a2fcf6ae4e3c39bada5db64f34821aacd0d4",
+      "published_sha256": "309859f7b3a14a170da433d50436116c495c3baf0f71e5c33c6a3633fcc64b53"
+    },
+    {
+      "path": "chains/avalanche/book/part-02/06-snowman.md",
+      "source_sha256": "addeb873f61bb893e726ed434eb1800659a1509cc5758c08fd1926014a834cf9",
+      "published_sha256": "7160441b8afee4a8645c7b5d0f13bf2ea163856a81bbdc7c82781c3ce1e1679b"
+    },
+    {
+      "path": "chains/avalanche/book/part-02/07-helicon.md",
+      "source_sha256": "3ced0d9acc99ed0152158cd2be53eb1a563788dd4a3d938efae749e9371324cf",
+      "published_sha256": "0e8e9e3e2d3b0e1f2914af5dff467cce3b355007beca6bfe49e8c40bf91c1eab"
+    },
+    {
+      "path": "chains/avalanche/book/part-02/08-execution-artifacts.md",
+      "source_sha256": "d2223ab62a6c0903aea9795b417c87b18f084fc5d8e9232f969f354384bdb925",
+      "published_sha256": "5d3ebdccc182f18d7db46addb6147221b67497d4abe8057aa4a575ed996a1460"
+    },
+    {
+      "path": "chains/avalanche/book/part-03/09-c-transfer.md",
+      "source_sha256": "dd2b501a7dcaf4053aea2d5d0dc52fc3db8d3a364f37224c363fbe32a9473564",
+      "published_sha256": "629785c8d72b036ee2bcda0654714929d198995fb594ea8e39c003a2ab9f6d6c"
+    },
+    {
+      "path": "chains/avalanche/book/part-03/10-tokens-and-logs.md",
+      "source_sha256": "6e14f2781838df4eb643c456ebf1cbb9d57705d0516ca6d9789bbdf6aae25f32",
+      "published_sha256": "53507bc32a10c8cb945060aaa1836dc0a306b792864a9aafc122e1127dcc4357"
+    },
+    {
+      "path": "chains/avalanche/book/part-03/11-fees.md",
+      "source_sha256": "b3bfa23b37660a7a03ad490634875232b5407af4ecaf7e970d3a12341eadd02d",
+      "published_sha256": "8a74db199dac9285b2a38df8bad75abfdd8db49230ab37bbff74b83af11eab1e"
+    },
+    {
+      "path": "chains/avalanche/book/part-03/12-dune-raw.md",
+      "source_sha256": "3ff55427f04d25717409a6516ca63ad2117039cdf55ae116b2d3def098195292",
+      "published_sha256": "44bd45e5e3311d1b2581d53e263472fa3907eb8f39886490b350034800c31ef6"
+    },
+    {
+      "path": "chains/avalanche/book/part-04/13-p-chain-role.md",
+      "source_sha256": "d65fb6118faffb308322df078df3ce2342f9ced26e95c0e652c2337ff67019b1",
+      "published_sha256": "d0f4855edf6ac07192bda14c793da947f370b865b0378553249f8a2984f5c7a6"
+    },
+    {
+      "path": "chains/avalanche/book/part-04/14-p-objects.md",
+      "source_sha256": "1f86fb509fa7c8a4e1dec907198aad6d982c822b2a4e227def8a286ff15624ea",
+      "published_sha256": "75032de4e269299371e7196192291743d0646a5cc5cb10157838ff49ee8c5dec"
+    },
+    {
+      "path": "chains/avalanche/book/part-04/15-primary-staking.md",
+      "source_sha256": "345e9f3034e7a8a89015d23921d86c99a3bef582010254bf73a1d6d3a45385da",
+      "published_sha256": "e82dc255f319c085f75e1288773021b37943803e16bb4438164e384b5b7dd3e6"
+    },
+    {
+      "path": "chains/avalanche/book/part-04/16-p-transaction-types.md",
+      "source_sha256": "6e7ecf606b918e46b9db6893a7c936462a5c608799d47f9001a4141950661c60",
+      "published_sha256": "5a8a70aa9a22e28f7d4fc9189b59be7a5b7d14347bf23cc9bb48b60cdf4ee874"
+    },
+    {
+      "path": "chains/avalanche/book/part-05/17-x-utxo.md",
+      "source_sha256": "44452e5e59322b246f81686b13c6cd1811496293d17615c34562ea51ce86ece3",
+      "published_sha256": "cdcdd4618f159ee19ce8cf9a4861b346f0a05439871377daea59987787665632"
+    },
+    {
+      "path": "chains/avalanche/book/part-05/18-x-real-transfer.md",
+      "source_sha256": "fcc5c6e888ce0e25e7f45b540d677f7f790fdec2e0e732452fe4ae72130654c0",
+      "published_sha256": "9e14c8d41d705b4ee8ee6c51645fadc02992259c78bad03f454a99afb4bc26ed"
+    },
+    {
+      "path": "chains/avalanche/book/part-05/19-atomic-transfer.md",
+      "source_sha256": "28875d6ebcfb888644bcbad97a93a4eb3a6cd39d5e3f4678442de7d69004c90a",
+      "published_sha256": "7bf432e966e031d1edf6d4ae813d55adc727458371b8d199d0ed51656c5e3078"
+    },
+    {
+      "path": "chains/avalanche/book/part-05/20-atomic-reconciliation.md",
+      "source_sha256": "2fd5ebf5b8d1c4df6d9b21881b70add344c6cc2a2296efc9b214e28f22912ee7",
+      "published_sha256": "bebd7b2784605ab187b3e8dc393ba1719c3cc2f3223aa5caa3f2fb2d20c737b4"
+    },
+    {
+      "path": "chains/avalanche/book/part-06/21-etna-and-subnets.md",
+      "source_sha256": "a951ec3301f8b6fd536d4dcdc4e4ed1bb3b380387e5c174cac4606fb5f22669a",
+      "published_sha256": "fffd2a34aafd200861b337c1d3b52f2e646a07775a38d7e2fe8cb54ad8959c68"
+    },
+    {
+      "path": "chains/avalanche/book/part-06/22-launch-objects.md",
+      "source_sha256": "6bb59d6f5a5cd544a81756315bcf9f9552b53f905026d41020fe9c4b57406b49",
+      "published_sha256": "73db62f61a11e7f776517685d7a1f90ad310616352a0b6d91b2781f06b1d6aab"
+    },
+    {
+      "path": "chains/avalanche/book/part-06/23-genesis-and-gas-token.md",
+      "source_sha256": "7e87540344c84985ad74490d821d1ca7689b141471994886dc93d61d2d2e310e",
+      "published_sha256": "6ff1162a10c77685f8a744d626adae56c6d73d9f326faca11ee8f990aa8cf7bd"
+    },
+    {
+      "path": "chains/avalanche/book/part-06/24-beam-creation.md",
+      "source_sha256": "439c98e5af4ef75168a62cc902f460b341abbdc535b78ea769fa0180bcd6d2bf",
+      "published_sha256": "cc1c2b7b17a4083f531e628e8a5fa122f63918d8847a6b0e17099f956fb655b7"
+    },
+    {
+      "path": "chains/avalanche/book/part-07/25-validator-manager.md",
+      "source_sha256": "3b0c0da00c64d932cb2ee5a9e638ee1dee6ffa01280d26051babcd9e27ccb32e",
+      "published_sha256": "c442352386d37e3428aafdd1e6164e152855a9bfba148758bb07531a6995c486"
+    },
+    {
+      "path": "chains/avalanche/book/part-07/26-manager-bootstrap.md",
+      "source_sha256": "f5b5886e4027bbdb36ffa4816d59031c4f891946cbfe77feeb2b9d9c6148c02b",
+      "published_sha256": "2fad0e59c39d4a213bc2364c89baa83003a613504bda7abcdcf60b317ad9c2a3"
+    },
+    {
+      "path": "chains/avalanche/book/part-07/27-validator-lifecycle.md",
+      "source_sha256": "77127d93f595a1f8aa2b3852569ee9a19d5baebb67e90d4423c4e19fbef5d391",
+      "published_sha256": "45c88dc50aa472ab6c0bb9f47db80259edf26d1964ed8635202eec4e12893038"
+    },
+    {
+      "path": "chains/avalanche/book/part-07/28-continuous-fees.md",
+      "source_sha256": "789b6eaa99fb87ef819aa522a9e57e7977501dc62805be5d0ba796e2d08616f0",
+      "published_sha256": "2ab695e5b212cf86527a6e6a380eea8ca6551d31bfe1d0a3b0374ad93c445de1"
+    },
+    {
+      "path": "chains/avalanche/book/part-08/29-warp-trust.md",
+      "source_sha256": "f6e478a2d4e020d3361d66513eb5fe3c9563f04f81fceb7bb41ff3724eec4004",
+      "published_sha256": "10a6c1ee52317c5d4b6d6260ed0a849f57ad4bacca02266708aae7e497f1de78"
+    },
+    {
+      "path": "chains/avalanche/book/part-08/30-teleporter.md",
+      "source_sha256": "a0097bf6f62dd35c1938416c0cb6db009b015367d3cc10c9edd15e784b182382",
+      "published_sha256": "e34a102753f307bb95180eeef2009639003122ad2a38b038a4acc6973e9ec9c0"
+    },
+    {
+      "path": "chains/avalanche/book/part-08/31-message-stages.md",
+      "source_sha256": "9c19fb87bd9632a1c44ac23e631855a4ae5f52fd74617ad5e56e4ee8348242d8",
+      "published_sha256": "160b92477a14f6549d62f49826445739ee88084b0003183059485d1cae9a10c4"
+    },
+    {
+      "path": "chains/avalanche/book/part-08/32-asset-messaging.md",
+      "source_sha256": "bb06227d5868817c23555266bf2e7112b2146d753a4e06f8b5eb428454b32434",
+      "published_sha256": "4b40e8bb3e0273586c22e4a922ca7c85e20effbaae4a92b7cafe3c147040bfac"
+    },
+    {
+      "path": "chains/avalanche/book/part-09/33-data-sources.md",
+      "source_sha256": "bf35e4dc9327a81238336afcdf45dc499fa640b28d379e0ab06b7a003089fa71",
+      "published_sha256": "bf799ff97c550a298aa53cf11d0054593dd3c01ceef7ff89b1d3b4db1cc2e651"
+    },
+    {
+      "path": "chains/avalanche/book/part-09/34-decoded-curated.md",
+      "source_sha256": "140e8b7c854215e865364fe713755aaecd71f82a022ba39b590d5f5c9ba5d01c",
+      "published_sha256": "dee058c5d291475e1acc75df53b49d3c63008363b8c0fad3ed07172c137f2d35"
+    },
+    {
+      "path": "chains/avalanche/book/part-09/35-sql-grain.md",
+      "source_sha256": "5ed934d5379f9f38d40d2516dbcbc52f90dedb965940942a9518dcfeeceb0d28",
+      "published_sha256": "e867ce20add59d827fef202284d13ad65e19d33422b9840f8612a43cbd8fb08b"
+    },
+    {
+      "path": "chains/avalanche/book/part-09/36-normalize-json.md",
+      "source_sha256": "c52154d7a8db38455670b8e0a5b241ca987e051ecb305aa16bbba1c45c743867",
+      "published_sha256": "cf63fd539fde9696c003fff453e09905ea97e15f114244df86621b7efe6c3324"
+    },
+    {
+      "path": "chains/avalanche/book/part-10/37-multi-chain-model.md",
+      "source_sha256": "9cd1a0d9cd12abff8c08e3cb44003f6721dd181d09389cbe3f0ba471f139c9cd",
+      "published_sha256": "756eb0285ef2871d396fbccf299411dbacb35b023adbcf46ba9fad0f6ed4548a"
+    },
+    {
+      "path": "chains/avalanche/book/part-10/38-whole-network-balance.md",
+      "source_sha256": "3c566243cf08e73f02bb7ac3596756b54c32787d82eabbf4a9b360341845e8e4",
+      "published_sha256": "746aa77fa2e9343332dbe34d2b024bf6decf6f599d1f1f9e99d37bb938dfaaf7"
+    },
+    {
+      "path": "chains/avalanche/book/part-10/39-end-to-end.md",
+      "source_sha256": "640c25eb7551a5442cf3d70119bf6d50fd875138325c83ee9fa7cc9d25a229aa",
+      "published_sha256": "4c90d77d60098b03cfb0440517e627d29bae696b68c6909b4ed0cbb9b2a43554"
+    },
+    {
+      "path": "chains/avalanche/book/part-10/40-observability.md",
+      "source_sha256": "9ba57323c01b5bd2c274928e82f60059fd440f32244b0c9880a2e83f95456fd6",
+      "published_sha256": "8a22762d9869590eee486bbe0ebad98bc38fbdc9f86f718184a7d679b81902ed"
+    },
+    {
+      "path": "chains/avalanche/examples/python/normalize_cases.py",
+      "source_sha256": "079f6cbaff29f8c91b2c62417100494621f6e8ac95a2c13d837e454b8c66c4df",
+      "published_sha256": "079f6cbaff29f8c91b2c62417100494621f6e8ac95a2c13d837e454b8c66c4df"
+    },
+    {
+      "path": "chains/avalanche/examples/rpc/README.md",
+      "source_sha256": "14b6e4f4e5c92f0316b0b77eb79d12ee62315c0c6139519de3dd239c96f0d23d",
+      "published_sha256": "14b6e4f4e5c92f0316b0b77eb79d12ee62315c0c6139519de3dd239c96f0d23d"
+    },
+    {
+      "path": "chains/avalanche/examples/rpc/atomic-p-import.json",
+      "source_sha256": "45750727d0597dff797dfda96d1f2198f73944933242a5bf71001b038eea660e",
+      "published_sha256": "45750727d0597dff797dfda96d1f2198f73944933242a5bf71001b038eea660e"
+    },
+    {
+      "path": "chains/avalanche/examples/rpc/beam-block.json",
+      "source_sha256": "86d62f9effa2024ebbe036a6fc6f21bb861b2f8cb6daa07e122d42f1e123fbe4",
+      "published_sha256": "86d62f9effa2024ebbe036a6fc6f21bb861b2f8cb6daa07e122d42f1e123fbe4"
+    },
+    {
+      "path": "chains/avalanche/examples/rpc/beam-conversion.json",
+      "source_sha256": "889e5373d9aa8b3b86f1498a9cf80f14943c488b3e31c12e2417092d909cf89b",
+      "published_sha256": "889e5373d9aa8b3b86f1498a9cf80f14943c488b3e31c12e2417092d909cf89b"
+    },
+    {
+      "path": "chains/avalanche/examples/rpc/beam-l1-validators.json",
+      "source_sha256": "ee872dfc8ad6d157fa13af6ef2700d6361e496aa3d4712c698f5374206a83dcd",
+      "published_sha256": "ee872dfc8ad6d157fa13af6ef2700d6361e496aa3d4712c698f5374206a83dcd"
+    },
+    {
+      "path": "chains/avalanche/examples/rpc/beam-receipt.json",
+      "source_sha256": "a2737a0ace8638a0b87ecf0c014711548046c8e6bc935d77561916d92aea922c",
+      "published_sha256": "a2737a0ace8638a0b87ecf0c014711548046c8e6bc935d77561916d92aea922c"
+    },
+    {
+      "path": "chains/avalanche/examples/rpc/beam-subnet-detail.json",
+      "source_sha256": "843b9fe00122a5669a1b583fd506ec9a65514261e65f7903cd28c212082ec507",
+      "published_sha256": "843b9fe00122a5669a1b583fd506ec9a65514261e65f7903cd28c212082ec507"
+    },
+    {
+      "path": "chains/avalanche/examples/rpc/beam-validator-history.json",
+      "source_sha256": "6baca37837bd29c4fa0eb74cc8dcad823e3c1a95d3ae1ff4f941dcf61cec2d57",
+      "published_sha256": "6baca37837bd29c4fa0eb74cc8dcad823e3c1a95d3ae1ff4f941dcf61cec2d57"
+    },
+    {
+      "path": "chains/avalanche/examples/rpc/blockchain-id-c.json",
+      "source_sha256": "8b85f41007fdb717c22baa963ee713621192b7fed3515125e7303fbec24191e7",
+      "published_sha256": "8b85f41007fdb717c22baa963ee713621192b7fed3515125e7303fbec24191e7"
+    },
+    {
+      "path": "chains/avalanche/examples/rpc/blockchain-id-x.json",
+      "source_sha256": "dd1e999a853d7378fca54f7938a712970dc8da775a091eafa3a028fbeb4bd03a",
+      "published_sha256": "dd1e999a853d7378fca54f7938a712970dc8da775a091eafa3a028fbeb4bd03a"
+    },
+    {
+      "path": "chains/avalanche/examples/rpc/c-chain-id.json",
+      "source_sha256": "647c6b3c1dfc3ddab16b50107a74b9122333369b0b50d24314be4b013e9da3ec",
+      "published_sha256": "647c6b3c1dfc3ddab16b50107a74b9122333369b0b50d24314be4b013e9da3ec"
+    },
+    {
+      "path": "chains/avalanche/examples/rpc/c-erc20-detail.json",
+      "source_sha256": "10036a7662163dec34ff7236d798dd8fe6b93342c35fe863d8b6526045042c7c",
+      "published_sha256": "10036a7662163dec34ff7236d798dd8fe6b93342c35fe863d8b6526045042c7c"
+    },
+    {
+      "path": "chains/avalanche/examples/rpc/c-native-detail.json",
+      "source_sha256": "5fdae2702f67377b31dab7ed0b6a3387b0b20addad48c164822e918d4530056b",
+      "published_sha256": "5fdae2702f67377b31dab7ed0b6a3387b0b20addad48c164822e918d4530056b"
+    },
+    {
+      "path": "chains/avalanche/examples/rpc/network-id.json",
+      "source_sha256": "0cedddb42d37dbb1d587ec8e9c4fa32c14cf9e42b1853da65dceed1fa36c1a26",
+      "published_sha256": "0cedddb42d37dbb1d587ec8e9c4fa32c14cf9e42b1853da65dceed1fa36c1a26"
+    },
+    {
+      "path": "chains/avalanche/examples/rpc/p-blockchains.json",
+      "source_sha256": "6b0476228e2da770a4fb4a6d259b68769376a4ed25b853e974f6588e7ba27664",
+      "published_sha256": "6b0476228e2da770a4fb4a6d259b68769376a4ed25b853e974f6588e7ba27664"
+    },
+    {
+      "path": "chains/avalanche/examples/rpc/x-avax-asset.json",
+      "source_sha256": "ede3f7960f4d610d31663a608c77af688e26c124045065d54374f64d51aae0a8",
+      "published_sha256": "ede3f7960f4d610d31663a608c77af688e26c124045065d54374f64d51aae0a8"
+    },
+    {
+      "path": "chains/avalanche/examples/sql/01-daily-transactions.sql",
+      "source_sha256": "602ac619b54e8962916d10f02f0c46f9008844250fcb7faf19f7a632efad4946",
+      "published_sha256": "602ac619b54e8962916d10f02f0c46f9008844250fcb7faf19f7a632efad4946"
+    },
+    {
+      "path": "chains/avalanche/examples/sql/02-one-transaction.sql",
+      "source_sha256": "c189ac618e9ba0ec389defa2dc31b2157b3719425bdc8439b70f1eca6c257ccb",
+      "published_sha256": "c189ac618e9ba0ec389defa2dc31b2157b3719425bdc8439b70f1eca6c257ccb"
+    },
+    {
+      "path": "chains/avalanche/examples/sql/03-execution-fees.sql",
+      "source_sha256": "9d79c58be4615a30243ce8267c6d48e5f8e6b31b665b6b102db9547972b8a9ac",
+      "published_sha256": "9d79c58be4615a30243ce8267c6d48e5f8e6b31b665b6b102db9547972b8a9ac"
+    },
+    {
+      "path": "chains/avalanche/examples/sql/04-block-link.sql",
+      "source_sha256": "8b39b912e5c7eb064c0f7ceaab8d809e9ea9c7871306deb3e02e7637e9ef05cd",
+      "published_sha256": "8b39b912e5c7eb064c0f7ceaab8d809e9ea9c7871306deb3e02e7637e9ef05cd"
+    },
+    {
+      "path": "chains/avalanche/examples/sql/05-erc20-logs.sql",
+      "source_sha256": "4e58f34c2dbafc8ad672d94c68e920ad082345a6ae9288f5f63cf485b94e0b6d",
+      "published_sha256": "4e58f34c2dbafc8ad672d94c68e920ad082345a6ae9288f5f63cf485b94e0b6d"
+    },
+    {
+      "path": "chains/avalanche/examples/sql/06-trace-tree.sql",
+      "source_sha256": "c00e58743d6dc8fa4bd0b6223d6e62270b7213f429ba65905190b20330a741dc",
+      "published_sha256": "c00e58743d6dc8fa4bd0b6223d6e62270b7213f429ba65905190b20330a741dc"
+    },
+    {
+      "path": "chains/avalanche/examples/sql/07-safe-join.sql",
+      "source_sha256": "dba5abe8d8f236c2c706b2267fd5a9e24379b7b605cce8144be5490d3e6e5971",
+      "published_sha256": "dba5abe8d8f236c2c706b2267fd5a9e24379b7b605cce8144be5490d3e6e5971"
+    },
+    {
+      "path": "chains/avalanche/examples/sql/08-usdt-movements.sql",
+      "source_sha256": "990b07820499a646b3b67660320cc42c1c2c88ceb753460b1ea6108b5efa5ff9",
+      "published_sha256": "990b07820499a646b3b67660320cc42c1c2c88ceb753460b1ea6108b5efa5ff9"
+    },
+    {
+      "path": "chains/avalanche/examples/sql/09-dex-segments.sql",
+      "source_sha256": "6e241f81b51657cea3f822a26103fac98c22b7cececef0dd2ee6e52bd4e0b369",
+      "published_sha256": "6e241f81b51657cea3f822a26103fac98c22b7cececef0dd2ee6e52bd4e0b369"
+    },
+    {
+      "path": "chains/avalanche/examples/sql/10-icm-sent.sql",
+      "source_sha256": "35da73cc43f8b8ab4909b8e94149d8a237849f706c39d7b498c5a16cb12a3bbc",
+      "published_sha256": "35da73cc43f8b8ab4909b8e94149d8a237849f706c39d7b498c5a16cb12a3bbc"
+    },
+    {
+      "path": "chains/avalanche/examples/sql/README.md",
+      "source_sha256": "59ab0ff9761dc9590581b8b610edc4246ffe8562c82ad96d04c107762ab34250",
+      "published_sha256": "59ab0ff9761dc9590581b8b610edc4246ffe8562c82ad96d04c107762ab34250"
+    },
+    {
+      "path": "chains/avalanche/examples/transactions/README.md",
+      "source_sha256": "b1a9026c3743f187ae8e7a2ae5e0fb690441247f0fc04d1fd7c8cda77c8e3c97",
+      "published_sha256": "b1a9026c3743f187ae8e7a2ae5e0fb690441247f0fc04d1fd7c8cda77c8e3c97"
+    },
+    {
+      "path": "chains/avalanche/examples/transactions/beam-identity.json",
+      "source_sha256": "49a6aad541b4bd5586421c0d2e43403e421fad4fb40242f23cdbd22879c0b59c",
+      "published_sha256": "49a6aad541b4bd5586421c0d2e43403e421fad4fb40242f23cdbd22879c0b59c"
+    },
+    {
+      "path": "chains/avalanche/examples/transactions/c-erc20-index.json",
+      "source_sha256": "24db15fe43d842ff451db10be5da618737eb22cc51bfa91bad4a15ab91e15f1c",
+      "published_sha256": "24db15fe43d842ff451db10be5da618737eb22cc51bfa91bad4a15ab91e15f1c"
+    },
+    {
+      "path": "chains/avalanche/examples/transactions/c-native-index.json",
+      "source_sha256": "50b74be2a2d818ca4e2fa78659663b25d97d86cafba064cab50c6cf86daaedb8",
+      "published_sha256": "50b74be2a2d818ca4e2fa78659663b25d97d86cafba064cab50c6cf86daaedb8"
+    },
+    {
+      "path": "chains/avalanche/examples/transactions/case-01.json",
+      "source_sha256": "936f47a050ed8fe24b964b2303ddb831541acb65b7a2af54b1c8193ae5af7f95",
+      "published_sha256": "936f47a050ed8fe24b964b2303ddb831541acb65b7a2af54b1c8193ae5af7f95"
+    },
+    {
+      "path": "chains/avalanche/examples/transactions/case-02.json",
+      "source_sha256": "dd973277d440b8d14adf2e613161ab74357e31134736967ef815f3ff5935267c",
+      "published_sha256": "dd973277d440b8d14adf2e613161ab74357e31134736967ef815f3ff5935267c"
+    },
+    {
+      "path": "chains/avalanche/examples/transactions/case-03.json",
+      "source_sha256": "f01aed0ffb94b69244ac63e42326c66afb090242e8f66b34859e6e8cc40aa4b4",
+      "published_sha256": "f01aed0ffb94b69244ac63e42326c66afb090242e8f66b34859e6e8cc40aa4b4"
+    },
+    {
+      "path": "chains/avalanche/examples/transactions/case-04.json",
+      "source_sha256": "7e0155df09294f75eba42f16bfdcf3ed1fdf73d7161bf0f8a49ac869b99a338e",
+      "published_sha256": "7e0155df09294f75eba42f16bfdcf3ed1fdf73d7161bf0f8a49ac869b99a338e"
+    },
+    {
+      "path": "chains/avalanche/examples/transactions/case-05.json",
+      "source_sha256": "4a2a9a465479b09fb09f62e2a8640729b043f4ad449934f95fec97a613bc6637",
+      "published_sha256": "4a2a9a465479b09fb09f62e2a8640729b043f4ad449934f95fec97a613bc6637"
+    },
+    {
+      "path": "chains/avalanche/examples/transactions/case-06.json",
+      "source_sha256": "84e27f747f1c1580a0d5facb0f93317aeb72336ec6cf5a9a26729326c66d16cf",
+      "published_sha256": "84e27f747f1c1580a0d5facb0f93317aeb72336ec6cf5a9a26729326c66d16cf"
+    },
+    {
+      "path": "chains/avalanche/examples/transactions/case-07.json",
+      "source_sha256": "e932bdf5df7a6d67b62d489ab237216eb0d34776269fc851dad52fa785ff9e08",
+      "published_sha256": "e932bdf5df7a6d67b62d489ab237216eb0d34776269fc851dad52fa785ff9e08"
+    },
+    {
+      "path": "chains/avalanche/examples/transactions/case-08.json",
+      "source_sha256": "6c17e667c3be560f3679d779d45917628af7b48d66b63dba8c6e3c629278de47",
+      "published_sha256": "6c17e667c3be560f3679d779d45917628af7b48d66b63dba8c6e3c629278de47"
+    },
+    {
+      "path": "chains/avalanche/examples/transactions/case-09.json",
+      "source_sha256": "45ab05d0986c0ca1c72bbca5a9510ddd5b163a74e8e693219f1e52ad73a87d24",
+      "published_sha256": "45ab05d0986c0ca1c72bbca5a9510ddd5b163a74e8e693219f1e52ad73a87d24"
+    },
+    {
+      "path": "chains/avalanche/reports/case-checks.json",
+      "source_sha256": "013128a1f9e22bf493558e3a88d2744d9d1fa100990b6f4497b77f97f77488c5",
+      "published_sha256": "013128a1f9e22bf493558e3a88d2744d9d1fa100990b6f4497b77f97f77488c5"
+    },
+    {
+      "path": "chains/avalanche/reports/chapter-review.csv",
+      "source_sha256": "e7a9990417fdfdeb59a1d8ea9bd664e6d0424b8513192e30e69d99d4705f5be7",
+      "published_sha256": "deabecff62a51f4e97c1567caab7b79a9848edd0c97e74f0bdaa0639a82bb155"
+    },
+    {
+      "path": "chains/avalanche/reports/data-validation.md",
+      "source_sha256": "b24f7e16e5a76329d034bb57a94912ab0da1c3d50c1be8d9727cbd776f282a55",
+      "published_sha256": "b24f7e16e5a76329d034bb57a94912ab0da1c3d50c1be8d9727cbd776f282a55"
+    },
+    {
+      "path": "chains/avalanche/reports/editorial-review.md",
+      "source_sha256": "88ba6da9ca9c2d93cf6c84cca735e27007326f4e119283a58c4475eff1ce1917",
+      "published_sha256": "2764c4b85977c35f6ad5bf2d374c20fe8d609d24e9cf9365deec9bd77853fabd"
+    },
+    {
+      "path": "chains/avalanche/reports/final-acceptance.md",
+      "source_sha256": "6a2ff5d05f4deafe25fa77a7e307f6fbd5836d4f9da8860c1aeaac950750e642",
+      "published_sha256": "a9aaea53e2977c9ad03a93c0299026fa2c41b3c4128e85ecb3f16a74e54cf042"
+    },
+    {
+      "path": "chains/avalanche/reports/technical-review.md",
+      "source_sha256": "ec7d5115c95766ad0e9faadc5b5434fa269e28dba9ab7aee876807a22c8aa5d7",
+      "published_sha256": "ec7d5115c95766ad0e9faadc5b5434fa269e28dba9ab7aee876807a22c8aa5d7"
+    },
+    {
+      "path": "chains/avalanche/reports/validation.json",
+      "source_sha256": "a1d8f1eea8694c86c5db5a9f62141303b52ea8689ea406a34dd8e1a9b667e795",
+      "published_sha256": "a1d8f1eea8694c86c5db5a9f62141303b52ea8689ea406a34dd8e1a9b667e795"
+    },
+    {
+      "path": "chains/avalanche/research/case-manifest.json",
+      "source_sha256": "8f9282ae114fadeb4105950c3a8d0150bfc4fed2b1ecb909bd36d3cd07bdb496",
+      "published_sha256": "8f9282ae114fadeb4105950c3a8d0150bfc4fed2b1ecb909bd36d3cd07bdb496"
+    },
+    {
+      "path": "chains/avalanche/research/chapter-dependencies.md",
+      "source_sha256": "e4d9948d6b8deb79d8f6b159206676f98ba8251a67c92d22aa686de930dc07f3",
+      "published_sha256": "e4d9948d6b8deb79d8f6b159206676f98ba8251a67c92d22aa686de930dc07f3"
+    },
+    {
+      "path": "chains/avalanche/research/chapter-manifest.json",
+      "source_sha256": "f7993574ebe4dbeae776f4796f8fedf49917353ff106225b0c5843189d59ea52",
+      "published_sha256": "f7993574ebe4dbeae776f4796f8fedf49917353ff106225b0c5843189d59ea52"
+    },
+    {
+      "path": "chains/avalanche/research/dune_query_catalog.md",
+      "source_sha256": "52acd4e848647553e38811eb8f76526902f1996f1089ff0a2e1aafe453ec405a",
+      "published_sha256": "52acd4e848647553e38811eb8f76526902f1996f1089ff0a2e1aafe453ec405a"
+    },
+    {
+      "path": "chains/avalanche/research/evidence-index.md",
+      "source_sha256": "010ea7b90c9b281359f98459df50cc46382e5642c4f8915c7b5ea371be39293d",
+      "published_sha256": "b8cdeb0f81697ff4925d77793a2ee4d7d7e90604c0d50bdc4ccee21885cc9ee9"
+    },
+    {
+      "path": "chains/avalanche/research/protocol-timeline.md",
+      "source_sha256": "3318fbe82b10f0d29e23e9e00974df3da8a74e6f3bdc5241c39b5852b1bafdd9",
+      "published_sha256": "b49bd6cfeae86921daf394315e6ec0bedc19a22ada3719aa49e891d20052aa9f"
+    },
+    {
+      "path": "chains/avalanche/research/queries/8674861.sql",
+      "source_sha256": "1756e057efffd82642be73f2bc169cf1302f06f63718178e84e934e74f6086e2",
+      "published_sha256": "1756e057efffd82642be73f2bc169cf1302f06f63718178e84e934e74f6086e2"
+    },
+    {
+      "path": "chains/avalanche/research/queries/8674923.sql",
+      "source_sha256": "ff06670e558ed8a565605f47db7498adc178381d08c8b1b427020ee8c47c8100",
+      "published_sha256": "ff06670e558ed8a565605f47db7498adc178381d08c8b1b427020ee8c47c8100"
+    },
+    {
+      "path": "chains/avalanche/research/queries/8676245.sql",
+      "source_sha256": "d914735cfc664dfdd808379e7848db9df4e009201aa7545bb7ad8a7a1e9c60fa",
+      "published_sha256": "d914735cfc664dfdd808379e7848db9df4e009201aa7545bb7ad8a7a1e9c60fa"
+    },
+    {
+      "path": "chains/avalanche/research/raw/atomic-p-followup.json",
+      "source_sha256": "c0c96027f0294755c7ae96e126a47aeded05ba20add882d5eb26d3d73d87a18d",
+      "published_sha256": "c0c96027f0294755c7ae96e126a47aeded05ba20add882d5eb26d3d73d87a18d"
+    },
+    {
+      "path": "chains/avalanche/research/raw/atomic-p-import.json",
+      "source_sha256": "45750727d0597dff797dfda96d1f2198f73944933242a5bf71001b038eea660e",
+      "published_sha256": "45750727d0597dff797dfda96d1f2198f73944933242a5bf71001b038eea660e"
+    },
+    {
+      "path": "chains/avalanche/research/raw/beam-block.json",
+      "source_sha256": "86d62f9effa2024ebbe036a6fc6f21bb861b2f8cb6daa07e122d42f1e123fbe4",
+      "published_sha256": "86d62f9effa2024ebbe036a6fc6f21bb861b2f8cb6daa07e122d42f1e123fbe4"
+    },
+    {
+      "path": "chains/avalanche/research/raw/beam-chain-id.json",
+      "source_sha256": "8ddbe64cc6d4248edb6744f67361e7d24ee222d0257217b74bd98d0c31e2f8b2",
+      "published_sha256": "8ddbe64cc6d4248edb6744f67361e7d24ee222d0257217b74bd98d0c31e2f8b2"
+    },
+    {
+      "path": "chains/avalanche/research/raw/beam-conversion.json",
+      "source_sha256": "889e5373d9aa8b3b86f1498a9cf80f14943c488b3e31c12e2417092d909cf89b",
+      "published_sha256": "889e5373d9aa8b3b86f1498a9cf80f14943c488b3e31c12e2417092d909cf89b"
+    },
+    {
+      "path": "chains/avalanche/research/raw/beam-create-chain.json",
+      "source_sha256": "414bcb6e48354f1c5b9d5a4bff2d149e0c2bde5c58404c78a5034c57875a2c77",
+      "published_sha256": "414bcb6e48354f1c5b9d5a4bff2d149e0c2bde5c58404c78a5034c57875a2c77"
+    },
+    {
+      "path": "chains/avalanche/research/raw/beam-l1-validators.json",
+      "source_sha256": "ee872dfc8ad6d157fa13af6ef2700d6361e496aa3d4712c698f5374206a83dcd",
+      "published_sha256": "ee872dfc8ad6d157fa13af6ef2700d6361e496aa3d4712c698f5374206a83dcd"
+    },
+    {
+      "path": "chains/avalanche/research/raw/beam-receipt.json",
+      "source_sha256": "a2737a0ace8638a0b87ecf0c014711548046c8e6bc935d77561916d92aea922c",
+      "published_sha256": "a2737a0ace8638a0b87ecf0c014711548046c8e6bc935d77561916d92aea922c"
+    },
+    {
+      "path": "chains/avalanche/research/raw/beam-subnet-detail.json",
+      "source_sha256": "843b9fe00122a5669a1b583fd506ec9a65514261e65f7903cd28c212082ec507",
+      "published_sha256": "843b9fe00122a5669a1b583fd506ec9a65514261e65f7903cd28c212082ec507"
+    },
+    {
+      "path": "chains/avalanche/research/raw/beam-subnet.json",
+      "source_sha256": "c2fb22f6e166e59f67fd526b144648a72751c21cef597d7cd5d9a063385eebc2",
+      "published_sha256": "c2fb22f6e166e59f67fd526b144648a72751c21cef597d7cd5d9a063385eebc2"
+    },
+    {
+      "path": "chains/avalanche/research/raw/beam-validator-history.json",
+      "source_sha256": "6baca37837bd29c4fa0eb74cc8dcad823e3c1a95d3ae1ff4f941dcf61cec2d57",
+      "published_sha256": "6baca37837bd29c4fa0eb74cc8dcad823e3c1a95d3ae1ff4f941dcf61cec2d57"
+    },
+    {
+      "path": "chains/avalanche/research/raw/blockchain-id-c.json",
+      "source_sha256": "8b85f41007fdb717c22baa963ee713621192b7fed3515125e7303fbec24191e7",
+      "published_sha256": "8b85f41007fdb717c22baa963ee713621192b7fed3515125e7303fbec24191e7"
+    },
+    {
+      "path": "chains/avalanche/research/raw/blockchain-id-x.json",
+      "source_sha256": "dd1e999a853d7378fca54f7938a712970dc8da775a091eafa3a028fbeb4bd03a",
+      "published_sha256": "dd1e999a853d7378fca54f7938a712970dc8da775a091eafa3a028fbeb4bd03a"
+    },
+    {
+      "path": "chains/avalanche/research/raw/c-erc20-detail.json",
+      "source_sha256": "10036a7662163dec34ff7236d798dd8fe6b93342c35fe863d8b6526045042c7c",
+      "published_sha256": "10036a7662163dec34ff7236d798dd8fe6b93342c35fe863d8b6526045042c7c"
+    },
+    {
+      "path": "chains/avalanche/research/raw/c-native-detail.json",
+      "source_sha256": "5fdae2702f67377b31dab7ed0b6a3387b0b20addad48c164822e918d4530056b",
+      "published_sha256": "5fdae2702f67377b31dab7ed0b6a3387b0b20addad48c164822e918d4530056b"
+    },
+    {
+      "path": "chains/avalanche/research/raw/data-c-chain-latest.json",
+      "source_sha256": "ac05b9347feaab65f8fb5aa41d7ca857de9a5b638f147482b8a2bdba72e0cf2f",
+      "published_sha256": "ac05b9347feaab65f8fb5aa41d7ca857de9a5b638f147482b8a2bdba72e0cf2f"
+    },
+    {
+      "path": "chains/avalanche/research/raw/data-x-chain-latest.json",
+      "source_sha256": "927d24f3c2eb18eea99ad4619d2d23cb480b9cf68fb20a93742d8d7ce1c5f8b8",
+      "published_sha256": "927d24f3c2eb18eea99ad4619d2d23cb480b9cf68fb20a93742d8d7ce1c5f8b8"
+    },
+    {
+      "path": "chains/avalanche/research/raw/dune-dashboard-cchain.json",
+      "source_sha256": "fc42e603bbb0d022ab76bf9505fafac9f791cfedd998fcd36185e5cc58e831b7",
+      "published_sha256": "fc42e603bbb0d022ab76bf9505fafac9f791cfedd998fcd36185e5cc58e831b7"
+    },
+    {
+      "path": "chains/avalanche/research/raw/dune-dashboard-network.json",
+      "source_sha256": "ea2df78b1b2cff8ccd76864744a24fe958421495907531fa02f7076c7b0123c0",
+      "published_sha256": "ea2df78b1b2cff8ccd76864744a24fe958421495907531fa02f7076c7b0123c0"
+    },
+    {
+      "path": "chains/avalanche/research/raw/dune-query-8674861-parsed.json",
+      "source_sha256": "7bb8cbaac477c67fcb4689c9bf86aaa1e399d1bbd718790d8f154530cb9348a6",
+      "published_sha256": "7bb8cbaac477c67fcb4689c9bf86aaa1e399d1bbd718790d8f154530cb9348a6"
+    },
+    {
+      "path": "chains/avalanche/research/raw/dune-query-8674861.json",
+      "source_sha256": "6c5a4fa8c49ced8e73acb066630613db816faeda47a9edc0eaa9ad1985b28632",
+      "published_sha256": "6c5a4fa8c49ced8e73acb066630613db816faeda47a9edc0eaa9ad1985b28632"
+    },
+    {
+      "path": "chains/avalanche/research/raw/dune-query-8674923-parsed.json",
+      "source_sha256": "b19f9bd9f168ef69c6f06060724bb83f0b83ed9202a3940c4421252a809fc070",
+      "published_sha256": "b19f9bd9f168ef69c6f06060724bb83f0b83ed9202a3940c4421252a809fc070"
+    },
+    {
+      "path": "chains/avalanche/research/raw/dune-query-8674923.json",
+      "source_sha256": "c05eac8b17a19b32563f1d759de18bd9a5f9b6c99436b779d55f60c5195e327b",
+      "published_sha256": "c05eac8b17a19b32563f1d759de18bd9a5f9b6c99436b779d55f60c5195e327b"
+    },
+    {
+      "path": "chains/avalanche/research/raw/dune-query-8676245-parsed.json",
+      "source_sha256": "221e05d4fbb9ba7794ee6a62c735550ac12fdd2f3c27af396ef489cef9279a85",
+      "published_sha256": "221e05d4fbb9ba7794ee6a62c735550ac12fdd2f3c27af396ef489cef9279a85"
+    },
+    {
+      "path": "chains/avalanche/research/raw/dune-query-8676245.json",
+      "source_sha256": "aedf814357822dcb03b2870f5628f79a7401fef1963e7c919dd97d5bea669de6",
+      "published_sha256": "aedf814357822dcb03b2870f5628f79a7401fef1963e7c919dd97d5bea669de6"
+    },
+    {
+      "path": "chains/avalanche/research/raw/dune-result-8674861-parsed.json",
+      "source_sha256": "a2c6139a7243613d7bc3ca3493bcf93b9dbbd70a4945b89a874810a5b27500c3",
+      "published_sha256": "a2c6139a7243613d7bc3ca3493bcf93b9dbbd70a4945b89a874810a5b27500c3"
+    },
+    {
+      "path": "chains/avalanche/research/raw/dune-result-8674861.json",
+      "source_sha256": "c64e80ba8d138a9796703255fa286ef18f0cc6402241f8677e73147cefbb23f7",
+      "published_sha256": "c64e80ba8d138a9796703255fa286ef18f0cc6402241f8677e73147cefbb23f7"
+    },
+    {
+      "path": "chains/avalanche/research/raw/dune-result-8674923-parsed.json",
+      "source_sha256": "6ef1a30b71e4844566c8bfdf268a9751ca1e14640814c1b68472f9e3ee4e45cb",
+      "published_sha256": "6ef1a30b71e4844566c8bfdf268a9751ca1e14640814c1b68472f9e3ee4e45cb"
+    },
+    {
+      "path": "chains/avalanche/research/raw/dune-result-8674923.json",
+      "source_sha256": "b29db951533b07289bafa55ba9d12ab0cabba2270425314a64d7e1e0bb12fdd2",
+      "published_sha256": "b29db951533b07289bafa55ba9d12ab0cabba2270425314a64d7e1e0bb12fdd2"
+    },
+    {
+      "path": "chains/avalanche/research/raw/dune-result-8676245-parsed.json",
+      "source_sha256": "77634154c02e19d0f35785da50c1d8a2c2b42754dcf41fafd4313ac7be0dc077",
+      "published_sha256": "77634154c02e19d0f35785da50c1d8a2c2b42754dcf41fafd4313ac7be0dc077"
+    },
+    {
+      "path": "chains/avalanche/research/raw/dune-result-8676245.json",
+      "source_sha256": "2e8fce8ca26c101932aaa285feea4d1341e8ede982396ca9ddeb6be749bf672f",
+      "published_sha256": "2e8fce8ca26c101932aaa285feea4d1341e8ede982396ca9ddeb6be749bf672f"
+    },
+    {
+      "path": "chains/avalanche/research/raw/network-id.json",
+      "source_sha256": "0cedddb42d37dbb1d587ec8e9c4fa32c14cf9e42b1853da65dceed1fa36c1a26",
+      "published_sha256": "0cedddb42d37dbb1d587ec8e9c4fa32c14cf9e42b1853da65dceed1fa36c1a26"
+    },
+    {
+      "path": "chains/avalanche/research/raw/x-avax-asset.json",
+      "source_sha256": "ede3f7960f4d610d31663a608c77af688e26c124045065d54374f64d51aae0a8",
+      "published_sha256": "ede3f7960f4d610d31663a608c77af688e26c124045065d54374f64d51aae0a8"
+    },
+    {
+      "path": "chains/avalanche/research/schema-manifest.json",
+      "source_sha256": "43e5ce8bf68374695fac016f72783736cc42305ac167962e9f783c1f3c048ac4",
+      "published_sha256": "43e5ce8bf68374695fac016f72783736cc42305ac167962e9f783c1f3c048ac4"
+    },
+    {
+      "path": "chains/avalanche/research/schema-notes/avalanche_c.blocks.md",
+      "source_sha256": "b6cb579973b3080394a16524935f9ea3ffe67bf21f4c22b2b8cba39f3c7b577b",
+      "published_sha256": "b6cb579973b3080394a16524935f9ea3ffe67bf21f4c22b2b8cba39f3c7b577b"
+    },
+    {
+      "path": "chains/avalanche/research/schema-notes/avalanche_c.contracts.md",
+      "source_sha256": "e02160e43dec4a652d945b32e53ead9572f33462681cd6a1e828f53d8e8155d6",
+      "published_sha256": "e02160e43dec4a652d945b32e53ead9572f33462681cd6a1e828f53d8e8155d6"
+    },
+    {
+      "path": "chains/avalanche/research/schema-notes/avalanche_c.creation_traces.md",
+      "source_sha256": "b4a51ac6399279bb7ff9b3d771b96d58601ebe012c93d19de5b138310d4aa69b",
+      "published_sha256": "b4a51ac6399279bb7ff9b3d771b96d58601ebe012c93d19de5b138310d4aa69b"
+    },
+    {
+      "path": "chains/avalanche/research/schema-notes/avalanche_c.logs.md",
+      "source_sha256": "eeac66a3e238be531990058fa5d2f08b47ddad8742a52234cc8e79f497d5f35b",
+      "published_sha256": "eeac66a3e238be531990058fa5d2f08b47ddad8742a52234cc8e79f497d5f35b"
+    },
+    {
+      "path": "chains/avalanche/research/schema-notes/avalanche_c.logs_decoded.md",
+      "source_sha256": "9c5fd7048556cd8bb3050174d42dcf64be6cff506d9c5784ad9a8e3d845fafba",
+      "published_sha256": "9c5fd7048556cd8bb3050174d42dcf64be6cff506d9c5784ad9a8e3d845fafba"
+    },
+    {
+      "path": "chains/avalanche/research/schema-notes/avalanche_c.signatures.md",
+      "source_sha256": "9a7176fc3ae1aeeef4597bf4a03e2b02ebcfe3f97d6f1e870b33cca72458385c",
+      "published_sha256": "9a7176fc3ae1aeeef4597bf4a03e2b02ebcfe3f97d6f1e870b33cca72458385c"
+    },
+    {
+      "path": "chains/avalanche/research/schema-notes/avalanche_c.traces.md",
+      "source_sha256": "559d63ac01305a25eeaaef217ab8c93d5e874173320b28144132f1bbff294dc3",
+      "published_sha256": "559d63ac01305a25eeaaef217ab8c93d5e874173320b28144132f1bbff294dc3"
+    },
+    {
+      "path": "chains/avalanche/research/schema-notes/avalanche_c.traces_decoded.md",
+      "source_sha256": "9266280b4e7ffc6b5888a0f11608e570fb1df049f8238f96a8c663a059aa8072",
+      "published_sha256": "9266280b4e7ffc6b5888a0f11608e570fb1df049f8238f96a8c663a059aa8072"
+    },
+    {
+      "path": "chains/avalanche/research/schema-notes/avalanche_c.transactions.md",
+      "source_sha256": "0b74b6b8a3ed12a1eb9708963a66161c3efab03ee44a6e589a9015d4ae0c0b61",
+      "published_sha256": "0b74b6b8a3ed12a1eb9708963a66161c3efab03ee44a6e589a9015d4ae0c0b61"
+    },
+    {
+      "path": "chains/avalanche/research/schema-notes/avalanche_teleporter_avalanche_c.teleportermessenger_call_receivecrosschainmessage.md",
+      "source_sha256": "0ff4e51f3fff68d613f0dc271adc8074966346cb434ae773c6b26fb9f0bd0aa8",
+      "published_sha256": "0ff4e51f3fff68d613f0dc271adc8074966346cb434ae773c6b26fb9f0bd0aa8"
+    },
+    {
+      "path": "chains/avalanche/research/schema-notes/avalanche_teleporter_avalanche_c.teleportermessenger_call_sendcrosschainmessage.md",
+      "source_sha256": "3ed209c915922eb86ba4116f2d9f8b8fb8b70aab0b32675abb130144a3a17aac",
+      "published_sha256": "3ed209c915922eb86ba4116f2d9f8b8fb8b70aab0b32675abb130144a3a17aac"
+    },
+    {
+      "path": "chains/avalanche/research/schema-notes/avalanche_teleporter_avalanche_c.teleportermessenger_evt_receivecrosschainmessage.md",
+      "source_sha256": "c9a4632c3e98cab9e10765263f96ccb828b62ca618fc8196cd9d3ecd7584c5d9",
+      "published_sha256": "c9a4632c3e98cab9e10765263f96ccb828b62ca618fc8196cd9d3ecd7584c5d9"
+    },
+    {
+      "path": "chains/avalanche/research/schema-notes/avalanche_teleporter_avalanche_c.teleportermessenger_evt_sendcrosschainmessage.md",
+      "source_sha256": "13e76a9cb10d16c64c31c5028df9722155ba898685da1999c26a9ee61f05e1a3",
+      "published_sha256": "13e76a9cb10d16c64c31c5028df9722155ba898685da1999c26a9ee61f05e1a3"
+    },
+    {
+      "path": "chains/avalanche/research/schema-notes/dex.trades.md",
+      "source_sha256": "a9be12f539197cd84879cb5cac0934e8d23cd47e67873224e2ea14e1ce9df1c1",
+      "published_sha256": "a9be12f539197cd84879cb5cac0934e8d23cd47e67873224e2ea14e1ce9df1c1"
+    },
+    {
+      "path": "chains/avalanche/research/schema-notes/tokens.erc20.md",
+      "source_sha256": "3c6764ef64f8ae1474f2fd0a015fa292a288b6fafdb4580b8968d5fa9eea0dc7",
+      "published_sha256": "3c6764ef64f8ae1474f2fd0a015fa292a288b6fafdb4580b8968d5fa9eea0dc7"
+    },
+    {
+      "path": "chains/avalanche/research/schema-notes/tokens.supply_latest.md",
+      "source_sha256": "9d0c59d9f34473a6bcddf1e76006d8f8ca4b5f75f4d5fe105387eff34e91aa7a",
+      "published_sha256": "9d0c59d9f34473a6bcddf1e76006d8f8ca4b5f75f4d5fe105387eff34e91aa7a"
+    },
+    {
+      "path": "chains/avalanche/research/schema-notes/tokens.transfers.md",
+      "source_sha256": "e6c7318fe254aefa7db3b52948b0ad23360331b6a3b4cf51a9c3267164a6cdb0",
+      "published_sha256": "e6c7318fe254aefa7db3b52948b0ad23360331b6a3b4cf51a9c3267164a6cdb0"
+    },
+    {
+      "path": "chains/avalanche/research/source-manifest.json",
+      "source_sha256": "04092c746e4f3b46ec1ea311e2cfdca99cf353690a0ccfbc82332f323c622f7c",
+      "published_sha256": "ef523d4ee231c1bb902eb0f03b07c182262483726b7d2237860bc3ae40364a22"
+    },
+    {
+      "path": "chains/avalanche/research/source_catalog.md",
+      "source_sha256": "6cae03fe17e392cb40df0bf91106f3f8816e2fb88aa680c9ad12728e2d0a1d8f",
+      "published_sha256": "d89cd555378cb8a0471f15745a606997a618cb7d934db93b0073a10434aab2b6"
+    },
+    {
+      "path": "chains/avalanche/research/sql-manifest.json",
+      "source_sha256": "148fe3940cbb9ec25f7b7f85ba7a8376499fd9ed97e493c7b48e2ca4b52ddc6f",
+      "published_sha256": "148fe3940cbb9ec25f7b7f85ba7a8376499fd9ed97e493c7b48e2ca4b52ddc6f"
+    },
+    {
+      "path": "chains/avalanche/research/unresolved.md",
+      "source_sha256": "d9e2d5d5e02effec6bc0621a4a168790572d1c3fdc7f5268710d0364255e34c6",
+      "published_sha256": "d9e2d5d5e02effec6bc0621a4a168790572d1c3fdc7f5268710d0364255e34c6"
+    }
+  ]
+}

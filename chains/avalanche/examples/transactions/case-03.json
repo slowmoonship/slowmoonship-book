@@ -1,0 +1,64 @@
+{
+  "id": 3,
+  "title": "C→P 原子转移",
+  "network": "Mainnet",
+  "network_id": 1,
+  "records": [
+    {
+      "blockchain_id": "2q9e4r6Mu3U68nU1fYjgbR6JvwrRx36CohpAX5UQxse55x1Q5",
+      "transaction_id": "2Li6pS4FTWqQJFMQGuqudWew5DWinMvGUtZzE1zqvjfYaArXaq",
+      "block_height": 97355637,
+      "block_hash": "0x0c6c90c75fa394724a6362834700142e0525fada2157ae70bdc371119268ec2b",
+      "timestamp": "2026-10-12T11:03:46+00:00",
+      "transaction_type": "ExportTx",
+      "fields_obtained": [
+        "amountCreated",
+        "amountUnlocked",
+        "blockHash",
+        "blockHeight",
+        "destinationChain",
+        "emittedUtxos",
+        "evmInputs",
+        "memo",
+        "sourceChain",
+        "timestamp",
+        "txHash",
+        "txType"
+      ]
+    },
+    {
+      "blockchain_id": "11111111111111111111111111111111LpoYY",
+      "transaction_id": "25ibHfupr19go4Z98MCfafQcuovYUkerVTPRraWYjN1bM6oQ8H",
+      "block_height": "25659482",
+      "block_hash": "25TCsQ9Sz8cykqEhk3awd7RKWAcUh9Jnb4E2qWDS6qKzcFvjo9",
+      "timestamp": "2026-10-12T11:03:47+00:00",
+      "transaction_type": "ImportTx",
+      "fields_obtained": [
+        "amountBurned",
+        "amountL1ValidatorBalanceBurned",
+        "amountStaked",
+        "blockHash",
+        "blockNumber",
+        "blockTimestamp",
+        "consumedUtxos",
+        "destinationChain",
+        "emittedUtxos",
+        "memo",
+        "sourceChain",
+        "txHash",
+        "txType",
+        "value"
+      ]
+    }
+  ],
+  "sources": [
+    "research/raw/data-c-chain-latest.json",
+    "research/raw/atomic-p-import.json"
+  ],
+  "missing_fields_or_evidence": [
+    "用户全余额、源 EVM 精确状态差分"
+  ],
+  "verification_status": "COMPLETE",
+  "retrieval_date": "2026-10-12",
+  "evidence_layer": "DIRECT_DATA; derived conclusions separately labelled"
+}
