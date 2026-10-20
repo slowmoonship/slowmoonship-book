@@ -1,0 +1,8 @@
+{
+  "id": "lgns-token-scan",
+  "url": "https://polygonscan.com/token/0xeb51d9a39ad5eef215dc0bf39a8821ff804a0f01",
+  "accessed_at": "2026-10-20T01:03:15.927386+00:00",
+  "baseline": "2026-10-19",
+  "status": "FETCH_FAILED",
+  "error": "HTTP Error 403: Forbidden"
+}

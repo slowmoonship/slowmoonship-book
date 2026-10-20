@@ -1,0 +1,644 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"total\":3,\"results\":[{\"full_name\":\"tokens.transfers\",\"category\":\"spell\",\"dataset_type\":\"spell\",\"blockchains\":[\"abstract\",\"apechain\",\"arbitrum\",\"arc\",\"avalanche_c\",\"b3\",\"base\",\"berachain\",\"blast\",\"bnb\",\"bob\",\"boba\",\"celo\",\"corn\",\"cronos\",\"degen\",\"ethereum\",\"fantom\",\"flare\",\"gnosis\",\"hemi\",\"henesys\",\"hyperevm\",\"ink\",\"kaia\",\"katana\",\"linea\",\"mantle\",\"megaeth\",\"mezo\",\"monad\",\"morph\",\"nova\",\"opbnb\",\"optimism\",\"peaq\",\"plasma\",\"plume\",\"polygon\",\"robinhood\",\"ronin\",\"rise\",\"scroll\",\"sei\",\"shape\",\"somnia\",\"sonic\",\"sophon\",\"story\",\"superseed\",\"tac\",\"taiko\",\"tempo\",\"tezos_evm\",\"tron\",\"unichain\",\"viction\",\"worldchain\",\"xlayer\",\"zkevm\",\"zksync\",\"zora\",\"lens\"],\"partition_columns\":[\"block_month\",\"blockchain\"],\"visibility\":\"public\",\"description\":\"All fungible token transfers (native and ERC20) across all EVM-compatible chains, including sender, receiver, amount, and token metadata.\",\"schema\":{\"fields\":[{\"name\":\"unique_key\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"blockchain\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"block_month\",\"nullable\":true,\"type\":\"date\"},{\"name\":\"block_date\",\"nullable\":true,\"type\":\"date\"},{\"name\":\"block_time\",\"nullable\":true,\"type\":\"timestamp(3) with time zone\"},{\"name\":\"block_number\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"tx_hash\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"evt_index\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"trace_address\",\"nullable\":true,\"type\":\"array(bigint)\"},{\"name\":\"token_standard\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"tx_index\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"contract_address\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"symbol\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"amount_raw\",\"nullable\":true,\"type\":\"uint256\"},{\"name\":\"amount\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"price_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"amount_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"_updated_at\",\"nullable\":true,\"type\":\"timestamp(3) with time zone\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":18149.744406539743,\"description\":\"All fungible token transfers (native and ERC20) across all EVM-compatible chains, including sender, receiver, amount, and token metadata.\",\"spell_type\":\"sector\",\"spell_metadata\":{\"description\":\"All fungible token transfers (native and ERC20) across all EVM-compatible chains, including sender, receiver, amount, and token metadata.\",\"depends_on\":[\"model.tokens.tokens_abstract_transfers\",\"model.tokens.tokens_apechain_transfers\",\"model.tokens.tokens_arbitrum_transfers\",\"model.tokens.tokens_arc_transfers\",\"model.tokens.tokens_avalanche_c_transfers\",\"model.tokens.tokens_b3_transfers\",\"model.tokens.tokens_base_transfers\",\"model.tokens.tokens_berachain_transfers\",\"model.tokens.tokens_blast_transfers\",\"model.tokens.tokens_bnb_transfers\",\"model.tokens.tokens_bob_transfers\",\"model.tokens.tokens_boba_transfers\",\"model.tokens.tokens_celo_transfers\",\"model.tokens.tokens_corn_transfers\",\"model.tokens.tokens_cronos_transfers\",\"model.tokens.tokens_degen_transfers\",\"model.tokens.tokens_ethereum_transfers\",\"model.tokens.tokens_fantom_transfers\",\"model.tokens.tokens_flare_transfers\",\"model.tokens.tokens_gnosis_transfers\",\"model.tokens.tokens_hemi_transfers\",\"model.tokens.tokens_henesys_transfers\",\"model.tokens.tokens_hyperevm_transfers\",\"model.tokens.tokens_ink_transfers\",\"model.tokens.tokens_kaia_transfers\",\"model.tokens.tokens_katana_transfers\",\"model.tokens.tokens_linea_transfers\",\"model.tokens.tokens_mantle_transfers\",\"model.tokens.tokens_megaeth_transfers\",\"model.tokens.tokens_mezo_transfers\",\"model.tokens.tokens_monad_transfers\",\"model.tokens.tokens_morph_transfers\",\"model.tokens.tokens_nova_transfers\",\"model.tokens.tokens_opbnb_transfers\",\"model.tokens.tokens_optimism_transfers\",\"model.tokens.tokens_peaq_transfers\",\"model.tokens.tokens_plasma_transfers\",\"model.tokens.tokens_plume_transfers\",\"model.tokens.tokens_polygon_transfers\",\"model.tokens.tokens_robinhood_transfers\",\"model.tokens.tokens_ronin_transfers\",\"model.tokens.tokens_rise_transfers\",\"model.tokens.tokens_scroll_transfers\",\"model.tokens.tokens_sei_transfers\",\"model.tokens.tokens_shape_transfers\",\"model.tokens.tokens_somnia_transfers\",\"model.tokens.tokens_sonic_transfers\",\"model.tokens.tokens_sophon_transfers\",\"model.tokens.tokens_story_transfers\",\"model.tokens.tokens_superseed_transfers\",\"model.tokens.tokens_tac_transfers\",\"model.tokens.tokens_taiko_transfers\",\"model.tokens.tokens_tempo_transfers\",\"model.tokens.tokens_tezos_evm_transfers\",\"model.tokens.tokens_tron_transfers\",\"model.tokens.tokens_unichain_transfers\",\"model.tokens.tokens_viction_transfers\",\"model.tokens.tokens_worldchain_transfers\",\"model.tokens.tokens_xlayer_transfers\",\"model.tokens.tokens_zkevm_transfers\",\"model.tokens.tokens_zksync_transfers\",\"model.tokens.tokens_zora_transfers\",\"model.tokens.tokens_lens_transfers\"],\"columns\":[{\"column\":\"unique_key\",\"name\":\"unique_key\",\"description\":\"Surrogate key to identify unique row\"},{\"column\":\"blockchain\",\"name\":\"blockchain\",\"description\":\"The blockchain of the transfer\"},{\"column\":\"block_month\",\"name\":\"block_month\",\"description\":\"The month of the block\"},{\"column\":\"block_date\",\"name\":\"block_date\",\"description\":\"The date of the block\"},{\"column\":\"block_time\",\"name\":\"block_time\",\"description\":\"The time of the block\"},{\"column\":\"block_number\",\"name\":\"block_number\",\"description\":\"The block number\"},{\"column\":\"tx_hash\",\"name\":\"tx_hash\",\"description\":\"The transaction hash\"},{\"column\":\"evt_index\",\"name\":\"evt_index\",\"description\":\"The log event index of the transfer\"},{\"column\":\"trace_address\",\"name\":\"trace_address\",\"description\":\"The trace address of the transfer\"},{\"column\":\"token_standard\",\"name\":\"token_standard\",\"description\":\"The token standard of the transfer\"},{\"column\":\"tx_from\",\"name\":\"tx_from\",\"description\":\"The transaction sender\"},{\"column\":\"tx_to\",\"name\":\"tx_to\",\"description\":\"The transaction receiver\"},{\"column\":\"tx_index\",\"name\":\"tx_index\",\"description\":\"The transaction index\"},{\"column\":\"from\",\"name\":\"from\",\"description\":\"The sender of the transfer\"},{\"column\":\"to\",\"name\":\"to\",\"description\":\"The receiver of the transfer\"},{\"column\":\"contract_address\",\"name\":\"contract_address\",\"description\":\"The contract address of the transfer\"},{\"column\":\"symbol\",\"name\":\"symbol\",\"description\":\"The token symbol transferred\"},{\"column\":\"amount_raw\",\"name\":\"amount_raw\",\"description\":\"The raw amount of the transfer\"},{\"column\":\"amount\",\"name\":\"amount\",\"description\":\"The display amount of the transfer\"},{\"column\":\"price_usd\",\"name\":\"price_usd\",\"description\":\"The USD price used to calculate the amount_usd\"},{\"column\":\"amount_usd\",\"name\":\"amount_usd\",\"description\":\"The USD amount of the transfer\"},{\"column\":\"_updated_at\",\"name\":\"_updated_at\",\"description\":\"Timestamp when this row was last written\"}],\"tags\":[\"tokens\",\"transfers\",\"evm\"],\"partition_by\":[]}}},{\"full_name\":\"tokens.erc20\",\"category\":\"spell\",\"dataset_type\":\"spell\",\"blockchains\":[\"abstract\",\"apechain\",\"arbitrum\",\"arc\",\"avalanche_c\",\"b3\",\"base\",\"berachain\",\"blast\",\"bnb\",\"bob\",\"boba\",\"celo\",\"corn\",\"cronos\",\"degen\",\"ethereum\",\"fantom\",\"flare\",\"flow\",\"gnosis\",\"hedera\",\"hemi\",\"henesys\",\"hyperevm\",\"ink\",\"kaia\",\"katana\",\"lens\",\"linea\",\"mantle\",\"megaeth\",\"mezo\",\"monad\",\"morph\",\"nova\",\"opbnb\",\"optimism\",\"peaq\",\"plasma\",\"plume\",\"polygon\",\"robinhood\",\"ronin\",\"rise\",\"scroll\",\"sei\",\"shape\",\"somnia\",\"sophon\",\"sonic\",\"story\",\"superseed\",\"tac\",\"taiko\",\"tempo\",\"tezos_evm\",\"tron\",\"unichain\",\"viction\",\"worldchain\",\"xlayer\",\"zkevm\",\"zksync\",\"zora\"],\"partition_columns\":[\"blockchain\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"blockchain\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"contract_address\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"symbol\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"name\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"decimals\",\"nullable\":true,\"type\":\"integer\"},{\"name\":\"_updated_at\",\"nullable\":true,\"type\":\"timestamp(3) with time zone\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":6761.703741502408,\"spell_type\":\"sector\",\"spell_metadata\":{\"description\":\"\",\"depends_on\":[\"source.tokens.tokens_v2.erc20\",\"model.tokens.tokens_v1_erc20\"],\"tags\":[],\"partition_by\":[\"blockchain\"]}}},{\"full_name\":\"tokens.supply_latest\",\"category\":\"spell\",\"dataset_type\":\"spell\",\"blockchains\":[\"abstract\",\"apechain\",\"arbitrum\",\"arc\",\"avalanche_c\",\"base\",\"berachain\",\"bnb\",\"bob\",\"boba\",\"celo\",\"corn\",\"cronos\",\"degen\",\"ethereum\",\"fantom\",\"flare\",\"flow\",\"gnosis\",\"hedera\",\"hyperevm\",\"ink\",\"kaia\",\"katana\",\"lens\",\"linea\",\"mantle\",\"megaeth\",\"mezo\",\"monad\",\"morph\",\"nova\",\"opbnb\",\"optimism\",\"peaq\",\"plasma\",\"plume\",\"polygon\",\"robinhood\",\"ronin\",\"rise\",\"scroll\",\"sei\",\"shape\",\"somnia\",\"sophon\",\"sonic\",\"story\",\"superseed\",\"tac\",\"taiko\",\"tempo\",\"tezos_evm\",\"unichain\",\"worldchain\",\"xlayer\",\"zksync\",\"zora\"],\"partition_columns\":[\"blockchain\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"blockchain\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"token_address\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"symbol\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"decimals\",\"nullable\":true,\"type\":\"integer\"},{\"name\":\"supply_raw\",\"nullable\":true,\"type\":\"uint256\"},{\"name\":\"supply\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"_updated_at\",\"nullable\":true,\"type\":\"timestamp(3) with time zone\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":4582.737340855343,\"spell_type\":\"sector\"}}],\"pagination\":{\"limit\":3,\"offset\":0,\"nextOffset\":null,\"hasMore\":false}}"
+      }
+    ],
+    "structuredContent": {
+      "total": 3,
+      "results": [
+        {
+          "full_name": "tokens.transfers",
+          "category": "spell",
+          "dataset_type": "spell",
+          "blockchains": [
+            "abstract",
+            "apechain",
+            "arbitrum",
+            "arc",
+            "avalanche_c",
+            "b3",
+            "base",
+            "berachain",
+            "blast",
+            "bnb",
+            "bob",
+            "boba",
+            "celo",
+            "corn",
+            "cronos",
+            "degen",
+            "ethereum",
+            "fantom",
+            "flare",
+            "gnosis",
+            "hemi",
+            "henesys",
+            "hyperevm",
+            "ink",
+            "kaia",
+            "katana",
+            "linea",
+            "mantle",
+            "megaeth",
+            "mezo",
+            "monad",
+            "morph",
+            "nova",
+            "opbnb",
+            "optimism",
+            "peaq",
+            "plasma",
+            "plume",
+            "polygon",
+            "robinhood",
+            "ronin",
+            "rise",
+            "scroll",
+            "sei",
+            "shape",
+            "somnia",
+            "sonic",
+            "sophon",
+            "story",
+            "superseed",
+            "tac",
+            "taiko",
+            "tempo",
+            "tezos_evm",
+            "tron",
+            "unichain",
+            "viction",
+            "worldchain",
+            "xlayer",
+            "zkevm",
+            "zksync",
+            "zora",
+            "lens"
+          ],
+          "partition_columns": [
+            "block_month",
+            "blockchain"
+          ],
+          "visibility": "public",
+          "description": "All fungible token transfers (native and ERC20) across all EVM-compatible chains, including sender, receiver, amount, and token metadata.",
+          "schema": {
+            "fields": [
+              {
+                "name": "unique_key",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "blockchain",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "block_month",
+                "nullable": true,
+                "type": "date"
+              },
+              {
+                "name": "block_date",
+                "nullable": true,
+                "type": "date"
+              },
+              {
+                "name": "block_time",
+                "nullable": true,
+                "type": "timestamp(3) with time zone"
+              },
+              {
+                "name": "block_number",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "tx_hash",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_index",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "trace_address",
+                "nullable": true,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "token_standard",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "tx_index",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "contract_address",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "symbol",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "amount_raw",
+                "nullable": true,
+                "type": "uint256"
+              },
+              {
+                "name": "amount",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "price_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "amount_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "_updated_at",
+                "nullable": true,
+                "type": "timestamp(3) with time zone"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 18149.744406539743,
+            "description": "All fungible token transfers (native and ERC20) across all EVM-compatible chains, including sender, receiver, amount, and token metadata.",
+            "spell_type": "sector",
+            "spell_metadata": {
+              "description": "All fungible token transfers (native and ERC20) across all EVM-compatible chains, including sender, receiver, amount, and token metadata.",
+              "depends_on": [
+                "model.tokens.tokens_abstract_transfers",
+                "model.tokens.tokens_apechain_transfers",
+                "model.tokens.tokens_arbitrum_transfers",
+                "model.tokens.tokens_arc_transfers",
+                "model.tokens.tokens_avalanche_c_transfers",
+                "model.tokens.tokens_b3_transfers",
+                "model.tokens.tokens_base_transfers",
+                "model.tokens.tokens_berachain_transfers",
+                "model.tokens.tokens_blast_transfers",
+                "model.tokens.tokens_bnb_transfers",
+                "model.tokens.tokens_bob_transfers",
+                "model.tokens.tokens_boba_transfers",
+                "model.tokens.tokens_celo_transfers",
+                "model.tokens.tokens_corn_transfers",
+                "model.tokens.tokens_cronos_transfers",
+                "model.tokens.tokens_degen_transfers",
+                "model.tokens.tokens_ethereum_transfers",
+                "model.tokens.tokens_fantom_transfers",
+                "model.tokens.tokens_flare_transfers",
+                "model.tokens.tokens_gnosis_transfers",
+                "model.tokens.tokens_hemi_transfers",
+                "model.tokens.tokens_henesys_transfers",
+                "model.tokens.tokens_hyperevm_transfers",
+                "model.tokens.tokens_ink_transfers",
+                "model.tokens.tokens_kaia_transfers",
+                "model.tokens.tokens_katana_transfers",
+                "model.tokens.tokens_linea_transfers",
+                "model.tokens.tokens_mantle_transfers",
+                "model.tokens.tokens_megaeth_transfers",
+                "model.tokens.tokens_mezo_transfers",
+                "model.tokens.tokens_monad_transfers",
+                "model.tokens.tokens_morph_transfers",
+                "model.tokens.tokens_nova_transfers",
+                "model.tokens.tokens_opbnb_transfers",
+                "model.tokens.tokens_optimism_transfers",
+                "model.tokens.tokens_peaq_transfers",
+                "model.tokens.tokens_plasma_transfers",
+                "model.tokens.tokens_plume_transfers",
+                "model.tokens.tokens_polygon_transfers",
+                "model.tokens.tokens_robinhood_transfers",
+                "model.tokens.tokens_ronin_transfers",
+                "model.tokens.tokens_rise_transfers",
+                "model.tokens.tokens_scroll_transfers",
+                "model.tokens.tokens_sei_transfers",
+                "model.tokens.tokens_shape_transfers",
+                "model.tokens.tokens_somnia_transfers",
+                "model.tokens.tokens_sonic_transfers",
+                "model.tokens.tokens_sophon_transfers",
+                "model.tokens.tokens_story_transfers",
+                "model.tokens.tokens_superseed_transfers",
+                "model.tokens.tokens_tac_transfers",
+                "model.tokens.tokens_taiko_transfers",
+                "model.tokens.tokens_tempo_transfers",
+                "model.tokens.tokens_tezos_evm_transfers",
+                "model.tokens.tokens_tron_transfers",
+                "model.tokens.tokens_unichain_transfers",
+                "model.tokens.tokens_viction_transfers",
+                "model.tokens.tokens_worldchain_transfers",
+                "model.tokens.tokens_xlayer_transfers",
+                "model.tokens.tokens_zkevm_transfers",
+                "model.tokens.tokens_zksync_transfers",
+                "model.tokens.tokens_zora_transfers",
+                "model.tokens.tokens_lens_transfers"
+              ],
+              "columns": [
+                {
+                  "column": "unique_key",
+                  "name": "unique_key",
+                  "description": "Surrogate key to identify unique row"
+                },
+                {
+                  "column": "blockchain",
+                  "name": "blockchain",
+                  "description": "The blockchain of the transfer"
+                },
+                {
+                  "column": "block_month",
+                  "name": "block_month",
+                  "description": "The month of the block"
+                },
+                {
+                  "column": "block_date",
+                  "name": "block_date",
+                  "description": "The date of the block"
+                },
+                {
+                  "column": "block_time",
+                  "name": "block_time",
+                  "description": "The time of the block"
+                },
+                {
+                  "column": "block_number",
+                  "name": "block_number",
+                  "description": "The block number"
+                },
+                {
+                  "column": "tx_hash",
+                  "name": "tx_hash",
+                  "description": "The transaction hash"
+                },
+                {
+                  "column": "evt_index",
+                  "name": "evt_index",
+                  "description": "The log event index of the transfer"
+                },
+                {
+                  "column": "trace_address",
+                  "name": "trace_address",
+                  "description": "The trace address of the transfer"
+                },
+                {
+                  "column": "token_standard",
+                  "name": "token_standard",
+                  "description": "The token standard of the transfer"
+                },
+                {
+                  "column": "tx_from",
+                  "name": "tx_from",
+                  "description": "The transaction sender"
+                },
+                {
+                  "column": "tx_to",
+                  "name": "tx_to",
+                  "description": "The transaction receiver"
+                },
+                {
+                  "column": "tx_index",
+                  "name": "tx_index",
+                  "description": "The transaction index"
+                },
+                {
+                  "column": "from",
+                  "name": "from",
+                  "description": "The sender of the transfer"
+                },
+                {
+                  "column": "to",
+                  "name": "to",
+                  "description": "The receiver of the transfer"
+                },
+                {
+                  "column": "contract_address",
+                  "name": "contract_address",
+                  "description": "The contract address of the transfer"
+                },
+                {
+                  "column": "symbol",
+                  "name": "symbol",
+                  "description": "The token symbol transferred"
+                },
+                {
+                  "column": "amount_raw",
+                  "name": "amount_raw",
+                  "description": "The raw amount of the transfer"
+                },
+                {
+                  "column": "amount",
+                  "name": "amount",
+                  "description": "The display amount of the transfer"
+                },
+                {
+                  "column": "price_usd",
+                  "name": "price_usd",
+                  "description": "The USD price used to calculate the amount_usd"
+                },
+                {
+                  "column": "amount_usd",
+                  "name": "amount_usd",
+                  "description": "The USD amount of the transfer"
+                },
+                {
+                  "column": "_updated_at",
+                  "name": "_updated_at",
+                  "description": "Timestamp when this row was last written"
+                }
+              ],
+              "tags": [
+                "tokens",
+                "transfers",
+                "evm"
+              ],
+              "partition_by": []
+            }
+          }
+        },
+        {
+          "full_name": "tokens.erc20",
+          "category": "spell",
+          "dataset_type": "spell",
+          "blockchains": [
+            "abstract",
+            "apechain",
+            "arbitrum",
+            "arc",
+            "avalanche_c",
+            "b3",
+            "base",
+            "berachain",
+            "blast",
+            "bnb",
+            "bob",
+            "boba",
+            "celo",
+            "corn",
+            "cronos",
+            "degen",
+            "ethereum",
+            "fantom",
+            "flare",
+            "flow",
+            "gnosis",
+            "hedera",
+            "hemi",
+            "henesys",
+            "hyperevm",
+            "ink",
+            "kaia",
+            "katana",
+            "lens",
+            "linea",
+            "mantle",
+            "megaeth",
+            "mezo",
+            "monad",
+            "morph",
+            "nova",
+            "opbnb",
+            "optimism",
+            "peaq",
+            "plasma",
+            "plume",
+            "polygon",
+            "robinhood",
+            "ronin",
+            "rise",
+            "scroll",
+            "sei",
+            "shape",
+            "somnia",
+            "sophon",
+            "sonic",
+            "story",
+            "superseed",
+            "tac",
+            "taiko",
+            "tempo",
+            "tezos_evm",
+            "tron",
+            "unichain",
+            "viction",
+            "worldchain",
+            "xlayer",
+            "zkevm",
+            "zksync",
+            "zora"
+          ],
+          "partition_columns": [
+            "blockchain"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "blockchain",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "contract_address",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "symbol",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "name",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "decimals",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "name": "_updated_at",
+                "nullable": true,
+                "type": "timestamp(3) with time zone"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 6761.703741502408,
+            "spell_type": "sector",
+            "spell_metadata": {
+              "description": "",
+              "depends_on": [
+                "source.tokens.tokens_v2.erc20",
+                "model.tokens.tokens_v1_erc20"
+              ],
+              "tags": [],
+              "partition_by": [
+                "blockchain"
+              ]
+            }
+          }
+        },
+        {
+          "full_name": "tokens.supply_latest",
+          "category": "spell",
+          "dataset_type": "spell",
+          "blockchains": [
+            "abstract",
+            "apechain",
+            "arbitrum",
+            "arc",
+            "avalanche_c",
+            "base",
+            "berachain",
+            "bnb",
+            "bob",
+            "boba",
+            "celo",
+            "corn",
+            "cronos",
+            "degen",
+            "ethereum",
+            "fantom",
+            "flare",
+            "flow",
+            "gnosis",
+            "hedera",
+            "hyperevm",
+            "ink",
+            "kaia",
+            "katana",
+            "lens",
+            "linea",
+            "mantle",
+            "megaeth",
+            "mezo",
+            "monad",
+            "morph",
+            "nova",
+            "opbnb",
+            "optimism",
+            "peaq",
+            "plasma",
+            "plume",
+            "polygon",
+            "robinhood",
+            "ronin",
+            "rise",
+            "scroll",
+            "sei",
+            "shape",
+            "somnia",
+            "sophon",
+            "sonic",
+            "story",
+            "superseed",
+            "tac",
+            "taiko",
+            "tempo",
+            "tezos_evm",
+            "unichain",
+            "worldchain",
+            "xlayer",
+            "zksync",
+            "zora"
+          ],
+          "partition_columns": [
+            "blockchain"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "blockchain",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "token_address",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "symbol",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "decimals",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "name": "supply_raw",
+                "nullable": true,
+                "type": "uint256"
+              },
+              {
+                "name": "supply",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "_updated_at",
+                "nullable": true,
+                "type": "timestamp(3) with time zone"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 4582.737340855343,
+            "spell_type": "sector"
+          }
+        }
+      ],
+      "pagination": {
+        "limit": 3,
+        "offset": 0,
+        "nextOffset": null,
+        "hasMore": false
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

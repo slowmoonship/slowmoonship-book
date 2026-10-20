@@ -1,0 +1,30 @@
+{
+  "case_id": "case-12",
+  "title": "Swap与Mint共存的LP交易",
+  "network": "Polygon PoS Mainnet",
+  "chain_id": 137,
+  "transaction_hash": "0x0659b2f4e397b4dd0a7b98d63700f4060b0004f9893ba0441da39fe63a65335b",
+  "block_number": 74942064,
+  "block_time": "2025-08-08T07:05:23+00:00",
+  "contract_address": "0x882df4b0fb50a229c3b4124eb18c759911485bfb",
+  "focus": "不能按交易标签分类所有Transfer",
+  "source": "https://polygonscan.com/tx/0x0659b2f4e397b4dd0a7b98d63700f4060b0004f9893ba0441da39fe63a65335b",
+  "local_archive_source_cache": "research/sources/tx-lgns-add-liquidity.md",
+  "public_source_url": "https://polygonscan.com/tx/0x0659B2F4E397B4DD0A7B98D63700F4060B0004F9893BA0441DA39FE63A65335B",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY",
+  "dune_query": "https://dune.com/queries/8369227",
+  "raw_indexed_fields": [],
+  "derived_fields": {},
+  "verification_status": "EXPLORER_RECORD_CAPTURED; LIMITED_INDEXED_CROSSCHECK; NOT_LOCAL_REEXECUTION",
+  "missing": [
+    "complete native RPC receipt",
+    "local signature/consensus verification",
+    "beneficial ownership",
+    "full historical state"
+  ],
+  "observed_event_signatures": {
+    "Swap": true,
+    "Mint": true,
+    "Transfer": true
+  }
+}

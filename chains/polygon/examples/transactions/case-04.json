@@ -1,0 +1,41 @@
+{
+  "case_id": "case-04",
+  "title": "同交易工厂创建子合约",
+  "network": "Polygon PoS Mainnet",
+  "chain_id": 137,
+  "transaction_hash": "0x443c78ecc0bf2427fa789daeb7c80281842fde3b42d413ac7ac1606e1f8a56f8",
+  "block_number": 93586509,
+  "block_time": "2026-09-10T23:59:57+00:00",
+  "contract_address": "0x79f492c8ff4e06cbaf32e07ebef72d6816029b57",
+  "focus": "EIP-1167样式字节码与创建记录",
+  "source": "https://polygonscan.com/tx/0x443c78ecc0bf2427fa789daeb7c80281842fde3b42d413ac7ac1606e1f8a56f8",
+  "local_archive_source_cache": "research/sources/tx-factory-supply.md",
+  "public_source_url": "https://polygonscan.com/tx/0x443c78ecc0bf2427fa789daeb7c80281842fde3b42d413ac7ac1606e1f8a56f8",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY",
+  "dune_query": "https://dune.com/queries/8675807",
+  "raw_indexed_fields": [
+    {
+      "block_time": "2026-09-10 23:59:57.000 UTC",
+      "block_number": 93586509,
+      "tx_hash": "0x443c78ecc0bf2427fa789daeb7c80281842fde3b42d413ac7ac1606e1f8a56f8",
+      "contract_address": "0x79f492c8ff4e06cbaf32e07ebef72d6816029b57",
+      "creator_address": "0xdecc46a4b09162f5369c5c80383aaa9159bcf192",
+      "deployed_code": "0x3d602d80600a3d3981f3363d3d373d3d3d363d73029d584e847373b6373b01dfad1a0c9bfb9163825af43d82803e903d91602b57fd5bf3",
+      "block_month": "2026-09-01",
+      "catalog_reported_partition": "block_date",
+      "schema_exposed_partition": "block_month",
+      "partition_metadata_diagnostic": "UNRESOLVED: catalog block_date is absent from the verified schema",
+      "unsupported_field_diagnostic": "UNAVAILABLE: type, success, and trace_address are not exposed"
+    }
+  ],
+  "derived_fields": {
+    "minimal_proxy_implementation_from_code": "0x029d584e847373b6373b01dfad1a0c9bfb916382"
+  },
+  "verification_status": "EXPLORER_RECORD_CAPTURED; LIMITED_INDEXED_CROSSCHECK; NOT_LOCAL_REEXECUTION",
+  "missing": [
+    "complete native RPC receipt",
+    "local signature/consensus verification",
+    "beneficial ownership",
+    "full historical state"
+  ]
+}

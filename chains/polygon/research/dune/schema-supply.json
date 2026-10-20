@@ -1,0 +1,262 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"total\":3,\"results\":[{\"full_name\":\"tokens.supply_latest\",\"category\":\"spell\",\"dataset_type\":\"spell\",\"blockchains\":[\"abstract\",\"apechain\",\"arbitrum\",\"arc\",\"avalanche_c\",\"base\",\"berachain\",\"bnb\",\"bob\",\"boba\",\"celo\",\"corn\",\"cronos\",\"degen\",\"ethereum\",\"fantom\",\"flare\",\"flow\",\"gnosis\",\"hedera\",\"hyperevm\",\"ink\",\"kaia\",\"katana\",\"lens\",\"linea\",\"mantle\",\"megaeth\",\"mezo\",\"monad\",\"morph\",\"nova\",\"opbnb\",\"optimism\",\"peaq\",\"plasma\",\"plume\",\"polygon\",\"robinhood\",\"ronin\",\"rise\",\"scroll\",\"sei\",\"shape\",\"somnia\",\"sophon\",\"sonic\",\"story\",\"superseed\",\"tac\",\"taiko\",\"tempo\",\"tezos_evm\",\"unichain\",\"worldchain\",\"xlayer\",\"zksync\",\"zora\"],\"partition_columns\":[\"blockchain\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"blockchain\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"token_address\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"symbol\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"decimals\",\"nullable\":true,\"type\":\"integer\"},{\"name\":\"supply_raw\",\"nullable\":true,\"type\":\"uint256\"},{\"name\":\"supply\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"_updated_at\",\"nullable\":true,\"type\":\"timestamp(3) with time zone\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":4582.737340855343,\"spell_type\":\"sector\"}},{\"full_name\":\"tokens.erc20\",\"category\":\"spell\",\"dataset_type\":\"spell\",\"blockchains\":[\"abstract\",\"apechain\",\"arbitrum\",\"arc\",\"avalanche_c\",\"b3\",\"base\",\"berachain\",\"blast\",\"bnb\",\"bob\",\"boba\",\"celo\",\"corn\",\"cronos\",\"degen\",\"ethereum\",\"fantom\",\"flare\",\"flow\",\"gnosis\",\"hedera\",\"hemi\",\"henesys\",\"hyperevm\",\"ink\",\"kaia\",\"katana\",\"lens\",\"linea\",\"mantle\",\"megaeth\",\"mezo\",\"monad\",\"morph\",\"nova\",\"opbnb\",\"optimism\",\"peaq\",\"plasma\",\"plume\",\"polygon\",\"robinhood\",\"ronin\",\"rise\",\"scroll\",\"sei\",\"shape\",\"somnia\",\"sophon\",\"sonic\",\"story\",\"superseed\",\"tac\",\"taiko\",\"tempo\",\"tezos_evm\",\"tron\",\"unichain\",\"viction\",\"worldchain\",\"xlayer\",\"zkevm\",\"zksync\",\"zora\"],\"partition_columns\":[\"blockchain\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"blockchain\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"contract_address\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"symbol\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"name\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"decimals\",\"nullable\":true,\"type\":\"integer\"},{\"name\":\"_updated_at\",\"nullable\":true,\"type\":\"timestamp(3) with time zone\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":6761.703741502408,\"spell_type\":\"sector\",\"spell_metadata\":{\"description\":\"\",\"depends_on\":[\"source.tokens.tokens_v2.erc20\",\"model.tokens.tokens_v1_erc20\"],\"tags\":[],\"partition_by\":[\"blockchain\"]}}}],\"pagination\":{\"limit\":2,\"offset\":0,\"nextOffset\":2,\"hasMore\":true}}"
+      }
+    ],
+    "structuredContent": {
+      "total": 3,
+      "results": [
+        {
+          "full_name": "tokens.supply_latest",
+          "category": "spell",
+          "dataset_type": "spell",
+          "blockchains": [
+            "abstract",
+            "apechain",
+            "arbitrum",
+            "arc",
+            "avalanche_c",
+            "base",
+            "berachain",
+            "bnb",
+            "bob",
+            "boba",
+            "celo",
+            "corn",
+            "cronos",
+            "degen",
+            "ethereum",
+            "fantom",
+            "flare",
+            "flow",
+            "gnosis",
+            "hedera",
+            "hyperevm",
+            "ink",
+            "kaia",
+            "katana",
+            "lens",
+            "linea",
+            "mantle",
+            "megaeth",
+            "mezo",
+            "monad",
+            "morph",
+            "nova",
+            "opbnb",
+            "optimism",
+            "peaq",
+            "plasma",
+            "plume",
+            "polygon",
+            "robinhood",
+            "ronin",
+            "rise",
+            "scroll",
+            "sei",
+            "shape",
+            "somnia",
+            "sophon",
+            "sonic",
+            "story",
+            "superseed",
+            "tac",
+            "taiko",
+            "tempo",
+            "tezos_evm",
+            "unichain",
+            "worldchain",
+            "xlayer",
+            "zksync",
+            "zora"
+          ],
+          "partition_columns": [
+            "blockchain"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "blockchain",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "token_address",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "symbol",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "decimals",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "name": "supply_raw",
+                "nullable": true,
+                "type": "uint256"
+              },
+              {
+                "name": "supply",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "_updated_at",
+                "nullable": true,
+                "type": "timestamp(3) with time zone"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 4582.737340855343,
+            "spell_type": "sector"
+          }
+        },
+        {
+          "full_name": "tokens.erc20",
+          "category": "spell",
+          "dataset_type": "spell",
+          "blockchains": [
+            "abstract",
+            "apechain",
+            "arbitrum",
+            "arc",
+            "avalanche_c",
+            "b3",
+            "base",
+            "berachain",
+            "blast",
+            "bnb",
+            "bob",
+            "boba",
+            "celo",
+            "corn",
+            "cronos",
+            "degen",
+            "ethereum",
+            "fantom",
+            "flare",
+            "flow",
+            "gnosis",
+            "hedera",
+            "hemi",
+            "henesys",
+            "hyperevm",
+            "ink",
+            "kaia",
+            "katana",
+            "lens",
+            "linea",
+            "mantle",
+            "megaeth",
+            "mezo",
+            "monad",
+            "morph",
+            "nova",
+            "opbnb",
+            "optimism",
+            "peaq",
+            "plasma",
+            "plume",
+            "polygon",
+            "robinhood",
+            "ronin",
+            "rise",
+            "scroll",
+            "sei",
+            "shape",
+            "somnia",
+            "sophon",
+            "sonic",
+            "story",
+            "superseed",
+            "tac",
+            "taiko",
+            "tempo",
+            "tezos_evm",
+            "tron",
+            "unichain",
+            "viction",
+            "worldchain",
+            "xlayer",
+            "zkevm",
+            "zksync",
+            "zora"
+          ],
+          "partition_columns": [
+            "blockchain"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "blockchain",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "contract_address",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "symbol",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "name",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "decimals",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "name": "_updated_at",
+                "nullable": true,
+                "type": "timestamp(3) with time zone"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 6761.703741502408,
+            "spell_type": "sector",
+            "spell_metadata": {
+              "description": "",
+              "depends_on": [
+                "source.tokens.tokens_v2.erc20",
+                "model.tokens.tokens_v1_erc20"
+              ],
+              "tags": [],
+              "partition_by": [
+                "blockchain"
+              ]
+            }
+          }
+        }
+      ],
+      "pagination": {
+        "limit": 2,
+        "offset": 0,
+        "nextOffset": 2,
+        "hasMore": true
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

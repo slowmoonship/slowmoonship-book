@@ -1,0 +1,14 @@
+{
+  "id": "activation-bor-chicago",
+  "url": "https://polygonscan.com/block/87218600",
+  "accessed_at": "2026-10-19T03:03:20.005115+00:00",
+  "baseline": "2026-10-19",
+  "status": 200,
+  "final_url": "https://polygonscan.com/block/87218600",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 116868,
+  "sha256": "7f6a3e95bbb27c44f725e83ce9d5b9decd5d974e34c4970a5fd8f5ee26358b31",
+  "local_archive_path": "research/sources/activation-bor-chicago.md",
+  "public_source_url": "https://polygonscan.com/block/87218600",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY"
+}

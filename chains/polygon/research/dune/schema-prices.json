@@ -1,0 +1,452 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"total\":4,\"results\":[{\"full_name\":\"prices.day\",\"category\":\"spell\",\"dataset_type\":\"spell\",\"blockchains\":[\"abstract\",\"apechain\",\"arbitrum\",\"arc\",\"avalanche_c\",\"b3\",\"base\",\"berachain\",\"blast\",\"bnb\",\"bob\",\"boba\",\"celo\",\"corn\",\"cronos\",\"degen\",\"ethereum\",\"fantom\",\"flare\",\"flow\",\"gnosis\",\"hedera\",\"hemi\",\"henesys\",\"hyperevm\",\"ink\",\"kaia\",\"katana\",\"lens\",\"linea\",\"mantle\",\"megaeth\",\"mezo\",\"monad\",\"morph\",\"nova\",\"opbnb\",\"optimism\",\"peaq\",\"plasma\",\"plume\",\"polygon\",\"robinhood\",\"ronin\",\"rise\",\"scroll\",\"sei\",\"shape\",\"somnia\",\"sophon\",\"sonic\",\"story\",\"superseed\",\"tac\",\"taiko\",\"tempo\",\"tezos_evm\",\"tron\",\"unichain\",\"viction\",\"worldchain\",\"xlayer\",\"zkevm\",\"zksync\",\"zora\"],\"partition_columns\":[\"blockchain\"],\"visibility\":\"public\",\"description\":\"The prices.day table provides historical price information for each token. The prices are calculated as the volume weighted average price at the day level from our dex.prices_block table.\\nIf there are no trades at a given interval, the previous price is used until a new trade occurs.\\nIt is recommended to use the contract_address to refer to a token rather than the token symbol as blockchains do not enforce unique token symbols. \",\"schema\":{\"fields\":[{\"name\":\"timestamp\",\"nullable\":true,\"type\":\"timestamp(3) with time zone\"},{\"name\":\"blockchain\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"contract_address\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"symbol\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"price\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"decimals\",\"nullable\":true,\"type\":\"integer\"},{\"name\":\"volume\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"source\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"contract_address_varchar\",\"nullable\":true,\"type\":\"varchar\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":5677.1491204614385,\"description\":\"The prices.day table provides historical price information for each token. The prices are calculated as the volume weighted average price at the day level from our dex.prices_block table.\\nIf there are no trades at a given interval, the previous price is used until a new trade occurs.\\nIt is recommended to use the contract_address to refer to a token rather than the token symbol as blockchains do not enforce unique token symbols. \",\"spell_type\":\"sector\",\"spell_metadata\":{\"description\":\"The prices.day table provides historical price information for each token. The prices are calculated as the volume weighted average price at the day level from our dex.prices_block table.\\nIf there are no trades at a given interval, the previous price is used until a new trade occurs.\\nIt is recommended to use the contract_address to refer to a token rather than the token symbol as blockchains do not enforce unique token symbols. \",\"depends_on\":[\"source.tokens.dune.prices_day_raw\"],\"tags\":[\"prices\",\"daily\"],\"partition_by\":[]}}},{\"full_name\":\"prices.minute\",\"category\":\"spell\",\"dataset_type\":\"spell\",\"blockchains\":[\"abstract\",\"apechain\",\"arbitrum\",\"arc\",\"avalanche_c\",\"b3\",\"base\",\"berachain\",\"blast\",\"bnb\",\"bob\",\"boba\",\"celo\",\"corn\",\"cronos\",\"degen\",\"ethereum\",\"fantom\",\"flare\",\"flow\",\"gnosis\",\"hedera\",\"hemi\",\"henesys\",\"hyperevm\",\"ink\",\"kaia\",\"katana\",\"lens\",\"linea\",\"mantle\",\"megaeth\",\"mezo\",\"monad\",\"morph\",\"nova\",\"opbnb\",\"optimism\",\"peaq\",\"plasma\",\"plume\",\"polygon\",\"robinhood\",\"ronin\",\"rise\",\"scroll\",\"sei\",\"shape\",\"somnia\",\"sophon\",\"sonic\",\"story\",\"superseed\",\"tac\",\"taiko\",\"tempo\",\"tezos_evm\",\"tron\",\"unichain\",\"viction\",\"worldchain\",\"xlayer\",\"zkevm\",\"zksync\",\"zora\"],\"partition_columns\":[\"blockchain\"],\"visibility\":\"public\",\"description\":\"The prices.minute table provides historical price information for each token. The prices are calculated as the volume weighted average price at the hourly level from our dex.prices_block table.\\nIf there are no trades at a given interval, the previous price is used until a new trade occurs.\\nIt is recommended to use the contract_address to refer to a token rather than the token symbol as blockchains do not enforce unique token symbols. \",\"schema\":{\"fields\":[{\"name\":\"timestamp\",\"nullable\":true,\"type\":\"timestamp(3) with time zone\"},{\"name\":\"blockchain\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"contract_address\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"symbol\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"price\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"decimals\",\"nullable\":true,\"type\":\"integer\"},{\"name\":\"volume\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"source\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"contract_address_varchar\",\"nullable\":true,\"type\":\"varchar\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":4916.594797251933,\"description\":\"The prices.minute table provides historical price information for each token. The prices are calculated as the volume weighted average price at the hourly level from our dex.prices_block table.\\nIf there are no trades at a given interval, the previous price is used until a new trade occurs.\\nIt is recommended to use the contract_address to refer to a token rather than the token symbol as blockchains do not enforce unique token symbols. \",\"spell_type\":\"sector\",\"spell_metadata\":{\"description\":\"The prices.minute table provides historical price information for each token. The prices are calculated as the volume weighted average price at the hourly level from our dex.prices_block table.\\nIf there are no trades at a given interval, the previous price is used until a new trade occurs.\\nIt is recommended to use the contract_address to refer to a token rather than the token symbol as blockchains do not enforce unique token symbols. \",\"depends_on\":[\"source.tokens.dune.prices_minute_raw\"],\"tags\":[\"prices\",\"minute\"],\"partition_by\":[]}}},{\"full_name\":\"prices.hour\",\"category\":\"spell\",\"dataset_type\":\"spell\",\"blockchains\":[\"abstract\",\"apechain\",\"arbitrum\",\"arc\",\"avalanche_c\",\"b3\",\"base\",\"berachain\",\"blast\",\"bnb\",\"bob\",\"boba\",\"celo\",\"corn\",\"cronos\",\"degen\",\"ethereum\",\"fantom\",\"flare\",\"flow\",\"gnosis\",\"hedera\",\"hemi\",\"henesys\",\"hyperevm\",\"ink\",\"kaia\",\"katana\",\"lens\",\"linea\",\"mantle\",\"megaeth\",\"mezo\",\"monad\",\"morph\",\"nova\",\"opbnb\",\"optimism\",\"peaq\",\"plasma\",\"plume\",\"polygon\",\"robinhood\",\"ronin\",\"rise\",\"scroll\",\"sei\",\"shape\",\"somnia\",\"sophon\",\"sonic\",\"story\",\"superseed\",\"tac\",\"taiko\",\"tempo\",\"tezos_evm\",\"tron\",\"unichain\",\"viction\",\"worldchain\",\"xlayer\",\"zkevm\",\"zksync\",\"zora\"],\"partition_columns\":[\"blockchain\"],\"visibility\":\"public\",\"description\":\"The prices.hour table provides historical price information for each token. The prices are calculated as the volume weighted average price at the hourly level from our dex.prices_block table.\\nIf there are no trades at a given interval, the previous price is used until a new trade occurs.\\nIt is recommended to use the contract_address to refer to a token rather than the token symbol as blockchains do not enforce unique token symbols. \",\"schema\":{\"fields\":[{\"name\":\"timestamp\",\"nullable\":true,\"type\":\"timestamp(3) with time zone\"},{\"name\":\"blockchain\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"contract_address\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"symbol\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"price\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"decimals\",\"nullable\":true,\"type\":\"integer\"},{\"name\":\"volume\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"source\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"contract_address_varchar\",\"nullable\":true,\"type\":\"varchar\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":5073.182650303951,\"description\":\"The prices.hour table provides historical price information for each token. The prices are calculated as the volume weighted average price at the hourly level from our dex.prices_block table.\\nIf there are no trades at a given interval, the previous price is used until a new trade occurs.\\nIt is recommended to use the contract_address to refer to a token rather than the token symbol as blockchains do not enforce unique token symbols. \",\"spell_type\":\"sector\",\"spell_metadata\":{\"description\":\"The prices.hour table provides historical price information for each token. The prices are calculated as the volume weighted average price at the hourly level from our dex.prices_block table.\\nIf there are no trades at a given interval, the previous price is used until a new trade occurs.\\nIt is recommended to use the contract_address to refer to a token rather than the token symbol as blockchains do not enforce unique token symbols. \",\"depends_on\":[\"source.tokens.dune.prices_hour_raw\"],\"tags\":[\"prices\",\"hourly\"],\"partition_by\":[]}}}],\"pagination\":{\"limit\":3,\"offset\":0,\"nextOffset\":3,\"hasMore\":true}}"
+      }
+    ],
+    "structuredContent": {
+      "total": 4,
+      "results": [
+        {
+          "full_name": "prices.day",
+          "category": "spell",
+          "dataset_type": "spell",
+          "blockchains": [
+            "abstract",
+            "apechain",
+            "arbitrum",
+            "arc",
+            "avalanche_c",
+            "b3",
+            "base",
+            "berachain",
+            "blast",
+            "bnb",
+            "bob",
+            "boba",
+            "celo",
+            "corn",
+            "cronos",
+            "degen",
+            "ethereum",
+            "fantom",
+            "flare",
+            "flow",
+            "gnosis",
+            "hedera",
+            "hemi",
+            "henesys",
+            "hyperevm",
+            "ink",
+            "kaia",
+            "katana",
+            "lens",
+            "linea",
+            "mantle",
+            "megaeth",
+            "mezo",
+            "monad",
+            "morph",
+            "nova",
+            "opbnb",
+            "optimism",
+            "peaq",
+            "plasma",
+            "plume",
+            "polygon",
+            "robinhood",
+            "ronin",
+            "rise",
+            "scroll",
+            "sei",
+            "shape",
+            "somnia",
+            "sophon",
+            "sonic",
+            "story",
+            "superseed",
+            "tac",
+            "taiko",
+            "tempo",
+            "tezos_evm",
+            "tron",
+            "unichain",
+            "viction",
+            "worldchain",
+            "xlayer",
+            "zkevm",
+            "zksync",
+            "zora"
+          ],
+          "partition_columns": [
+            "blockchain"
+          ],
+          "visibility": "public",
+          "description": "The prices.day table provides historical price information for each token. The prices are calculated as the volume weighted average price at the day level from our dex.prices_block table.\nIf there are no trades at a given interval, the previous price is used until a new trade occurs.\nIt is recommended to use the contract_address to refer to a token rather than the token symbol as blockchains do not enforce unique token symbols. ",
+          "schema": {
+            "fields": [
+              {
+                "name": "timestamp",
+                "nullable": true,
+                "type": "timestamp(3) with time zone"
+              },
+              {
+                "name": "blockchain",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "contract_address",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "symbol",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "price",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "decimals",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "name": "volume",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "source",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "contract_address_varchar",
+                "nullable": true,
+                "type": "varchar"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 5677.1491204614385,
+            "description": "The prices.day table provides historical price information for each token. The prices are calculated as the volume weighted average price at the day level from our dex.prices_block table.\nIf there are no trades at a given interval, the previous price is used until a new trade occurs.\nIt is recommended to use the contract_address to refer to a token rather than the token symbol as blockchains do not enforce unique token symbols. ",
+            "spell_type": "sector",
+            "spell_metadata": {
+              "description": "The prices.day table provides historical price information for each token. The prices are calculated as the volume weighted average price at the day level from our dex.prices_block table.\nIf there are no trades at a given interval, the previous price is used until a new trade occurs.\nIt is recommended to use the contract_address to refer to a token rather than the token symbol as blockchains do not enforce unique token symbols. ",
+              "depends_on": [
+                "source.tokens.dune.prices_day_raw"
+              ],
+              "tags": [
+                "prices",
+                "daily"
+              ],
+              "partition_by": []
+            }
+          }
+        },
+        {
+          "full_name": "prices.minute",
+          "category": "spell",
+          "dataset_type": "spell",
+          "blockchains": [
+            "abstract",
+            "apechain",
+            "arbitrum",
+            "arc",
+            "avalanche_c",
+            "b3",
+            "base",
+            "berachain",
+            "blast",
+            "bnb",
+            "bob",
+            "boba",
+            "celo",
+            "corn",
+            "cronos",
+            "degen",
+            "ethereum",
+            "fantom",
+            "flare",
+            "flow",
+            "gnosis",
+            "hedera",
+            "hemi",
+            "henesys",
+            "hyperevm",
+            "ink",
+            "kaia",
+            "katana",
+            "lens",
+            "linea",
+            "mantle",
+            "megaeth",
+            "mezo",
+            "monad",
+            "morph",
+            "nova",
+            "opbnb",
+            "optimism",
+            "peaq",
+            "plasma",
+            "plume",
+            "polygon",
+            "robinhood",
+            "ronin",
+            "rise",
+            "scroll",
+            "sei",
+            "shape",
+            "somnia",
+            "sophon",
+            "sonic",
+            "story",
+            "superseed",
+            "tac",
+            "taiko",
+            "tempo",
+            "tezos_evm",
+            "tron",
+            "unichain",
+            "viction",
+            "worldchain",
+            "xlayer",
+            "zkevm",
+            "zksync",
+            "zora"
+          ],
+          "partition_columns": [
+            "blockchain"
+          ],
+          "visibility": "public",
+          "description": "The prices.minute table provides historical price information for each token. The prices are calculated as the volume weighted average price at the hourly level from our dex.prices_block table.\nIf there are no trades at a given interval, the previous price is used until a new trade occurs.\nIt is recommended to use the contract_address to refer to a token rather than the token symbol as blockchains do not enforce unique token symbols. ",
+          "schema": {
+            "fields": [
+              {
+                "name": "timestamp",
+                "nullable": true,
+                "type": "timestamp(3) with time zone"
+              },
+              {
+                "name": "blockchain",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "contract_address",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "symbol",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "price",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "decimals",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "name": "volume",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "source",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "contract_address_varchar",
+                "nullable": true,
+                "type": "varchar"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 4916.594797251933,
+            "description": "The prices.minute table provides historical price information for each token. The prices are calculated as the volume weighted average price at the hourly level from our dex.prices_block table.\nIf there are no trades at a given interval, the previous price is used until a new trade occurs.\nIt is recommended to use the contract_address to refer to a token rather than the token symbol as blockchains do not enforce unique token symbols. ",
+            "spell_type": "sector",
+            "spell_metadata": {
+              "description": "The prices.minute table provides historical price information for each token. The prices are calculated as the volume weighted average price at the hourly level from our dex.prices_block table.\nIf there are no trades at a given interval, the previous price is used until a new trade occurs.\nIt is recommended to use the contract_address to refer to a token rather than the token symbol as blockchains do not enforce unique token symbols. ",
+              "depends_on": [
+                "source.tokens.dune.prices_minute_raw"
+              ],
+              "tags": [
+                "prices",
+                "minute"
+              ],
+              "partition_by": []
+            }
+          }
+        },
+        {
+          "full_name": "prices.hour",
+          "category": "spell",
+          "dataset_type": "spell",
+          "blockchains": [
+            "abstract",
+            "apechain",
+            "arbitrum",
+            "arc",
+            "avalanche_c",
+            "b3",
+            "base",
+            "berachain",
+            "blast",
+            "bnb",
+            "bob",
+            "boba",
+            "celo",
+            "corn",
+            "cronos",
+            "degen",
+            "ethereum",
+            "fantom",
+            "flare",
+            "flow",
+            "gnosis",
+            "hedera",
+            "hemi",
+            "henesys",
+            "hyperevm",
+            "ink",
+            "kaia",
+            "katana",
+            "lens",
+            "linea",
+            "mantle",
+            "megaeth",
+            "mezo",
+            "monad",
+            "morph",
+            "nova",
+            "opbnb",
+            "optimism",
+            "peaq",
+            "plasma",
+            "plume",
+            "polygon",
+            "robinhood",
+            "ronin",
+            "rise",
+            "scroll",
+            "sei",
+            "shape",
+            "somnia",
+            "sophon",
+            "sonic",
+            "story",
+            "superseed",
+            "tac",
+            "taiko",
+            "tempo",
+            "tezos_evm",
+            "tron",
+            "unichain",
+            "viction",
+            "worldchain",
+            "xlayer",
+            "zkevm",
+            "zksync",
+            "zora"
+          ],
+          "partition_columns": [
+            "blockchain"
+          ],
+          "visibility": "public",
+          "description": "The prices.hour table provides historical price information for each token. The prices are calculated as the volume weighted average price at the hourly level from our dex.prices_block table.\nIf there are no trades at a given interval, the previous price is used until a new trade occurs.\nIt is recommended to use the contract_address to refer to a token rather than the token symbol as blockchains do not enforce unique token symbols. ",
+          "schema": {
+            "fields": [
+              {
+                "name": "timestamp",
+                "nullable": true,
+                "type": "timestamp(3) with time zone"
+              },
+              {
+                "name": "blockchain",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "contract_address",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "symbol",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "price",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "decimals",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "name": "volume",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "source",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "contract_address_varchar",
+                "nullable": true,
+                "type": "varchar"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 5073.182650303951,
+            "description": "The prices.hour table provides historical price information for each token. The prices are calculated as the volume weighted average price at the hourly level from our dex.prices_block table.\nIf there are no trades at a given interval, the previous price is used until a new trade occurs.\nIt is recommended to use the contract_address to refer to a token rather than the token symbol as blockchains do not enforce unique token symbols. ",
+            "spell_type": "sector",
+            "spell_metadata": {
+              "description": "The prices.hour table provides historical price information for each token. The prices are calculated as the volume weighted average price at the hourly level from our dex.prices_block table.\nIf there are no trades at a given interval, the previous price is used until a new trade occurs.\nIt is recommended to use the contract_address to refer to a token rather than the token symbol as blockchains do not enforce unique token symbols. ",
+              "depends_on": [
+                "source.tokens.dune.prices_hour_raw"
+              ],
+              "tags": [
+                "prices",
+                "hourly"
+              ],
+              "partition_by": []
+            }
+          }
+        }
+      ],
+      "pagination": {
+        "limit": 3,
+        "offset": 0,
+        "nextOffset": 3,
+        "hasMore": true
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

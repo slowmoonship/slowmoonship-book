@@ -1,0 +1,264 @@
+{
+  "result": {
+    "_meta": {
+      "mcp_event_id": "d233eac9-0fd2-4ced-8a23-9aff2e2821f5"
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"executionId\":\"01M0FRYB87WXB3FJVC7N10X956\",\"state\":\"COMPLETED\",\"resultMetadata\":{\"columns\":[{\"name\":\"date\",\"type\":\"date\"},{\"name\":\"swap_dai_in\",\"type\":\"double\"},{\"name\":\"swap_dai_out\",\"type\":\"double\"},{\"name\":\"swap_net_dai\",\"type\":\"double\"},{\"name\":\"liquidity_add_dai\",\"type\":\"double\"},{\"name\":\"liquidity_remove_dai\",\"type\":\"double\"},{\"name\":\"liquidity_net_dai\",\"type\":\"double\"},{\"name\":\"total_pair_net_dai_flow\",\"type\":\"double\"},{\"name\":\"cumulative_swap_net_dai\",\"type\":\"double\"},{\"name\":\"cumulative_liquidity_net_dai\",\"type\":\"double\"},{\"name\":\"cumulative_total_pair_net_dai\",\"type\":\"double\"},{\"name\":\"decoded_swap_net_dai\",\"type\":\"double\"},{\"name\":\"unclassified_net_dai_gap\",\"type\":\"double\"},{\"name\":\"cumulative_decoded_total_pair_net_dai\",\"type\":\"double\"},{\"name\":\"pair_dai_balance\",\"type\":\"double\"},{\"name\":\"opening_dai_balance_offset\",\"type\":\"double\"},{\"name\":\"flow_reconciliation_gap\",\"type\":\"double\"},{\"name\":\"reconciliation_status\",\"type\":\"varchar(31)\"},{\"name\":\"swap_history_start\",\"type\":\"timestamp(3) with time zone\"},{\"name\":\"swap_history_end\",\"type\":\"timestamp(3) with time zone\"},{\"name\":\"liquidity_history_start\",\"type\":\"timestamp(3) with time zone\"},{\"name\":\"liquidity_history_end\",\"type\":\"timestamp(3) with time zone\"},{\"name\":\"raw_swap_count\",\"type\":\"bigint\"},{\"name\":\"unclassified_swap_count\",\"type\":\"bigint\"},{\"name\":\"liquidity_raw_event_count\",\"type\":\"bigint\"}],\"totalRowCount\":898,\"executionCostCredits\":\"14.339\"},\"data\":{\"rows\":[{\"date\":\"2024-03-06\",\"swap_dai_in\":1189536.4465952136,\"swap_dai_out\":413664.09930025303,\"swap_net_dai\":775872.3472949606,\"liquidity_add_dai\":412485.31106623163,\"liquidity_remove_dai\":0,\"liquidity_net_dai\":412485.31106623163,\"total_pair_net_dai_flow\":1188357.6583611923,\"cumulative_swap_net_dai\":775872.3472949606,\"cumulative_liquidity_net_dai\":412485.31106623163,\"cumulative_total_pair_net_dai\":1188357.6583611923,\"decoded_swap_net_dai\":775872.3472949587,\"unclassified_net_dai_gap\":-1.979060471057892e-9,\"cumulative_decoded_total_pair_net_dai\":1188357.6583611902,\"pair_dai_balance\":1188357.658361191,\"opening_dai_balance_offset\":6.984919309616089e-10,\"flow_reconciliation_gap\":0,\"reconciliation_status\":\"PASS_WITHIN_0.01_DAI\",\"swap_history_start\":\"2024-03-06 16:58:16.000 UTC\",\"swap_history_end\":\"2026-08-20 14:16:54.000 UTC\",\"liquidity_history_start\":\"2024-03-06 16:58:08.000 UTC\",\"liquidity_history_end\":\"2026-08-20 09:59:31.000 UTC\",\"raw_swap_count\":304217660,\"unclassified_swap_count\":197,\"liquidity_raw_event_count\":725167},{\"date\":\"2024-03-07\",\"swap_dai_in\":336577.8130020723,\"swap_dai_out\":200365.04913909553,\"swap_net_dai\":136212.76386297675,\"liquidity_add_dai\":134303.74417142782,\"liquidity_remove_dai\":702.4719154432978,\"liquidity_net_dai\":133601.2722559845,\"total_pair_net_dai_flow\":269814.0361189613,\"cumulative_swap_net_dai\":912085.1111579374,\"cumulative_liquidity_net_dai\":546086.5833222162,\"cumulative_total_pair_net_dai\":1458171.6944801537,\"decoded_swap_net_dai\":136212.76386297727,\"unclassified_net_dai_gap\":5.238689482212067e-10,\"cumulative_decoded_total_pair_net_dai\":1458171.6944801519,\"pair_dai_balance\":null,\"opening_dai_balance_offset\":6.984919309616089e-10,\"flow_reconciliation_gap\":null,\"reconciliation_status\":\"NOT_SAMPLED\",\"swap_history_start\":\"2024-03-06 16:58:16.000 UTC\",\"swap_history_end\":\"2026-08-20 14:16:54.000 UTC\",\"liquidity_history_start\":\"2024-03-06 16:58:08.000 UTC\",\"liquidity_history_end\":\"2026-08-20 09:59:31.000 UTC\",\"raw_swap_count\":304217660,\"unclassified_swap_count\":197,\"liquidity_raw_event_count\":725167},{\"date\":\"2024-03-08\",\"swap_dai_in\":120953.45555960627,\"swap_dai_out\":290343.5767015725,\"swap_net_dai\":-169390.12114196626,\"liquidity_add_dai\":47273.98558454055,\"liquidity_remove_dai\":73.5860947976715,\"liquidity_net_dai\":47200.39948974288,\"total_pair_net_dai_flow\":-122189.72165222338,\"cumulative_swap_net_dai\":742694.9900159712,\"cumulative_liquidity_net_dai\":593286.982811959,\"cumulative_total_pair_net_dai\":1335981.9728279305,\"decoded_swap_net_dai\":-169390.12114196608,\"unclassified_net_dai_gap\":1.7462298274040222e-10,\"cumulative_decoded_total_pair_net_dai\":1335981.9728279286,\"pair_dai_balance\":null,\"opening_dai_balance_offset\":6.984919309616089e-10,\"flow_reconciliation_gap\":null,\"reconciliation_status\":\"NOT_SAMPLED\",\"swap_history_start\":\"2024-03-06 16:58:16.000 UTC\",\"swap_history_end\":\"2026-08-20 14:16:54.000 UTC\",\"liquidity_history_start\":\"2024-03-06 16:58:08.000 UTC\",\"liquidity_history_end\":\"2026-08-20 09:59:31.000 UTC\",\"raw_swap_count\":304217660,\"unclassified_swap_count\":197,\"liquidity_raw_event_count\":725167},{\"date\":\"2024-03-09\",\"swap_dai_in\":160099.89803398246,\"swap_dai_out\":221008.6003177999,\"swap_net_dai\":-60908.70228381743,\"liquidity_add_dai\":42723.57955185715,\"liquidity_remove_dai\":134.4520828661867,\"liquidity_net_dai\":42589.12746899096,\"total_pair_net_dai_flow\":-18319.57481482647,\"cumulative_swap_net_dai\":681786.2877321538,\"cumulative_liquidity_net_dai\":635876.11028095,\"cumulative_total_pair_net_dai\":1317662.398013104,\"decoded_swap_net_dai\":-60908.70228381738,\"unclassified_net_dai_gap\":5.093170329928398e-11,\"cumulative_decoded_total_pair_net_dai\":1317662.3980131021,\"pair_dai_balance\":null,\"opening_dai_balance_offset\":6.984919309616089e-10,\"flow_reconciliation_gap\":null,\"reconciliation_status\":\"NOT_SAMPLED\",\"swap_history_start\":\"2024-03-06 16:58:16.000 UTC\",\"swap_history_end\":\"2026-08-20 14:16:54.000 UTC\",\"liquidity_history_start\":\"2024-03-06 16:58:08.000 UTC\",\"liquidity_history_end\":\"2026-08-20 09:59:31.000 UTC\",\"raw_swap_count\":304217660,\"unclassified_swap_count\":197,\"liquidity_raw_event_count\":725167},{\"date\":\"2024-03-10\",\"swap_dai_in\":45722.504801835166,\"swap_dai_out\":171684.59906876195,\"swap_net_dai\":-125962.09426692678,\"liquidity_add_dai\":20914.26690846726,\"liquidity_remove_dai\":50.98544342247318,\"liquidity_net_dai\":20863.281465044787,\"total_pair_net_dai_flow\":-105098.812801882,\"cumulative_swap_net_dai\":555824.193465227,\"cumulative_liquidity_net_dai\":656739.3917459948,\"cumulative_total_pair_net_dai\":1212563.585211222,\"decoded_swap_net_dai\":-125962.09426692681,\"unclassified_net_dai_gap\":-2.9103830456733704e-11,\"cumulative_decoded_total_pair_net_dai\":1212563.5852112202,\"pair_dai_balance\":null,\"opening_dai_balance_offset\":6.984919309616089e-10,\"flow_reconciliation_gap\":null,\"reconciliation_status\":\"NOT_SAMPLED\",\"swap_history_start\":\"2024-03-06 16:58:16.000 UTC\",\"swap_history_end\":\"2026-08-20 14:16:54.000 UTC\",\"liquidity_history_start\":\"2024-03-06 16:58:08.000 UTC\",\"liquidity_history_end\":\"2026-08-20 09:59:31.000 UTC\",\"raw_swap_count\":304217660,\"unclassified_swap_count\":197,\"liquidity_raw_event_count\":725167}]}}"
+      }
+    ],
+    "structuredContent": {
+      "executionId": "01M0FRYB87WXB3FJVC7N10X956",
+      "state": "COMPLETED",
+      "resultMetadata": {
+        "columns": [
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "swap_dai_in",
+            "type": "double"
+          },
+          {
+            "name": "swap_dai_out",
+            "type": "double"
+          },
+          {
+            "name": "swap_net_dai",
+            "type": "double"
+          },
+          {
+            "name": "liquidity_add_dai",
+            "type": "double"
+          },
+          {
+            "name": "liquidity_remove_dai",
+            "type": "double"
+          },
+          {
+            "name": "liquidity_net_dai",
+            "type": "double"
+          },
+          {
+            "name": "total_pair_net_dai_flow",
+            "type": "double"
+          },
+          {
+            "name": "cumulative_swap_net_dai",
+            "type": "double"
+          },
+          {
+            "name": "cumulative_liquidity_net_dai",
+            "type": "double"
+          },
+          {
+            "name": "cumulative_total_pair_net_dai",
+            "type": "double"
+          },
+          {
+            "name": "decoded_swap_net_dai",
+            "type": "double"
+          },
+          {
+            "name": "unclassified_net_dai_gap",
+            "type": "double"
+          },
+          {
+            "name": "cumulative_decoded_total_pair_net_dai",
+            "type": "double"
+          },
+          {
+            "name": "pair_dai_balance",
+            "type": "double"
+          },
+          {
+            "name": "opening_dai_balance_offset",
+            "type": "double"
+          },
+          {
+            "name": "flow_reconciliation_gap",
+            "type": "double"
+          },
+          {
+            "name": "reconciliation_status",
+            "type": "varchar(31)"
+          },
+          {
+            "name": "swap_history_start",
+            "type": "timestamp(3) with time zone"
+          },
+          {
+            "name": "swap_history_end",
+            "type": "timestamp(3) with time zone"
+          },
+          {
+            "name": "liquidity_history_start",
+            "type": "timestamp(3) with time zone"
+          },
+          {
+            "name": "liquidity_history_end",
+            "type": "timestamp(3) with time zone"
+          },
+          {
+            "name": "raw_swap_count",
+            "type": "bigint"
+          },
+          {
+            "name": "unclassified_swap_count",
+            "type": "bigint"
+          },
+          {
+            "name": "liquidity_raw_event_count",
+            "type": "bigint"
+          }
+        ],
+        "totalRowCount": 898,
+        "executionCostCredits": "14.339"
+      },
+      "data": {
+        "rows": [
+          {
+            "date": "2024-03-06",
+            "swap_dai_in": 1189536.4465952136,
+            "swap_dai_out": 413664.09930025303,
+            "swap_net_dai": 775872.3472949606,
+            "liquidity_add_dai": 412485.31106623163,
+            "liquidity_remove_dai": 0,
+            "liquidity_net_dai": 412485.31106623163,
+            "total_pair_net_dai_flow": 1188357.6583611923,
+            "cumulative_swap_net_dai": 775872.3472949606,
+            "cumulative_liquidity_net_dai": 412485.31106623163,
+            "cumulative_total_pair_net_dai": 1188357.6583611923,
+            "decoded_swap_net_dai": 775872.3472949587,
+            "unclassified_net_dai_gap": -1.979060471057892e-09,
+            "cumulative_decoded_total_pair_net_dai": 1188357.6583611902,
+            "pair_dai_balance": 1188357.658361191,
+            "opening_dai_balance_offset": 6.984919309616089e-10,
+            "flow_reconciliation_gap": 0,
+            "reconciliation_status": "PASS_WITHIN_0.01_DAI",
+            "swap_history_start": "2024-03-06 16:58:16.000 UTC",
+            "swap_history_end": "2026-08-20 14:16:54.000 UTC",
+            "liquidity_history_start": "2024-03-06 16:58:08.000 UTC",
+            "liquidity_history_end": "2026-08-20 09:59:31.000 UTC",
+            "raw_swap_count": 304217660,
+            "unclassified_swap_count": 197,
+            "liquidity_raw_event_count": 725167
+          },
+          {
+            "date": "2024-03-07",
+            "swap_dai_in": 336577.8130020723,
+            "swap_dai_out": 200365.04913909553,
+            "swap_net_dai": 136212.76386297675,
+            "liquidity_add_dai": 134303.74417142782,
+            "liquidity_remove_dai": 702.4719154432978,
+            "liquidity_net_dai": 133601.2722559845,
+            "total_pair_net_dai_flow": 269814.0361189613,
+            "cumulative_swap_net_dai": 912085.1111579374,
+            "cumulative_liquidity_net_dai": 546086.5833222162,
+            "cumulative_total_pair_net_dai": 1458171.6944801537,
+            "decoded_swap_net_dai": 136212.76386297727,
+            "unclassified_net_dai_gap": 5.238689482212067e-10,
+            "cumulative_decoded_total_pair_net_dai": 1458171.6944801519,
+            "pair_dai_balance": null,
+            "opening_dai_balance_offset": 6.984919309616089e-10,
+            "flow_reconciliation_gap": null,
+            "reconciliation_status": "NOT_SAMPLED",
+            "swap_history_start": "2024-03-06 16:58:16.000 UTC",
+            "swap_history_end": "2026-08-20 14:16:54.000 UTC",
+            "liquidity_history_start": "2024-03-06 16:58:08.000 UTC",
+            "liquidity_history_end": "2026-08-20 09:59:31.000 UTC",
+            "raw_swap_count": 304217660,
+            "unclassified_swap_count": 197,
+            "liquidity_raw_event_count": 725167
+          },
+          {
+            "date": "2024-03-08",
+            "swap_dai_in": 120953.45555960627,
+            "swap_dai_out": 290343.5767015725,
+            "swap_net_dai": -169390.12114196626,
+            "liquidity_add_dai": 47273.98558454055,
+            "liquidity_remove_dai": 73.5860947976715,
+            "liquidity_net_dai": 47200.39948974288,
+            "total_pair_net_dai_flow": -122189.72165222338,
+            "cumulative_swap_net_dai": 742694.9900159712,
+            "cumulative_liquidity_net_dai": 593286.982811959,
+            "cumulative_total_pair_net_dai": 1335981.9728279305,
+            "decoded_swap_net_dai": -169390.12114196608,
+            "unclassified_net_dai_gap": 1.7462298274040222e-10,
+            "cumulative_decoded_total_pair_net_dai": 1335981.9728279286,
+            "pair_dai_balance": null,
+            "opening_dai_balance_offset": 6.984919309616089e-10,
+            "flow_reconciliation_gap": null,
+            "reconciliation_status": "NOT_SAMPLED",
+            "swap_history_start": "2024-03-06 16:58:16.000 UTC",
+            "swap_history_end": "2026-08-20 14:16:54.000 UTC",
+            "liquidity_history_start": "2024-03-06 16:58:08.000 UTC",
+            "liquidity_history_end": "2026-08-20 09:59:31.000 UTC",
+            "raw_swap_count": 304217660,
+            "unclassified_swap_count": 197,
+            "liquidity_raw_event_count": 725167
+          },
+          {
+            "date": "2024-03-09",
+            "swap_dai_in": 160099.89803398246,
+            "swap_dai_out": 221008.6003177999,
+            "swap_net_dai": -60908.70228381743,
+            "liquidity_add_dai": 42723.57955185715,
+            "liquidity_remove_dai": 134.4520828661867,
+            "liquidity_net_dai": 42589.12746899096,
+            "total_pair_net_dai_flow": -18319.57481482647,
+            "cumulative_swap_net_dai": 681786.2877321538,
+            "cumulative_liquidity_net_dai": 635876.11028095,
+            "cumulative_total_pair_net_dai": 1317662.398013104,
+            "decoded_swap_net_dai": -60908.70228381738,
+            "unclassified_net_dai_gap": 5.093170329928398e-11,
+            "cumulative_decoded_total_pair_net_dai": 1317662.3980131021,
+            "pair_dai_balance": null,
+            "opening_dai_balance_offset": 6.984919309616089e-10,
+            "flow_reconciliation_gap": null,
+            "reconciliation_status": "NOT_SAMPLED",
+            "swap_history_start": "2024-03-06 16:58:16.000 UTC",
+            "swap_history_end": "2026-08-20 14:16:54.000 UTC",
+            "liquidity_history_start": "2024-03-06 16:58:08.000 UTC",
+            "liquidity_history_end": "2026-08-20 09:59:31.000 UTC",
+            "raw_swap_count": 304217660,
+            "unclassified_swap_count": 197,
+            "liquidity_raw_event_count": 725167
+          },
+          {
+            "date": "2024-03-10",
+            "swap_dai_in": 45722.504801835166,
+            "swap_dai_out": 171684.59906876195,
+            "swap_net_dai": -125962.09426692678,
+            "liquidity_add_dai": 20914.26690846726,
+            "liquidity_remove_dai": 50.98544342247318,
+            "liquidity_net_dai": 20863.281465044787,
+            "total_pair_net_dai_flow": -105098.812801882,
+            "cumulative_swap_net_dai": 555824.193465227,
+            "cumulative_liquidity_net_dai": 656739.3917459948,
+            "cumulative_total_pair_net_dai": 1212563.585211222,
+            "decoded_swap_net_dai": -125962.09426692681,
+            "unclassified_net_dai_gap": -2.9103830456733704e-11,
+            "cumulative_decoded_total_pair_net_dai": 1212563.5852112202,
+            "pair_dai_balance": null,
+            "opening_dai_balance_offset": 6.984919309616089e-10,
+            "flow_reconciliation_gap": null,
+            "reconciliation_status": "NOT_SAMPLED",
+            "swap_history_start": "2024-03-06 16:58:16.000 UTC",
+            "swap_history_end": "2026-08-20 14:16:54.000 UTC",
+            "liquidity_history_start": "2024-03-06 16:58:08.000 UTC",
+            "liquidity_history_end": "2026-08-20 09:59:31.000 UTC",
+            "raw_swap_count": 304217660,
+            "unclassified_swap_count": 197,
+            "liquidity_raw_event_count": 725167
+          }
+        ]
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

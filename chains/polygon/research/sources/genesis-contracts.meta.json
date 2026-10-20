@@ -1,0 +1,14 @@
+{
+  "id": "genesis-contracts",
+  "url": "https://docs.polygon.technology/pos/reference/contracts/genesis-contracts.md",
+  "accessed_at": "2026-10-19T02:34:55.832636+00:00",
+  "baseline": "2026-10-19",
+  "status": 200,
+  "final_url": "https://docs.polygon.technology/pos/reference/contracts/genesis-contracts.md",
+  "content_type": "text/markdown; charset=utf-8",
+  "bytes": 12034,
+  "sha256": "e9a1260ed67159f87a877ea23415dea85ade1ca8e34b9aa8d9e21b66c3e6706c",
+  "local_archive_path": "research/sources/genesis-contracts.md",
+  "public_source_url": "https://docs.polygon.technology/pos/reference/contracts/genesis-contracts.md",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY"
+}

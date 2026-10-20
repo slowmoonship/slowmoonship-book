@@ -1,0 +1,14 @@
+{
+  "id": "activation-bor-giugliano",
+  "url": "https://polygonscan.com/block/85268500",
+  "accessed_at": "2026-10-19T03:03:19.973152+00:00",
+  "baseline": "2026-10-19",
+  "status": 200,
+  "final_url": "https://polygonscan.com/block/85268500",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 118406,
+  "sha256": "a6b3ae7b44be7639bbe2590e2c986dfa9c46ed0938f0a1c32c1362734c38aacb",
+  "local_archive_path": "research/sources/activation-bor-giugliano.md",
+  "public_source_url": "https://polygonscan.com/block/85268500",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY"
+}

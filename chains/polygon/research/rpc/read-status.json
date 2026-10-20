@@ -1,0 +1,10 @@
+{
+  "endpoint": "https://polygon.drpc.org",
+  "read_only": true,
+  "first_endpoint": "https://polygon.publicnode.com",
+  "first_endpoint_error": "HTTP 403 on eth_chainId",
+  "retrieved_at": "2026-10-19T03:05:19.303138+00:00",
+  "calls": [],
+  "status": "BLOCKED_RPC_ACCESS",
+  "error": "HTTPError: HTTP Error 403: Forbidden"
+}

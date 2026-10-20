@@ -1,0 +1,28 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"query_id\":8675999,\"user_id\":null,\"team_id\":953543,\"version\":1,\"name\":\"Dashboard 07: Polygon PoS Token Transfers (30d)\",\"description\":\"Polygon PoS 30-day curated token-transfer summary by UTC day.\",\"tags\":[],\"query\":\"WITH filtered_transfers AS (\\n    SELECT\\n        block_date,\\n        contract_address,\\n        \\\"from\\\" AS from_address,\\n        \\\"to\\\" AS to_address\\n    FROM tokens.transfers\\n    WHERE blockchain = 'polygon'\\n      AND block_month >= CAST(\\n            date_trunc(\\n                'month',\\n                date_trunc('day', current_timestamp AT TIME ZONE 'UTC') - INTERVAL '30' DAY\\n            ) AS date\\n        )\\n      AND block_month <= CAST(\\n            date_trunc(\\n                'month',\\n                date_trunc('day', current_timestamp AT TIME ZONE 'UTC') - INTERVAL '1' DAY\\n            ) AS date\\n        )\\n      AND block_date >= CAST(\\n            date_trunc('day', current_timestamp AT TIME ZONE 'UTC') - INTERVAL '30' DAY\\n            AS date\\n        )\\n      AND block_date < CAST(\\n            date_trunc('day', current_timestamp AT TIME ZONE 'UTC')\\n            AS date\\n        )\\n),\\ndaily_token_transfers AS (\\n    SELECT\\n        block_date AS date,\\n        COUNT(*) AS transfer_count,\\n        approx_distinct(contract_address) AS unique_tokens,\\n        approx_distinct(from_address) AS unique_senders,\\n        approx_distinct(to_address) AS unique_receivers\\n    FROM filtered_transfers\\n    GROUP BY 1\\n)\\nSELECT\\n    date,\\n    transfer_count,\\n    unique_tokens,\\n    unique_senders,\\n    unique_receivers\\nFROM daily_token_transfers\\nORDER BY date;\",\"parameters\":[],\"is_archived\":false,\"is_private\":false,\"is_temp\":true,\"latest_execution_id\":\"01M27GV5R6VRK235DA333XQ2QM\",\"latest_execution_state\":\"QUERY_STATE_COMPLETED\"}"
+      }
+    ],
+    "structuredContent": {
+      "query_id": 8675999,
+      "user_id": null,
+      "team_id": 953543,
+      "version": 1,
+      "name": "Dashboard 07: Polygon PoS Token Transfers (30d)",
+      "description": "Polygon PoS 30-day curated token-transfer summary by UTC day.",
+      "tags": [],
+      "query": "WITH filtered_transfers AS (\n    SELECT\n        block_date,\n        contract_address,\n        \"from\" AS from_address,\n        \"to\" AS to_address\n    FROM tokens.transfers\n    WHERE blockchain = 'polygon'\n      AND block_month >= CAST(\n            date_trunc(\n                'month',\n                date_trunc('day', current_timestamp AT TIME ZONE 'UTC') - INTERVAL '30' DAY\n            ) AS date\n        )\n      AND block_month <= CAST(\n            date_trunc(\n                'month',\n                date_trunc('day', current_timestamp AT TIME ZONE 'UTC') - INTERVAL '1' DAY\n            ) AS date\n        )\n      AND block_date >= CAST(\n            date_trunc('day', current_timestamp AT TIME ZONE 'UTC') - INTERVAL '30' DAY\n            AS date\n        )\n      AND block_date < CAST(\n            date_trunc('day', current_timestamp AT TIME ZONE 'UTC')\n            AS date\n        )\n),\ndaily_token_transfers AS (\n    SELECT\n        block_date AS date,\n        COUNT(*) AS transfer_count,\n        approx_distinct(contract_address) AS unique_tokens,\n        approx_distinct(from_address) AS unique_senders,\n        approx_distinct(to_address) AS unique_receivers\n    FROM filtered_transfers\n    GROUP BY 1\n)\nSELECT\n    date,\n    transfer_count,\n    unique_tokens,\n    unique_senders,\n    unique_receivers\nFROM daily_token_transfers\nORDER BY date;",
+      "parameters": [],
+      "is_archived": false,
+      "is_private": false,
+      "is_temp": true,
+      "latest_execution_id": "01M27GV5R6VRK235DA333XQ2QM",
+      "latest_execution_state": "QUERY_STATE_COMPLETED"
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

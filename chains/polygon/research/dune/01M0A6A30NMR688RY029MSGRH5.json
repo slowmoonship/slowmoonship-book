@@ -1,0 +1,174 @@
+{
+  "result": {
+    "_meta": {
+      "mcp_event_id": "ac4cd47e-36f6-496f-b2fa-17020a321241"
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"executionId\":\"01M0A6A30NMR688RY029MSGRH5\",\"state\":\"COMPLETED\",\"resultMetadata\":{\"columns\":[{\"name\":\"block_time\",\"type\":\"timestamp(3) with time zone\"},{\"name\":\"block_number\",\"type\":\"bigint\"},{\"name\":\"tx_hash\",\"type\":\"varbinary\"},{\"name\":\"event_index\",\"type\":\"integer\"},{\"name\":\"epoch\",\"type\":\"uint256\"},{\"name\":\"rebase_raw\",\"type\":\"uint256\"},{\"name\":\"rebase_rate\",\"type\":\"double\"},{\"name\":\"rebase_percent\",\"type\":\"double\"},{\"name\":\"index_raw\",\"type\":\"uint256\"},{\"name\":\"index\",\"type\":\"double\"},{\"name\":\"history_start\",\"type\":\"timestamp(3) with time zone\"},{\"name\":\"history_end\",\"type\":\"timestamp(3) with time zone\"},{\"name\":\"row_count\",\"type\":\"bigint\"},{\"name\":\"rebase_amount_status\",\"type\":\"varchar(24)\"},{\"name\":\"slgns_decimals\",\"type\":\"integer\"}],\"totalRowCount\":2632,\"executionCostCredits\":\"10.393\"},\"data\":{\"rows\":[{\"block_time\":\"2024-03-06 16:40:22.000 UTC\",\"block_number\":54339984,\"tx_hash\":\"0x772e9ccfe8fd6e142140bb1c34d3fd428a6e39f9e83a405785581c2688fc74ce\",\"event_index\":17,\"epoch\":\"0\",\"rebase_raw\":\"0\",\"rebase_rate\":0,\"rebase_percent\":0,\"index_raw\":\"1000000000\",\"index\":1,\"history_start\":\"2024-03-06 16:40:22.000 UTC\",\"history_end\":\"2026-08-18 09:14:55.000 UTC\",\"row_count\":2632,\"rebase_amount_status\":\"NOT_EMITTED_BY_LOGREBASE\",\"slgns_decimals\":9},{\"block_time\":\"2024-03-07 01:24:01.000 UTC\",\"block_number\":54354315,\"tx_hash\":\"0xa32d1f2f43c5fccc533af1450d7ecc1858a50cb0db15d0b8c33e2dccfc8593a2\",\"event_index\":84,\"epoch\":\"1\",\"rebase_raw\":\"15162253935446202\",\"rebase_rate\":0.015162253935446202,\"rebase_percent\":1.5162253935446202,\"index_raw\":\"1015162253\",\"index\":1.015162253,\"history_start\":\"2024-03-06 16:40:22.000 UTC\",\"history_end\":\"2026-08-18 09:14:55.000 UTC\",\"row_count\":2632,\"rebase_amount_status\":\"NOT_EMITTED_BY_LOGREBASE\",\"slgns_decimals\":9},{\"block_time\":\"2024-03-07 10:05:42.000 UTC\",\"block_number\":54368716,\"tx_hash\":\"0x9c2249d976cc1334e4f2c987dc8f8663bf23390d59644970b7d132deb0b00b46\",\"event_index\":38,\"epoch\":\"2\",\"rebase_raw\":\"14543355469987372\",\"rebase_rate\":0.014543355469987373,\"rebase_percent\":1.4543355469987371,\"index_raw\":\"1029926119\",\"index\":1.029926119,\"history_start\":\"2024-03-06 16:40:22.000 UTC\",\"history_end\":\"2026-08-18 09:14:55.000 UTC\",\"row_count\":2632,\"rebase_amount_status\":\"NOT_EMITTED_BY_LOGREBASE\",\"slgns_decimals\":9},{\"block_time\":\"2024-03-07 18:49:31.000 UTC\",\"block_number\":54383119,\"tx_hash\":\"0x6b0d868278d9709214ca87498aa554723052eae63c1034ac4379000203b5110e\",\"event_index\":52,\"epoch\":\"3\",\"rebase_raw\":\"7662562091223922\",\"rebase_rate\":0.007662562091223922,\"rebase_percent\":0.7662562091223922,\"index_raw\":\"1037817992\",\"index\":1.037817992,\"history_start\":\"2024-03-06 16:40:22.000 UTC\",\"history_end\":\"2026-08-18 09:14:55.000 UTC\",\"row_count\":2632,\"rebase_amount_status\":\"NOT_EMITTED_BY_LOGREBASE\",\"slgns_decimals\":9},{\"block_time\":\"2024-03-08 03:41:58.000 UTC\",\"block_number\":54397519,\"tx_hash\":\"0xbf4f6274a27f7fb8edda7aea38a3c7710c31bdd1b368c7a6dcfea2e0da5e6cba\",\"event_index\":12,\"epoch\":\"4\",\"rebase_raw\":\"7499731552990462\",\"rebase_rate\":0.007499731552990462,\"rebase_percent\":0.7499731552990462,\"index_raw\":\"1045601348\",\"index\":1.045601348,\"history_start\":\"2024-03-06 16:40:22.000 UTC\",\"history_end\":\"2026-08-18 09:14:55.000 UTC\",\"row_count\":2632,\"rebase_amount_status\":\"NOT_EMITTED_BY_LOGREBASE\",\"slgns_decimals\":9}]}}"
+      }
+    ],
+    "structuredContent": {
+      "executionId": "01M0A6A30NMR688RY029MSGRH5",
+      "state": "COMPLETED",
+      "resultMetadata": {
+        "columns": [
+          {
+            "name": "block_time",
+            "type": "timestamp(3) with time zone"
+          },
+          {
+            "name": "block_number",
+            "type": "bigint"
+          },
+          {
+            "name": "tx_hash",
+            "type": "varbinary"
+          },
+          {
+            "name": "event_index",
+            "type": "integer"
+          },
+          {
+            "name": "epoch",
+            "type": "uint256"
+          },
+          {
+            "name": "rebase_raw",
+            "type": "uint256"
+          },
+          {
+            "name": "rebase_rate",
+            "type": "double"
+          },
+          {
+            "name": "rebase_percent",
+            "type": "double"
+          },
+          {
+            "name": "index_raw",
+            "type": "uint256"
+          },
+          {
+            "name": "index",
+            "type": "double"
+          },
+          {
+            "name": "history_start",
+            "type": "timestamp(3) with time zone"
+          },
+          {
+            "name": "history_end",
+            "type": "timestamp(3) with time zone"
+          },
+          {
+            "name": "row_count",
+            "type": "bigint"
+          },
+          {
+            "name": "rebase_amount_status",
+            "type": "varchar(24)"
+          },
+          {
+            "name": "slgns_decimals",
+            "type": "integer"
+          }
+        ],
+        "totalRowCount": 2632,
+        "executionCostCredits": "10.393"
+      },
+      "data": {
+        "rows": [
+          {
+            "block_time": "2024-03-06 16:40:22.000 UTC",
+            "block_number": 54339984,
+            "tx_hash": "0x772e9ccfe8fd6e142140bb1c34d3fd428a6e39f9e83a405785581c2688fc74ce",
+            "event_index": 17,
+            "epoch": "0",
+            "rebase_raw": "0",
+            "rebase_rate": 0,
+            "rebase_percent": 0,
+            "index_raw": "1000000000",
+            "index": 1,
+            "history_start": "2024-03-06 16:40:22.000 UTC",
+            "history_end": "2026-08-18 09:14:55.000 UTC",
+            "row_count": 2632,
+            "rebase_amount_status": "NOT_EMITTED_BY_LOGREBASE",
+            "slgns_decimals": 9
+          },
+          {
+            "block_time": "2024-03-07 01:24:01.000 UTC",
+            "block_number": 54354315,
+            "tx_hash": "0xa32d1f2f43c5fccc533af1450d7ecc1858a50cb0db15d0b8c33e2dccfc8593a2",
+            "event_index": 84,
+            "epoch": "1",
+            "rebase_raw": "15162253935446202",
+            "rebase_rate": 0.015162253935446202,
+            "rebase_percent": 1.5162253935446202,
+            "index_raw": "1015162253",
+            "index": 1.015162253,
+            "history_start": "2024-03-06 16:40:22.000 UTC",
+            "history_end": "2026-08-18 09:14:55.000 UTC",
+            "row_count": 2632,
+            "rebase_amount_status": "NOT_EMITTED_BY_LOGREBASE",
+            "slgns_decimals": 9
+          },
+          {
+            "block_time": "2024-03-07 10:05:42.000 UTC",
+            "block_number": 54368716,
+            "tx_hash": "0x9c2249d976cc1334e4f2c987dc8f8663bf23390d59644970b7d132deb0b00b46",
+            "event_index": 38,
+            "epoch": "2",
+            "rebase_raw": "14543355469987372",
+            "rebase_rate": 0.014543355469987373,
+            "rebase_percent": 1.4543355469987371,
+            "index_raw": "1029926119",
+            "index": 1.029926119,
+            "history_start": "2024-03-06 16:40:22.000 UTC",
+            "history_end": "2026-08-18 09:14:55.000 UTC",
+            "row_count": 2632,
+            "rebase_amount_status": "NOT_EMITTED_BY_LOGREBASE",
+            "slgns_decimals": 9
+          },
+          {
+            "block_time": "2024-03-07 18:49:31.000 UTC",
+            "block_number": 54383119,
+            "tx_hash": "0x6b0d868278d9709214ca87498aa554723052eae63c1034ac4379000203b5110e",
+            "event_index": 52,
+            "epoch": "3",
+            "rebase_raw": "7662562091223922",
+            "rebase_rate": 0.007662562091223922,
+            "rebase_percent": 0.7662562091223922,
+            "index_raw": "1037817992",
+            "index": 1.037817992,
+            "history_start": "2024-03-06 16:40:22.000 UTC",
+            "history_end": "2026-08-18 09:14:55.000 UTC",
+            "row_count": 2632,
+            "rebase_amount_status": "NOT_EMITTED_BY_LOGREBASE",
+            "slgns_decimals": 9
+          },
+          {
+            "block_time": "2024-03-08 03:41:58.000 UTC",
+            "block_number": 54397519,
+            "tx_hash": "0xbf4f6274a27f7fb8edda7aea38a3c7710c31bdd1b368c7a6dcfea2e0da5e6cba",
+            "event_index": 12,
+            "epoch": "4",
+            "rebase_raw": "7499731552990462",
+            "rebase_rate": 0.007499731552990462,
+            "rebase_percent": 0.7499731552990462,
+            "index_raw": "1045601348",
+            "index": 1.045601348,
+            "history_start": "2024-03-06 16:40:22.000 UTC",
+            "history_end": "2026-08-18 09:14:55.000 UTC",
+            "row_count": 2632,
+            "rebase_amount_status": "NOT_EMITTED_BY_LOGREBASE",
+            "slgns_decimals": 9
+          }
+        ]
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

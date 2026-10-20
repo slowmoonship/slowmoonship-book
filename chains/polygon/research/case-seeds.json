@@ -1,0 +1,13 @@
+{
+  "lgns-creation": "0x1074b961d4f3b1fb9519f91e18c10d769600a61258affdaeffb5d504168365da",
+  "slgns-creation": "0x4a7700fa0b2178dddbc9ca133e43d0e2e05ddf30493e24107acc40bb5a7147f4",
+  "staking-creation": "0xf16fd6c927352bc03663071ecfb638b063b33be1fc385d112f7281cdfdd8521b",
+  "treasury-creation": "0x7366b7fc964af8c0ef54dbb785ef21d4096df571f81226e307cd3707b0bd9185",
+  "pair-creation": "0x226a240b5d72abaf9ed611afd2e99efc8fb8b1bfd7d324b82fb1d804d513f2b6",
+  "bor-execution": "0x1a888adf77836ee9d430c2e449ba226a99804c7e5562d89aa2956aa5b397719a",
+  "ordinary-pol-transfer": "0x832776ec57afa341a194bde3c2d342acb220fd60eea31c38f99e1c2d25c4e130",
+  "factory-supply": "0x443c78ecc0bf2427fa789daeb7c80281842fde3b42d413ac7ac1606e1f8a56f8",
+  "staking-first": "0x772e9ccfe8fd6e142140bb1c34d3fd428a6e39f9e83a405785581c2688fc74ce",
+  "rebase-first": "0x772e9ccfe8fd6e142140bb1c34d3fd428a6e39f9e83a405785581c2688fc74ce",
+  "lgns-add-liquidity": "0x0659B2F4E397B4DD0A7B98D63700F4060B0004F9893BA0441DA39FE63A65335B"
+}

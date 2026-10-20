@@ -1,0 +1,102 @@
+{
+  "result": {
+    "_meta": {
+      "mcp_event_id": "51937080-7905-4780-bab7-63fcfd7d9f0f"
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"executionId\":\"01M27GNJFSJ1D798D1YB2839AC\",\"state\":\"COMPLETED\",\"resultMetadata\":{\"columns\":[{\"name\":\"date\",\"type\":\"date\"},{\"name\":\"transaction_count\",\"type\":\"bigint\"},{\"name\":\"successful_transactions\",\"type\":\"bigint\"},{\"name\":\"failed_transactions\",\"type\":\"bigint\"},{\"name\":\"failure_rate\",\"type\":\"double\"},{\"name\":\"unique_from_addresses\",\"type\":\"bigint\"},{\"name\":\"unique_to_addresses\",\"type\":\"bigint\"}],\"totalRowCount\":90,\"executionCostCredits\":\"1.605\"},\"data\":{\"rows\":[{\"date\":\"2026-06-13\",\"transaction_count\":7081844,\"successful_transactions\":6908521,\"failed_transactions\":173323,\"failure_rate\":0.024474275344105293,\"unique_from_addresses\":538235,\"unique_to_addresses\":195241},{\"date\":\"2026-06-14\",\"transaction_count\":6944303,\"successful_transactions\":6802976,\"failed_transactions\":141327,\"failure_rate\":0.020351502519403316,\"unique_from_addresses\":536585,\"unique_to_addresses\":180904},{\"date\":\"2026-06-15\",\"transaction_count\":7292855,\"successful_transactions\":7147230,\"failed_transactions\":145625,\"failure_rate\":0.019968174329532126,\"unique_from_addresses\":587127,\"unique_to_addresses\":214386},{\"date\":\"2026-06-16\",\"transaction_count\":7443492,\"successful_transactions\":7296097,\"failed_transactions\":147395,\"failure_rate\":0.019801861814320483,\"unique_from_addresses\":643166,\"unique_to_addresses\":217577},{\"date\":\"2026-06-17\",\"transaction_count\":7946483,\"successful_transactions\":7760998,\"failed_transactions\":185485,\"failure_rate\":0.02334177270623998,\"unique_from_addresses\":698026,\"unique_to_addresses\":220964}]}}"
+      }
+    ],
+    "structuredContent": {
+      "executionId": "01M27GNJFSJ1D798D1YB2839AC",
+      "state": "COMPLETED",
+      "resultMetadata": {
+        "columns": [
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "transaction_count",
+            "type": "bigint"
+          },
+          {
+            "name": "successful_transactions",
+            "type": "bigint"
+          },
+          {
+            "name": "failed_transactions",
+            "type": "bigint"
+          },
+          {
+            "name": "failure_rate",
+            "type": "double"
+          },
+          {
+            "name": "unique_from_addresses",
+            "type": "bigint"
+          },
+          {
+            "name": "unique_to_addresses",
+            "type": "bigint"
+          }
+        ],
+        "totalRowCount": 90,
+        "executionCostCredits": "1.605"
+      },
+      "data": {
+        "rows": [
+          {
+            "date": "2026-06-13",
+            "transaction_count": 7081844,
+            "successful_transactions": 6908521,
+            "failed_transactions": 173323,
+            "failure_rate": 0.024474275344105293,
+            "unique_from_addresses": 538235,
+            "unique_to_addresses": 195241
+          },
+          {
+            "date": "2026-06-14",
+            "transaction_count": 6944303,
+            "successful_transactions": 6802976,
+            "failed_transactions": 141327,
+            "failure_rate": 0.020351502519403316,
+            "unique_from_addresses": 536585,
+            "unique_to_addresses": 180904
+          },
+          {
+            "date": "2026-06-15",
+            "transaction_count": 7292855,
+            "successful_transactions": 7147230,
+            "failed_transactions": 145625,
+            "failure_rate": 0.019968174329532126,
+            "unique_from_addresses": 587127,
+            "unique_to_addresses": 214386
+          },
+          {
+            "date": "2026-06-16",
+            "transaction_count": 7443492,
+            "successful_transactions": 7296097,
+            "failed_transactions": 147395,
+            "failure_rate": 0.019801861814320483,
+            "unique_from_addresses": 643166,
+            "unique_to_addresses": 217577
+          },
+          {
+            "date": "2026-06-17",
+            "transaction_count": 7946483,
+            "successful_transactions": 7760998,
+            "failed_transactions": 185485,
+            "failure_rate": 0.02334177270623998,
+            "unique_from_addresses": 698026,
+            "unique_to_addresses": 220964
+          }
+        ]
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

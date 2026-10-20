@@ -1,0 +1,14 @@
+{
+  "id": "eip-7702",
+  "url": "https://eips.ethereum.org/EIPS/eip-7702",
+  "accessed_at": "2026-10-19T02:33:03.289833+00:00",
+  "baseline": "2026-10-19",
+  "status": 200,
+  "final_url": "https://eips.ethereum.org/EIPS/eip-7702",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 58093,
+  "sha256": "a63b7d68b0da3dc668dc99459c66b824a5ef4447a5ae4b1687faafe284f64a61",
+  "local_archive_path": "research/sources/eip-7702.md",
+  "public_source_url": "https://eips.ethereum.org/EIPS/eip-7702",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY"
+}

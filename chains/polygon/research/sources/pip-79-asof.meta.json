@@ -1,0 +1,14 @@
+{
+  "id": "pip-79-asof",
+  "url": "https://raw.githubusercontent.com/0xPolygon/Polygon-Improvement-Proposals/7ca861517bcdcba3e1f2b751762c6c2e786d7caa/PIPs/PIP-79.md",
+  "accessed_at": "2026-10-19T02:35:00.086707+00:00",
+  "baseline": "2026-10-19",
+  "status": 200,
+  "final_url": "https://raw.githubusercontent.com/0xPolygon/Polygon-Improvement-Proposals/7ca861517bcdcba3e1f2b751762c6c2e786d7caa/PIPs/PIP-79.md",
+  "content_type": "text/plain; charset=utf-8",
+  "bytes": 10226,
+  "sha256": "e52ab4ba06d0bd534f64f82ec35d5233ad802c9ee22c34801eb711555192f723",
+  "local_archive_path": "research/sources/pip-79-asof.md",
+  "public_source_url": "https://raw.githubusercontent.com/0xPolygon/Polygon-Improvement-Proposals/7ca861517bcdcba3e1f2b751762c6c2e786d7caa/PIPs/PIP-79.md",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY"
+}

@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "date": "2026-10-20",
+  "file_count": 1881,
+  "new_file_count": 531,
+  "markdown_files": 584,
+  "internal_references_checked": 4491,
+  "valid_internal_references": 4491,
+  "invalid_internal_references": 0,
+  "internal_fragment_references": 1,
+  "heading_ids_checked": 1207,
+  "heading_algorithm": "marked GFM + github-slugger 2.0.0",
+  "navigation_coverage": "47/47",
+  "protected_old_files": 1342,
+  "source_file_count": 769,
+  "source_before_after_equal": true,
+  "svg_chrome_renders": 44,
+  "polygon": {
+    "parts": 10,
+    "body_chapters": 40,
+    "body_cjk": 33957,
+    "appendices": 6,
+    "markdown_files": 120,
+    "svg": 44,
+    "drawio": 44,
+    "png": 0,
+    "new_sql": 18,
+    "historical_sql": 38,
+    "case_topics": 12,
+    "lgns_evidence_rows": 22,
+    "lgns_abi_files": 5,
+    "lgns_research_files": 40,
+    "full_historical_results": 6,
+    "historical_result_rows": 8082,
+    "offline_exit_scenarios_recorded": 3584,
+    "selected_source_files": 525
+  },
+  "historical_full_rows": {
+    "full-8369671": 2632,
+    "full-8389592": 898,
+    "full-8389804": 898,
+    "full-8390372": 3584,
+    "full-8390785": 40,
+    "full-8391200": 30
+  },
+  "sensitive_json_key_candidates": [],
+  "errors": [],
+  "warnings": [
+    {
+      "kind": "large_file",
+      "file": "chains/polygon/research/dune/full-8390372.json"
+    }
+  ],
+  "security_status": "NO_BLOCKING_FINDING",
+  "limits": [
+    "18 SQL STATIC_CHECKED / NOT_EXECUTED; 38 historical queries not rerun",
+    "No second research/model recomputation; original 3584 scenarios and 37/37 acceptance are historical records",
+    "LGNS current control, supply, LP, Treasury, income, liabilities NOT_VERIFIED",
+    "Author human review UNKNOWN; GitBook NOT_CONFIGURED / sync UNVERIFIED",
+    "Whole-page caches and full third-party Solidity excluded; URLs, source hashes, dates and ABIs retained; comprehensive permissions UNKNOWN",
+    "Remote HTML/resources verified separately after push"
+  ],
+  "remote_verification": "POST_PUSH_SEPARATE",
+  "svg_visual_sample": {
+    "status": "SAMPLE_REVIEWED",
+    "files": [
+      "architecture",
+      "heimdall-v2",
+      "runtime-data",
+      "milestone-vs-checkpoint",
+      "lgns-contracts",
+      "lgns-fund-flow",
+      "lgns-liquidity",
+      "lgns-admin"
+    ],
+    "finding": "Eight actual Chrome renders reviewed as contact sheet; lgns-liquidity also inspected at full size. Labels, arrows and evidence limits readable; no blocking layout issue observed."
+  }
+}

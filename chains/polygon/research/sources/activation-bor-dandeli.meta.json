@@ -1,0 +1,14 @@
+{
+  "id": "activation-bor-dandeli",
+  "url": "https://polygonscan.com/block/81424000",
+  "accessed_at": "2026-10-19T03:03:19.133023+00:00",
+  "baseline": "2026-10-19",
+  "status": 200,
+  "final_url": "https://polygonscan.com/block/81424000",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 116828,
+  "sha256": "cc90d9a2e5d9c896ae1ec3513498da40a213445bc9585338539be0b068d8d8f6",
+  "local_archive_path": "research/sources/activation-bor-dandeli.md",
+  "public_source_url": "https://polygonscan.com/block/81424000",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY"
+}

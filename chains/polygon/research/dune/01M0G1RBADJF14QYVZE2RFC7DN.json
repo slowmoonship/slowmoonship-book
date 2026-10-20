@@ -1,0 +1,111 @@
+{
+  "result": {
+    "_meta": {
+      "mcp_event_id": "14ed663d-7f02-4a04-b1d8-ab571d77d549"
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"executionId\":\"01M0G1RBADJF14QYVZE2RFC7DN\",\"state\":\"COMPLETED\",\"resultMetadata\":{\"columns\":[{\"name\":\"source_remover\",\"type\":\"varbinary\"},{\"name\":\"destination_address\",\"type\":\"varbinary\"},{\"name\":\"transfer_count_24h\",\"type\":\"bigint\"},{\"name\":\"dai_sent_24h\",\"type\":\"double\"},{\"name\":\"transfer_count_7d\",\"type\":\"bigint\"},{\"name\":\"dai_sent_7d\",\"type\":\"double\"},{\"name\":\"first_transfer_time\",\"type\":\"timestamp(3) with time zone\"},{\"name\":\"last_transfer_time\",\"type\":\"timestamp(3) with time zone\"}],\"totalRowCount\":66,\"executionCostCredits\":\"39.539\"},\"data\":{\"rows\":[{\"source_remover\":\"0x0d696f0f1e112ca7246d1a30c488f316f2f4ed5b\",\"destination_address\":\"0xb135aa990d02e0a31ce953af2bd7ed0ef6587403\",\"transfer_count_24h\":2,\"dai_sent_24h\":1574.4892408164203,\"transfer_count_7d\":21,\"dai_sent_7d\":87820.60580723481,\"first_transfer_time\":\"2025-12-05 17:15:47.000 UTC\",\"last_transfer_time\":\"2025-12-10 18:18:00.000 UTC\"},{\"source_remover\":\"0x0d696f0f1e112ca7246d1a30c488f316f2f4ed5b\",\"destination_address\":\"0x07ff4e06865de4934409aa6ecea503b08cc1c78d\",\"transfer_count_24h\":0,\"dai_sent_24h\":0,\"transfer_count_7d\":3,\"dai_sent_7d\":6163.4726441600005,\"first_transfer_time\":\"2025-12-10 04:22:57.000 UTC\",\"last_transfer_time\":\"2025-12-12 17:04:52.000 UTC\"},{\"source_remover\":\"0x1d6a7f2cb262afbb1204bbfcbb3db642662b15c3\",\"destination_address\":\"0x882df4b0fb50a229c3b4124eb18c759911485bfb\",\"transfer_count_24h\":644,\"dai_sent_24h\":163646087.4227438,\"transfer_count_7d\":644,\"dai_sent_7d\":163646087.4227438,\"first_transfer_time\":\"2025-08-07 20:06:31.000 UTC\",\"last_transfer_time\":\"2026-03-19 15:14:25.000 UTC\"},{\"source_remover\":\"0x32fed06155c4d62c3407b4f90d0b3462ac88194d\",\"destination_address\":\"0x0f4a1d7fdf4890be35e71f3e0bbc4a0ec377eca3\",\"transfer_count_24h\":1,\"dai_sent_24h\":84.14490877720563,\"transfer_count_7d\":1,\"dai_sent_7d\":84.14490877720563,\"first_transfer_time\":\"2025-03-19 07:40:11.000 UTC\",\"last_transfer_time\":\"2025-03-19 07:40:11.000 UTC\"},{\"source_remover\":\"0x3c10e6f13abc22df2eb9b898b0c533d78d1360bb\",\"destination_address\":\"0x67366782805870060151383f4bbff9dab53e5cd6\",\"transfer_count_24h\":15,\"dai_sent_24h\":9280.523278410217,\"transfer_count_7d\":91,\"dai_sent_7d\":55011.93620363569,\"first_transfer_time\":\"2026-07-14 16:14:52.000 UTC\",\"last_transfer_time\":\"2026-07-25 03:54:58.000 UTC\"}]}}"
+      }
+    ],
+    "structuredContent": {
+      "executionId": "01M0G1RBADJF14QYVZE2RFC7DN",
+      "state": "COMPLETED",
+      "resultMetadata": {
+        "columns": [
+          {
+            "name": "source_remover",
+            "type": "varbinary"
+          },
+          {
+            "name": "destination_address",
+            "type": "varbinary"
+          },
+          {
+            "name": "transfer_count_24h",
+            "type": "bigint"
+          },
+          {
+            "name": "dai_sent_24h",
+            "type": "double"
+          },
+          {
+            "name": "transfer_count_7d",
+            "type": "bigint"
+          },
+          {
+            "name": "dai_sent_7d",
+            "type": "double"
+          },
+          {
+            "name": "first_transfer_time",
+            "type": "timestamp(3) with time zone"
+          },
+          {
+            "name": "last_transfer_time",
+            "type": "timestamp(3) with time zone"
+          }
+        ],
+        "totalRowCount": 66,
+        "executionCostCredits": "39.539"
+      },
+      "data": {
+        "rows": [
+          {
+            "source_remover": "0x0d696f0f1e112ca7246d1a30c488f316f2f4ed5b",
+            "destination_address": "0xb135aa990d02e0a31ce953af2bd7ed0ef6587403",
+            "transfer_count_24h": 2,
+            "dai_sent_24h": 1574.4892408164203,
+            "transfer_count_7d": 21,
+            "dai_sent_7d": 87820.60580723481,
+            "first_transfer_time": "2025-12-05 17:15:47.000 UTC",
+            "last_transfer_time": "2025-12-10 18:18:00.000 UTC"
+          },
+          {
+            "source_remover": "0x0d696f0f1e112ca7246d1a30c488f316f2f4ed5b",
+            "destination_address": "0x07ff4e06865de4934409aa6ecea503b08cc1c78d",
+            "transfer_count_24h": 0,
+            "dai_sent_24h": 0,
+            "transfer_count_7d": 3,
+            "dai_sent_7d": 6163.4726441600005,
+            "first_transfer_time": "2025-12-10 04:22:57.000 UTC",
+            "last_transfer_time": "2025-12-12 17:04:52.000 UTC"
+          },
+          {
+            "source_remover": "0x1d6a7f2cb262afbb1204bbfcbb3db642662b15c3",
+            "destination_address": "0x882df4b0fb50a229c3b4124eb18c759911485bfb",
+            "transfer_count_24h": 644,
+            "dai_sent_24h": 163646087.4227438,
+            "transfer_count_7d": 644,
+            "dai_sent_7d": 163646087.4227438,
+            "first_transfer_time": "2025-08-07 20:06:31.000 UTC",
+            "last_transfer_time": "2026-03-19 15:14:25.000 UTC"
+          },
+          {
+            "source_remover": "0x32fed06155c4d62c3407b4f90d0b3462ac88194d",
+            "destination_address": "0x0f4a1d7fdf4890be35e71f3e0bbc4a0ec377eca3",
+            "transfer_count_24h": 1,
+            "dai_sent_24h": 84.14490877720563,
+            "transfer_count_7d": 1,
+            "dai_sent_7d": 84.14490877720563,
+            "first_transfer_time": "2025-03-19 07:40:11.000 UTC",
+            "last_transfer_time": "2025-03-19 07:40:11.000 UTC"
+          },
+          {
+            "source_remover": "0x3c10e6f13abc22df2eb9b898b0c533d78d1360bb",
+            "destination_address": "0x67366782805870060151383f4bbff9dab53e5cd6",
+            "transfer_count_24h": 15,
+            "dai_sent_24h": 9280.523278410217,
+            "transfer_count_7d": 91,
+            "dai_sent_7d": 55011.93620363569,
+            "first_transfer_time": "2026-07-14 16:14:52.000 UTC",
+            "last_transfer_time": "2026-07-25 03:54:58.000 UTC"
+          }
+        ]
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

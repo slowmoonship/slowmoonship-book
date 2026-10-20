@@ -1,0 +1,43 @@
+{
+  "case_id": "case-11",
+  "title": "同交易epoch零Rebase",
+  "network": "Polygon PoS Mainnet",
+  "chain_id": 137,
+  "transaction_hash": "0x772e9ccfe8fd6e142140bb1c34d3fd428a6e39f9e83a405785581c2688fc74ce",
+  "block_number": 54339984,
+  "block_time": "2024-03-06T16:40:22+00:00",
+  "contract_address": "0x99a57e6c8558bc6689f894e068733adf83c19725",
+  "focus": "事件17；index1；比率0",
+  "source": "https://polygonscan.com/tx/0x772e9ccfe8fd6e142140bb1c34d3fd428a6e39f9e83a405785581c2688fc74ce",
+  "local_archive_source_cache": "research/sources/tx-rebase-first.md",
+  "public_source_url": "https://polygonscan.com/tx/0x772e9ccfe8fd6e142140bb1c34d3fd428a6e39f9e83a405785581c2688fc74ce",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY",
+  "dune_query": "https://dune.com/queries/8369671",
+  "raw_indexed_fields": [
+    {
+      "block_time": "2024-03-06 16:40:22.000 UTC",
+      "block_number": 54339984,
+      "tx_hash": "0x772e9ccfe8fd6e142140bb1c34d3fd428a6e39f9e83a405785581c2688fc74ce",
+      "event_index": 17,
+      "epoch": "0",
+      "rebase_raw": "0",
+      "rebase_rate": 0,
+      "rebase_percent": 0,
+      "index_raw": "1000000000",
+      "index": 1,
+      "history_start": "2024-03-06 16:40:22.000 UTC",
+      "history_end": "2026-08-18 09:14:55.000 UTC",
+      "row_count": 2632,
+      "rebase_amount_status": "NOT_EMITTED_BY_LOGREBASE",
+      "slgns_decimals": 9
+    }
+  ],
+  "derived_fields": {},
+  "verification_status": "EXPLORER_RECORD_CAPTURED; LIMITED_INDEXED_CROSSCHECK; NOT_LOCAL_REEXECUTION",
+  "missing": [
+    "complete native RPC receipt",
+    "local signature/consensus verification",
+    "beneficial ownership",
+    "full historical state"
+  ]
+}

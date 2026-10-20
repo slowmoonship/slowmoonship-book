@@ -1,0 +1,28 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"query_id\":8675981,\"user_id\":null,\"team_id\":953543,\"version\":1,\"name\":\"Dashboard 05: Polygon PoS Contract Creation (30d)\",\"description\":\"Polygon PoS 30-day contract creation summary by UTC day.\",\"tags\":[],\"query\":\"WITH filtered_creation_traces AS (\\n    SELECT\\n        block_time,\\n        address AS contract_address,\\n        \\\"from\\\" AS creator_address\\n    FROM polygon.creation_traces\\n    WHERE block_month >= CAST(\\n            date_trunc(\\n                'month',\\n                date_trunc('day', current_timestamp AT TIME ZONE 'UTC') - INTERVAL '30' DAY\\n            ) AS date\\n        )\\n      AND block_month <= CAST(\\n            date_trunc(\\n                'month',\\n                date_trunc('day', current_timestamp AT TIME ZONE 'UTC') - INTERVAL '1' DAY\\n            ) AS date\\n        )\\n      AND block_time >= CAST(\\n            date_trunc('day', current_timestamp AT TIME ZONE 'UTC') - INTERVAL '30' DAY\\n            AS timestamp\\n        )\\n      AND block_time < CAST(\\n            date_trunc('day', current_timestamp AT TIME ZONE 'UTC')\\n            AS timestamp\\n        )\\n),\\ndaily_contract_creation AS (\\n    SELECT\\n        CAST(date_trunc('day', block_time) AS date) AS date,\\n        COUNT(*) AS contract_creation_count,\\n        approx_distinct(contract_address) AS unique_contract_addresses,\\n        approx_distinct(creator_address) AS unique_creators\\n    FROM filtered_creation_traces\\n    GROUP BY 1\\n)\\nSELECT\\n    date,\\n    contract_creation_count,\\n    unique_contract_addresses,\\n    unique_creators\\nFROM daily_contract_creation\\nORDER BY date;\",\"parameters\":[],\"is_archived\":false,\"is_private\":false,\"is_temp\":true,\"latest_execution_id\":\"01M27GRMB8E525CNKKB2XRAC28\",\"latest_execution_state\":\"QUERY_STATE_COMPLETED\"}"
+      }
+    ],
+    "structuredContent": {
+      "query_id": 8675981,
+      "user_id": null,
+      "team_id": 953543,
+      "version": 1,
+      "name": "Dashboard 05: Polygon PoS Contract Creation (30d)",
+      "description": "Polygon PoS 30-day contract creation summary by UTC day.",
+      "tags": [],
+      "query": "WITH filtered_creation_traces AS (\n    SELECT\n        block_time,\n        address AS contract_address,\n        \"from\" AS creator_address\n    FROM polygon.creation_traces\n    WHERE block_month >= CAST(\n            date_trunc(\n                'month',\n                date_trunc('day', current_timestamp AT TIME ZONE 'UTC') - INTERVAL '30' DAY\n            ) AS date\n        )\n      AND block_month <= CAST(\n            date_trunc(\n                'month',\n                date_trunc('day', current_timestamp AT TIME ZONE 'UTC') - INTERVAL '1' DAY\n            ) AS date\n        )\n      AND block_time >= CAST(\n            date_trunc('day', current_timestamp AT TIME ZONE 'UTC') - INTERVAL '30' DAY\n            AS timestamp\n        )\n      AND block_time < CAST(\n            date_trunc('day', current_timestamp AT TIME ZONE 'UTC')\n            AS timestamp\n        )\n),\ndaily_contract_creation AS (\n    SELECT\n        CAST(date_trunc('day', block_time) AS date) AS date,\n        COUNT(*) AS contract_creation_count,\n        approx_distinct(contract_address) AS unique_contract_addresses,\n        approx_distinct(creator_address) AS unique_creators\n    FROM filtered_creation_traces\n    GROUP BY 1\n)\nSELECT\n    date,\n    contract_creation_count,\n    unique_contract_addresses,\n    unique_creators\nFROM daily_contract_creation\nORDER BY date;",
+      "parameters": [],
+      "is_archived": false,
+      "is_private": false,
+      "is_temp": true,
+      "latest_execution_id": "01M27GRMB8E525CNKKB2XRAC28",
+      "latest_execution_state": "QUERY_STATE_COMPLETED"
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

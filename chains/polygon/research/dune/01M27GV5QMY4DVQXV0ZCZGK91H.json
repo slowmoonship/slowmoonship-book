@@ -1,0 +1,84 @@
+{
+  "result": {
+    "_meta": {
+      "mcp_event_id": "f77069f6-acf1-4436-9b05-d510b943ff3f"
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"executionId\":\"01M27GV5QMY4DVQXV0ZCZGK91H\",\"state\":\"COMPLETED\",\"resultMetadata\":{\"columns\":[{\"name\":\"date\",\"type\":\"date\"},{\"name\":\"trade_segment_count\",\"type\":\"bigint\"},{\"name\":\"dex_volume_usd\",\"type\":\"double\"},{\"name\":\"unique_traders\",\"type\":\"bigint\"},{\"name\":\"unique_projects\",\"type\":\"bigint\"}],\"totalRowCount\":30,\"executionCostCredits\":\"0.08\"},\"data\":{\"rows\":[{\"date\":\"2026-08-12\",\"trade_segment_count\":815718,\"dex_volume_usd\":63260665.926242314,\"unique_traders\":115038,\"unique_projects\":15},{\"date\":\"2026-08-13\",\"trade_segment_count\":705126,\"dex_volume_usd\":50663719.32325331,\"unique_traders\":101601,\"unique_projects\":14},{\"date\":\"2026-08-14\",\"trade_segment_count\":743318,\"dex_volume_usd\":45271191.660090916,\"unique_traders\":110716,\"unique_projects\":14},{\"date\":\"2026-08-15\",\"trade_segment_count\":661053,\"dex_volume_usd\":40610352.284979396,\"unique_traders\":101399,\"unique_projects\":15},{\"date\":\"2026-08-16\",\"trade_segment_count\":662206,\"dex_volume_usd\":84767688.81168422,\"unique_traders\":95414,\"unique_projects\":14}]}}"
+      }
+    ],
+    "structuredContent": {
+      "executionId": "01M27GV5QMY4DVQXV0ZCZGK91H",
+      "state": "COMPLETED",
+      "resultMetadata": {
+        "columns": [
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "trade_segment_count",
+            "type": "bigint"
+          },
+          {
+            "name": "dex_volume_usd",
+            "type": "double"
+          },
+          {
+            "name": "unique_traders",
+            "type": "bigint"
+          },
+          {
+            "name": "unique_projects",
+            "type": "bigint"
+          }
+        ],
+        "totalRowCount": 30,
+        "executionCostCredits": "0.08"
+      },
+      "data": {
+        "rows": [
+          {
+            "date": "2026-08-12",
+            "trade_segment_count": 815718,
+            "dex_volume_usd": 63260665.926242314,
+            "unique_traders": 115038,
+            "unique_projects": 15
+          },
+          {
+            "date": "2026-08-13",
+            "trade_segment_count": 705126,
+            "dex_volume_usd": 50663719.32325331,
+            "unique_traders": 101601,
+            "unique_projects": 14
+          },
+          {
+            "date": "2026-08-14",
+            "trade_segment_count": 743318,
+            "dex_volume_usd": 45271191.660090916,
+            "unique_traders": 110716,
+            "unique_projects": 14
+          },
+          {
+            "date": "2026-08-15",
+            "trade_segment_count": 661053,
+            "dex_volume_usd": 40610352.284979396,
+            "unique_traders": 101399,
+            "unique_projects": 15
+          },
+          {
+            "date": "2026-08-16",
+            "trade_segment_count": 662206,
+            "dex_volume_usd": 84767688.81168422,
+            "unique_traders": 95414,
+            "unique_projects": 14
+          }
+        ]
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

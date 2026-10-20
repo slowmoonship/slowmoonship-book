@@ -1,0 +1,581 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"total\":7,\"results\":[{\"full_name\":\"polygon_pos_bridge_ethereum.fxerc20roottunnel_call_receivemessage\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"ethereum\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"inputData\",\"nullable\":false,\"type\":\"varbinary\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"FxERC20RootTunnel\",\"project_name\":\"polygon_pos_bridge\"}},{\"full_name\":\"polygon_pos_bridge_ethereum.fxerc20roottunnel_call_maptoken\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"ethereum\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"rootToken\",\"nullable\":false,\"type\":\"varbinary\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"FxERC20RootTunnel\",\"project_name\":\"polygon_pos_bridge\"}},{\"full_name\":\"polygon_pos_bridge_ethereum.fxerc20roottunnel_evt_fxwithdrawerc20\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"ethereum\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"evt_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"evt_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"evt_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"evt_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"evt_index\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"evt_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"evt_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"evt_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"amount\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"childToken\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"rootToken\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"userAddress\",\"nullable\":false,\"type\":\"varbinary\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"event\",\"contract_name\":\"FxERC20RootTunnel\",\"project_name\":\"polygon_pos_bridge\"}},{\"full_name\":\"polygon_pos_bridge_ethereum.fxerc20roottunnel_call_deposit\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"ethereum\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"amount\",\"nullable\":true,\"type\":\"uint256\"},{\"name\":\"data\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"output_0\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"rootToken\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"user\",\"nullable\":true,\"type\":\"varbinary\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"FxERC20RootTunnel\",\"project_name\":\"polygon_pos_bridge\"}},{\"full_name\":\"polygon_pos_bridge_ethereum.fxerc20roottunnel_evt_fxdepositerc20\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"ethereum\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"evt_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"evt_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"evt_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"evt_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"evt_index\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"evt_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"evt_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"evt_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"amount\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"depositor\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"rootToken\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"userAddress\",\"nullable\":false,\"type\":\"varbinary\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"event\",\"contract_name\":\"FxERC20RootTunnel\",\"project_name\":\"polygon_pos_bridge\"}},{\"full_name\":\"polygon_pos_bridge_ethereum.fxerc20roottunnel_call_setfxchildtunnel\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"ethereum\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"_fxChildTunnel\",\"nullable\":false,\"type\":\"varbinary\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"FxERC20RootTunnel\",\"project_name\":\"polygon_pos_bridge\"}},{\"full_name\":\"polygon_pos_bridge_ethereum.fxerc20roottunnel_evt_tokenmappederc20\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"ethereum\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"evt_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"evt_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"evt_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"evt_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"evt_index\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"evt_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"evt_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"evt_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"childToken\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"rootToken\",\"nullable\":false,\"type\":\"varbinary\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"event\",\"contract_name\":\"FxERC20RootTunnel\",\"project_name\":\"polygon_pos_bridge\"}}],\"pagination\":{\"limit\":20,\"offset\":0,\"nextOffset\":null,\"hasMore\":false}}"
+      }
+    ],
+    "structuredContent": {
+      "total": 7,
+      "results": [
+        {
+          "full_name": "polygon_pos_bridge_ethereum.fxerc20roottunnel_call_receivemessage",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "ethereum"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "inputData",
+                "nullable": false,
+                "type": "varbinary"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "FxERC20RootTunnel",
+            "project_name": "polygon_pos_bridge"
+          }
+        },
+        {
+          "full_name": "polygon_pos_bridge_ethereum.fxerc20roottunnel_call_maptoken",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "ethereum"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "rootToken",
+                "nullable": false,
+                "type": "varbinary"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "FxERC20RootTunnel",
+            "project_name": "polygon_pos_bridge"
+          }
+        },
+        {
+          "full_name": "polygon_pos_bridge_ethereum.fxerc20roottunnel_evt_fxwithdrawerc20",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "ethereum"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "evt_index",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "evt_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "evt_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "evt_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "amount",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "childToken",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "rootToken",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "userAddress",
+                "nullable": false,
+                "type": "varbinary"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "event",
+            "contract_name": "FxERC20RootTunnel",
+            "project_name": "polygon_pos_bridge"
+          }
+        },
+        {
+          "full_name": "polygon_pos_bridge_ethereum.fxerc20roottunnel_call_deposit",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "ethereum"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "amount",
+                "nullable": true,
+                "type": "uint256"
+              },
+              {
+                "name": "data",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "output_0",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "rootToken",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "user",
+                "nullable": true,
+                "type": "varbinary"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "FxERC20RootTunnel",
+            "project_name": "polygon_pos_bridge"
+          }
+        },
+        {
+          "full_name": "polygon_pos_bridge_ethereum.fxerc20roottunnel_evt_fxdepositerc20",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "ethereum"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "evt_index",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "evt_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "evt_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "evt_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "amount",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "depositor",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "rootToken",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "userAddress",
+                "nullable": false,
+                "type": "varbinary"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "event",
+            "contract_name": "FxERC20RootTunnel",
+            "project_name": "polygon_pos_bridge"
+          }
+        },
+        {
+          "full_name": "polygon_pos_bridge_ethereum.fxerc20roottunnel_call_setfxchildtunnel",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "ethereum"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "_fxChildTunnel",
+                "nullable": false,
+                "type": "varbinary"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "FxERC20RootTunnel",
+            "project_name": "polygon_pos_bridge"
+          }
+        },
+        {
+          "full_name": "polygon_pos_bridge_ethereum.fxerc20roottunnel_evt_tokenmappederc20",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "ethereum"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "evt_index",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "evt_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "evt_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "evt_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "childToken",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "rootToken",
+                "nullable": false,
+                "type": "varbinary"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "event",
+            "contract_name": "FxERC20RootTunnel",
+            "project_name": "polygon_pos_bridge"
+          }
+        }
+      ],
+      "pagination": {
+        "limit": 20,
+        "offset": 0,
+        "nextOffset": null,
+        "hasMore": false
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

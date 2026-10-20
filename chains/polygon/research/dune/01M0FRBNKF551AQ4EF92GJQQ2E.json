@@ -1,0 +1,184 @@
+{
+  "result": {
+    "_meta": {
+      "mcp_event_id": "19be8505-5a86-46d2-920e-f9fbc04b2683"
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"executionId\":\"01M0FRBNKF551AQ4EF92GJQQ2E\",\"state\":\"COMPLETED\",\"resultMetadata\":{\"columns\":[{\"name\":\"raw_staked_count\",\"type\":\"bigint\"},{\"name\":\"distinct_event_key_count\",\"type\":\"bigint\"},{\"name\":\"distinct_tx_count\",\"type\":\"bigint\"},{\"name\":\"distinct_staker_count\",\"type\":\"bigint\"},{\"name\":\"distinct_block_count\",\"type\":\"bigint\"},{\"name\":\"max_events_per_tx\",\"type\":\"bigint\"},{\"name\":\"max_events_per_block\",\"type\":\"bigint\"},{\"name\":\"avg_events_per_block\",\"type\":\"double\"},{\"name\":\"max_daily_events\",\"type\":\"bigint\"},{\"name\":\"history_start\",\"type\":\"timestamp(3) with time zone\"},{\"name\":\"history_end\",\"type\":\"timestamp(3) with time zone\"},{\"name\":\"raw_equals_unique\",\"type\":\"boolean\"},{\"name\":\"duplicate_event_rows\",\"type\":\"bigint\"},{\"name\":\"top_20_transactions\",\"type\":\"array(varchar)\"},{\"name\":\"top_20_blocks\",\"type\":\"array(varchar)\"},{\"name\":\"top_20_days\",\"type\":\"array(varchar)\"},{\"name\":\"query_03_snapshot_raw_count\",\"type\":\"integer\"},{\"name\":\"matches_query_03_snapshot\",\"type\":\"boolean\"}],\"totalRowCount\":1,\"executionCostCredits\":\"57.179\"},\"data\":{\"rows\":[{\"raw_staked_count\":74521621,\"distinct_event_key_count\":74521621,\"distinct_tx_count\":74520337,\"distinct_staker_count\":1789065,\"distinct_block_count\":20852545,\"max_events_per_tx\":11,\"max_events_per_block\":83,\"avg_events_per_block\":3.5737422458505663,\"max_daily_events\":359473,\"history_start\":\"2024-03-06 16:40:22.000 UTC\",\"history_end\":\"2026-08-18 10:13:12.000 UTC\",\"raw_equals_unique\":true,\"duplicate_event_rows\":0,\"top_20_transactions\":[\"tx=0x1200D4881F87917037929916BEB7D38E2488518AEA0D420F85D427CACF9C077C,block=64862101,date=2024-11-29,raw=11,unique=11\",\"tx=0x6B683E4CE7B3172438829C6E80A64EC5AAB9E1E6D11AB4E278FADDA949A27B58,block=65016094,date=2024-12-03,raw=11,unique=11\",\"tx=0x171E43392EDDA2B7CD2CBAB1AA2A68904A8DA8CFFF6B128A7A1612834BB03144,block=65032817,date=2024-12-03,raw=11,unique=11\",\"tx=0x8C2EB100599F02804F6ABB9820B204EC1B1B048578F754845AA17C463D796D15,block=64984576,date=2024-12-02,raw=11,unique=11\",\"tx=0xCEAF04C946D2F718FB7B62384D887B53CACBD90242D97BE0C824535F291E1876,block=64899720,date=2024-11-30,raw=11,unique=11\",\"tx=0xD94FA5386BC213E9194ADEFD67A8D67E40D71EA1E78C132258C5DC99EA3C3D9E,block=65114234,date=2024-12-05,raw=11,unique=11\",\"tx=0xF46B351AA5BF55347FE508907F490C4B9F46D58C7DD9E271F1312870C083B0E2,block=65025088,date=2024-12-03,raw=11,unique=11\",\"tx=0x6C815553312C0F8CC691246C50AC38FAB793F16E863C7BD1A5AD16A9B00964CB,block=64972484,date=2024-12-02,raw=11,unique=11\",\"tx=0x52B2E2477FAFB210B81E4C8877629612546077E5C0614B49F50E337AD41CF3E1,block=64956416,date=2024-12-01,raw=11,unique=11\",\"tx=0x64B11E6EA533E8611D72AAC413A266331E42FB8A75C0728B4849677E8F125A2F,block=64972465,date=2024-12-02,raw=11,unique=11\",\"tx=0x05541FAF5CEC54ED8F8CB82C3262C452AF6B49FE053A51B9F75ABC23D48931EF,block=64956439,date=2024-12-01,raw=11,unique=11\",\"tx=0x4F0C2761B6619A4B69AE8EF354D06F497D1A50920286664D7CD62FD94F77E2A2,block=64856583,date=2024-11-29,raw=10,unique=10\",\"tx=0xB331990C3A80CD94521E2C862BDC681899272BA19874B3CD8CB140ADD9DBE533,block=64862068,date=2024-11-29,raw=10,unique=10\",\"tx=0xCB742B211C23066B76C331F87233EE5BE8E122C4576BAFA522AC4A82E4D9008E,block=54573182,date=2024-03-12,raw=9,unique=9\",\"tx=0xCB08EE01A3E5EF9074F387FFEE9D3A4D41B883BE9C7A94159E5C9691DBD0DA46,block=54609209,date=2024-03-13,raw=9,unique=9\",\"tx=0xF4B32E028CD68BF57DFAD0F6F40BD268831BB184F40E65048E8053292C00954C,block=61053597,date=2024-08-26,raw=9,unique=9\",\"tx=0x75BB97C528FDB4C1CA2F91091BA55CFCE52843B15BA93259F884B6608C08F19B,block=54534413,date=2024-03-11,raw=9,unique=9\",\"tx=0x6901F0F8F793DC72993F0CE2FA020DDF8C7DF87CC7F44FE73C981C4ED443E212,block=54559843,date=2024-03-12,raw=9,unique=9\",\"tx=0xA593FE065BE5636413F77BF50F122214E1770CADD94C6D292AF2DD9892675439,block=54596937,date=2024-03-13,raw=9,unique=9\",\"tx=0x2B5FAF0535C669D358BE81106C4CF3798F58D73F39719A58ADA4BE9D9CC22ACE,block=54606437,date=2024-03-13,raw=9,unique=9\"],\"top_20_blocks\":[\"block=86088739,date=2026-04-27,raw=83\",\"block=86105538,date=2026-04-27,raw=77\",\"block=86235896,date=2026-04-30,raw=76\",\"block=85789756,date=2026-04-20,raw=75\",\"block=86164937,date=2026-04-29,raw=75\",\"block=86263048,date=2026-05-01,raw=75\",\"block=86320640,date=2026-05-02,raw=74\",\"block=86177096,date=2026-04-29,raw=73\",\"block=86302792,date=2026-05-02,raw=73\",\"block=86322303,date=2026-05-02,raw=73\",\"block=86350638,date=2026-05-03,raw=72\",\"block=86279088,date=2026-05-01,raw=72\",\"block=86105238,date=2026-04-27,raw=72\",\"block=86239349,date=2026-05-01,raw=70\",\"block=86348549,date=2026-05-03,raw=70\",\"block=86305940,date=2026-05-02,raw=70\",\"block=86297092,date=2026-05-02,raw=70\",\"block=85182028,date=2026-04-06,raw=68\",\"block=86192691,date=2026-04-29,raw=68\",\"block=86279844,date=2026-05-01,raw=68\"],\"top_20_days\":[\"date=2026-05-13,raw=359473\",\"date=2026-04-30,raw=338519\",\"date=2026-05-06,raw=338155\",\"date=2026-04-27,raw=331197\",\"date=2026-04-28,raw=331043\",\"date=2026-04-29,raw=325529\",\"date=2026-05-09,raw=323500\",\"date=2026-04-25,raw=322134\",\"date=2026-05-07,raw=320328\",\"date=2026-05-14,raw=319501\",\"date=2026-05-01,raw=317640\",\"date=2026-05-10,raw=316805\",\"date=2026-05-05,raw=307749\",\"date=2026-05-08,raw=304501\",\"date=2026-05-02,raw=300380\",\"date=2026-05-04,raw=297446\",\"date=2026-05-11,raw=296905\",\"date=2026-05-03,raw=293490\",\"date=2026-04-26,raw=292588\",\"date=2026-05-15,raw=258975\"],\"query_03_snapshot_raw_count\":74521621,\"matches_query_03_snapshot\":true}]}}"
+      }
+    ],
+    "structuredContent": {
+      "executionId": "01M0FRBNKF551AQ4EF92GJQQ2E",
+      "state": "COMPLETED",
+      "resultMetadata": {
+        "columns": [
+          {
+            "name": "raw_staked_count",
+            "type": "bigint"
+          },
+          {
+            "name": "distinct_event_key_count",
+            "type": "bigint"
+          },
+          {
+            "name": "distinct_tx_count",
+            "type": "bigint"
+          },
+          {
+            "name": "distinct_staker_count",
+            "type": "bigint"
+          },
+          {
+            "name": "distinct_block_count",
+            "type": "bigint"
+          },
+          {
+            "name": "max_events_per_tx",
+            "type": "bigint"
+          },
+          {
+            "name": "max_events_per_block",
+            "type": "bigint"
+          },
+          {
+            "name": "avg_events_per_block",
+            "type": "double"
+          },
+          {
+            "name": "max_daily_events",
+            "type": "bigint"
+          },
+          {
+            "name": "history_start",
+            "type": "timestamp(3) with time zone"
+          },
+          {
+            "name": "history_end",
+            "type": "timestamp(3) with time zone"
+          },
+          {
+            "name": "raw_equals_unique",
+            "type": "boolean"
+          },
+          {
+            "name": "duplicate_event_rows",
+            "type": "bigint"
+          },
+          {
+            "name": "top_20_transactions",
+            "type": "array(varchar)"
+          },
+          {
+            "name": "top_20_blocks",
+            "type": "array(varchar)"
+          },
+          {
+            "name": "top_20_days",
+            "type": "array(varchar)"
+          },
+          {
+            "name": "query_03_snapshot_raw_count",
+            "type": "integer"
+          },
+          {
+            "name": "matches_query_03_snapshot",
+            "type": "boolean"
+          }
+        ],
+        "totalRowCount": 1,
+        "executionCostCredits": "57.179"
+      },
+      "data": {
+        "rows": [
+          {
+            "raw_staked_count": 74521621,
+            "distinct_event_key_count": 74521621,
+            "distinct_tx_count": 74520337,
+            "distinct_staker_count": 1789065,
+            "distinct_block_count": 20852545,
+            "max_events_per_tx": 11,
+            "max_events_per_block": 83,
+            "avg_events_per_block": 3.5737422458505663,
+            "max_daily_events": 359473,
+            "history_start": "2024-03-06 16:40:22.000 UTC",
+            "history_end": "2026-08-18 10:13:12.000 UTC",
+            "raw_equals_unique": true,
+            "duplicate_event_rows": 0,
+            "top_20_transactions": [
+              "tx=0x1200D4881F87917037929916BEB7D38E2488518AEA0D420F85D427CACF9C077C,block=64862101,date=2024-11-29,raw=11,unique=11",
+              "tx=0x6B683E4CE7B3172438829C6E80A64EC5AAB9E1E6D11AB4E278FADDA949A27B58,block=65016094,date=2024-12-03,raw=11,unique=11",
+              "tx=0x171E43392EDDA2B7CD2CBAB1AA2A68904A8DA8CFFF6B128A7A1612834BB03144,block=65032817,date=2024-12-03,raw=11,unique=11",
+              "tx=0x8C2EB100599F02804F6ABB9820B204EC1B1B048578F754845AA17C463D796D15,block=64984576,date=2024-12-02,raw=11,unique=11",
+              "tx=0xCEAF04C946D2F718FB7B62384D887B53CACBD90242D97BE0C824535F291E1876,block=64899720,date=2024-11-30,raw=11,unique=11",
+              "tx=0xD94FA5386BC213E9194ADEFD67A8D67E40D71EA1E78C132258C5DC99EA3C3D9E,block=65114234,date=2024-12-05,raw=11,unique=11",
+              "tx=0xF46B351AA5BF55347FE508907F490C4B9F46D58C7DD9E271F1312870C083B0E2,block=65025088,date=2024-12-03,raw=11,unique=11",
+              "tx=0x6C815553312C0F8CC691246C50AC38FAB793F16E863C7BD1A5AD16A9B00964CB,block=64972484,date=2024-12-02,raw=11,unique=11",
+              "tx=0x52B2E2477FAFB210B81E4C8877629612546077E5C0614B49F50E337AD41CF3E1,block=64956416,date=2024-12-01,raw=11,unique=11",
+              "tx=0x64B11E6EA533E8611D72AAC413A266331E42FB8A75C0728B4849677E8F125A2F,block=64972465,date=2024-12-02,raw=11,unique=11",
+              "tx=0x05541FAF5CEC54ED8F8CB82C3262C452AF6B49FE053A51B9F75ABC23D48931EF,block=64956439,date=2024-12-01,raw=11,unique=11",
+              "tx=0x4F0C2761B6619A4B69AE8EF354D06F497D1A50920286664D7CD62FD94F77E2A2,block=64856583,date=2024-11-29,raw=10,unique=10",
+              "tx=0xB331990C3A80CD94521E2C862BDC681899272BA19874B3CD8CB140ADD9DBE533,block=64862068,date=2024-11-29,raw=10,unique=10",
+              "tx=0xCB742B211C23066B76C331F87233EE5BE8E122C4576BAFA522AC4A82E4D9008E,block=54573182,date=2024-03-12,raw=9,unique=9",
+              "tx=0xCB08EE01A3E5EF9074F387FFEE9D3A4D41B883BE9C7A94159E5C9691DBD0DA46,block=54609209,date=2024-03-13,raw=9,unique=9",
+              "tx=0xF4B32E028CD68BF57DFAD0F6F40BD268831BB184F40E65048E8053292C00954C,block=61053597,date=2024-08-26,raw=9,unique=9",
+              "tx=0x75BB97C528FDB4C1CA2F91091BA55CFCE52843B15BA93259F884B6608C08F19B,block=54534413,date=2024-03-11,raw=9,unique=9",
+              "tx=0x6901F0F8F793DC72993F0CE2FA020DDF8C7DF87CC7F44FE73C981C4ED443E212,block=54559843,date=2024-03-12,raw=9,unique=9",
+              "tx=0xA593FE065BE5636413F77BF50F122214E1770CADD94C6D292AF2DD9892675439,block=54596937,date=2024-03-13,raw=9,unique=9",
+              "tx=0x2B5FAF0535C669D358BE81106C4CF3798F58D73F39719A58ADA4BE9D9CC22ACE,block=54606437,date=2024-03-13,raw=9,unique=9"
+            ],
+            "top_20_blocks": [
+              "block=86088739,date=2026-04-27,raw=83",
+              "block=86105538,date=2026-04-27,raw=77",
+              "block=86235896,date=2026-04-30,raw=76",
+              "block=85789756,date=2026-04-20,raw=75",
+              "block=86164937,date=2026-04-29,raw=75",
+              "block=86263048,date=2026-05-01,raw=75",
+              "block=86320640,date=2026-05-02,raw=74",
+              "block=86177096,date=2026-04-29,raw=73",
+              "block=86302792,date=2026-05-02,raw=73",
+              "block=86322303,date=2026-05-02,raw=73",
+              "block=86350638,date=2026-05-03,raw=72",
+              "block=86279088,date=2026-05-01,raw=72",
+              "block=86105238,date=2026-04-27,raw=72",
+              "block=86239349,date=2026-05-01,raw=70",
+              "block=86348549,date=2026-05-03,raw=70",
+              "block=86305940,date=2026-05-02,raw=70",
+              "block=86297092,date=2026-05-02,raw=70",
+              "block=85182028,date=2026-04-06,raw=68",
+              "block=86192691,date=2026-04-29,raw=68",
+              "block=86279844,date=2026-05-01,raw=68"
+            ],
+            "top_20_days": [
+              "date=2026-05-13,raw=359473",
+              "date=2026-04-30,raw=338519",
+              "date=2026-05-06,raw=338155",
+              "date=2026-04-27,raw=331197",
+              "date=2026-04-28,raw=331043",
+              "date=2026-04-29,raw=325529",
+              "date=2026-05-09,raw=323500",
+              "date=2026-04-25,raw=322134",
+              "date=2026-05-07,raw=320328",
+              "date=2026-05-14,raw=319501",
+              "date=2026-05-01,raw=317640",
+              "date=2026-05-10,raw=316805",
+              "date=2026-05-05,raw=307749",
+              "date=2026-05-08,raw=304501",
+              "date=2026-05-02,raw=300380",
+              "date=2026-05-04,raw=297446",
+              "date=2026-05-11,raw=296905",
+              "date=2026-05-03,raw=293490",
+              "date=2026-04-26,raw=292588",
+              "date=2026-05-15,raw=258975"
+            ],
+            "query_03_snapshot_raw_count": 74521621,
+            "matches_query_03_snapshot": true
+          }
+        ]
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

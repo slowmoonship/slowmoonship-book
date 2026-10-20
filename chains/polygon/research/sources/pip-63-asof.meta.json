@@ -1,0 +1,14 @@
+{
+  "id": "pip-63-asof",
+  "url": "https://raw.githubusercontent.com/0xPolygon/Polygon-Improvement-Proposals/7ca861517bcdcba3e1f2b751762c6c2e786d7caa/PIPs/PIP-63.md",
+  "accessed_at": "2026-10-19T02:34:59.168520+00:00",
+  "baseline": "2026-10-19",
+  "status": 200,
+  "final_url": "https://raw.githubusercontent.com/0xPolygon/Polygon-Improvement-Proposals/7ca861517bcdcba3e1f2b751762c6c2e786d7caa/PIPs/PIP-63.md",
+  "content_type": "text/plain; charset=utf-8",
+  "bytes": 1241,
+  "sha256": "2da5d0265f1bf351487f7b27b6a0f196f4a308fa27a7caa742b374ca242ab177",
+  "local_archive_path": "research/sources/pip-63-asof.md",
+  "public_source_url": "https://raw.githubusercontent.com/0xPolygon/Polygon-Improvement-Proposals/7ca861517bcdcba3e1f2b751762c6c2e786d7caa/PIPs/PIP-63.md",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY"
+}

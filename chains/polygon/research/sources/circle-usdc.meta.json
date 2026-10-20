@@ -1,0 +1,14 @@
+{
+  "id": "circle-usdc",
+  "url": "https://developers.circle.com/stablecoins/usdc-contract-addresses",
+  "accessed_at": "2026-10-19T02:33:02.126637+00:00",
+  "baseline": "2026-10-19",
+  "status": 200,
+  "final_url": "https://developers.circle.com/stablecoins/usdc-contract-addresses",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 385165,
+  "sha256": "b4b42053c647abb81f59feb0cf8c572613a89f3e1d835b2c3b1dd0af068f1134",
+  "local_archive_path": "research/sources/circle-usdc.md",
+  "public_source_url": "https://developers.circle.com/stablecoins/usdc-contract-addresses",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY"
+}

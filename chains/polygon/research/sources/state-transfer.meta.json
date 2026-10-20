@@ -1,0 +1,14 @@
+{
+  "id": "state-transfer",
+  "url": "https://docs.polygon.technology/pos/how-to/bridging/l1-l2-communication/state-transfer.md",
+  "accessed_at": "2026-10-19T02:33:49.662619+00:00",
+  "baseline": "2026-10-19",
+  "status": 200,
+  "final_url": "https://docs.polygon.technology/pos/how-to/bridging/l1-l2-communication/state-transfer.md",
+  "content_type": "text/markdown; charset=utf-8",
+  "bytes": 7487,
+  "sha256": "ec31bf8d1383d7c85cd7e5216079a7400181e24665aced91410be42a3cd7ef0a",
+  "local_archive_path": "research/sources/state-transfer.md",
+  "public_source_url": "https://docs.polygon.technology/pos/how-to/bridging/l1-l2-communication/state-transfer.md",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY"
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "label": "网络",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_chainId",
+      "params": []
+    },
+    "response": null,
+    "status": "NOT_SUCCESSFULLY_EXECUTED"
+  },
+  {
+    "label": "交易",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 2,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x832776ec57afa341a194bde3c2d342acb220fd60eea31c38f99e1c2d25c4e130"
+      ]
+    },
+    "response": null,
+    "status": "NOT_SUCCESSFULLY_EXECUTED"
+  },
+  {
+    "label": "回执",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 3,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x832776ec57afa341a194bde3c2d342acb220fd60eea31c38f99e1c2d25c4e130"
+      ]
+    },
+    "response": null,
+    "status": "NOT_SUCCESSFULLY_EXECUTED"
+  },
+  {
+    "label": "扩展区块",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 4,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x594044e",
+        false,
+        true
+      ]
+    },
+    "response": null,
+    "status": "NOT_SUCCESSFULLY_EXECUTED"
+  },
+  {
+    "label": "Gas参数",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 5,
+      "method": "bor_getBlockGasParams",
+      "params": [
+        "0x594044e"
+      ]
+    },
+    "response": null,
+    "status": "NOT_SUCCESSFULLY_EXECUTED"
+  }
+]

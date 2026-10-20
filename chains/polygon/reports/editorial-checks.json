@@ -1,0 +1,237 @@
+{
+  "exact_long_paragraph_overlap_other_chains": [],
+  "top_internal_similarity": [
+    {
+      "chapters": [
+        37,
+        40
+      ],
+      "character_5gram_jaccard": 0.022230889235569422
+    },
+    {
+      "chapters": [
+        3,
+        11
+      ],
+      "character_5gram_jaccard": 0.021071919377004124
+    },
+    {
+      "chapters": [
+        1,
+        12
+      ],
+      "character_5gram_jaccard": 0.02027027027027027
+    },
+    {
+      "chapters": [
+        12,
+        19
+      ],
+      "character_5gram_jaccard": 0.01924839596700275
+    },
+    {
+      "chapters": [
+        1,
+        10
+      ],
+      "character_5gram_jaccard": 0.01921397379912664
+    },
+    {
+      "chapters": [
+        21,
+        29
+      ],
+      "character_5gram_jaccard": 0.01791044776119403
+    },
+    {
+      "chapters": [
+        24,
+        29
+      ],
+      "character_5gram_jaccard": 0.017902813299232736
+    },
+    {
+      "chapters": [
+        23,
+        25
+      ],
+      "character_5gram_jaccard": 0.017112768758227294
+    },
+    {
+      "chapters": [
+        3,
+        10
+      ],
+      "character_5gram_jaccard": 0.017023134002618942
+    },
+    {
+      "chapters": [
+        6,
+        9
+      ],
+      "character_5gram_jaccard": 0.017003676470588234
+    }
+  ],
+  "chapter_cjk": [
+    {
+      "chapter": 1,
+      "cjk": 814
+    },
+    {
+      "chapter": 2,
+      "cjk": 802
+    },
+    {
+      "chapter": 3,
+      "cjk": 869
+    },
+    {
+      "chapter": 4,
+      "cjk": 847
+    },
+    {
+      "chapter": 5,
+      "cjk": 875
+    },
+    {
+      "chapter": 6,
+      "cjk": 802
+    },
+    {
+      "chapter": 7,
+      "cjk": 814
+    },
+    {
+      "chapter": 8,
+      "cjk": 806
+    },
+    {
+      "chapter": 9,
+      "cjk": 809
+    },
+    {
+      "chapter": 10,
+      "cjk": 863
+    },
+    {
+      "chapter": 11,
+      "cjk": 876
+    },
+    {
+      "chapter": 12,
+      "cjk": 892
+    },
+    {
+      "chapter": 13,
+      "cjk": 884
+    },
+    {
+      "chapter": 14,
+      "cjk": 860
+    },
+    {
+      "chapter": 15,
+      "cjk": 939
+    },
+    {
+      "chapter": 16,
+      "cjk": 825
+    },
+    {
+      "chapter": 17,
+      "cjk": 864
+    },
+    {
+      "chapter": 18,
+      "cjk": 806
+    },
+    {
+      "chapter": 19,
+      "cjk": 868
+    },
+    {
+      "chapter": 20,
+      "cjk": 871
+    },
+    {
+      "chapter": 21,
+      "cjk": 855
+    },
+    {
+      "chapter": 22,
+      "cjk": 856
+    },
+    {
+      "chapter": 23,
+      "cjk": 859
+    },
+    {
+      "chapter": 24,
+      "cjk": 870
+    },
+    {
+      "chapter": 25,
+      "cjk": 845
+    },
+    {
+      "chapter": 26,
+      "cjk": 818
+    },
+    {
+      "chapter": 27,
+      "cjk": 872
+    },
+    {
+      "chapter": 28,
+      "cjk": 884
+    },
+    {
+      "chapter": 29,
+      "cjk": 849
+    },
+    {
+      "chapter": 30,
+      "cjk": 812
+    },
+    {
+      "chapter": 31,
+      "cjk": 829
+    },
+    {
+      "chapter": 32,
+      "cjk": 852
+    },
+    {
+      "chapter": 33,
+      "cjk": 873
+    },
+    {
+      "chapter": 34,
+      "cjk": 823
+    },
+    {
+      "chapter": 35,
+      "cjk": 873
+    },
+    {
+      "chapter": 36,
+      "cjk": 845
+    },
+    {
+      "chapter": 37,
+      "cjk": 805
+    },
+    {
+      "chapter": 38,
+      "cjk": 820
+    },
+    {
+      "chapter": 39,
+      "cjk": 880
+    },
+    {
+      "chapter": 40,
+      "cjk": 851
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "result": {
+    "_meta": {
+      "mcp_event_id": "a403835b-ae97-4af3-98ed-e538319355fd"
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"executionId\":\"01M0FQYVK9NT2JJHD359YDZ4R8\",\"state\":\"COMPLETED\",\"resultMetadata\":{\"columns\":[{\"name\":\"raw_event_count\",\"type\":\"bigint\"},{\"name\":\"distinct_event_key_count\",\"type\":\"bigint\"},{\"name\":\"distinct_tx_count\",\"type\":\"bigint\"},{\"name\":\"distinct_block_count\",\"type\":\"bigint\"},{\"name\":\"max_events_per_tx\",\"type\":\"bigint\"},{\"name\":\"max_events_per_block\",\"type\":\"bigint\"},{\"name\":\"avg_events_per_block\",\"type\":\"double\"},{\"name\":\"max_daily_events\",\"type\":\"bigint\"},{\"name\":\"history_start\",\"type\":\"timestamp(3) with time zone\"},{\"name\":\"history_end\",\"type\":\"timestamp(3) with time zone\"},{\"name\":\"raw_equals_unique\",\"type\":\"boolean\"},{\"name\":\"duplicate_event_rows\",\"type\":\"bigint\"},{\"name\":\"top_20_transactions\",\"type\":\"array(varchar)\"},{\"name\":\"top_20_blocks\",\"type\":\"array(varchar)\"},{\"name\":\"top_20_days\",\"type\":\"array(varchar)\"},{\"name\":\"query_02_snapshot_raw_count\",\"type\":\"integer\"},{\"name\":\"matches_query_02_snapshot\",\"type\":\"boolean\"}],\"totalRowCount\":1,\"executionCostCredits\":\"31.859\"},\"data\":{\"rows\":[{\"raw_event_count\":303088242,\"distinct_event_key_count\":303088242,\"distinct_tx_count\":145027356,\"distinct_block_count\":24428518,\"max_events_per_tx\":236,\"max_events_per_block\":315,\"avg_events_per_block\":12.40714815364567,\"max_daily_events\":1911066,\"history_start\":\"2024-03-06 16:58:16.000 UTC\",\"history_end\":\"2026-08-18 09:44:54.000 UTC\",\"raw_equals_unique\":true,\"duplicate_event_rows\":0,\"top_20_transactions\":[\"tx=0x312E011CD15C74D565355189C05D8AF5C550224AFD469ED16491F1497D5BC1BD,block=55204428,date=2024-03-29,raw=236,unique=236\",\"tx=0xF1ED7B96489FB07FBF5D22BCD518E02157F0B1DB3E054FC3D43299193664936C,block=55204427,date=2024-03-29,raw=236,unique=236\",\"tx=0x8FA6F4933FCF5BD72C56E46B64D4DAAEA8A49A551227A54C054048F5DA000929,block=55504579,date=2024-04-06,raw=160,unique=160\",\"tx=0xB238EA4CCE8C5330D2ECA873E3B5431D0EE80EF66E8B06D833F7AA23BF9D79C9,block=55389467,date=2024-04-03,raw=160,unique=160\",\"tx=0x9D3DC53195F072EAF43C795B8DECAB8FE0DCAECF6544D095F4AC4E23609D4595,block=55504570,date=2024-04-06,raw=160,unique=160\",\"tx=0xF9F39DB16C94CE6A10C3329C11CC68B7E2CF6D8F09F88A500DE33AA3218A251C,block=55388975,date=2024-04-03,raw=160,unique=160\",\"tx=0xF4AE27735E3659E44202AB6A4A8150C51C6B855984327154CEFD2C673CF88A76,block=55389194,date=2024-04-03,raw=160,unique=160\",\"tx=0x31983D6E40754A1059151DAB36609A9B3BA34148CEE59783B2C86ADEDE8B9908,block=55389476,date=2024-04-03,raw=110,unique=110\",\"tx=0xC117C6ECAF2D5172A8323CB5560F28C66EC8913C2FD0805261E521E67E6CEE23,block=55504485,date=2024-04-06,raw=100,unique=100\",\"tx=0x2F7BEF2E644E3CAC61C617CE1AB5EEC6836530803BF756BE6FADAFEDCD2F3219,block=55504024,date=2024-04-06,raw=100,unique=100\",\"tx=0x1469CA1C38EE90762D3F13DE0753D55FCAD78464BC51AACD3D15432B9472B67B,block=55504370,date=2024-04-06,raw=100,unique=100\",\"tx=0x1C617765F7CB5CB1354D45661A1FEDA1C891FE15F02B5330C6B07BDC194CAC09,block=55991479,date=2024-04-19,raw=91,unique=91\",\"tx=0x73E56081EBEE89F731867C5DF3427B14B2C5F3C1C2ED0F1BE60A552C65E35EC4,block=55504587,date=2024-04-06,raw=88,unique=88\",\"tx=0x613B4A43FD70F9674B9F1F4DB2082AE9CA6FBE9FDDB4CCF571DFA98C32BE01D9,block=55504514,date=2024-04-06,raw=84,unique=84\",\"tx=0x767A002629E7B933101A07859452185D6EF950EFEEB961C2F818DCC8FFDFA913,block=72826915,date=2025-06-16,raw=42,unique=42\",\"tx=0x88958917C72B9AA4ADB0E7F1128D9AC67762ACEDA0034FA35112F5B2B78C80E5,block=90872716,date=2026-07-25,raw=40,unique=40\",\"tx=0x5F37CCCF5E3525D44F967703B64E9BF01DB21792CAF7A45003B8DE454392BFF5,block=90987917,date=2026-07-27,raw=40,unique=40\",\"tx=0x2987CCC3E07F085BEF822BC6F5C76DCFE449BDDB9AB9EA902A162AF3BD5C44B2,block=90887116,date=2026-07-26,raw=40,unique=40\",\"tx=0x040F038D4C3022F3E02BCE3962B0C7C5385482869C6D383147C7EC53A36B5423,block=90973518,date=2026-07-27,raw=40,unique=40\",\"tx=0xD24619C8F73ECFBE4542CB67EDB9FF8DBAEF1BFB42FD1B577A734E75466E015B,block=90959121,date=2026-07-27,raw=40,unique=40\"],\"top_20_blocks\":[\"block=86290794,date=2026-05-02,raw=315,unique=315\",\"block=86291241,date=2026-05-02,raw=307,unique=307\",\"block=86289743,date=2026-05-02,raw=307,unique=307\",\"block=86370740,date=2026-05-04,raw=295,unique=295\",\"block=86290345,date=2026-05-02,raw=292,unique=292\",\"block=86337288,date=2026-05-03,raw=290,unique=290\",\"block=86387838,date=2026-05-04,raw=288,unique=288\",\"block=86384251,date=2026-05-04,raw=288,unique=288\",\"block=86237850,date=2026-05-01,raw=284,unique=284\",\"block=86389486,date=2026-05-04,raw=283,unique=283\",\"block=86290042,date=2026-05-02,raw=283,unique=283\",\"block=86388287,date=2026-05-04,raw=281,unique=281\",\"block=86383643,date=2026-05-04,raw=280,unique=280\",\"block=86167785,date=2026-04-29,raw=280,unique=280\",\"block=86239349,date=2026-05-01,raw=278,unique=278\",\"block=86380489,date=2026-05-04,raw=278,unique=278\",\"block=86613701,date=2026-05-09,raw=276,unique=276\",\"block=86247444,date=2026-05-01,raw=276,unique=276\",\"block=86209489,date=2026-04-30,raw=275,unique=275\",\"block=86262152,date=2026-05-01,raw=275,unique=275\"],\"top_20_days\":[\"date=2026-05-13,raw=1911066,unique=1911066\",\"date=2026-05-06,raw=1486883,unique=1486883\",\"date=2026-05-10,raw=1374477,unique=1374477\",\"date=2026-05-08,raw=1344803,unique=1344803\",\"date=2026-05-09,raw=1322273,unique=1322273\",\"date=2026-04-30,raw=1318937,unique=1318937\",\"date=2026-05-02,raw=1317321,unique=1317321\",\"date=2026-04-28,raw=1301006,unique=1301006\",\"date=2026-05-04,raw=1300523,unique=1300523\",\"date=2026-05-07,raw=1299730,unique=1299730\",\"date=2026-05-01,raw=1293213,unique=1293213\",\"date=2026-04-29,raw=1287541,unique=1287541\",\"date=2026-05-05,raw=1274900,unique=1274900\",\"date=2026-05-03,raw=1235766,unique=1235766\",\"date=2026-04-23,raw=1195365,unique=1195365\",\"date=2026-04-27,raw=1194175,unique=1194175\",\"date=2026-03-30,raw=1175725,unique=1175725\",\"date=2026-05-11,raw=1163377,unique=1163377\",\"date=2026-04-24,raw=1161701,unique=1161701\",\"date=2026-04-25,raw=1114145,unique=1114145\"],\"query_02_snapshot_raw_count\":303088242,\"matches_query_02_snapshot\":true}]}}"
+      }
+    ],
+    "structuredContent": {
+      "executionId": "01M0FQYVK9NT2JJHD359YDZ4R8",
+      "state": "COMPLETED",
+      "resultMetadata": {
+        "columns": [
+          {
+            "name": "raw_event_count",
+            "type": "bigint"
+          },
+          {
+            "name": "distinct_event_key_count",
+            "type": "bigint"
+          },
+          {
+            "name": "distinct_tx_count",
+            "type": "bigint"
+          },
+          {
+            "name": "distinct_block_count",
+            "type": "bigint"
+          },
+          {
+            "name": "max_events_per_tx",
+            "type": "bigint"
+          },
+          {
+            "name": "max_events_per_block",
+            "type": "bigint"
+          },
+          {
+            "name": "avg_events_per_block",
+            "type": "double"
+          },
+          {
+            "name": "max_daily_events",
+            "type": "bigint"
+          },
+          {
+            "name": "history_start",
+            "type": "timestamp(3) with time zone"
+          },
+          {
+            "name": "history_end",
+            "type": "timestamp(3) with time zone"
+          },
+          {
+            "name": "raw_equals_unique",
+            "type": "boolean"
+          },
+          {
+            "name": "duplicate_event_rows",
+            "type": "bigint"
+          },
+          {
+            "name": "top_20_transactions",
+            "type": "array(varchar)"
+          },
+          {
+            "name": "top_20_blocks",
+            "type": "array(varchar)"
+          },
+          {
+            "name": "top_20_days",
+            "type": "array(varchar)"
+          },
+          {
+            "name": "query_02_snapshot_raw_count",
+            "type": "integer"
+          },
+          {
+            "name": "matches_query_02_snapshot",
+            "type": "boolean"
+          }
+        ],
+        "totalRowCount": 1,
+        "executionCostCredits": "31.859"
+      },
+      "data": {
+        "rows": [
+          {
+            "raw_event_count": 303088242,
+            "distinct_event_key_count": 303088242,
+            "distinct_tx_count": 145027356,
+            "distinct_block_count": 24428518,
+            "max_events_per_tx": 236,
+            "max_events_per_block": 315,
+            "avg_events_per_block": 12.40714815364567,
+            "max_daily_events": 1911066,
+            "history_start": "2024-03-06 16:58:16.000 UTC",
+            "history_end": "2026-08-18 09:44:54.000 UTC",
+            "raw_equals_unique": true,
+            "duplicate_event_rows": 0,
+            "top_20_transactions": [
+              "tx=0x312E011CD15C74D565355189C05D8AF5C550224AFD469ED16491F1497D5BC1BD,block=55204428,date=2024-03-29,raw=236,unique=236",
+              "tx=0xF1ED7B96489FB07FBF5D22BCD518E02157F0B1DB3E054FC3D43299193664936C,block=55204427,date=2024-03-29,raw=236,unique=236",
+              "tx=0x8FA6F4933FCF5BD72C56E46B64D4DAAEA8A49A551227A54C054048F5DA000929,block=55504579,date=2024-04-06,raw=160,unique=160",
+              "tx=0xB238EA4CCE8C5330D2ECA873E3B5431D0EE80EF66E8B06D833F7AA23BF9D79C9,block=55389467,date=2024-04-03,raw=160,unique=160",
+              "tx=0x9D3DC53195F072EAF43C795B8DECAB8FE0DCAECF6544D095F4AC4E23609D4595,block=55504570,date=2024-04-06,raw=160,unique=160",
+              "tx=0xF9F39DB16C94CE6A10C3329C11CC68B7E2CF6D8F09F88A500DE33AA3218A251C,block=55388975,date=2024-04-03,raw=160,unique=160",
+              "tx=0xF4AE27735E3659E44202AB6A4A8150C51C6B855984327154CEFD2C673CF88A76,block=55389194,date=2024-04-03,raw=160,unique=160",
+              "tx=0x31983D6E40754A1059151DAB36609A9B3BA34148CEE59783B2C86ADEDE8B9908,block=55389476,date=2024-04-03,raw=110,unique=110",
+              "tx=0xC117C6ECAF2D5172A8323CB5560F28C66EC8913C2FD0805261E521E67E6CEE23,block=55504485,date=2024-04-06,raw=100,unique=100",
+              "tx=0x2F7BEF2E644E3CAC61C617CE1AB5EEC6836530803BF756BE6FADAFEDCD2F3219,block=55504024,date=2024-04-06,raw=100,unique=100",
+              "tx=0x1469CA1C38EE90762D3F13DE0753D55FCAD78464BC51AACD3D15432B9472B67B,block=55504370,date=2024-04-06,raw=100,unique=100",
+              "tx=0x1C617765F7CB5CB1354D45661A1FEDA1C891FE15F02B5330C6B07BDC194CAC09,block=55991479,date=2024-04-19,raw=91,unique=91",
+              "tx=0x73E56081EBEE89F731867C5DF3427B14B2C5F3C1C2ED0F1BE60A552C65E35EC4,block=55504587,date=2024-04-06,raw=88,unique=88",
+              "tx=0x613B4A43FD70F9674B9F1F4DB2082AE9CA6FBE9FDDB4CCF571DFA98C32BE01D9,block=55504514,date=2024-04-06,raw=84,unique=84",
+              "tx=0x767A002629E7B933101A07859452185D6EF950EFEEB961C2F818DCC8FFDFA913,block=72826915,date=2025-06-16,raw=42,unique=42",
+              "tx=0x88958917C72B9AA4ADB0E7F1128D9AC67762ACEDA0034FA35112F5B2B78C80E5,block=90872716,date=2026-07-25,raw=40,unique=40",
+              "tx=0x5F37CCCF5E3525D44F967703B64E9BF01DB21792CAF7A45003B8DE454392BFF5,block=90987917,date=2026-07-27,raw=40,unique=40",
+              "tx=0x2987CCC3E07F085BEF822BC6F5C76DCFE449BDDB9AB9EA902A162AF3BD5C44B2,block=90887116,date=2026-07-26,raw=40,unique=40",
+              "tx=0x040F038D4C3022F3E02BCE3962B0C7C5385482869C6D383147C7EC53A36B5423,block=90973518,date=2026-07-27,raw=40,unique=40",
+              "tx=0xD24619C8F73ECFBE4542CB67EDB9FF8DBAEF1BFB42FD1B577A734E75466E015B,block=90959121,date=2026-07-27,raw=40,unique=40"
+            ],
+            "top_20_blocks": [
+              "block=86290794,date=2026-05-02,raw=315,unique=315",
+              "block=86291241,date=2026-05-02,raw=307,unique=307",
+              "block=86289743,date=2026-05-02,raw=307,unique=307",
+              "block=86370740,date=2026-05-04,raw=295,unique=295",
+              "block=86290345,date=2026-05-02,raw=292,unique=292",
+              "block=86337288,date=2026-05-03,raw=290,unique=290",
+              "block=86387838,date=2026-05-04,raw=288,unique=288",
+              "block=86384251,date=2026-05-04,raw=288,unique=288",
+              "block=86237850,date=2026-05-01,raw=284,unique=284",
+              "block=86389486,date=2026-05-04,raw=283,unique=283",
+              "block=86290042,date=2026-05-02,raw=283,unique=283",
+              "block=86388287,date=2026-05-04,raw=281,unique=281",
+              "block=86383643,date=2026-05-04,raw=280,unique=280",
+              "block=86167785,date=2026-04-29,raw=280,unique=280",
+              "block=86239349,date=2026-05-01,raw=278,unique=278",
+              "block=86380489,date=2026-05-04,raw=278,unique=278",
+              "block=86613701,date=2026-05-09,raw=276,unique=276",
+              "block=86247444,date=2026-05-01,raw=276,unique=276",
+              "block=86209489,date=2026-04-30,raw=275,unique=275",
+              "block=86262152,date=2026-05-01,raw=275,unique=275"
+            ],
+            "top_20_days": [
+              "date=2026-05-13,raw=1911066,unique=1911066",
+              "date=2026-05-06,raw=1486883,unique=1486883",
+              "date=2026-05-10,raw=1374477,unique=1374477",
+              "date=2026-05-08,raw=1344803,unique=1344803",
+              "date=2026-05-09,raw=1322273,unique=1322273",
+              "date=2026-04-30,raw=1318937,unique=1318937",
+              "date=2026-05-02,raw=1317321,unique=1317321",
+              "date=2026-04-28,raw=1301006,unique=1301006",
+              "date=2026-05-04,raw=1300523,unique=1300523",
+              "date=2026-05-07,raw=1299730,unique=1299730",
+              "date=2026-05-01,raw=1293213,unique=1293213",
+              "date=2026-04-29,raw=1287541,unique=1287541",
+              "date=2026-05-05,raw=1274900,unique=1274900",
+              "date=2026-05-03,raw=1235766,unique=1235766",
+              "date=2026-04-23,raw=1195365,unique=1195365",
+              "date=2026-04-27,raw=1194175,unique=1194175",
+              "date=2026-03-30,raw=1175725,unique=1175725",
+              "date=2026-05-11,raw=1163377,unique=1163377",
+              "date=2026-04-24,raw=1161701,unique=1161701",
+              "date=2026-04-25,raw=1114145,unique=1114145"
+            ],
+            "query_02_snapshot_raw_count": 303088242,
+            "matches_query_02_snapshot": true
+          }
+        ]
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

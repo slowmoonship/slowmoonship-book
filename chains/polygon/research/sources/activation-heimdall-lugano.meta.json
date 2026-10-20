@@ -1,0 +1,14 @@
+{
+  "id": "activation-heimdall-lugano",
+  "url": "https://heimdall-api.polygon.technology/cosmos/base/tendermint/v1beta1/blocks/54627000",
+  "accessed_at": "2026-10-19T03:03:20.985026+00:00",
+  "baseline": "2026-10-19",
+  "status": 200,
+  "final_url": "https://heimdall-api.polygon.technology/cosmos/base/tendermint/v1beta1/blocks/54627000",
+  "content_type": "application/json",
+  "bytes": 165060,
+  "sha256": "b70ddeddf1c9a521046b54ea021163634dcfa6eadfb6180ae08fc3d0b8c42a3f",
+  "local_archive_path": "research/sources/activation-heimdall-lugano.md",
+  "public_source_url": "https://heimdall-api.polygon.technology/cosmos/base/tendermint/v1beta1/blocks/54627000",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY"
+}

@@ -1,0 +1,23 @@
+id,claim,level,status,source,time_or_locator,limitation
+E01,LGNS与sLGNS显示精度均9,2,VERIFIED_SOURCE_CAPTURED,https://polygonscan.com/address/0xeb51d9a39ad5eef215dc0bf39a8821ff804a0f01#code; https://polygonscan.com/address/0x99a57e6c8558bc6689f894e068733adf83c19725#code,constructor,不等于当前供应已读
+E02,LGNS部署高度54339832/2024-03-06T16:34:26Z,1-reference/3-display,EXPLORER_RECORD_CAPTURED,../../examples/transactions/case-05.json,54339832,浏览器索引，未本机共识验证
+E03,MINT角色可调用LGNS.mint,2,CONFIRMED_CAPABILITY,https://polygonscan.com/address/0xeb51d9a39ad5eef215dc0bf39a8821ff804a0f01#code,onlyVault/MINT,当前角色成员与历史调用未完整取得
+E04,默认管理员可调mainPair与买卖费参数,2,CONFIRMED_CAPABILITY,https://polygonscan.com/address/0xeb51d9a39ad5eef215dc0bf39a8821ff804a0f01#code,setMainPair/setRatio,比例上限PRECISION，可到100%；未证明实际调高
+E05,初始feeRatio5000/PRECISION100000为5%,2,SOURCE_INITIAL_VALUE,https://polygonscan.com/address/0xeb51d9a39ad5eef215dc0bf39a8821ff804a0f01#code,OriginWithLottery,不宣称当前费率或全部历史恒定
+E06,INTERN_SYSTEM使主交易对费用逻辑有条件,2,CONFIRMED_CAPABILITY,https://polygonscan.com/address/0xeb51d9a39ad5eef215dc0bf39a8821ff804a0f01#code,_isTradeAndNotInSystem,实际成员与主Pair状态未读
+E07,sLGNS余额由gons换算，Rebase改变换算,2,CONFIRMED_MECHANISM,https://polygonscan.com/address/0x99a57e6c8558bc6689f894e068733adf83c19725#code,rebase/balanceOf,不能只靠普通Transfer重建所有余额
+E08,LogRebase比率18位、index9位,2+3,SOURCE_AND_OLD_RESULT_CHECKED,https://polygonscan.com/address/0x99a57e6c8558bc6689f894e068733adf83c19725#code; ../dune/8369671.json,epoch0-4样本,样本可复算不等于全部历史已重扫
+E09,Staked首样本1LGNS，事件24,1-reference/3,OLD_RESULT_AND_EXPLORER,../../examples/transactions/case-10.json,54339984,不是净质押或独立投资者收入
+E10,没有显式Unstaked事件，旧查询未覆盖退出,2+3,KNOWN_COVERAGE_GAP,contracts/staking/abi.json; ../dune/8369505.json,history_end=2026-08-18,不能据缺失得出Unstake为0
+E11,Staking Manager可配置部分合约与Warmup,2,CONFIRMED_CAPABILITY,https://polygonscan.com/address/0x1964ca90474b11ffd08af387b110ba6c96251bfc#code,setContract/setWarmup,有分支限制，当前Manager未知
+E12,Treasury.withdraw限制approved reserve spender,2,CONFIRMED_CAPABILITY,https://polygonscan.com/address/0x7b9b7d4f870a38e92c9a181b00f9b33cc8ef5321#code,withdraw,普通持有人不因此拥有自由兑付权
+E13,Treasury.manage/mintRewards有角色及excessReserves条件,2,CONFIRMED_CAPABILITY,https://polygonscan.com/address/0x7b9b7d4f870a38e92c9a181b00f9b33cc8ef5321#code,manage/mintRewards,账面储备模型不等于无条件可兑现外部资产
+E14,Pair源码含997/1000手续费结构,2,VERIFIED_SOURCE_CAPTURED,https://polygonscan.com/address/0x882df4b0fb50a229c3b4124eb18c759911485bfb#code,swap,未重扫旧研究1185样本
+E15,退出旧模型一千本金约51012.0486DAI,3,FORMULA_REPRODUCED_OFFLINE,../dune/8390372.json; ../../reports/evidence-checks.json,2026-08-18T09:28:58Z,静态情景，无未来成交保证
+E16,六合约边界净留存约84703784.5052DAI,3,HISTORICAL_RESULT_SAMPLE,../dune/8391200.json,固定截止2026-08-18T09:28:58Z,不是利润、全部新增用户投入或用户损失
+E17,核心事件检查报告重复键0,3,OLD_QA_RESULT_NOT_RERUN,../dune/8389462.json; ../dune/8389527.json,历史窗口分别记录,不排除循环资金、刷量或模型遗漏
+E18,撤池首位接收方为合约，后续有回Pair路径,3+4,OLD_ATTRIBUTION_MODEL,../dune/8390785.json,窗口24小时/7日,时间窗重用资金，不是唯一币血缘或现实身份
+E19,五份已取源码页面展示同一创建地址,1-reference/3,EXPLORER_METADATA,contracts/manifest.json,各部署交易,不等于当前控制者或最终受益人相同
+E20,Turbine属于核心集合是原研究角色,3,CANDIDATE_NOT_INDEPENDENTLY_REVERIFIED,../dune/8389682.json,six-address boundary,不能把全部现控制关系视为已证实
+E21,官网收益和储备宣传需与版本及合约对应,2-disclosure,INDEXED_DISCLOSURE_ONLY,https://originworld.org/,2026-10-19搜索索引,直取为JS壳，历史PDF链接返回HTML；不能验证经济主张
+E22,诈骗、安全、外部收益和现实受益人不能由现证据确定,5,RESEARCH_BOUNDARY,limitations.md,本轮,没有法律认定或无来源风险评分

@@ -1,0 +1,287 @@
+[
+  {
+    "check": "AMM formula: initial capital 1000",
+    "pass": true,
+    "detail": "output=51012.0485539488264179411298550154805835729742; abs_error_dai=6.4179411298550154805835729742E-12"
+  },
+  {
+    "check": "AMM formula: initial capital 10000",
+    "pass": true,
+    "detail": "output=506920.788469032660120284333380452695901415897; abs_error_dai=1.00120284333380452695901415897E-10"
+  },
+  {
+    "check": "AMM formula: initial capital 100000",
+    "pass": true,
+    "detail": "output=4770012.02904401318583876635468753881105397809; abs_error_dai=1.8583876635468753881105397809E-10"
+  },
+  {
+    "check": "AMM formula: initial capital 1000000",
+    "pass": true,
+    "detail": "output=29995885.5386661711326831518347658200038347359; abs_error_dai=1.1326831518347658200038347359E-9"
+  },
+  {
+    "check": "Rebase rate raw scaling at block 54339984",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "sLGNS index raw scaling at block 54339984",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "Rebase rate raw scaling at block 54354315",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "sLGNS index raw scaling at block 54354315",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "Rebase rate raw scaling at block 54368716",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "sLGNS index raw scaling at block 54368716",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "Rebase rate raw scaling at block 54383119",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "sLGNS index raw scaling at block 54383119",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "Rebase rate raw scaling at block 54397519",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "sLGNS index raw scaling at block 54397519",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "LGNS decimals constructor=9",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "sLGNS decimals constructor=9",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "Rebase ratio uses 1e18",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "Staking has no explicit Unstaked ABI event",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "Token fee initial 5000 / 100000",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "Fee cap exists in setter",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "Treasury withdrawal is permissioned",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "Staking emits recipient Staked",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "case_id": "case-01",
+    "check": "Dune sample block equals explorer",
+    "pass": true
+  },
+  {
+    "case_id": "case-01",
+    "check": "empty calldata and 21000 gas observed",
+    "pass": true
+  },
+  {
+    "case_id": "case-01",
+    "check": "positive integer native value",
+    "pass": true
+  },
+  {
+    "case_id": "case-01",
+    "check": "transaction hash format",
+    "pass": true
+  },
+  {
+    "case_id": "case-01",
+    "check": "explorer mainnet and success record",
+    "pass": true
+  },
+  {
+    "case_id": "case-02",
+    "check": "Dune sample block equals explorer",
+    "pass": true
+  },
+  {
+    "case_id": "case-02",
+    "check": "integer fee identity",
+    "pass": true
+  },
+  {
+    "case_id": "case-02",
+    "check": "transaction hash format",
+    "pass": true
+  },
+  {
+    "case_id": "case-02",
+    "check": "explorer mainnet and success record",
+    "pass": true
+  },
+  {
+    "case_id": "case-03",
+    "check": "Dune sample block equals explorer",
+    "pass": true
+  },
+  {
+    "case_id": "case-03",
+    "check": "transaction hash format",
+    "pass": true
+  },
+  {
+    "case_id": "case-03",
+    "check": "explorer mainnet and success record",
+    "pass": true
+  },
+  {
+    "case_id": "case-04",
+    "check": "Dune sample block equals explorer",
+    "pass": true
+  },
+  {
+    "case_id": "case-04",
+    "check": "known minimal-proxy byte pattern",
+    "pass": true
+  },
+  {
+    "case_id": "case-04",
+    "check": "transaction hash format",
+    "pass": true
+  },
+  {
+    "case_id": "case-04",
+    "check": "explorer mainnet and success record",
+    "pass": true
+  },
+  {
+    "case_id": "case-05",
+    "check": "transaction hash format",
+    "pass": true
+  },
+  {
+    "case_id": "case-05",
+    "check": "explorer mainnet and success record",
+    "pass": true
+  },
+  {
+    "case_id": "case-06",
+    "check": "transaction hash format",
+    "pass": true
+  },
+  {
+    "case_id": "case-06",
+    "check": "explorer mainnet and success record",
+    "pass": true
+  },
+  {
+    "case_id": "case-07",
+    "check": "transaction hash format",
+    "pass": true
+  },
+  {
+    "case_id": "case-07",
+    "check": "explorer mainnet and success record",
+    "pass": true
+  },
+  {
+    "case_id": "case-08",
+    "check": "transaction hash format",
+    "pass": true
+  },
+  {
+    "case_id": "case-08",
+    "check": "explorer mainnet and success record",
+    "pass": true
+  },
+  {
+    "case_id": "case-09",
+    "check": "transaction hash format",
+    "pass": true
+  },
+  {
+    "case_id": "case-09",
+    "check": "explorer mainnet and success record",
+    "pass": true
+  },
+  {
+    "case_id": "case-10",
+    "check": "Dune sample block equals explorer",
+    "pass": true
+  },
+  {
+    "case_id": "case-10",
+    "check": "transaction hash format",
+    "pass": true
+  },
+  {
+    "case_id": "case-10",
+    "check": "explorer mainnet and success record",
+    "pass": true
+  },
+  {
+    "case_id": "case-11",
+    "check": "Dune sample block equals explorer",
+    "pass": true
+  },
+  {
+    "case_id": "case-11",
+    "check": "transaction hash format",
+    "pass": true
+  },
+  {
+    "case_id": "case-11",
+    "check": "explorer mainnet and success record",
+    "pass": true
+  },
+  {
+    "case_id": "case-12",
+    "check": "Swap Mint Transfer displayed together",
+    "pass": true
+  },
+  {
+    "case_id": "case-12",
+    "check": "transaction hash format",
+    "pass": true
+  },
+  {
+    "case_id": "case-12",
+    "check": "explorer mainnet and success record",
+    "pass": true
+  }
+]

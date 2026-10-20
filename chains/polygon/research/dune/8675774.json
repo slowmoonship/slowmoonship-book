@@ -1,0 +1,28 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"query_id\":8675774,\"user_id\":null,\"team_id\":953543,\"version\":1,\"name\":\"Sample 03 - Polygon PoS Trace Sample\",\"description\":\"Sample 50 latest Polygon PoS traces from latest complete UTC day.\",\"tags\":[],\"query\":\"-- Query:\\n-- Polygon PoS Trace Sample ｜ Polygon PoS 执行轨迹样例\\n--\\n-- Purpose:\\n-- Return a small deterministic execution-trace sample for transaction linkage,\\n-- trace path, call classification, gas, value, and two-level status inspection.\\n--\\n-- Source table: polygon.traces\\n-- Grain: One row represents one execution trace/call frame, not one transaction.\\n-- Time range: Latest complete UTC day; one block_date partition only; maximum 50 rows returned.\\n--\\n-- Important caveats:\\n-- Several rows may share tx_hash. trace success and tx_success are distinct;\\n-- null-hash, reward, or system patterns require QA output before interpretation.\\n\\nWITH sampled_traces AS (\\n    SELECT\\n        tr.block_date,\\n        tr.block_time,\\n        tr.block_number,\\n        tr.block_hash,\\n        tr.tx_hash,\\n        tr.tx_index,\\n        tr.trace_address,\\n        tr.type AS trace_type,\\n        tr.call_type,\\n        tr.\\\"from\\\" AS trace_from,\\n        tr.\\\"to\\\" AS trace_to,\\n        tr.address,\\n        tr.value,\\n        tr.gas,\\n        tr.gas_used,\\n        tr.success AS trace_success,\\n        tr.tx_success,\\n        tr.error,\\n        tr.sub_traces,\\n        tr.input,\\n        tr.output\\n    FROM polygon.traces AS tr\\n    WHERE tr.block_date = date_add('day', -1, CURRENT_DATE)\\n    ORDER BY tr.block_number DESC, tr.tx_index DESC, tr.trace_address DESC\\n    LIMIT 50\\n)\\n\\nSELECT\\n    block_date AS block_date,\\n    block_time AS block_time,\\n    block_number AS block_number,\\n    block_hash AS block_hash,\\n    tx_hash AS tx_hash,\\n    tx_index AS transaction_index,\\n    trace_address AS trace_address,\\n    trace_type AS trace_type,\\n    call_type AS call_type,\\n    trace_from AS trace_from,\\n    trace_to AS trace_to,\\n    address AS trace_address_field,\\n    value AS value_raw,\\n    gas AS gas,\\n    gas_used AS gas_used,\\n    trace_success AS trace_success,\\n    tx_success AS transaction_success,\\n    error AS error,\\n    sub_traces AS sub_trace_count,\\n    input AS input_data,\\n    output AS output_data\\nFROM sampled_traces\\nORDER BY block_number DESC, transaction_index DESC, trace_address DESC;\",\"parameters\":[],\"is_archived\":false,\"is_private\":false,\"is_temp\":true,\"latest_execution_id\":\"01M27FNHHJWA9132DGAW0QDV9X\",\"latest_execution_state\":null}"
+      }
+    ],
+    "structuredContent": {
+      "query_id": 8675774,
+      "user_id": null,
+      "team_id": 953543,
+      "version": 1,
+      "name": "Sample 03 - Polygon PoS Trace Sample",
+      "description": "Sample 50 latest Polygon PoS traces from latest complete UTC day.",
+      "tags": [],
+      "query": "-- Query:\n-- Polygon PoS Trace Sample ｜ Polygon PoS 执行轨迹样例\n--\n-- Purpose:\n-- Return a small deterministic execution-trace sample for transaction linkage,\n-- trace path, call classification, gas, value, and two-level status inspection.\n--\n-- Source table: polygon.traces\n-- Grain: One row represents one execution trace/call frame, not one transaction.\n-- Time range: Latest complete UTC day; one block_date partition only; maximum 50 rows returned.\n--\n-- Important caveats:\n-- Several rows may share tx_hash. trace success and tx_success are distinct;\n-- null-hash, reward, or system patterns require QA output before interpretation.\n\nWITH sampled_traces AS (\n    SELECT\n        tr.block_date,\n        tr.block_time,\n        tr.block_number,\n        tr.block_hash,\n        tr.tx_hash,\n        tr.tx_index,\n        tr.trace_address,\n        tr.type AS trace_type,\n        tr.call_type,\n        tr.\"from\" AS trace_from,\n        tr.\"to\" AS trace_to,\n        tr.address,\n        tr.value,\n        tr.gas,\n        tr.gas_used,\n        tr.success AS trace_success,\n        tr.tx_success,\n        tr.error,\n        tr.sub_traces,\n        tr.input,\n        tr.output\n    FROM polygon.traces AS tr\n    WHERE tr.block_date = date_add('day', -1, CURRENT_DATE)\n    ORDER BY tr.block_number DESC, tr.tx_index DESC, tr.trace_address DESC\n    LIMIT 50\n)\n\nSELECT\n    block_date AS block_date,\n    block_time AS block_time,\n    block_number AS block_number,\n    block_hash AS block_hash,\n    tx_hash AS tx_hash,\n    tx_index AS transaction_index,\n    trace_address AS trace_address,\n    trace_type AS trace_type,\n    call_type AS call_type,\n    trace_from AS trace_from,\n    trace_to AS trace_to,\n    address AS trace_address_field,\n    value AS value_raw,\n    gas AS gas,\n    gas_used AS gas_used,\n    trace_success AS trace_success,\n    tx_success AS transaction_success,\n    error AS error,\n    sub_traces AS sub_trace_count,\n    input AS input_data,\n    output AS output_data\nFROM sampled_traces\nORDER BY block_number DESC, transaction_index DESC, trace_address DESC;",
+      "parameters": [],
+      "is_archived": false,
+      "is_private": false,
+      "is_temp": true,
+      "latest_execution_id": "01M27FNHHJWA9132DGAW0QDV9X",
+      "latest_execution_state": null
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

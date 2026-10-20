@@ -1,0 +1,14 @@
+{
+  "id": "eip-1559",
+  "url": "https://eips.ethereum.org/EIPS/eip-1559",
+  "accessed_at": "2026-10-19T02:33:04.350107+00:00",
+  "baseline": "2026-10-19",
+  "status": 200,
+  "final_url": "https://eips.ethereum.org/EIPS/eip-1559",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 65732,
+  "sha256": "453b293845f8faac282a468be0c01594f0a785dde3af34947ee676c085e011b7",
+  "local_archive_path": "research/sources/eip-1559.md",
+  "public_source_url": "https://eips.ethereum.org/EIPS/eip-1559",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY"
+}

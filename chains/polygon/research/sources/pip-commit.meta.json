@@ -1,0 +1,14 @@
+{
+  "id": "pip-commit",
+  "url": "https://api.github.com/repos/0xPolygon/Polygon-Improvement-Proposals/commits?until=2026-10-19T23:59:59Z&per_page=1",
+  "accessed_at": "2026-10-19T02:33:50.584963+00:00",
+  "baseline": "2026-10-19",
+  "status": 200,
+  "final_url": "https://api.github.com/repos/0xPolygon/Polygon-Improvement-Proposals/commits?until=2026-10-19T23:59:59Z&per_page=1",
+  "content_type": "application/json; charset=utf-8",
+  "bytes": 5032,
+  "sha256": "00a891c16a5ef7b2fb8060f2557ac6ef8e09467a880eb77c7fc73d53eb52064f",
+  "local_archive_path": "research/sources/pip-commit.md",
+  "public_source_url": "https://api.github.com/repos/0xPolygon/Polygon-Improvement-Proposals/commits?until=2026-10-19T23:59:59Z&per_page=1",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY"
+}

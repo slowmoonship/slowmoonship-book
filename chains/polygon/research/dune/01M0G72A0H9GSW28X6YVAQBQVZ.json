@@ -1,0 +1,93 @@
+{
+  "result": {
+    "_meta": {
+      "mcp_event_id": "ed802ada-27ea-47b4-bacb-aa3cea363255"
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"executionId\":\"01M0G72A0H9GSW28X6YVAQBQVZ\",\"state\":\"COMPLETED\",\"resultMetadata\":{\"columns\":[{\"name\":\"month\",\"type\":\"date\"},{\"name\":\"exact_liquidity_add_dai\",\"type\":\"double\"},{\"name\":\"exact_liquidity_remove_dai\",\"type\":\"double\"},{\"name\":\"mint_event_count\",\"type\":\"bigint\"},{\"name\":\"burn_event_count\",\"type\":\"bigint\"},{\"name\":\"duplicate_event_rows\",\"type\":\"bigint\"}],\"totalRowCount\":30,\"executionCostCredits\":\"1.245\"},\"data\":{\"rows\":[{\"month\":\"2026-07-01\",\"exact_liquidity_add_dai\":168201.88919161347,\"exact_liquidity_remove_dai\":18340185.62189842,\"mint_event_count\":460,\"burn_event_count\":165,\"duplicate_event_rows\":0},{\"month\":\"2024-04-01\",\"exact_liquidity_add_dai\":335855.41320812557,\"exact_liquidity_remove_dai\":3884.056233978218,\"mint_event_count\":512,\"burn_event_count\":177,\"duplicate_event_rows\":0},{\"month\":\"2024-12-01\",\"exact_liquidity_add_dai\":2914329.8799555996,\"exact_liquidity_remove_dai\":405949.56920254877,\"mint_event_count\":6125,\"burn_event_count\":1328,\"duplicate_event_rows\":0},{\"month\":\"2026-05-01\",\"exact_liquidity_add_dai\":805218.8741510663,\"exact_liquidity_remove_dai\":30886497.309419382,\"mint_event_count\":2155,\"burn_event_count\":145,\"duplicate_event_rows\":0},{\"month\":\"2024-07-01\",\"exact_liquidity_add_dai\":168489.9524466895,\"exact_liquidity_remove_dai\":330675.07658354315,\"mint_event_count\":290,\"burn_event_count\":319,\"duplicate_event_rows\":0}]}}"
+      }
+    ],
+    "structuredContent": {
+      "executionId": "01M0G72A0H9GSW28X6YVAQBQVZ",
+      "state": "COMPLETED",
+      "resultMetadata": {
+        "columns": [
+          {
+            "name": "month",
+            "type": "date"
+          },
+          {
+            "name": "exact_liquidity_add_dai",
+            "type": "double"
+          },
+          {
+            "name": "exact_liquidity_remove_dai",
+            "type": "double"
+          },
+          {
+            "name": "mint_event_count",
+            "type": "bigint"
+          },
+          {
+            "name": "burn_event_count",
+            "type": "bigint"
+          },
+          {
+            "name": "duplicate_event_rows",
+            "type": "bigint"
+          }
+        ],
+        "totalRowCount": 30,
+        "executionCostCredits": "1.245"
+      },
+      "data": {
+        "rows": [
+          {
+            "month": "2026-07-01",
+            "exact_liquidity_add_dai": 168201.88919161347,
+            "exact_liquidity_remove_dai": 18340185.62189842,
+            "mint_event_count": 460,
+            "burn_event_count": 165,
+            "duplicate_event_rows": 0
+          },
+          {
+            "month": "2024-04-01",
+            "exact_liquidity_add_dai": 335855.41320812557,
+            "exact_liquidity_remove_dai": 3884.056233978218,
+            "mint_event_count": 512,
+            "burn_event_count": 177,
+            "duplicate_event_rows": 0
+          },
+          {
+            "month": "2024-12-01",
+            "exact_liquidity_add_dai": 2914329.8799555996,
+            "exact_liquidity_remove_dai": 405949.56920254877,
+            "mint_event_count": 6125,
+            "burn_event_count": 1328,
+            "duplicate_event_rows": 0
+          },
+          {
+            "month": "2026-05-01",
+            "exact_liquidity_add_dai": 805218.8741510663,
+            "exact_liquidity_remove_dai": 30886497.309419382,
+            "mint_event_count": 2155,
+            "burn_event_count": 145,
+            "duplicate_event_rows": 0
+          },
+          {
+            "month": "2024-07-01",
+            "exact_liquidity_add_dai": 168489.9524466895,
+            "exact_liquidity_remove_dai": 330675.07658354315,
+            "mint_event_count": 290,
+            "burn_event_count": 319,
+            "duplicate_event_rows": 0
+          }
+        ]
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

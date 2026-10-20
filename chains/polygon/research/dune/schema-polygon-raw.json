@@ -1,0 +1,824 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"total\":9,\"results\":[{\"full_name\":\"polygon.logs\",\"category\":\"canonical\",\"dataset_type\":\"dune_table\",\"blockchains\":[\"polygon\"],\"partition_columns\":[\"block_date\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"block_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"topic0\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"topic1\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"topic2\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"topic3\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"data\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"tx_from\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"tx_to\",\"nullable\":false,\"type\":\"varbinary\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":841.8245522980638}},{\"full_name\":\"polygon.transactions\",\"category\":\"canonical\",\"dataset_type\":\"dune_table\",\"blockchains\":[\"polygon\"],\"partition_columns\":[\"block_date\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"value\",\"nullable\":false,\"type\":\"decimal(38,0)\"},{\"name\":\"gas_limit\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"gas_price\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"gas_used\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"max_fee_per_gas\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"max_priority_fee_per_gas\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"priority_fee_per_gas\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"nonce\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"index\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"from\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"to\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"block_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"data\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"type\",\"nullable\":false,\"type\":\"varchar\"},{\"name\":\"access_list\",\"nullable\":false,\"type\":\"array(row(address varbinary,storageKeys array(varbinary)))\"},{\"name\":\"block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"authorization_list\",\"nullable\":false,\"type\":\"array(row(chainId bigint,address varbinary,nonce bigint,r varchar,s varchar,yParity varchar))\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":459.6391595340448}},{\"full_name\":\"polygon.creation_traces\",\"category\":\"canonical\",\"dataset_type\":\"dune_table\",\"blockchains\":[\"polygon\"],\"partition_columns\":[\"block_date\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"from\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"code\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"block_month\",\"nullable\":false,\"type\":\"date\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":273.00082834996584}},{\"full_name\":\"polygon.traces\",\"category\":\"canonical\",\"dataset_type\":\"dune_table\",\"blockchains\":[\"polygon\"],\"partition_columns\":[\"block_date\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"value\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"gas\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"gas_used\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"block_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"sub_traces\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"error\",\"nullable\":false,\"type\":\"varchar\"},{\"name\":\"tx_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"from\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"to\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"type\",\"nullable\":false,\"type\":\"varchar\"},{\"name\":\"address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"code\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_type\",\"nullable\":false,\"type\":\"varchar\"},{\"name\":\"input\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"output\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"refund_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"block_date\",\"nullable\":false,\"type\":\"date\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":93.07132330495077}},{\"full_name\":\"polygon.contracts\",\"category\":\"canonical\",\"dataset_type\":\"dune_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"abi_id\",\"nullable\":false,\"type\":\"varchar\"},{\"name\":\"abi\",\"nullable\":false,\"type\":\"array(varchar)\"},{\"name\":\"address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"from\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"code\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"name\",\"nullable\":false,\"type\":\"varchar\"},{\"name\":\"namespace\",\"nullable\":false,\"type\":\"varchar\"},{\"name\":\"dynamic\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"base\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"factory\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"detection_source\",\"nullable\":false,\"type\":\"varchar\"},{\"name\":\"created_at\",\"nullable\":false,\"type\":\"timestamp\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":78.26613099245664}},{\"full_name\":\"polygon.blocks\",\"category\":\"canonical\",\"dataset_type\":\"dune_table\",\"blockchains\":[\"polygon\"],\"partition_columns\":[\"date\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"gas_limit\",\"nullable\":false,\"type\":\"decimal(38,0)\"},{\"name\":\"gas_used\",\"nullable\":false,\"type\":\"decimal(38,0)\"},{\"name\":\"difficulty\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"total_difficulty\",\"nullable\":false,\"type\":\"decimal(38,0)\"},{\"name\":\"size\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"base_fee_per_gas\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"parent_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"miner\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"nonce\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"date\",\"nullable\":false,\"type\":\"date\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":21.52360597579911}},{\"full_name\":\"polygon.logs_decoded\",\"category\":\"canonical\",\"dataset_type\":\"dune_table\",\"blockchains\":[\"polygon\"],\"partition_columns\":[\"contract_name\",\"namespace\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"namespace\",\"nullable\":false,\"type\":\"varchar\"},{\"name\":\"contract_name\",\"nullable\":false,\"type\":\"varchar\"},{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"tx_from\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"tx_to\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"signature\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"event_name\",\"nullable\":false,\"type\":\"varchar\"},{\"name\":\"created_at\",\"nullable\":false,\"type\":\"timestamp\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":2.656232271331044}},{\"full_name\":\"polygon.traces_decoded\",\"category\":\"canonical\",\"dataset_type\":\"dune_table\",\"blockchains\":[\"polygon\"],\"partition_columns\":[\"contract_name\",\"namespace\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"namespace\",\"nullable\":false,\"type\":\"varchar\"},{\"name\":\"contract_name\",\"nullable\":false,\"type\":\"varchar\"},{\"name\":\"to\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"tx_from\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"tx_to\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"signature\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"function_name\",\"nullable\":false,\"type\":\"varchar\"},{\"name\":\"created_at\",\"nullable\":false,\"type\":\"timestamp\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":1.649140642738269}},{\"full_name\":\"polygon.signatures\",\"category\":\"canonical\",\"dataset_type\":\"dune_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"id\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"signature\",\"nullable\":false,\"type\":\"varchar\"},{\"name\":\"abi\",\"nullable\":false,\"type\":\"varchar\"},{\"name\":\"type\",\"nullable\":false,\"type\":\"varchar\"},{\"name\":\"namespace\",\"nullable\":false,\"type\":\"varchar\"},{\"name\":\"name\",\"nullable\":false,\"type\":\"varchar\"},{\"name\":\"created_at\",\"nullable\":false,\"type\":\"timestamp\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":0.4024038461538462}}],\"pagination\":{\"limit\":15,\"offset\":0,\"nextOffset\":null,\"hasMore\":false}}"
+      }
+    ],
+    "structuredContent": {
+      "total": 9,
+      "results": [
+        {
+          "full_name": "polygon.logs",
+          "category": "canonical",
+          "dataset_type": "dune_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "partition_columns": [
+            "block_date"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "block_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "topic0",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "topic1",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "topic2",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "topic3",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "data",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "tx_from",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "tx_to",
+                "nullable": false,
+                "type": "varbinary"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 841.8245522980638
+          }
+        },
+        {
+          "full_name": "polygon.transactions",
+          "category": "canonical",
+          "dataset_type": "dune_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "partition_columns": [
+            "block_date"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "value",
+                "nullable": false,
+                "type": "decimal(38,0)"
+              },
+              {
+                "name": "gas_limit",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "gas_price",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "gas_used",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "max_fee_per_gas",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "max_priority_fee_per_gas",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "priority_fee_per_gas",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "nonce",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "index",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "from",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "to",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "block_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "data",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "type",
+                "nullable": false,
+                "type": "varchar"
+              },
+              {
+                "name": "access_list",
+                "nullable": false,
+                "type": "array(row(address varbinary,storageKeys array(varbinary)))"
+              },
+              {
+                "name": "block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "authorization_list",
+                "nullable": false,
+                "type": "array(row(chainId bigint,address varbinary,nonce bigint,r varchar,s varchar,yParity varchar))"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 459.6391595340448
+          }
+        },
+        {
+          "full_name": "polygon.creation_traces",
+          "category": "canonical",
+          "dataset_type": "dune_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "partition_columns": [
+            "block_date"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "from",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "code",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "block_month",
+                "nullable": false,
+                "type": "date"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 273.00082834996584
+          }
+        },
+        {
+          "full_name": "polygon.traces",
+          "category": "canonical",
+          "dataset_type": "dune_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "partition_columns": [
+            "block_date"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "value",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "gas",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "gas_used",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "block_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "sub_traces",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "error",
+                "nullable": false,
+                "type": "varchar"
+              },
+              {
+                "name": "tx_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "from",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "to",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "type",
+                "nullable": false,
+                "type": "varchar"
+              },
+              {
+                "name": "address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "code",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_type",
+                "nullable": false,
+                "type": "varchar"
+              },
+              {
+                "name": "input",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "output",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "refund_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "block_date",
+                "nullable": false,
+                "type": "date"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 93.07132330495077
+          }
+        },
+        {
+          "full_name": "polygon.contracts",
+          "category": "canonical",
+          "dataset_type": "dune_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "abi_id",
+                "nullable": false,
+                "type": "varchar"
+              },
+              {
+                "name": "abi",
+                "nullable": false,
+                "type": "array(varchar)"
+              },
+              {
+                "name": "address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "from",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "code",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "name",
+                "nullable": false,
+                "type": "varchar"
+              },
+              {
+                "name": "namespace",
+                "nullable": false,
+                "type": "varchar"
+              },
+              {
+                "name": "dynamic",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "base",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "factory",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "detection_source",
+                "nullable": false,
+                "type": "varchar"
+              },
+              {
+                "name": "created_at",
+                "nullable": false,
+                "type": "timestamp"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 78.26613099245664
+          }
+        },
+        {
+          "full_name": "polygon.blocks",
+          "category": "canonical",
+          "dataset_type": "dune_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "partition_columns": [
+            "date"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "gas_limit",
+                "nullable": false,
+                "type": "decimal(38,0)"
+              },
+              {
+                "name": "gas_used",
+                "nullable": false,
+                "type": "decimal(38,0)"
+              },
+              {
+                "name": "difficulty",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "total_difficulty",
+                "nullable": false,
+                "type": "decimal(38,0)"
+              },
+              {
+                "name": "size",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "base_fee_per_gas",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "parent_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "miner",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "nonce",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "date",
+                "nullable": false,
+                "type": "date"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 21.52360597579911
+          }
+        },
+        {
+          "full_name": "polygon.logs_decoded",
+          "category": "canonical",
+          "dataset_type": "dune_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "partition_columns": [
+            "contract_name",
+            "namespace"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "namespace",
+                "nullable": false,
+                "type": "varchar"
+              },
+              {
+                "name": "contract_name",
+                "nullable": false,
+                "type": "varchar"
+              },
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "tx_from",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "tx_to",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "signature",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "event_name",
+                "nullable": false,
+                "type": "varchar"
+              },
+              {
+                "name": "created_at",
+                "nullable": false,
+                "type": "timestamp"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 2.656232271331044
+          }
+        },
+        {
+          "full_name": "polygon.traces_decoded",
+          "category": "canonical",
+          "dataset_type": "dune_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "partition_columns": [
+            "contract_name",
+            "namespace"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "namespace",
+                "nullable": false,
+                "type": "varchar"
+              },
+              {
+                "name": "contract_name",
+                "nullable": false,
+                "type": "varchar"
+              },
+              {
+                "name": "to",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "tx_from",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "tx_to",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "signature",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "function_name",
+                "nullable": false,
+                "type": "varchar"
+              },
+              {
+                "name": "created_at",
+                "nullable": false,
+                "type": "timestamp"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 1.649140642738269
+          }
+        },
+        {
+          "full_name": "polygon.signatures",
+          "category": "canonical",
+          "dataset_type": "dune_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "id",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "signature",
+                "nullable": false,
+                "type": "varchar"
+              },
+              {
+                "name": "abi",
+                "nullable": false,
+                "type": "varchar"
+              },
+              {
+                "name": "type",
+                "nullable": false,
+                "type": "varchar"
+              },
+              {
+                "name": "namespace",
+                "nullable": false,
+                "type": "varchar"
+              },
+              {
+                "name": "name",
+                "nullable": false,
+                "type": "varchar"
+              },
+              {
+                "name": "created_at",
+                "nullable": false,
+                "type": "timestamp"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 0.4024038461538462
+          }
+        }
+      ],
+      "pagination": {
+        "limit": 15,
+        "offset": 0,
+        "nextOffset": null,
+        "hasMore": false
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

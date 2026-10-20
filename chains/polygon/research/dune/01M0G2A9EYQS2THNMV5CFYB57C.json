@@ -1,0 +1,399 @@
+{
+  "result": {
+    "_meta": {
+      "mcp_event_id": "2c4e2c77-3fee-42d8-b318-77f99da99444"
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"executionId\":\"01M0G2A9EYQS2THNMV5CFYB57C\",\"state\":\"COMPLETED\",\"resultMetadata\":{\"columns\":[{\"name\":\"row_type\",\"type\":\"varchar(11)\"},{\"name\":\"rank_number\",\"type\":\"bigint\"},{\"name\":\"address\",\"type\":\"varchar\"},{\"name\":\"address_type\",\"type\":\"varchar\"},{\"name\":\"dune_label\",\"type\":\"varchar\"},{\"name\":\"contract_or_eoa\",\"type\":\"varchar\"},{\"name\":\"creator_address\",\"type\":\"varchar\"},{\"name\":\"proxy_status\",\"type\":\"varchar\"},{\"name\":\"proxy_implementation\",\"type\":\"varchar\"},{\"name\":\"remove_count\",\"type\":\"bigint\"},{\"name\":\"total_dai_removed\",\"type\":\"double\"},{\"name\":\"total_lgns_removed\",\"type\":\"double\"},{\"name\":\"first_remove_time\",\"type\":\"timestamp(3) with time zone\"},{\"name\":\"last_remove_time\",\"type\":\"timestamp(3) with time zone\"},{\"name\":\"distinct_tx_from\",\"type\":\"bigint\"},{\"name\":\"top_tx_from\",\"type\":\"varchar\"},{\"name\":\"top_sender\",\"type\":\"varchar\"},{\"name\":\"main_caller\",\"type\":\"varchar\"},{\"name\":\"main_caller_call_count\",\"type\":\"bigint\"},{\"name\":\"first_hop_24h_destination\",\"type\":\"varchar\"},{\"name\":\"first_hop_24h_destination_dai\",\"type\":\"double\"},{\"name\":\"outbound_24h_dai\",\"type\":\"double\"},{\"name\":\"first_hop_7d_destination\",\"type\":\"varchar\"},{\"name\":\"first_hop_7d_destination_dai\",\"type\":\"double\"},{\"name\":\"outbound_7d_dai\",\"type\":\"double\"},{\"name\":\"window_24h_status\",\"type\":\"varchar\"},{\"name\":\"window_7d_status\",\"type\":\"varchar\"},{\"name\":\"source_remover_count_24h\",\"type\":\"bigint\"},{\"name\":\"source_remover_count_7d\",\"type\":\"bigint\"},{\"name\":\"destination_transfer_count_24h\",\"type\":\"bigint\"},{\"name\":\"destination_transfer_count_7d\",\"type\":\"bigint\"},{\"name\":\"destination_dai_received_24h\",\"type\":\"double\"},{\"name\":\"destination_dai_received_7d\",\"type\":\"double\"},{\"name\":\"destination_rank_7d\",\"type\":\"bigint\"},{\"name\":\"unlabeled_address_count\",\"type\":\"bigint\"},{\"name\":\"unknown_type_count\",\"type\":\"bigint\"},{\"name\":\"chart_remover_label\",\"type\":\"varchar\"},{\"name\":\"chart_remover_dai\",\"type\":\"double\"},{\"name\":\"chart_destination_label\",\"type\":\"varchar\"},{\"name\":\"chart_destination_dai\",\"type\":\"double\"}],\"totalRowCount\":40,\"executionCostCredits\":\"0.648\"},\"data\":{\"rows\":[{\"row_type\":\"remover\",\"rank_number\":1,\"address\":\"0x1D6A7F2CB262AFBB1204BBFCBB3DB642662B15C3\",\"address_type\":\"contract\",\"dune_label\":null,\"contract_or_eoa\":\"Contract\",\"creator_address\":\"0x5E4E7CADB7C3D10E3BC96FB830A724448D9B4351\",\"proxy_status\":\"not_confirmed_from_available_dune_metadata\",\"proxy_implementation\":null,\"remove_count\":644,\"total_dai_removed\":163646064.96504614,\"total_lgns_removed\":20099687.175168633,\"first_remove_time\":\"2025-08-07 20:06:31.000 UTC\",\"last_remove_time\":\"2026-03-19 15:14:25.000 UTC\",\"distinct_tx_from\":1,\"top_tx_from\":\"0x9DA64DF74565861708781B9AD2E559B7328B97C4\",\"top_sender\":\"0xA5E0829CACED8FFDD4DE3C43696C57F7D7A678FF\",\"main_caller\":\"0x9DA64DF74565861708781B9AD2E559B7328B97C4\",\"main_caller_call_count\":1262,\"first_hop_24h_destination\":\"0x882DF4B0FB50A229C3B4124EB18C759911485BFB\",\"first_hop_24h_destination_dai\":163646087.4227438,\"outbound_24h_dai\":163646087.4227438,\"first_hop_7d_destination\":\"0x882DF4B0FB50A229C3B4124EB18C759911485BFB\",\"first_hop_7d_destination_dai\":163646087.4227438,\"outbound_7d_dai\":163646087.4227438,\"window_24h_status\":\"complete_for_latest_burn\",\"window_7d_status\":\"complete_for_latest_burn\",\"source_remover_count_24h\":null,\"source_remover_count_7d\":null,\"destination_transfer_count_24h\":null,\"destination_transfer_count_7d\":null,\"destination_dai_received_24h\":null,\"destination_dai_received_7d\":null,\"destination_rank_7d\":null,\"unlabeled_address_count\":20,\"unknown_type_count\":0,\"chart_remover_label\":\"Rank 1 | 0x1D6A7F2C… | contract\",\"chart_remover_dai\":163646064.96504614,\"chart_destination_label\":null,\"chart_destination_dai\":null},{\"row_type\":\"remover\",\"rank_number\":2,\"address\":\"0xC7AD85A57181B9783B1284D97AAC37C447803382\",\"address_type\":\"EOA\",\"dune_label\":null,\"contract_or_eoa\":\"EOA\",\"creator_address\":null,\"proxy_status\":\"not_applicable_eoa\",\"proxy_implementation\":null,\"remove_count\":533,\"total_dai_removed\":121278328.10489845,\"total_lgns_removed\":39509954.19500705,\"first_remove_time\":\"2026-03-19 23:40:59.000 UTC\",\"last_remove_time\":\"2026-08-18 03:59:09.000 UTC\",\"distinct_tx_from\":1,\"top_tx_from\":\"0xE649A923A1F3F029C562915A9621DCBA48B74D80\",\"top_sender\":\"0xA5E0829CACED8FFDD4DE3C43696C57F7D7A678FF\",\"main_caller\":null,\"main_caller_call_count\":null,\"first_hop_24h_destination\":\"0x882DF4B0FB50A229C3B4124EB18C759911485BFB\",\"first_hop_24h_destination_dai\":121278328.10489835,\"outbound_24h_dai\":121278328.10489835,\"first_hop_7d_destination\":\"0x882DF4B0FB50A229C3B4124EB18C759911485BFB\",\"first_hop_7d_destination_dai\":121278328.10489835,\"outbound_7d_dai\":121278328.10489835,\"window_24h_status\":\"right_censored_at_fixed_cutoff\",\"window_7d_status\":\"right_censored_at_fixed_cutoff\",\"source_remover_count_24h\":null,\"source_remover_count_7d\":null,\"destination_transfer_count_24h\":null,\"destination_transfer_count_7d\":null,\"destination_dai_received_24h\":null,\"destination_dai_received_7d\":null,\"destination_rank_7d\":null,\"unlabeled_address_count\":20,\"unknown_type_count\":0,\"chart_remover_label\":\"Rank 2 | 0xC7AD85A5… | EOA\",\"chart_remover_dai\":121278328.10489845,\"chart_destination_label\":null,\"chart_destination_dai\":null},{\"row_type\":\"remover\",\"rank_number\":3,\"address\":\"0x98081C719F3F77E997833B709448180D1C393348\",\"address_type\":\"EOA\",\"dune_label\":null,\"contract_or_eoa\":\"EOA\",\"creator_address\":null,\"proxy_status\":\"not_applicable_eoa\",\"proxy_implementation\":null,\"remove_count\":522,\"total_dai_removed\":3903199.359861113,\"total_lgns_removed\":712273.3765417672,\"first_remove_time\":\"2025-07-04 03:42:33.000 UTC\",\"last_remove_time\":\"2026-08-18 04:44:42.000 UTC\",\"distinct_tx_from\":3,\"top_tx_from\":\"0x98081C719F3F77E997833B709448180D1C393348\",\"top_sender\":\"0xA5E0829CACED8FFDD4DE3C43696C57F7D7A678FF\",\"main_caller\":null,\"main_caller_call_count\":null,\"first_hop_24h_destination\":\"0xBC8F3DA0BD42E1F2509CD8671CE7C7E5F7FD39C8\",\"first_hop_24h_destination_dai\":4001557.137427054,\"outbound_24h_dai\":7853727.459052494,\"first_hop_7d_destination\":\"0xBC8F3DA0BD42E1F2509CD8671CE7C7E5F7FD39C8\",\"first_hop_7d_destination_dai\":4001557.137427054,\"outbound_7d_dai\":7853727.459052494,\"window_24h_status\":\"right_censored_at_fixed_cutoff\",\"window_7d_status\":\"right_censored_at_fixed_cutoff\",\"source_remover_count_24h\":null,\"source_remover_count_7d\":null,\"destination_transfer_count_24h\":null,\"destination_transfer_count_7d\":null,\"destination_dai_received_24h\":null,\"destination_dai_received_7d\":null,\"destination_rank_7d\":null,\"unlabeled_address_count\":20,\"unknown_type_count\":0,\"chart_remover_label\":\"Rank 3 | 0x98081C71… | EOA\",\"chart_remover_dai\":3903199.359861113,\"chart_destination_label\":null,\"chart_destination_dai\":null},{\"row_type\":\"remover\",\"rank_number\":4,\"address\":\"0xEEEABF5304A7ED876E7A28EC016BB57AE6E89F26\",\"address_type\":\"contract\",\"dune_label\":null,\"contract_or_eoa\":\"Contract\",\"creator_address\":\"0xCD400DC3C62BB07E01BCF368F213E4A9349664DA\",\"proxy_status\":\"not_confirmed_from_available_dune_metadata\",\"proxy_implementation\":null,\"remove_count\":560,\"total_dai_removed\":2699528.350651494,\"total_lgns_removed\":120169.871965506,\"first_remove_time\":\"2024-05-21 07:28:26.000 UTC\",\"last_remove_time\":\"2024-12-21 19:51:43.000 UTC\",\"distinct_tx_from\":1,\"top_tx_from\":\"0xCD400DC3C62BB07E01BCF368F213E4A9349664DA\",\"top_sender\":\"0xA5E0829CACED8FFDD4DE3C43696C57F7D7A678FF\",\"main_caller\":null,\"main_caller_call_count\":null,\"first_hop_24h_destination\":\"0x882DF4B0FB50A229C3B4124EB18C759911485BFB\",\"first_hop_24h_destination_dai\":2699528.350651495,\"outbound_24h_dai\":2699528.350651495,\"first_hop_7d_destination\":\"0x882DF4B0FB50A229C3B4124EB18C759911485BFB\",\"first_hop_7d_destination_dai\":2699528.350651495,\"outbound_7d_dai\":2699528.350651495,\"window_24h_status\":\"complete_for_latest_burn\",\"window_7d_status\":\"complete_for_latest_burn\",\"source_remover_count_24h\":null,\"source_remover_count_7d\":null,\"destination_transfer_count_24h\":null,\"destination_transfer_count_7d\":null,\"destination_dai_received_24h\":null,\"destination_dai_received_7d\":null,\"destination_rank_7d\":null,\"unlabeled_address_count\":20,\"unknown_type_count\":0,\"chart_remover_label\":\"Rank 4 | 0xEEEABF53… | contract\",\"chart_remover_dai\":2699528.350651494,\"chart_destination_label\":null,\"chart_destination_dai\":null},{\"row_type\":\"remover\",\"rank_number\":5,\"address\":\"0x44574D53474729F2949A7ECFB68B0641CFDA4AA8\",\"address_type\":\"contract\",\"dune_label\":null,\"contract_or_eoa\":\"Contract\",\"creator_address\":\"0x476307DAC3FD170166E007FCAA14F0A129721463\",\"proxy_status\":\"not_confirmed_from_available_dune_metadata\",\"proxy_implementation\":null,\"remove_count\":4738,\"total_dai_removed\":594266.2523797543,\"total_lgns_removed\":34158.387041878996,\"first_remove_time\":\"2024-10-01 12:14:24.000 UTC\",\"last_remove_time\":\"2025-07-02 20:36:07.000 UTC\",\"distinct_tx_from\":19,\"top_tx_from\":\"0x6B75AE9D7C5AB074EA0438458850141C6E8FC057\",\"top_sender\":\"0x44574D53474729F2949A7ECFB68B0641CFDA4AA8\",\"main_caller\":null,\"main_caller_call_count\":null,\"first_hop_24h_destination\":\"0x59153F27EEFE07E5ECE4F9304EBBA1DA6F53CA88\",\"first_hop_24h_destination_dai\":835373.592494973,\"outbound_24h_dai\":1009422.3769842824,\"first_hop_7d_destination\":\"0x59153F27EEFE07E5ECE4F9304EBBA1DA6F53CA88\",\"first_hop_7d_destination_dai\":836060.2777727332,\"outbound_7d_dai\":1010109.0622620427,\"window_24h_status\":\"complete_for_latest_burn\",\"window_7d_status\":\"complete_for_latest_burn\",\"source_remover_count_24h\":null,\"source_remover_count_7d\":null,\"destination_transfer_count_24h\":null,\"destination_transfer_count_7d\":null,\"destination_dai_received_24h\":null,\"destination_dai_received_7d\":null,\"destination_rank_7d\":null,\"unlabeled_address_count\":20,\"unknown_type_count\":0,\"chart_remover_label\":\"Rank 5 | 0x44574D53… | contract\",\"chart_remover_dai\":594266.2523797543,\"chart_destination_label\":null,\"chart_destination_dai\":null}]}}"
+      }
+    ],
+    "structuredContent": {
+      "executionId": "01M0G2A9EYQS2THNMV5CFYB57C",
+      "state": "COMPLETED",
+      "resultMetadata": {
+        "columns": [
+          {
+            "name": "row_type",
+            "type": "varchar(11)"
+          },
+          {
+            "name": "rank_number",
+            "type": "bigint"
+          },
+          {
+            "name": "address",
+            "type": "varchar"
+          },
+          {
+            "name": "address_type",
+            "type": "varchar"
+          },
+          {
+            "name": "dune_label",
+            "type": "varchar"
+          },
+          {
+            "name": "contract_or_eoa",
+            "type": "varchar"
+          },
+          {
+            "name": "creator_address",
+            "type": "varchar"
+          },
+          {
+            "name": "proxy_status",
+            "type": "varchar"
+          },
+          {
+            "name": "proxy_implementation",
+            "type": "varchar"
+          },
+          {
+            "name": "remove_count",
+            "type": "bigint"
+          },
+          {
+            "name": "total_dai_removed",
+            "type": "double"
+          },
+          {
+            "name": "total_lgns_removed",
+            "type": "double"
+          },
+          {
+            "name": "first_remove_time",
+            "type": "timestamp(3) with time zone"
+          },
+          {
+            "name": "last_remove_time",
+            "type": "timestamp(3) with time zone"
+          },
+          {
+            "name": "distinct_tx_from",
+            "type": "bigint"
+          },
+          {
+            "name": "top_tx_from",
+            "type": "varchar"
+          },
+          {
+            "name": "top_sender",
+            "type": "varchar"
+          },
+          {
+            "name": "main_caller",
+            "type": "varchar"
+          },
+          {
+            "name": "main_caller_call_count",
+            "type": "bigint"
+          },
+          {
+            "name": "first_hop_24h_destination",
+            "type": "varchar"
+          },
+          {
+            "name": "first_hop_24h_destination_dai",
+            "type": "double"
+          },
+          {
+            "name": "outbound_24h_dai",
+            "type": "double"
+          },
+          {
+            "name": "first_hop_7d_destination",
+            "type": "varchar"
+          },
+          {
+            "name": "first_hop_7d_destination_dai",
+            "type": "double"
+          },
+          {
+            "name": "outbound_7d_dai",
+            "type": "double"
+          },
+          {
+            "name": "window_24h_status",
+            "type": "varchar"
+          },
+          {
+            "name": "window_7d_status",
+            "type": "varchar"
+          },
+          {
+            "name": "source_remover_count_24h",
+            "type": "bigint"
+          },
+          {
+            "name": "source_remover_count_7d",
+            "type": "bigint"
+          },
+          {
+            "name": "destination_transfer_count_24h",
+            "type": "bigint"
+          },
+          {
+            "name": "destination_transfer_count_7d",
+            "type": "bigint"
+          },
+          {
+            "name": "destination_dai_received_24h",
+            "type": "double"
+          },
+          {
+            "name": "destination_dai_received_7d",
+            "type": "double"
+          },
+          {
+            "name": "destination_rank_7d",
+            "type": "bigint"
+          },
+          {
+            "name": "unlabeled_address_count",
+            "type": "bigint"
+          },
+          {
+            "name": "unknown_type_count",
+            "type": "bigint"
+          },
+          {
+            "name": "chart_remover_label",
+            "type": "varchar"
+          },
+          {
+            "name": "chart_remover_dai",
+            "type": "double"
+          },
+          {
+            "name": "chart_destination_label",
+            "type": "varchar"
+          },
+          {
+            "name": "chart_destination_dai",
+            "type": "double"
+          }
+        ],
+        "totalRowCount": 40,
+        "executionCostCredits": "0.648"
+      },
+      "data": {
+        "rows": [
+          {
+            "row_type": "remover",
+            "rank_number": 1,
+            "address": "0x1D6A7F2CB262AFBB1204BBFCBB3DB642662B15C3",
+            "address_type": "contract",
+            "dune_label": null,
+            "contract_or_eoa": "Contract",
+            "creator_address": "0x5E4E7CADB7C3D10E3BC96FB830A724448D9B4351",
+            "proxy_status": "not_confirmed_from_available_dune_metadata",
+            "proxy_implementation": null,
+            "remove_count": 644,
+            "total_dai_removed": 163646064.96504614,
+            "total_lgns_removed": 20099687.175168633,
+            "first_remove_time": "2025-08-07 20:06:31.000 UTC",
+            "last_remove_time": "2026-03-19 15:14:25.000 UTC",
+            "distinct_tx_from": 1,
+            "top_tx_from": "0x9DA64DF74565861708781B9AD2E559B7328B97C4",
+            "top_sender": "0xA5E0829CACED8FFDD4DE3C43696C57F7D7A678FF",
+            "main_caller": "0x9DA64DF74565861708781B9AD2E559B7328B97C4",
+            "main_caller_call_count": 1262,
+            "first_hop_24h_destination": "0x882DF4B0FB50A229C3B4124EB18C759911485BFB",
+            "first_hop_24h_destination_dai": 163646087.4227438,
+            "outbound_24h_dai": 163646087.4227438,
+            "first_hop_7d_destination": "0x882DF4B0FB50A229C3B4124EB18C759911485BFB",
+            "first_hop_7d_destination_dai": 163646087.4227438,
+            "outbound_7d_dai": 163646087.4227438,
+            "window_24h_status": "complete_for_latest_burn",
+            "window_7d_status": "complete_for_latest_burn",
+            "source_remover_count_24h": null,
+            "source_remover_count_7d": null,
+            "destination_transfer_count_24h": null,
+            "destination_transfer_count_7d": null,
+            "destination_dai_received_24h": null,
+            "destination_dai_received_7d": null,
+            "destination_rank_7d": null,
+            "unlabeled_address_count": 20,
+            "unknown_type_count": 0,
+            "chart_remover_label": "Rank 1 | 0x1D6A7F2C… | contract",
+            "chart_remover_dai": 163646064.96504614,
+            "chart_destination_label": null,
+            "chart_destination_dai": null
+          },
+          {
+            "row_type": "remover",
+            "rank_number": 2,
+            "address": "0xC7AD85A57181B9783B1284D97AAC37C447803382",
+            "address_type": "EOA",
+            "dune_label": null,
+            "contract_or_eoa": "EOA",
+            "creator_address": null,
+            "proxy_status": "not_applicable_eoa",
+            "proxy_implementation": null,
+            "remove_count": 533,
+            "total_dai_removed": 121278328.10489845,
+            "total_lgns_removed": 39509954.19500705,
+            "first_remove_time": "2026-03-19 23:40:59.000 UTC",
+            "last_remove_time": "2026-08-18 03:59:09.000 UTC",
+            "distinct_tx_from": 1,
+            "top_tx_from": "0xE649A923A1F3F029C562915A9621DCBA48B74D80",
+            "top_sender": "0xA5E0829CACED8FFDD4DE3C43696C57F7D7A678FF",
+            "main_caller": null,
+            "main_caller_call_count": null,
+            "first_hop_24h_destination": "0x882DF4B0FB50A229C3B4124EB18C759911485BFB",
+            "first_hop_24h_destination_dai": 121278328.10489835,
+            "outbound_24h_dai": 121278328.10489835,
+            "first_hop_7d_destination": "0x882DF4B0FB50A229C3B4124EB18C759911485BFB",
+            "first_hop_7d_destination_dai": 121278328.10489835,
+            "outbound_7d_dai": 121278328.10489835,
+            "window_24h_status": "right_censored_at_fixed_cutoff",
+            "window_7d_status": "right_censored_at_fixed_cutoff",
+            "source_remover_count_24h": null,
+            "source_remover_count_7d": null,
+            "destination_transfer_count_24h": null,
+            "destination_transfer_count_7d": null,
+            "destination_dai_received_24h": null,
+            "destination_dai_received_7d": null,
+            "destination_rank_7d": null,
+            "unlabeled_address_count": 20,
+            "unknown_type_count": 0,
+            "chart_remover_label": "Rank 2 | 0xC7AD85A5… | EOA",
+            "chart_remover_dai": 121278328.10489845,
+            "chart_destination_label": null,
+            "chart_destination_dai": null
+          },
+          {
+            "row_type": "remover",
+            "rank_number": 3,
+            "address": "0x98081C719F3F77E997833B709448180D1C393348",
+            "address_type": "EOA",
+            "dune_label": null,
+            "contract_or_eoa": "EOA",
+            "creator_address": null,
+            "proxy_status": "not_applicable_eoa",
+            "proxy_implementation": null,
+            "remove_count": 522,
+            "total_dai_removed": 3903199.359861113,
+            "total_lgns_removed": 712273.3765417672,
+            "first_remove_time": "2025-07-04 03:42:33.000 UTC",
+            "last_remove_time": "2026-08-18 04:44:42.000 UTC",
+            "distinct_tx_from": 3,
+            "top_tx_from": "0x98081C719F3F77E997833B709448180D1C393348",
+            "top_sender": "0xA5E0829CACED8FFDD4DE3C43696C57F7D7A678FF",
+            "main_caller": null,
+            "main_caller_call_count": null,
+            "first_hop_24h_destination": "0xBC8F3DA0BD42E1F2509CD8671CE7C7E5F7FD39C8",
+            "first_hop_24h_destination_dai": 4001557.137427054,
+            "outbound_24h_dai": 7853727.459052494,
+            "first_hop_7d_destination": "0xBC8F3DA0BD42E1F2509CD8671CE7C7E5F7FD39C8",
+            "first_hop_7d_destination_dai": 4001557.137427054,
+            "outbound_7d_dai": 7853727.459052494,
+            "window_24h_status": "right_censored_at_fixed_cutoff",
+            "window_7d_status": "right_censored_at_fixed_cutoff",
+            "source_remover_count_24h": null,
+            "source_remover_count_7d": null,
+            "destination_transfer_count_24h": null,
+            "destination_transfer_count_7d": null,
+            "destination_dai_received_24h": null,
+            "destination_dai_received_7d": null,
+            "destination_rank_7d": null,
+            "unlabeled_address_count": 20,
+            "unknown_type_count": 0,
+            "chart_remover_label": "Rank 3 | 0x98081C71… | EOA",
+            "chart_remover_dai": 3903199.359861113,
+            "chart_destination_label": null,
+            "chart_destination_dai": null
+          },
+          {
+            "row_type": "remover",
+            "rank_number": 4,
+            "address": "0xEEEABF5304A7ED876E7A28EC016BB57AE6E89F26",
+            "address_type": "contract",
+            "dune_label": null,
+            "contract_or_eoa": "Contract",
+            "creator_address": "0xCD400DC3C62BB07E01BCF368F213E4A9349664DA",
+            "proxy_status": "not_confirmed_from_available_dune_metadata",
+            "proxy_implementation": null,
+            "remove_count": 560,
+            "total_dai_removed": 2699528.350651494,
+            "total_lgns_removed": 120169.871965506,
+            "first_remove_time": "2024-05-21 07:28:26.000 UTC",
+            "last_remove_time": "2024-12-21 19:51:43.000 UTC",
+            "distinct_tx_from": 1,
+            "top_tx_from": "0xCD400DC3C62BB07E01BCF368F213E4A9349664DA",
+            "top_sender": "0xA5E0829CACED8FFDD4DE3C43696C57F7D7A678FF",
+            "main_caller": null,
+            "main_caller_call_count": null,
+            "first_hop_24h_destination": "0x882DF4B0FB50A229C3B4124EB18C759911485BFB",
+            "first_hop_24h_destination_dai": 2699528.350651495,
+            "outbound_24h_dai": 2699528.350651495,
+            "first_hop_7d_destination": "0x882DF4B0FB50A229C3B4124EB18C759911485BFB",
+            "first_hop_7d_destination_dai": 2699528.350651495,
+            "outbound_7d_dai": 2699528.350651495,
+            "window_24h_status": "complete_for_latest_burn",
+            "window_7d_status": "complete_for_latest_burn",
+            "source_remover_count_24h": null,
+            "source_remover_count_7d": null,
+            "destination_transfer_count_24h": null,
+            "destination_transfer_count_7d": null,
+            "destination_dai_received_24h": null,
+            "destination_dai_received_7d": null,
+            "destination_rank_7d": null,
+            "unlabeled_address_count": 20,
+            "unknown_type_count": 0,
+            "chart_remover_label": "Rank 4 | 0xEEEABF53… | contract",
+            "chart_remover_dai": 2699528.350651494,
+            "chart_destination_label": null,
+            "chart_destination_dai": null
+          },
+          {
+            "row_type": "remover",
+            "rank_number": 5,
+            "address": "0x44574D53474729F2949A7ECFB68B0641CFDA4AA8",
+            "address_type": "contract",
+            "dune_label": null,
+            "contract_or_eoa": "Contract",
+            "creator_address": "0x476307DAC3FD170166E007FCAA14F0A129721463",
+            "proxy_status": "not_confirmed_from_available_dune_metadata",
+            "proxy_implementation": null,
+            "remove_count": 4738,
+            "total_dai_removed": 594266.2523797543,
+            "total_lgns_removed": 34158.387041878996,
+            "first_remove_time": "2024-10-01 12:14:24.000 UTC",
+            "last_remove_time": "2025-07-02 20:36:07.000 UTC",
+            "distinct_tx_from": 19,
+            "top_tx_from": "0x6B75AE9D7C5AB074EA0438458850141C6E8FC057",
+            "top_sender": "0x44574D53474729F2949A7ECFB68B0641CFDA4AA8",
+            "main_caller": null,
+            "main_caller_call_count": null,
+            "first_hop_24h_destination": "0x59153F27EEFE07E5ECE4F9304EBBA1DA6F53CA88",
+            "first_hop_24h_destination_dai": 835373.592494973,
+            "outbound_24h_dai": 1009422.3769842824,
+            "first_hop_7d_destination": "0x59153F27EEFE07E5ECE4F9304EBBA1DA6F53CA88",
+            "first_hop_7d_destination_dai": 836060.2777727332,
+            "outbound_7d_dai": 1010109.0622620427,
+            "window_24h_status": "complete_for_latest_burn",
+            "window_7d_status": "complete_for_latest_burn",
+            "source_remover_count_24h": null,
+            "source_remover_count_7d": null,
+            "destination_transfer_count_24h": null,
+            "destination_transfer_count_7d": null,
+            "destination_dai_received_24h": null,
+            "destination_dai_received_7d": null,
+            "destination_rank_7d": null,
+            "unlabeled_address_count": 20,
+            "unknown_type_count": 0,
+            "chart_remover_label": "Rank 5 | 0x44574D53… | contract",
+            "chart_remover_dai": 594266.2523797543,
+            "chart_destination_label": null,
+            "chart_destination_dai": null
+          }
+        ]
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

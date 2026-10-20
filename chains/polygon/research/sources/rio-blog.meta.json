@@ -1,0 +1,14 @@
+{
+  "id": "rio-blog",
+  "url": "https://polygon.technology/blog/polygon-launches-major-payments-upgrade-with-rio-faster-lighter-and-easier-to-build",
+  "accessed_at": "2026-10-19T02:33:02.126864+00:00",
+  "baseline": "2026-10-19",
+  "status": 200,
+  "final_url": "https://polygon.technology/blog/polygon-launches-major-payments-upgrade-with-rio-faster-lighter-and-easier-to-build",
+  "content_type": "text/html",
+  "bytes": 235293,
+  "sha256": "f2fbf89ca7396c952e68f6d7a4d034a20461020ab5e24ae0d38fcff6d10ec997",
+  "local_archive_path": "research/sources/rio-blog.md",
+  "public_source_url": "https://polygon.technology/blog/polygon-launches-major-payments-upgrade-with-rio-faster-lighter-and-easier-to-build",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY"
+}

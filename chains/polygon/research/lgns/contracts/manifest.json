@@ -1,0 +1,112 @@
+[
+  {
+    "name": "lgns",
+    "local_archive_source_html": "research/sources/lgns-code-scan.md",
+    "public_source_url": "https://polygonscan.com/address/0xeb51d9a39ad5eef215dc0bf39a8821ff804a0f01#code",
+    "publication_delivery": "SOURCE_URL_AND_HASH_ONLY",
+    "source_status": "EXPLORER_VERIFIED_SOURCE_CAPTURED_NOT_RECOMPILED",
+    "abi_captured": true,
+    "creation_tx": "0x1074b961d4f3b1fb9519f91e18c10d769600a61258affdaeffb5d504168365da",
+    "creator": "0x5E4E7CaDB7c3d10E3bC96fb830A724448d9B4351",
+    "archived_source_files": [
+      {
+        "name": "@openzeppelin/contracts/access/AccessControl.sol",
+        "sha256": "dcebb99daefb7b6c2b5ddb1052f670cf9986240e5549da4ad47b5072857c620e",
+        "license_marker": "// SPDX-License-Identifier: MIT"
+      },
+      {
+        "name": "@openzeppelin/contracts/utils/Address.sol",
+        "sha256": "11ad5e3e21434e00c4ceba1f5a977b7a68bdd7d16b849276ce4ff4495129eec7",
+        "license_marker": "// SPDX-License-Identifier: MIT"
+      },
+      {
+        "name": "@openzeppelin/contracts/utils/Context.sol",
+        "sha256": "9a3d1e5be0f0ace13e2d9aa1d0a1c3a6574983983ad5de94fc412f878bf7fe89",
+        "license_marker": "// SPDX-License-Identifier: MIT"
+      },
+      {
+        "name": "@openzeppelin/contracts/utils/EnumerableSet.sol",
+        "sha256": "c8b73a000476872a00f6153d66be31a4a99b7565068f05336129748bfad704ea",
+        "license_marker": "// SPDX-License-Identifier: MIT"
+      },
+      {
+        "name": "contracts/ERC20.sol",
+        "sha256": "088c2c9cff57162d16a4b88da3bd1b8336ff6c748ba88962e2398df6628c3fb2",
+        "license_marker": "// SPDX-License-Identifier: AGPL-3.0-or-later"
+      },
+      {
+        "name": "settings.json",
+        "sha256": "eaa7e499283118dee7b34124f3ada853743c8c83891e04380dade06a9971d14a",
+        "license_marker": "NOT_DECLARED_IN_HEADER"
+      }
+    ]
+  },
+  {
+    "name": "slgns",
+    "local_archive_source_html": "research/sources/slgns-code-scan.md",
+    "public_source_url": "https://polygonscan.com/address/0x99a57e6c8558bc6689f894e068733adf83c19725#code",
+    "publication_delivery": "SOURCE_URL_AND_HASH_ONLY",
+    "source_status": "EXPLORER_VERIFIED_SOURCE_CAPTURED_NOT_RECOMPILED",
+    "abi_captured": true,
+    "creation_tx": "0x4a7700fa0b2178dddbc9ca133e43d0e2e05ddf30493e24107acc40bb5a7147f4",
+    "creator": "0x5E4E7CaDB7c3d10E3bC96fb830A724448d9B4351",
+    "archived_source_files": [
+      {
+        "name": "sLGNS.sol",
+        "sha256": "feb20de5d1d88c33a403010c8eda08431a5e56c92e76e34f550bec45ad5c69ba",
+        "license_marker": "// SPDX-License-Identifier: AGPL-3.0-or-later"
+      }
+    ]
+  },
+  {
+    "name": "staking",
+    "local_archive_source_html": "research/sources/staking-code-scan.md",
+    "public_source_url": "https://polygonscan.com/address/0x1964ca90474b11ffd08af387b110ba6c96251bfc#code",
+    "publication_delivery": "SOURCE_URL_AND_HASH_ONLY",
+    "source_status": "EXPLORER_VERIFIED_SOURCE_CAPTURED_NOT_RECOMPILED",
+    "abi_captured": true,
+    "creation_tx": "0xf16fd6c927352bc03663071ecfb638b063b33be1fc385d112f7281cdfdd8521b",
+    "creator": "0x5E4E7CaDB7c3d10E3bC96fb830A724448d9B4351",
+    "archived_source_files": [
+      {
+        "name": "Staking.sol",
+        "sha256": "4e4a43b9bed290967559419aa295f7a05f345712a8e59b0c4bdd2124b852580a",
+        "license_marker": "// SPDX-License-Identifier: AGPL-3.0-or-later"
+      }
+    ]
+  },
+  {
+    "name": "treasury",
+    "local_archive_source_html": "research/sources/treasury-code-scan.md",
+    "public_source_url": "https://polygonscan.com/address/0x7b9b7d4f870a38e92c9a181b00f9b33cc8ef5321#code",
+    "publication_delivery": "SOURCE_URL_AND_HASH_ONLY",
+    "source_status": "EXPLORER_VERIFIED_SOURCE_CAPTURED_NOT_RECOMPILED",
+    "abi_captured": true,
+    "creation_tx": "0x7366b7fc964af8c0ef54dbb785ef21d4096df571f81226e307cd3707b0bd9185",
+    "creator": "0x5E4E7CaDB7c3d10E3bC96fb830A724448d9B4351",
+    "archived_source_files": [
+      {
+        "name": "Treasury.sol",
+        "sha256": "f91e9e2c4eb418f8ccad2e9444710e55692e02fc4f139b79464bbb4713c74751",
+        "license_marker": "// SPDX-License-Identifier: AGPL-3.0-or-later"
+      }
+    ]
+  },
+  {
+    "name": "pair",
+    "local_archive_source_html": "research/sources/pair-code-scan.md",
+    "public_source_url": "https://polygonscan.com/address/0x882df4b0fb50a229c3b4124eb18c759911485bfb#code",
+    "publication_delivery": "SOURCE_URL_AND_HASH_ONLY",
+    "source_status": "EXPLORER_VERIFIED_SOURCE_CAPTURED_NOT_RECOMPILED",
+    "abi_captured": true,
+    "creation_tx": "0x226a240b5d72abaf9ed611afd2e99efc8fb8b1bfd7d324b82fb1d804d513f2b6",
+    "creator": "0x5E4E7CaDB7c3d10E3bC96fb830A724448d9B4351",
+    "archived_source_files": [
+      {
+        "name": "UniswapV2Pair.sol",
+        "sha256": "df7d44b9887cf8aac44146e23d892c2612ad54ea70483b0de2ef1f427b1871bd",
+        "license_marker": "NOT_DECLARED_IN_HEADER"
+      }
+    ]
+  }
+]

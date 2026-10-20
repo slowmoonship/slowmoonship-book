@@ -13,6 +13,8 @@
 
 - [Hyperliquid v0.1 · 2026-10-14](hyperliquid/2026-10-14-v0.1/README.md)：[检查](hyperliquid/2026-10-14-v0.1/CHECKS.md)、[机械修改](hyperliquid/2026-10-14-v0.1/CHANGES.md)。
 
+- [Polygon PoS v0.1 · 2026-10-20](polygon/2026-10-20-v0.1/README.md)：[检查](polygon/2026-10-20-v0.1/CHECKS.md)、[机械修改](polygon/2026-10-20-v0.1/CHANGES.md)。
+
 各链目录保存当前公开版，独立版本和日期通过本状态登记及Git历史追溯。单次检查快照不覆盖前次结果。GitBook未配置，无全书Tag或Release。
 
 ## 后续增量出版约定

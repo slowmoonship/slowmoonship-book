@@ -1,0 +1,14 @@
+{
+  "id": "tx-treasury-creation",
+  "url": "https://polygonscan.com/tx/0x7366b7fc964af8c0ef54dbb785ef21d4096df571f81226e307cd3707b0bd9185",
+  "accessed_at": "2026-10-19T02:41:18.427772+00:00",
+  "baseline": "2026-10-19",
+  "status": 200,
+  "final_url": "https://polygonscan.com/tx/0x7366b7fc964af8c0ef54dbb785ef21d4096df571f81226e307cd3707b0bd9185",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 241491,
+  "sha256": "022d2683294518add2813dc7497bc6107e8f83f689811c29affc53208958e955",
+  "local_archive_path": "research/sources/tx-treasury-creation.md",
+  "public_source_url": "https://polygonscan.com/tx/0x7366b7fc964af8c0ef54dbb785ef21d4096df571f81226e307cd3707b0bd9185",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY"
+}

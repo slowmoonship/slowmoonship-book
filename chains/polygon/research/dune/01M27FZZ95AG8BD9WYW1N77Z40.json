@@ -1,0 +1,201 @@
+{
+  "result": {
+    "_meta": {
+      "mcp_event_id": "be1b3ad0-4180-463b-b234-3f1f9fac55b1"
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"executionId\":\"01M27FZZ95AG8BD9WYW1N77Z40\",\"state\":\"COMPLETED\",\"resultMetadata\":{\"columns\":[{\"name\":\"block_date\",\"type\":\"date\"},{\"name\":\"block_time\",\"type\":\"timestamp(3) with time zone\"},{\"name\":\"block_number\",\"type\":\"bigint\"},{\"name\":\"tx_hash\",\"type\":\"varbinary\"},{\"name\":\"tx_from\",\"type\":\"varbinary\"},{\"name\":\"tx_to\",\"type\":\"varbinary\"},{\"name\":\"transaction_index\",\"type\":\"integer\"},{\"name\":\"event_index\",\"type\":\"integer\"},{\"name\":\"contract_address\",\"type\":\"varbinary\"},{\"name\":\"event_name\",\"type\":\"varchar(6)\"},{\"name\":\"reserve\",\"type\":\"varbinary\"},{\"name\":\"user_address\",\"type\":\"varbinary\"},{\"name\":\"on_behalf_of_address\",\"type\":\"varbinary\"},{\"name\":\"amount_raw\",\"type\":\"uint256\"},{\"name\":\"referral_code\",\"type\":\"integer\"},{\"name\":\"raw_topic0\",\"type\":\"varbinary\"},{\"name\":\"raw_log_data\",\"type\":\"varbinary\"},{\"name\":\"raw_log_match_found\",\"type\":\"boolean\"}],\"totalRowCount\":25,\"executionCostCredits\":\"0.199\"},\"data\":{\"rows\":[{\"block_date\":\"2026-09-10\",\"block_time\":\"2026-09-10 23:59:57.000 UTC\",\"block_number\":93586509,\"tx_hash\":\"0x443c78ecc0bf2427fa789daeb7c80281842fde3b42d413ac7ac1606e1f8a56f8\",\"tx_from\":\"0x8518181b9e31c139542bda727ae147d7ae67f2d4\",\"tx_to\":\"0x9da8b48441583a2b93e2ef8213aad0ec0b392c69\",\"transaction_index\":null,\"event_index\":676,\"contract_address\":\"0x794a61358d6845594f94dc1db02a252b5b4814ad\",\"event_name\":\"Supply\",\"reserve\":\"0xc2132d05d31c914a87c6611c10748aeb04b58e8f\",\"user_address\":\"0x79f492c8ff4e06cbaf32e07ebef72d6816029b57\",\"on_behalf_of_address\":\"0xbcb8e7b0864028b6a0a672ed7dbe0ba007c2fd70\",\"amount_raw\":\"8002505799\",\"referral_code\":4300,\"raw_topic0\":\"0x2b627736bca15cd5381dcf80b0bf11fd197d01a037c52b927a881a10fb73ba61\",\"raw_log_data\":\"0x00000000000000000000000079f492c8ff4e06cbaf32e07ebef72d6816029b5700000000000000000000000000000000000000000000000000000001dcfc8c47\",\"raw_log_match_found\":true},{\"block_date\":\"2026-09-10\",\"block_time\":\"2026-09-10 23:51:25.000 UTC\",\"block_number\":93586168,\"tx_hash\":\"0x3041c6aeb9e81d49d4369eeede2baf5b9d9c583a9c08bc1fbb5e23da33421157\",\"tx_from\":\"0xefd55fc8a92a8309549b0965fed00ff2cfe97b10\",\"tx_to\":\"0x29de2e51844548ecb27b536a327ce87fda3b3690\",\"transaction_index\":null,\"event_index\":73,\"contract_address\":\"0x794a61358d6845594f94dc1db02a252b5b4814ad\",\"event_name\":\"Supply\",\"reserve\":\"0xc2132d05d31c914a87c6611c10748aeb04b58e8f\",\"user_address\":\"0x98911f273c90b237d3d5fcaa3d5d70816e95543b\",\"on_behalf_of_address\":\"0x98911f273c90b237d3d5fcaa3d5d70816e95543b\",\"amount_raw\":\"4000000\",\"referral_code\":0,\"raw_topic0\":\"0x2b627736bca15cd5381dcf80b0bf11fd197d01a037c52b927a881a10fb73ba61\",\"raw_log_data\":\"0x00000000000000000000000098911f273c90b237d3d5fcaa3d5d70816e95543b00000000000000000000000000000000000000000000000000000000003d0900\",\"raw_log_match_found\":true},{\"block_date\":\"2026-09-10\",\"block_time\":\"2026-09-10 23:44:03.000 UTC\",\"block_number\":93585873,\"tx_hash\":\"0x50ed1bec16a0cbb98918b5d5989ec5c2fe58c528fa7fd7f53a2a17059e8d20f9\",\"tx_from\":\"0xe0c0803fe40f43fe20d4cfc15701a2142c91b006\",\"tx_to\":\"0x794a61358d6845594f94dc1db02a252b5b4814ad\",\"transaction_index\":null,\"event_index\":559,\"contract_address\":\"0x794a61358d6845594f94dc1db02a252b5b4814ad\",\"event_name\":\"Supply\",\"reserve\":\"0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6\",\"user_address\":\"0xe0c0803fe40f43fe20d4cfc15701a2142c91b006\",\"on_behalf_of_address\":\"0xe0c0803fe40f43fe20d4cfc15701a2142c91b006\",\"amount_raw\":\"4473\",\"referral_code\":0,\"raw_topic0\":\"0x2b627736bca15cd5381dcf80b0bf11fd197d01a037c52b927a881a10fb73ba61\",\"raw_log_data\":\"0x000000000000000000000000e0c0803fe40f43fe20d4cfc15701a2142c91b0060000000000000000000000000000000000000000000000000000000000001179\",\"raw_log_match_found\":true},{\"block_date\":\"2026-09-10\",\"block_time\":\"2026-09-10 23:43:00.000 UTC\",\"block_number\":93585831,\"tx_hash\":\"0xfbe9a138b82cf98ab098e8ddf3f7f75790ab12cbc7f8f80c3dd4aa2979db6f45\",\"tx_from\":\"0x58c53d90658b8319bad56e30e2492615254257cb\",\"tx_to\":\"0x9008d19f58aabd9ed0d60971565aa8510560ab41\",\"transaction_index\":null,\"event_index\":559,\"contract_address\":\"0x794a61358d6845594f94dc1db02a252b5b4814ad\",\"event_name\":\"Supply\",\"reserve\":\"0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6\",\"user_address\":\"0xe66e5cd19053d3994aa7262a6456c379f5bc401a\",\"on_behalf_of_address\":\"0x9008d19f58aabd9ed0d60971565aa8510560ab41\",\"amount_raw\":\"1302973\",\"referral_code\":0,\"raw_topic0\":\"0x2b627736bca15cd5381dcf80b0bf11fd197d01a037c52b927a881a10fb73ba61\",\"raw_log_data\":\"0x000000000000000000000000e66e5cd19053d3994aa7262a6456c379f5bc401a000000000000000000000000000000000000000000000000000000000013e1bd\",\"raw_log_match_found\":true},{\"block_date\":\"2026-09-10\",\"block_time\":\"2026-09-10 23:38:30.000 UTC\",\"block_number\":93585651,\"tx_hash\":\"0x42a84b72f5c09c7cf1c950b7acbd42d67081b4fa17366c55dda98d3ff3da0419\",\"tx_from\":\"0x314d611aef8787851ea56292bdd66b7f0cbc0604\",\"tx_to\":\"0x794a61358d6845594f94dc1db02a252b5b4814ad\",\"transaction_index\":null,\"event_index\":694,\"contract_address\":\"0x794a61358d6845594f94dc1db02a252b5b4814ad\",\"event_name\":\"Supply\",\"reserve\":\"0xc2132d05d31c914a87c6611c10748aeb04b58e8f\",\"user_address\":\"0x314d611aef8787851ea56292bdd66b7f0cbc0604\",\"on_behalf_of_address\":\"0x314d611aef8787851ea56292bdd66b7f0cbc0604\",\"amount_raw\":\"5000000\",\"referral_code\":0,\"raw_topic0\":\"0x2b627736bca15cd5381dcf80b0bf11fd197d01a037c52b927a881a10fb73ba61\",\"raw_log_data\":\"0x000000000000000000000000314d611aef8787851ea56292bdd66b7f0cbc060400000000000000000000000000000000000000000000000000000000004c4b40\",\"raw_log_match_found\":true}]}}"
+      }
+    ],
+    "structuredContent": {
+      "executionId": "01M27FZZ95AG8BD9WYW1N77Z40",
+      "state": "COMPLETED",
+      "resultMetadata": {
+        "columns": [
+          {
+            "name": "block_date",
+            "type": "date"
+          },
+          {
+            "name": "block_time",
+            "type": "timestamp(3) with time zone"
+          },
+          {
+            "name": "block_number",
+            "type": "bigint"
+          },
+          {
+            "name": "tx_hash",
+            "type": "varbinary"
+          },
+          {
+            "name": "tx_from",
+            "type": "varbinary"
+          },
+          {
+            "name": "tx_to",
+            "type": "varbinary"
+          },
+          {
+            "name": "transaction_index",
+            "type": "integer"
+          },
+          {
+            "name": "event_index",
+            "type": "integer"
+          },
+          {
+            "name": "contract_address",
+            "type": "varbinary"
+          },
+          {
+            "name": "event_name",
+            "type": "varchar(6)"
+          },
+          {
+            "name": "reserve",
+            "type": "varbinary"
+          },
+          {
+            "name": "user_address",
+            "type": "varbinary"
+          },
+          {
+            "name": "on_behalf_of_address",
+            "type": "varbinary"
+          },
+          {
+            "name": "amount_raw",
+            "type": "uint256"
+          },
+          {
+            "name": "referral_code",
+            "type": "integer"
+          },
+          {
+            "name": "raw_topic0",
+            "type": "varbinary"
+          },
+          {
+            "name": "raw_log_data",
+            "type": "varbinary"
+          },
+          {
+            "name": "raw_log_match_found",
+            "type": "boolean"
+          }
+        ],
+        "totalRowCount": 25,
+        "executionCostCredits": "0.199"
+      },
+      "data": {
+        "rows": [
+          {
+            "block_date": "2026-09-10",
+            "block_time": "2026-09-10 23:59:57.000 UTC",
+            "block_number": 93586509,
+            "tx_hash": "0x443c78ecc0bf2427fa789daeb7c80281842fde3b42d413ac7ac1606e1f8a56f8",
+            "tx_from": "0x8518181b9e31c139542bda727ae147d7ae67f2d4",
+            "tx_to": "0x9da8b48441583a2b93e2ef8213aad0ec0b392c69",
+            "transaction_index": null,
+            "event_index": 676,
+            "contract_address": "0x794a61358d6845594f94dc1db02a252b5b4814ad",
+            "event_name": "Supply",
+            "reserve": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+            "user_address": "0x79f492c8ff4e06cbaf32e07ebef72d6816029b57",
+            "on_behalf_of_address": "0xbcb8e7b0864028b6a0a672ed7dbe0ba007c2fd70",
+            "amount_raw": "8002505799",
+            "referral_code": 4300,
+            "raw_topic0": "0x2b627736bca15cd5381dcf80b0bf11fd197d01a037c52b927a881a10fb73ba61",
+            "raw_log_data": "0x00000000000000000000000079f492c8ff4e06cbaf32e07ebef72d6816029b5700000000000000000000000000000000000000000000000000000001dcfc8c47",
+            "raw_log_match_found": true
+          },
+          {
+            "block_date": "2026-09-10",
+            "block_time": "2026-09-10 23:51:25.000 UTC",
+            "block_number": 93586168,
+            "tx_hash": "0x3041c6aeb9e81d49d4369eeede2baf5b9d9c583a9c08bc1fbb5e23da33421157",
+            "tx_from": "0xefd55fc8a92a8309549b0965fed00ff2cfe97b10",
+            "tx_to": "0x29de2e51844548ecb27b536a327ce87fda3b3690",
+            "transaction_index": null,
+            "event_index": 73,
+            "contract_address": "0x794a61358d6845594f94dc1db02a252b5b4814ad",
+            "event_name": "Supply",
+            "reserve": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+            "user_address": "0x98911f273c90b237d3d5fcaa3d5d70816e95543b",
+            "on_behalf_of_address": "0x98911f273c90b237d3d5fcaa3d5d70816e95543b",
+            "amount_raw": "4000000",
+            "referral_code": 0,
+            "raw_topic0": "0x2b627736bca15cd5381dcf80b0bf11fd197d01a037c52b927a881a10fb73ba61",
+            "raw_log_data": "0x00000000000000000000000098911f273c90b237d3d5fcaa3d5d70816e95543b00000000000000000000000000000000000000000000000000000000003d0900",
+            "raw_log_match_found": true
+          },
+          {
+            "block_date": "2026-09-10",
+            "block_time": "2026-09-10 23:44:03.000 UTC",
+            "block_number": 93585873,
+            "tx_hash": "0x50ed1bec16a0cbb98918b5d5989ec5c2fe58c528fa7fd7f53a2a17059e8d20f9",
+            "tx_from": "0xe0c0803fe40f43fe20d4cfc15701a2142c91b006",
+            "tx_to": "0x794a61358d6845594f94dc1db02a252b5b4814ad",
+            "transaction_index": null,
+            "event_index": 559,
+            "contract_address": "0x794a61358d6845594f94dc1db02a252b5b4814ad",
+            "event_name": "Supply",
+            "reserve": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6",
+            "user_address": "0xe0c0803fe40f43fe20d4cfc15701a2142c91b006",
+            "on_behalf_of_address": "0xe0c0803fe40f43fe20d4cfc15701a2142c91b006",
+            "amount_raw": "4473",
+            "referral_code": 0,
+            "raw_topic0": "0x2b627736bca15cd5381dcf80b0bf11fd197d01a037c52b927a881a10fb73ba61",
+            "raw_log_data": "0x000000000000000000000000e0c0803fe40f43fe20d4cfc15701a2142c91b0060000000000000000000000000000000000000000000000000000000000001179",
+            "raw_log_match_found": true
+          },
+          {
+            "block_date": "2026-09-10",
+            "block_time": "2026-09-10 23:43:00.000 UTC",
+            "block_number": 93585831,
+            "tx_hash": "0xfbe9a138b82cf98ab098e8ddf3f7f75790ab12cbc7f8f80c3dd4aa2979db6f45",
+            "tx_from": "0x58c53d90658b8319bad56e30e2492615254257cb",
+            "tx_to": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
+            "transaction_index": null,
+            "event_index": 559,
+            "contract_address": "0x794a61358d6845594f94dc1db02a252b5b4814ad",
+            "event_name": "Supply",
+            "reserve": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6",
+            "user_address": "0xe66e5cd19053d3994aa7262a6456c379f5bc401a",
+            "on_behalf_of_address": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
+            "amount_raw": "1302973",
+            "referral_code": 0,
+            "raw_topic0": "0x2b627736bca15cd5381dcf80b0bf11fd197d01a037c52b927a881a10fb73ba61",
+            "raw_log_data": "0x000000000000000000000000e66e5cd19053d3994aa7262a6456c379f5bc401a000000000000000000000000000000000000000000000000000000000013e1bd",
+            "raw_log_match_found": true
+          },
+          {
+            "block_date": "2026-09-10",
+            "block_time": "2026-09-10 23:38:30.000 UTC",
+            "block_number": 93585651,
+            "tx_hash": "0x42a84b72f5c09c7cf1c950b7acbd42d67081b4fa17366c55dda98d3ff3da0419",
+            "tx_from": "0x314d611aef8787851ea56292bdd66b7f0cbc0604",
+            "tx_to": "0x794a61358d6845594f94dc1db02a252b5b4814ad",
+            "transaction_index": null,
+            "event_index": 694,
+            "contract_address": "0x794a61358d6845594f94dc1db02a252b5b4814ad",
+            "event_name": "Supply",
+            "reserve": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+            "user_address": "0x314d611aef8787851ea56292bdd66b7f0cbc0604",
+            "on_behalf_of_address": "0x314d611aef8787851ea56292bdd66b7f0cbc0604",
+            "amount_raw": "5000000",
+            "referral_code": 0,
+            "raw_topic0": "0x2b627736bca15cd5381dcf80b0bf11fd197d01a037c52b927a881a10fb73ba61",
+            "raw_log_data": "0x000000000000000000000000314d611aef8787851ea56292bdd66b7f0cbc060400000000000000000000000000000000000000000000000000000000004c4b40",
+            "raw_log_match_found": true
+          }
+        ]
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

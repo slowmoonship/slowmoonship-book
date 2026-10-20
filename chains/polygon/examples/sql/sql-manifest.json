@@ -1,0 +1,236 @@
+[
+  {
+    "number": 1,
+    "title": "区块与交易分别聚合",
+    "path": "examples/sql/core-structure/01-daily-blocks-tx.sql",
+    "tables": [
+      "polygon.blocks",
+      "polygon.transactions"
+    ],
+    "grain": "UTC日",
+    "units": "区块数、交易数",
+    "status": "STATIC_CHECKED",
+    "execution": "BLOCKED_READ_ONLY_ACCOUNT",
+    "limitations": "实际唯一键、覆盖与服务端解析需恢复权限后运行。"
+  },
+  {
+    "number": 2,
+    "title": "按交易类型观察费用",
+    "path": "examples/sql/core-structure/02-gas-by-type.sql",
+    "tables": [
+      "polygon.transactions"
+    ],
+    "grain": "交易类型",
+    "units": "Gas；POL近似值",
+    "status": "STATIC_CHECKED",
+    "execution": "BLOCKED_READ_ONLY_ACCOUNT",
+    "limitations": "系统类型不按钱包交易解释；DOUBLE趋势计算不是整数精确账本，未计算费用最终分配。"
+  },
+  {
+    "number": 3,
+    "title": "同一交易的Trace与Log计数",
+    "path": "examples/sql/core-structure/03-transaction-grain.sql",
+    "tables": [
+      "polygon.transactions",
+      "polygon.traces",
+      "polygon.logs"
+    ],
+    "grain": "目标交易",
+    "units": "计数与原始Gas参数",
+    "status": "STATIC_CHECKED",
+    "execution": "BLOCKED_READ_ONLY_ACCOUNT",
+    "limitations": "原始样本可定位；新查询未执行，Trace覆盖仍需核对。"
+  },
+  {
+    "number": 4,
+    "title": "入口调用活跃度",
+    "path": "examples/sql/core-structure/04-contract-activity.sql",
+    "tables": [
+      "polygon.transactions"
+    ],
+    "grain": "顶层入口地址",
+    "units": "交易数、地址数",
+    "status": "STATIC_CHECKED",
+    "execution": "BLOCKED_READ_ONLY_ACCOUNT",
+    "limitations": "EOA可带数据，代理和账户抽象影响身份；若要严格合约集合需历史code证据。"
+  },
+  {
+    "number": 5,
+    "title": "从Raw日志读取LGNS转账",
+    "path": "examples/sql/defi/05-raw-transfer.sql",
+    "tables": [
+      "polygon.logs"
+    ],
+    "grain": "Transfer事件",
+    "units": "LGNS原始整数/1e9",
+    "status": "STATIC_CHECKED",
+    "execution": "BLOCKED_READ_ONLY_ACCOUNT",
+    "limitations": "不是Rebase代币通用余额重建；事件签名与ABI已核对，当前余额另取状态。"
+  },
+  {
+    "number": 6,
+    "title": "固定DAI合约的转账与价格覆盖",
+    "path": "examples/sql/defi/06-stablecoin-transfers.sql",
+    "tables": [
+      "tokens.transfers"
+    ],
+    "grain": "UTC日",
+    "units": "DAI；已有价格覆盖的USD",
+    "status": "STATIC_CHECKED",
+    "execution": "BLOCKED_READ_ONLY_ACCOUNT",
+    "limitations": "不等于独立支付量或新增资金；价格富化规则见官方Transfers说明。"
+  },
+  {
+    "number": 7,
+    "title": "DEX成交段与交易数",
+    "path": "examples/sql/defi/07-dex-grain.sql",
+    "tables": [
+      "dex.trades"
+    ],
+    "grain": "项目",
+    "units": "段数、交易数、USD",
+    "status": "STATIC_CHECKED",
+    "execution": "BLOCKED_READ_ONLY_ACCOUNT",
+    "limitations": "多跳价值可能重复出现；不是净收入或独立用户Swap总量。"
+  },
+  {
+    "number": 8,
+    "title": "LGNS池Mint与Burn事件",
+    "path": "examples/sql/lgns/08-lp-events.sql",
+    "tables": [
+      "quickswap_polygon.uniswapv2pair_evt_mint",
+      "quickswap_polygon.uniswapv2pair_evt_burn"
+    ],
+    "grain": "Mint或Burn事件",
+    "units": "原始整数；token0/token1顺序来自旧Query，需历史状态再核",
+    "status": "STATIC_CHECKED",
+    "execution": "BLOCKED_READ_ONLY_ACCOUNT",
+    "limitations": "DAI18/LGNS9已分别取得精度依据；Pair token0/1本轮无指定高度eth_call。"
+  },
+  {
+    "number": 9,
+    "title": "Ethereum侧Fxdeposit候选",
+    "path": "examples/sql/bridge/09-fx-deposit.sql",
+    "tables": [
+      "polygon_pos_bridge_ethereum.fxerc20roottunnel_evt_fxdepositerc20"
+    ],
+    "grain": "Ethereum侧特定FxTunnel事件",
+    "units": "rootToken原始整数，未缩放",
+    "status": "STATIC_CHECKED",
+    "execution": "BLOCKED_READ_ONLY_ACCOUNT",
+    "limitations": "需根Token精度和具体Tunnel源码；缺少子链消息及完成证明，不把候选命名为完整闭环案例。"
+  },
+  {
+    "number": 10,
+    "title": "Ethereum侧Fxwithdraw候选",
+    "path": "examples/sql/bridge/10-fx-withdraw.sql",
+    "tables": [
+      "polygon_pos_bridge_ethereum.fxerc20roottunnel_evt_fxwithdrawerc20"
+    ],
+    "grain": "Ethereum侧特定FxTunnel事件",
+    "units": "rootToken原始整数，未缩放",
+    "status": "STATIC_CHECKED",
+    "execution": "BLOCKED_READ_ONLY_ACCOUNT",
+    "limitations": "需根Token精度和具体Tunnel源码；缺少子链消息及完成证明，不把候选命名为完整闭环案例。"
+  },
+  {
+    "number": 11,
+    "title": "工厂创建候选",
+    "path": "examples/sql/core-structure/11-creation.sql",
+    "tables": [
+      "polygon.creation_traces"
+    ],
+    "grain": "物化创建记录",
+    "units": "地址、字节码",
+    "status": "STATIC_CHECKED",
+    "execution": "BLOCKED_READ_ONLY_ACCOUNT",
+    "limitations": "Catalog partition声明与字段冲突；使用实际存在block_month；CREATE2及成功路径另读traces。"
+  },
+  {
+    "number": 12,
+    "title": "标准Upgraded事件候选",
+    "path": "examples/sql/defi/12-upgrade-events.sql",
+    "tables": [
+      "polygon.logs"
+    ],
+    "grain": "标准事件签名匹配日志",
+    "units": "地址/事件",
+    "status": "STATIC_CHECKED",
+    "execution": "BLOCKED_READ_ONLY_ACCOUNT",
+    "limitations": "任意合约可发同名事件；需源码、槽位、实际调用确认。keccak为DuneSQL函数，未执行验证。"
+  },
+  {
+    "number": 13,
+    "title": "LGNS可见Mint与Burn",
+    "path": "examples/sql/lgns/13-mint-burn.sql",
+    "tables": [
+      "polygon.logs"
+    ],
+    "grain": "UTC日",
+    "units": "LGNS，9位精度",
+    "status": "STATIC_CHECKED",
+    "execution": "BLOCKED_READ_ONLY_ACCOUNT",
+    "limitations": "仅一天可见变化，非完整totalSupply；不等于外部DAI流入。"
+  },
+  {
+    "number": 14,
+    "title": "已明确Staked事件",
+    "path": "examples/sql/lgns/14-staked.sql",
+    "tables": [
+      "polygon.logs"
+    ],
+    "grain": "Staked事件",
+    "units": "LGNS9位",
+    "status": "STATIC_CHECKED",
+    "execution": "BLOCKED_READ_ONLY_ACCOUNT",
+    "limitations": "不提供Unstake或净质押，Warmup与claim另核；继承旧Query定位，源码布局已读。"
+  },
+  {
+    "number": 15,
+    "title": "sLGNS比率与Index分开缩放",
+    "path": "examples/sql/lgns/15-rebase.sql",
+    "tables": [
+      "polygon.logs"
+    ],
+    "grain": "LogRebase事件",
+    "units": "无量纲比率；sLGNS Index",
+    "status": "STATIC_CHECKED",
+    "execution": "BLOCKED_READ_ONLY_ACCOUNT",
+    "limitations": "不把比率当Token数量；没有生成完整收益率或历史余额。"
+  },
+  {
+    "number": 16,
+    "title": "三乘四Join陷阱与修正",
+    "path": "examples/sql/core-structure/16-join-demo.sql",
+    "tables": [],
+    "grain": "合成演示一个交易",
+    "units": "行数",
+    "status": "STATIC_CHECKED",
+    "execution": "BLOCKED_READ_ONLY_ACCOUNT",
+    "limitations": "不是主网案例。未服务端运行；简单预期来自组合数学。"
+  },
+  {
+    "number": 17,
+    "title": "六合约DAI边界与内部流量",
+    "path": "examples/sql/lgns/17-dai-boundary.sql",
+    "tables": [
+      "maker_polygon.dai_evt_transfer"
+    ],
+    "grain": "指定日、指定集合",
+    "units": "DAI18位",
+    "status": "STATIC_CHECKED",
+    "execution": "BLOCKED_READ_ONLY_ACCOUNT",
+    "limitations": "六地址沿用旧研究模型，其中Turbine当前角色尚未独立核实；外部流入不是利润或新增用户投资。"
+  },
+  {
+    "number": 18,
+    "title": "复算旧结果的AMM情景",
+    "path": "examples/sql/lgns/18-exit-scenario.sql",
+    "tables": [],
+    "grain": "旧Query8390372固定截止的一种假设仓位",
+    "units": "LGNS、DAI、无量纲费率",
+    "status": "STATIC_CHECKED",
+    "execution": "BLOCKED_READ_ONLY_ACCOUNT",
+    "limitations": "仅复算公式；没有保证未来成交，未重建全部历史费率、储备或真实用户收益。"
+  }
+]

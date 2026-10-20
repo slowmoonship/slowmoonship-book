@@ -6,7 +6,7 @@
 
 ## 当前出版
 
-当前公开书稿为 **Ethereum v0.1**（2026-10-12）、**Solana v0.1**（2026-10-13）、**Sui v0.1**（2026-10-13）、**Avalanche v0.1**（2026-10-14）、**Bitcoin v0.1**（2026-10-14）和 **Hyperliquid v0.1**（2026-10-14）。各公链独立迭代，不要求共享版本号；本轮不设全书版本标签。
+当前公开书稿为 **Ethereum v0.1**（2026-10-12）、**Solana v0.1**（2026-10-13）、**Sui v0.1**（2026-10-13）、**Avalanche v0.1**（2026-10-14）、**Bitcoin v0.1**（2026-10-14）、**Hyperliquid v0.1**（2026-10-14）和 **Polygon PoS v0.1**（2026-10-20）。各公链独立迭代，不要求共享版本号；本轮不设全书版本标签。
 
 - [Ethereum 阅读入口](chains/ethereum/README.md)
 - [Solana 阅读入口](chains/solana/README.md) · [从数据地图开始](chains/solana/00-overview/index.md)
@@ -14,6 +14,7 @@
 - [Avalanche 阅读入口](chains/avalanche/README.md) · [从钱包里的 AVAX 开始](chains/avalanche/book/00-preface.md)
 - [Bitcoin 阅读入口](chains/bitcoin/README.md) · [从钱包里的 BTC 开始](chains/bitcoin/book/00-preface.md)
 - [Hyperliquid 阅读入口](chains/hyperliquid/README.md) · [从点击买入开始](chains/hyperliquid/book/00-preface.md) · [完整合并版](chains/hyperliquid/BOOK.md)
+- [Polygon PoS 阅读入口](chains/polygon/README.md) · [从一笔转账开始](chains/polygon/book/00-preface.md) · [完整合并版](chains/polygon/BOOK.md)
 - [从前言开始](chains/ethereum/book/00-preface.md)
 - [全书目录](SUMMARY.md) · [Ethereum 目录](chains/ethereum/SUMMARY.md)
 - [真实交易案例](chains/ethereum/examples/transactions/README.md) · [教学 SQL](chains/ethereum/examples/sql/README.md)
@@ -32,7 +33,9 @@ Bitcoin 原稿 **VALIDATED**：9 Part、36正文章、前言和5附录，34对SV
 
 Hyperliquid 原稿 **VALIDATED**：10 Part、40章、前言与5附录，40对SVG/draw.io；18条新SQL为 **STATIC_CHECKED / NOT_EXECUTED**，32份真实HTTP响应/2次WebSocket均为2026-10-13历史样本，12个历史Query未重跑。10个主体案例不等于14个研究主题全部已证实。清算、HIP-2、Core/EVM双侧转移和HLP完整会计仍有缺口；HIP-3/HIP-4权限与事件验证有边界。作者人工审读 **UNKNOWN**。
 
-[Hyperliquid原验收与缺口](chains/hyperliquid/reports/final-acceptance.md) · [Bitcoin原验收与缺口](chains/bitcoin/reports/final-acceptance.md) · [Avalanche原验收与缺口](chains/avalanche/reports/final-acceptance.md) · [Sui原验收与缺口](chains/sui/_project/overnight-report.md) · [Ethereum原验收与缺口](chains/ethereum/reports/final-acceptance.md) · [Solana原验收](chains/solana/_project/overnight-report.md) · [各次出版检查](publication/README.md)。出版结构通过及 GitHub 可访问，不表示技术事实、案例原始材料和 SQL 已全部验证。
+Polygon PoS v0.1 包含网络结构、链上数据模型、DuneSQL、真实案例和 LGNS 独立专题：10 Part、40章、6附录、44组图。原稿 **VALIDATED**；18条新SQL **STATIC_CHECKED / NOT_EXECUTED**，38条历史SQL未重跑。LGNS模型与历史快照不代表当前储备、真实收益或退出保证；当前控制、供应、LP、收入和负债仍有缺口，作者人工审读 **UNKNOWN**。
+
+[Polygon原验收与缺口](chains/polygon/reports/final-acceptance.md) · [Hyperliquid原验收与缺口](chains/hyperliquid/reports/final-acceptance.md) · [Bitcoin原验收与缺口](chains/bitcoin/reports/final-acceptance.md) · [Avalanche原验收与缺口](chains/avalanche/reports/final-acceptance.md) · [Sui原验收与缺口](chains/sui/_project/overnight-report.md) · [Ethereum原验收与缺口](chains/ethereum/reports/final-acceptance.md) · [Solana原验收](chains/solana/_project/overnight-report.md) · [各次出版检查](publication/README.md)。出版结构通过及 GitHub 可访问，不表示技术事实、案例原始材料和 SQL 已全部验证。
 
 ## 更新与反馈
 

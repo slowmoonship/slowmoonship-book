@@ -1,0 +1,66 @@
+{
+  "result": {
+    "_meta": {
+      "mcp_event_id": "8e0800c2-3975-4232-9941-60e6442207d3"
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"executionId\":\"01M27GV65QDG8PA320T28EGSQB\",\"state\":\"COMPLETED\",\"resultMetadata\":{\"columns\":[{\"name\":\"date\",\"type\":\"date\"},{\"name\":\"interaction_type\",\"type\":\"varchar(23)\"},{\"name\":\"event_count\",\"type\":\"bigint\"}],\"totalRowCount\":30,\"executionCostCredits\":\"0.193\"},\"data\":{\"rows\":[{\"date\":\"2026-08-12\",\"interaction_type\":\"fx_deposit_erc20_event\",\"event_count\":2},{\"date\":\"2026-08-12\",\"interaction_type\":\"fx_withdraw_erc20_event\",\"event_count\":1},{\"date\":\"2026-08-14\",\"interaction_type\":\"fx_deposit_erc20_event\",\"event_count\":1},{\"date\":\"2026-08-14\",\"interaction_type\":\"fx_withdraw_erc20_event\",\"event_count\":3},{\"date\":\"2026-08-16\",\"interaction_type\":\"fx_deposit_erc20_event\",\"event_count\":1}]}}"
+      }
+    ],
+    "structuredContent": {
+      "executionId": "01M27GV65QDG8PA320T28EGSQB",
+      "state": "COMPLETED",
+      "resultMetadata": {
+        "columns": [
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "interaction_type",
+            "type": "varchar(23)"
+          },
+          {
+            "name": "event_count",
+            "type": "bigint"
+          }
+        ],
+        "totalRowCount": 30,
+        "executionCostCredits": "0.193"
+      },
+      "data": {
+        "rows": [
+          {
+            "date": "2026-08-12",
+            "interaction_type": "fx_deposit_erc20_event",
+            "event_count": 2
+          },
+          {
+            "date": "2026-08-12",
+            "interaction_type": "fx_withdraw_erc20_event",
+            "event_count": 1
+          },
+          {
+            "date": "2026-08-14",
+            "interaction_type": "fx_deposit_erc20_event",
+            "event_count": 1
+          },
+          {
+            "date": "2026-08-14",
+            "interaction_type": "fx_withdraw_erc20_event",
+            "event_count": 3
+          },
+          {
+            "date": "2026-08-16",
+            "interaction_type": "fx_deposit_erc20_event",
+            "event_count": 1
+          }
+        ]
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

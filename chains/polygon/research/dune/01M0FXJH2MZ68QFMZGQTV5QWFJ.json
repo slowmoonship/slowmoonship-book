@@ -1,0 +1,210 @@
+{
+  "result": {
+    "_meta": {
+      "mcp_event_id": "b5dc7c72-929e-4fc9-892a-d0e87b338b2c"
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"executionId\":\"01M0FXJH2MZ68QFMZGQTV5QWFJ\",\"state\":\"COMPLETED\",\"resultMetadata\":{\"columns\":[{\"name\":\"block_time\",\"type\":\"timestamp(3) with time zone\"},{\"name\":\"block_number\",\"type\":\"bigint\"},{\"name\":\"tx_hash\",\"type\":\"varbinary\"},{\"name\":\"evt_index\",\"type\":\"integer\"},{\"name\":\"contract_address\",\"type\":\"varbinary\"},{\"name\":\"sender\",\"type\":\"varbinary\"},{\"name\":\"to\",\"type\":\"varbinary\"},{\"name\":\"amount0\",\"type\":\"uint256\"},{\"name\":\"amount1\",\"type\":\"uint256\"},{\"name\":\"q05_present\",\"type\":\"boolean\"},{\"name\":\"q09_present\",\"type\":\"boolean\"},{\"name\":\"difference_reason\",\"type\":\"varchar(55)\"},{\"name\":\"q05_burn_count\",\"type\":\"bigint\"},{\"name\":\"q09_burn_count\",\"type\":\"bigint\"},{\"name\":\"q05_only_count\",\"type\":\"bigint\"},{\"name\":\"q09_only_count\",\"type\":\"bigint\"},{\"name\":\"q05_remove_dai\",\"type\":\"double\"},{\"name\":\"q09_remove_dai\",\"type\":\"double\"},{\"name\":\"difference_remove_dai\",\"type\":\"double\"}],\"totalRowCount\":11,\"executionCostCredits\":\"3.871\"},\"data\":{\"rows\":[{\"block_time\":\"2026-08-18 09:59:25.000 UTC\",\"block_number\":92228092,\"tx_hash\":\"0x796c27518b3d671a6670308b3f0a588432eadd2c2cb452b575885d49153021ee\",\"evt_index\":11,\"contract_address\":\"0x882df4b0fb50a229c3b4124eb18c759911485bfb\",\"sender\":\"0xa5e0829caced8ffdd4de3c43696c57f7d7a678ff\",\"to\":\"0xc7ad85a57181b9783b1284d97aac37c447803382\",\"amount0\":\"109094224217201625565398\",\"amount1\":\"83861681558627\",\"q05_present\":false,\"q09_present\":true,\"difference_reason\":\"after_q05_fixed_cutoff_before_or_at_q09_snapshot_cutoff\",\"q05_burn_count\":11687,\"q09_burn_count\":11698,\"q05_only_count\":0,\"q09_only_count\":11,\"q05_remove_dai\":292165096.4880181,\"q09_remove_dai\":293143645.00913703,\"difference_remove_dai\":978548.5211189389},{\"block_time\":\"2026-08-18 16:59:12.000 UTC\",\"block_number\":92244883,\"tx_hash\":\"0xf19d68c692fa3a8b908ec14a255fcc629282bc49ebbf03bd70136239ef4dbcd9\",\"evt_index\":1152,\"contract_address\":\"0x882df4b0fb50a229c3b4124eb18c759911485bfb\",\"sender\":\"0xa5e0829caced8ffdd4de3c43696c57f7d7a678ff\",\"to\":\"0xc7ad85a57181b9783b1284d97aac37c447803382\",\"amount0\":\"108815269129186924055332\",\"amount1\":\"83833337319971\",\"q05_present\":false,\"q09_present\":true,\"difference_reason\":\"after_q05_fixed_cutoff_before_or_at_q09_snapshot_cutoff\",\"q05_burn_count\":11687,\"q09_burn_count\":11698,\"q05_only_count\":0,\"q09_only_count\":11,\"q05_remove_dai\":292165096.4880181,\"q09_remove_dai\":293143645.00913703,\"difference_remove_dai\":978548.5211189389},{\"block_time\":\"2026-08-18 21:59:06.000 UTC\",\"block_number\":92256879,\"tx_hash\":\"0xc31a5176a88dc647f6db3a585e642c666cf9d92fc3832fd1ff4268ef54040454\",\"evt_index\":1900,\"contract_address\":\"0x882df4b0fb50a229c3b4124eb18c759911485bfb\",\"sender\":\"0xa5e0829caced8ffdd4de3c43696c57f7d7a678ff\",\"to\":\"0xc7ad85a57181b9783b1284d97aac37c447803382\",\"amount0\":\"108601387082371084320767\",\"amount1\":\"83748116874326\",\"q05_present\":false,\"q09_present\":true,\"difference_reason\":\"after_q05_fixed_cutoff_before_or_at_q09_snapshot_cutoff\",\"q05_burn_count\":11687,\"q09_burn_count\":11698,\"q05_only_count\":0,\"q09_only_count\":11,\"q05_remove_dai\":292165096.4880181,\"q09_remove_dai\":293143645.00913703,\"difference_remove_dai\":978548.5211189389},{\"block_time\":\"2026-08-19 03:59:09.000 UTC\",\"block_number\":92271281,\"tx_hash\":\"0xea3b6b98d7e11058647ea68831a575de2ab6ff55fbfb6f5c52abffae8eef2c7d\",\"evt_index\":777,\"contract_address\":\"0x882df4b0fb50a229c3b4124eb18c759911485bfb\",\"sender\":\"0xa5e0829caced8ffdd4de3c43696c57f7d7a678ff\",\"to\":\"0xc7ad85a57181b9783b1284d97aac37c447803382\",\"amount0\":\"108093946373710284714445\",\"amount1\":\"83896701456606\",\"q05_present\":false,\"q09_present\":true,\"difference_reason\":\"after_q05_fixed_cutoff_before_or_at_q09_snapshot_cutoff\",\"q05_burn_count\":11687,\"q09_burn_count\":11698,\"q05_only_count\":0,\"q09_only_count\":11,\"q05_remove_dai\":292165096.4880181,\"q09_remove_dai\":293143645.00913703,\"difference_remove_dai\":978548.5211189389},{\"block_time\":\"2026-08-19 04:04:10.000 UTC\",\"block_number\":92271482,\"tx_hash\":\"0xa2fe81afcb533c5e336c1238a2ff0bf94b75318d7a2dc233ee38ce8e01385588\",\"evt_index\":77,\"contract_address\":\"0x882df4b0fb50a229c3b4124eb18c759911485bfb\",\"sender\":\"0xa5e0829caced8ffdd4de3c43696c57f7d7a678ff\",\"to\":\"0x98081c719f3f77e997833b709448180d1c393348\",\"amount0\":\"2284461747359839540006\",\"amount1\":\"1768633755603\",\"q05_present\":false,\"q09_present\":true,\"difference_reason\":\"after_q05_fixed_cutoff_before_or_at_q09_snapshot_cutoff\",\"q05_burn_count\":11687,\"q09_burn_count\":11698,\"q05_only_count\":0,\"q09_only_count\":11,\"q05_remove_dai\":292165096.4880181,\"q09_remove_dai\":293143645.00913703,\"difference_remove_dai\":978548.5211189389}]}}"
+      }
+    ],
+    "structuredContent": {
+      "executionId": "01M0FXJH2MZ68QFMZGQTV5QWFJ",
+      "state": "COMPLETED",
+      "resultMetadata": {
+        "columns": [
+          {
+            "name": "block_time",
+            "type": "timestamp(3) with time zone"
+          },
+          {
+            "name": "block_number",
+            "type": "bigint"
+          },
+          {
+            "name": "tx_hash",
+            "type": "varbinary"
+          },
+          {
+            "name": "evt_index",
+            "type": "integer"
+          },
+          {
+            "name": "contract_address",
+            "type": "varbinary"
+          },
+          {
+            "name": "sender",
+            "type": "varbinary"
+          },
+          {
+            "name": "to",
+            "type": "varbinary"
+          },
+          {
+            "name": "amount0",
+            "type": "uint256"
+          },
+          {
+            "name": "amount1",
+            "type": "uint256"
+          },
+          {
+            "name": "q05_present",
+            "type": "boolean"
+          },
+          {
+            "name": "q09_present",
+            "type": "boolean"
+          },
+          {
+            "name": "difference_reason",
+            "type": "varchar(55)"
+          },
+          {
+            "name": "q05_burn_count",
+            "type": "bigint"
+          },
+          {
+            "name": "q09_burn_count",
+            "type": "bigint"
+          },
+          {
+            "name": "q05_only_count",
+            "type": "bigint"
+          },
+          {
+            "name": "q09_only_count",
+            "type": "bigint"
+          },
+          {
+            "name": "q05_remove_dai",
+            "type": "double"
+          },
+          {
+            "name": "q09_remove_dai",
+            "type": "double"
+          },
+          {
+            "name": "difference_remove_dai",
+            "type": "double"
+          }
+        ],
+        "totalRowCount": 11,
+        "executionCostCredits": "3.871"
+      },
+      "data": {
+        "rows": [
+          {
+            "block_time": "2026-08-18 09:59:25.000 UTC",
+            "block_number": 92228092,
+            "tx_hash": "0x796c27518b3d671a6670308b3f0a588432eadd2c2cb452b575885d49153021ee",
+            "evt_index": 11,
+            "contract_address": "0x882df4b0fb50a229c3b4124eb18c759911485bfb",
+            "sender": "0xa5e0829caced8ffdd4de3c43696c57f7d7a678ff",
+            "to": "0xc7ad85a57181b9783b1284d97aac37c447803382",
+            "amount0": "109094224217201625565398",
+            "amount1": "83861681558627",
+            "q05_present": false,
+            "q09_present": true,
+            "difference_reason": "after_q05_fixed_cutoff_before_or_at_q09_snapshot_cutoff",
+            "q05_burn_count": 11687,
+            "q09_burn_count": 11698,
+            "q05_only_count": 0,
+            "q09_only_count": 11,
+            "q05_remove_dai": 292165096.4880181,
+            "q09_remove_dai": 293143645.00913703,
+            "difference_remove_dai": 978548.5211189389
+          },
+          {
+            "block_time": "2026-08-18 16:59:12.000 UTC",
+            "block_number": 92244883,
+            "tx_hash": "0xf19d68c692fa3a8b908ec14a255fcc629282bc49ebbf03bd70136239ef4dbcd9",
+            "evt_index": 1152,
+            "contract_address": "0x882df4b0fb50a229c3b4124eb18c759911485bfb",
+            "sender": "0xa5e0829caced8ffdd4de3c43696c57f7d7a678ff",
+            "to": "0xc7ad85a57181b9783b1284d97aac37c447803382",
+            "amount0": "108815269129186924055332",
+            "amount1": "83833337319971",
+            "q05_present": false,
+            "q09_present": true,
+            "difference_reason": "after_q05_fixed_cutoff_before_or_at_q09_snapshot_cutoff",
+            "q05_burn_count": 11687,
+            "q09_burn_count": 11698,
+            "q05_only_count": 0,
+            "q09_only_count": 11,
+            "q05_remove_dai": 292165096.4880181,
+            "q09_remove_dai": 293143645.00913703,
+            "difference_remove_dai": 978548.5211189389
+          },
+          {
+            "block_time": "2026-08-18 21:59:06.000 UTC",
+            "block_number": 92256879,
+            "tx_hash": "0xc31a5176a88dc647f6db3a585e642c666cf9d92fc3832fd1ff4268ef54040454",
+            "evt_index": 1900,
+            "contract_address": "0x882df4b0fb50a229c3b4124eb18c759911485bfb",
+            "sender": "0xa5e0829caced8ffdd4de3c43696c57f7d7a678ff",
+            "to": "0xc7ad85a57181b9783b1284d97aac37c447803382",
+            "amount0": "108601387082371084320767",
+            "amount1": "83748116874326",
+            "q05_present": false,
+            "q09_present": true,
+            "difference_reason": "after_q05_fixed_cutoff_before_or_at_q09_snapshot_cutoff",
+            "q05_burn_count": 11687,
+            "q09_burn_count": 11698,
+            "q05_only_count": 0,
+            "q09_only_count": 11,
+            "q05_remove_dai": 292165096.4880181,
+            "q09_remove_dai": 293143645.00913703,
+            "difference_remove_dai": 978548.5211189389
+          },
+          {
+            "block_time": "2026-08-19 03:59:09.000 UTC",
+            "block_number": 92271281,
+            "tx_hash": "0xea3b6b98d7e11058647ea68831a575de2ab6ff55fbfb6f5c52abffae8eef2c7d",
+            "evt_index": 777,
+            "contract_address": "0x882df4b0fb50a229c3b4124eb18c759911485bfb",
+            "sender": "0xa5e0829caced8ffdd4de3c43696c57f7d7a678ff",
+            "to": "0xc7ad85a57181b9783b1284d97aac37c447803382",
+            "amount0": "108093946373710284714445",
+            "amount1": "83896701456606",
+            "q05_present": false,
+            "q09_present": true,
+            "difference_reason": "after_q05_fixed_cutoff_before_or_at_q09_snapshot_cutoff",
+            "q05_burn_count": 11687,
+            "q09_burn_count": 11698,
+            "q05_only_count": 0,
+            "q09_only_count": 11,
+            "q05_remove_dai": 292165096.4880181,
+            "q09_remove_dai": 293143645.00913703,
+            "difference_remove_dai": 978548.5211189389
+          },
+          {
+            "block_time": "2026-08-19 04:04:10.000 UTC",
+            "block_number": 92271482,
+            "tx_hash": "0xa2fe81afcb533c5e336c1238a2ff0bf94b75318d7a2dc233ee38ce8e01385588",
+            "evt_index": 77,
+            "contract_address": "0x882df4b0fb50a229c3b4124eb18c759911485bfb",
+            "sender": "0xa5e0829caced8ffdd4de3c43696c57f7d7a678ff",
+            "to": "0x98081c719f3f77e997833b709448180d1c393348",
+            "amount0": "2284461747359839540006",
+            "amount1": "1768633755603",
+            "q05_present": false,
+            "q09_present": true,
+            "difference_reason": "after_q05_fixed_cutoff_before_or_at_q09_snapshot_cutoff",
+            "q05_burn_count": 11687,
+            "q09_burn_count": 11698,
+            "q05_only_count": 0,
+            "q09_only_count": 11,
+            "q05_remove_dai": 292165096.4880181,
+            "q09_remove_dai": 293143645.00913703,
+            "difference_remove_dai": 978548.5211189389
+          }
+        ]
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

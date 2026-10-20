@@ -1,0 +1,28 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"query_id\":8390841,\"user_id\":null,\"team_id\":953543,\"version\":2,\"name\":\"LGNS Top1 Contract Callers ｜ LGNS Top1合约调用者核验\",\"description\":\"Query 11辅助核验：固定截止下统计Top 1 Burn.to合约的成功顶层交易调用者；caller不等于控制人。\",\"tags\":[],\"query\":\"-- Query 11辅助：Top 1 Burn.to合约的全部成功顶层调用者统计\\n-- 目标合约：0x1D6A7F2CB262AFBB1204BBFCBB3DB642662B15C3；已由Dune合约创建记录确认是Contract。\\n-- 固定截止：2026-08-18 09:28:58 UTC；只统计to为目标合约的顶层交易，不扩展内部调用图谱。\\n-- 经济含义：caller仅表示直接调用该合约的交易from，不证明该地址控制合约或控制资金。\\n\\nWITH caller_stats AS (\\n    -- 在Polygon顶层交易表按from聚合目标合约的成功调用。\\n    SELECT\\n        t.\\\"from\\\" AS caller_address,                              -- 直接调用目标合约的顶层交易from\\n        COUNT(*) AS call_count,                                  -- 成功顶层调用次数\\n        MIN(t.block_time) AS first_call_time,                    -- 首次成功调用时间\\n        MAX(t.block_time) AS last_call_time,                     -- 最后成功调用时间\\n        MIN_BY(SUBSTR(to_hex(t.data), 1, 8), t.block_time)\\n            AS first_method_id,                                  -- 首次调用的4字节方法选择器\\n        MAX_BY(SUBSTR(to_hex(t.data), 1, 8), t.block_time)\\n            AS last_method_id                                    -- 最后调用的4字节方法选择器\\n    FROM polygon.transactions t\\n    WHERE t.block_date >= DATE '2024-12-01'\\n        -- 早于目标合约2024-12-28创建日并启用日期分区裁剪。\\n      AND t.block_date <= DATE '2026-08-18'\\n        -- 固定截止日期，不扫描后续交易。\\n      AND t.block_time <= TIMESTAMP '2026-08-18 09:28:58'\\n        -- 固定截止时刻，与Burn统一口径一致。\\n      AND t.\\\"to\\\" = 0x1d6a7f2cb262afbb1204bbfcbb3db642662b15c3\\n        -- 只统计直接调用Top 1合约的顶层交易。\\n      AND t.success\\n        -- 失败交易不作为有效调用者证据。\\n    GROUP BY 1\\n)\\nSELECT\\n    CONCAT('0x', to_hex(caller_address)) AS caller_address,      -- 直接调用者地址文本\\n    call_count,                                                   -- 成功调用次数\\n    first_call_time,                                              -- 首次成功调用时间\\n    last_call_time,                                               -- 最后成功调用时间\\n    first_method_id,                                              -- 首次调用方法选择器\\n    last_method_id,                                               -- 最后调用方法选择器\\n    ROW_NUMBER() OVER (\\n        ORDER BY call_count DESC, caller_address\\n    ) AS caller_rank                                              -- 按调用次数确定主要调用者排名\\nFROM caller_stats\\nORDER BY caller_rank\\n    -- 主要调用者优先输出，供Query 11复用。\",\"parameters\":[],\"is_archived\":false,\"is_private\":false,\"is_temp\":false,\"latest_execution_id\":\"01M0G1G584AKZZPBCQAKDDJH2N\",\"latest_execution_state\":null}"
+      }
+    ],
+    "structuredContent": {
+      "query_id": 8390841,
+      "user_id": null,
+      "team_id": 953543,
+      "version": 2,
+      "name": "LGNS Top1 Contract Callers ｜ LGNS Top1合约调用者核验",
+      "description": "Query 11辅助核验：固定截止下统计Top 1 Burn.to合约的成功顶层交易调用者；caller不等于控制人。",
+      "tags": [],
+      "query": "-- Query 11辅助：Top 1 Burn.to合约的全部成功顶层调用者统计\n-- 目标合约：0x1D6A7F2CB262AFBB1204BBFCBB3DB642662B15C3；已由Dune合约创建记录确认是Contract。\n-- 固定截止：2026-08-18 09:28:58 UTC；只统计to为目标合约的顶层交易，不扩展内部调用图谱。\n-- 经济含义：caller仅表示直接调用该合约的交易from，不证明该地址控制合约或控制资金。\n\nWITH caller_stats AS (\n    -- 在Polygon顶层交易表按from聚合目标合约的成功调用。\n    SELECT\n        t.\"from\" AS caller_address,                              -- 直接调用目标合约的顶层交易from\n        COUNT(*) AS call_count,                                  -- 成功顶层调用次数\n        MIN(t.block_time) AS first_call_time,                    -- 首次成功调用时间\n        MAX(t.block_time) AS last_call_time,                     -- 最后成功调用时间\n        MIN_BY(SUBSTR(to_hex(t.data), 1, 8), t.block_time)\n            AS first_method_id,                                  -- 首次调用的4字节方法选择器\n        MAX_BY(SUBSTR(to_hex(t.data), 1, 8), t.block_time)\n            AS last_method_id                                    -- 最后调用的4字节方法选择器\n    FROM polygon.transactions t\n    WHERE t.block_date >= DATE '2024-12-01'\n        -- 早于目标合约2024-12-28创建日并启用日期分区裁剪。\n      AND t.block_date <= DATE '2026-08-18'\n        -- 固定截止日期，不扫描后续交易。\n      AND t.block_time <= TIMESTAMP '2026-08-18 09:28:58'\n        -- 固定截止时刻，与Burn统一口径一致。\n      AND t.\"to\" = 0x1d6a7f2cb262afbb1204bbfcbb3db642662b15c3\n        -- 只统计直接调用Top 1合约的顶层交易。\n      AND t.success\n        -- 失败交易不作为有效调用者证据。\n    GROUP BY 1\n)\nSELECT\n    CONCAT('0x', to_hex(caller_address)) AS caller_address,      -- 直接调用者地址文本\n    call_count,                                                   -- 成功调用次数\n    first_call_time,                                              -- 首次成功调用时间\n    last_call_time,                                               -- 最后成功调用时间\n    first_method_id,                                              -- 首次调用方法选择器\n    last_method_id,                                               -- 最后调用方法选择器\n    ROW_NUMBER() OVER (\n        ORDER BY call_count DESC, caller_address\n    ) AS caller_rank                                              -- 按调用次数确定主要调用者排名\nFROM caller_stats\nORDER BY caller_rank\n    -- 主要调用者优先输出，供Query 11复用。",
+      "parameters": [],
+      "is_archived": false,
+      "is_private": false,
+      "is_temp": false,
+      "latest_execution_id": "01M0G1G584AKZZPBCQAKDDJH2N",
+      "latest_execution_state": null
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

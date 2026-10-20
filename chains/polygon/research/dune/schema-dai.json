@@ -1,0 +1,261 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"total\":67,\"results\":[{\"full_name\":\"maker_polygon.dai_evt_transfer\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"evt_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"evt_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"evt_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"evt_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"evt_index\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"evt_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"evt_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"evt_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"from\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"to\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"value\",\"nullable\":false,\"type\":\"uint256\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":0.7069858974817472,\"abi_type\":\"event\",\"contract_name\":\"dai\",\"project_name\":\"maker\"}},{\"full_name\":\"maker_polygon.dai_call_transfer\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"amount\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"output_0\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"recipient\",\"nullable\":false,\"type\":\"varbinary\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"dai\",\"project_name\":\"maker\"}},{\"full_name\":\"maker_polygon.dai_call_transferproxyownership\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"newOwner\",\"nullable\":false,\"type\":\"varbinary\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"dai\",\"project_name\":\"maker\"}}],\"pagination\":{\"limit\":3,\"offset\":0,\"nextOffset\":3,\"hasMore\":true}}"
+      }
+    ],
+    "structuredContent": {
+      "total": 67,
+      "results": [
+        {
+          "full_name": "maker_polygon.dai_evt_transfer",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "evt_index",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "evt_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "evt_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "evt_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "from",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "to",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "value",
+                "nullable": false,
+                "type": "uint256"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 0.7069858974817472,
+            "abi_type": "event",
+            "contract_name": "dai",
+            "project_name": "maker"
+          }
+        },
+        {
+          "full_name": "maker_polygon.dai_call_transfer",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "amount",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "output_0",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "recipient",
+                "nullable": false,
+                "type": "varbinary"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "dai",
+            "project_name": "maker"
+          }
+        },
+        {
+          "full_name": "maker_polygon.dai_call_transferproxyownership",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "newOwner",
+                "nullable": false,
+                "type": "varbinary"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "dai",
+            "project_name": "maker"
+          }
+        }
+      ],
+      "pagination": {
+        "limit": 3,
+        "offset": 0,
+        "nextOffset": 3,
+        "hasMore": true
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

@@ -1,0 +1,42 @@
+{
+  "case_id": "case-10",
+  "title": "历史Staked事件",
+  "network": "Polygon PoS Mainnet",
+  "chain_id": 137,
+  "transaction_hash": "0x772e9ccfe8fd6e142140bb1c34d3fd428a6e39f9e83a405785581c2688fc74ce",
+  "block_number": 54339984,
+  "block_time": "2024-03-06T16:40:22+00:00",
+  "contract_address": "0x1964ca90474b11ffd08af387b110ba6c96251bfc",
+  "focus": "事件24；1 LGNS",
+  "source": "https://polygonscan.com/tx/0x772e9ccfe8fd6e142140bb1c34d3fd428a6e39f9e83a405785581c2688fc74ce",
+  "local_archive_source_cache": "research/sources/tx-staking-first.md",
+  "public_source_url": "https://polygonscan.com/tx/0x772e9ccfe8fd6e142140bb1c34d3fd428a6e39f9e83a405785581c2688fc74ce",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY",
+  "dune_query": "https://dune.com/queries/8369505",
+  "raw_indexed_fields": [
+    {
+      "date": "2024-03-06",
+      "stake_count": 383,
+      "stake_lgns": 14606.721618806998,
+      "unique_stakers": 349,
+      "history_start": "2024-03-06 16:40:22.000 UTC",
+      "history_end": "2026-08-18 10:13:12.000 UTC",
+      "row_count": 896,
+      "raw_stake_event_count": 74521621,
+      "sample_tx_hash": "0x772e9ccfe8fd6e142140bb1c34d3fd428a6e39f9e83a405785581c2688fc74ce",
+      "sample_block_number": 54339984,
+      "sample_event_index": 24,
+      "sample_stake_lgns": 1,
+      "unstake_coverage_status": "UNSTAKE_NOT_INCLUDED_NO_EXPLICIT_EVENT_FREE_ENGINE_TIMEOUT",
+      "lgns_decimals": 9
+    }
+  ],
+  "derived_fields": {},
+  "verification_status": "EXPLORER_RECORD_CAPTURED; LIMITED_INDEXED_CROSSCHECK; NOT_LOCAL_REEXECUTION",
+  "missing": [
+    "complete native RPC receipt",
+    "local signature/consensus verification",
+    "beneficial ownership",
+    "full historical state"
+  ]
+}

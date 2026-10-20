@@ -1,0 +1,84 @@
+{
+  "result": {
+    "_meta": {
+      "mcp_event_id": "f07e8714-25f8-47e7-ba7a-cd0c24f5f8fb"
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"executionId\":\"01M27GNJ1YCEVG6TV67VSZYPFC\",\"state\":\"COMPLETED\",\"resultMetadata\":{\"columns\":[{\"name\":\"date\",\"type\":\"date\"},{\"name\":\"block_count\",\"type\":\"bigint\"},{\"name\":\"first_block_number\",\"type\":\"bigint\"},{\"name\":\"last_block_number\",\"type\":\"bigint\"},{\"name\":\"avg_block_interval_seconds\",\"type\":\"decimal(26, 6)\"}],\"totalRowCount\":90,\"executionCostCredits\":\"0.224\"},\"data\":{\"rows\":[{\"date\":\"2026-06-13\",\"block_count\":57600,\"first_block_number\":88402543,\"last_block_number\":88460142,\"avg_block_interval_seconds\":\"1.499991\"},{\"date\":\"2026-06-14\",\"block_count\":57600,\"first_block_number\":88460143,\"last_block_number\":88517742,\"avg_block_interval_seconds\":\"1.499991\"},{\"date\":\"2026-06-15\",\"block_count\":57600,\"first_block_number\":88517743,\"last_block_number\":88575342,\"avg_block_interval_seconds\":\"1.499991\"},{\"date\":\"2026-06-16\",\"block_count\":57600,\"first_block_number\":88575343,\"last_block_number\":88632942,\"avg_block_interval_seconds\":\"1.500009\"},{\"date\":\"2026-06-17\",\"block_count\":57594,\"first_block_number\":88632943,\"last_block_number\":88690536,\"avg_block_interval_seconds\":\"1.500148\"}]}}"
+      }
+    ],
+    "structuredContent": {
+      "executionId": "01M27GNJ1YCEVG6TV67VSZYPFC",
+      "state": "COMPLETED",
+      "resultMetadata": {
+        "columns": [
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "block_count",
+            "type": "bigint"
+          },
+          {
+            "name": "first_block_number",
+            "type": "bigint"
+          },
+          {
+            "name": "last_block_number",
+            "type": "bigint"
+          },
+          {
+            "name": "avg_block_interval_seconds",
+            "type": "decimal(26, 6)"
+          }
+        ],
+        "totalRowCount": 90,
+        "executionCostCredits": "0.224"
+      },
+      "data": {
+        "rows": [
+          {
+            "date": "2026-06-13",
+            "block_count": 57600,
+            "first_block_number": 88402543,
+            "last_block_number": 88460142,
+            "avg_block_interval_seconds": "1.499991"
+          },
+          {
+            "date": "2026-06-14",
+            "block_count": 57600,
+            "first_block_number": 88460143,
+            "last_block_number": 88517742,
+            "avg_block_interval_seconds": "1.499991"
+          },
+          {
+            "date": "2026-06-15",
+            "block_count": 57600,
+            "first_block_number": 88517743,
+            "last_block_number": 88575342,
+            "avg_block_interval_seconds": "1.499991"
+          },
+          {
+            "date": "2026-06-16",
+            "block_count": 57600,
+            "first_block_number": 88575343,
+            "last_block_number": 88632942,
+            "avg_block_interval_seconds": "1.500009"
+          },
+          {
+            "date": "2026-06-17",
+            "block_count": 57594,
+            "first_block_number": 88632943,
+            "last_block_number": 88690536,
+            "avg_block_interval_seconds": "1.500148"
+          }
+        ]
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

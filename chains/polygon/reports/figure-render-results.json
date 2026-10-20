@@ -1,0 +1,310 @@
+[
+  {
+    "slug": "admin-graph",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "architecture",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "block-header",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "bridge-accounting",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "bridge-deposit",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "bridge-exit",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "chain-identity",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "checkpoint",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "dashboard-map",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "data-lineage",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "defi-roles",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "dex-swap",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "erc20-ledger",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "evm-state",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "execution-records",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "fund-boundary",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "gas-flow",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "grain-join",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "heimdall-bor-data",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "heimdall-v2",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "identity-evidence",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "lgns-admin",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "lgns-contracts",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "lgns-evidence",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "lgns-fund-flow",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "lgns-liquidity",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "lgns-rebase",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "liquidity",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "matic-pol",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "milestone-vs-checkpoint",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "milestone",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "raw-tables",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "risk-evidence",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "runtime-data",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "sql-audit",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "sql-identity",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "sql-units",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "sql-window",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "state-sync",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "token-forms",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "transaction-lifecycle",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "upgrade-2026",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "upgrade-timeline",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  },
+  {
+    "slug": "validator-span",
+    "width": 1500,
+    "height": 1275,
+    "render": "SUCCESS",
+    "engine": "sharp/libvips SVG"
+  }
+]

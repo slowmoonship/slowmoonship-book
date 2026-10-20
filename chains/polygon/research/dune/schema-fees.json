@@ -1,0 +1,406 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"total\":1,\"results\":[{\"full_name\":\"gas.fees\",\"category\":\"spell\",\"dataset_type\":\"spell\",\"blockchains\":[\"abstract\",\"apechain\",\"arbitrum\",\"arc\",\"avalanche_c\",\"b3\",\"base\",\"berachain\",\"blast\",\"bnb\",\"bob\",\"boba\",\"celo\",\"corn\",\"cronos\",\"degen\",\"ethereum\",\"fantom\",\"flare\",\"flow\",\"gnosis\",\"hemi\",\"henesys\",\"hyperevm\",\"ink\",\"kaia\",\"katana\",\"lens\",\"linea\",\"mantle\",\"megaeth\",\"mezo\",\"monad\",\"morph\",\"nova\",\"opbnb\",\"optimism\",\"peaq\",\"plasma\",\"plume\",\"polygon\",\"robinhood\",\"ronin\",\"rise\",\"scroll\",\"sei\",\"shape\",\"somnia\",\"sonic\",\"sophon\",\"story\",\"superseed\",\"tac\",\"taiko\",\"tempo\",\"tezos_evm\",\"unichain\",\"worldchain\",\"xlayer\",\"zkevm\",\"zksync\",\"zora\",\"tron\"],\"partition_columns\":[\"block_month\",\"blockchain\"],\"visibility\":\"public\",\"description\":\"Gas fees paid per transaction across all EVM-compatible chains, including base fee, priority fee, and USD-denominated cost.\",\"schema\":{\"fields\":[{\"name\":\"blockchain\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"block_month\",\"nullable\":true,\"type\":\"date\"},{\"name\":\"block_date\",\"nullable\":true,\"type\":\"date\"},{\"name\":\"block_time\",\"nullable\":true,\"type\":\"timestamp(3) with time zone\"},{\"name\":\"block_number\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"tx_hash\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"tx_index\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"gas_price\",\"nullable\":true,\"type\":\"uint256\"},{\"name\":\"gas_used\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"currency_symbol\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"tx_fee\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"tx_fee_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"tx_fee_raw\",\"nullable\":true,\"type\":\"uint256\"},{\"name\":\"tx_fee_breakdown\",\"nullable\":true,\"type\":\"map(varchar,double)\"},{\"name\":\"tx_fee_breakdown_usd\",\"nullable\":true,\"type\":\"map(varchar,double)\"},{\"name\":\"tx_fee_breakdown_raw\",\"nullable\":true,\"type\":\"map(varchar,uint256)\"},{\"name\":\"tx_fee_currency\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"block_proposer\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"gas_limit\",\"nullable\":true,\"type\":\"uint256\"},{\"name\":\"gas_limit_usage\",\"nullable\":true,\"type\":\"double\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":1814.2374429733895,\"description\":\"Gas fees paid per transaction across all EVM-compatible chains, including base fee, priority fee, and USD-denominated cost.\",\"spell_type\":\"sector\",\"spell_metadata\":{\"description\":\"Gas fees paid per transaction across all EVM-compatible chains, including base fee, priority fee, and USD-denominated cost.\",\"depends_on\":[\"model.hourly_spellbook.gas_abstract_fees\",\"model.hourly_spellbook.gas_apechain_fees\",\"model.hourly_spellbook.gas_arbitrum_fees\",\"model.hourly_spellbook.gas_arc_fees\",\"model.hourly_spellbook.gas_avalanche_c_fees\",\"model.hourly_spellbook.gas_b3_fees\",\"model.hourly_spellbook.gas_base_fees\",\"model.hourly_spellbook.gas_berachain_fees\",\"model.hourly_spellbook.gas_blast_fees\",\"model.hourly_spellbook.gas_bnb_fees\",\"model.hourly_spellbook.gas_bob_fees\",\"model.hourly_spellbook.gas_boba_fees\",\"model.hourly_spellbook.gas_celo_fees\",\"model.hourly_spellbook.gas_corn_fees\",\"model.hourly_spellbook.gas_cronos_fees\",\"model.hourly_spellbook.gas_degen_fees\",\"model.hourly_spellbook.gas_ethereum_fees\",\"model.hourly_spellbook.gas_fantom_fees\",\"model.hourly_spellbook.gas_flare_fees\",\"model.hourly_spellbook.gas_flow_fees\",\"model.hourly_spellbook.gas_gnosis_fees\",\"model.hourly_spellbook.gas_hemi_fees\",\"model.hourly_spellbook.gas_henesys_fees\",\"model.hourly_spellbook.gas_hyperevm_fees\",\"model.hourly_spellbook.gas_ink_fees\",\"model.hourly_spellbook.gas_kaia_fees\",\"model.hourly_spellbook.gas_katana_fees\",\"model.hourly_spellbook.gas_lens_fees\",\"model.hourly_spellbook.gas_linea_fees\",\"model.hourly_spellbook.gas_mantle_fees\",\"model.hourly_spellbook.gas_megaeth_fees\",\"model.hourly_spellbook.gas_mezo_fees\",\"model.hourly_spellbook.gas_monad_fees\",\"model.hourly_spellbook.gas_morph_fees\",\"model.hourly_spellbook.gas_nova_fees\",\"model.hourly_spellbook.gas_opbnb_fees\",\"model.hourly_spellbook.gas_optimism_fees\",\"model.hourly_spellbook.gas_peaq_fees\",\"model.hourly_spellbook.gas_plasma_fees\",\"model.hourly_spellbook.gas_plume_fees\",\"model.hourly_spellbook.gas_polygon_fees\",\"model.hourly_spellbook.gas_robinhood_fees\",\"model.hourly_spellbook.gas_ronin_fees\",\"model.hourly_spellbook.gas_rise_fees\",\"model.hourly_spellbook.gas_scroll_fees\",\"model.hourly_spellbook.gas_sei_fees\",\"model.hourly_spellbook.gas_shape_fees\",\"model.hourly_spellbook.gas_somnia_fees\",\"model.hourly_spellbook.gas_sonic_fees\",\"model.hourly_spellbook.gas_sophon_fees\",\"model.hourly_spellbook.gas_story_fees\",\"model.hourly_spellbook.gas_superseed_fees\",\"model.hourly_spellbook.gas_tac_fees\",\"model.hourly_spellbook.gas_taiko_fees\",\"model.hourly_spellbook.gas_tempo_fees\",\"model.hourly_spellbook.gas_tezos_evm_fees\",\"model.hourly_spellbook.gas_unichain_fees\",\"model.hourly_spellbook.gas_worldchain_fees\",\"model.hourly_spellbook.gas_xlayer_fees\",\"model.hourly_spellbook.gas_zkevm_fees\",\"model.hourly_spellbook.gas_zksync_fees\",\"model.hourly_spellbook.gas_zora_fees\",\"model.hourly_spellbook.gas_tron_fees\"],\"columns\":[{\"column\":\"blockchain\",\"name\":\"blockchain\",\"description\":\"Blockchain name\"},{\"column\":\"block_month\",\"name\":\"block_month\",\"description\":\"Month for block event time in UTC\"},{\"column\":\"block_day\",\"name\":\"block_day\",\"description\":\"Day for block event time in UTC\"},{\"column\":\"block_time\",\"name\":\"block_time\",\"description\":\"Timestamp for block event time in UTC\"},{\"column\":\"block_number\",\"name\":\"block_number\",\"description\":\"Block number\"},{\"column\":\"tx_hash\",\"name\":\"tx_hash\",\"description\":\"Primary key of the transaction\"},{\"column\":\"tx_index\",\"name\":\"tx_index\",\"description\":\"Index position of the transaction within its block\"},{\"column\":\"tx_sender\",\"name\":\"tx_sender\",\"description\":\"Initiated the transaction\"},{\"column\":\"tx_receiver\",\"name\":\"tx_receiver\",\"description\":\"Received the transaction\"},{\"column\":\"native_token_symbol\",\"name\":\"native_token_symbol\",\"description\":\"Symbol of native token for the blockchain\"},{\"column\":\"tx_amount_native\",\"name\":\"tx_amount_native\",\"description\":\"Amount of native tokens transferred from sender to recipient\"},{\"column\":\"tx_amount_usd\",\"name\":\"tx_amount_usd\",\"description\":\"Amount of $USD transferred from sender to recipient\"},{\"column\":\"tx_fee_native\",\"name\":\"tx_fee_native\",\"description\":\"Total amount of native tokens paid in gas fees\"},{\"column\":\"tx_fee_usd\",\"name\":\"tx_fee_usd\",\"description\":\"Total amount of $USD paid in gas fees\"},{\"column\":\"burned_native\",\"name\":\"burned_native\",\"description\":\"Total amount of native tokens burned for this transaction\"},{\"column\":\"burned_usd\",\"name\":\"burned_usd\",\"description\":\"Total amount of $USD burned for this transaction\"},{\"column\":\"validator\",\"name\":\"validator\",\"description\":\"Address of blockchain validator for this transaction within the block\"},{\"column\":\"gas_price_gwei\",\"name\":\"gas_price_gwei\",\"description\":\"Gas price (per gas unit) denoted in gwei\"},{\"column\":\"gas_price_usd\",\"name\":\"gas_price_usd\",\"description\":\"Gas price (per gas unit) denoted in $USD\"},{\"column\":\"gas_used\",\"name\":\"gas_used\",\"description\":\"Amount of gas units consumed by the transaction\"},{\"column\":\"gas_limit\",\"name\":\"gas_limit\",\"description\":\"Maximum amount of gas units that can be consumed by the transaction\"},{\"column\":\"gas_usage_percent\",\"name\":\"gas_usage_percent\",\"description\":\"Percentage of Gas Used relative to the gas limit\"},{\"column\":\"type\",\"name\":\"type\",\"description\":\"Transaction type\"}],\"tags\":[],\"partition_by\":[]}}}],\"pagination\":{\"limit\":2,\"offset\":0,\"nextOffset\":null,\"hasMore\":false}}"
+      }
+    ],
+    "structuredContent": {
+      "total": 1,
+      "results": [
+        {
+          "full_name": "gas.fees",
+          "category": "spell",
+          "dataset_type": "spell",
+          "blockchains": [
+            "abstract",
+            "apechain",
+            "arbitrum",
+            "arc",
+            "avalanche_c",
+            "b3",
+            "base",
+            "berachain",
+            "blast",
+            "bnb",
+            "bob",
+            "boba",
+            "celo",
+            "corn",
+            "cronos",
+            "degen",
+            "ethereum",
+            "fantom",
+            "flare",
+            "flow",
+            "gnosis",
+            "hemi",
+            "henesys",
+            "hyperevm",
+            "ink",
+            "kaia",
+            "katana",
+            "lens",
+            "linea",
+            "mantle",
+            "megaeth",
+            "mezo",
+            "monad",
+            "morph",
+            "nova",
+            "opbnb",
+            "optimism",
+            "peaq",
+            "plasma",
+            "plume",
+            "polygon",
+            "robinhood",
+            "ronin",
+            "rise",
+            "scroll",
+            "sei",
+            "shape",
+            "somnia",
+            "sonic",
+            "sophon",
+            "story",
+            "superseed",
+            "tac",
+            "taiko",
+            "tempo",
+            "tezos_evm",
+            "unichain",
+            "worldchain",
+            "xlayer",
+            "zkevm",
+            "zksync",
+            "zora",
+            "tron"
+          ],
+          "partition_columns": [
+            "block_month",
+            "blockchain"
+          ],
+          "visibility": "public",
+          "description": "Gas fees paid per transaction across all EVM-compatible chains, including base fee, priority fee, and USD-denominated cost.",
+          "schema": {
+            "fields": [
+              {
+                "name": "blockchain",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "block_month",
+                "nullable": true,
+                "type": "date"
+              },
+              {
+                "name": "block_date",
+                "nullable": true,
+                "type": "date"
+              },
+              {
+                "name": "block_time",
+                "nullable": true,
+                "type": "timestamp(3) with time zone"
+              },
+              {
+                "name": "block_number",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "tx_hash",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "tx_index",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "gas_price",
+                "nullable": true,
+                "type": "uint256"
+              },
+              {
+                "name": "gas_used",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "currency_symbol",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "tx_fee",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "tx_fee_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "tx_fee_raw",
+                "nullable": true,
+                "type": "uint256"
+              },
+              {
+                "name": "tx_fee_breakdown",
+                "nullable": true,
+                "type": "map(varchar,double)"
+              },
+              {
+                "name": "tx_fee_breakdown_usd",
+                "nullable": true,
+                "type": "map(varchar,double)"
+              },
+              {
+                "name": "tx_fee_breakdown_raw",
+                "nullable": true,
+                "type": "map(varchar,uint256)"
+              },
+              {
+                "name": "tx_fee_currency",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "block_proposer",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "gas_limit",
+                "nullable": true,
+                "type": "uint256"
+              },
+              {
+                "name": "gas_limit_usage",
+                "nullable": true,
+                "type": "double"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 1814.2374429733895,
+            "description": "Gas fees paid per transaction across all EVM-compatible chains, including base fee, priority fee, and USD-denominated cost.",
+            "spell_type": "sector",
+            "spell_metadata": {
+              "description": "Gas fees paid per transaction across all EVM-compatible chains, including base fee, priority fee, and USD-denominated cost.",
+              "depends_on": [
+                "model.hourly_spellbook.gas_abstract_fees",
+                "model.hourly_spellbook.gas_apechain_fees",
+                "model.hourly_spellbook.gas_arbitrum_fees",
+                "model.hourly_spellbook.gas_arc_fees",
+                "model.hourly_spellbook.gas_avalanche_c_fees",
+                "model.hourly_spellbook.gas_b3_fees",
+                "model.hourly_spellbook.gas_base_fees",
+                "model.hourly_spellbook.gas_berachain_fees",
+                "model.hourly_spellbook.gas_blast_fees",
+                "model.hourly_spellbook.gas_bnb_fees",
+                "model.hourly_spellbook.gas_bob_fees",
+                "model.hourly_spellbook.gas_boba_fees",
+                "model.hourly_spellbook.gas_celo_fees",
+                "model.hourly_spellbook.gas_corn_fees",
+                "model.hourly_spellbook.gas_cronos_fees",
+                "model.hourly_spellbook.gas_degen_fees",
+                "model.hourly_spellbook.gas_ethereum_fees",
+                "model.hourly_spellbook.gas_fantom_fees",
+                "model.hourly_spellbook.gas_flare_fees",
+                "model.hourly_spellbook.gas_flow_fees",
+                "model.hourly_spellbook.gas_gnosis_fees",
+                "model.hourly_spellbook.gas_hemi_fees",
+                "model.hourly_spellbook.gas_henesys_fees",
+                "model.hourly_spellbook.gas_hyperevm_fees",
+                "model.hourly_spellbook.gas_ink_fees",
+                "model.hourly_spellbook.gas_kaia_fees",
+                "model.hourly_spellbook.gas_katana_fees",
+                "model.hourly_spellbook.gas_lens_fees",
+                "model.hourly_spellbook.gas_linea_fees",
+                "model.hourly_spellbook.gas_mantle_fees",
+                "model.hourly_spellbook.gas_megaeth_fees",
+                "model.hourly_spellbook.gas_mezo_fees",
+                "model.hourly_spellbook.gas_monad_fees",
+                "model.hourly_spellbook.gas_morph_fees",
+                "model.hourly_spellbook.gas_nova_fees",
+                "model.hourly_spellbook.gas_opbnb_fees",
+                "model.hourly_spellbook.gas_optimism_fees",
+                "model.hourly_spellbook.gas_peaq_fees",
+                "model.hourly_spellbook.gas_plasma_fees",
+                "model.hourly_spellbook.gas_plume_fees",
+                "model.hourly_spellbook.gas_polygon_fees",
+                "model.hourly_spellbook.gas_robinhood_fees",
+                "model.hourly_spellbook.gas_ronin_fees",
+                "model.hourly_spellbook.gas_rise_fees",
+                "model.hourly_spellbook.gas_scroll_fees",
+                "model.hourly_spellbook.gas_sei_fees",
+                "model.hourly_spellbook.gas_shape_fees",
+                "model.hourly_spellbook.gas_somnia_fees",
+                "model.hourly_spellbook.gas_sonic_fees",
+                "model.hourly_spellbook.gas_sophon_fees",
+                "model.hourly_spellbook.gas_story_fees",
+                "model.hourly_spellbook.gas_superseed_fees",
+                "model.hourly_spellbook.gas_tac_fees",
+                "model.hourly_spellbook.gas_taiko_fees",
+                "model.hourly_spellbook.gas_tempo_fees",
+                "model.hourly_spellbook.gas_tezos_evm_fees",
+                "model.hourly_spellbook.gas_unichain_fees",
+                "model.hourly_spellbook.gas_worldchain_fees",
+                "model.hourly_spellbook.gas_xlayer_fees",
+                "model.hourly_spellbook.gas_zkevm_fees",
+                "model.hourly_spellbook.gas_zksync_fees",
+                "model.hourly_spellbook.gas_zora_fees",
+                "model.hourly_spellbook.gas_tron_fees"
+              ],
+              "columns": [
+                {
+                  "column": "blockchain",
+                  "name": "blockchain",
+                  "description": "Blockchain name"
+                },
+                {
+                  "column": "block_month",
+                  "name": "block_month",
+                  "description": "Month for block event time in UTC"
+                },
+                {
+                  "column": "block_day",
+                  "name": "block_day",
+                  "description": "Day for block event time in UTC"
+                },
+                {
+                  "column": "block_time",
+                  "name": "block_time",
+                  "description": "Timestamp for block event time in UTC"
+                },
+                {
+                  "column": "block_number",
+                  "name": "block_number",
+                  "description": "Block number"
+                },
+                {
+                  "column": "tx_hash",
+                  "name": "tx_hash",
+                  "description": "Primary key of the transaction"
+                },
+                {
+                  "column": "tx_index",
+                  "name": "tx_index",
+                  "description": "Index position of the transaction within its block"
+                },
+                {
+                  "column": "tx_sender",
+                  "name": "tx_sender",
+                  "description": "Initiated the transaction"
+                },
+                {
+                  "column": "tx_receiver",
+                  "name": "tx_receiver",
+                  "description": "Received the transaction"
+                },
+                {
+                  "column": "native_token_symbol",
+                  "name": "native_token_symbol",
+                  "description": "Symbol of native token for the blockchain"
+                },
+                {
+                  "column": "tx_amount_native",
+                  "name": "tx_amount_native",
+                  "description": "Amount of native tokens transferred from sender to recipient"
+                },
+                {
+                  "column": "tx_amount_usd",
+                  "name": "tx_amount_usd",
+                  "description": "Amount of $USD transferred from sender to recipient"
+                },
+                {
+                  "column": "tx_fee_native",
+                  "name": "tx_fee_native",
+                  "description": "Total amount of native tokens paid in gas fees"
+                },
+                {
+                  "column": "tx_fee_usd",
+                  "name": "tx_fee_usd",
+                  "description": "Total amount of $USD paid in gas fees"
+                },
+                {
+                  "column": "burned_native",
+                  "name": "burned_native",
+                  "description": "Total amount of native tokens burned for this transaction"
+                },
+                {
+                  "column": "burned_usd",
+                  "name": "burned_usd",
+                  "description": "Total amount of $USD burned for this transaction"
+                },
+                {
+                  "column": "validator",
+                  "name": "validator",
+                  "description": "Address of blockchain validator for this transaction within the block"
+                },
+                {
+                  "column": "gas_price_gwei",
+                  "name": "gas_price_gwei",
+                  "description": "Gas price (per gas unit) denoted in gwei"
+                },
+                {
+                  "column": "gas_price_usd",
+                  "name": "gas_price_usd",
+                  "description": "Gas price (per gas unit) denoted in $USD"
+                },
+                {
+                  "column": "gas_used",
+                  "name": "gas_used",
+                  "description": "Amount of gas units consumed by the transaction"
+                },
+                {
+                  "column": "gas_limit",
+                  "name": "gas_limit",
+                  "description": "Maximum amount of gas units that can be consumed by the transaction"
+                },
+                {
+                  "column": "gas_usage_percent",
+                  "name": "gas_usage_percent",
+                  "description": "Percentage of Gas Used relative to the gas limit"
+                },
+                {
+                  "column": "type",
+                  "name": "type",
+                  "description": "Transaction type"
+                }
+              ],
+              "tags": [],
+              "partition_by": []
+            }
+          }
+        }
+      ],
+      "pagination": {
+        "limit": 2,
+        "offset": 0,
+        "nextOffset": null,
+        "hasMore": false
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

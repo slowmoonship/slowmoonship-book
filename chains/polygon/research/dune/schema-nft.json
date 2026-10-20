@@ -1,0 +1,673 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"total\":3,\"results\":[{\"full_name\":\"nft.transfers\",\"category\":\"spell\",\"dataset_type\":\"spell\",\"blockchains\":[\"ethereum\",\"bnb\",\"avalanche_c\",\"gnosis\",\"optimism\",\"arbitrum\",\"polygon\",\"fantom\",\"base\",\"zksync\",\"zora\",\"celo\",\"scroll\",\"linea\",\"blast\",\"mantle\",\"sei\",\"ronin\",\"worldchain\",\"kaia\"],\"partition_columns\":[\"block_month\",\"blockchain\"],\"visibility\":\"public\",\"description\":\"NFT transfers\\n\",\"schema\":{\"fields\":[{\"name\":\"blockchain\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"block_time\",\"nullable\":true,\"type\":\"timestamp(3) with time zone\"},{\"name\":\"block_month\",\"nullable\":true,\"type\":\"date\"},{\"name\":\"block_date\",\"nullable\":true,\"type\":\"date\"},{\"name\":\"block_number\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"token_standard\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"transfer_type\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"evt_index\",\"nullable\":true,\"type\":\"integer\"},{\"name\":\"contract_address\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"token_id\",\"nullable\":true,\"type\":\"uint256\"},{\"name\":\"amount\",\"nullable\":true,\"type\":\"uint256\"},{\"name\":\"from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"executed_by\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"tx_hash\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"unique_transfer_id\",\"nullable\":true,\"type\":\"varchar\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":5264.935980855734,\"description\":\"NFT transfers\\n\",\"spell_type\":\"sector\",\"spell_metadata\":{\"description\":\"NFT transfers\\n\",\"depends_on\":[\"model.nft.nft_ethereum_transfers\",\"model.nft.nft_bnb_transfers\",\"model.nft.nft_avalanche_c_transfers\",\"model.nft.nft_gnosis_transfers\",\"model.nft.nft_optimism_transfers\",\"model.nft.nft_arbitrum_transfers\",\"model.nft.nft_polygon_transfers\",\"model.nft.nft_fantom_transfers\",\"model.nft.nft_goerli_transfers\",\"model.nft.nft_base_transfers\",\"model.nft.nft_zksync_transfers\",\"model.nft.nft_zora_transfers\",\"model.nft.nft_celo_transfers\",\"model.nft.nft_scroll_transfers\",\"model.nft.nft_linea_transfers\",\"model.nft.nft_blast_transfers\",\"model.nft.nft_mantle_transfers\",\"model.nft.nft_sei_transfers\",\"model.nft.nft_ronin_transfers\",\"model.nft.nft_worldchain_transfers\",\"model.nft.nft_kaia_transfers\"],\"columns\":[{\"column\":\"blockchain\",\"name\":\"blockchain\",\"description\":\"\"},{\"column\":\"block_time\",\"name\":\"block_time\",\"description\":\"UTC event block time\"},{\"column\":\"block_number\",\"name\":\"block_number\",\"description\":\"Block number in which the transaction was executed\"},{\"column\":\"token_standard\",\"name\":\"token_standard\",\"description\":\"Token standard\"},{\"column\":\"transfer_type\",\"name\":\"transfer_type\",\"description\":\"single or batch transfer of tokens\"},{\"column\":\"evt_index\",\"name\":\"evt_index\",\"description\":\"Event index\"},{\"column\":\"contract_address\",\"name\":\"contract_address\",\"description\":\"NFT contract address\"},{\"column\":\"token_id\",\"name\":\"token_id\",\"description\":\"ID of transfered token(s)\"},{\"column\":\"amount\",\"name\":\"amount\",\"description\":\"Amount of transfered tokens\"},{\"column\":\"from\",\"name\":\"from\",\"description\":\"Address that sent the token(s)\"},{\"column\":\"to\",\"name\":\"to\",\"description\":\"Address that received the token(s)\"},{\"column\":\"executed_by\",\"name\":\"executed_by\",\"description\":\"Address that executed the transaction\"},{\"column\":\"tx_hash\",\"name\":\"tx_hash\",\"description\":\"Transaction hash\"},{\"column\":\"unique_transfer_id\",\"name\":\"unique_transfer_id\",\"description\":\"Unique transfer ID\"}],\"tags\":[\"nft\",\"ethereum\",\"base\",\"polygon\",\"bnb\",\"avalanche_c\",\"gnosis\",\"optimism\",\"arbitrum\",\"fantom\",\"goerli\",\"celo\",\"zksync\",\"zora\",\"scroll\",\"mantle\",\"blast\",\"sei\",\"transfers\"],\"partition_by\":[\"blockchain\",\"block_month\"]}}},{\"full_name\":\"nft.trades\",\"category\":\"spell\",\"dataset_type\":\"spell\",\"blockchains\":[\"abstract\",\"apechain\",\"arbitrum\",\"avalanche_c\",\"base\",\"blast\",\"bnb\",\"celo\",\"ethereum\",\"fantom\",\"linea\",\"nova\",\"optimism\",\"polygon\",\"ronin\",\"scroll\",\"zksync\",\"zora\"],\"partition_columns\":[\"blockchain\",\"project\",\"block_month\"],\"visibility\":\"public\",\"description\":\"The nft.trades table on Dune captures Non-Fungible Token (NFT) trades and swaps across various marketplaces. \\n\",\"schema\":{\"fields\":[{\"name\":\"blockchain\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"project\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"version\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"block_date\",\"nullable\":true,\"type\":\"date\"},{\"name\":\"block_month\",\"nullable\":true,\"type\":\"date\"},{\"name\":\"block_time\",\"nullable\":true,\"type\":\"timestamp(3) with time zone\"},{\"name\":\"token_id\",\"nullable\":true,\"type\":\"uint256\"},{\"name\":\"collection\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"amount_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"token_standard\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"trade_type\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"number_of_items\",\"nullable\":true,\"type\":\"uint256\"},{\"name\":\"trade_category\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"evt_type\",\"nullable\":true,\"type\":\"varchar(5)\"},{\"name\":\"seller\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"buyer\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"amount_original\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"amount_raw\",\"nullable\":true,\"type\":\"uint256\"},{\"name\":\"currency_symbol\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"currency_contract\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"nft_contract_address\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"project_contract_address\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"aggregator_name\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"aggregator_address\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"tx_hash\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"block_number\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"platform_fee_amount_raw\",\"nullable\":true,\"type\":\"uint256\"},{\"name\":\"platform_fee_amount\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"platform_fee_amount_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"platform_fee_percentage\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"royalty_fee_receive_address\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"royalty_fee_currency_symbol\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"royalty_fee_amount_raw\",\"nullable\":true,\"type\":\"uint256\"},{\"name\":\"royalty_fee_amount\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"royalty_fee_amount_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"royalty_fee_percentage\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"unique_trade_id\",\"nullable\":true,\"type\":\"varchar\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":6281.936438602442,\"description\":\"The nft.trades table on Dune captures Non-Fungible Token (NFT) trades and swaps across various marketplaces. \\n\",\"spell_type\":\"sector\",\"spell_metadata\":{\"description\":\"The nft.trades table on Dune captures Non-Fungible Token (NFT) trades and swaps across various marketplaces. \\n\",\"depends_on\":[\"model.nft.nft_trades_beta\"],\"columns\":[{\"column\":\"blockchain\",\"name\":\"blockchain\",\"description\":\"Blockchain\"},{\"column\":\"project\",\"name\":\"project\",\"description\":\"Project\"},{\"column\":\"version\",\"name\":\"version\",\"description\":\"Project version\"},{\"column\":\"block_time\",\"name\":\"block_time\",\"description\":\"UTC event block time\"},{\"column\":\"token_id\",\"name\":\"token_id\",\"description\":\"NFT Token ID\"},{\"column\":\"collection\",\"name\":\"collection\",\"description\":\"NFT collection name\"},{\"column\":\"amount_usd\",\"name\":\"amount_usd\",\"description\":\"USD value of the trade at time of execution\"},{\"column\":\"token_standard\",\"name\":\"token_standard\",\"description\":\"Token standard\"},{\"column\":\"trade_type\",\"name\":\"trade_type\",\"description\":\"Identify whether it was a single NFT trade or multiple NFTs traded\"},{\"column\":\"number_of_items\",\"name\":\"number_of_items\",\"description\":\"Number of items traded\"},{\"column\":\"trade_category\",\"name\":\"trade_category\",\"description\":\"How was this NFT traded ? (Direct buy, auction, etc...)\"},{\"column\":\"evt_type\",\"name\":\"evt_type\",\"description\":\"Event type (Trade, Mint, Burn)\"},{\"column\":\"seller\",\"name\":\"seller\",\"description\":\"Seller wallet address\"},{\"column\":\"buyer\",\"name\":\"buyer\",\"description\":\"Buyer wallet address\"},{\"column\":\"amount_original\",\"name\":\"amount_original\",\"description\":\"Traded amount in original currency\"},{\"column\":\"amount_raw\",\"name\":\"amount_raw\",\"description\":\"Traded amount in original currency before decimals correction\"},{\"column\":\"currency_symbol\",\"name\":\"currency_symbol\",\"description\":\"Symbol of original currency used for payment\"},{\"column\":\"currency_contract\",\"name\":\"currency_contract\",\"description\":\"Contract address of original token used for payment, with ETH contract address swapped for WETH\"},{\"column\":\"nft_contract_address\",\"name\":\"nft_contract_address\",\"description\":\"NFT contract address, only if 1 nft was transacted\"},{\"column\":\"project_contract_address\",\"name\":\"project_contract_address\",\"description\":\"Contract address used by the project, in this case wyvern contract\"},{\"column\":\"aggregator_name\",\"name\":\"aggregator_name\",\"description\":\"If the trade was performed via an aggregator, displays aggregator name\"},{\"column\":\"aggregator_address\",\"name\":\"aggregator_address\",\"description\":\"If the trade was performed via an aggregator, displays aggregator address\"},{\"column\":\"tx_hash\",\"name\":\"tx_hash\",\"description\":\"Transaction hash\"},{\"column\":\"block_number\",\"name\":\"block_number\",\"description\":\"Block number in which the transaction was executed \"},{\"column\":\"tx_from\",\"name\":\"tx_from\",\"description\":\"Address that initiated the transaction\"},{\"column\":\"tx_to\",\"name\":\"tx_to\",\"description\":\"Address that received the transaction\"},{\"column\":\"unique_trade_id\",\"name\":\"unique_trade_id\",\"description\":\"Unique trade ID\"}],\"tags\":[\"nft\",\"opensea\",\"looksrare\",\"x2y2\",\"magiceden\",\"sudoswap\",\"foundation\",\"element\",\"zora\",\"ethereum\",\"bnb\",\"solana\",\"optimism\",\"arbitrum\",\"trades\",\"superrare\",\"polygon\",\"rarible\",\"aavegotchi\",\"oneplanet\",\"fractal\"],\"partition_by\":[]}}}],\"pagination\":{\"limit\":2,\"offset\":0,\"nextOffset\":2,\"hasMore\":true}}"
+      }
+    ],
+    "structuredContent": {
+      "total": 3,
+      "results": [
+        {
+          "full_name": "nft.transfers",
+          "category": "spell",
+          "dataset_type": "spell",
+          "blockchains": [
+            "ethereum",
+            "bnb",
+            "avalanche_c",
+            "gnosis",
+            "optimism",
+            "arbitrum",
+            "polygon",
+            "fantom",
+            "base",
+            "zksync",
+            "zora",
+            "celo",
+            "scroll",
+            "linea",
+            "blast",
+            "mantle",
+            "sei",
+            "ronin",
+            "worldchain",
+            "kaia"
+          ],
+          "partition_columns": [
+            "block_month",
+            "blockchain"
+          ],
+          "visibility": "public",
+          "description": "NFT transfers\n",
+          "schema": {
+            "fields": [
+              {
+                "name": "blockchain",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "block_time",
+                "nullable": true,
+                "type": "timestamp(3) with time zone"
+              },
+              {
+                "name": "block_month",
+                "nullable": true,
+                "type": "date"
+              },
+              {
+                "name": "block_date",
+                "nullable": true,
+                "type": "date"
+              },
+              {
+                "name": "block_number",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "token_standard",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "transfer_type",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "evt_index",
+                "nullable": true,
+                "type": "integer"
+              },
+              {
+                "name": "contract_address",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "token_id",
+                "nullable": true,
+                "type": "uint256"
+              },
+              {
+                "name": "amount",
+                "nullable": true,
+                "type": "uint256"
+              },
+              {
+                "name": "from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "executed_by",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "tx_hash",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "unique_transfer_id",
+                "nullable": true,
+                "type": "varchar"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 5264.935980855734,
+            "description": "NFT transfers\n",
+            "spell_type": "sector",
+            "spell_metadata": {
+              "description": "NFT transfers\n",
+              "depends_on": [
+                "model.nft.nft_ethereum_transfers",
+                "model.nft.nft_bnb_transfers",
+                "model.nft.nft_avalanche_c_transfers",
+                "model.nft.nft_gnosis_transfers",
+                "model.nft.nft_optimism_transfers",
+                "model.nft.nft_arbitrum_transfers",
+                "model.nft.nft_polygon_transfers",
+                "model.nft.nft_fantom_transfers",
+                "model.nft.nft_goerli_transfers",
+                "model.nft.nft_base_transfers",
+                "model.nft.nft_zksync_transfers",
+                "model.nft.nft_zora_transfers",
+                "model.nft.nft_celo_transfers",
+                "model.nft.nft_scroll_transfers",
+                "model.nft.nft_linea_transfers",
+                "model.nft.nft_blast_transfers",
+                "model.nft.nft_mantle_transfers",
+                "model.nft.nft_sei_transfers",
+                "model.nft.nft_ronin_transfers",
+                "model.nft.nft_worldchain_transfers",
+                "model.nft.nft_kaia_transfers"
+              ],
+              "columns": [
+                {
+                  "column": "blockchain",
+                  "name": "blockchain",
+                  "description": ""
+                },
+                {
+                  "column": "block_time",
+                  "name": "block_time",
+                  "description": "UTC event block time"
+                },
+                {
+                  "column": "block_number",
+                  "name": "block_number",
+                  "description": "Block number in which the transaction was executed"
+                },
+                {
+                  "column": "token_standard",
+                  "name": "token_standard",
+                  "description": "Token standard"
+                },
+                {
+                  "column": "transfer_type",
+                  "name": "transfer_type",
+                  "description": "single or batch transfer of tokens"
+                },
+                {
+                  "column": "evt_index",
+                  "name": "evt_index",
+                  "description": "Event index"
+                },
+                {
+                  "column": "contract_address",
+                  "name": "contract_address",
+                  "description": "NFT contract address"
+                },
+                {
+                  "column": "token_id",
+                  "name": "token_id",
+                  "description": "ID of transfered token(s)"
+                },
+                {
+                  "column": "amount",
+                  "name": "amount",
+                  "description": "Amount of transfered tokens"
+                },
+                {
+                  "column": "from",
+                  "name": "from",
+                  "description": "Address that sent the token(s)"
+                },
+                {
+                  "column": "to",
+                  "name": "to",
+                  "description": "Address that received the token(s)"
+                },
+                {
+                  "column": "executed_by",
+                  "name": "executed_by",
+                  "description": "Address that executed the transaction"
+                },
+                {
+                  "column": "tx_hash",
+                  "name": "tx_hash",
+                  "description": "Transaction hash"
+                },
+                {
+                  "column": "unique_transfer_id",
+                  "name": "unique_transfer_id",
+                  "description": "Unique transfer ID"
+                }
+              ],
+              "tags": [
+                "nft",
+                "ethereum",
+                "base",
+                "polygon",
+                "bnb",
+                "avalanche_c",
+                "gnosis",
+                "optimism",
+                "arbitrum",
+                "fantom",
+                "goerli",
+                "celo",
+                "zksync",
+                "zora",
+                "scroll",
+                "mantle",
+                "blast",
+                "sei",
+                "transfers"
+              ],
+              "partition_by": [
+                "blockchain",
+                "block_month"
+              ]
+            }
+          }
+        },
+        {
+          "full_name": "nft.trades",
+          "category": "spell",
+          "dataset_type": "spell",
+          "blockchains": [
+            "abstract",
+            "apechain",
+            "arbitrum",
+            "avalanche_c",
+            "base",
+            "blast",
+            "bnb",
+            "celo",
+            "ethereum",
+            "fantom",
+            "linea",
+            "nova",
+            "optimism",
+            "polygon",
+            "ronin",
+            "scroll",
+            "zksync",
+            "zora"
+          ],
+          "partition_columns": [
+            "blockchain",
+            "project",
+            "block_month"
+          ],
+          "visibility": "public",
+          "description": "The nft.trades table on Dune captures Non-Fungible Token (NFT) trades and swaps across various marketplaces. \n",
+          "schema": {
+            "fields": [
+              {
+                "name": "blockchain",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "project",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "version",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "block_date",
+                "nullable": true,
+                "type": "date"
+              },
+              {
+                "name": "block_month",
+                "nullable": true,
+                "type": "date"
+              },
+              {
+                "name": "block_time",
+                "nullable": true,
+                "type": "timestamp(3) with time zone"
+              },
+              {
+                "name": "token_id",
+                "nullable": true,
+                "type": "uint256"
+              },
+              {
+                "name": "collection",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "amount_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "token_standard",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "trade_type",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "number_of_items",
+                "nullable": true,
+                "type": "uint256"
+              },
+              {
+                "name": "trade_category",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "evt_type",
+                "nullable": true,
+                "type": "varchar(5)"
+              },
+              {
+                "name": "seller",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "buyer",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "amount_original",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "amount_raw",
+                "nullable": true,
+                "type": "uint256"
+              },
+              {
+                "name": "currency_symbol",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "currency_contract",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "nft_contract_address",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "project_contract_address",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "aggregator_name",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "aggregator_address",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "tx_hash",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "block_number",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "platform_fee_amount_raw",
+                "nullable": true,
+                "type": "uint256"
+              },
+              {
+                "name": "platform_fee_amount",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "platform_fee_amount_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "platform_fee_percentage",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "royalty_fee_receive_address",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "royalty_fee_currency_symbol",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "royalty_fee_amount_raw",
+                "nullable": true,
+                "type": "uint256"
+              },
+              {
+                "name": "royalty_fee_amount",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "royalty_fee_amount_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "royalty_fee_percentage",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "unique_trade_id",
+                "nullable": true,
+                "type": "varchar"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 6281.936438602442,
+            "description": "The nft.trades table on Dune captures Non-Fungible Token (NFT) trades and swaps across various marketplaces. \n",
+            "spell_type": "sector",
+            "spell_metadata": {
+              "description": "The nft.trades table on Dune captures Non-Fungible Token (NFT) trades and swaps across various marketplaces. \n",
+              "depends_on": [
+                "model.nft.nft_trades_beta"
+              ],
+              "columns": [
+                {
+                  "column": "blockchain",
+                  "name": "blockchain",
+                  "description": "Blockchain"
+                },
+                {
+                  "column": "project",
+                  "name": "project",
+                  "description": "Project"
+                },
+                {
+                  "column": "version",
+                  "name": "version",
+                  "description": "Project version"
+                },
+                {
+                  "column": "block_time",
+                  "name": "block_time",
+                  "description": "UTC event block time"
+                },
+                {
+                  "column": "token_id",
+                  "name": "token_id",
+                  "description": "NFT Token ID"
+                },
+                {
+                  "column": "collection",
+                  "name": "collection",
+                  "description": "NFT collection name"
+                },
+                {
+                  "column": "amount_usd",
+                  "name": "amount_usd",
+                  "description": "USD value of the trade at time of execution"
+                },
+                {
+                  "column": "token_standard",
+                  "name": "token_standard",
+                  "description": "Token standard"
+                },
+                {
+                  "column": "trade_type",
+                  "name": "trade_type",
+                  "description": "Identify whether it was a single NFT trade or multiple NFTs traded"
+                },
+                {
+                  "column": "number_of_items",
+                  "name": "number_of_items",
+                  "description": "Number of items traded"
+                },
+                {
+                  "column": "trade_category",
+                  "name": "trade_category",
+                  "description": "How was this NFT traded ? (Direct buy, auction, etc...)"
+                },
+                {
+                  "column": "evt_type",
+                  "name": "evt_type",
+                  "description": "Event type (Trade, Mint, Burn)"
+                },
+                {
+                  "column": "seller",
+                  "name": "seller",
+                  "description": "Seller wallet address"
+                },
+                {
+                  "column": "buyer",
+                  "name": "buyer",
+                  "description": "Buyer wallet address"
+                },
+                {
+                  "column": "amount_original",
+                  "name": "amount_original",
+                  "description": "Traded amount in original currency"
+                },
+                {
+                  "column": "amount_raw",
+                  "name": "amount_raw",
+                  "description": "Traded amount in original currency before decimals correction"
+                },
+                {
+                  "column": "currency_symbol",
+                  "name": "currency_symbol",
+                  "description": "Symbol of original currency used for payment"
+                },
+                {
+                  "column": "currency_contract",
+                  "name": "currency_contract",
+                  "description": "Contract address of original token used for payment, with ETH contract address swapped for WETH"
+                },
+                {
+                  "column": "nft_contract_address",
+                  "name": "nft_contract_address",
+                  "description": "NFT contract address, only if 1 nft was transacted"
+                },
+                {
+                  "column": "project_contract_address",
+                  "name": "project_contract_address",
+                  "description": "Contract address used by the project, in this case wyvern contract"
+                },
+                {
+                  "column": "aggregator_name",
+                  "name": "aggregator_name",
+                  "description": "If the trade was performed via an aggregator, displays aggregator name"
+                },
+                {
+                  "column": "aggregator_address",
+                  "name": "aggregator_address",
+                  "description": "If the trade was performed via an aggregator, displays aggregator address"
+                },
+                {
+                  "column": "tx_hash",
+                  "name": "tx_hash",
+                  "description": "Transaction hash"
+                },
+                {
+                  "column": "block_number",
+                  "name": "block_number",
+                  "description": "Block number in which the transaction was executed "
+                },
+                {
+                  "column": "tx_from",
+                  "name": "tx_from",
+                  "description": "Address that initiated the transaction"
+                },
+                {
+                  "column": "tx_to",
+                  "name": "tx_to",
+                  "description": "Address that received the transaction"
+                },
+                {
+                  "column": "unique_trade_id",
+                  "name": "unique_trade_id",
+                  "description": "Unique trade ID"
+                }
+              ],
+              "tags": [
+                "nft",
+                "opensea",
+                "looksrare",
+                "x2y2",
+                "magiceden",
+                "sudoswap",
+                "foundation",
+                "element",
+                "zora",
+                "ethereum",
+                "bnb",
+                "solana",
+                "optimism",
+                "arbitrum",
+                "trades",
+                "superrare",
+                "polygon",
+                "rarible",
+                "aavegotchi",
+                "oneplanet",
+                "fractal"
+              ],
+              "partition_by": []
+            }
+          }
+        }
+      ],
+      "pagination": {
+        "limit": 2,
+        "offset": 0,
+        "nextOffset": 2,
+        "hasMore": true
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

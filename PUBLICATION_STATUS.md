@@ -8,6 +8,7 @@
 | Avalanche | v0.1 | 2026-10-14 | [Avalanche](chains/avalanche/README.md) | 本次新增Avalanche记录的提交，见[内容提交历史](https://github.com/slowmoonship/slowmoonship-book/commits/main/chains/avalanche) | VALIDATED；40章及前言/5附录；有限样本 | 10条新SQL STATIC_CHECKED / NOT_EXECUTED，执行0；原稿BLOCKED_READ_ONLY_ACCOUNT；15份历史API样本，出版未重采 | UNKNOWN | NOT_CONFIGURED |
 | Bitcoin | v0.1 | 2026-10-14 | [Bitcoin](chains/bitcoin/README.md) | 本次新增Bitcoin记录的提交，见[内容提交历史](https://github.com/slowmoonship/slowmoonship-book/commits/main/chains/bitcoin) | VALIDATED；9 Part/36章，有限离线结构检查 | 新16条STATIC_CHECKED / NOT_EXECUTED；Core 31.0.0 RPC 12组NOT_EXECUTED，response=null；历史Query未重跑 | UNKNOWN | NOT_CONFIGURED |
 | Hyperliquid | v0.1 | 2026-10-14 | [章节入口](chains/hyperliquid/README.md) · [BOOK](chains/hyperliquid/BOOK.md) | 本次新增Hyperliquid的提交，见[内容提交历史](https://github.com/slowmoonship/slowmoonship-book/commits/main/chains/hyperliquid) | VALIDATED；10 Part/40章；原31/31及82/82限定自审 | 新18条STATIC_CHECKED / NOT_EXECUTED；32 HTTP/2 WS为2026-10-13实取快照，历史Query未重跑 | UNKNOWN | NOT_CONFIGURED |
+| Polygon PoS | v0.1 | 2026-10-20 | [章节入口](chains/polygon/README.md) · [BOOK](chains/polygon/BOOK.md) | 本次新增Polygon的提交，见[内容提交历史](https://github.com/slowmoonship/slowmoonship-book/commits/main/chains/polygon) | VALIDATED；10 Part/40章，原37/37限定自审 | 新18条STATIC_CHECKED / NOT_EXECUTED；历史38条未重跑；LGNS旧结果与模型非实盘验证 | UNKNOWN | NOT_CONFIGURED |
 
 [当前全书清单与每次验收](publication/README.md)。Ethereum历史Query保存每条3行旧结果，未重跑；Solana的历史执行状态只由原材料报告，本轮没有取得新的运行证据。官方RPC案例尚未在Dune按signature交叉核对。
 
@@ -16,3 +17,5 @@
 Bitcoin RPC 实调为 NOT_EXECUTED；案例取得日期2026-10-13，三条后续边止于高度92640，未追至当前链头。UTXO引用为结构证据，聚类/找零/比例模型保留推断边界。GitBook仓库无配置证据，平台账户同步 UNVERIFIED。
 
 Hyperliquid所有市场快照和“当前”用语按2026-10-13观察时间解释（文件retrieved_at保留UTC），不代表2026-10-14实时状态。清算、HIP-2、Core/EVM转移、HLP份额及完整事件链缺口保留；HIP-3/4接口可读不等于权限与完整过程已证实。GitBook平台账户及同步UNVERIFIED。
+
+Polygon研究基准2026-10-19，LGNS旧模型主要截止2026-08-18；3,584情景只核对模型算术。当前Controller、Supply、LP、Treasury、外部收入/负债 NOT_VERIFIED；Bor原生RPC和PoS Bridge双侧闭环缺口保留。源码能力不等于恶意行为或现实身份。GitBook账户及同步 UNVERIFIED。

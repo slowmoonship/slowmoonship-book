@@ -1,5 +1,9 @@
 # 出版更新记录
 
+## 2026-10-20 · Polygon PoS v0.1
+
+第七条公链：10 Part、40章、6附录及BOOK，44组SVG/draw.io，18条新SQL、38条历史SQL，12案例主题/10交易；LGNS22项证据矩阵、5份ABI与源码来源哈希、6份完整旧结果8082行及3584情景复算说明。选入525个原稿文件，详见[逐文件清单](publication/polygon/2026-10-20-v0.1/FILES.md)。原稿VALIDATED；新SQL未执行，Bor RPC、桥双侧闭环和LGNS当前权限/供应/LP/金库/外部收入负债缺口保持。作者人工审读UNKNOWN。旧六链及旧快照不变。GitBook NOT_CONFIGURED，未新增许可证、Tag或Release。
+
 ## 2026-10-14 · Hyperliquid v0.1
 
 新增第六条公链：10 Part、40章、前言、5附录和完整BOOK.md；40对SVG/draw.io，18条新教学SQL、12份历史SQL、32份真实HTTP响应、2次WebSocket、10个主体案例（14研究主题）。实际选入351个源文件；PNG按引用闭包保留，详细统计见[文件清单](publication/hyperliquid/2026-10-14-v0.1/FILES.md)。原稿VALIDATED及研究缺口保持，SQL未执行，API为2026-10-13历史快照，作者审读UNKNOWN。旧五链和旧快照不变；GitBook NOT_CONFIGURED，无新增许可证、Tag、Release或PR。

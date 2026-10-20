@@ -1,0 +1,23 @@
+{
+  "parts": 10,
+  "chapters": 40,
+  "body_cjk": 33957,
+  "drawio": 44,
+  "svg": 44,
+  "rendered": 44,
+  "sql": 18,
+  "case_themes": 12,
+  "distinct_transactions": 10,
+  "appendices": 6,
+  "original_queries": 38,
+  "polygon_dashboard_queries": 10,
+  "lgns_dashboard_queries": 6,
+  "lgns_aux_queries": 16,
+  "polygon_sample_queries": 6,
+  "schema_tables_returned": 86,
+  "source_records": 120,
+  "evidence_checks": 57,
+  "source_contracts": 5,
+  "full_historical_datasets": 6,
+  "full_historical_rows": 8082
+}

@@ -1,0 +1,14 @@
+{
+  "id": "heimdall",
+  "url": "https://docs.polygon.technology/pos/architecture/heimdall_v2/introduction.md",
+  "accessed_at": "2026-10-19T02:32:57.729166+00:00",
+  "baseline": "2026-10-19",
+  "status": 200,
+  "final_url": "https://docs.polygon.technology/pos/architecture/heimdall_v2/introduction.md",
+  "content_type": "text/markdown; charset=utf-8",
+  "bytes": 1479,
+  "sha256": "bb7a91a20b49e972757eb843dc3f1c4d1db60f59f97ac4c5b84c0bbf5904100e",
+  "local_archive_path": "research/sources/heimdall.md",
+  "public_source_url": "https://docs.polygon.technology/pos/architecture/heimdall_v2/introduction.md",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY"
+}

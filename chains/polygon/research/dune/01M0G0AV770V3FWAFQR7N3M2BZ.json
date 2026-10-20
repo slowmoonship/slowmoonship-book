@@ -1,0 +1,300 @@
+{
+  "result": {
+    "_meta": {
+      "mcp_event_id": "7082fca2-7f84-4257-961b-e7cb5c45eaff"
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"executionId\":\"01M0G0AV770V3FWAFQR7N3M2BZ\",\"state\":\"COMPLETED\",\"resultMetadata\":{\"columns\":[{\"name\":\"date\",\"type\":\"date\"},{\"name\":\"initial_capital_dai\",\"type\":\"double\"},{\"name\":\"simulated_lgns_balance\",\"type\":\"double\"},{\"name\":\"spot_price_dai\",\"type\":\"double\"},{\"name\":\"mark_to_market_value_dai\",\"type\":\"double\"},{\"name\":\"reserve_lgns\",\"type\":\"double\"},{\"name\":\"reserve_dai\",\"type\":\"double\"},{\"name\":\"reserve_spot_price_dai\",\"type\":\"double\"},{\"name\":\"reserve_time\",\"type\":\"timestamp(3) with time zone\"},{\"name\":\"after_token_fee_lgns\",\"type\":\"double\"},{\"name\":\"amm_exit_value_dai\",\"type\":\"double\"},{\"name\":\"fee_adjusted_exit_value_dai\",\"type\":\"double\"},{\"name\":\"amm_exit_discount_pct\",\"type\":\"double\"},{\"name\":\"fee_adjusted_exit_discount_pct\",\"type\":\"double\"},{\"name\":\"price_impact_pct\",\"type\":\"double\"},{\"name\":\"amm_fee_rate\",\"type\":\"double\"},{\"name\":\"token_sell_fee_rate\",\"type\":\"double\"},{\"name\":\"final_date\",\"type\":\"date\"},{\"name\":\"is_final_date\",\"type\":\"boolean\"},{\"name\":\"chart_1000_mark_to_market_value_dai\",\"type\":\"double\"},{\"name\":\"chart_1000_amm_exit_value_dai\",\"type\":\"double\"},{\"name\":\"chart_1000_fee_adjusted_exit_value_dai\",\"type\":\"double\"},{\"name\":\"chart_final_position_dai\",\"type\":\"varchar\"},{\"name\":\"chart_final_exit_discount_pct\",\"type\":\"double\"},{\"name\":\"table_final_token_balance\",\"type\":\"double\"},{\"name\":\"table_final_mark_to_market\",\"type\":\"double\"},{\"name\":\"table_final_amm_exit_value\",\"type\":\"double\"},{\"name\":\"table_final_fee_adjusted_exit_value\",\"type\":\"double\"},{\"name\":\"table_final_price_impact_pct\",\"type\":\"double\"}],\"totalRowCount\":3584,\"executionCostCredits\":\"72.85\"},\"data\":{\"rows\":[{\"date\":\"2026-08-18\",\"initial_capital_dai\":1000,\"simulated_lgns_balance\":41424.219251297975,\"spot_price_dai\":1.296662737730907,\"mark_to_market_value_dai\":53713.24154275338,\"reserve_lgns\":55903905.54370488,\"reserve_dai\":72735513.93924864,\"reserve_spot_price_dai\":1.301081082472584,\"reserve_time\":\"2026-08-18 09:28:58.000 UTC\",\"after_token_fee_lgns\":39353.00828873307,\"amm_exit_value_dai\":53694.91120496241,\"fee_adjusted_exit_value_dai\":51012.04855394882,\"amm_exit_discount_pct\":0.0003412629225957309,\"fee_adjusted_exit_discount_pct\":0.050289144933740926,\"price_impact_pct\":0.0037360067121553486,\"amm_fee_rate\":0.003,\"token_sell_fee_rate\":0.05,\"final_date\":\"2026-08-18\",\"is_final_date\":true,\"chart_1000_mark_to_market_value_dai\":53713.24154275338,\"chart_1000_amm_exit_value_dai\":53694.91120496241,\"chart_1000_fee_adjusted_exit_value_dai\":51012.04855394882,\"chart_final_position_dai\":\"1000\",\"chart_final_exit_discount_pct\":0.050289144933740926,\"table_final_token_balance\":41424.219251297975,\"table_final_mark_to_market\":53713.24154275338,\"table_final_amm_exit_value\":53694.91120496241,\"table_final_fee_adjusted_exit_value\":51012.04855394882,\"table_final_price_impact_pct\":0.0037360067121553486},{\"date\":\"2026-08-18\",\"initial_capital_dai\":10000,\"simulated_lgns_balance\":414242.19251297973,\"spot_price_dai\":1.296662737730907,\"mark_to_market_value_dai\":537132.4154275338,\"reserve_lgns\":55903905.54370488,\"reserve_dai\":72735513.93924864,\"reserve_spot_price_dai\":1.301081082472584,\"reserve_time\":\"2026-08-18 09:28:58.000 UTC\",\"after_token_fee_lgns\":393530.08288733073,\"amm_exit_value_dai\":533405.1721469299,\"fee_adjusted_exit_value_dai\":506920.78846903256,\"amm_exit_discount_pct\":0.006939151638497121,\"fee_adjusted_exit_discount_pct\":0.05624614357793711,\"price_impact_pct\":0.010311489640049465,\"amm_fee_rate\":0.003,\"token_sell_fee_rate\":0.05,\"final_date\":\"2026-08-18\",\"is_final_date\":true,\"chart_1000_mark_to_market_value_dai\":null,\"chart_1000_amm_exit_value_dai\":null,\"chart_1000_fee_adjusted_exit_value_dai\":null,\"chart_final_position_dai\":\"10000\",\"chart_final_exit_discount_pct\":0.05624614357793711,\"table_final_token_balance\":414242.19251297973,\"table_final_mark_to_market\":537132.4154275338,\"table_final_amm_exit_value\":533405.1721469299,\"table_final_fee_adjusted_exit_value\":506920.78846903256,\"table_final_price_impact_pct\":0.010311489640049465},{\"date\":\"2026-08-18\",\"initial_capital_dai\":100000,\"simulated_lgns_balance\":4142421.9251297973,\"spot_price_dai\":1.296662737730907,\"mark_to_market_value_dai\":5371324.154275338,\"reserve_lgns\":55903905.54370488,\"reserve_dai\":72735513.93924864,\"reserve_spot_price_dai\":1.301081082472584,\"reserve_time\":\"2026-08-18 09:28:58.000 UTC\",\"after_token_fee_lgns\":3935300.8288733074,\"amm_exit_value_dai\":5003794.241227507,\"fee_adjusted_exit_value_dai\":4770012.029044013,\"amm_exit_discount_pct\":0.06842445223777716,\"fee_adjusted_exit_discount_pct\":0.11194858250226947,\"price_impact_pct\":0.07158799214192202,\"amm_fee_rate\":0.003,\"token_sell_fee_rate\":0.05,\"final_date\":\"2026-08-18\",\"is_final_date\":true,\"chart_1000_mark_to_market_value_dai\":null,\"chart_1000_amm_exit_value_dai\":null,\"chart_1000_fee_adjusted_exit_value_dai\":null,\"chart_final_position_dai\":\"100000\",\"chart_final_exit_discount_pct\":0.11194858250226947,\"table_final_token_balance\":4142421.9251297973,\"table_final_mark_to_market\":5371324.154275338,\"table_final_amm_exit_value\":5003794.241227507,\"table_final_fee_adjusted_exit_value\":4770012.029044013,\"table_final_price_impact_pct\":0.07158799214192202},{\"date\":\"2026-08-18\",\"initial_capital_dai\":1000000,\"simulated_lgns_balance\":41424219.25129797,\"spot_price_dai\":1.296662737730907,\"mark_to_market_value_dai\":53713241.54275338,\"reserve_lgns\":55903905.54370488,\"reserve_dai\":72735513.93924864,\"reserve_spot_price_dai\":1.301081082472584,\"reserve_time\":\"2026-08-18 09:28:58.000 UTC\",\"after_token_fee_lgns\":39353008.28873307,\"amm_exit_value_dai\":30903845.63055617,\"fee_adjusted_exit_value_dai\":29995885.53866617,\"amm_exit_discount_pct\":0.4246512639540091,\"fee_adjusted_exit_discount_pct\":0.44155510490293604,\"price_impact_pct\":0.4266050922716941,\"amm_fee_rate\":0.003,\"token_sell_fee_rate\":0.05,\"final_date\":\"2026-08-18\",\"is_final_date\":true,\"chart_1000_mark_to_market_value_dai\":null,\"chart_1000_amm_exit_value_dai\":null,\"chart_1000_fee_adjusted_exit_value_dai\":null,\"chart_final_position_dai\":\"1000000\",\"chart_final_exit_discount_pct\":0.44155510490293604,\"table_final_token_balance\":41424219.25129797,\"table_final_mark_to_market\":53713241.54275338,\"table_final_amm_exit_value\":30903845.63055617,\"table_final_fee_adjusted_exit_value\":29995885.53866617,\"table_final_price_impact_pct\":0.4266050922716941},{\"date\":\"2026-08-17\",\"initial_capital_dai\":1000,\"simulated_lgns_balance\":41316.108086261156,\"spot_price_dai\":1.2971068993956427,\"mark_to_market_value_dai\":53591.40885486545,\"reserve_lgns\":56121213.397521794,\"reserve_dai\":72658940.3591513,\"reserve_spot_price_dai\":1.2946787134570363,\"reserve_time\":null,\"after_token_fee_lgns\":39250.302681948095,\"amm_exit_value_dai\":53291.497216215634,\"fee_adjusted_exit_value_dai\":50628.77903224564,\"amm_exit_discount_pct\":0.005596263376132282,\"fee_adjusted_exit_discount_pct\":0.05528180516103065,\"price_impact_pct\":0.003731246870129601,\"amm_fee_rate\":0.003,\"token_sell_fee_rate\":0.05,\"final_date\":\"2026-08-18\",\"is_final_date\":false,\"chart_1000_mark_to_market_value_dai\":53591.40885486545,\"chart_1000_amm_exit_value_dai\":53291.497216215634,\"chart_1000_fee_adjusted_exit_value_dai\":50628.77903224564,\"chart_final_position_dai\":null,\"chart_final_exit_discount_pct\":null,\"table_final_token_balance\":null,\"table_final_mark_to_market\":null,\"table_final_amm_exit_value\":null,\"table_final_fee_adjusted_exit_value\":null,\"table_final_price_impact_pct\":null}]}}"
+      }
+    ],
+    "structuredContent": {
+      "executionId": "01M0G0AV770V3FWAFQR7N3M2BZ",
+      "state": "COMPLETED",
+      "resultMetadata": {
+        "columns": [
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "initial_capital_dai",
+            "type": "double"
+          },
+          {
+            "name": "simulated_lgns_balance",
+            "type": "double"
+          },
+          {
+            "name": "spot_price_dai",
+            "type": "double"
+          },
+          {
+            "name": "mark_to_market_value_dai",
+            "type": "double"
+          },
+          {
+            "name": "reserve_lgns",
+            "type": "double"
+          },
+          {
+            "name": "reserve_dai",
+            "type": "double"
+          },
+          {
+            "name": "reserve_spot_price_dai",
+            "type": "double"
+          },
+          {
+            "name": "reserve_time",
+            "type": "timestamp(3) with time zone"
+          },
+          {
+            "name": "after_token_fee_lgns",
+            "type": "double"
+          },
+          {
+            "name": "amm_exit_value_dai",
+            "type": "double"
+          },
+          {
+            "name": "fee_adjusted_exit_value_dai",
+            "type": "double"
+          },
+          {
+            "name": "amm_exit_discount_pct",
+            "type": "double"
+          },
+          {
+            "name": "fee_adjusted_exit_discount_pct",
+            "type": "double"
+          },
+          {
+            "name": "price_impact_pct",
+            "type": "double"
+          },
+          {
+            "name": "amm_fee_rate",
+            "type": "double"
+          },
+          {
+            "name": "token_sell_fee_rate",
+            "type": "double"
+          },
+          {
+            "name": "final_date",
+            "type": "date"
+          },
+          {
+            "name": "is_final_date",
+            "type": "boolean"
+          },
+          {
+            "name": "chart_1000_mark_to_market_value_dai",
+            "type": "double"
+          },
+          {
+            "name": "chart_1000_amm_exit_value_dai",
+            "type": "double"
+          },
+          {
+            "name": "chart_1000_fee_adjusted_exit_value_dai",
+            "type": "double"
+          },
+          {
+            "name": "chart_final_position_dai",
+            "type": "varchar"
+          },
+          {
+            "name": "chart_final_exit_discount_pct",
+            "type": "double"
+          },
+          {
+            "name": "table_final_token_balance",
+            "type": "double"
+          },
+          {
+            "name": "table_final_mark_to_market",
+            "type": "double"
+          },
+          {
+            "name": "table_final_amm_exit_value",
+            "type": "double"
+          },
+          {
+            "name": "table_final_fee_adjusted_exit_value",
+            "type": "double"
+          },
+          {
+            "name": "table_final_price_impact_pct",
+            "type": "double"
+          }
+        ],
+        "totalRowCount": 3584,
+        "executionCostCredits": "72.85"
+      },
+      "data": {
+        "rows": [
+          {
+            "date": "2026-08-18",
+            "initial_capital_dai": 1000,
+            "simulated_lgns_balance": 41424.219251297975,
+            "spot_price_dai": 1.296662737730907,
+            "mark_to_market_value_dai": 53713.24154275338,
+            "reserve_lgns": 55903905.54370488,
+            "reserve_dai": 72735513.93924864,
+            "reserve_spot_price_dai": 1.301081082472584,
+            "reserve_time": "2026-08-18 09:28:58.000 UTC",
+            "after_token_fee_lgns": 39353.00828873307,
+            "amm_exit_value_dai": 53694.91120496241,
+            "fee_adjusted_exit_value_dai": 51012.04855394882,
+            "amm_exit_discount_pct": 0.0003412629225957309,
+            "fee_adjusted_exit_discount_pct": 0.050289144933740926,
+            "price_impact_pct": 0.0037360067121553486,
+            "amm_fee_rate": 0.003,
+            "token_sell_fee_rate": 0.05,
+            "final_date": "2026-08-18",
+            "is_final_date": true,
+            "chart_1000_mark_to_market_value_dai": 53713.24154275338,
+            "chart_1000_amm_exit_value_dai": 53694.91120496241,
+            "chart_1000_fee_adjusted_exit_value_dai": 51012.04855394882,
+            "chart_final_position_dai": "1000",
+            "chart_final_exit_discount_pct": 0.050289144933740926,
+            "table_final_token_balance": 41424.219251297975,
+            "table_final_mark_to_market": 53713.24154275338,
+            "table_final_amm_exit_value": 53694.91120496241,
+            "table_final_fee_adjusted_exit_value": 51012.04855394882,
+            "table_final_price_impact_pct": 0.0037360067121553486
+          },
+          {
+            "date": "2026-08-18",
+            "initial_capital_dai": 10000,
+            "simulated_lgns_balance": 414242.19251297973,
+            "spot_price_dai": 1.296662737730907,
+            "mark_to_market_value_dai": 537132.4154275338,
+            "reserve_lgns": 55903905.54370488,
+            "reserve_dai": 72735513.93924864,
+            "reserve_spot_price_dai": 1.301081082472584,
+            "reserve_time": "2026-08-18 09:28:58.000 UTC",
+            "after_token_fee_lgns": 393530.08288733073,
+            "amm_exit_value_dai": 533405.1721469299,
+            "fee_adjusted_exit_value_dai": 506920.78846903256,
+            "amm_exit_discount_pct": 0.006939151638497121,
+            "fee_adjusted_exit_discount_pct": 0.05624614357793711,
+            "price_impact_pct": 0.010311489640049465,
+            "amm_fee_rate": 0.003,
+            "token_sell_fee_rate": 0.05,
+            "final_date": "2026-08-18",
+            "is_final_date": true,
+            "chart_1000_mark_to_market_value_dai": null,
+            "chart_1000_amm_exit_value_dai": null,
+            "chart_1000_fee_adjusted_exit_value_dai": null,
+            "chart_final_position_dai": "10000",
+            "chart_final_exit_discount_pct": 0.05624614357793711,
+            "table_final_token_balance": 414242.19251297973,
+            "table_final_mark_to_market": 537132.4154275338,
+            "table_final_amm_exit_value": 533405.1721469299,
+            "table_final_fee_adjusted_exit_value": 506920.78846903256,
+            "table_final_price_impact_pct": 0.010311489640049465
+          },
+          {
+            "date": "2026-08-18",
+            "initial_capital_dai": 100000,
+            "simulated_lgns_balance": 4142421.9251297973,
+            "spot_price_dai": 1.296662737730907,
+            "mark_to_market_value_dai": 5371324.154275338,
+            "reserve_lgns": 55903905.54370488,
+            "reserve_dai": 72735513.93924864,
+            "reserve_spot_price_dai": 1.301081082472584,
+            "reserve_time": "2026-08-18 09:28:58.000 UTC",
+            "after_token_fee_lgns": 3935300.8288733074,
+            "amm_exit_value_dai": 5003794.241227507,
+            "fee_adjusted_exit_value_dai": 4770012.029044013,
+            "amm_exit_discount_pct": 0.06842445223777716,
+            "fee_adjusted_exit_discount_pct": 0.11194858250226947,
+            "price_impact_pct": 0.07158799214192202,
+            "amm_fee_rate": 0.003,
+            "token_sell_fee_rate": 0.05,
+            "final_date": "2026-08-18",
+            "is_final_date": true,
+            "chart_1000_mark_to_market_value_dai": null,
+            "chart_1000_amm_exit_value_dai": null,
+            "chart_1000_fee_adjusted_exit_value_dai": null,
+            "chart_final_position_dai": "100000",
+            "chart_final_exit_discount_pct": 0.11194858250226947,
+            "table_final_token_balance": 4142421.9251297973,
+            "table_final_mark_to_market": 5371324.154275338,
+            "table_final_amm_exit_value": 5003794.241227507,
+            "table_final_fee_adjusted_exit_value": 4770012.029044013,
+            "table_final_price_impact_pct": 0.07158799214192202
+          },
+          {
+            "date": "2026-08-18",
+            "initial_capital_dai": 1000000,
+            "simulated_lgns_balance": 41424219.25129797,
+            "spot_price_dai": 1.296662737730907,
+            "mark_to_market_value_dai": 53713241.54275338,
+            "reserve_lgns": 55903905.54370488,
+            "reserve_dai": 72735513.93924864,
+            "reserve_spot_price_dai": 1.301081082472584,
+            "reserve_time": "2026-08-18 09:28:58.000 UTC",
+            "after_token_fee_lgns": 39353008.28873307,
+            "amm_exit_value_dai": 30903845.63055617,
+            "fee_adjusted_exit_value_dai": 29995885.53866617,
+            "amm_exit_discount_pct": 0.4246512639540091,
+            "fee_adjusted_exit_discount_pct": 0.44155510490293604,
+            "price_impact_pct": 0.4266050922716941,
+            "amm_fee_rate": 0.003,
+            "token_sell_fee_rate": 0.05,
+            "final_date": "2026-08-18",
+            "is_final_date": true,
+            "chart_1000_mark_to_market_value_dai": null,
+            "chart_1000_amm_exit_value_dai": null,
+            "chart_1000_fee_adjusted_exit_value_dai": null,
+            "chart_final_position_dai": "1000000",
+            "chart_final_exit_discount_pct": 0.44155510490293604,
+            "table_final_token_balance": 41424219.25129797,
+            "table_final_mark_to_market": 53713241.54275338,
+            "table_final_amm_exit_value": 30903845.63055617,
+            "table_final_fee_adjusted_exit_value": 29995885.53866617,
+            "table_final_price_impact_pct": 0.4266050922716941
+          },
+          {
+            "date": "2026-08-17",
+            "initial_capital_dai": 1000,
+            "simulated_lgns_balance": 41316.108086261156,
+            "spot_price_dai": 1.2971068993956427,
+            "mark_to_market_value_dai": 53591.40885486545,
+            "reserve_lgns": 56121213.397521794,
+            "reserve_dai": 72658940.3591513,
+            "reserve_spot_price_dai": 1.2946787134570363,
+            "reserve_time": null,
+            "after_token_fee_lgns": 39250.302681948095,
+            "amm_exit_value_dai": 53291.497216215634,
+            "fee_adjusted_exit_value_dai": 50628.77903224564,
+            "amm_exit_discount_pct": 0.005596263376132282,
+            "fee_adjusted_exit_discount_pct": 0.05528180516103065,
+            "price_impact_pct": 0.003731246870129601,
+            "amm_fee_rate": 0.003,
+            "token_sell_fee_rate": 0.05,
+            "final_date": "2026-08-18",
+            "is_final_date": false,
+            "chart_1000_mark_to_market_value_dai": 53591.40885486545,
+            "chart_1000_amm_exit_value_dai": 53291.497216215634,
+            "chart_1000_fee_adjusted_exit_value_dai": 50628.77903224564,
+            "chart_final_position_dai": null,
+            "chart_final_exit_discount_pct": null,
+            "table_final_token_balance": null,
+            "table_final_mark_to_market": null,
+            "table_final_amm_exit_value": null,
+            "table_final_fee_adjusted_exit_value": null,
+            "table_final_price_impact_pct": null
+          }
+        ]
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

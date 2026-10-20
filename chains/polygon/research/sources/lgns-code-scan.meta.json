@@ -1,0 +1,14 @@
+{
+  "id": "lgns-code-scan",
+  "url": "https://polygonscan.com/address/0xeb51d9a39ad5eef215dc0bf39a8821ff804a0f01#code",
+  "accessed_at": "2026-10-19T02:34:57.667759+00:00",
+  "baseline": "2026-10-19",
+  "status": 200,
+  "final_url": "https://polygonscan.com/address/0xeb51d9a39ad5eef215dc0bf39a8821ff804a0f01#code",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 909129,
+  "sha256": "68da71f258b758f55af1258dcfa284ded8a56468e12a957dc7a57bebdf47a742",
+  "local_archive_path": "research/sources/lgns-code-scan.md",
+  "public_source_url": "https://polygonscan.com/address/0xeb51d9a39ad5eef215dc0bf39a8821ff804a0f01#code",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY"
+}

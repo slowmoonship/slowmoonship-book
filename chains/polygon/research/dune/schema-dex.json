@@ -1,0 +1,769 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"total\":2,\"results\":[{\"full_name\":\"dex_evm.trades\",\"category\":\"spell\",\"dataset_type\":\"spell\",\"blockchains\":[\"abstract\",\"apechain\",\"arbitrum\",\"arc\",\"avalanche_c\",\"base\",\"berachain\",\"blast\",\"bnb\",\"boba\",\"celo\",\"corn\",\"cronos\",\"ethereum\",\"fantom\",\"flare\",\"flow\",\"gnosis\",\"hemi\",\"hyperevm\",\"ink\",\"kaia\",\"katana\",\"linea\",\"mantle\",\"megaeth\",\"mezo\",\"monad\",\"morph\",\"nova\",\"opbnb\",\"optimism\",\"peaq\",\"plasma\",\"plume\",\"polygon\",\"robinhood\",\"ronin\",\"scroll\",\"sei\",\"shape\",\"somnia\",\"sonic\",\"sophon\",\"story\",\"superseed\",\"tac\",\"taiko\",\"tempo\",\"tezos_evm\",\"unichain\",\"worldchain\",\"xlayer\",\"zkevm\",\"zksync\",\"zora\"],\"partition_columns\":[\"block_month\",\"blockchain\",\"project\"],\"visibility\":\"public\",\"description\":\"DEX trades across EVM-compatible chains, exposed under the explicit dex_evm namespace.\",\"schema\":{\"fields\":[{\"name\":\"blockchain\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"project\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"version\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"block_month\",\"nullable\":true,\"type\":\"date\"},{\"name\":\"block_date\",\"nullable\":true,\"type\":\"date\"},{\"name\":\"block_time\",\"nullable\":true,\"type\":\"timestamp(3) with time zone\"},{\"name\":\"block_number\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"token_bought_symbol\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"token_sold_symbol\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"token_pair\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"token_bought_amount\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"token_sold_amount\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"token_bought_amount_raw\",\"nullable\":true,\"type\":\"uint256\"},{\"name\":\"token_sold_amount_raw\",\"nullable\":true,\"type\":\"uint256\"},{\"name\":\"amount_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"token_bought_address\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"token_sold_address\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"taker\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"maker\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"project_contract_address\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"tx_hash\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"evt_index\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"_updated_at\",\"nullable\":true,\"type\":\"timestamp(3) with time zone\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":4623.752087143265,\"description\":\"DEX trades across EVM-compatible chains, exposed under the explicit dex_evm namespace.\",\"spell_type\":\"sector\",\"spell_metadata\":{\"description\":\"DEX trades across EVM-compatible chains, exposed under the explicit dex_evm namespace.\",\"depends_on\":[\"model.dex.dex_trades\"],\"columns\":[{\"column\":\"blockchain\",\"name\":\"blockchain\",\"description\":\"Blockchain on which this trade occurred\"},{\"column\":\"project\",\"name\":\"project\",\"description\":\"Name of the dex on which the trade occurred\"},{\"column\":\"version\",\"name\":\"version\",\"description\":\"Version of the DEX protocol/contract\"},{\"column\":\"block_month\",\"name\":\"block_month\",\"description\":\"UTC event block month\"},{\"column\":\"block_date\",\"name\":\"block_date\",\"description\":\"UTC event block date\"},{\"column\":\"block_time\",\"name\":\"block_time\",\"description\":\"UTC event block time\"},{\"column\":\"block_number\",\"name\":\"block_number\",\"description\":\"Block number of the block in which the trade occurred\"},{\"column\":\"token_bought_symbol\",\"name\":\"token_bought_symbol\",\"description\":\"Symbol of the token bought in the trade\"},{\"column\":\"token_sold_symbol\",\"name\":\"token_sold_symbol\",\"description\":\"Symbol of the token sold in the trade\"},{\"column\":\"token_pair\",\"name\":\"token_pair\",\"description\":\"symbol pair for the tokens involved in the trade. e.g. 'ETH/USDC'. Always alphabetical order, not trade order.\"},{\"column\":\"token_bought_amount\",\"name\":\"token_bought_amount\",\"description\":\"Amount of the token bought in the display unit\"},{\"column\":\"token_sold_amount\",\"name\":\"token_sold_amount\",\"description\":\"Amount of the token sold in the display unit\"},{\"column\":\"token_bought_amount_raw\",\"name\":\"token_bought_amount_raw\",\"description\":\"Amount of the token bought in the base unit\"},{\"column\":\"token_sold_amount_raw\",\"name\":\"token_sold_amount_raw\",\"description\":\"Amount of the token sold in the base unit\"},{\"column\":\"amount_usd\",\"name\":\"amount_usd\",\"description\":\"USD value of the trade at time of execution. Can be null if we don't have enough data to calculate the value.\"},{\"column\":\"token_bought_address\",\"name\":\"token_bought_address\",\"description\":\"Contract address of the token bought\"},{\"column\":\"token_sold_address\",\"name\":\"token_sold_address\",\"description\":\"Contract address of the token sold\"},{\"column\":\"taker\",\"name\":\"taker\",\"description\":\"Address of account which purchased tokens. Can be contracts or EOA addresses. \"},{\"column\":\"maker\",\"name\":\"maker\",\"description\":\"Address of account which sold tokens. Can be contracts or EOA addresses.\"},{\"column\":\"project_contract_address\",\"name\":\"project_contract_address\",\"description\":\"Smart contract address which emitted the event associated with this trade. Can be the a Pool Contract, Router Contract, or other contract associated with the DEX.\"},{\"column\":\"tx_hash\",\"name\":\"tx_hash\",\"description\":\"The hash of the transaction that this trade was included in\"},{\"column\":\"tx_from\",\"name\":\"tx_from\",\"description\":\"EOA address that sent the trade transaction, usually the trader's address, but can also be keeper bots, arbitrage bots, etc.\"},{\"column\":\"tx_to\",\"name\":\"tx_to\",\"description\":\"Address that got called in the first call of this transaction\"},{\"column\":\"evt_index\",\"name\":\"evt_index\",\"description\":\"Index of the event in the transaction. Can be used to uniquely identify the order of trades within in a transaction\"},{\"column\":\"_updated_at\",\"name\":\"_updated_at\",\"description\":\"Timestamp when this row was last written or updated by the pipeline\"}],\"tags\":[\"dex\",\"trades\",\"evm\"],\"partition_by\":[]}}},{\"full_name\":\"dex.trades\",\"category\":\"spell\",\"dataset_type\":\"spell\",\"blockchains\":[\"abstract\",\"apechain\",\"arbitrum\",\"arc\",\"avalanche_c\",\"base\",\"berachain\",\"blast\",\"bnb\",\"boba\",\"celo\",\"corn\",\"cronos\",\"ethereum\",\"fantom\",\"flare\",\"flow\",\"gnosis\",\"hemi\",\"hyperevm\",\"ink\",\"kaia\",\"katana\",\"linea\",\"mantle\",\"megaeth\",\"mezo\",\"monad\",\"morph\",\"nova\",\"opbnb\",\"optimism\",\"peaq\",\"plasma\",\"plume\",\"polygon\",\"robinhood\",\"ronin\",\"scroll\",\"sei\",\"shape\",\"somnia\",\"sonic\",\"sophon\",\"story\",\"superseed\",\"tac\",\"taiko\",\"tempo\",\"tezos_evm\",\"unichain\",\"worldchain\",\"xlayer\",\"zkevm\",\"zksync\",\"zora\"],\"partition_columns\":[\"blockchain\",\"project\",\"block_month\"],\"visibility\":\"public\",\"description\":\"Detailed data on trades executed via decentralized exchanges (DEXs), containing one or many trades per transaction across all EVM chains.\",\"schema\":{\"fields\":[{\"name\":\"blockchain\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"project\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"version\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"block_month\",\"nullable\":true,\"type\":\"date\"},{\"name\":\"block_date\",\"nullable\":true,\"type\":\"date\"},{\"name\":\"block_time\",\"nullable\":true,\"type\":\"timestamp\"},{\"name\":\"block_number\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"token_bought_symbol\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"token_sold_symbol\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"token_pair\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"token_bought_amount\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"token_sold_amount\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"token_bought_amount_raw\",\"nullable\":true,\"type\":\"uint256\"},{\"name\":\"token_sold_amount_raw\",\"nullable\":true,\"type\":\"uint256\"},{\"name\":\"amount_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"token_bought_address\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"token_sold_address\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"taker\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"maker\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"project_contract_address\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"tx_hash\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"evt_index\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"_updated_at\",\"nullable\":true,\"type\":\"timestamp\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":21964.11284232129,\"description\":\"Detailed data on trades executed via decentralized exchanges (DEXs), containing one or many trades per transaction across all EVM chains.\",\"spell_type\":\"sector\",\"spell_metadata\":{\"description\":\"Detailed data on trades executed via decentralized exchanges (DEXs), containing one or many trades per transaction across all EVM chains.\",\"depends_on\":[\"model.dex.dex_abstract_trades\",\"model.dex.dex_apechain_trades\",\"model.dex.dex_arbitrum_trades\",\"model.dex.dex_arc_trades\",\"model.dex.dex_avalanche_c_trades\",\"model.dex.dex_base_trades\",\"model.dex.dex_berachain_trades\",\"model.dex.dex_blast_trades\",\"model.dex.dex_bnb_trades\",\"model.dex.dex_boba_trades\",\"model.dex.dex_celo_trades\",\"model.dex.dex_corn_trades\",\"model.dex.dex_cronos_trades\",\"model.dex.dex_ethereum_trades\",\"model.dex.dex_fantom_trades\",\"model.dex.dex_flare_trades\",\"model.dex.dex_flow_trades\",\"model.dex.dex_gnosis_trades\",\"model.dex.dex_hemi_trades\",\"model.dex.dex_hyperevm_trades\",\"model.dex.dex_ink_trades\",\"model.dex.dex_kaia_trades\",\"model.dex.dex_katana_trades\",\"model.dex.dex_linea_trades\",\"model.dex.dex_mantle_trades\",\"model.dex.dex_megaeth_trades\",\"model.dex.dex_mezo_trades\",\"model.dex.dex_monad_trades\",\"model.dex.dex_morph_trades\",\"model.dex.dex_nova_trades\",\"model.dex.dex_opbnb_trades\",\"model.dex.dex_optimism_trades\",\"model.dex.dex_peaq_trades\",\"model.dex.dex_plasma_trades\",\"model.dex.dex_plume_trades\",\"model.dex.dex_polygon_trades\",\"model.dex.dex_robinhood_trades\",\"model.dex.dex_ronin_trades\",\"model.dex.dex_scroll_trades\",\"model.dex.dex_sei_trades\",\"model.dex.dex_shape_trades\",\"model.dex.dex_somnia_trades\",\"model.dex.dex_sonic_trades\",\"model.dex.dex_sophon_trades\",\"model.dex.dex_story_trades\",\"model.dex.dex_superseed_trades\",\"model.dex.dex_tac_trades\",\"model.dex.dex_taiko_trades\",\"model.dex.dex_tempo_trades\",\"model.dex.dex_tezos_evm_trades\",\"model.dex.dex_unichain_trades\",\"model.dex.dex_worldchain_trades\",\"model.dex.dex_xlayer_trades\",\"model.dex.dex_zkevm_trades\",\"model.dex.dex_zksync_trades\",\"model.dex.dex_zora_trades\"],\"columns\":[{\"column\":\"blockchain\",\"name\":\"blockchain\",\"description\":\"Blockchain on which this trade occurred\"},{\"column\":\"project\",\"name\":\"project\",\"description\":\"Name of the dex on which the trade occurred\"},{\"column\":\"version\",\"name\":\"version\",\"description\":\"Version of the DEX protocol/contract\"},{\"column\":\"block_month\",\"name\":\"block_month\",\"description\":\"UTC event block month\"},{\"column\":\"block_date\",\"name\":\"block_date\",\"description\":\"UTC event block date\"},{\"column\":\"block_time\",\"name\":\"block_time\",\"description\":\"UTC event block time\"},{\"column\":\"block_number\",\"name\":\"block_number\",\"description\":\"Block number of the block in which the trade occurred\"},{\"column\":\"token_bought_symbol\",\"name\":\"token_bought_symbol\",\"description\":\"Symbol of the token bought in the trade\"},{\"column\":\"token_sold_symbol\",\"name\":\"token_sold_symbol\",\"description\":\"Symbol of the token sold in the trade\"},{\"column\":\"token_pair\",\"name\":\"token_pair\",\"description\":\"symbol pair for the tokens involved in the trade. e.g. 'ETH/USDC'. Always alphabetical order, not trade order.\"},{\"column\":\"token_bought_amount\",\"name\":\"token_bought_amount\",\"description\":\"Amount of the token bought in the display unit\"},{\"column\":\"token_sold_amount\",\"name\":\"token_sold_amount\",\"description\":\"Amount of the token sold in the display unit\"},{\"column\":\"token_bought_amount_raw\",\"name\":\"token_bought_amount_raw\",\"description\":\"Amount of the token bought in the base unit\"},{\"column\":\"token_sold_amount_raw\",\"name\":\"token_sold_amount_raw\",\"description\":\"Amount of the token sold in the base unit\"},{\"column\":\"amount_usd\",\"name\":\"amount_usd\",\"description\":\"USD value of the trade at time of execution. Can be null if we don't have enough data to calculate the value.\"},{\"column\":\"token_bought_address\",\"name\":\"token_bought_address\",\"description\":\"Contract address of the token bought\"},{\"column\":\"token_sold_address\",\"name\":\"token_sold_address\",\"description\":\"Contract address of the token sold\"},{\"column\":\"taker\",\"name\":\"taker\",\"description\":\"Address of account which purchased tokens. Can be contracts or EOA addresses. \"},{\"column\":\"maker\",\"name\":\"maker\",\"description\":\"Address of account which sold tokens. Can be contracts or EOA addresses.\"},{\"column\":\"project_contract_address\",\"name\":\"project_contract_address\",\"description\":\"Smart contract address which emitted the event associated with this trade. Can be the a Pool Contract, Router Contract, or other contract associated with the DEX.\"},{\"column\":\"tx_hash\",\"name\":\"tx_hash\",\"description\":\"The hash of the transaction that this trade was included in\"},{\"column\":\"tx_from\",\"name\":\"tx_from\",\"description\":\"EOA address that sent the trade transaction, usually the trader's address, but can also be keeper bots, arbitrage bots, etc.\"},{\"column\":\"tx_to\",\"name\":\"tx_to\",\"description\":\"Address that got called in the first call of this transaction\"},{\"column\":\"evt_index\",\"name\":\"evt_index\",\"description\":\"Index of the event in the transaction. Can be used to uniquely identify the order of trades within in a transaction\"},{\"column\":\"_updated_at\",\"name\":\"_updated_at\",\"description\":\"Timestamp when this row was last written or updated by the pipeline\"}],\"tags\":[\"dex\",\"trades\"],\"partition_by\":[\"block_month\",\"blockchain\",\"project\"]}}}],\"pagination\":{\"limit\":4,\"offset\":0,\"nextOffset\":null,\"hasMore\":false}}"
+      }
+    ],
+    "structuredContent": {
+      "total": 2,
+      "results": [
+        {
+          "full_name": "dex_evm.trades",
+          "category": "spell",
+          "dataset_type": "spell",
+          "blockchains": [
+            "abstract",
+            "apechain",
+            "arbitrum",
+            "arc",
+            "avalanche_c",
+            "base",
+            "berachain",
+            "blast",
+            "bnb",
+            "boba",
+            "celo",
+            "corn",
+            "cronos",
+            "ethereum",
+            "fantom",
+            "flare",
+            "flow",
+            "gnosis",
+            "hemi",
+            "hyperevm",
+            "ink",
+            "kaia",
+            "katana",
+            "linea",
+            "mantle",
+            "megaeth",
+            "mezo",
+            "monad",
+            "morph",
+            "nova",
+            "opbnb",
+            "optimism",
+            "peaq",
+            "plasma",
+            "plume",
+            "polygon",
+            "robinhood",
+            "ronin",
+            "scroll",
+            "sei",
+            "shape",
+            "somnia",
+            "sonic",
+            "sophon",
+            "story",
+            "superseed",
+            "tac",
+            "taiko",
+            "tempo",
+            "tezos_evm",
+            "unichain",
+            "worldchain",
+            "xlayer",
+            "zkevm",
+            "zksync",
+            "zora"
+          ],
+          "partition_columns": [
+            "block_month",
+            "blockchain",
+            "project"
+          ],
+          "visibility": "public",
+          "description": "DEX trades across EVM-compatible chains, exposed under the explicit dex_evm namespace.",
+          "schema": {
+            "fields": [
+              {
+                "name": "blockchain",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "project",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "version",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "block_month",
+                "nullable": true,
+                "type": "date"
+              },
+              {
+                "name": "block_date",
+                "nullable": true,
+                "type": "date"
+              },
+              {
+                "name": "block_time",
+                "nullable": true,
+                "type": "timestamp(3) with time zone"
+              },
+              {
+                "name": "block_number",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "token_bought_symbol",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "token_sold_symbol",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "token_pair",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "token_bought_amount",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "token_sold_amount",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "token_bought_amount_raw",
+                "nullable": true,
+                "type": "uint256"
+              },
+              {
+                "name": "token_sold_amount_raw",
+                "nullable": true,
+                "type": "uint256"
+              },
+              {
+                "name": "amount_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "token_bought_address",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "token_sold_address",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "taker",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "maker",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "project_contract_address",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "tx_hash",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_index",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "_updated_at",
+                "nullable": true,
+                "type": "timestamp(3) with time zone"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 4623.752087143265,
+            "description": "DEX trades across EVM-compatible chains, exposed under the explicit dex_evm namespace.",
+            "spell_type": "sector",
+            "spell_metadata": {
+              "description": "DEX trades across EVM-compatible chains, exposed under the explicit dex_evm namespace.",
+              "depends_on": [
+                "model.dex.dex_trades"
+              ],
+              "columns": [
+                {
+                  "column": "blockchain",
+                  "name": "blockchain",
+                  "description": "Blockchain on which this trade occurred"
+                },
+                {
+                  "column": "project",
+                  "name": "project",
+                  "description": "Name of the dex on which the trade occurred"
+                },
+                {
+                  "column": "version",
+                  "name": "version",
+                  "description": "Version of the DEX protocol/contract"
+                },
+                {
+                  "column": "block_month",
+                  "name": "block_month",
+                  "description": "UTC event block month"
+                },
+                {
+                  "column": "block_date",
+                  "name": "block_date",
+                  "description": "UTC event block date"
+                },
+                {
+                  "column": "block_time",
+                  "name": "block_time",
+                  "description": "UTC event block time"
+                },
+                {
+                  "column": "block_number",
+                  "name": "block_number",
+                  "description": "Block number of the block in which the trade occurred"
+                },
+                {
+                  "column": "token_bought_symbol",
+                  "name": "token_bought_symbol",
+                  "description": "Symbol of the token bought in the trade"
+                },
+                {
+                  "column": "token_sold_symbol",
+                  "name": "token_sold_symbol",
+                  "description": "Symbol of the token sold in the trade"
+                },
+                {
+                  "column": "token_pair",
+                  "name": "token_pair",
+                  "description": "symbol pair for the tokens involved in the trade. e.g. 'ETH/USDC'. Always alphabetical order, not trade order."
+                },
+                {
+                  "column": "token_bought_amount",
+                  "name": "token_bought_amount",
+                  "description": "Amount of the token bought in the display unit"
+                },
+                {
+                  "column": "token_sold_amount",
+                  "name": "token_sold_amount",
+                  "description": "Amount of the token sold in the display unit"
+                },
+                {
+                  "column": "token_bought_amount_raw",
+                  "name": "token_bought_amount_raw",
+                  "description": "Amount of the token bought in the base unit"
+                },
+                {
+                  "column": "token_sold_amount_raw",
+                  "name": "token_sold_amount_raw",
+                  "description": "Amount of the token sold in the base unit"
+                },
+                {
+                  "column": "amount_usd",
+                  "name": "amount_usd",
+                  "description": "USD value of the trade at time of execution. Can be null if we don't have enough data to calculate the value."
+                },
+                {
+                  "column": "token_bought_address",
+                  "name": "token_bought_address",
+                  "description": "Contract address of the token bought"
+                },
+                {
+                  "column": "token_sold_address",
+                  "name": "token_sold_address",
+                  "description": "Contract address of the token sold"
+                },
+                {
+                  "column": "taker",
+                  "name": "taker",
+                  "description": "Address of account which purchased tokens. Can be contracts or EOA addresses. "
+                },
+                {
+                  "column": "maker",
+                  "name": "maker",
+                  "description": "Address of account which sold tokens. Can be contracts or EOA addresses."
+                },
+                {
+                  "column": "project_contract_address",
+                  "name": "project_contract_address",
+                  "description": "Smart contract address which emitted the event associated with this trade. Can be the a Pool Contract, Router Contract, or other contract associated with the DEX."
+                },
+                {
+                  "column": "tx_hash",
+                  "name": "tx_hash",
+                  "description": "The hash of the transaction that this trade was included in"
+                },
+                {
+                  "column": "tx_from",
+                  "name": "tx_from",
+                  "description": "EOA address that sent the trade transaction, usually the trader's address, but can also be keeper bots, arbitrage bots, etc."
+                },
+                {
+                  "column": "tx_to",
+                  "name": "tx_to",
+                  "description": "Address that got called in the first call of this transaction"
+                },
+                {
+                  "column": "evt_index",
+                  "name": "evt_index",
+                  "description": "Index of the event in the transaction. Can be used to uniquely identify the order of trades within in a transaction"
+                },
+                {
+                  "column": "_updated_at",
+                  "name": "_updated_at",
+                  "description": "Timestamp when this row was last written or updated by the pipeline"
+                }
+              ],
+              "tags": [
+                "dex",
+                "trades",
+                "evm"
+              ],
+              "partition_by": []
+            }
+          }
+        },
+        {
+          "full_name": "dex.trades",
+          "category": "spell",
+          "dataset_type": "spell",
+          "blockchains": [
+            "abstract",
+            "apechain",
+            "arbitrum",
+            "arc",
+            "avalanche_c",
+            "base",
+            "berachain",
+            "blast",
+            "bnb",
+            "boba",
+            "celo",
+            "corn",
+            "cronos",
+            "ethereum",
+            "fantom",
+            "flare",
+            "flow",
+            "gnosis",
+            "hemi",
+            "hyperevm",
+            "ink",
+            "kaia",
+            "katana",
+            "linea",
+            "mantle",
+            "megaeth",
+            "mezo",
+            "monad",
+            "morph",
+            "nova",
+            "opbnb",
+            "optimism",
+            "peaq",
+            "plasma",
+            "plume",
+            "polygon",
+            "robinhood",
+            "ronin",
+            "scroll",
+            "sei",
+            "shape",
+            "somnia",
+            "sonic",
+            "sophon",
+            "story",
+            "superseed",
+            "tac",
+            "taiko",
+            "tempo",
+            "tezos_evm",
+            "unichain",
+            "worldchain",
+            "xlayer",
+            "zkevm",
+            "zksync",
+            "zora"
+          ],
+          "partition_columns": [
+            "blockchain",
+            "project",
+            "block_month"
+          ],
+          "visibility": "public",
+          "description": "Detailed data on trades executed via decentralized exchanges (DEXs), containing one or many trades per transaction across all EVM chains.",
+          "schema": {
+            "fields": [
+              {
+                "name": "blockchain",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "project",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "version",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "block_month",
+                "nullable": true,
+                "type": "date"
+              },
+              {
+                "name": "block_date",
+                "nullable": true,
+                "type": "date"
+              },
+              {
+                "name": "block_time",
+                "nullable": true,
+                "type": "timestamp"
+              },
+              {
+                "name": "block_number",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "token_bought_symbol",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "token_sold_symbol",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "token_pair",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "token_bought_amount",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "token_sold_amount",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "token_bought_amount_raw",
+                "nullable": true,
+                "type": "uint256"
+              },
+              {
+                "name": "token_sold_amount_raw",
+                "nullable": true,
+                "type": "uint256"
+              },
+              {
+                "name": "amount_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "token_bought_address",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "token_sold_address",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "taker",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "maker",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "project_contract_address",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "tx_hash",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_index",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "_updated_at",
+                "nullable": true,
+                "type": "timestamp"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 21964.11284232129,
+            "description": "Detailed data on trades executed via decentralized exchanges (DEXs), containing one or many trades per transaction across all EVM chains.",
+            "spell_type": "sector",
+            "spell_metadata": {
+              "description": "Detailed data on trades executed via decentralized exchanges (DEXs), containing one or many trades per transaction across all EVM chains.",
+              "depends_on": [
+                "model.dex.dex_abstract_trades",
+                "model.dex.dex_apechain_trades",
+                "model.dex.dex_arbitrum_trades",
+                "model.dex.dex_arc_trades",
+                "model.dex.dex_avalanche_c_trades",
+                "model.dex.dex_base_trades",
+                "model.dex.dex_berachain_trades",
+                "model.dex.dex_blast_trades",
+                "model.dex.dex_bnb_trades",
+                "model.dex.dex_boba_trades",
+                "model.dex.dex_celo_trades",
+                "model.dex.dex_corn_trades",
+                "model.dex.dex_cronos_trades",
+                "model.dex.dex_ethereum_trades",
+                "model.dex.dex_fantom_trades",
+                "model.dex.dex_flare_trades",
+                "model.dex.dex_flow_trades",
+                "model.dex.dex_gnosis_trades",
+                "model.dex.dex_hemi_trades",
+                "model.dex.dex_hyperevm_trades",
+                "model.dex.dex_ink_trades",
+                "model.dex.dex_kaia_trades",
+                "model.dex.dex_katana_trades",
+                "model.dex.dex_linea_trades",
+                "model.dex.dex_mantle_trades",
+                "model.dex.dex_megaeth_trades",
+                "model.dex.dex_mezo_trades",
+                "model.dex.dex_monad_trades",
+                "model.dex.dex_morph_trades",
+                "model.dex.dex_nova_trades",
+                "model.dex.dex_opbnb_trades",
+                "model.dex.dex_optimism_trades",
+                "model.dex.dex_peaq_trades",
+                "model.dex.dex_plasma_trades",
+                "model.dex.dex_plume_trades",
+                "model.dex.dex_polygon_trades",
+                "model.dex.dex_robinhood_trades",
+                "model.dex.dex_ronin_trades",
+                "model.dex.dex_scroll_trades",
+                "model.dex.dex_sei_trades",
+                "model.dex.dex_shape_trades",
+                "model.dex.dex_somnia_trades",
+                "model.dex.dex_sonic_trades",
+                "model.dex.dex_sophon_trades",
+                "model.dex.dex_story_trades",
+                "model.dex.dex_superseed_trades",
+                "model.dex.dex_tac_trades",
+                "model.dex.dex_taiko_trades",
+                "model.dex.dex_tempo_trades",
+                "model.dex.dex_tezos_evm_trades",
+                "model.dex.dex_unichain_trades",
+                "model.dex.dex_worldchain_trades",
+                "model.dex.dex_xlayer_trades",
+                "model.dex.dex_zkevm_trades",
+                "model.dex.dex_zksync_trades",
+                "model.dex.dex_zora_trades"
+              ],
+              "columns": [
+                {
+                  "column": "blockchain",
+                  "name": "blockchain",
+                  "description": "Blockchain on which this trade occurred"
+                },
+                {
+                  "column": "project",
+                  "name": "project",
+                  "description": "Name of the dex on which the trade occurred"
+                },
+                {
+                  "column": "version",
+                  "name": "version",
+                  "description": "Version of the DEX protocol/contract"
+                },
+                {
+                  "column": "block_month",
+                  "name": "block_month",
+                  "description": "UTC event block month"
+                },
+                {
+                  "column": "block_date",
+                  "name": "block_date",
+                  "description": "UTC event block date"
+                },
+                {
+                  "column": "block_time",
+                  "name": "block_time",
+                  "description": "UTC event block time"
+                },
+                {
+                  "column": "block_number",
+                  "name": "block_number",
+                  "description": "Block number of the block in which the trade occurred"
+                },
+                {
+                  "column": "token_bought_symbol",
+                  "name": "token_bought_symbol",
+                  "description": "Symbol of the token bought in the trade"
+                },
+                {
+                  "column": "token_sold_symbol",
+                  "name": "token_sold_symbol",
+                  "description": "Symbol of the token sold in the trade"
+                },
+                {
+                  "column": "token_pair",
+                  "name": "token_pair",
+                  "description": "symbol pair for the tokens involved in the trade. e.g. 'ETH/USDC'. Always alphabetical order, not trade order."
+                },
+                {
+                  "column": "token_bought_amount",
+                  "name": "token_bought_amount",
+                  "description": "Amount of the token bought in the display unit"
+                },
+                {
+                  "column": "token_sold_amount",
+                  "name": "token_sold_amount",
+                  "description": "Amount of the token sold in the display unit"
+                },
+                {
+                  "column": "token_bought_amount_raw",
+                  "name": "token_bought_amount_raw",
+                  "description": "Amount of the token bought in the base unit"
+                },
+                {
+                  "column": "token_sold_amount_raw",
+                  "name": "token_sold_amount_raw",
+                  "description": "Amount of the token sold in the base unit"
+                },
+                {
+                  "column": "amount_usd",
+                  "name": "amount_usd",
+                  "description": "USD value of the trade at time of execution. Can be null if we don't have enough data to calculate the value."
+                },
+                {
+                  "column": "token_bought_address",
+                  "name": "token_bought_address",
+                  "description": "Contract address of the token bought"
+                },
+                {
+                  "column": "token_sold_address",
+                  "name": "token_sold_address",
+                  "description": "Contract address of the token sold"
+                },
+                {
+                  "column": "taker",
+                  "name": "taker",
+                  "description": "Address of account which purchased tokens. Can be contracts or EOA addresses. "
+                },
+                {
+                  "column": "maker",
+                  "name": "maker",
+                  "description": "Address of account which sold tokens. Can be contracts or EOA addresses."
+                },
+                {
+                  "column": "project_contract_address",
+                  "name": "project_contract_address",
+                  "description": "Smart contract address which emitted the event associated with this trade. Can be the a Pool Contract, Router Contract, or other contract associated with the DEX."
+                },
+                {
+                  "column": "tx_hash",
+                  "name": "tx_hash",
+                  "description": "The hash of the transaction that this trade was included in"
+                },
+                {
+                  "column": "tx_from",
+                  "name": "tx_from",
+                  "description": "EOA address that sent the trade transaction, usually the trader's address, but can also be keeper bots, arbitrage bots, etc."
+                },
+                {
+                  "column": "tx_to",
+                  "name": "tx_to",
+                  "description": "Address that got called in the first call of this transaction"
+                },
+                {
+                  "column": "evt_index",
+                  "name": "evt_index",
+                  "description": "Index of the event in the transaction. Can be used to uniquely identify the order of trades within in a transaction"
+                },
+                {
+                  "column": "_updated_at",
+                  "name": "_updated_at",
+                  "description": "Timestamp when this row was last written or updated by the pipeline"
+                }
+              ],
+              "tags": [
+                "dex",
+                "trades"
+              ],
+              "partition_by": [
+                "block_month",
+                "blockchain",
+                "project"
+              ]
+            }
+          }
+        }
+      ],
+      "pagination": {
+        "limit": 4,
+        "offset": 0,
+        "nextOffset": null,
+        "hasMore": false
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

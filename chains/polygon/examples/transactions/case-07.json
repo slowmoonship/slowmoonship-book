@@ -1,0 +1,25 @@
+{
+  "case_id": "case-07",
+  "title": "Staking合约部署",
+  "network": "Polygon PoS Mainnet",
+  "chain_id": 137,
+  "transaction_hash": "0xf16fd6c927352bc03663071ecfb638b063b33be1fc385d112f7281cdfdd8521b",
+  "block_number": 54339910,
+  "block_time": "2024-03-06T16:37:12+00:00",
+  "contract_address": "0x1964ca90474b11ffd08af387b110ba6c96251bfc",
+  "focus": "stake/claim/unstake能力",
+  "source": "https://polygonscan.com/tx/0xf16fd6c927352bc03663071ecfb638b063b33be1fc385d112f7281cdfdd8521b",
+  "local_archive_source_cache": "research/sources/tx-staking-creation.md",
+  "public_source_url": "https://polygonscan.com/tx/0xf16fd6c927352bc03663071ecfb638b063b33be1fc385d112f7281cdfdd8521b",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY",
+  "dune_query": null,
+  "raw_indexed_fields": [],
+  "derived_fields": {},
+  "verification_status": "EXPLORER_RECORD_CAPTURED; LIMITED_INDEXED_CROSSCHECK; NOT_LOCAL_REEXECUTION",
+  "missing": [
+    "complete native RPC receipt",
+    "local signature/consensus verification",
+    "beneficial ownership",
+    "full historical state"
+  ]
+}

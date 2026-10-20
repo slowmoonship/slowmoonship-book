@@ -1,0 +1,183 @@
+{
+  "result": {
+    "_meta": {
+      "mcp_event_id": "88c2a9d1-b348-4b75-9ba4-c4c0ed3e3ae2"
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"executionId\":\"01M0A3P9ANFK5JETN7M01GRTCF\",\"state\":\"COMPLETED\",\"resultMetadata\":{\"columns\":[{\"name\":\"date\",\"type\":\"date\"},{\"name\":\"add_liquidity_count\",\"type\":\"bigint\"},{\"name\":\"remove_liquidity_count\",\"type\":\"bigint\"},{\"name\":\"add_dai\",\"type\":\"double\"},{\"name\":\"add_lgns\",\"type\":\"double\"},{\"name\":\"remove_dai\",\"type\":\"double\"},{\"name\":\"remove_lgns\",\"type\":\"double\"},{\"name\":\"net_dai\",\"type\":\"double\"},{\"name\":\"net_lgns\",\"type\":\"double\"},{\"name\":\"history_start\",\"type\":\"timestamp(3) with time zone\"},{\"name\":\"history_end\",\"type\":\"timestamp(3) with time zone\"},{\"name\":\"raw_event_count\",\"type\":\"bigint\"},{\"name\":\"duplicate_event_rows\",\"type\":\"bigint\"},{\"name\":\"sample_event_1\",\"type\":\"varchar\"},{\"name\":\"sample_event_2\",\"type\":\"varchar\"},{\"name\":\"sample_event_3\",\"type\":\"varchar\"}],\"totalRowCount\":896,\"executionCostCredits\":\"6.708\"},\"data\":{\"rows\":[{\"date\":\"2024-03-06\",\"add_liquidity_count\":147,\"remove_liquidity_count\":0,\"add_dai\":412485.31106623163,\"add_lgns\":71989.48191807907,\"remove_dai\":0,\"remove_lgns\":0,\"net_dai\":412485.31106623163,\"net_lgns\":71989.48191807907,\"history_start\":\"2024-03-06 16:58:08.000 UTC\",\"history_end\":\"2026-08-18 09:28:58.000 UTC\",\"raw_event_count\":725139,\"duplicate_event_rows\":0,\"sample_event_1\":\"tx=0x0659B2F4E397B4DD0A7B98D63700F4060B0004F9893BA0441DA39FE63A65335B,block=74942064,action=add,dai=3.462207595581022E2,lgns=2.4116995933E1\",\"sample_event_2\":\"tx=0x3B479A52462D413140C8374AC12149B25CE89595F1068DDB2D0FBE588544DB57,block=67195105,action=add,dai=4.9437448429680096E1,lgns=2.903766926E0\",\"sample_event_3\":\"tx=0x33762E28C3EA78B6798227956E28C081A40EF637E28DAD9F070470101DCE21B1,block=76552956,action=add,dai=4.8523652737657045E2,lgns=4.4129598371E1\"},{\"date\":\"2024-03-07\",\"add_liquidity_count\":326,\"remove_liquidity_count\":4,\"add_dai\":134303.74417142782,\"add_lgns\":2116.0940534819993,\"remove_dai\":702.4719154432978,\"remove_lgns\":10.779448069999999,\"net_dai\":133601.2722559845,\"net_lgns\":2105.3146054119993,\"history_start\":\"2024-03-06 16:58:08.000 UTC\",\"history_end\":\"2026-08-18 09:28:58.000 UTC\",\"raw_event_count\":725139,\"duplicate_event_rows\":0,\"sample_event_1\":\"tx=0x0659B2F4E397B4DD0A7B98D63700F4060B0004F9893BA0441DA39FE63A65335B,block=74942064,action=add,dai=3.462207595581022E2,lgns=2.4116995933E1\",\"sample_event_2\":\"tx=0x3B479A52462D413140C8374AC12149B25CE89595F1068DDB2D0FBE588544DB57,block=67195105,action=add,dai=4.9437448429680096E1,lgns=2.903766926E0\",\"sample_event_3\":\"tx=0x33762E28C3EA78B6798227956E28C081A40EF637E28DAD9F070470101DCE21B1,block=76552956,action=add,dai=4.8523652737657045E2,lgns=4.4129598371E1\"},{\"date\":\"2024-03-08\",\"add_liquidity_count\":147,\"remove_liquidity_count\":3,\"add_dai\":47273.98558454055,\"add_lgns\":779.677512716,\"remove_dai\":73.5860947976715,\"remove_lgns\":1.1066250439999998,\"net_dai\":47200.39948974288,\"net_lgns\":778.570887672,\"history_start\":\"2024-03-06 16:58:08.000 UTC\",\"history_end\":\"2026-08-18 09:28:58.000 UTC\",\"raw_event_count\":725139,\"duplicate_event_rows\":0,\"sample_event_1\":\"tx=0x0659B2F4E397B4DD0A7B98D63700F4060B0004F9893BA0441DA39FE63A65335B,block=74942064,action=add,dai=3.462207595581022E2,lgns=2.4116995933E1\",\"sample_event_2\":\"tx=0x3B479A52462D413140C8374AC12149B25CE89595F1068DDB2D0FBE588544DB57,block=67195105,action=add,dai=4.9437448429680096E1,lgns=2.903766926E0\",\"sample_event_3\":\"tx=0x33762E28C3EA78B6798227956E28C081A40EF637E28DAD9F070470101DCE21B1,block=76552956,action=add,dai=4.8523652737657045E2,lgns=4.4129598371E1\"},{\"date\":\"2024-03-09\",\"add_liquidity_count\":161,\"remove_liquidity_count\":4,\"add_dai\":42723.57955185715,\"add_lgns\":800.5649156659995,\"remove_dai\":134.4520828661867,\"remove_lgns\":2.5315738150000002,\"net_dai\":42589.12746899096,\"net_lgns\":798.0333418509995,\"history_start\":\"2024-03-06 16:58:08.000 UTC\",\"history_end\":\"2026-08-18 09:28:58.000 UTC\",\"raw_event_count\":725139,\"duplicate_event_rows\":0,\"sample_event_1\":\"tx=0x0659B2F4E397B4DD0A7B98D63700F4060B0004F9893BA0441DA39FE63A65335B,block=74942064,action=add,dai=3.462207595581022E2,lgns=2.4116995933E1\",\"sample_event_2\":\"tx=0x3B479A52462D413140C8374AC12149B25CE89595F1068DDB2D0FBE588544DB57,block=67195105,action=add,dai=4.9437448429680096E1,lgns=2.903766926E0\",\"sample_event_3\":\"tx=0x33762E28C3EA78B6798227956E28C081A40EF637E28DAD9F070470101DCE21B1,block=76552956,action=add,dai=4.8523652737657045E2,lgns=4.4129598371E1\"},{\"date\":\"2024-03-10\",\"add_liquidity_count\":66,\"remove_liquidity_count\":3,\"add_dai\":20914.26690846726,\"add_lgns\":456.7814102020002,\"remove_dai\":50.98544342247318,\"remove_lgns\":1.129149815,\"net_dai\":20863.281465044787,\"net_lgns\":455.6522603870002,\"history_start\":\"2024-03-06 16:58:08.000 UTC\",\"history_end\":\"2026-08-18 09:28:58.000 UTC\",\"raw_event_count\":725139,\"duplicate_event_rows\":0,\"sample_event_1\":\"tx=0x0659B2F4E397B4DD0A7B98D63700F4060B0004F9893BA0441DA39FE63A65335B,block=74942064,action=add,dai=3.462207595581022E2,lgns=2.4116995933E1\",\"sample_event_2\":\"tx=0x3B479A52462D413140C8374AC12149B25CE89595F1068DDB2D0FBE588544DB57,block=67195105,action=add,dai=4.9437448429680096E1,lgns=2.903766926E0\",\"sample_event_3\":\"tx=0x33762E28C3EA78B6798227956E28C081A40EF637E28DAD9F070470101DCE21B1,block=76552956,action=add,dai=4.8523652737657045E2,lgns=4.4129598371E1\"}]}}"
+      }
+    ],
+    "structuredContent": {
+      "executionId": "01M0A3P9ANFK5JETN7M01GRTCF",
+      "state": "COMPLETED",
+      "resultMetadata": {
+        "columns": [
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "add_liquidity_count",
+            "type": "bigint"
+          },
+          {
+            "name": "remove_liquidity_count",
+            "type": "bigint"
+          },
+          {
+            "name": "add_dai",
+            "type": "double"
+          },
+          {
+            "name": "add_lgns",
+            "type": "double"
+          },
+          {
+            "name": "remove_dai",
+            "type": "double"
+          },
+          {
+            "name": "remove_lgns",
+            "type": "double"
+          },
+          {
+            "name": "net_dai",
+            "type": "double"
+          },
+          {
+            "name": "net_lgns",
+            "type": "double"
+          },
+          {
+            "name": "history_start",
+            "type": "timestamp(3) with time zone"
+          },
+          {
+            "name": "history_end",
+            "type": "timestamp(3) with time zone"
+          },
+          {
+            "name": "raw_event_count",
+            "type": "bigint"
+          },
+          {
+            "name": "duplicate_event_rows",
+            "type": "bigint"
+          },
+          {
+            "name": "sample_event_1",
+            "type": "varchar"
+          },
+          {
+            "name": "sample_event_2",
+            "type": "varchar"
+          },
+          {
+            "name": "sample_event_3",
+            "type": "varchar"
+          }
+        ],
+        "totalRowCount": 896,
+        "executionCostCredits": "6.708"
+      },
+      "data": {
+        "rows": [
+          {
+            "date": "2024-03-06",
+            "add_liquidity_count": 147,
+            "remove_liquidity_count": 0,
+            "add_dai": 412485.31106623163,
+            "add_lgns": 71989.48191807907,
+            "remove_dai": 0,
+            "remove_lgns": 0,
+            "net_dai": 412485.31106623163,
+            "net_lgns": 71989.48191807907,
+            "history_start": "2024-03-06 16:58:08.000 UTC",
+            "history_end": "2026-08-18 09:28:58.000 UTC",
+            "raw_event_count": 725139,
+            "duplicate_event_rows": 0,
+            "sample_event_1": "tx=0x0659B2F4E397B4DD0A7B98D63700F4060B0004F9893BA0441DA39FE63A65335B,block=74942064,action=add,dai=3.462207595581022E2,lgns=2.4116995933E1",
+            "sample_event_2": "tx=0x3B479A52462D413140C8374AC12149B25CE89595F1068DDB2D0FBE588544DB57,block=67195105,action=add,dai=4.9437448429680096E1,lgns=2.903766926E0",
+            "sample_event_3": "tx=0x33762E28C3EA78B6798227956E28C081A40EF637E28DAD9F070470101DCE21B1,block=76552956,action=add,dai=4.8523652737657045E2,lgns=4.4129598371E1"
+          },
+          {
+            "date": "2024-03-07",
+            "add_liquidity_count": 326,
+            "remove_liquidity_count": 4,
+            "add_dai": 134303.74417142782,
+            "add_lgns": 2116.0940534819993,
+            "remove_dai": 702.4719154432978,
+            "remove_lgns": 10.779448069999999,
+            "net_dai": 133601.2722559845,
+            "net_lgns": 2105.3146054119993,
+            "history_start": "2024-03-06 16:58:08.000 UTC",
+            "history_end": "2026-08-18 09:28:58.000 UTC",
+            "raw_event_count": 725139,
+            "duplicate_event_rows": 0,
+            "sample_event_1": "tx=0x0659B2F4E397B4DD0A7B98D63700F4060B0004F9893BA0441DA39FE63A65335B,block=74942064,action=add,dai=3.462207595581022E2,lgns=2.4116995933E1",
+            "sample_event_2": "tx=0x3B479A52462D413140C8374AC12149B25CE89595F1068DDB2D0FBE588544DB57,block=67195105,action=add,dai=4.9437448429680096E1,lgns=2.903766926E0",
+            "sample_event_3": "tx=0x33762E28C3EA78B6798227956E28C081A40EF637E28DAD9F070470101DCE21B1,block=76552956,action=add,dai=4.8523652737657045E2,lgns=4.4129598371E1"
+          },
+          {
+            "date": "2024-03-08",
+            "add_liquidity_count": 147,
+            "remove_liquidity_count": 3,
+            "add_dai": 47273.98558454055,
+            "add_lgns": 779.677512716,
+            "remove_dai": 73.5860947976715,
+            "remove_lgns": 1.1066250439999998,
+            "net_dai": 47200.39948974288,
+            "net_lgns": 778.570887672,
+            "history_start": "2024-03-06 16:58:08.000 UTC",
+            "history_end": "2026-08-18 09:28:58.000 UTC",
+            "raw_event_count": 725139,
+            "duplicate_event_rows": 0,
+            "sample_event_1": "tx=0x0659B2F4E397B4DD0A7B98D63700F4060B0004F9893BA0441DA39FE63A65335B,block=74942064,action=add,dai=3.462207595581022E2,lgns=2.4116995933E1",
+            "sample_event_2": "tx=0x3B479A52462D413140C8374AC12149B25CE89595F1068DDB2D0FBE588544DB57,block=67195105,action=add,dai=4.9437448429680096E1,lgns=2.903766926E0",
+            "sample_event_3": "tx=0x33762E28C3EA78B6798227956E28C081A40EF637E28DAD9F070470101DCE21B1,block=76552956,action=add,dai=4.8523652737657045E2,lgns=4.4129598371E1"
+          },
+          {
+            "date": "2024-03-09",
+            "add_liquidity_count": 161,
+            "remove_liquidity_count": 4,
+            "add_dai": 42723.57955185715,
+            "add_lgns": 800.5649156659995,
+            "remove_dai": 134.4520828661867,
+            "remove_lgns": 2.5315738150000002,
+            "net_dai": 42589.12746899096,
+            "net_lgns": 798.0333418509995,
+            "history_start": "2024-03-06 16:58:08.000 UTC",
+            "history_end": "2026-08-18 09:28:58.000 UTC",
+            "raw_event_count": 725139,
+            "duplicate_event_rows": 0,
+            "sample_event_1": "tx=0x0659B2F4E397B4DD0A7B98D63700F4060B0004F9893BA0441DA39FE63A65335B,block=74942064,action=add,dai=3.462207595581022E2,lgns=2.4116995933E1",
+            "sample_event_2": "tx=0x3B479A52462D413140C8374AC12149B25CE89595F1068DDB2D0FBE588544DB57,block=67195105,action=add,dai=4.9437448429680096E1,lgns=2.903766926E0",
+            "sample_event_3": "tx=0x33762E28C3EA78B6798227956E28C081A40EF637E28DAD9F070470101DCE21B1,block=76552956,action=add,dai=4.8523652737657045E2,lgns=4.4129598371E1"
+          },
+          {
+            "date": "2024-03-10",
+            "add_liquidity_count": 66,
+            "remove_liquidity_count": 3,
+            "add_dai": 20914.26690846726,
+            "add_lgns": 456.7814102020002,
+            "remove_dai": 50.98544342247318,
+            "remove_lgns": 1.129149815,
+            "net_dai": 20863.281465044787,
+            "net_lgns": 455.6522603870002,
+            "history_start": "2024-03-06 16:58:08.000 UTC",
+            "history_end": "2026-08-18 09:28:58.000 UTC",
+            "raw_event_count": 725139,
+            "duplicate_event_rows": 0,
+            "sample_event_1": "tx=0x0659B2F4E397B4DD0A7B98D63700F4060B0004F9893BA0441DA39FE63A65335B,block=74942064,action=add,dai=3.462207595581022E2,lgns=2.4116995933E1",
+            "sample_event_2": "tx=0x3B479A52462D413140C8374AC12149B25CE89595F1068DDB2D0FBE588544DB57,block=67195105,action=add,dai=4.9437448429680096E1,lgns=2.903766926E0",
+            "sample_event_3": "tx=0x33762E28C3EA78B6798227956E28C081A40EF637E28DAD9F070470101DCE21B1,block=76552956,action=add,dai=4.8523652737657045E2,lgns=4.4129598371E1"
+          }
+        ]
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

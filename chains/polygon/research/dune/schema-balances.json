@@ -1,0 +1,242 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"total\":136,\"results\":[{\"full_name\":\"balances_polygon.latest\",\"category\":\"spell\",\"dataset_type\":\"spell\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"blockchain\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"updated_at\",\"nullable\":true,\"type\":\"timestamp(3) with time zone\"},{\"name\":\"block_number\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"address\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"token_address\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"token_standard\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"token_symbol\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"balance_raw\",\"nullable\":true,\"type\":\"uint256\"},{\"name\":\"balance\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"balance_usd\",\"nullable\":true,\"type\":\"double\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":4576.3124879332645,\"spell_type\":\"sector\"}},{\"full_name\":\"balances_polygon.updates\",\"category\":\"spell\",\"dataset_type\":\"spell\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"blockchain\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"block_date\",\"nullable\":true,\"type\":\"date\"},{\"name\":\"block_number\",\"nullable\":true,\"type\":\"bigint\"},{\"name\":\"timestamp\",\"nullable\":true,\"type\":\"timestamp(3) with time zone\"},{\"name\":\"address\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"token_address\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"token_standard\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"token_symbol\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"balance_raw\",\"nullable\":true,\"type\":\"uint256\"},{\"name\":\"balance\",\"nullable\":true,\"type\":\"double\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":4576.042711035593,\"spell_type\":\"sector\"}},{\"full_name\":\"balances_polygon.daily_updates\",\"category\":\"spell\",\"dataset_type\":\"spell\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"blockchain\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"address_prefix\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"address\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"token_address\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"token_standard\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"token_symbol\",\"nullable\":true,\"type\":\"varchar\"},{\"name\":\"balance_raw\",\"nullable\":true,\"type\":\"uint256\"},{\"name\":\"balance\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"balance_updated_at\",\"nullable\":true,\"type\":\"timestamp(3) with time zone\"},{\"name\":\"valid_from\",\"nullable\":true,\"type\":\"date\"},{\"name\":\"valid_to\",\"nullable\":true,\"type\":\"date\"},{\"name\":\"balance_usd\",\"nullable\":true,\"type\":\"double\"},{\"name\":\"_updated_at\",\"nullable\":true,\"type\":\"timestamp(3) with time zone\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":4576.1376674677485,\"spell_type\":\"sector\"}}],\"pagination\":{\"limit\":3,\"offset\":0,\"nextOffset\":3,\"hasMore\":true}}"
+      }
+    ],
+    "structuredContent": {
+      "total": 136,
+      "results": [
+        {
+          "full_name": "balances_polygon.latest",
+          "category": "spell",
+          "dataset_type": "spell",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "blockchain",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "updated_at",
+                "nullable": true,
+                "type": "timestamp(3) with time zone"
+              },
+              {
+                "name": "block_number",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "address",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "token_address",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "token_standard",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "token_symbol",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "balance_raw",
+                "nullable": true,
+                "type": "uint256"
+              },
+              {
+                "name": "balance",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "balance_usd",
+                "nullable": true,
+                "type": "double"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 4576.3124879332645,
+            "spell_type": "sector"
+          }
+        },
+        {
+          "full_name": "balances_polygon.updates",
+          "category": "spell",
+          "dataset_type": "spell",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "blockchain",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "block_date",
+                "nullable": true,
+                "type": "date"
+              },
+              {
+                "name": "block_number",
+                "nullable": true,
+                "type": "bigint"
+              },
+              {
+                "name": "timestamp",
+                "nullable": true,
+                "type": "timestamp(3) with time zone"
+              },
+              {
+                "name": "address",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "token_address",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "token_standard",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "token_symbol",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "balance_raw",
+                "nullable": true,
+                "type": "uint256"
+              },
+              {
+                "name": "balance",
+                "nullable": true,
+                "type": "double"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 4576.042711035593,
+            "spell_type": "sector"
+          }
+        },
+        {
+          "full_name": "balances_polygon.daily_updates",
+          "category": "spell",
+          "dataset_type": "spell",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "blockchain",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "address_prefix",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "address",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "token_address",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "token_standard",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "token_symbol",
+                "nullable": true,
+                "type": "varchar"
+              },
+              {
+                "name": "balance_raw",
+                "nullable": true,
+                "type": "uint256"
+              },
+              {
+                "name": "balance",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "balance_updated_at",
+                "nullable": true,
+                "type": "timestamp(3) with time zone"
+              },
+              {
+                "name": "valid_from",
+                "nullable": true,
+                "type": "date"
+              },
+              {
+                "name": "valid_to",
+                "nullable": true,
+                "type": "date"
+              },
+              {
+                "name": "balance_usd",
+                "nullable": true,
+                "type": "double"
+              },
+              {
+                "name": "_updated_at",
+                "nullable": true,
+                "type": "timestamp(3) with time zone"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 4576.1376674677485,
+            "spell_type": "sector"
+          }
+        }
+      ],
+      "pagination": {
+        "limit": 3,
+        "offset": 0,
+        "nextOffset": 3,
+        "hasMore": true
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

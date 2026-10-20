@@ -1,0 +1,84 @@
+{
+  "result": {
+    "_meta": {
+      "mcp_event_id": "d68ad03b-8424-4031-af5c-bc403b5c5201"
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"executionId\":\"01M27GRMBG3YVR6DC6RE2FFV3K\",\"state\":\"COMPLETED\",\"resultMetadata\":{\"columns\":[{\"name\":\"date\",\"type\":\"date\"},{\"name\":\"trace_count\",\"type\":\"bigint\"},{\"name\":\"unique_transactions\",\"type\":\"bigint\"},{\"name\":\"call_count\",\"type\":\"bigint\"},{\"name\":\"unique_destination_addresses\",\"type\":\"bigint\"}],\"totalRowCount\":30,\"executionCostCredits\":\"7.64\"},\"data\":{\"rows\":[{\"date\":\"2026-08-12\",\"trace_count\":126319636,\"unique_transactions\":5752803,\"call_count\":126268173,\"unique_destination_addresses\":317060},{\"date\":\"2026-08-13\",\"trace_count\":121930476,\"unique_transactions\":5721977,\"call_count\":121874354,\"unique_destination_addresses\":326859},{\"date\":\"2026-08-14\",\"trace_count\":127682082,\"unique_transactions\":5737096,\"call_count\":127626881,\"unique_destination_addresses\":334428},{\"date\":\"2026-08-15\",\"trace_count\":121866542,\"unique_transactions\":5271321,\"call_count\":121813271,\"unique_destination_addresses\":300650},{\"date\":\"2026-08-16\",\"trace_count\":122894596,\"unique_transactions\":5223905,\"call_count\":122850222,\"unique_destination_addresses\":279283}]}}"
+      }
+    ],
+    "structuredContent": {
+      "executionId": "01M27GRMBG3YVR6DC6RE2FFV3K",
+      "state": "COMPLETED",
+      "resultMetadata": {
+        "columns": [
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "trace_count",
+            "type": "bigint"
+          },
+          {
+            "name": "unique_transactions",
+            "type": "bigint"
+          },
+          {
+            "name": "call_count",
+            "type": "bigint"
+          },
+          {
+            "name": "unique_destination_addresses",
+            "type": "bigint"
+          }
+        ],
+        "totalRowCount": 30,
+        "executionCostCredits": "7.64"
+      },
+      "data": {
+        "rows": [
+          {
+            "date": "2026-08-12",
+            "trace_count": 126319636,
+            "unique_transactions": 5752803,
+            "call_count": 126268173,
+            "unique_destination_addresses": 317060
+          },
+          {
+            "date": "2026-08-13",
+            "trace_count": 121930476,
+            "unique_transactions": 5721977,
+            "call_count": 121874354,
+            "unique_destination_addresses": 326859
+          },
+          {
+            "date": "2026-08-14",
+            "trace_count": 127682082,
+            "unique_transactions": 5737096,
+            "call_count": 127626881,
+            "unique_destination_addresses": 334428
+          },
+          {
+            "date": "2026-08-15",
+            "trace_count": 121866542,
+            "unique_transactions": 5271321,
+            "call_count": 121813271,
+            "unique_destination_addresses": 300650
+          },
+          {
+            "date": "2026-08-16",
+            "trace_count": 122894596,
+            "unique_transactions": 5223905,
+            "call_count": 122850222,
+            "unique_destination_addresses": 279283
+          }
+        ]
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

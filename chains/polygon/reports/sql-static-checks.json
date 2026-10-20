@@ -1,0 +1,272 @@
+[
+  {
+    "sql": "examples/sql/core-structure/01-daily-blocks-tx.sql",
+    "tables": [
+      "polygon.blocks",
+      "polygon.transactions"
+    ],
+    "missing_schema": [],
+    "bad_explicit_alias_columns": [],
+    "parentheses_balanced": true,
+    "mutation_absent": true,
+    "time_or_values_bounded": true,
+    "status_preserved": true,
+    "server_parser": "NOT_RUN",
+    "manual_review": "grain/time/decimals/units and unqualified fields reviewed in source",
+    "pass": true
+  },
+  {
+    "sql": "examples/sql/core-structure/02-gas-by-type.sql",
+    "tables": [
+      "polygon.transactions"
+    ],
+    "missing_schema": [],
+    "bad_explicit_alias_columns": [],
+    "parentheses_balanced": true,
+    "mutation_absent": true,
+    "time_or_values_bounded": true,
+    "status_preserved": true,
+    "server_parser": "NOT_RUN",
+    "manual_review": "grain/time/decimals/units and unqualified fields reviewed in source",
+    "pass": true
+  },
+  {
+    "sql": "examples/sql/core-structure/03-transaction-grain.sql",
+    "tables": [
+      "polygon.logs",
+      "polygon.traces",
+      "polygon.transactions"
+    ],
+    "missing_schema": [],
+    "bad_explicit_alias_columns": [],
+    "parentheses_balanced": true,
+    "mutation_absent": true,
+    "time_or_values_bounded": true,
+    "status_preserved": true,
+    "server_parser": "NOT_RUN",
+    "manual_review": "grain/time/decimals/units and unqualified fields reviewed in source",
+    "pass": true
+  },
+  {
+    "sql": "examples/sql/core-structure/04-contract-activity.sql",
+    "tables": [
+      "polygon.transactions"
+    ],
+    "missing_schema": [],
+    "bad_explicit_alias_columns": [],
+    "parentheses_balanced": true,
+    "mutation_absent": true,
+    "time_or_values_bounded": true,
+    "status_preserved": true,
+    "server_parser": "NOT_RUN",
+    "manual_review": "grain/time/decimals/units and unqualified fields reviewed in source",
+    "pass": true
+  },
+  {
+    "sql": "examples/sql/defi/05-raw-transfer.sql",
+    "tables": [
+      "polygon.logs"
+    ],
+    "missing_schema": [],
+    "bad_explicit_alias_columns": [],
+    "parentheses_balanced": true,
+    "mutation_absent": true,
+    "time_or_values_bounded": true,
+    "status_preserved": true,
+    "server_parser": "NOT_RUN",
+    "manual_review": "grain/time/decimals/units and unqualified fields reviewed in source",
+    "pass": true
+  },
+  {
+    "sql": "examples/sql/defi/06-stablecoin-transfers.sql",
+    "tables": [
+      "tokens.transfers"
+    ],
+    "missing_schema": [],
+    "bad_explicit_alias_columns": [],
+    "parentheses_balanced": true,
+    "mutation_absent": true,
+    "time_or_values_bounded": true,
+    "status_preserved": true,
+    "server_parser": "NOT_RUN",
+    "manual_review": "grain/time/decimals/units and unqualified fields reviewed in source",
+    "pass": true
+  },
+  {
+    "sql": "examples/sql/defi/07-dex-grain.sql",
+    "tables": [
+      "dex.trades"
+    ],
+    "missing_schema": [],
+    "bad_explicit_alias_columns": [],
+    "parentheses_balanced": true,
+    "mutation_absent": true,
+    "time_or_values_bounded": true,
+    "status_preserved": true,
+    "server_parser": "NOT_RUN",
+    "manual_review": "grain/time/decimals/units and unqualified fields reviewed in source",
+    "pass": true
+  },
+  {
+    "sql": "examples/sql/lgns/08-lp-events.sql",
+    "tables": [
+      "quickswap_polygon.uniswapv2pair_evt_burn",
+      "quickswap_polygon.uniswapv2pair_evt_mint"
+    ],
+    "missing_schema": [],
+    "bad_explicit_alias_columns": [],
+    "parentheses_balanced": true,
+    "mutation_absent": true,
+    "time_or_values_bounded": true,
+    "status_preserved": true,
+    "server_parser": "NOT_RUN",
+    "manual_review": "grain/time/decimals/units and unqualified fields reviewed in source",
+    "pass": true
+  },
+  {
+    "sql": "examples/sql/bridge/09-fx-deposit.sql",
+    "tables": [
+      "polygon_pos_bridge_ethereum.fxerc20roottunnel_evt_fxdepositerc20"
+    ],
+    "missing_schema": [],
+    "bad_explicit_alias_columns": [],
+    "parentheses_balanced": true,
+    "mutation_absent": true,
+    "time_or_values_bounded": true,
+    "status_preserved": true,
+    "server_parser": "NOT_RUN",
+    "manual_review": "grain/time/decimals/units and unqualified fields reviewed in source",
+    "pass": true
+  },
+  {
+    "sql": "examples/sql/bridge/10-fx-withdraw.sql",
+    "tables": [
+      "polygon_pos_bridge_ethereum.fxerc20roottunnel_evt_fxwithdrawerc20"
+    ],
+    "missing_schema": [],
+    "bad_explicit_alias_columns": [],
+    "parentheses_balanced": true,
+    "mutation_absent": true,
+    "time_or_values_bounded": true,
+    "status_preserved": true,
+    "server_parser": "NOT_RUN",
+    "manual_review": "grain/time/decimals/units and unqualified fields reviewed in source",
+    "pass": true
+  },
+  {
+    "sql": "examples/sql/core-structure/11-creation.sql",
+    "tables": [
+      "polygon.creation_traces"
+    ],
+    "missing_schema": [],
+    "bad_explicit_alias_columns": [],
+    "parentheses_balanced": true,
+    "mutation_absent": true,
+    "time_or_values_bounded": true,
+    "status_preserved": true,
+    "server_parser": "NOT_RUN",
+    "manual_review": "grain/time/decimals/units and unqualified fields reviewed in source",
+    "pass": true
+  },
+  {
+    "sql": "examples/sql/defi/12-upgrade-events.sql",
+    "tables": [
+      "polygon.logs"
+    ],
+    "missing_schema": [],
+    "bad_explicit_alias_columns": [],
+    "parentheses_balanced": true,
+    "mutation_absent": true,
+    "time_or_values_bounded": true,
+    "status_preserved": true,
+    "server_parser": "NOT_RUN",
+    "manual_review": "grain/time/decimals/units and unqualified fields reviewed in source",
+    "pass": true
+  },
+  {
+    "sql": "examples/sql/lgns/13-mint-burn.sql",
+    "tables": [
+      "polygon.logs"
+    ],
+    "missing_schema": [],
+    "bad_explicit_alias_columns": [],
+    "parentheses_balanced": true,
+    "mutation_absent": true,
+    "time_or_values_bounded": true,
+    "status_preserved": true,
+    "server_parser": "NOT_RUN",
+    "manual_review": "grain/time/decimals/units and unqualified fields reviewed in source",
+    "pass": true
+  },
+  {
+    "sql": "examples/sql/lgns/14-staked.sql",
+    "tables": [
+      "polygon.logs"
+    ],
+    "missing_schema": [],
+    "bad_explicit_alias_columns": [],
+    "parentheses_balanced": true,
+    "mutation_absent": true,
+    "time_or_values_bounded": true,
+    "status_preserved": true,
+    "server_parser": "NOT_RUN",
+    "manual_review": "grain/time/decimals/units and unqualified fields reviewed in source",
+    "pass": true
+  },
+  {
+    "sql": "examples/sql/lgns/15-rebase.sql",
+    "tables": [
+      "polygon.logs"
+    ],
+    "missing_schema": [],
+    "bad_explicit_alias_columns": [],
+    "parentheses_balanced": true,
+    "mutation_absent": true,
+    "time_or_values_bounded": true,
+    "status_preserved": true,
+    "server_parser": "NOT_RUN",
+    "manual_review": "grain/time/decimals/units and unqualified fields reviewed in source",
+    "pass": true
+  },
+  {
+    "sql": "examples/sql/core-structure/16-join-demo.sql",
+    "tables": [],
+    "missing_schema": [],
+    "bad_explicit_alias_columns": [],
+    "parentheses_balanced": true,
+    "mutation_absent": true,
+    "time_or_values_bounded": true,
+    "status_preserved": true,
+    "server_parser": "NOT_RUN",
+    "manual_review": "grain/time/decimals/units and unqualified fields reviewed in source",
+    "pass": true
+  },
+  {
+    "sql": "examples/sql/lgns/17-dai-boundary.sql",
+    "tables": [
+      "maker_polygon.dai_evt_transfer"
+    ],
+    "missing_schema": [],
+    "bad_explicit_alias_columns": [],
+    "parentheses_balanced": true,
+    "mutation_absent": true,
+    "time_or_values_bounded": true,
+    "status_preserved": true,
+    "server_parser": "NOT_RUN",
+    "manual_review": "grain/time/decimals/units and unqualified fields reviewed in source",
+    "pass": true
+  },
+  {
+    "sql": "examples/sql/lgns/18-exit-scenario.sql",
+    "tables": [],
+    "missing_schema": [],
+    "bad_explicit_alias_columns": [],
+    "parentheses_balanced": true,
+    "mutation_absent": true,
+    "time_or_values_bounded": true,
+    "status_preserved": true,
+    "server_parser": "NOT_RUN",
+    "manual_review": "grain/time/decimals/units and unqualified fields reviewed in source",
+    "pass": true
+  }
+]

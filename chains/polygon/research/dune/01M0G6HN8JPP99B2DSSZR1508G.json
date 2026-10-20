@@ -1,0 +1,138 @@
+{
+  "result": {
+    "_meta": {
+      "mcp_event_id": "af2e48d4-cceb-402f-9761-eb80308eeec8"
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"executionId\":\"01M0G6HN8JPP99B2DSSZR1508G\",\"state\":\"COMPLETED\",\"resultMetadata\":{\"columns\":[{\"name\":\"month\",\"type\":\"date\"},{\"name\":\"treasury_external_inflow_dai\",\"type\":\"double\"},{\"name\":\"other_core_external_inflow_dai\",\"type\":\"double\"},{\"name\":\"treasury_external_outflow_dai\",\"type\":\"double\"},{\"name\":\"other_core_external_outflow_dai\",\"type\":\"double\"},{\"name\":\"nonpair_internal_dai\",\"type\":\"double\"},{\"name\":\"unclassified_dai\",\"type\":\"double\"},{\"name\":\"nonpair_external_event_count\",\"type\":\"bigint\"},{\"name\":\"nonpair_classified_event_count\",\"type\":\"bigint\"},{\"name\":\"classification_event_gap\",\"type\":\"bigint\"},{\"name\":\"duplicate_event_rows\",\"type\":\"bigint\"}],\"totalRowCount\":30,\"executionCostCredits\":\"7.944\"},\"data\":{\"rows\":[{\"month\":\"2026-02-01\",\"treasury_external_inflow_dai\":126284.6984,\"other_core_external_inflow_dai\":430376101.20175964,\"treasury_external_outflow_dai\":0,\"other_core_external_outflow_dai\":0,\"nonpair_internal_dai\":430374008.82327014,\"unclassified_dai\":0,\"nonpair_external_event_count\":4089014,\"nonpair_classified_event_count\":4089014,\"classification_event_gap\":0,\"duplicate_event_rows\":0},{\"month\":\"2026-05-01\",\"treasury_external_inflow_dai\":858.8590999999999,\"other_core_external_inflow_dai\":482879643.8703808,\"treasury_external_outflow_dai\":0,\"other_core_external_outflow_dai\":0,\"nonpair_internal_dai\":482878080.62080264,\"unclassified_dai\":0,\"nonpair_external_event_count\":5797073,\"nonpair_classified_event_count\":5797073,\"classification_event_gap\":0,\"duplicate_event_rows\":0},{\"month\":\"2024-07-01\",\"treasury_external_inflow_dai\":244826.00840000002,\"other_core_external_inflow_dai\":2786131.3107884806,\"treasury_external_outflow_dai\":0,\"other_core_external_outflow_dai\":0,\"nonpair_internal_dai\":2786131.3107884806,\"unclassified_dai\":0,\"nonpair_external_event_count\":32109,\"nonpair_classified_event_count\":32109,\"classification_event_gap\":0,\"duplicate_event_rows\":0},{\"month\":\"2025-01-01\",\"treasury_external_inflow_dai\":283187.8372999999,\"other_core_external_inflow_dai\":25729557.080752686,\"treasury_external_outflow_dai\":0,\"other_core_external_outflow_dai\":0,\"nonpair_internal_dai\":25729557.080752686,\"unclassified_dai\":0,\"nonpair_external_event_count\":236801,\"nonpair_classified_event_count\":236801,\"classification_event_gap\":0,\"duplicate_event_rows\":0},{\"month\":\"2024-06-01\",\"treasury_external_inflow_dai\":99417.7066,\"other_core_external_inflow_dai\":1511329.8575230811,\"treasury_external_outflow_dai\":0,\"other_core_external_outflow_dai\":0,\"nonpair_internal_dai\":1510984.8719638812,\"unclassified_dai\":0,\"nonpair_external_event_count\":23446,\"nonpair_classified_event_count\":23446,\"classification_event_gap\":0,\"duplicate_event_rows\":0}]}}"
+      }
+    ],
+    "structuredContent": {
+      "executionId": "01M0G6HN8JPP99B2DSSZR1508G",
+      "state": "COMPLETED",
+      "resultMetadata": {
+        "columns": [
+          {
+            "name": "month",
+            "type": "date"
+          },
+          {
+            "name": "treasury_external_inflow_dai",
+            "type": "double"
+          },
+          {
+            "name": "other_core_external_inflow_dai",
+            "type": "double"
+          },
+          {
+            "name": "treasury_external_outflow_dai",
+            "type": "double"
+          },
+          {
+            "name": "other_core_external_outflow_dai",
+            "type": "double"
+          },
+          {
+            "name": "nonpair_internal_dai",
+            "type": "double"
+          },
+          {
+            "name": "unclassified_dai",
+            "type": "double"
+          },
+          {
+            "name": "nonpair_external_event_count",
+            "type": "bigint"
+          },
+          {
+            "name": "nonpair_classified_event_count",
+            "type": "bigint"
+          },
+          {
+            "name": "classification_event_gap",
+            "type": "bigint"
+          },
+          {
+            "name": "duplicate_event_rows",
+            "type": "bigint"
+          }
+        ],
+        "totalRowCount": 30,
+        "executionCostCredits": "7.944"
+      },
+      "data": {
+        "rows": [
+          {
+            "month": "2026-02-01",
+            "treasury_external_inflow_dai": 126284.6984,
+            "other_core_external_inflow_dai": 430376101.20175964,
+            "treasury_external_outflow_dai": 0,
+            "other_core_external_outflow_dai": 0,
+            "nonpair_internal_dai": 430374008.82327014,
+            "unclassified_dai": 0,
+            "nonpair_external_event_count": 4089014,
+            "nonpair_classified_event_count": 4089014,
+            "classification_event_gap": 0,
+            "duplicate_event_rows": 0
+          },
+          {
+            "month": "2026-05-01",
+            "treasury_external_inflow_dai": 858.8590999999999,
+            "other_core_external_inflow_dai": 482879643.8703808,
+            "treasury_external_outflow_dai": 0,
+            "other_core_external_outflow_dai": 0,
+            "nonpair_internal_dai": 482878080.62080264,
+            "unclassified_dai": 0,
+            "nonpair_external_event_count": 5797073,
+            "nonpair_classified_event_count": 5797073,
+            "classification_event_gap": 0,
+            "duplicate_event_rows": 0
+          },
+          {
+            "month": "2024-07-01",
+            "treasury_external_inflow_dai": 244826.00840000002,
+            "other_core_external_inflow_dai": 2786131.3107884806,
+            "treasury_external_outflow_dai": 0,
+            "other_core_external_outflow_dai": 0,
+            "nonpair_internal_dai": 2786131.3107884806,
+            "unclassified_dai": 0,
+            "nonpair_external_event_count": 32109,
+            "nonpair_classified_event_count": 32109,
+            "classification_event_gap": 0,
+            "duplicate_event_rows": 0
+          },
+          {
+            "month": "2025-01-01",
+            "treasury_external_inflow_dai": 283187.8372999999,
+            "other_core_external_inflow_dai": 25729557.080752686,
+            "treasury_external_outflow_dai": 0,
+            "other_core_external_outflow_dai": 0,
+            "nonpair_internal_dai": 25729557.080752686,
+            "unclassified_dai": 0,
+            "nonpair_external_event_count": 236801,
+            "nonpair_classified_event_count": 236801,
+            "classification_event_gap": 0,
+            "duplicate_event_rows": 0
+          },
+          {
+            "month": "2024-06-01",
+            "treasury_external_inflow_dai": 99417.7066,
+            "other_core_external_inflow_dai": 1511329.8575230811,
+            "treasury_external_outflow_dai": 0,
+            "other_core_external_outflow_dai": 0,
+            "nonpair_internal_dai": 1510984.8719638812,
+            "unclassified_dai": 0,
+            "nonpair_external_event_count": 23446,
+            "nonpair_classified_event_count": 23446,
+            "classification_event_gap": 0,
+            "duplicate_event_rows": 0
+          }
+        ]
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

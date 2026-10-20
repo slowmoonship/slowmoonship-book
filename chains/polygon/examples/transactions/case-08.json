@@ -1,0 +1,25 @@
+{
+  "case_id": "case-08",
+  "title": "Treasury合约部署",
+  "network": "Polygon PoS Mainnet",
+  "chain_id": 137,
+  "transaction_hash": "0x7366b7fc964af8c0ef54dbb785ef21d4096df571f81226e307cd3707b0bd9185",
+  "block_number": 54339865,
+  "block_time": "2024-03-06T16:35:36+00:00",
+  "contract_address": "0x7b9b7d4f870a38e92c9a181b00f9b33cc8ef5321",
+  "focus": "储备角色与管理条件",
+  "source": "https://polygonscan.com/tx/0x7366b7fc964af8c0ef54dbb785ef21d4096df571f81226e307cd3707b0bd9185",
+  "local_archive_source_cache": "research/sources/tx-treasury-creation.md",
+  "public_source_url": "https://polygonscan.com/tx/0x7366b7fc964af8c0ef54dbb785ef21d4096df571f81226e307cd3707b0bd9185",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY",
+  "dune_query": null,
+  "raw_indexed_fields": [],
+  "derived_fields": {},
+  "verification_status": "EXPLORER_RECORD_CAPTURED; LIMITED_INDEXED_CROSSCHECK; NOT_LOCAL_REEXECUTION",
+  "missing": [
+    "complete native RPC receipt",
+    "local signature/consensus verification",
+    "beneficial ownership",
+    "full historical state"
+  ]
+}

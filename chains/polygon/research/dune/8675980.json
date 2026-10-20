@@ -1,0 +1,28 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"query_id\":8675980,\"user_id\":null,\"team_id\":953543,\"version\":1,\"name\":\"Dashboard 04: Polygon PoS Contract Execution (30d)\",\"description\":\"Polygon PoS 30-day execution-trace summary by UTC day.\",\"tags\":[],\"query\":\"WITH filtered_traces AS (\\n    SELECT\\n        block_date,\\n        tx_hash,\\n        type,\\n        \\\"to\\\" AS destination_address\\n    FROM polygon.traces\\n    WHERE block_date >= CAST(\\n            date_trunc('day', current_timestamp AT TIME ZONE 'UTC') - INTERVAL '30' DAY\\n            AS date\\n        )\\n      AND block_date < CAST(\\n            date_trunc('day', current_timestamp AT TIME ZONE 'UTC')\\n            AS date\\n        )\\n),\\ndaily_contract_execution AS (\\n    SELECT\\n        block_date AS date,\\n        COUNT(*) AS trace_count,\\n        approx_distinct(tx_hash) AS unique_transactions,\\n        COUNT_IF(lower(type) = 'call') AS call_count,\\n        approx_distinct(destination_address) AS unique_destination_addresses\\n    FROM filtered_traces\\n    GROUP BY 1\\n)\\nSELECT\\n    date,\\n    trace_count,\\n    unique_transactions,\\n    call_count,\\n    unique_destination_addresses\\nFROM daily_contract_execution\\nORDER BY date;\",\"parameters\":[],\"is_archived\":false,\"is_private\":false,\"is_temp\":true,\"latest_execution_id\":\"01M27GRMBG3YVR6DC6RE2FFV3K\",\"latest_execution_state\":\"QUERY_STATE_COMPLETED\"}"
+      }
+    ],
+    "structuredContent": {
+      "query_id": 8675980,
+      "user_id": null,
+      "team_id": 953543,
+      "version": 1,
+      "name": "Dashboard 04: Polygon PoS Contract Execution (30d)",
+      "description": "Polygon PoS 30-day execution-trace summary by UTC day.",
+      "tags": [],
+      "query": "WITH filtered_traces AS (\n    SELECT\n        block_date,\n        tx_hash,\n        type,\n        \"to\" AS destination_address\n    FROM polygon.traces\n    WHERE block_date >= CAST(\n            date_trunc('day', current_timestamp AT TIME ZONE 'UTC') - INTERVAL '30' DAY\n            AS date\n        )\n      AND block_date < CAST(\n            date_trunc('day', current_timestamp AT TIME ZONE 'UTC')\n            AS date\n        )\n),\ndaily_contract_execution AS (\n    SELECT\n        block_date AS date,\n        COUNT(*) AS trace_count,\n        approx_distinct(tx_hash) AS unique_transactions,\n        COUNT_IF(lower(type) = 'call') AS call_count,\n        approx_distinct(destination_address) AS unique_destination_addresses\n    FROM filtered_traces\n    GROUP BY 1\n)\nSELECT\n    date,\n    trace_count,\n    unique_transactions,\n    call_count,\n    unique_destination_addresses\nFROM daily_contract_execution\nORDER BY date;",
+      "parameters": [],
+      "is_archived": false,
+      "is_private": false,
+      "is_temp": true,
+      "latest_execution_id": "01M27GRMBG3YVR6DC6RE2FFV3K",
+      "latest_execution_state": "QUERY_STATE_COMPLETED"
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

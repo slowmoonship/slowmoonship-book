@@ -1,0 +1,14 @@
+{
+  "id": "activation-bor-rio",
+  "url": "https://polygonscan.com/block/77414656",
+  "accessed_at": "2026-10-19T03:03:19.132780+00:00",
+  "baseline": "2026-10-19",
+  "status": 200,
+  "final_url": "https://polygonscan.com/block/77414656",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 115594,
+  "sha256": "0f6fa41963f688d114e3460ebe8bcf3d169a3ca1ed30bd080197fab8358d62cf",
+  "local_archive_path": "research/sources/activation-bor-rio.md",
+  "public_source_url": "https://polygonscan.com/block/77414656",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY"
+}

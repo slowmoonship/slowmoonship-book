@@ -1,0 +1,14 @@
+{
+  "id": "tx-pair-creation",
+  "url": "https://polygonscan.com/tx/0x226a240b5d72abaf9ed611afd2e99efc8fb8b1bfd7d324b82fb1d804d513f2b6",
+  "accessed_at": "2026-10-19T02:41:18.480153+00:00",
+  "baseline": "2026-10-19",
+  "status": 200,
+  "final_url": "https://polygonscan.com/tx/0x226a240b5d72abaf9ed611afd2e99efc8fb8b1bfd7d324b82fb1d804d513f2b6",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 190711,
+  "sha256": "928d49e251102b03c83be906d432f73739520aebeffda92b48ca6d90356b7c34",
+  "local_archive_path": "research/sources/tx-pair-creation.md",
+  "public_source_url": "https://polygonscan.com/tx/0x226a240b5d72abaf9ed611afd2e99efc8fb8b1bfd7d324b82fb1d804d513f2b6",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY"
+}

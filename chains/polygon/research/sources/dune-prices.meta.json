@@ -1,0 +1,14 @@
+{
+  "id": "dune-prices",
+  "url": "https://docs.dune.com/data-catalog/curated/prices/overview.md",
+  "accessed_at": "2026-10-19T02:33:01.219345+00:00",
+  "baseline": "2026-10-19",
+  "status": 200,
+  "final_url": "https://docs.dune.com/data-catalog/curated/prices/overview.md",
+  "content_type": "text/markdown; charset=utf-8",
+  "bytes": 9475,
+  "sha256": "595d40834695e325618b401b6c88d9ad35929344759546b4ece5fe082e7b18c0",
+  "local_archive_path": "research/sources/dune-prices.md",
+  "public_source_url": "https://docs.dune.com/data-catalog/curated/prices/overview.md",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY"
+}

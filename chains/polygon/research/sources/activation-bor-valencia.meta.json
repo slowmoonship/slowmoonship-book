@@ -1,0 +1,14 @@
+{
+  "id": "activation-bor-valencia",
+  "url": "https://polygonscan.com/block/89531000",
+  "accessed_at": "2026-10-19T03:03:20.028596+00:00",
+  "baseline": "2026-10-19",
+  "status": 200,
+  "final_url": "https://polygonscan.com/block/89531000",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 116396,
+  "sha256": "f6cf424491b75ba4ba4072496937a66c05466e3d6275e11f4bf12b0628dc48e1",
+  "local_archive_path": "research/sources/activation-bor-valencia.md",
+  "public_source_url": "https://polygonscan.com/block/89531000",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY"
+}

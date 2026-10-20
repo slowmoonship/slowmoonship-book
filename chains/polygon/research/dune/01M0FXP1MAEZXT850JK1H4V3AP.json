@@ -1,0 +1,327 @@
+{
+  "result": {
+    "_meta": {
+      "mcp_event_id": "0a4e6974-17f5-48ab-8fb9-d3dd2a0e4895"
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"executionId\":\"01M0FXP1MAEZXT850JK1H4V3AP\",\"state\":\"COMPLETED\",\"resultMetadata\":{\"columns\":[{\"name\":\"block_time\",\"type\":\"timestamp(3) with time zone\"},{\"name\":\"block_number\",\"type\":\"bigint\"},{\"name\":\"tx_hash\",\"type\":\"varbinary\"},{\"name\":\"evt_index\",\"type\":\"integer\"},{\"name\":\"sender\",\"type\":\"varbinary\"},{\"name\":\"to\",\"type\":\"varbinary\"},{\"name\":\"tx_from\",\"type\":\"varbinary\"},{\"name\":\"dai_removed\",\"type\":\"double\"},{\"name\":\"lgns_removed\",\"type\":\"double\"},{\"name\":\"beneficiary_address\",\"type\":\"varbinary\"},{\"name\":\"beneficiary_method\",\"type\":\"varchar(30)\"},{\"name\":\"address_pattern\",\"type\":\"varchar(40)\"},{\"name\":\"remove_count\",\"type\":\"bigint\"},{\"name\":\"total_dai_removed\",\"type\":\"double\"},{\"name\":\"total_lgns_removed\",\"type\":\"double\"},{\"name\":\"first_remove_time\",\"type\":\"timestamp(3) with time zone\"},{\"name\":\"last_remove_time\",\"type\":\"timestamp(3) with time zone\"},{\"name\":\"share_of_total_removed_dai\",\"type\":\"double\"},{\"name\":\"beneficiary_rank\",\"type\":\"bigint\"},{\"name\":\"largest_event_rank\",\"type\":\"bigint\"},{\"name\":\"chart_beneficiary_address\",\"type\":\"varchar\"},{\"name\":\"chart_total_dai_removed\",\"type\":\"double\"},{\"name\":\"burn_event_count\",\"type\":\"bigint\"},{\"name\":\"unique_burn_event_count\",\"type\":\"bigint\"},{\"name\":\"duplicate_event_rows\",\"type\":\"bigint\"},{\"name\":\"total_dai_removed_all\",\"type\":\"double\"},{\"name\":\"total_lgns_removed_all\",\"type\":\"double\"},{\"name\":\"top1_beneficiary_address\",\"type\":\"varchar\"},{\"name\":\"top1_total_dai_removed\",\"type\":\"double\"},{\"name\":\"top10_share_of_total_removed_dai\",\"type\":\"double\"},{\"name\":\"top20_share_of_total_removed_dai\",\"type\":\"double\"},{\"name\":\"unresolved_event_count\",\"type\":\"bigint\"}],\"totalRowCount\":11687,\"executionCostCredits\":\"7.407\"},\"data\":{\"rows\":[{\"block_time\":\"2026-03-29 14:57:08.000 UTC\",\"block_number\":84838096,\"tx_hash\":\"0x4d34a021cfdfc1a03f6deaa427ba01ac18d5b6e40f3871718638d2edc00975ae\",\"evt_index\":11,\"sender\":\"0xa5e0829caced8ffdd4de3c43696c57f7d7a678ff\",\"to\":\"0xc7ad85a57181b9783b1284d97aac37c447803382\",\"tx_from\":\"0xe649a923a1f3f029c562915a9621dcba48b74d80\",\"dai_removed\":726611.6891940378,\"lgns_removed\":128519.495833984,\"beneficiary_address\":\"0xc7ad85a57181b9783b1284d97aac37c447803382\",\"beneficiary_method\":\"burn_event_to_direct_recipient\",\"address_pattern\":\"sender_or_router_distinct_from_recipient\",\"remove_count\":533,\"total_dai_removed\":121278328.10489848,\"total_lgns_removed\":39509954.19500702,\"first_remove_time\":\"2026-03-19 23:40:59.000 UTC\",\"last_remove_time\":\"2026-08-18 03:59:09.000 UTC\",\"share_of_total_removed_dai\":0.41510204183432237,\"beneficiary_rank\":2,\"largest_event_rank\":1,\"chart_beneficiary_address\":\"0xC7AD85A57181B9783B1284D97AAC37C447803382\",\"chart_total_dai_removed\":121278328.10489848,\"burn_event_count\":11687,\"unique_burn_event_count\":11687,\"duplicate_event_rows\":0,\"total_dai_removed_all\":292165096.4880178,\"total_lgns_removed_all\":60478201.33162756,\"top1_beneficiary_address\":\"0x1D6A7F2CB262AFBB1204BBFCBB3DB642662B15C3\",\"top1_total_dai_removed\":163646064.96504638,\"top10_share_of_total_removed_dai\":0.9999906198181027,\"top20_share_of_total_removed_dai\":0.9999976792508861,\"unresolved_event_count\":0},{\"block_time\":\"2025-11-17 02:59:31.000 UTC\",\"block_number\":79121670,\"tx_hash\":\"0x3fd53b5cd472983fa7cbca3d3fcaf47a86657a9d254fa3c6e31e4a7de702d6e6\",\"evt_index\":845,\"sender\":\"0xa5e0829caced8ffdd4de3c43696c57f7d7a678ff\",\"to\":\"0x1d6a7f2cb262afbb1204bbfcbb3db642662b15c3\",\"tx_from\":\"0x9da64df74565861708781b9ad2e559b7328b97c4\",\"dai_removed\":671300.632240401,\"lgns_removed\":59893.719814646,\"beneficiary_address\":\"0x1d6a7f2cb262afbb1204bbfcbb3db642662b15c3\",\"beneficiary_method\":\"burn_event_to_direct_recipient\",\"address_pattern\":\"sender_or_router_distinct_from_recipient\",\"remove_count\":644,\"total_dai_removed\":163646064.96504626,\"total_lgns_removed\":20099687.17516863,\"first_remove_time\":\"2025-08-07 20:06:31.000 UTC\",\"last_remove_time\":\"2026-03-19 15:14:25.000 UTC\",\"share_of_total_removed_dai\":0.5601150408866755,\"beneficiary_rank\":1,\"largest_event_rank\":2,\"chart_beneficiary_address\":\"0x1D6A7F2CB262AFBB1204BBFCBB3DB642662B15C3\",\"chart_total_dai_removed\":163646064.96504626,\"burn_event_count\":11687,\"unique_burn_event_count\":11687,\"duplicate_event_rows\":0,\"total_dai_removed_all\":292165096.4880178,\"total_lgns_removed_all\":60478201.33162756,\"top1_beneficiary_address\":\"0x1D6A7F2CB262AFBB1204BBFCBB3DB642662B15C3\",\"top1_total_dai_removed\":163646064.96504638,\"top10_share_of_total_removed_dai\":0.9999906198181027,\"top20_share_of_total_removed_dai\":0.9999976792508861,\"unresolved_event_count\":0},{\"block_time\":\"2025-12-22 06:27:22.000 UTC\",\"block_number\":80632808,\"tx_hash\":\"0xcde3028ef0c84f91f673b270c82f493e2981fc6f7638c4e355935861f7425336\",\"evt_index\":10,\"sender\":\"0xa5e0829caced8ffdd4de3c43696c57f7d7a678ff\",\"to\":\"0x1d6a7f2cb262afbb1204bbfcbb3db642662b15c3\",\"tx_from\":\"0x9da64df74565861708781b9ad2e559b7328b97c4\",\"dai_removed\":646747.9439430555,\"lgns_removed\":91140.821556661,\"beneficiary_address\":\"0x1d6a7f2cb262afbb1204bbfcbb3db642662b15c3\",\"beneficiary_method\":\"burn_event_to_direct_recipient\",\"address_pattern\":\"sender_or_router_distinct_from_recipient\",\"remove_count\":644,\"total_dai_removed\":163646064.96504626,\"total_lgns_removed\":20099687.17516863,\"first_remove_time\":\"2025-08-07 20:06:31.000 UTC\",\"last_remove_time\":\"2026-03-19 15:14:25.000 UTC\",\"share_of_total_removed_dai\":0.5601150408866755,\"beneficiary_rank\":1,\"largest_event_rank\":3,\"chart_beneficiary_address\":null,\"chart_total_dai_removed\":null,\"burn_event_count\":11687,\"unique_burn_event_count\":11687,\"duplicate_event_rows\":0,\"total_dai_removed_all\":292165096.4880178,\"total_lgns_removed_all\":60478201.33162756,\"top1_beneficiary_address\":\"0x1D6A7F2CB262AFBB1204BBFCBB3DB642662B15C3\",\"top1_total_dai_removed\":163646064.96504638,\"top10_share_of_total_removed_dai\":0.9999906198181027,\"top20_share_of_total_removed_dai\":0.9999976792508861,\"unresolved_event_count\":0},{\"block_time\":\"2026-05-03 07:43:32.000 UTC\",\"block_number\":86337084,\"tx_hash\":\"0x57b79814606d4da18fc9a96ee5e01d1b8a7c4b5e9328ee2b4d975848b0573822\",\"evt_index\":11,\"sender\":\"0xa5e0829caced8ffdd4de3c43696c57f7d7a678ff\",\"to\":\"0xc7ad85a57181b9783b1284d97aac37c447803382\",\"tx_from\":\"0xe649a923a1f3f029c562915a9621dcba48b74d80\",\"dai_removed\":639093.3240389491,\"lgns_removed\":153615.577848891,\"beneficiary_address\":\"0xc7ad85a57181b9783b1284d97aac37c447803382\",\"beneficiary_method\":\"burn_event_to_direct_recipient\",\"address_pattern\":\"sender_or_router_distinct_from_recipient\",\"remove_count\":533,\"total_dai_removed\":121278328.10489848,\"total_lgns_removed\":39509954.19500702,\"first_remove_time\":\"2026-03-19 23:40:59.000 UTC\",\"last_remove_time\":\"2026-08-18 03:59:09.000 UTC\",\"share_of_total_removed_dai\":0.41510204183432237,\"beneficiary_rank\":2,\"largest_event_rank\":4,\"chart_beneficiary_address\":null,\"chart_total_dai_removed\":null,\"burn_event_count\":11687,\"unique_burn_event_count\":11687,\"duplicate_event_rows\":0,\"total_dai_removed_all\":292165096.4880178,\"total_lgns_removed_all\":60478201.33162756,\"top1_beneficiary_address\":\"0x1D6A7F2CB262AFBB1204BBFCBB3DB642662B15C3\",\"top1_total_dai_removed\":163646064.96504638,\"top10_share_of_total_removed_dai\":0.9999906198181027,\"top20_share_of_total_removed_dai\":0.9999976792508861,\"unresolved_event_count\":0},{\"block_time\":\"2025-12-24 06:43:17.000 UTC\",\"block_number\":80719677,\"tx_hash\":\"0x07fa98d305ac8c4442ba3baa625b54f32f79066aa6e9cafcc81badcd51d24889\",\"evt_index\":10,\"sender\":\"0xa5e0829caced8ffdd4de3c43696c57f7d7a678ff\",\"to\":\"0x1d6a7f2cb262afbb1204bbfcbb3db642662b15c3\",\"tx_from\":\"0x9da64df74565861708781b9ad2e559b7328b97c4\",\"dai_removed\":638800.8089214293,\"lgns_removed\":90923.331203162,\"beneficiary_address\":\"0x1d6a7f2cb262afbb1204bbfcbb3db642662b15c3\",\"beneficiary_method\":\"burn_event_to_direct_recipient\",\"address_pattern\":\"sender_or_router_distinct_from_recipient\",\"remove_count\":644,\"total_dai_removed\":163646064.96504626,\"total_lgns_removed\":20099687.17516863,\"first_remove_time\":\"2025-08-07 20:06:31.000 UTC\",\"last_remove_time\":\"2026-03-19 15:14:25.000 UTC\",\"share_of_total_removed_dai\":0.5601150408866755,\"beneficiary_rank\":1,\"largest_event_rank\":5,\"chart_beneficiary_address\":null,\"chart_total_dai_removed\":null,\"burn_event_count\":11687,\"unique_burn_event_count\":11687,\"duplicate_event_rows\":0,\"total_dai_removed_all\":292165096.4880178,\"total_lgns_removed_all\":60478201.33162756,\"top1_beneficiary_address\":\"0x1D6A7F2CB262AFBB1204BBFCBB3DB642662B15C3\",\"top1_total_dai_removed\":163646064.96504638,\"top10_share_of_total_removed_dai\":0.9999906198181027,\"top20_share_of_total_removed_dai\":0.9999976792508861,\"unresolved_event_count\":0}]}}"
+      }
+    ],
+    "structuredContent": {
+      "executionId": "01M0FXP1MAEZXT850JK1H4V3AP",
+      "state": "COMPLETED",
+      "resultMetadata": {
+        "columns": [
+          {
+            "name": "block_time",
+            "type": "timestamp(3) with time zone"
+          },
+          {
+            "name": "block_number",
+            "type": "bigint"
+          },
+          {
+            "name": "tx_hash",
+            "type": "varbinary"
+          },
+          {
+            "name": "evt_index",
+            "type": "integer"
+          },
+          {
+            "name": "sender",
+            "type": "varbinary"
+          },
+          {
+            "name": "to",
+            "type": "varbinary"
+          },
+          {
+            "name": "tx_from",
+            "type": "varbinary"
+          },
+          {
+            "name": "dai_removed",
+            "type": "double"
+          },
+          {
+            "name": "lgns_removed",
+            "type": "double"
+          },
+          {
+            "name": "beneficiary_address",
+            "type": "varbinary"
+          },
+          {
+            "name": "beneficiary_method",
+            "type": "varchar(30)"
+          },
+          {
+            "name": "address_pattern",
+            "type": "varchar(40)"
+          },
+          {
+            "name": "remove_count",
+            "type": "bigint"
+          },
+          {
+            "name": "total_dai_removed",
+            "type": "double"
+          },
+          {
+            "name": "total_lgns_removed",
+            "type": "double"
+          },
+          {
+            "name": "first_remove_time",
+            "type": "timestamp(3) with time zone"
+          },
+          {
+            "name": "last_remove_time",
+            "type": "timestamp(3) with time zone"
+          },
+          {
+            "name": "share_of_total_removed_dai",
+            "type": "double"
+          },
+          {
+            "name": "beneficiary_rank",
+            "type": "bigint"
+          },
+          {
+            "name": "largest_event_rank",
+            "type": "bigint"
+          },
+          {
+            "name": "chart_beneficiary_address",
+            "type": "varchar"
+          },
+          {
+            "name": "chart_total_dai_removed",
+            "type": "double"
+          },
+          {
+            "name": "burn_event_count",
+            "type": "bigint"
+          },
+          {
+            "name": "unique_burn_event_count",
+            "type": "bigint"
+          },
+          {
+            "name": "duplicate_event_rows",
+            "type": "bigint"
+          },
+          {
+            "name": "total_dai_removed_all",
+            "type": "double"
+          },
+          {
+            "name": "total_lgns_removed_all",
+            "type": "double"
+          },
+          {
+            "name": "top1_beneficiary_address",
+            "type": "varchar"
+          },
+          {
+            "name": "top1_total_dai_removed",
+            "type": "double"
+          },
+          {
+            "name": "top10_share_of_total_removed_dai",
+            "type": "double"
+          },
+          {
+            "name": "top20_share_of_total_removed_dai",
+            "type": "double"
+          },
+          {
+            "name": "unresolved_event_count",
+            "type": "bigint"
+          }
+        ],
+        "totalRowCount": 11687,
+        "executionCostCredits": "7.407"
+      },
+      "data": {
+        "rows": [
+          {
+            "block_time": "2026-03-29 14:57:08.000 UTC",
+            "block_number": 84838096,
+            "tx_hash": "0x4d34a021cfdfc1a03f6deaa427ba01ac18d5b6e40f3871718638d2edc00975ae",
+            "evt_index": 11,
+            "sender": "0xa5e0829caced8ffdd4de3c43696c57f7d7a678ff",
+            "to": "0xc7ad85a57181b9783b1284d97aac37c447803382",
+            "tx_from": "0xe649a923a1f3f029c562915a9621dcba48b74d80",
+            "dai_removed": 726611.6891940378,
+            "lgns_removed": 128519.495833984,
+            "beneficiary_address": "0xc7ad85a57181b9783b1284d97aac37c447803382",
+            "beneficiary_method": "burn_event_to_direct_recipient",
+            "address_pattern": "sender_or_router_distinct_from_recipient",
+            "remove_count": 533,
+            "total_dai_removed": 121278328.10489848,
+            "total_lgns_removed": 39509954.19500702,
+            "first_remove_time": "2026-03-19 23:40:59.000 UTC",
+            "last_remove_time": "2026-08-18 03:59:09.000 UTC",
+            "share_of_total_removed_dai": 0.41510204183432237,
+            "beneficiary_rank": 2,
+            "largest_event_rank": 1,
+            "chart_beneficiary_address": "0xC7AD85A57181B9783B1284D97AAC37C447803382",
+            "chart_total_dai_removed": 121278328.10489848,
+            "burn_event_count": 11687,
+            "unique_burn_event_count": 11687,
+            "duplicate_event_rows": 0,
+            "total_dai_removed_all": 292165096.4880178,
+            "total_lgns_removed_all": 60478201.33162756,
+            "top1_beneficiary_address": "0x1D6A7F2CB262AFBB1204BBFCBB3DB642662B15C3",
+            "top1_total_dai_removed": 163646064.96504638,
+            "top10_share_of_total_removed_dai": 0.9999906198181027,
+            "top20_share_of_total_removed_dai": 0.9999976792508861,
+            "unresolved_event_count": 0
+          },
+          {
+            "block_time": "2025-11-17 02:59:31.000 UTC",
+            "block_number": 79121670,
+            "tx_hash": "0x3fd53b5cd472983fa7cbca3d3fcaf47a86657a9d254fa3c6e31e4a7de702d6e6",
+            "evt_index": 845,
+            "sender": "0xa5e0829caced8ffdd4de3c43696c57f7d7a678ff",
+            "to": "0x1d6a7f2cb262afbb1204bbfcbb3db642662b15c3",
+            "tx_from": "0x9da64df74565861708781b9ad2e559b7328b97c4",
+            "dai_removed": 671300.632240401,
+            "lgns_removed": 59893.719814646,
+            "beneficiary_address": "0x1d6a7f2cb262afbb1204bbfcbb3db642662b15c3",
+            "beneficiary_method": "burn_event_to_direct_recipient",
+            "address_pattern": "sender_or_router_distinct_from_recipient",
+            "remove_count": 644,
+            "total_dai_removed": 163646064.96504626,
+            "total_lgns_removed": 20099687.17516863,
+            "first_remove_time": "2025-08-07 20:06:31.000 UTC",
+            "last_remove_time": "2026-03-19 15:14:25.000 UTC",
+            "share_of_total_removed_dai": 0.5601150408866755,
+            "beneficiary_rank": 1,
+            "largest_event_rank": 2,
+            "chart_beneficiary_address": "0x1D6A7F2CB262AFBB1204BBFCBB3DB642662B15C3",
+            "chart_total_dai_removed": 163646064.96504626,
+            "burn_event_count": 11687,
+            "unique_burn_event_count": 11687,
+            "duplicate_event_rows": 0,
+            "total_dai_removed_all": 292165096.4880178,
+            "total_lgns_removed_all": 60478201.33162756,
+            "top1_beneficiary_address": "0x1D6A7F2CB262AFBB1204BBFCBB3DB642662B15C3",
+            "top1_total_dai_removed": 163646064.96504638,
+            "top10_share_of_total_removed_dai": 0.9999906198181027,
+            "top20_share_of_total_removed_dai": 0.9999976792508861,
+            "unresolved_event_count": 0
+          },
+          {
+            "block_time": "2025-12-22 06:27:22.000 UTC",
+            "block_number": 80632808,
+            "tx_hash": "0xcde3028ef0c84f91f673b270c82f493e2981fc6f7638c4e355935861f7425336",
+            "evt_index": 10,
+            "sender": "0xa5e0829caced8ffdd4de3c43696c57f7d7a678ff",
+            "to": "0x1d6a7f2cb262afbb1204bbfcbb3db642662b15c3",
+            "tx_from": "0x9da64df74565861708781b9ad2e559b7328b97c4",
+            "dai_removed": 646747.9439430555,
+            "lgns_removed": 91140.821556661,
+            "beneficiary_address": "0x1d6a7f2cb262afbb1204bbfcbb3db642662b15c3",
+            "beneficiary_method": "burn_event_to_direct_recipient",
+            "address_pattern": "sender_or_router_distinct_from_recipient",
+            "remove_count": 644,
+            "total_dai_removed": 163646064.96504626,
+            "total_lgns_removed": 20099687.17516863,
+            "first_remove_time": "2025-08-07 20:06:31.000 UTC",
+            "last_remove_time": "2026-03-19 15:14:25.000 UTC",
+            "share_of_total_removed_dai": 0.5601150408866755,
+            "beneficiary_rank": 1,
+            "largest_event_rank": 3,
+            "chart_beneficiary_address": null,
+            "chart_total_dai_removed": null,
+            "burn_event_count": 11687,
+            "unique_burn_event_count": 11687,
+            "duplicate_event_rows": 0,
+            "total_dai_removed_all": 292165096.4880178,
+            "total_lgns_removed_all": 60478201.33162756,
+            "top1_beneficiary_address": "0x1D6A7F2CB262AFBB1204BBFCBB3DB642662B15C3",
+            "top1_total_dai_removed": 163646064.96504638,
+            "top10_share_of_total_removed_dai": 0.9999906198181027,
+            "top20_share_of_total_removed_dai": 0.9999976792508861,
+            "unresolved_event_count": 0
+          },
+          {
+            "block_time": "2026-05-03 07:43:32.000 UTC",
+            "block_number": 86337084,
+            "tx_hash": "0x57b79814606d4da18fc9a96ee5e01d1b8a7c4b5e9328ee2b4d975848b0573822",
+            "evt_index": 11,
+            "sender": "0xa5e0829caced8ffdd4de3c43696c57f7d7a678ff",
+            "to": "0xc7ad85a57181b9783b1284d97aac37c447803382",
+            "tx_from": "0xe649a923a1f3f029c562915a9621dcba48b74d80",
+            "dai_removed": 639093.3240389491,
+            "lgns_removed": 153615.577848891,
+            "beneficiary_address": "0xc7ad85a57181b9783b1284d97aac37c447803382",
+            "beneficiary_method": "burn_event_to_direct_recipient",
+            "address_pattern": "sender_or_router_distinct_from_recipient",
+            "remove_count": 533,
+            "total_dai_removed": 121278328.10489848,
+            "total_lgns_removed": 39509954.19500702,
+            "first_remove_time": "2026-03-19 23:40:59.000 UTC",
+            "last_remove_time": "2026-08-18 03:59:09.000 UTC",
+            "share_of_total_removed_dai": 0.41510204183432237,
+            "beneficiary_rank": 2,
+            "largest_event_rank": 4,
+            "chart_beneficiary_address": null,
+            "chart_total_dai_removed": null,
+            "burn_event_count": 11687,
+            "unique_burn_event_count": 11687,
+            "duplicate_event_rows": 0,
+            "total_dai_removed_all": 292165096.4880178,
+            "total_lgns_removed_all": 60478201.33162756,
+            "top1_beneficiary_address": "0x1D6A7F2CB262AFBB1204BBFCBB3DB642662B15C3",
+            "top1_total_dai_removed": 163646064.96504638,
+            "top10_share_of_total_removed_dai": 0.9999906198181027,
+            "top20_share_of_total_removed_dai": 0.9999976792508861,
+            "unresolved_event_count": 0
+          },
+          {
+            "block_time": "2025-12-24 06:43:17.000 UTC",
+            "block_number": 80719677,
+            "tx_hash": "0x07fa98d305ac8c4442ba3baa625b54f32f79066aa6e9cafcc81badcd51d24889",
+            "evt_index": 10,
+            "sender": "0xa5e0829caced8ffdd4de3c43696c57f7d7a678ff",
+            "to": "0x1d6a7f2cb262afbb1204bbfcbb3db642662b15c3",
+            "tx_from": "0x9da64df74565861708781b9ad2e559b7328b97c4",
+            "dai_removed": 638800.8089214293,
+            "lgns_removed": 90923.331203162,
+            "beneficiary_address": "0x1d6a7f2cb262afbb1204bbfcbb3db642662b15c3",
+            "beneficiary_method": "burn_event_to_direct_recipient",
+            "address_pattern": "sender_or_router_distinct_from_recipient",
+            "remove_count": 644,
+            "total_dai_removed": 163646064.96504626,
+            "total_lgns_removed": 20099687.17516863,
+            "first_remove_time": "2025-08-07 20:06:31.000 UTC",
+            "last_remove_time": "2026-03-19 15:14:25.000 UTC",
+            "share_of_total_removed_dai": 0.5601150408866755,
+            "beneficiary_rank": 1,
+            "largest_event_rank": 5,
+            "chart_beneficiary_address": null,
+            "chart_total_dai_removed": null,
+            "burn_event_count": 11687,
+            "unique_burn_event_count": 11687,
+            "duplicate_event_rows": 0,
+            "total_dai_removed_all": 292165096.4880178,
+            "total_lgns_removed_all": 60478201.33162756,
+            "top1_beneficiary_address": "0x1D6A7F2CB262AFBB1204BBFCBB3DB642662B15C3",
+            "top1_total_dai_removed": 163646064.96504638,
+            "top10_share_of_total_removed_dai": 0.9999906198181027,
+            "top20_share_of_total_removed_dai": 0.9999976792508861,
+            "unresolved_event_count": 0
+          }
+        ]
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

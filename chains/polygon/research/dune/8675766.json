@@ -1,0 +1,28 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"query_id\":8675766,\"user_id\":null,\"team_id\":953543,\"version\":1,\"name\":\"Sample 01 - Polygon PoS Block Sample\",\"description\":\"Sample 25 latest Polygon PoS block headers from latest complete UTC day for grain/field inspection.\",\"tags\":[],\"query\":\"-- Query:\\n-- Polygon PoS Block Sample ｜ Polygon PoS 区块样例\\n--\\n-- Purpose:\\n-- Return a small deterministic sample of block-header rows for grain and field inspection.\\n-- 返回少量确定性的区块头样例，用于检查表粒度与字段。\\n--\\n-- Source table: polygon.blocks\\n-- Grain: One row represents one Polygon PoS block header; uniqueness remains a QA question.\\n-- Time range: Latest complete UTC calendar day; one date partition only; maximum 25 rows returned.\\n--\\n-- Important caveats:\\n-- This sample is not a completeness, uniqueness, or performance result.\\n\\nWITH sampled_blocks AS (\\n    SELECT\\n        b.date AS block_date,\\n        b.time AS block_time,\\n        b.number AS block_number,\\n        b.hash AS block_hash,\\n        b.parent_hash,\\n        b.gas_limit,\\n        b.gas_used,\\n        b.base_fee_per_gas,\\n        b.miner,\\n        b.size\\n    FROM polygon.blocks AS b\\n    WHERE b.date = date_add('day', -1, CURRENT_DATE)\\n    ORDER BY b.number DESC\\n    LIMIT 25\\n)\\n\\nSELECT\\n    block_date AS block_date,\\n    block_time AS block_time,\\n    block_number AS block_number,\\n    block_hash AS block_hash,\\n    parent_hash AS parent_hash,\\n    gas_limit AS gas_limit,\\n    gas_used AS gas_used,\\n    base_fee_per_gas AS base_fee_per_gas,\\n    miner AS miner,\\n    size AS block_size_bytes\\nFROM sampled_blocks\\nORDER BY block_number DESC;\",\"parameters\":[],\"is_archived\":false,\"is_private\":false,\"is_temp\":true,\"latest_execution_id\":\"01M27FM49GT66BS9XY1E4JX05S\",\"latest_execution_state\":null}"
+      }
+    ],
+    "structuredContent": {
+      "query_id": 8675766,
+      "user_id": null,
+      "team_id": 953543,
+      "version": 1,
+      "name": "Sample 01 - Polygon PoS Block Sample",
+      "description": "Sample 25 latest Polygon PoS block headers from latest complete UTC day for grain/field inspection.",
+      "tags": [],
+      "query": "-- Query:\n-- Polygon PoS Block Sample ｜ Polygon PoS 区块样例\n--\n-- Purpose:\n-- Return a small deterministic sample of block-header rows for grain and field inspection.\n-- 返回少量确定性的区块头样例，用于检查表粒度与字段。\n--\n-- Source table: polygon.blocks\n-- Grain: One row represents one Polygon PoS block header; uniqueness remains a QA question.\n-- Time range: Latest complete UTC calendar day; one date partition only; maximum 25 rows returned.\n--\n-- Important caveats:\n-- This sample is not a completeness, uniqueness, or performance result.\n\nWITH sampled_blocks AS (\n    SELECT\n        b.date AS block_date,\n        b.time AS block_time,\n        b.number AS block_number,\n        b.hash AS block_hash,\n        b.parent_hash,\n        b.gas_limit,\n        b.gas_used,\n        b.base_fee_per_gas,\n        b.miner,\n        b.size\n    FROM polygon.blocks AS b\n    WHERE b.date = date_add('day', -1, CURRENT_DATE)\n    ORDER BY b.number DESC\n    LIMIT 25\n)\n\nSELECT\n    block_date AS block_date,\n    block_time AS block_time,\n    block_number AS block_number,\n    block_hash AS block_hash,\n    parent_hash AS parent_hash,\n    gas_limit AS gas_limit,\n    gas_used AS gas_used,\n    base_fee_per_gas AS base_fee_per_gas,\n    miner AS miner,\n    size AS block_size_bytes\nFROM sampled_blocks\nORDER BY block_number DESC;",
+      "parameters": [],
+      "is_archived": false,
+      "is_private": false,
+      "is_temp": true,
+      "latest_execution_id": "01M27FM49GT66BS9XY1E4JX05S",
+      "latest_execution_state": null
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

@@ -1,0 +1,25 @@
+{
+  "case_id": "case-05",
+  "title": "LGNS合约部署",
+  "network": "Polygon PoS Mainnet",
+  "chain_id": 137,
+  "transaction_hash": "0x1074b961d4f3b1fb9519f91e18c10d769600a61258affdaeffb5d504168365da",
+  "block_number": 54339832,
+  "block_time": "2024-03-06T16:34:26+00:00",
+  "contract_address": "0xeb51d9a39ad5eef215dc0bf39a8821ff804a0f01",
+  "focus": "9位精度与MINT角色源码",
+  "source": "https://polygonscan.com/tx/0x1074b961d4f3b1fb9519f91e18c10d769600a61258affdaeffb5d504168365da",
+  "local_archive_source_cache": "research/sources/tx-lgns-creation.md",
+  "public_source_url": "https://polygonscan.com/tx/0x1074b961d4f3b1fb9519f91e18c10d769600a61258affdaeffb5d504168365da",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY",
+  "dune_query": null,
+  "raw_indexed_fields": [],
+  "derived_fields": {},
+  "verification_status": "EXPLORER_RECORD_CAPTURED; LIMITED_INDEXED_CROSSCHECK; NOT_LOCAL_REEXECUTION",
+  "missing": [
+    "complete native RPC receipt",
+    "local signature/consensus verification",
+    "beneficial ownership",
+    "full historical state"
+  ]
+}

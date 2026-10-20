@@ -1,0 +1,25 @@
+{
+  "case_id": "case-06",
+  "title": "sLGNS合约部署",
+  "network": "Polygon PoS Mainnet",
+  "chain_id": 137,
+  "transaction_hash": "0x4a7700fa0b2178dddbc9ca133e43d0e2e05ddf30493e24107acc40bb5a7147f4",
+  "block_number": 54339889,
+  "block_time": "2024-03-06T16:36:28+00:00",
+  "contract_address": "0x99a57e6c8558bc6689f894e068733adf83c19725",
+  "focus": "gons与Rebase源码",
+  "source": "https://polygonscan.com/tx/0x4a7700fa0b2178dddbc9ca133e43d0e2e05ddf30493e24107acc40bb5a7147f4",
+  "local_archive_source_cache": "research/sources/tx-slgns-creation.md",
+  "public_source_url": "https://polygonscan.com/tx/0x4a7700fa0b2178dddbc9ca133e43d0e2e05ddf30493e24107acc40bb5a7147f4",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY",
+  "dune_query": null,
+  "raw_indexed_fields": [],
+  "derived_fields": {},
+  "verification_status": "EXPLORER_RECORD_CAPTURED; LIMITED_INDEXED_CROSSCHECK; NOT_LOCAL_REEXECUTION",
+  "missing": [
+    "complete native RPC receipt",
+    "local signature/consensus verification",
+    "beneficial ownership",
+    "full historical state"
+  ]
+}

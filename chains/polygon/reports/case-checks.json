@@ -1,0 +1,177 @@
+[
+  {
+    "case_id": "case-01",
+    "check": "Dune sample block equals explorer",
+    "pass": true
+  },
+  {
+    "case_id": "case-01",
+    "check": "empty calldata and 21000 gas observed",
+    "pass": true
+  },
+  {
+    "case_id": "case-01",
+    "check": "positive integer native value",
+    "pass": true
+  },
+  {
+    "case_id": "case-01",
+    "check": "transaction hash format",
+    "pass": true
+  },
+  {
+    "case_id": "case-01",
+    "check": "explorer mainnet and success record",
+    "pass": true
+  },
+  {
+    "case_id": "case-02",
+    "check": "Dune sample block equals explorer",
+    "pass": true
+  },
+  {
+    "case_id": "case-02",
+    "check": "integer fee identity",
+    "pass": true
+  },
+  {
+    "case_id": "case-02",
+    "check": "transaction hash format",
+    "pass": true
+  },
+  {
+    "case_id": "case-02",
+    "check": "explorer mainnet and success record",
+    "pass": true
+  },
+  {
+    "case_id": "case-03",
+    "check": "Dune sample block equals explorer",
+    "pass": true
+  },
+  {
+    "case_id": "case-03",
+    "check": "transaction hash format",
+    "pass": true
+  },
+  {
+    "case_id": "case-03",
+    "check": "explorer mainnet and success record",
+    "pass": true
+  },
+  {
+    "case_id": "case-04",
+    "check": "Dune sample block equals explorer",
+    "pass": true
+  },
+  {
+    "case_id": "case-04",
+    "check": "known minimal-proxy byte pattern",
+    "pass": true
+  },
+  {
+    "case_id": "case-04",
+    "check": "transaction hash format",
+    "pass": true
+  },
+  {
+    "case_id": "case-04",
+    "check": "explorer mainnet and success record",
+    "pass": true
+  },
+  {
+    "case_id": "case-05",
+    "check": "transaction hash format",
+    "pass": true
+  },
+  {
+    "case_id": "case-05",
+    "check": "explorer mainnet and success record",
+    "pass": true
+  },
+  {
+    "case_id": "case-06",
+    "check": "transaction hash format",
+    "pass": true
+  },
+  {
+    "case_id": "case-06",
+    "check": "explorer mainnet and success record",
+    "pass": true
+  },
+  {
+    "case_id": "case-07",
+    "check": "transaction hash format",
+    "pass": true
+  },
+  {
+    "case_id": "case-07",
+    "check": "explorer mainnet and success record",
+    "pass": true
+  },
+  {
+    "case_id": "case-08",
+    "check": "transaction hash format",
+    "pass": true
+  },
+  {
+    "case_id": "case-08",
+    "check": "explorer mainnet and success record",
+    "pass": true
+  },
+  {
+    "case_id": "case-09",
+    "check": "transaction hash format",
+    "pass": true
+  },
+  {
+    "case_id": "case-09",
+    "check": "explorer mainnet and success record",
+    "pass": true
+  },
+  {
+    "case_id": "case-10",
+    "check": "Dune sample block equals explorer",
+    "pass": true
+  },
+  {
+    "case_id": "case-10",
+    "check": "transaction hash format",
+    "pass": true
+  },
+  {
+    "case_id": "case-10",
+    "check": "explorer mainnet and success record",
+    "pass": true
+  },
+  {
+    "case_id": "case-11",
+    "check": "Dune sample block equals explorer",
+    "pass": true
+  },
+  {
+    "case_id": "case-11",
+    "check": "transaction hash format",
+    "pass": true
+  },
+  {
+    "case_id": "case-11",
+    "check": "explorer mainnet and success record",
+    "pass": true
+  },
+  {
+    "case_id": "case-12",
+    "check": "Swap Mint Transfer displayed together",
+    "pass": true
+  },
+  {
+    "case_id": "case-12",
+    "check": "transaction hash format",
+    "pass": true
+  },
+  {
+    "case_id": "case-12",
+    "check": "explorer mainnet and success record",
+    "pass": true
+  }
+]

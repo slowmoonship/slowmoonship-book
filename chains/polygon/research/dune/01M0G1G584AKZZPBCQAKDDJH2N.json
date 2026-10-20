@@ -1,0 +1,66 @@
+{
+  "result": {
+    "_meta": {
+      "mcp_event_id": "2becd9e9-4fce-4827-bf0c-09a31c0f5de6"
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"executionId\":\"01M0G1G584AKZZPBCQAKDDJH2N\",\"state\":\"COMPLETED\",\"resultMetadata\":{\"columns\":[{\"name\":\"caller_address\",\"type\":\"varchar\"},{\"name\":\"call_count\",\"type\":\"bigint\"},{\"name\":\"first_call_time\",\"type\":\"timestamp(3) with time zone\"},{\"name\":\"last_call_time\",\"type\":\"timestamp(3) with time zone\"},{\"name\":\"first_method_id\",\"type\":\"varchar\"},{\"name\":\"last_method_id\",\"type\":\"varchar\"},{\"name\":\"caller_rank\",\"type\":\"bigint\"}],\"totalRowCount\":1,\"executionCostCredits\":\"8.664\"},\"data\":{\"rows\":[{\"caller_address\":\"0x9DA64DF74565861708781B9AD2E559B7328B97C4\",\"call_count\":1262,\"first_call_time\":\"2025-08-07 17:12:47.000 UTC\",\"last_call_time\":\"2026-03-19 15:14:25.000 UTC\",\"first_method_id\":\"34FCF437\",\"last_method_id\":\"B3522BB3\",\"caller_rank\":1}]}}"
+      }
+    ],
+    "structuredContent": {
+      "executionId": "01M0G1G584AKZZPBCQAKDDJH2N",
+      "state": "COMPLETED",
+      "resultMetadata": {
+        "columns": [
+          {
+            "name": "caller_address",
+            "type": "varchar"
+          },
+          {
+            "name": "call_count",
+            "type": "bigint"
+          },
+          {
+            "name": "first_call_time",
+            "type": "timestamp(3) with time zone"
+          },
+          {
+            "name": "last_call_time",
+            "type": "timestamp(3) with time zone"
+          },
+          {
+            "name": "first_method_id",
+            "type": "varchar"
+          },
+          {
+            "name": "last_method_id",
+            "type": "varchar"
+          },
+          {
+            "name": "caller_rank",
+            "type": "bigint"
+          }
+        ],
+        "totalRowCount": 1,
+        "executionCostCredits": "8.664"
+      },
+      "data": {
+        "rows": [
+          {
+            "caller_address": "0x9DA64DF74565861708781B9AD2E559B7328B97C4",
+            "call_count": 1262,
+            "first_call_time": "2025-08-07 17:12:47.000 UTC",
+            "last_call_time": "2026-03-19 15:14:25.000 UTC",
+            "first_method_id": "34FCF437",
+            "last_method_id": "B3522BB3",
+            "caller_rank": 1
+          }
+        ]
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

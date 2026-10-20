@@ -1,0 +1,210 @@
+{
+  "result": {
+    "_meta": {
+      "mcp_event_id": "61a2bee8-c2d0-49cf-a517-5e9fe3f9a47b"
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"executionId\":\"01M0FS808GY0KZ0N8MDD4TN57V\",\"state\":\"COMPLETED\",\"resultMetadata\":{\"columns\":[{\"name\":\"date\",\"type\":\"date\"},{\"name\":\"external_dai_in\",\"type\":\"double\"},{\"name\":\"external_dai_out\",\"type\":\"double\"},{\"name\":\"net_external_dai\",\"type\":\"double\"},{\"name\":\"internal_dai_transfer\",\"type\":\"double\"},{\"name\":\"external_in_tx_count\",\"type\":\"bigint\"},{\"name\":\"external_out_tx_count\",\"type\":\"bigint\"},{\"name\":\"unique_external_in_addresses\",\"type\":\"bigint\"},{\"name\":\"unique_external_out_addresses\",\"type\":\"bigint\"},{\"name\":\"cumulative_external_dai_in\",\"type\":\"double\"},{\"name\":\"cumulative_external_dai_out\",\"type\":\"double\"},{\"name\":\"cumulative_net_external_dai\",\"type\":\"double\"},{\"name\":\"internal_transfer_event_count\",\"type\":\"bigint\"},{\"name\":\"raw_boundary_event_count\",\"type\":\"bigint\"},{\"name\":\"unique_boundary_event_count\",\"type\":\"bigint\"},{\"name\":\"duplicate_event_rows\",\"type\":\"bigint\"},{\"name\":\"core_system_address_count\",\"type\":\"integer\"},{\"name\":\"history_start\",\"type\":\"timestamp(3) with time zone\"},{\"name\":\"history_end\",\"type\":\"timestamp(3) with time zone\"}],\"totalRowCount\":898,\"executionCostCredits\":\"33.624\"},\"data\":{\"rows\":[{\"date\":\"2024-03-06\",\"external_dai_in\":1702022.7576614437,\"external_dai_out\":413664.0993002531,\"net_external_dai\":1288358.6583611905,\"internal_dai_transfer\":0,\"external_in_tx_count\":995,\"external_out_tx_count\":236,\"unique_external_in_addresses\":221,\"unique_external_out_addresses\":97,\"cumulative_external_dai_in\":1702022.7576614437,\"cumulative_external_dai_out\":413664.0993002531,\"cumulative_net_external_dai\":1288358.6583611905,\"internal_transfer_event_count\":0,\"raw_boundary_event_count\":364789951,\"unique_boundary_event_count\":364789951,\"duplicate_event_rows\":0,\"core_system_address_count\":6,\"history_start\":\"2024-03-06 16:39:56.000 UTC\",\"history_end\":\"2026-08-20 14:21:52.000 UTC\"},{\"date\":\"2024-03-07\",\"external_dai_in\":470881.55717350036,\"external_dai_out\":201067.52105453896,\"net_external_dai\":269814.0361189614,\"internal_dai_transfer\":4.1584090018250635,\"external_in_tx_count\":1228,\"external_out_tx_count\":284,\"unique_external_in_addresses\":194,\"unique_external_out_addresses\":102,\"cumulative_external_dai_in\":2172904.314834944,\"cumulative_external_dai_out\":614731.6203547921,\"cumulative_net_external_dai\":1558172.6944801519,\"internal_transfer_event_count\":2,\"raw_boundary_event_count\":364789951,\"unique_boundary_event_count\":364789951,\"duplicate_event_rows\":0,\"core_system_address_count\":6,\"history_start\":\"2024-03-06 16:39:56.000 UTC\",\"history_end\":\"2026-08-20 14:21:52.000 UTC\"},{\"date\":\"2024-03-08\",\"external_dai_in\":206366.6157441468,\"external_dai_out\":290417.16279637034,\"net_external_dai\":-84050.54705222353,\"internal_dai_transfer\":1038.1691228172199,\"external_in_tx_count\":1026,\"external_out_tx_count\":203,\"unique_external_in_addresses\":177,\"unique_external_out_addresses\":128,\"cumulative_external_dai_in\":2379270.930579091,\"cumulative_external_dai_out\":905148.7831511624,\"cumulative_net_external_dai\":1474122.1474279284,\"internal_transfer_event_count\":6,\"raw_boundary_event_count\":364789951,\"unique_boundary_event_count\":364789951,\"duplicate_event_rows\":0,\"core_system_address_count\":6,\"history_start\":\"2024-03-06 16:39:56.000 UTC\",\"history_end\":\"2026-08-20 14:21:52.000 UTC\"},{\"date\":\"2024-03-09\",\"external_dai_in\":204409.5294858396,\"external_dai_out\":221143.05240066626,\"net_external_dai\":-16733.522914826666,\"internal_dai_transfer\":2196.1160521299557,\"external_in_tx_count\":974,\"external_out_tx_count\":471,\"unique_external_in_addresses\":266,\"unique_external_out_addresses\":224,\"cumulative_external_dai_in\":2583680.4600649304,\"cumulative_external_dai_out\":1126291.8355518286,\"cumulative_net_external_dai\":1457388.6245131018,\"internal_transfer_event_count\":17,\"raw_boundary_event_count\":364789951,\"unique_boundary_event_count\":364789951,\"duplicate_event_rows\":0,\"core_system_address_count\":6,\"history_start\":\"2024-03-06 16:39:56.000 UTC\",\"history_end\":\"2026-08-20 14:21:52.000 UTC\"},{\"date\":\"2024-03-10\",\"external_dai_in\":66636.77171030248,\"external_dai_out\":171735.58451218446,\"net_external_dai\":-105098.81280188198,\"internal_dai_transfer\":1357.2112874105119,\"external_in_tx_count\":637,\"external_out_tx_count\":358,\"unique_external_in_addresses\":182,\"unique_external_out_addresses\":208,\"cumulative_external_dai_in\":2650317.231775233,\"cumulative_external_dai_out\":1298027.420064013,\"cumulative_net_external_dai\":1352289.8117112198,\"internal_transfer_event_count\":17,\"raw_boundary_event_count\":364789951,\"unique_boundary_event_count\":364789951,\"duplicate_event_rows\":0,\"core_system_address_count\":6,\"history_start\":\"2024-03-06 16:39:56.000 UTC\",\"history_end\":\"2026-08-20 14:21:52.000 UTC\"}]}}"
+      }
+    ],
+    "structuredContent": {
+      "executionId": "01M0FS808GY0KZ0N8MDD4TN57V",
+      "state": "COMPLETED",
+      "resultMetadata": {
+        "columns": [
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "external_dai_in",
+            "type": "double"
+          },
+          {
+            "name": "external_dai_out",
+            "type": "double"
+          },
+          {
+            "name": "net_external_dai",
+            "type": "double"
+          },
+          {
+            "name": "internal_dai_transfer",
+            "type": "double"
+          },
+          {
+            "name": "external_in_tx_count",
+            "type": "bigint"
+          },
+          {
+            "name": "external_out_tx_count",
+            "type": "bigint"
+          },
+          {
+            "name": "unique_external_in_addresses",
+            "type": "bigint"
+          },
+          {
+            "name": "unique_external_out_addresses",
+            "type": "bigint"
+          },
+          {
+            "name": "cumulative_external_dai_in",
+            "type": "double"
+          },
+          {
+            "name": "cumulative_external_dai_out",
+            "type": "double"
+          },
+          {
+            "name": "cumulative_net_external_dai",
+            "type": "double"
+          },
+          {
+            "name": "internal_transfer_event_count",
+            "type": "bigint"
+          },
+          {
+            "name": "raw_boundary_event_count",
+            "type": "bigint"
+          },
+          {
+            "name": "unique_boundary_event_count",
+            "type": "bigint"
+          },
+          {
+            "name": "duplicate_event_rows",
+            "type": "bigint"
+          },
+          {
+            "name": "core_system_address_count",
+            "type": "integer"
+          },
+          {
+            "name": "history_start",
+            "type": "timestamp(3) with time zone"
+          },
+          {
+            "name": "history_end",
+            "type": "timestamp(3) with time zone"
+          }
+        ],
+        "totalRowCount": 898,
+        "executionCostCredits": "33.624"
+      },
+      "data": {
+        "rows": [
+          {
+            "date": "2024-03-06",
+            "external_dai_in": 1702022.7576614437,
+            "external_dai_out": 413664.0993002531,
+            "net_external_dai": 1288358.6583611905,
+            "internal_dai_transfer": 0,
+            "external_in_tx_count": 995,
+            "external_out_tx_count": 236,
+            "unique_external_in_addresses": 221,
+            "unique_external_out_addresses": 97,
+            "cumulative_external_dai_in": 1702022.7576614437,
+            "cumulative_external_dai_out": 413664.0993002531,
+            "cumulative_net_external_dai": 1288358.6583611905,
+            "internal_transfer_event_count": 0,
+            "raw_boundary_event_count": 364789951,
+            "unique_boundary_event_count": 364789951,
+            "duplicate_event_rows": 0,
+            "core_system_address_count": 6,
+            "history_start": "2024-03-06 16:39:56.000 UTC",
+            "history_end": "2026-08-20 14:21:52.000 UTC"
+          },
+          {
+            "date": "2024-03-07",
+            "external_dai_in": 470881.55717350036,
+            "external_dai_out": 201067.52105453896,
+            "net_external_dai": 269814.0361189614,
+            "internal_dai_transfer": 4.1584090018250635,
+            "external_in_tx_count": 1228,
+            "external_out_tx_count": 284,
+            "unique_external_in_addresses": 194,
+            "unique_external_out_addresses": 102,
+            "cumulative_external_dai_in": 2172904.314834944,
+            "cumulative_external_dai_out": 614731.6203547921,
+            "cumulative_net_external_dai": 1558172.6944801519,
+            "internal_transfer_event_count": 2,
+            "raw_boundary_event_count": 364789951,
+            "unique_boundary_event_count": 364789951,
+            "duplicate_event_rows": 0,
+            "core_system_address_count": 6,
+            "history_start": "2024-03-06 16:39:56.000 UTC",
+            "history_end": "2026-08-20 14:21:52.000 UTC"
+          },
+          {
+            "date": "2024-03-08",
+            "external_dai_in": 206366.6157441468,
+            "external_dai_out": 290417.16279637034,
+            "net_external_dai": -84050.54705222353,
+            "internal_dai_transfer": 1038.1691228172199,
+            "external_in_tx_count": 1026,
+            "external_out_tx_count": 203,
+            "unique_external_in_addresses": 177,
+            "unique_external_out_addresses": 128,
+            "cumulative_external_dai_in": 2379270.930579091,
+            "cumulative_external_dai_out": 905148.7831511624,
+            "cumulative_net_external_dai": 1474122.1474279284,
+            "internal_transfer_event_count": 6,
+            "raw_boundary_event_count": 364789951,
+            "unique_boundary_event_count": 364789951,
+            "duplicate_event_rows": 0,
+            "core_system_address_count": 6,
+            "history_start": "2024-03-06 16:39:56.000 UTC",
+            "history_end": "2026-08-20 14:21:52.000 UTC"
+          },
+          {
+            "date": "2024-03-09",
+            "external_dai_in": 204409.5294858396,
+            "external_dai_out": 221143.05240066626,
+            "net_external_dai": -16733.522914826666,
+            "internal_dai_transfer": 2196.1160521299557,
+            "external_in_tx_count": 974,
+            "external_out_tx_count": 471,
+            "unique_external_in_addresses": 266,
+            "unique_external_out_addresses": 224,
+            "cumulative_external_dai_in": 2583680.4600649304,
+            "cumulative_external_dai_out": 1126291.8355518286,
+            "cumulative_net_external_dai": 1457388.6245131018,
+            "internal_transfer_event_count": 17,
+            "raw_boundary_event_count": 364789951,
+            "unique_boundary_event_count": 364789951,
+            "duplicate_event_rows": 0,
+            "core_system_address_count": 6,
+            "history_start": "2024-03-06 16:39:56.000 UTC",
+            "history_end": "2026-08-20 14:21:52.000 UTC"
+          },
+          {
+            "date": "2024-03-10",
+            "external_dai_in": 66636.77171030248,
+            "external_dai_out": 171735.58451218446,
+            "net_external_dai": -105098.81280188198,
+            "internal_dai_transfer": 1357.2112874105119,
+            "external_in_tx_count": 637,
+            "external_out_tx_count": 358,
+            "unique_external_in_addresses": 182,
+            "unique_external_out_addresses": 208,
+            "cumulative_external_dai_in": 2650317.231775233,
+            "cumulative_external_dai_out": 1298027.420064013,
+            "cumulative_net_external_dai": 1352289.8117112198,
+            "internal_transfer_event_count": 17,
+            "raw_boundary_event_count": 364789951,
+            "unique_boundary_event_count": 364789951,
+            "duplicate_event_rows": 0,
+            "core_system_address_count": 6,
+            "history_start": "2024-03-06 16:39:56.000 UTC",
+            "history_end": "2026-08-20 14:21:52.000 UTC"
+          }
+        ]
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

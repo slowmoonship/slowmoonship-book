@@ -1,0 +1,28 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"query_id\":8675965,\"user_id\":null,\"team_id\":953543,\"version\":1,\"name\":\"Dashboard 01: Polygon PoS Daily Blocks (90d)\",\"description\":\"Polygon PoS 90-day block layer summary by UTC day.\",\"tags\":[],\"query\":\"WITH filtered_blocks AS (\\n    SELECT\\n        date,\\n        time,\\n        number\\n    FROM polygon.blocks\\n    WHERE date >= CAST(\\n            date_trunc('day', current_timestamp AT TIME ZONE 'UTC') - INTERVAL '90' DAY\\n            AS date\\n        )\\n      AND date < CAST(\\n            date_trunc('day', current_timestamp AT TIME ZONE 'UTC')\\n            AS date\\n        )\\n),\\nsequenced_blocks AS (\\n    SELECT\\n        date,\\n        number,\\n        time,\\n        lag(time) OVER (\\n            PARTITION BY date\\n            ORDER BY number\\n        ) AS previous_block_time\\n    FROM filtered_blocks\\n),\\ndaily_blocks AS (\\n    SELECT\\n        date,\\n        COUNT(*) AS block_count,\\n        MIN(number) AS first_block_number,\\n        MAX(number) AS last_block_number,\\n        AVG(\\n            date_diff('millisecond', previous_block_time, time) / 1000.0\\n        ) AS avg_block_interval_seconds\\n    FROM sequenced_blocks\\n    GROUP BY 1\\n)\\nSELECT\\n    date,\\n    block_count,\\n    first_block_number,\\n    last_block_number,\\n    avg_block_interval_seconds\\nFROM daily_blocks\\nORDER BY date;\",\"parameters\":[],\"is_archived\":false,\"is_private\":false,\"is_temp\":true,\"latest_execution_id\":\"01M27GNJ1YCEVG6TV67VSZYPFC\",\"latest_execution_state\":\"QUERY_STATE_COMPLETED\"}"
+      }
+    ],
+    "structuredContent": {
+      "query_id": 8675965,
+      "user_id": null,
+      "team_id": 953543,
+      "version": 1,
+      "name": "Dashboard 01: Polygon PoS Daily Blocks (90d)",
+      "description": "Polygon PoS 90-day block layer summary by UTC day.",
+      "tags": [],
+      "query": "WITH filtered_blocks AS (\n    SELECT\n        date,\n        time,\n        number\n    FROM polygon.blocks\n    WHERE date >= CAST(\n            date_trunc('day', current_timestamp AT TIME ZONE 'UTC') - INTERVAL '90' DAY\n            AS date\n        )\n      AND date < CAST(\n            date_trunc('day', current_timestamp AT TIME ZONE 'UTC')\n            AS date\n        )\n),\nsequenced_blocks AS (\n    SELECT\n        date,\n        number,\n        time,\n        lag(time) OVER (\n            PARTITION BY date\n            ORDER BY number\n        ) AS previous_block_time\n    FROM filtered_blocks\n),\ndaily_blocks AS (\n    SELECT\n        date,\n        COUNT(*) AS block_count,\n        MIN(number) AS first_block_number,\n        MAX(number) AS last_block_number,\n        AVG(\n            date_diff('millisecond', previous_block_time, time) / 1000.0\n        ) AS avg_block_interval_seconds\n    FROM sequenced_blocks\n    GROUP BY 1\n)\nSELECT\n    date,\n    block_count,\n    first_block_number,\n    last_block_number,\n    avg_block_interval_seconds\nFROM daily_blocks\nORDER BY date;",
+      "parameters": [],
+      "is_archived": false,
+      "is_private": false,
+      "is_temp": true,
+      "latest_execution_id": "01M27GNJ1YCEVG6TV67VSZYPFC",
+      "latest_execution_state": "QUERY_STATE_COMPLETED"
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

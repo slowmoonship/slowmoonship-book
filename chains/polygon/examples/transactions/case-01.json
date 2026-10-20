@@ -1,0 +1,51 @@
+{
+  "case_id": "case-01",
+  "title": "普通POL转账",
+  "network": "Polygon PoS Mainnet",
+  "chain_id": 137,
+  "transaction_hash": "0x832776ec57afa341a194bde3c2d342acb220fd60eea31c38f99e1c2d25c4e130",
+  "block_number": 93586510,
+  "block_time": "2026-09-10T23:59:58+00:00",
+  "contract_address": null,
+  "focus": "原生数量与整数费用",
+  "source": "https://polygonscan.com/tx/0x832776ec57afa341a194bde3c2d342acb220fd60eea31c38f99e1c2d25c4e130",
+  "local_archive_source_cache": "research/sources/tx-ordinary-pol-transfer.md",
+  "public_source_url": "https://polygonscan.com/tx/0x832776ec57afa341a194bde3c2d342acb220fd60eea31c38f99e1c2d25c4e130",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY",
+  "dune_query": "https://dune.com/queries/8675768",
+  "raw_indexed_fields": [
+    {
+      "block_date": "2026-09-10",
+      "block_time": "2026-09-10 23:59:58.000 UTC",
+      "block_number": 93586510,
+      "block_hash": "0x6944e9fcacc46ccb326359888b98a95740b60863df24eb22ea4782723e4d1ff5",
+      "tx_hash": "0x832776ec57afa341a194bde3c2d342acb220fd60eea31c38f99e1c2d25c4e130",
+      "transaction_index": 101,
+      "tx_from": "0xee95e3db7112e7c992f35cdfea2b2cdce3857ee3",
+      "tx_to": "0xc9a2b648726261c09af2cb0a38e49e8cf2b1550e",
+      "value_raw": "14815993798315283",
+      "calldata": "0x",
+      "transaction_success": true,
+      "transaction_type": "DynamicFee",
+      "nonce": 55452,
+      "gas_limit": 25200,
+      "gas_price": 277972801743,
+      "gas_used": 21000,
+      "max_fee_per_gas": 521388095708,
+      "max_priority_fee_per_gas": 25000000000,
+      "priority_fee_per_gas": 25000000000
+    }
+  ],
+  "derived_fields": {
+    "native_value_pol": "0.014815993798315283",
+    "fee_raw": "5837428836603000",
+    "fee_pol": "0.005837428836603"
+  },
+  "verification_status": "EXPLORER_RECORD_CAPTURED; LIMITED_INDEXED_CROSSCHECK; NOT_LOCAL_REEXECUTION",
+  "missing": [
+    "complete native RPC receipt",
+    "local signature/consensus verification",
+    "beneficial ownership",
+    "full historical state"
+  ]
+}

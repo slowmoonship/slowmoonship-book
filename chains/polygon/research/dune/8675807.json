@@ -1,0 +1,28 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"query_id\":8675807,\"user_id\":null,\"team_id\":953543,\"version\":1,\"name\":\"Sample 05 - Polygon PoS Creation Trace Sample\",\"description\":\"Sample 25 latest Polygon PoS contract creations on the latest complete UTC day.\",\"tags\":[],\"query\":\"-- Query:\\n-- Polygon PoS Creation Trace Sample ｜ Polygon PoS 合约创建记录样例\\n--\\n-- Purpose:\\n-- Return a small deterministic sample using only the verified creation-trace\\n-- fields and expose the catalog/schema partition mismatch as an output diagnostic.\\n--\\n-- Source table: polygon.creation_traces\\n-- Grain: One row represents one materialized contract-deployment record; one\\n-- transaction may create multiple contracts.\\n-- Time range: Latest complete UTC day, bounded by exposed block_month and block_time;\\n-- maximum 25 rows returned.\\n--\\n-- Important caveats:\\n-- Verified fields are only block_time, block_number, tx_hash, address, from,\\n-- code, and block_month. Catalog metadata reports absent block_date as the\\n-- partition. type, success, and trace_address must not be referenced or inferred.\\n\\nWITH sampled_creation_traces AS (\\n    SELECT\\n        ct.block_time,\\n        ct.block_number,\\n        ct.tx_hash,\\n        ct.address,\\n        ct.\\\"from\\\" AS creator_address,\\n        ct.code,\\n        ct.block_month\\n    FROM polygon.creation_traces AS ct\\n    WHERE ct.block_month = CAST(date_trunc('month', date_add('day', -1, CURRENT_DATE)) AS DATE)\\n      AND CAST(ct.block_time AS DATE) = date_add('day', -1, CURRENT_DATE)\\n    ORDER BY ct.block_number DESC, ct.tx_hash DESC, ct.address DESC\\n    LIMIT 25\\n)\\n\\nSELECT\\n    block_time AS block_time,\\n    block_number AS block_number,\\n    tx_hash AS tx_hash,\\n    address AS contract_address,\\n    creator_address AS creator_address,\\n    code AS deployed_code,\\n    block_month AS block_month,\\n    'block_date' AS catalog_reported_partition,\\n    'block_month' AS schema_exposed_partition,\\n    'UNRESOLVED: catalog block_date is absent from the verified schema' AS partition_metadata_diagnostic,\\n    'UNAVAILABLE: type, success, and trace_address are not exposed' AS unsupported_field_diagnostic\\nFROM sampled_creation_traces\\nORDER BY block_number DESC, tx_hash DESC, contract_address DESC;\",\"parameters\":[],\"is_archived\":false,\"is_private\":false,\"is_temp\":true,\"latest_execution_id\":\"01M27FV9P0FNDC8AN1A97YJ4KV\",\"latest_execution_state\":null}"
+      }
+    ],
+    "structuredContent": {
+      "query_id": 8675807,
+      "user_id": null,
+      "team_id": 953543,
+      "version": 1,
+      "name": "Sample 05 - Polygon PoS Creation Trace Sample",
+      "description": "Sample 25 latest Polygon PoS contract creations on the latest complete UTC day.",
+      "tags": [],
+      "query": "-- Query:\n-- Polygon PoS Creation Trace Sample ｜ Polygon PoS 合约创建记录样例\n--\n-- Purpose:\n-- Return a small deterministic sample using only the verified creation-trace\n-- fields and expose the catalog/schema partition mismatch as an output diagnostic.\n--\n-- Source table: polygon.creation_traces\n-- Grain: One row represents one materialized contract-deployment record; one\n-- transaction may create multiple contracts.\n-- Time range: Latest complete UTC day, bounded by exposed block_month and block_time;\n-- maximum 25 rows returned.\n--\n-- Important caveats:\n-- Verified fields are only block_time, block_number, tx_hash, address, from,\n-- code, and block_month. Catalog metadata reports absent block_date as the\n-- partition. type, success, and trace_address must not be referenced or inferred.\n\nWITH sampled_creation_traces AS (\n    SELECT\n        ct.block_time,\n        ct.block_number,\n        ct.tx_hash,\n        ct.address,\n        ct.\"from\" AS creator_address,\n        ct.code,\n        ct.block_month\n    FROM polygon.creation_traces AS ct\n    WHERE ct.block_month = CAST(date_trunc('month', date_add('day', -1, CURRENT_DATE)) AS DATE)\n      AND CAST(ct.block_time AS DATE) = date_add('day', -1, CURRENT_DATE)\n    ORDER BY ct.block_number DESC, ct.tx_hash DESC, ct.address DESC\n    LIMIT 25\n)\n\nSELECT\n    block_time AS block_time,\n    block_number AS block_number,\n    tx_hash AS tx_hash,\n    address AS contract_address,\n    creator_address AS creator_address,\n    code AS deployed_code,\n    block_month AS block_month,\n    'block_date' AS catalog_reported_partition,\n    'block_month' AS schema_exposed_partition,\n    'UNRESOLVED: catalog block_date is absent from the verified schema' AS partition_metadata_diagnostic,\n    'UNAVAILABLE: type, success, and trace_address are not exposed' AS unsupported_field_diagnostic\nFROM sampled_creation_traces\nORDER BY block_number DESC, tx_hash DESC, contract_address DESC;",
+      "parameters": [],
+      "is_archived": false,
+      "is_private": false,
+      "is_temp": true,
+      "latest_execution_id": "01M27FV9P0FNDC8AN1A97YJ4KV",
+      "latest_execution_state": null
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

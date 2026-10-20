@@ -1,0 +1,237 @@
+{
+  "result": {
+    "_meta": {
+      "mcp_event_id": "f8405824-7d26-48b6-b8d3-925785097ffe"
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"executionId\":\"01M0FTAP5B4K55PXCYBJ4EZHJ8\",\"state\":\"COMPLETED\",\"resultMetadata\":{\"columns\":[{\"name\":\"date\",\"type\":\"date\"},{\"name\":\"lgns_price_dai\",\"type\":\"double\"},{\"name\":\"slgns_index\",\"type\":\"double\"},{\"name\":\"balance_multiplier\",\"type\":\"double\"},{\"name\":\"simulated_lgns_balance\",\"type\":\"double\"},{\"name\":\"simulated_value_dai\",\"type\":\"double\"},{\"name\":\"token_balance_return_pct\",\"type\":\"double\"},{\"name\":\"dai_value_return_pct\",\"type\":\"double\"},{\"name\":\"token_balance_index\",\"type\":\"double\"},{\"name\":\"dai_value_index\",\"type\":\"double\"},{\"name\":\"price_index\",\"type\":\"double\"},{\"name\":\"simulation_start\",\"type\":\"date\"},{\"name\":\"initial_investment_dai\",\"type\":\"double\"},{\"name\":\"initial_lgns_price_dai\",\"type\":\"double\"},{\"name\":\"initial_lgns\",\"type\":\"double\"},{\"name\":\"initial_slgns_index\",\"type\":\"double\"},{\"name\":\"pricing_dai_volume\",\"type\":\"double\"},{\"name\":\"pricing_lgns_volume\",\"type\":\"double\"},{\"name\":\"day_last_rebase_time\",\"type\":\"timestamp(3) with time zone\"},{\"name\":\"day_rebase_count\",\"type\":\"bigint\"},{\"name\":\"raw_swap_count\",\"type\":\"bigint\"},{\"name\":\"unclassified_swap_count\",\"type\":\"bigint\"}],\"totalRowCount\":898,\"executionCostCredits\":\"27.97\"},\"data\":{\"rows\":[{\"date\":\"2024-03-06\",\"lgns_price_dai\":24.727809418107594,\"slgns_index\":1,\"balance_multiplier\":1,\"simulated_lgns_balance\":40.44029873781393,\"simulated_value_dai\":1000,\"token_balance_return_pct\":0,\"dai_value_return_pct\":0,\"token_balance_index\":100,\"dai_value_index\":100,\"price_index\":100,\"simulation_start\":\"2024-03-06\",\"initial_investment_dai\":1000,\"initial_lgns_price_dai\":24.727809418107594,\"initial_lgns\":40.44029873781393,\"initial_slgns_index\":1,\"pricing_dai_volume\":1603200.5458954666,\"pricing_lgns_volume\":64833.909012639044,\"day_last_rebase_time\":\"2024-03-06 16:40:22.000 UTC\",\"day_rebase_count\":1,\"raw_swap_count\":304227608,\"unclassified_swap_count\":197},{\"date\":\"2024-03-07\",\"lgns_price_dai\":63.05640937002789,\"slgns_index\":1.037817992,\"balance_multiplier\":1.037817992,\"simulated_lgns_balance\":41.96966963195818,\"simulated_value_dai\":2646.456669437583,\"token_balance_return_pct\":3.781799199999991,\"dai_value_return_pct\":164.64566694375827,\"token_balance_index\":103.7817992,\"dai_value_index\":264.6456669437583,\"price_index\":255.00200322578178,\"simulation_start\":\"2024-03-06\",\"initial_investment_dai\":1000,\"initial_lgns_price_dai\":24.727809418107594,\"initial_lgns\":40.44029873781393,\"initial_slgns_index\":1,\"pricing_dai_volume\":536942.8621411674,\"pricing_lgns_volume\":8515.278105835,\"day_last_rebase_time\":\"2024-03-07 18:49:31.000 UTC\",\"day_rebase_count\":3,\"raw_swap_count\":304227608,\"unclassified_swap_count\":197},{\"date\":\"2024-03-08\",\"lgns_price_dai\":61.88489696540959,\"slgns_index\":1.061194369,\"balance_multiplier\":1.061194369,\"simulated_lgns_balance\":42.91501730124595,\"simulated_value_dai\":2655.7914239563756,\"token_balance_return_pct\":6.119436900000008,\"dai_value_return_pct\":165.57914239563755,\"token_balance_index\":106.11943690000001,\"dai_value_index\":265.5791423956376,\"price_index\":250.26437206399987,\"simulation_start\":\"2024-03-06\",\"initial_investment_dai\":1000,\"initial_lgns_price_dai\":24.727809418107594,\"initial_lgns\":40.44029873781393,\"initial_slgns_index\":1,\"pricing_dai_volume\":411297.03226117877,\"pricing_lgns_volume\":6646.161703898,\"day_last_rebase_time\":\"2024-03-08 20:57:04.000 UTC\",\"day_rebase_count\":3,\"raw_swap_count\":304227608,\"unclassified_swap_count\":197},{\"date\":\"2024-03-09\",\"lgns_price_dai\":53.214823486063615,\"slgns_index\":1.085755925,\"balance_multiplier\":1.085755925,\"simulated_lgns_balance\":43.9082939633515,\"simulated_value_dai\":2336.5721128339424,\"token_balance_return_pct\":8.575592499999996,\"dai_value_return_pct\":133.65721128339425,\"token_balance_index\":108.5755925,\"dai_value_index\":233.65721128339425,\"price_index\":215.20233590564496,\"simulation_start\":\"2024-03-06\",\"initial_investment_dai\":1000,\"initial_lgns_price_dai\":24.727809418107594,\"initial_lgns\":40.44029873781393,\"initial_slgns_index\":1,\"pricing_dai_volume\":381108.4983517823,\"pricing_lgns_volume\":7161.698064292002,\"day_last_rebase_time\":\"2024-03-09 23:38:08.000 UTC\",\"day_rebase_count\":3,\"raw_swap_count\":304227608,\"unclassified_swap_count\":197},{\"date\":\"2024-03-10\",\"lgns_price_dai\":45.196315690880304,\"slgns_index\":1.102138797,\"balance_multiplier\":1.102138797,\"simulated_lgns_balance\":44.57082220121487,\"simulated_value_dai\":2014.4369508082036,\"token_balance_return_pct\":10.213879700000007,\"dai_value_return_pct\":101.44369508082036,\"token_balance_index\":110.2138797,\"dai_value_index\":201.44369508082036,\"price_index\":182.7752508387747,\"simulation_start\":\"2024-03-06\",\"initial_investment_dai\":1000,\"initial_lgns_price_dai\":24.727809418107594,\"initial_lgns\":40.44029873781393,\"initial_slgns_index\":1,\"pricing_dai_volume\":217407.10387059712,\"pricing_lgns_volume\":4810.283770862001,\"day_last_rebase_time\":\"2024-03-10 17:09:47.000 UTC\",\"day_rebase_count\":2,\"raw_swap_count\":304227608,\"unclassified_swap_count\":197}]}}"
+      }
+    ],
+    "structuredContent": {
+      "executionId": "01M0FTAP5B4K55PXCYBJ4EZHJ8",
+      "state": "COMPLETED",
+      "resultMetadata": {
+        "columns": [
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "lgns_price_dai",
+            "type": "double"
+          },
+          {
+            "name": "slgns_index",
+            "type": "double"
+          },
+          {
+            "name": "balance_multiplier",
+            "type": "double"
+          },
+          {
+            "name": "simulated_lgns_balance",
+            "type": "double"
+          },
+          {
+            "name": "simulated_value_dai",
+            "type": "double"
+          },
+          {
+            "name": "token_balance_return_pct",
+            "type": "double"
+          },
+          {
+            "name": "dai_value_return_pct",
+            "type": "double"
+          },
+          {
+            "name": "token_balance_index",
+            "type": "double"
+          },
+          {
+            "name": "dai_value_index",
+            "type": "double"
+          },
+          {
+            "name": "price_index",
+            "type": "double"
+          },
+          {
+            "name": "simulation_start",
+            "type": "date"
+          },
+          {
+            "name": "initial_investment_dai",
+            "type": "double"
+          },
+          {
+            "name": "initial_lgns_price_dai",
+            "type": "double"
+          },
+          {
+            "name": "initial_lgns",
+            "type": "double"
+          },
+          {
+            "name": "initial_slgns_index",
+            "type": "double"
+          },
+          {
+            "name": "pricing_dai_volume",
+            "type": "double"
+          },
+          {
+            "name": "pricing_lgns_volume",
+            "type": "double"
+          },
+          {
+            "name": "day_last_rebase_time",
+            "type": "timestamp(3) with time zone"
+          },
+          {
+            "name": "day_rebase_count",
+            "type": "bigint"
+          },
+          {
+            "name": "raw_swap_count",
+            "type": "bigint"
+          },
+          {
+            "name": "unclassified_swap_count",
+            "type": "bigint"
+          }
+        ],
+        "totalRowCount": 898,
+        "executionCostCredits": "27.97"
+      },
+      "data": {
+        "rows": [
+          {
+            "date": "2024-03-06",
+            "lgns_price_dai": 24.727809418107594,
+            "slgns_index": 1,
+            "balance_multiplier": 1,
+            "simulated_lgns_balance": 40.44029873781393,
+            "simulated_value_dai": 1000,
+            "token_balance_return_pct": 0,
+            "dai_value_return_pct": 0,
+            "token_balance_index": 100,
+            "dai_value_index": 100,
+            "price_index": 100,
+            "simulation_start": "2024-03-06",
+            "initial_investment_dai": 1000,
+            "initial_lgns_price_dai": 24.727809418107594,
+            "initial_lgns": 40.44029873781393,
+            "initial_slgns_index": 1,
+            "pricing_dai_volume": 1603200.5458954666,
+            "pricing_lgns_volume": 64833.909012639044,
+            "day_last_rebase_time": "2024-03-06 16:40:22.000 UTC",
+            "day_rebase_count": 1,
+            "raw_swap_count": 304227608,
+            "unclassified_swap_count": 197
+          },
+          {
+            "date": "2024-03-07",
+            "lgns_price_dai": 63.05640937002789,
+            "slgns_index": 1.037817992,
+            "balance_multiplier": 1.037817992,
+            "simulated_lgns_balance": 41.96966963195818,
+            "simulated_value_dai": 2646.456669437583,
+            "token_balance_return_pct": 3.781799199999991,
+            "dai_value_return_pct": 164.64566694375827,
+            "token_balance_index": 103.7817992,
+            "dai_value_index": 264.6456669437583,
+            "price_index": 255.00200322578178,
+            "simulation_start": "2024-03-06",
+            "initial_investment_dai": 1000,
+            "initial_lgns_price_dai": 24.727809418107594,
+            "initial_lgns": 40.44029873781393,
+            "initial_slgns_index": 1,
+            "pricing_dai_volume": 536942.8621411674,
+            "pricing_lgns_volume": 8515.278105835,
+            "day_last_rebase_time": "2024-03-07 18:49:31.000 UTC",
+            "day_rebase_count": 3,
+            "raw_swap_count": 304227608,
+            "unclassified_swap_count": 197
+          },
+          {
+            "date": "2024-03-08",
+            "lgns_price_dai": 61.88489696540959,
+            "slgns_index": 1.061194369,
+            "balance_multiplier": 1.061194369,
+            "simulated_lgns_balance": 42.91501730124595,
+            "simulated_value_dai": 2655.7914239563756,
+            "token_balance_return_pct": 6.119436900000008,
+            "dai_value_return_pct": 165.57914239563755,
+            "token_balance_index": 106.11943690000001,
+            "dai_value_index": 265.5791423956376,
+            "price_index": 250.26437206399987,
+            "simulation_start": "2024-03-06",
+            "initial_investment_dai": 1000,
+            "initial_lgns_price_dai": 24.727809418107594,
+            "initial_lgns": 40.44029873781393,
+            "initial_slgns_index": 1,
+            "pricing_dai_volume": 411297.03226117877,
+            "pricing_lgns_volume": 6646.161703898,
+            "day_last_rebase_time": "2024-03-08 20:57:04.000 UTC",
+            "day_rebase_count": 3,
+            "raw_swap_count": 304227608,
+            "unclassified_swap_count": 197
+          },
+          {
+            "date": "2024-03-09",
+            "lgns_price_dai": 53.214823486063615,
+            "slgns_index": 1.085755925,
+            "balance_multiplier": 1.085755925,
+            "simulated_lgns_balance": 43.9082939633515,
+            "simulated_value_dai": 2336.5721128339424,
+            "token_balance_return_pct": 8.575592499999996,
+            "dai_value_return_pct": 133.65721128339425,
+            "token_balance_index": 108.5755925,
+            "dai_value_index": 233.65721128339425,
+            "price_index": 215.20233590564496,
+            "simulation_start": "2024-03-06",
+            "initial_investment_dai": 1000,
+            "initial_lgns_price_dai": 24.727809418107594,
+            "initial_lgns": 40.44029873781393,
+            "initial_slgns_index": 1,
+            "pricing_dai_volume": 381108.4983517823,
+            "pricing_lgns_volume": 7161.698064292002,
+            "day_last_rebase_time": "2024-03-09 23:38:08.000 UTC",
+            "day_rebase_count": 3,
+            "raw_swap_count": 304227608,
+            "unclassified_swap_count": 197
+          },
+          {
+            "date": "2024-03-10",
+            "lgns_price_dai": 45.196315690880304,
+            "slgns_index": 1.102138797,
+            "balance_multiplier": 1.102138797,
+            "simulated_lgns_balance": 44.57082220121487,
+            "simulated_value_dai": 2014.4369508082036,
+            "token_balance_return_pct": 10.213879700000007,
+            "dai_value_return_pct": 101.44369508082036,
+            "token_balance_index": 110.2138797,
+            "dai_value_index": 201.44369508082036,
+            "price_index": 182.7752508387747,
+            "simulation_start": "2024-03-06",
+            "initial_investment_dai": 1000,
+            "initial_lgns_price_dai": 24.727809418107594,
+            "initial_lgns": 40.44029873781393,
+            "initial_slgns_index": 1,
+            "pricing_dai_volume": 217407.10387059712,
+            "pricing_lgns_volume": 4810.283770862001,
+            "day_last_rebase_time": "2024-03-10 17:09:47.000 UTC",
+            "day_rebase_count": 2,
+            "raw_swap_count": 304227608,
+            "unclassified_swap_count": 197
+          }
+        ]
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

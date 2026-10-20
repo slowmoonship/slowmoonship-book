@@ -1,0 +1,14 @@
+{
+  "id": "bridge-portal",
+  "url": "https://docs.polygon.technology/pos/how-to/bridging/ethereum-polygon/portal-ui.md",
+  "accessed_at": "2026-10-19T02:33:49.660739+00:00",
+  "baseline": "2026-10-19",
+  "status": 200,
+  "final_url": "https://docs.polygon.technology/pos/how-to/bridging/ethereum-polygon/portal-ui.md",
+  "content_type": "text/markdown; charset=utf-8",
+  "bytes": 1568,
+  "sha256": "85754d317caf0c891d62d7019095e56ab57c18c3ea56c2149d9d84424b463276",
+  "local_archive_path": "research/sources/bridge-portal.md",
+  "public_source_url": "https://docs.polygon.technology/pos/how-to/bridging/ethereum-polygon/portal-ui.md",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY"
+}

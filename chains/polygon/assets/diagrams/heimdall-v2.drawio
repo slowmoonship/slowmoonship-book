@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram id="heimdall-v2" name="Heimdall v2为什么不是另一台EVM">
+    <mxGraphModel page="1" pageWidth="1000" pageHeight="850" grid="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" vertex="1" value="Heimdall v2为什么不是另一台EVM" style="text;html=1;align=left;verticalAlign=middle;fontFamily=PingFang SC;fontSize=28;fontStyle=1;">
+          <mxGeometry x="40" y="20" width="920" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" parent="1" edge="1" source="n0" target="n2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#6F7E99;fontSize=14;labelBackgroundColor=#FFFFFF;dashed=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" parent="1" edge="1" source="n1" target="n3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#6F7E99;fontSize=14;labelBackgroundColor=#FFFFFF;dashed=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" parent="1" edge="1" source="n2" target="n3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#6F7E99;fontSize=14;labelBackgroundColor=#FFFFFF;dashed=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" parent="1" edge="1" source="n3" target="n4" value="区间/生产安排" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#6F7E99;fontSize=14;labelBackgroundColor=#FFFFFF;dashed=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" parent="1" edge="1" source="n5" target="n3" value="事件" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#6F7E99;fontSize=14;labelBackgroundColor=#FFFFFF;dashed=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n0" parent="1" vertex="1" value="&lt;b&gt;CometBFT&lt;/b&gt;&lt;br&gt;BFT Consensus&lt;br&gt;投票与应用交互" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF1FB;strokeColor=#9AAAC3;fontFamily=PingFang SC;fontSize=19;spacing=12;">
+          <mxGeometry x="50" y="150" width="400" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" parent="1" vertex="1" value="&lt;b&gt;Cosmos SDK&lt;/b&gt;&lt;br&gt;Modular Application&lt;br&gt;模块化状态与消息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF1FB;strokeColor=#9AAAC3;fontFamily=PingFang SC;fontSize=19;spacing=12;">
+          <mxGeometry x="550" y="150" width="400" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" parent="1" vertex="1" value="&lt;b&gt;投票扩展&lt;/b&gt;&lt;br&gt;Vote Extensions&lt;br&gt;Milestone等协调数据" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF1FB;strokeColor=#9AAAC3;fontFamily=PingFang SC;fontSize=19;spacing=12;">
+          <mxGeometry x="50" y="330" width="400" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" parent="1" vertex="1" value="&lt;b&gt;Heimdall模块&lt;/b&gt;&lt;br&gt;Stake / Bor / Clerk&lt;br&gt;协调与记录" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF1FB;strokeColor=#9AAAC3;fontFamily=PingFang SC;fontSize=19;spacing=12;">
+          <mxGeometry x="550" y="330" width="400" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" parent="1" vertex="1" value="&lt;b&gt;Bor历史&lt;/b&gt;&lt;br&gt;Separate Execution History&lt;br&gt;另一套高度序列" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E7F2F8;strokeColor=#9AAAC3;fontFamily=PingFang SC;fontSize=19;spacing=12;">
+          <mxGeometry x="50" y="510" width="400" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" parent="1" vertex="1" value="&lt;b&gt;Ethereum事件&lt;/b&gt;&lt;br&gt;Stake / Checkpoint&lt;br&gt;根链输入与提交" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E7F2F8;strokeColor=#9AAAC3;fontFamily=PingFang SC;fontSize=19;spacing=12;">
+          <mxGeometry x="550" y="510" width="400" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="note" parent="1" vertex="1" value="Heimdall不是Solidity合约，也不重复执行每笔用户EVM交易。&lt;br&gt;实线：文档/源码关系或标明的Observed；虚线：推断/待核Inferred。" style="text;html=1;align=left;verticalAlign=middle;fontSize=16;fontFamily=PingFang SC;whiteSpace=wrap;">
+          <mxGeometry x="40" y="720" width="920" height="115" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

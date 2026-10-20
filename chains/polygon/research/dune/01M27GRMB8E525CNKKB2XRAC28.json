@@ -1,0 +1,75 @@
+{
+  "result": {
+    "_meta": {
+      "mcp_event_id": "fffc3dbc-1a0f-4c1b-a092-dfe47695325b"
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"executionId\":\"01M27GRMB8E525CNKKB2XRAC28\",\"state\":\"COMPLETED\",\"resultMetadata\":{\"columns\":[{\"name\":\"date\",\"type\":\"date\"},{\"name\":\"contract_creation_count\",\"type\":\"bigint\"},{\"name\":\"unique_contract_addresses\",\"type\":\"bigint\"},{\"name\":\"unique_creators\",\"type\":\"bigint\"}],\"totalRowCount\":30,\"executionCostCredits\":\"0.021\"},\"data\":{\"rows\":[{\"date\":\"2026-08-12\",\"contract_creation_count\":50361,\"unique_contract_addresses\":50605,\"unique_creators\":632},{\"date\":\"2026-08-13\",\"contract_creation_count\":54735,\"unique_contract_addresses\":56147,\"unique_creators\":579},{\"date\":\"2026-08-14\",\"contract_creation_count\":53573,\"unique_contract_addresses\":53670,\"unique_creators\":728},{\"date\":\"2026-08-15\",\"contract_creation_count\":51743,\"unique_contract_addresses\":49865,\"unique_creators\":654},{\"date\":\"2026-08-16\",\"contract_creation_count\":43353,\"unique_contract_addresses\":43127,\"unique_creators\":529}]}}"
+      }
+    ],
+    "structuredContent": {
+      "executionId": "01M27GRMB8E525CNKKB2XRAC28",
+      "state": "COMPLETED",
+      "resultMetadata": {
+        "columns": [
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "contract_creation_count",
+            "type": "bigint"
+          },
+          {
+            "name": "unique_contract_addresses",
+            "type": "bigint"
+          },
+          {
+            "name": "unique_creators",
+            "type": "bigint"
+          }
+        ],
+        "totalRowCount": 30,
+        "executionCostCredits": "0.021"
+      },
+      "data": {
+        "rows": [
+          {
+            "date": "2026-08-12",
+            "contract_creation_count": 50361,
+            "unique_contract_addresses": 50605,
+            "unique_creators": 632
+          },
+          {
+            "date": "2026-08-13",
+            "contract_creation_count": 54735,
+            "unique_contract_addresses": 56147,
+            "unique_creators": 579
+          },
+          {
+            "date": "2026-08-14",
+            "contract_creation_count": 53573,
+            "unique_contract_addresses": 53670,
+            "unique_creators": 728
+          },
+          {
+            "date": "2026-08-15",
+            "contract_creation_count": 51743,
+            "unique_contract_addresses": 49865,
+            "unique_creators": 654
+          },
+          {
+            "date": "2026-08-16",
+            "contract_creation_count": 43353,
+            "unique_contract_addresses": 43127,
+            "unique_creators": 529
+          }
+        ]
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

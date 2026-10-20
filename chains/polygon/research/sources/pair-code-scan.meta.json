@@ -1,0 +1,14 @@
+{
+  "id": "pair-code-scan",
+  "url": "https://polygonscan.com/address/0x882df4b0fb50a229c3b4124eb18c759911485bfb#code",
+  "accessed_at": "2026-10-19T02:34:59.036109+00:00",
+  "baseline": "2026-10-19",
+  "status": 200,
+  "final_url": "https://polygonscan.com/address/0x882df4b0fb50a229c3b4124eb18c759911485bfb#code",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 742833,
+  "sha256": "9d614a30ce798e4ed940e8c32bb91683c7e4efa1e03542172a6b7d6a5994a67e",
+  "local_archive_path": "research/sources/pair-code-scan.md",
+  "public_source_url": "https://polygonscan.com/address/0x882df4b0fb50a229c3b4124eb18c759911485bfb#code",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY"
+}

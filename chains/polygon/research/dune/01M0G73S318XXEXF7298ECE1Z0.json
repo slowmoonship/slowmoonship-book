@@ -1,0 +1,516 @@
+{
+  "result": {
+    "_meta": {
+      "mcp_event_id": "e862382b-8324-4955-99e9-a6c16ed8ce9d"
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"executionId\":\"01M0G73S318XXEXF7298ECE1Z0\",\"state\":\"COMPLETED\",\"resultMetadata\":{\"columns\":[{\"name\":\"month\",\"type\":\"date\"},{\"name\":\"liquidity_add_dai\",\"type\":\"double\"},{\"name\":\"treasury_external_inflow_dai\",\"type\":\"double\"},{\"name\":\"other_core_external_inflow_dai\",\"type\":\"double\"},{\"name\":\"other_unclassified_inflow_dai\",\"type\":\"double\"},{\"name\":\"other_external_inflow_dai\",\"type\":\"double\"},{\"name\":\"total_sources_dai\",\"type\":\"double\"},{\"name\":\"swap_payout_dai\",\"type\":\"double\"},{\"name\":\"liquidity_remove_dai\",\"type\":\"double\"},{\"name\":\"treasury_external_outflow_dai\",\"type\":\"double\"},{\"name\":\"other_core_external_outflow_dai\",\"type\":\"double\"},{\"name\":\"other_unclassified_outflow_dai\",\"type\":\"double\"},{\"name\":\"other_external_outflow_dai\",\"type\":\"double\"},{\"name\":\"total_sinks_dai\",\"type\":\"double\"},{\"name\":\"net_dai_retained\",\"type\":\"double\"},{\"name\":\"cumulative_sources\",\"type\":\"double\"},{\"name\":\"cumulative_sinks\",\"type\":\"double\"},{\"name\":\"cumulative_net_retained\",\"type\":\"double\"},{\"name\":\"ledger_net_external_dai\",\"type\":\"double\"},{\"name\":\"reconciliation_gap\",\"type\":\"double\"},{\"name\":\"pair_swap_net_dai\",\"type\":\"double\"},{\"name\":\"internal_dai\",\"type\":\"double\"},{\"name\":\"classification_event_gap\",\"type\":\"bigint\"},{\"name\":\"duplicate_event_rows\",\"type\":\"bigint\"},{\"name\":\"external_event_count\",\"type\":\"bigint\"},{\"name\":\"classified_event_count\",\"type\":\"bigint\"},{\"name\":\"total_sources_all_dai\",\"type\":\"double\"},{\"name\":\"total_sinks_all_dai\",\"type\":\"double\"},{\"name\":\"net_retained_all_dai\",\"type\":\"double\"},{\"name\":\"liquidity_add_all_dai\",\"type\":\"double\"},{\"name\":\"other_external_inflow_all_dai\",\"type\":\"double\"},{\"name\":\"swap_payout_all_dai\",\"type\":\"double\"},{\"name\":\"liquidity_remove_all_dai\",\"type\":\"double\"},{\"name\":\"other_external_outflow_all_dai\",\"type\":\"double\"},{\"name\":\"treasury_external_inflow_all_dai\",\"type\":\"double\"},{\"name\":\"other_core_external_inflow_all_dai\",\"type\":\"double\"},{\"name\":\"other_unclassified_inflow_all_dai\",\"type\":\"double\"},{\"name\":\"treasury_external_outflow_all_dai\",\"type\":\"double\"},{\"name\":\"other_core_external_outflow_all_dai\",\"type\":\"double\"},{\"name\":\"other_unclassified_outflow_all_dai\",\"type\":\"double\"},{\"name\":\"query07_same_cutoff_net_dai\",\"type\":\"double\"},{\"name\":\"q07_published_net_dai\",\"type\":\"double\"},{\"name\":\"q07_published_end_date\",\"type\":\"date\"},{\"name\":\"difference_vs_query07_published_dai\",\"type\":\"double\"},{\"name\":\"reconciliation_gap_all_dai\",\"type\":\"double\"},{\"name\":\"classification_event_gap_all\",\"type\":\"bigint\"},{\"name\":\"duplicate_event_rows_all\",\"type\":\"bigint\"},{\"name\":\"chart_liquidity_add_dai\",\"type\":\"double\"},{\"name\":\"chart_other_external_inflow_dai\",\"type\":\"double\"},{\"name\":\"chart_swap_payout_dai\",\"type\":\"double\"},{\"name\":\"chart_liquidity_remove_dai\",\"type\":\"double\"},{\"name\":\"chart_other_external_outflow_dai\",\"type\":\"double\"},{\"name\":\"chart_final_net_retained\",\"type\":\"double\"}],\"totalRowCount\":30,\"executionCostCredits\":\"0.01\"},\"data\":{\"rows\":[{\"month\":\"2024-03-01\",\"liquidity_add_dai\":829645.8194695329,\"treasury_external_inflow_dai\":651710.1229,\"other_core_external_inflow_dai\":178059.28278024757,\"other_unclassified_inflow_dai\":597768.7595230984,\"other_external_inflow_dai\":1427538.165203346,\"total_sources_dai\":2257183.984672879,\"swap_payout_dai\":0,\"liquidity_remove_dai\":2556.7088456560546,\"treasury_external_outflow_dai\":0,\"other_core_external_outflow_dai\":0,\"other_unclassified_outflow_dai\":0,\"other_external_outflow_dai\":0,\"total_sinks_dai\":2556.7088456560546,\"net_dai_retained\":2254627.275827223,\"cumulative_sources\":2257183.984672879,\"cumulative_sinks\":2556.7088456560546,\"cumulative_net_retained\":2254627.275827223,\"ledger_net_external_dai\":2254627.2758272225,\"reconciliation_gap\":4.656612873077393e-10,\"pair_swap_net_dai\":597768.7595230984,\"internal_dai\":356118.565560495,\"classification_event_gap\":0,\"duplicate_event_rows\":0,\"external_event_count\":49348,\"classified_event_count\":49348,\"total_sources_all_dai\":6089024225.653134,\"total_sinks_all_dai\":6004320441.147899,\"net_retained_all_dai\":84703784.50523621,\"liquidity_add_all_dai\":563474768.4979389,\"other_external_inflow_all_dai\":5525549457.155194,\"swap_payout_all_dai\":5712155344.65988,\"liquidity_remove_all_dai\":292165096.48801816,\"other_external_outflow_all_dai\":0,\"treasury_external_inflow_all_dai\":11921083.185932186,\"other_core_external_inflow_all_dai\":5513030605.20974,\"other_unclassified_inflow_all_dai\":597768.7595230984,\"treasury_external_outflow_all_dai\":0,\"other_core_external_outflow_all_dai\":0,\"other_unclassified_outflow_all_dai\":0,\"query07_same_cutoff_net_dai\":84703784.50523597,\"q07_published_net_dai\":83351937.56024164,\"q07_published_end_date\":\"2026-08-20\",\"difference_vs_query07_published_dai\":1351846.9449943304,\"reconciliation_gap_all_dai\":1.949083525687456e-7,\"classification_event_gap_all\":0,\"duplicate_event_rows_all\":0,\"chart_liquidity_add_dai\":829645.8194695329,\"chart_other_external_inflow_dai\":1427538.165203346,\"chart_swap_payout_dai\":0,\"chart_liquidity_remove_dai\":-2556.7088456560546,\"chart_other_external_outflow_dai\":0,\"chart_final_net_retained\":84703784.50523621},{\"month\":\"2024-04-01\",\"liquidity_add_dai\":335855.4132081256,\"treasury_external_inflow_dai\":171809.9343,\"other_core_external_inflow_dai\":1535960.624900531,\"other_unclassified_inflow_dai\":0,\"other_external_inflow_dai\":1707770.559200531,\"total_sources_dai\":2043625.9724086565,\"swap_payout_dai\":1632721.040657388,\"liquidity_remove_dai\":3884.0562339782173,\"treasury_external_outflow_dai\":0,\"other_core_external_outflow_dai\":0,\"other_unclassified_outflow_dai\":0,\"other_external_outflow_dai\":0,\"total_sinks_dai\":1636605.0968913662,\"net_dai_retained\":407020.87551729026,\"cumulative_sources\":4300809.957081536,\"cumulative_sinks\":1639161.8057370223,\"cumulative_net_retained\":2661648.151344513,\"ledger_net_external_dai\":407020.8755172901,\"reconciliation_gap\":1.7462298274040222e-10,\"pair_swap_net_dai\":-1632721.040657388,\"internal_dai\":3071281.249781061,\"classification_event_gap\":0,\"duplicate_event_rows\":0,\"external_event_count\":101662,\"classified_event_count\":101662,\"total_sources_all_dai\":6089024225.653134,\"total_sinks_all_dai\":6004320441.147899,\"net_retained_all_dai\":84703784.50523621,\"liquidity_add_all_dai\":563474768.4979389,\"other_external_inflow_all_dai\":5525549457.155194,\"swap_payout_all_dai\":5712155344.65988,\"liquidity_remove_all_dai\":292165096.48801816,\"other_external_outflow_all_dai\":0,\"treasury_external_inflow_all_dai\":11921083.185932186,\"other_core_external_inflow_all_dai\":5513030605.20974,\"other_unclassified_inflow_all_dai\":597768.7595230984,\"treasury_external_outflow_all_dai\":0,\"other_core_external_outflow_all_dai\":0,\"other_unclassified_outflow_all_dai\":0,\"query07_same_cutoff_net_dai\":84703784.50523597,\"q07_published_net_dai\":83351937.56024164,\"q07_published_end_date\":\"2026-08-20\",\"difference_vs_query07_published_dai\":1351846.9449943304,\"reconciliation_gap_all_dai\":1.949083525687456e-7,\"classification_event_gap_all\":0,\"duplicate_event_rows_all\":0,\"chart_liquidity_add_dai\":335855.4132081256,\"chart_other_external_inflow_dai\":1707770.559200531,\"chart_swap_payout_dai\":-1632721.040657388,\"chart_liquidity_remove_dai\":-3884.0562339782173,\"chart_other_external_outflow_dai\":0,\"chart_final_net_retained\":84703784.50523621},{\"month\":\"2024-05-01\",\"liquidity_add_dai\":79977.22058141425,\"treasury_external_inflow_dai\":54658.234,\"other_core_external_inflow_dai\":1485606.6588053734,\"other_unclassified_inflow_dai\":0,\"other_external_inflow_dai\":1540264.8928053733,\"total_sources_dai\":1620242.1133867875,\"swap_payout_dai\":1564707.841054624,\"liquidity_remove_dai\":247786.12131191333,\"treasury_external_outflow_dai\":0,\"other_core_external_outflow_dai\":0,\"other_unclassified_outflow_dai\":0,\"other_external_outflow_dai\":0,\"total_sinks_dai\":1812493.9623665372,\"net_dai_retained\":-192251.8489797498,\"cumulative_sources\":5921052.070468323,\"cumulative_sinks\":3451655.7681035595,\"cumulative_net_retained\":2469396.3023647633,\"ledger_net_external_dai\":-192251.84897974972,\"reconciliation_gap\":-8.731149137020111e-11,\"pair_swap_net_dai\":-1564707.841054624,\"internal_dai\":2971213.3176107467,\"classification_event_gap\":0,\"duplicate_event_rows\":0,\"external_event_count\":126699,\"classified_event_count\":126699,\"total_sources_all_dai\":6089024225.653134,\"total_sinks_all_dai\":6004320441.147899,\"net_retained_all_dai\":84703784.50523621,\"liquidity_add_all_dai\":563474768.4979389,\"other_external_inflow_all_dai\":5525549457.155194,\"swap_payout_all_dai\":5712155344.65988,\"liquidity_remove_all_dai\":292165096.48801816,\"other_external_outflow_all_dai\":0,\"treasury_external_inflow_all_dai\":11921083.185932186,\"other_core_external_inflow_all_dai\":5513030605.20974,\"other_unclassified_inflow_all_dai\":597768.7595230984,\"treasury_external_outflow_all_dai\":0,\"other_core_external_outflow_all_dai\":0,\"other_unclassified_outflow_all_dai\":0,\"query07_same_cutoff_net_dai\":84703784.50523597,\"q07_published_net_dai\":83351937.56024164,\"q07_published_end_date\":\"2026-08-20\",\"difference_vs_query07_published_dai\":1351846.9449943304,\"reconciliation_gap_all_dai\":1.949083525687456e-7,\"classification_event_gap_all\":0,\"duplicate_event_rows_all\":0,\"chart_liquidity_add_dai\":79977.22058141425,\"chart_other_external_inflow_dai\":1540264.8928053733,\"chart_swap_payout_dai\":-1564707.841054624,\"chart_liquidity_remove_dai\":-247786.12131191333,\"chart_other_external_outflow_dai\":0,\"chart_final_net_retained\":84703784.50523621},{\"month\":\"2024-06-01\",\"liquidity_add_dai\":100485.90484730451,\"treasury_external_inflow_dai\":99417.7066,\"other_core_external_inflow_dai\":1511329.8575230811,\"other_unclassified_inflow_dai\":0,\"other_external_inflow_dai\":1610747.564123081,\"total_sources_dai\":1711233.4689703856,\"swap_payout_dai\":1884108.0190088032,\"liquidity_remove_dai\":467461.8304491235,\"treasury_external_outflow_dai\":0,\"other_core_external_outflow_dai\":0,\"other_unclassified_outflow_dai\":0,\"other_external_outflow_dai\":0,\"total_sinks_dai\":2351569.8494579266,\"net_dai_retained\":-640336.3804875411,\"cumulative_sources\":7632285.539438709,\"cumulative_sinks\":5803225.617561486,\"cumulative_net_retained\":1829059.9218772221,\"ledger_net_external_dai\":-640336.3804875417,\"reconciliation_gap\":5.820766091346741e-10,\"pair_swap_net_dai\":-1884108.0190088032,\"internal_dai\":3021969.7439277647,\"classification_event_gap\":0,\"duplicate_event_rows\":0,\"external_event_count\":141288,\"classified_event_count\":141288,\"total_sources_all_dai\":6089024225.653134,\"total_sinks_all_dai\":6004320441.147899,\"net_retained_all_dai\":84703784.50523621,\"liquidity_add_all_dai\":563474768.4979389,\"other_external_inflow_all_dai\":5525549457.155194,\"swap_payout_all_dai\":5712155344.65988,\"liquidity_remove_all_dai\":292165096.48801816,\"other_external_outflow_all_dai\":0,\"treasury_external_inflow_all_dai\":11921083.185932186,\"other_core_external_inflow_all_dai\":5513030605.20974,\"other_unclassified_inflow_all_dai\":597768.7595230984,\"treasury_external_outflow_all_dai\":0,\"other_core_external_outflow_all_dai\":0,\"other_unclassified_outflow_all_dai\":0,\"query07_same_cutoff_net_dai\":84703784.50523597,\"q07_published_net_dai\":83351937.56024164,\"q07_published_end_date\":\"2026-08-20\",\"difference_vs_query07_published_dai\":1351846.9449943304,\"reconciliation_gap_all_dai\":1.949083525687456e-7,\"classification_event_gap_all\":0,\"duplicate_event_rows_all\":0,\"chart_liquidity_add_dai\":100485.90484730451,\"chart_other_external_inflow_dai\":1610747.564123081,\"chart_swap_payout_dai\":-1884108.0190088032,\"chart_liquidity_remove_dai\":-467461.8304491235,\"chart_other_external_outflow_dai\":0,\"chart_final_net_retained\":84703784.50523621},{\"month\":\"2024-07-01\",\"liquidity_add_dai\":168489.95244668948,\"treasury_external_inflow_dai\":244826.00840000002,\"other_core_external_inflow_dai\":2786131.3107884806,\"other_unclassified_inflow_dai\":0,\"other_external_inflow_dai\":3030957.3191884807,\"total_sources_dai\":3199447.27163517,\"swap_payout_dai\":2677433.086687034,\"liquidity_remove_dai\":330675.0765835431,\"treasury_external_outflow_dai\":0,\"other_core_external_outflow_dai\":0,\"other_unclassified_outflow_dai\":0,\"other_external_outflow_dai\":0,\"total_sinks_dai\":3008108.163270577,\"net_dai_retained\":191339.108364593,\"cumulative_sources\":10831732.811073879,\"cumulative_sinks\":8811333.780832063,\"cumulative_net_retained\":2020399.0302418151,\"ledger_net_external_dai\":191339.10836459324,\"reconciliation_gap\":-2.3283064365386963e-10,\"pair_swap_net_dai\":-2677433.086687034,\"internal_dai\":5572262.621576963,\"classification_event_gap\":0,\"duplicate_event_rows\":0,\"external_event_count\":180797,\"classified_event_count\":180797,\"total_sources_all_dai\":6089024225.653134,\"total_sinks_all_dai\":6004320441.147899,\"net_retained_all_dai\":84703784.50523621,\"liquidity_add_all_dai\":563474768.4979389,\"other_external_inflow_all_dai\":5525549457.155194,\"swap_payout_all_dai\":5712155344.65988,\"liquidity_remove_all_dai\":292165096.48801816,\"other_external_outflow_all_dai\":0,\"treasury_external_inflow_all_dai\":11921083.185932186,\"other_core_external_inflow_all_dai\":5513030605.20974,\"other_unclassified_inflow_all_dai\":597768.7595230984,\"treasury_external_outflow_all_dai\":0,\"other_core_external_outflow_all_dai\":0,\"other_unclassified_outflow_all_dai\":0,\"query07_same_cutoff_net_dai\":84703784.50523597,\"q07_published_net_dai\":83351937.56024164,\"q07_published_end_date\":\"2026-08-20\",\"difference_vs_query07_published_dai\":1351846.9449943304,\"reconciliation_gap_all_dai\":1.949083525687456e-7,\"classification_event_gap_all\":0,\"duplicate_event_rows_all\":0,\"chart_liquidity_add_dai\":168489.95244668948,\"chart_other_external_inflow_dai\":3030957.3191884807,\"chart_swap_payout_dai\":-2677433.086687034,\"chart_liquidity_remove_dai\":-330675.0765835431,\"chart_other_external_outflow_dai\":0,\"chart_final_net_retained\":84703784.50523621}]}}"
+      }
+    ],
+    "structuredContent": {
+      "executionId": "01M0G73S318XXEXF7298ECE1Z0",
+      "state": "COMPLETED",
+      "resultMetadata": {
+        "columns": [
+          {
+            "name": "month",
+            "type": "date"
+          },
+          {
+            "name": "liquidity_add_dai",
+            "type": "double"
+          },
+          {
+            "name": "treasury_external_inflow_dai",
+            "type": "double"
+          },
+          {
+            "name": "other_core_external_inflow_dai",
+            "type": "double"
+          },
+          {
+            "name": "other_unclassified_inflow_dai",
+            "type": "double"
+          },
+          {
+            "name": "other_external_inflow_dai",
+            "type": "double"
+          },
+          {
+            "name": "total_sources_dai",
+            "type": "double"
+          },
+          {
+            "name": "swap_payout_dai",
+            "type": "double"
+          },
+          {
+            "name": "liquidity_remove_dai",
+            "type": "double"
+          },
+          {
+            "name": "treasury_external_outflow_dai",
+            "type": "double"
+          },
+          {
+            "name": "other_core_external_outflow_dai",
+            "type": "double"
+          },
+          {
+            "name": "other_unclassified_outflow_dai",
+            "type": "double"
+          },
+          {
+            "name": "other_external_outflow_dai",
+            "type": "double"
+          },
+          {
+            "name": "total_sinks_dai",
+            "type": "double"
+          },
+          {
+            "name": "net_dai_retained",
+            "type": "double"
+          },
+          {
+            "name": "cumulative_sources",
+            "type": "double"
+          },
+          {
+            "name": "cumulative_sinks",
+            "type": "double"
+          },
+          {
+            "name": "cumulative_net_retained",
+            "type": "double"
+          },
+          {
+            "name": "ledger_net_external_dai",
+            "type": "double"
+          },
+          {
+            "name": "reconciliation_gap",
+            "type": "double"
+          },
+          {
+            "name": "pair_swap_net_dai",
+            "type": "double"
+          },
+          {
+            "name": "internal_dai",
+            "type": "double"
+          },
+          {
+            "name": "classification_event_gap",
+            "type": "bigint"
+          },
+          {
+            "name": "duplicate_event_rows",
+            "type": "bigint"
+          },
+          {
+            "name": "external_event_count",
+            "type": "bigint"
+          },
+          {
+            "name": "classified_event_count",
+            "type": "bigint"
+          },
+          {
+            "name": "total_sources_all_dai",
+            "type": "double"
+          },
+          {
+            "name": "total_sinks_all_dai",
+            "type": "double"
+          },
+          {
+            "name": "net_retained_all_dai",
+            "type": "double"
+          },
+          {
+            "name": "liquidity_add_all_dai",
+            "type": "double"
+          },
+          {
+            "name": "other_external_inflow_all_dai",
+            "type": "double"
+          },
+          {
+            "name": "swap_payout_all_dai",
+            "type": "double"
+          },
+          {
+            "name": "liquidity_remove_all_dai",
+            "type": "double"
+          },
+          {
+            "name": "other_external_outflow_all_dai",
+            "type": "double"
+          },
+          {
+            "name": "treasury_external_inflow_all_dai",
+            "type": "double"
+          },
+          {
+            "name": "other_core_external_inflow_all_dai",
+            "type": "double"
+          },
+          {
+            "name": "other_unclassified_inflow_all_dai",
+            "type": "double"
+          },
+          {
+            "name": "treasury_external_outflow_all_dai",
+            "type": "double"
+          },
+          {
+            "name": "other_core_external_outflow_all_dai",
+            "type": "double"
+          },
+          {
+            "name": "other_unclassified_outflow_all_dai",
+            "type": "double"
+          },
+          {
+            "name": "query07_same_cutoff_net_dai",
+            "type": "double"
+          },
+          {
+            "name": "q07_published_net_dai",
+            "type": "double"
+          },
+          {
+            "name": "q07_published_end_date",
+            "type": "date"
+          },
+          {
+            "name": "difference_vs_query07_published_dai",
+            "type": "double"
+          },
+          {
+            "name": "reconciliation_gap_all_dai",
+            "type": "double"
+          },
+          {
+            "name": "classification_event_gap_all",
+            "type": "bigint"
+          },
+          {
+            "name": "duplicate_event_rows_all",
+            "type": "bigint"
+          },
+          {
+            "name": "chart_liquidity_add_dai",
+            "type": "double"
+          },
+          {
+            "name": "chart_other_external_inflow_dai",
+            "type": "double"
+          },
+          {
+            "name": "chart_swap_payout_dai",
+            "type": "double"
+          },
+          {
+            "name": "chart_liquidity_remove_dai",
+            "type": "double"
+          },
+          {
+            "name": "chart_other_external_outflow_dai",
+            "type": "double"
+          },
+          {
+            "name": "chart_final_net_retained",
+            "type": "double"
+          }
+        ],
+        "totalRowCount": 30,
+        "executionCostCredits": "0.01"
+      },
+      "data": {
+        "rows": [
+          {
+            "month": "2024-03-01",
+            "liquidity_add_dai": 829645.8194695329,
+            "treasury_external_inflow_dai": 651710.1229,
+            "other_core_external_inflow_dai": 178059.28278024757,
+            "other_unclassified_inflow_dai": 597768.7595230984,
+            "other_external_inflow_dai": 1427538.165203346,
+            "total_sources_dai": 2257183.984672879,
+            "swap_payout_dai": 0,
+            "liquidity_remove_dai": 2556.7088456560546,
+            "treasury_external_outflow_dai": 0,
+            "other_core_external_outflow_dai": 0,
+            "other_unclassified_outflow_dai": 0,
+            "other_external_outflow_dai": 0,
+            "total_sinks_dai": 2556.7088456560546,
+            "net_dai_retained": 2254627.275827223,
+            "cumulative_sources": 2257183.984672879,
+            "cumulative_sinks": 2556.7088456560546,
+            "cumulative_net_retained": 2254627.275827223,
+            "ledger_net_external_dai": 2254627.2758272225,
+            "reconciliation_gap": 4.656612873077393e-10,
+            "pair_swap_net_dai": 597768.7595230984,
+            "internal_dai": 356118.565560495,
+            "classification_event_gap": 0,
+            "duplicate_event_rows": 0,
+            "external_event_count": 49348,
+            "classified_event_count": 49348,
+            "total_sources_all_dai": 6089024225.653134,
+            "total_sinks_all_dai": 6004320441.147899,
+            "net_retained_all_dai": 84703784.50523621,
+            "liquidity_add_all_dai": 563474768.4979389,
+            "other_external_inflow_all_dai": 5525549457.155194,
+            "swap_payout_all_dai": 5712155344.65988,
+            "liquidity_remove_all_dai": 292165096.48801816,
+            "other_external_outflow_all_dai": 0,
+            "treasury_external_inflow_all_dai": 11921083.185932186,
+            "other_core_external_inflow_all_dai": 5513030605.20974,
+            "other_unclassified_inflow_all_dai": 597768.7595230984,
+            "treasury_external_outflow_all_dai": 0,
+            "other_core_external_outflow_all_dai": 0,
+            "other_unclassified_outflow_all_dai": 0,
+            "query07_same_cutoff_net_dai": 84703784.50523597,
+            "q07_published_net_dai": 83351937.56024164,
+            "q07_published_end_date": "2026-08-20",
+            "difference_vs_query07_published_dai": 1351846.9449943304,
+            "reconciliation_gap_all_dai": 1.949083525687456e-07,
+            "classification_event_gap_all": 0,
+            "duplicate_event_rows_all": 0,
+            "chart_liquidity_add_dai": 829645.8194695329,
+            "chart_other_external_inflow_dai": 1427538.165203346,
+            "chart_swap_payout_dai": 0,
+            "chart_liquidity_remove_dai": -2556.7088456560546,
+            "chart_other_external_outflow_dai": 0,
+            "chart_final_net_retained": 84703784.50523621
+          },
+          {
+            "month": "2024-04-01",
+            "liquidity_add_dai": 335855.4132081256,
+            "treasury_external_inflow_dai": 171809.9343,
+            "other_core_external_inflow_dai": 1535960.624900531,
+            "other_unclassified_inflow_dai": 0,
+            "other_external_inflow_dai": 1707770.559200531,
+            "total_sources_dai": 2043625.9724086565,
+            "swap_payout_dai": 1632721.040657388,
+            "liquidity_remove_dai": 3884.0562339782173,
+            "treasury_external_outflow_dai": 0,
+            "other_core_external_outflow_dai": 0,
+            "other_unclassified_outflow_dai": 0,
+            "other_external_outflow_dai": 0,
+            "total_sinks_dai": 1636605.0968913662,
+            "net_dai_retained": 407020.87551729026,
+            "cumulative_sources": 4300809.957081536,
+            "cumulative_sinks": 1639161.8057370223,
+            "cumulative_net_retained": 2661648.151344513,
+            "ledger_net_external_dai": 407020.8755172901,
+            "reconciliation_gap": 1.7462298274040222e-10,
+            "pair_swap_net_dai": -1632721.040657388,
+            "internal_dai": 3071281.249781061,
+            "classification_event_gap": 0,
+            "duplicate_event_rows": 0,
+            "external_event_count": 101662,
+            "classified_event_count": 101662,
+            "total_sources_all_dai": 6089024225.653134,
+            "total_sinks_all_dai": 6004320441.147899,
+            "net_retained_all_dai": 84703784.50523621,
+            "liquidity_add_all_dai": 563474768.4979389,
+            "other_external_inflow_all_dai": 5525549457.155194,
+            "swap_payout_all_dai": 5712155344.65988,
+            "liquidity_remove_all_dai": 292165096.48801816,
+            "other_external_outflow_all_dai": 0,
+            "treasury_external_inflow_all_dai": 11921083.185932186,
+            "other_core_external_inflow_all_dai": 5513030605.20974,
+            "other_unclassified_inflow_all_dai": 597768.7595230984,
+            "treasury_external_outflow_all_dai": 0,
+            "other_core_external_outflow_all_dai": 0,
+            "other_unclassified_outflow_all_dai": 0,
+            "query07_same_cutoff_net_dai": 84703784.50523597,
+            "q07_published_net_dai": 83351937.56024164,
+            "q07_published_end_date": "2026-08-20",
+            "difference_vs_query07_published_dai": 1351846.9449943304,
+            "reconciliation_gap_all_dai": 1.949083525687456e-07,
+            "classification_event_gap_all": 0,
+            "duplicate_event_rows_all": 0,
+            "chart_liquidity_add_dai": 335855.4132081256,
+            "chart_other_external_inflow_dai": 1707770.559200531,
+            "chart_swap_payout_dai": -1632721.040657388,
+            "chart_liquidity_remove_dai": -3884.0562339782173,
+            "chart_other_external_outflow_dai": 0,
+            "chart_final_net_retained": 84703784.50523621
+          },
+          {
+            "month": "2024-05-01",
+            "liquidity_add_dai": 79977.22058141425,
+            "treasury_external_inflow_dai": 54658.234,
+            "other_core_external_inflow_dai": 1485606.6588053734,
+            "other_unclassified_inflow_dai": 0,
+            "other_external_inflow_dai": 1540264.8928053733,
+            "total_sources_dai": 1620242.1133867875,
+            "swap_payout_dai": 1564707.841054624,
+            "liquidity_remove_dai": 247786.12131191333,
+            "treasury_external_outflow_dai": 0,
+            "other_core_external_outflow_dai": 0,
+            "other_unclassified_outflow_dai": 0,
+            "other_external_outflow_dai": 0,
+            "total_sinks_dai": 1812493.9623665372,
+            "net_dai_retained": -192251.8489797498,
+            "cumulative_sources": 5921052.070468323,
+            "cumulative_sinks": 3451655.7681035595,
+            "cumulative_net_retained": 2469396.3023647633,
+            "ledger_net_external_dai": -192251.84897974972,
+            "reconciliation_gap": -8.731149137020111e-11,
+            "pair_swap_net_dai": -1564707.841054624,
+            "internal_dai": 2971213.3176107467,
+            "classification_event_gap": 0,
+            "duplicate_event_rows": 0,
+            "external_event_count": 126699,
+            "classified_event_count": 126699,
+            "total_sources_all_dai": 6089024225.653134,
+            "total_sinks_all_dai": 6004320441.147899,
+            "net_retained_all_dai": 84703784.50523621,
+            "liquidity_add_all_dai": 563474768.4979389,
+            "other_external_inflow_all_dai": 5525549457.155194,
+            "swap_payout_all_dai": 5712155344.65988,
+            "liquidity_remove_all_dai": 292165096.48801816,
+            "other_external_outflow_all_dai": 0,
+            "treasury_external_inflow_all_dai": 11921083.185932186,
+            "other_core_external_inflow_all_dai": 5513030605.20974,
+            "other_unclassified_inflow_all_dai": 597768.7595230984,
+            "treasury_external_outflow_all_dai": 0,
+            "other_core_external_outflow_all_dai": 0,
+            "other_unclassified_outflow_all_dai": 0,
+            "query07_same_cutoff_net_dai": 84703784.50523597,
+            "q07_published_net_dai": 83351937.56024164,
+            "q07_published_end_date": "2026-08-20",
+            "difference_vs_query07_published_dai": 1351846.9449943304,
+            "reconciliation_gap_all_dai": 1.949083525687456e-07,
+            "classification_event_gap_all": 0,
+            "duplicate_event_rows_all": 0,
+            "chart_liquidity_add_dai": 79977.22058141425,
+            "chart_other_external_inflow_dai": 1540264.8928053733,
+            "chart_swap_payout_dai": -1564707.841054624,
+            "chart_liquidity_remove_dai": -247786.12131191333,
+            "chart_other_external_outflow_dai": 0,
+            "chart_final_net_retained": 84703784.50523621
+          },
+          {
+            "month": "2024-06-01",
+            "liquidity_add_dai": 100485.90484730451,
+            "treasury_external_inflow_dai": 99417.7066,
+            "other_core_external_inflow_dai": 1511329.8575230811,
+            "other_unclassified_inflow_dai": 0,
+            "other_external_inflow_dai": 1610747.564123081,
+            "total_sources_dai": 1711233.4689703856,
+            "swap_payout_dai": 1884108.0190088032,
+            "liquidity_remove_dai": 467461.8304491235,
+            "treasury_external_outflow_dai": 0,
+            "other_core_external_outflow_dai": 0,
+            "other_unclassified_outflow_dai": 0,
+            "other_external_outflow_dai": 0,
+            "total_sinks_dai": 2351569.8494579266,
+            "net_dai_retained": -640336.3804875411,
+            "cumulative_sources": 7632285.539438709,
+            "cumulative_sinks": 5803225.617561486,
+            "cumulative_net_retained": 1829059.9218772221,
+            "ledger_net_external_dai": -640336.3804875417,
+            "reconciliation_gap": 5.820766091346741e-10,
+            "pair_swap_net_dai": -1884108.0190088032,
+            "internal_dai": 3021969.7439277647,
+            "classification_event_gap": 0,
+            "duplicate_event_rows": 0,
+            "external_event_count": 141288,
+            "classified_event_count": 141288,
+            "total_sources_all_dai": 6089024225.653134,
+            "total_sinks_all_dai": 6004320441.147899,
+            "net_retained_all_dai": 84703784.50523621,
+            "liquidity_add_all_dai": 563474768.4979389,
+            "other_external_inflow_all_dai": 5525549457.155194,
+            "swap_payout_all_dai": 5712155344.65988,
+            "liquidity_remove_all_dai": 292165096.48801816,
+            "other_external_outflow_all_dai": 0,
+            "treasury_external_inflow_all_dai": 11921083.185932186,
+            "other_core_external_inflow_all_dai": 5513030605.20974,
+            "other_unclassified_inflow_all_dai": 597768.7595230984,
+            "treasury_external_outflow_all_dai": 0,
+            "other_core_external_outflow_all_dai": 0,
+            "other_unclassified_outflow_all_dai": 0,
+            "query07_same_cutoff_net_dai": 84703784.50523597,
+            "q07_published_net_dai": 83351937.56024164,
+            "q07_published_end_date": "2026-08-20",
+            "difference_vs_query07_published_dai": 1351846.9449943304,
+            "reconciliation_gap_all_dai": 1.949083525687456e-07,
+            "classification_event_gap_all": 0,
+            "duplicate_event_rows_all": 0,
+            "chart_liquidity_add_dai": 100485.90484730451,
+            "chart_other_external_inflow_dai": 1610747.564123081,
+            "chart_swap_payout_dai": -1884108.0190088032,
+            "chart_liquidity_remove_dai": -467461.8304491235,
+            "chart_other_external_outflow_dai": 0,
+            "chart_final_net_retained": 84703784.50523621
+          },
+          {
+            "month": "2024-07-01",
+            "liquidity_add_dai": 168489.95244668948,
+            "treasury_external_inflow_dai": 244826.00840000002,
+            "other_core_external_inflow_dai": 2786131.3107884806,
+            "other_unclassified_inflow_dai": 0,
+            "other_external_inflow_dai": 3030957.3191884807,
+            "total_sources_dai": 3199447.27163517,
+            "swap_payout_dai": 2677433.086687034,
+            "liquidity_remove_dai": 330675.0765835431,
+            "treasury_external_outflow_dai": 0,
+            "other_core_external_outflow_dai": 0,
+            "other_unclassified_outflow_dai": 0,
+            "other_external_outflow_dai": 0,
+            "total_sinks_dai": 3008108.163270577,
+            "net_dai_retained": 191339.108364593,
+            "cumulative_sources": 10831732.811073879,
+            "cumulative_sinks": 8811333.780832063,
+            "cumulative_net_retained": 2020399.0302418151,
+            "ledger_net_external_dai": 191339.10836459324,
+            "reconciliation_gap": -2.3283064365386963e-10,
+            "pair_swap_net_dai": -2677433.086687034,
+            "internal_dai": 5572262.621576963,
+            "classification_event_gap": 0,
+            "duplicate_event_rows": 0,
+            "external_event_count": 180797,
+            "classified_event_count": 180797,
+            "total_sources_all_dai": 6089024225.653134,
+            "total_sinks_all_dai": 6004320441.147899,
+            "net_retained_all_dai": 84703784.50523621,
+            "liquidity_add_all_dai": 563474768.4979389,
+            "other_external_inflow_all_dai": 5525549457.155194,
+            "swap_payout_all_dai": 5712155344.65988,
+            "liquidity_remove_all_dai": 292165096.48801816,
+            "other_external_outflow_all_dai": 0,
+            "treasury_external_inflow_all_dai": 11921083.185932186,
+            "other_core_external_inflow_all_dai": 5513030605.20974,
+            "other_unclassified_inflow_all_dai": 597768.7595230984,
+            "treasury_external_outflow_all_dai": 0,
+            "other_core_external_outflow_all_dai": 0,
+            "other_unclassified_outflow_all_dai": 0,
+            "query07_same_cutoff_net_dai": 84703784.50523597,
+            "q07_published_net_dai": 83351937.56024164,
+            "q07_published_end_date": "2026-08-20",
+            "difference_vs_query07_published_dai": 1351846.9449943304,
+            "reconciliation_gap_all_dai": 1.949083525687456e-07,
+            "classification_event_gap_all": 0,
+            "duplicate_event_rows_all": 0,
+            "chart_liquidity_add_dai": 168489.95244668948,
+            "chart_other_external_inflow_dai": 3030957.3191884807,
+            "chart_swap_payout_dai": -2677433.086687034,
+            "chart_liquidity_remove_dai": -330675.0765835431,
+            "chart_other_external_outflow_dai": 0,
+            "chart_final_net_retained": 84703784.50523621
+          }
+        ]
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

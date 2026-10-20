@@ -1,0 +1,14 @@
+{
+  "id": "ithaca-blog",
+  "url": "https://polygon.technology/blog/ithaca-upgrade-is-live-payments-on-polygon-chain-are-more-reliable-than-ever",
+  "accessed_at": "2026-10-19T02:33:02.192685+00:00",
+  "baseline": "2026-10-19",
+  "status": 200,
+  "final_url": "https://polygon.technology/blog/ithaca-upgrade-is-live-payments-on-polygon-chain-are-more-reliable-than-ever",
+  "content_type": "text/html",
+  "bytes": 226228,
+  "sha256": "d6f3c28b7bf9fd973d0501ac17393be9e0667b71958255ef21f9f44b39d568b4",
+  "local_archive_path": "research/sources/ithaca-blog.md",
+  "public_source_url": "https://polygon.technology/blog/ithaca-upgrade-is-live-payments-on-polygon-chain-are-more-reliable-than-ever",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY"
+}

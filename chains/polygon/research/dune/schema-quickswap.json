@@ -1,0 +1,4202 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"total\":118,\"results\":[{\"full_name\":\"quickswap_polygon.uniswapv2pair_evt_burn\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"evt_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"evt_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"evt_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"evt_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"evt_index\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"evt_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"evt_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"evt_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"amount0\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"amount1\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"sender\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"to\",\"nullable\":false,\"type\":\"varbinary\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":0.8137412337662339,\"abi_type\":\"event\",\"contract_name\":\"UniswapV2Pair\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.uniswapv2pair_evt_swap\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"evt_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"evt_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"evt_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"evt_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"evt_index\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"evt_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"evt_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"evt_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"amount0In\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"amount0Out\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"amount1In\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"amount1Out\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"sender\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"to\",\"nullable\":false,\"type\":\"varbinary\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":0.7197613950565566,\"abi_type\":\"event\",\"contract_name\":\"UniswapV2Pair\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.quick_evt_transfer\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"evt_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"evt_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"evt_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"evt_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"evt_index\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"evt_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"evt_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"evt_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"amount\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"from\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"to\",\"nullable\":false,\"type\":\"varbinary\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":0.5325000000000001,\"abi_type\":\"event\",\"contract_name\":\"Quick\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.uniswapv2pair_evt_mint\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"evt_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"evt_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"evt_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"evt_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"evt_index\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"evt_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"evt_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"evt_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"amount0\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"amount1\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"sender\",\"nullable\":false,\"type\":\"varbinary\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":0.5153912337662339,\"abi_type\":\"event\",\"contract_name\":\"UniswapV2Pair\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.uniswapv2factory_evt_paircreated\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"evt_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"evt_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"evt_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"evt_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"evt_index\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"evt_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"evt_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"evt_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"_0\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"pair\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"token0\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"token1\",\"nullable\":false,\"type\":\"varbinary\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":0.4656797842401502,\"abi_type\":\"event\",\"contract_name\":\"UniswapV2Factory\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.uniswapv2pair_evt_sync\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"evt_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"evt_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"evt_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"evt_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"evt_index\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"evt_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"evt_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"evt_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"reserve0\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"reserve1\",\"nullable\":false,\"type\":\"uint256\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":0.25540178571428573,\"abi_type\":\"event\",\"contract_name\":\"UniswapV2Pair\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.uniswapv2pair_evt_transfer\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"evt_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"evt_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"evt_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"evt_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"evt_index\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"evt_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"evt_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"evt_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"from\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"to\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"value\",\"nullable\":false,\"type\":\"uint256\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":0.22577500000000006,\"abi_type\":\"event\",\"contract_name\":\"UniswapV2Pair\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.uniswapv2pair_call_swap\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"amount0Out\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"amount1Out\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"data\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"to\",\"nullable\":false,\"type\":\"varbinary\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":0.21825,\"abi_type\":\"call\",\"contract_name\":\"UniswapV2Pair\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.uniswapv2pair_call_initialize\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"_token0\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"_token1\",\"nullable\":false,\"type\":\"varbinary\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":0.16062500000000002,\"abi_type\":\"call\",\"contract_name\":\"UniswapV2Pair\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.quick_call_allowance\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"account\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"output_0\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"spender\",\"nullable\":false,\"type\":\"varbinary\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"Quick\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.uniswapv2pair_call_factory\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"output_0\",\"nullable\":false,\"type\":\"varbinary\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"UniswapV2Pair\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.uniswapv2factory_call_allpairslength\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"output_0\",\"nullable\":false,\"type\":\"uint256\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"UniswapV2Factory\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.newquickdragonlair_call_enter\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"_quickAmount\",\"nullable\":false,\"type\":\"uint256\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"NewQuickDragonLair\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.stakingdualrewards_evt_ownerchanged\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"evt_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"evt_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"evt_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"evt_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"evt_index\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"evt_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"evt_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"evt_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"newOwner\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"oldOwner\",\"nullable\":false,\"type\":\"varbinary\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"event\",\"contract_name\":\"StakingDualRewards\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.uniswapv2pair_call_getreserves\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"output__blockTimestampLast\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"output__reserve0\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"output__reserve1\",\"nullable\":false,\"type\":\"uint256\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"UniswapV2Pair\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.uniswapv2pair_call_transferfrom\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"from\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"output_0\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"to\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"value\",\"nullable\":false,\"type\":\"uint256\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"UniswapV2Pair\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.uniswapv2router02_call_swapexactethfortokens\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"amountOutMin\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"deadline\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"output_amounts\",\"nullable\":false,\"type\":\"array(uint256)\"},{\"name\":\"path\",\"nullable\":false,\"type\":\"array(varbinary)\"},{\"name\":\"to\",\"nullable\":false,\"type\":\"varbinary\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"UniswapV2Router02\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.uniswapv2pair_call_burn\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"output_amount0\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"output_amount1\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"to\",\"nullable\":false,\"type\":\"varbinary\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"UniswapV2Pair\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.stakingdualrewards_call_earnedb\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"account\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"output_0\",\"nullable\":false,\"type\":\"uint256\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"StakingDualRewards\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.uniswapv2router02_call_removeliquidityeth\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"amountETHMin\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"amountTokenMin\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"deadline\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"liquidity\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"output_amountETH\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"output_amountToken\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"to\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"token\",\"nullable\":false,\"type\":\"varbinary\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"UniswapV2Router02\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.newquickdragonlair_call_transfer\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"amount\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"output_0\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"recipient\",\"nullable\":false,\"type\":\"varbinary\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"NewQuickDragonLair\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.stakingdualrewards_call_balanceof\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"account\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"output_0\",\"nullable\":false,\"type\":\"uint256\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"StakingDualRewards\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.uniswapv2pair_call_balanceof\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"_0\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"output_0\",\"nullable\":false,\"type\":\"uint256\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"UniswapV2Pair\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.stakingdualrewards_evt_rewardadded\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"evt_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"evt_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"evt_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"evt_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"evt_index\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"evt_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"evt_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"evt_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"periodFinish\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"rewardA\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"rewardB\",\"nullable\":false,\"type\":\"uint256\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"event\",\"contract_name\":\"StakingDualRewards\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.newquickdragonlair_evt_transfer\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"evt_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"evt_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"evt_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"evt_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"evt_index\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"evt_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"evt_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"evt_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"from\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"to\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"value\",\"nullable\":false,\"type\":\"uint256\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"event\",\"contract_name\":\"NewQuickDragonLair\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.uniswapv2pair_call_token0\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"output_0\",\"nullable\":false,\"type\":\"varbinary\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"UniswapV2Pair\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.uniswapv2router02_call_removeliquidityethwithpermit\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"amountETHMin\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"amountTokenMin\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"approveMax\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"deadline\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"liquidity\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"output_amountETH\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"output_amountToken\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"r\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"s\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"to\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"token\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"v\",\"nullable\":false,\"type\":\"integer\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"UniswapV2Router02\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.uniswapv2pair_call_symbol\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"output_0\",\"nullable\":false,\"type\":\"varchar\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"UniswapV2Pair\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.uniswapv2router02_call_removeliquiditywithpermit\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"amountAMin\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"amountBMin\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"approveMax\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"deadline\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"liquidity\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"output_amountA\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"output_amountB\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"r\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"s\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"to\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"tokenA\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"tokenB\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"v\",\"nullable\":false,\"type\":\"integer\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"UniswapV2Router02\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.stakingdualrewards_call_notifyrewardamount\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"rewardA\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"rewardB\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"rewardsDuration\",\"nullable\":false,\"type\":\"uint256\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"StakingDualRewards\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.uniswapv2factory_call_setfeeto\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"_feeTo\",\"nullable\":false,\"type\":\"varbinary\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"UniswapV2Factory\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.uniswapv2pair_call_token1\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"output_0\",\"nullable\":false,\"type\":\"varbinary\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"UniswapV2Pair\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.uniswapv2router02_call_swapexacttokensforethsupportingfeeontransfertokens\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"amountIn\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"amountOutMin\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"deadline\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"path\",\"nullable\":false,\"type\":\"array(varbinary)\"},{\"name\":\"to\",\"nullable\":false,\"type\":\"varbinary\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"UniswapV2Router02\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.quick_call_approve\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"output_0\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"rawAmount\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"spender\",\"nullable\":false,\"type\":\"varbinary\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"Quick\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.stakingdualrewards_call_withdraw\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"amount\",\"nullable\":false,\"type\":\"uint256\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"StakingDualRewards\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.uniswapv2pair_call_minimum_liquidity\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"output_0\",\"nullable\":false,\"type\":\"uint256\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"UniswapV2Pair\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.uniswapv2router02_call_weth\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"output_0\",\"nullable\":false,\"type\":\"varbinary\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"UniswapV2Router02\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.quick_call_permit\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"deadline\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"owner\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"r\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"rawAmount\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"s\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"spender\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"v\",\"nullable\":false,\"type\":\"integer\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"Quick\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.newquickdragonlair_call_quickfordquick\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"_quickAmount\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"output_dQuickAmount_\",\"nullable\":false,\"type\":\"uint256\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"NewQuickDragonLair\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.uniswapv2router02_call_swaptokensforexacteth\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"amountInMax\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"amountOut\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"deadline\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"output_amounts\",\"nullable\":false,\"type\":\"array(uint256)\"},{\"name\":\"path\",\"nullable\":false,\"type\":\"array(varbinary)\"},{\"name\":\"to\",\"nullable\":false,\"type\":\"varbinary\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"UniswapV2Router02\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.uniswapv2factory_call_allpairs\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"_0\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"output_0\",\"nullable\":false,\"type\":\"varbinary\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"UniswapV2Factory\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.newquickdragonlair_call_leave\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"_dQuickAmount\",\"nullable\":false,\"type\":\"uint256\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"NewQuickDragonLair\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.quick_call_name\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"output_0\",\"nullable\":false,\"type\":\"varchar\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"Quick\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.quick_evt_delegatevoteschanged\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"evt_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"evt_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"evt_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"evt_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"evt_index\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"evt_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"evt_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"evt_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"delegate\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"newBalance\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"previousBalance\",\"nullable\":false,\"type\":\"uint256\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"event\",\"contract_name\":\"Quick\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.uniswapv2pair_call_klast\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"output_0\",\"nullable\":false,\"type\":\"uint256\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"UniswapV2Pair\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.uniswapv2router02_call_getamountin\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"amountOut\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"output_amountIn\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"reserveIn\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"reserveOut\",\"nullable\":false,\"type\":\"uint256\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"UniswapV2Router02\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.newquickdragonlair_call_transferfrom\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"amount\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"output_0\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"recipient\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"sender\",\"nullable\":false,\"type\":\"varbinary\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"NewQuickDragonLair\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.uniswapv2router02_call_factory\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"output_0\",\"nullable\":false,\"type\":\"varbinary\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"UniswapV2Router02\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.quick_evt_delegatechanged\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"evt_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"evt_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"evt_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"evt_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"evt_index\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"evt_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"evt_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"evt_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"delegator\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"fromDelegate\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"toDelegate\",\"nullable\":false,\"type\":\"varbinary\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"event\",\"contract_name\":\"Quick\",\"project_name\":\"quickswap\"}},{\"full_name\":\"quickswap_polygon.quick_call_symbol\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"output_0\",\"nullable\":false,\"type\":\"varchar\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"Quick\",\"project_name\":\"quickswap\"}}],\"pagination\":{\"limit\":50,\"offset\":0,\"nextOffset\":50,\"hasMore\":true}}"
+      }
+    ],
+    "structuredContent": {
+      "total": 118,
+      "results": [
+        {
+          "full_name": "quickswap_polygon.uniswapv2pair_evt_burn",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "evt_index",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "evt_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "evt_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "evt_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "amount0",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "amount1",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "sender",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "to",
+                "nullable": false,
+                "type": "varbinary"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 0.8137412337662339,
+            "abi_type": "event",
+            "contract_name": "UniswapV2Pair",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.uniswapv2pair_evt_swap",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "evt_index",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "evt_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "evt_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "evt_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "amount0In",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "amount0Out",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "amount1In",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "amount1Out",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "sender",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "to",
+                "nullable": false,
+                "type": "varbinary"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 0.7197613950565566,
+            "abi_type": "event",
+            "contract_name": "UniswapV2Pair",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.quick_evt_transfer",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "evt_index",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "evt_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "evt_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "evt_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "amount",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "from",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "to",
+                "nullable": false,
+                "type": "varbinary"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 0.5325000000000001,
+            "abi_type": "event",
+            "contract_name": "Quick",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.uniswapv2pair_evt_mint",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "evt_index",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "evt_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "evt_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "evt_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "amount0",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "amount1",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "sender",
+                "nullable": false,
+                "type": "varbinary"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 0.5153912337662339,
+            "abi_type": "event",
+            "contract_name": "UniswapV2Pair",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.uniswapv2factory_evt_paircreated",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "evt_index",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "evt_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "evt_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "evt_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "_0",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "pair",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "token0",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "token1",
+                "nullable": false,
+                "type": "varbinary"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 0.4656797842401502,
+            "abi_type": "event",
+            "contract_name": "UniswapV2Factory",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.uniswapv2pair_evt_sync",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "evt_index",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "evt_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "evt_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "evt_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "reserve0",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "reserve1",
+                "nullable": false,
+                "type": "uint256"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 0.25540178571428573,
+            "abi_type": "event",
+            "contract_name": "UniswapV2Pair",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.uniswapv2pair_evt_transfer",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "evt_index",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "evt_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "evt_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "evt_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "from",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "to",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "value",
+                "nullable": false,
+                "type": "uint256"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 0.22577500000000006,
+            "abi_type": "event",
+            "contract_name": "UniswapV2Pair",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.uniswapv2pair_call_swap",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "amount0Out",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "amount1Out",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "data",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "to",
+                "nullable": false,
+                "type": "varbinary"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 0.21825,
+            "abi_type": "call",
+            "contract_name": "UniswapV2Pair",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.uniswapv2pair_call_initialize",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "_token0",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "_token1",
+                "nullable": false,
+                "type": "varbinary"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 0.16062500000000002,
+            "abi_type": "call",
+            "contract_name": "UniswapV2Pair",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.quick_call_allowance",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "account",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "output_0",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "spender",
+                "nullable": false,
+                "type": "varbinary"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "Quick",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.uniswapv2pair_call_factory",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "output_0",
+                "nullable": false,
+                "type": "varbinary"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "UniswapV2Pair",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.uniswapv2factory_call_allpairslength",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "output_0",
+                "nullable": false,
+                "type": "uint256"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "UniswapV2Factory",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.newquickdragonlair_call_enter",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "_quickAmount",
+                "nullable": false,
+                "type": "uint256"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "NewQuickDragonLair",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.stakingdualrewards_evt_ownerchanged",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "evt_index",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "evt_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "evt_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "evt_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "newOwner",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "oldOwner",
+                "nullable": false,
+                "type": "varbinary"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "event",
+            "contract_name": "StakingDualRewards",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.uniswapv2pair_call_getreserves",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "output__blockTimestampLast",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "output__reserve0",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "output__reserve1",
+                "nullable": false,
+                "type": "uint256"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "UniswapV2Pair",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.uniswapv2pair_call_transferfrom",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "from",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "output_0",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "to",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "value",
+                "nullable": false,
+                "type": "uint256"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "UniswapV2Pair",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.uniswapv2router02_call_swapexactethfortokens",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "amountOutMin",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "deadline",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "output_amounts",
+                "nullable": false,
+                "type": "array(uint256)"
+              },
+              {
+                "name": "path",
+                "nullable": false,
+                "type": "array(varbinary)"
+              },
+              {
+                "name": "to",
+                "nullable": false,
+                "type": "varbinary"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "UniswapV2Router02",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.uniswapv2pair_call_burn",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "output_amount0",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "output_amount1",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "to",
+                "nullable": false,
+                "type": "varbinary"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "UniswapV2Pair",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.stakingdualrewards_call_earnedb",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "account",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "output_0",
+                "nullable": false,
+                "type": "uint256"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "StakingDualRewards",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.uniswapv2router02_call_removeliquidityeth",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "amountETHMin",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "amountTokenMin",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "deadline",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "liquidity",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "output_amountETH",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "output_amountToken",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "to",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "token",
+                "nullable": false,
+                "type": "varbinary"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "UniswapV2Router02",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.newquickdragonlair_call_transfer",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "amount",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "output_0",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "recipient",
+                "nullable": false,
+                "type": "varbinary"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "NewQuickDragonLair",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.stakingdualrewards_call_balanceof",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "account",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "output_0",
+                "nullable": false,
+                "type": "uint256"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "StakingDualRewards",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.uniswapv2pair_call_balanceof",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "_0",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "output_0",
+                "nullable": false,
+                "type": "uint256"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "UniswapV2Pair",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.stakingdualrewards_evt_rewardadded",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "evt_index",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "evt_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "evt_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "evt_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "periodFinish",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "rewardA",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "rewardB",
+                "nullable": false,
+                "type": "uint256"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "event",
+            "contract_name": "StakingDualRewards",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.newquickdragonlair_evt_transfer",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "evt_index",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "evt_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "evt_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "evt_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "from",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "to",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "value",
+                "nullable": false,
+                "type": "uint256"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "event",
+            "contract_name": "NewQuickDragonLair",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.uniswapv2pair_call_token0",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "output_0",
+                "nullable": false,
+                "type": "varbinary"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "UniswapV2Pair",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.uniswapv2router02_call_removeliquidityethwithpermit",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "amountETHMin",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "amountTokenMin",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "approveMax",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "deadline",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "liquidity",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "output_amountETH",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "output_amountToken",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "r",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "s",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "to",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "token",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "v",
+                "nullable": false,
+                "type": "integer"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "UniswapV2Router02",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.uniswapv2pair_call_symbol",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "output_0",
+                "nullable": false,
+                "type": "varchar"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "UniswapV2Pair",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.uniswapv2router02_call_removeliquiditywithpermit",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "amountAMin",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "amountBMin",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "approveMax",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "deadline",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "liquidity",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "output_amountA",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "output_amountB",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "r",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "s",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "to",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "tokenA",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "tokenB",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "v",
+                "nullable": false,
+                "type": "integer"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "UniswapV2Router02",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.stakingdualrewards_call_notifyrewardamount",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "rewardA",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "rewardB",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "rewardsDuration",
+                "nullable": false,
+                "type": "uint256"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "StakingDualRewards",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.uniswapv2factory_call_setfeeto",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "_feeTo",
+                "nullable": false,
+                "type": "varbinary"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "UniswapV2Factory",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.uniswapv2pair_call_token1",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "output_0",
+                "nullable": false,
+                "type": "varbinary"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "UniswapV2Pair",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.uniswapv2router02_call_swapexacttokensforethsupportingfeeontransfertokens",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "amountIn",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "amountOutMin",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "deadline",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "path",
+                "nullable": false,
+                "type": "array(varbinary)"
+              },
+              {
+                "name": "to",
+                "nullable": false,
+                "type": "varbinary"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "UniswapV2Router02",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.quick_call_approve",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "output_0",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "rawAmount",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "spender",
+                "nullable": false,
+                "type": "varbinary"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "Quick",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.stakingdualrewards_call_withdraw",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "amount",
+                "nullable": false,
+                "type": "uint256"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "StakingDualRewards",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.uniswapv2pair_call_minimum_liquidity",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "output_0",
+                "nullable": false,
+                "type": "uint256"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "UniswapV2Pair",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.uniswapv2router02_call_weth",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "output_0",
+                "nullable": false,
+                "type": "varbinary"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "UniswapV2Router02",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.quick_call_permit",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "deadline",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "owner",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "r",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "rawAmount",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "s",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "spender",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "v",
+                "nullable": false,
+                "type": "integer"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "Quick",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.newquickdragonlair_call_quickfordquick",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "_quickAmount",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "output_dQuickAmount_",
+                "nullable": false,
+                "type": "uint256"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "NewQuickDragonLair",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.uniswapv2router02_call_swaptokensforexacteth",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "amountInMax",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "amountOut",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "deadline",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "output_amounts",
+                "nullable": false,
+                "type": "array(uint256)"
+              },
+              {
+                "name": "path",
+                "nullable": false,
+                "type": "array(varbinary)"
+              },
+              {
+                "name": "to",
+                "nullable": false,
+                "type": "varbinary"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "UniswapV2Router02",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.uniswapv2factory_call_allpairs",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "_0",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "output_0",
+                "nullable": false,
+                "type": "varbinary"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "UniswapV2Factory",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.newquickdragonlair_call_leave",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "_dQuickAmount",
+                "nullable": false,
+                "type": "uint256"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "NewQuickDragonLair",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.quick_call_name",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "output_0",
+                "nullable": false,
+                "type": "varchar"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "Quick",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.quick_evt_delegatevoteschanged",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "evt_index",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "evt_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "evt_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "evt_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "delegate",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "newBalance",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "previousBalance",
+                "nullable": false,
+                "type": "uint256"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "event",
+            "contract_name": "Quick",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.uniswapv2pair_call_klast",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "output_0",
+                "nullable": false,
+                "type": "uint256"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "UniswapV2Pair",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.uniswapv2router02_call_getamountin",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "amountOut",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "output_amountIn",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "reserveIn",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "reserveOut",
+                "nullable": false,
+                "type": "uint256"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "UniswapV2Router02",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.newquickdragonlair_call_transferfrom",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "amount",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "output_0",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "recipient",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "sender",
+                "nullable": false,
+                "type": "varbinary"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "NewQuickDragonLair",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.uniswapv2router02_call_factory",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "output_0",
+                "nullable": false,
+                "type": "varbinary"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "UniswapV2Router02",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.quick_evt_delegatechanged",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "evt_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "evt_index",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "evt_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "evt_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "evt_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "delegator",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "fromDelegate",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "toDelegate",
+                "nullable": false,
+                "type": "varbinary"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "event",
+            "contract_name": "Quick",
+            "project_name": "quickswap"
+          }
+        },
+        {
+          "full_name": "quickswap_polygon.quick_call_symbol",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "output_0",
+                "nullable": false,
+                "type": "varchar"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "Quick",
+            "project_name": "quickswap"
+          }
+        }
+      ],
+      "pagination": {
+        "limit": 50,
+        "offset": 0,
+        "nextOffset": 50,
+        "hasMore": true
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

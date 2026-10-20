@@ -1,0 +1,137 @@
+[
+  {
+    "upgrade": "Bhilai",
+    "client": "Bor",
+    "activation_height": 73440256,
+    "activation_time_utc": "2025-07-01T08:48:33+00:00",
+    "status": "CONFIG_HEIGHT_AND_EXPLORER_TIMESTAMP",
+    "source": "https://polygonscan.com/block/73440256",
+    "impact": "Pectra/EIP-7702、Gas容量与费用参数"
+  },
+  {
+    "upgrade": "Rio",
+    "client": "Bor",
+    "activation_height": 77414656,
+    "activation_time_utc": "2025-10-08T14:23:04+00:00",
+    "status": "CONFIG_HEIGHT_AND_EXPLORER_TIMESTAMP",
+    "source": "https://polygonscan.com/block/77414656",
+    "impact": "VEBloP、单生产者Span、Witness架构"
+  },
+  {
+    "upgrade": "Madhugiri",
+    "client": "Bor",
+    "activation_height": 80084800,
+    "activation_time_utc": "2025-12-09T10:04:13+00:00",
+    "status": "CONFIG_HEIGHT_AND_EXPLORER_TIMESTAMP",
+    "source": "https://polygonscan.com/block/80084800",
+    "impact": "执行与交易表示；PIP-74相关系统交易背景"
+  },
+  {
+    "upgrade": "Dandeli",
+    "client": "Bor",
+    "activation_height": 81424000,
+    "activation_time_utc": "2026-01-09T14:01:02+00:00",
+    "status": "CONFIG_HEIGHT_AND_EXPLORER_TIMESTAMP",
+    "source": "https://polygonscan.com/block/81424000",
+    "impact": "目标Gas比例/参数背景；实现细节仍需专门重放核对"
+  },
+  {
+    "upgrade": "Lisovo",
+    "client": "Bor",
+    "activation_height": 83756500,
+    "activation_time_utc": "2026-03-04T14:03:51+00:00",
+    "status": "CONFIG_HEIGHT_AND_EXPLORER_TIMESTAMP",
+    "source": "https://polygonscan.com/block/83756500",
+    "impact": "PIP-79边界验证与可配置费用参数"
+  },
+  {
+    "upgrade": "Giugliano",
+    "client": "Bor",
+    "activation_height": 85268500,
+    "activation_time_utc": "2026-04-08T14:03:57+00:00",
+    "status": "CONFIG_HEIGHT_AND_EXPLORER_TIMESTAMP",
+    "source": "https://polygonscan.com/block/85268500",
+    "impact": "PIP-83头部Gas参数、PIP-66早期公告"
+  },
+  {
+    "upgrade": "Chicago",
+    "client": "Bor",
+    "activation_height": 87218600,
+    "activation_time_utc": "2026-05-21T14:04:18+00:00",
+    "status": "CONFIG_HEIGHT_AND_EXPLORER_TIMESTAMP",
+    "source": "https://polygonscan.com/block/87218600",
+    "impact": "PIP-88操作/预编译Gas重定价"
+  },
+  {
+    "upgrade": "Valencia",
+    "client": "Bor",
+    "activation_height": 89531000,
+    "activation_time_utc": "2026-07-02T14:11:35+00:00",
+    "status": "CONFIG_HEIGHT_AND_EXPLORER_TIMESTAMP",
+    "source": "https://polygonscan.com/block/89531000",
+    "impact": "Bor v2.9.0执行层硬分叉；详细改动未独立穷尽"
+  },
+  {
+    "upgrade": "Austin",
+    "client": "Bor",
+    "activation_height": 91949700,
+    "activation_time_utc": "2026-08-13T13:59:37+00:00",
+    "status": "CONFIG_HEIGHT_AND_EXPLORER_TIMESTAMP",
+    "source": "https://polygonscan.com/block/91949700",
+    "impact": "Bor v2.10.0执行层硬分叉；详细改动未独立穷尽"
+  },
+  {
+    "upgrade": "Heimdall v2",
+    "client": "Heimdall",
+    "activation_height": null,
+    "activation_time_utc": "2025-07-10",
+    "status": "OFFICIAL_RELEASE_DATE_ONLY",
+    "source": "https://github.com/0xPolygon/heimdall-v2/releases",
+    "impact": "共识/模块规则；不是Bor高度"
+  },
+  {
+    "upgrade": "Phuket",
+    "client": "Heimdall",
+    "activation_height": 44070000,
+    "activation_time_utc": null,
+    "status": "OFFICIAL_CONFIG_AND_RELEASE_HEIGHT; RAW_TIMESTAMP_UNAVAILABLE",
+    "source": "https://github.com/0xPolygon/heimdall-v2/releases",
+    "impact": "共识/模块规则；不是Bor高度"
+  },
+  {
+    "upgrade": "Zurich",
+    "client": "Heimdall",
+    "activation_height": 47880000,
+    "activation_time_utc": "2026-06-25 ~14:00 UTC",
+    "status": "OFFICIAL_SCHEDULE_NOT_RAW_TIMESTAMP",
+    "source": "https://github.com/0xPolygon/heimdall-v2/releases",
+    "impact": "共识/模块规则；不是Bor高度"
+  },
+  {
+    "upgrade": "Ithaca",
+    "client": "Heimdall",
+    "activation_height": 50185000,
+    "activation_time_utc": "2026-07-29 ~14:00 UTC",
+    "status": "OFFICIAL_SCHEDULE_NOT_RAW_TIMESTAMP",
+    "source": "https://github.com/0xPolygon/heimdall-v2/releases",
+    "impact": "共识/模块规则；不是Bor高度"
+  },
+  {
+    "upgrade": "Kyoto",
+    "client": "Heimdall",
+    "activation_height": 51533000,
+    "activation_time_utc": null,
+    "status": "OFFICIAL_CONFIG_AND_RELEASE_HEIGHT; RAW_TIMESTAMP_UNAVAILABLE",
+    "source": "https://github.com/0xPolygon/heimdall-v2/releases",
+    "impact": "共识/模块规则；不是Bor高度"
+  },
+  {
+    "upgrade": "Lugano",
+    "client": "Heimdall",
+    "activation_height": 54627000,
+    "activation_time_utc": "2026-10-01T16:22:06.133511367Z",
+    "status": "OFFICIAL_HEIGHT_AND_HEIMDALL_BLOCK_CAPTURE",
+    "source": "https://github.com/0xPolygon/heimdall-v2/releases",
+    "impact": "共识/模块规则；不是Bor高度"
+  }
+]

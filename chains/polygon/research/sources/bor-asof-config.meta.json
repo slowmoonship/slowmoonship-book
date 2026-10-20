@@ -1,0 +1,14 @@
+{
+  "id": "bor-asof-config",
+  "url": "https://raw.githubusercontent.com/0xPolygon/bor/1cdf43c99d97cb9e18860776d8f69a416b49adf4/params/config.go",
+  "accessed_at": "2026-10-19T02:34:55.832400+00:00",
+  "baseline": "2026-10-19",
+  "status": 200,
+  "final_url": "https://raw.githubusercontent.com/0xPolygon/bor/1cdf43c99d97cb9e18860776d8f69a416b49adf4/params/config.go",
+  "content_type": "text/plain; charset=utf-8",
+  "bytes": 180217,
+  "sha256": "322153f97a16990b37bfc34b03c2d535942cc736caf9d254275b690fbd2ddb57",
+  "local_archive_path": "research/sources/bor-asof-config.md",
+  "public_source_url": "https://raw.githubusercontent.com/0xPolygon/bor/1cdf43c99d97cb9e18860776d8f69a416b49adf4/params/config.go",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY"
+}

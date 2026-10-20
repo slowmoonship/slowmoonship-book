@@ -1,0 +1,14 @@
+{
+  "id": "tx-factory-supply",
+  "url": "https://polygonscan.com/tx/0x443c78ecc0bf2427fa789daeb7c80281842fde3b42d413ac7ac1606e1f8a56f8",
+  "accessed_at": "2026-10-19T02:41:19.498449+00:00",
+  "baseline": "2026-10-19",
+  "status": 200,
+  "final_url": "https://polygonscan.com/tx/0x443c78ecc0bf2427fa789daeb7c80281842fde3b42d413ac7ac1606e1f8a56f8",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 1713932,
+  "sha256": "e7e23e5c6f3f28c1141cd5051b1cecb117ad0e13aad7dc187a2874984c8b8124",
+  "local_archive_path": "research/sources/tx-factory-supply.md",
+  "public_source_url": "https://polygonscan.com/tx/0x443c78ecc0bf2427fa789daeb7c80281842fde3b42d413ac7ac1606e1f8a56f8",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY"
+}

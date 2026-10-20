@@ -1,0 +1,28 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"query_id\":8675998,\"user_id\":null,\"team_id\":953543,\"version\":1,\"name\":\"Dashboard 08: Polygon PoS DEX Activity (30d)\",\"description\":\"Polygon PoS 30-day DEX activity summary by UTC day.\",\"tags\":[],\"query\":\"WITH filtered_dex_trades AS (\\n    SELECT\\n        block_date,\\n        amount_usd,\\n        taker,\\n        project\\n    FROM dex_evm.trades\\n    WHERE blockchain = 'polygon'\\n      AND block_month >= CAST(\\n            date_trunc(\\n                'month',\\n                date_trunc('day', current_timestamp AT TIME ZONE 'UTC') - INTERVAL '30' DAY\\n            ) AS date\\n        )\\n      AND block_month <= CAST(\\n            date_trunc(\\n                'month',\\n                date_trunc('day', current_timestamp AT TIME ZONE 'UTC') - INTERVAL '1' DAY\\n            ) AS date\\n        )\\n      AND block_date >= CAST(\\n            date_trunc('day', current_timestamp AT TIME ZONE 'UTC') - INTERVAL '30' DAY\\n            AS date\\n        )\\n      AND block_date < CAST(\\n            date_trunc('day', current_timestamp AT TIME ZONE 'UTC')\\n            AS date\\n        )\\n),\\ndaily_dex_activity AS (\\n    SELECT\\n        block_date AS date,\\n        COUNT(*) AS trade_segment_count,\\n        SUM(amount_usd) AS dex_volume_usd,\\n        approx_distinct(taker) AS unique_traders,\\n        approx_distinct(project) AS unique_projects\\n    FROM filtered_dex_trades\\n    GROUP BY 1\\n)\\nSELECT\\n    date,\\n    trade_segment_count,\\n    dex_volume_usd,\\n    unique_traders,\\n    unique_projects\\nFROM daily_dex_activity\\nORDER BY date;\",\"parameters\":[],\"is_archived\":false,\"is_private\":false,\"is_temp\":true,\"latest_execution_id\":\"01M27GV5QMY4DVQXV0ZCZGK91H\",\"latest_execution_state\":\"QUERY_STATE_COMPLETED\"}"
+      }
+    ],
+    "structuredContent": {
+      "query_id": 8675998,
+      "user_id": null,
+      "team_id": 953543,
+      "version": 1,
+      "name": "Dashboard 08: Polygon PoS DEX Activity (30d)",
+      "description": "Polygon PoS 30-day DEX activity summary by UTC day.",
+      "tags": [],
+      "query": "WITH filtered_dex_trades AS (\n    SELECT\n        block_date,\n        amount_usd,\n        taker,\n        project\n    FROM dex_evm.trades\n    WHERE blockchain = 'polygon'\n      AND block_month >= CAST(\n            date_trunc(\n                'month',\n                date_trunc('day', current_timestamp AT TIME ZONE 'UTC') - INTERVAL '30' DAY\n            ) AS date\n        )\n      AND block_month <= CAST(\n            date_trunc(\n                'month',\n                date_trunc('day', current_timestamp AT TIME ZONE 'UTC') - INTERVAL '1' DAY\n            ) AS date\n        )\n      AND block_date >= CAST(\n            date_trunc('day', current_timestamp AT TIME ZONE 'UTC') - INTERVAL '30' DAY\n            AS date\n        )\n      AND block_date < CAST(\n            date_trunc('day', current_timestamp AT TIME ZONE 'UTC')\n            AS date\n        )\n),\ndaily_dex_activity AS (\n    SELECT\n        block_date AS date,\n        COUNT(*) AS trade_segment_count,\n        SUM(amount_usd) AS dex_volume_usd,\n        approx_distinct(taker) AS unique_traders,\n        approx_distinct(project) AS unique_projects\n    FROM filtered_dex_trades\n    GROUP BY 1\n)\nSELECT\n    date,\n    trade_segment_count,\n    dex_volume_usd,\n    unique_traders,\n    unique_projects\nFROM daily_dex_activity\nORDER BY date;",
+      "parameters": [],
+      "is_archived": false,
+      "is_private": false,
+      "is_temp": true,
+      "latest_execution_id": "01M27GV5QMY4DVQXV0ZCZGK91H",
+      "latest_execution_state": "QUERY_STATE_COMPLETED"
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

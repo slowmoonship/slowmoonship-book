@@ -1,0 +1,28 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"query_id\":8676002,\"user_id\":null,\"team_id\":953543,\"version\":1,\"name\":\"Dashboard 10: Polygon PoS Ethereum Boundary (30d)\",\"description\":\"Polygon PoS 30-day Ethereum-side FxERC20 root-tunnel boundary signals by UTC day.\",\"tags\":[],\"query\":\"WITH daily_fx_deposit_events AS (\\n    SELECT\\n        evt_block_date AS date,\\n        COUNT(*) AS event_count\\n    FROM polygon_pos_bridge_ethereum.fxerc20roottunnel_evt_fxdepositerc20\\n    WHERE evt_block_date >= CAST(\\n            date_trunc('day', current_timestamp AT TIME ZONE 'UTC') - INTERVAL '30' DAY\\n            AS date\\n        )\\n      AND evt_block_date < CAST(\\n            date_trunc('day', current_timestamp AT TIME ZONE 'UTC')\\n            AS date\\n        )\\n      AND evt_block_time >= CAST(\\n            date_trunc('day', current_timestamp AT TIME ZONE 'UTC') - INTERVAL '30' DAY\\n            AS timestamp\\n        )\\n      AND evt_block_time < CAST(\\n            date_trunc('day', current_timestamp AT TIME ZONE 'UTC')\\n            AS timestamp\\n        )\\n    GROUP BY 1\\n),\\ndaily_fx_withdraw_events AS (\\n    SELECT\\n        evt_block_date AS date,\\n        COUNT(*) AS event_count\\n    FROM polygon_pos_bridge_ethereum.fxerc20roottunnel_evt_fxwithdrawerc20\\n    WHERE evt_block_date >= CAST(\\n            date_trunc('day', current_timestamp AT TIME ZONE 'UTC') - INTERVAL '30' DAY\\n            AS date\\n        )\\n      AND evt_block_date < CAST(\\n            date_trunc('day', current_timestamp AT TIME ZONE 'UTC')\\n            AS date\\n        )\\n      AND evt_block_time >= CAST(\\n            date_trunc('day', current_timestamp AT TIME ZONE 'UTC') - INTERVAL '30' DAY\\n            AS timestamp\\n        )\\n      AND evt_block_time < CAST(\\n            date_trunc('day', current_timestamp AT TIME ZONE 'UTC')\\n            AS timestamp\\n        )\\n    GROUP BY 1\\n),\\ndaily_boundary_events AS (\\n    SELECT\\n        date,\\n        'fx_deposit_erc20_event' AS interaction_type,\\n        event_count\\n    FROM daily_fx_deposit_events\\n    UNION ALL\\n    SELECT\\n        date,\\n        'fx_withdraw_erc20_event' AS interaction_type,\\n        event_count\\n    FROM daily_fx_withdraw_events\\n)\\nSELECT\\n    date,\\n    interaction_type,\\n    event_count\\nFROM daily_boundary_events\\nORDER BY date, interaction_type;\",\"parameters\":[],\"is_archived\":false,\"is_private\":false,\"is_temp\":true,\"latest_execution_id\":\"01M27GV65QDG8PA320T28EGSQB\",\"latest_execution_state\":\"QUERY_STATE_COMPLETED\"}"
+      }
+    ],
+    "structuredContent": {
+      "query_id": 8676002,
+      "user_id": null,
+      "team_id": 953543,
+      "version": 1,
+      "name": "Dashboard 10: Polygon PoS Ethereum Boundary (30d)",
+      "description": "Polygon PoS 30-day Ethereum-side FxERC20 root-tunnel boundary signals by UTC day.",
+      "tags": [],
+      "query": "WITH daily_fx_deposit_events AS (\n    SELECT\n        evt_block_date AS date,\n        COUNT(*) AS event_count\n    FROM polygon_pos_bridge_ethereum.fxerc20roottunnel_evt_fxdepositerc20\n    WHERE evt_block_date >= CAST(\n            date_trunc('day', current_timestamp AT TIME ZONE 'UTC') - INTERVAL '30' DAY\n            AS date\n        )\n      AND evt_block_date < CAST(\n            date_trunc('day', current_timestamp AT TIME ZONE 'UTC')\n            AS date\n        )\n      AND evt_block_time >= CAST(\n            date_trunc('day', current_timestamp AT TIME ZONE 'UTC') - INTERVAL '30' DAY\n            AS timestamp\n        )\n      AND evt_block_time < CAST(\n            date_trunc('day', current_timestamp AT TIME ZONE 'UTC')\n            AS timestamp\n        )\n    GROUP BY 1\n),\ndaily_fx_withdraw_events AS (\n    SELECT\n        evt_block_date AS date,\n        COUNT(*) AS event_count\n    FROM polygon_pos_bridge_ethereum.fxerc20roottunnel_evt_fxwithdrawerc20\n    WHERE evt_block_date >= CAST(\n            date_trunc('day', current_timestamp AT TIME ZONE 'UTC') - INTERVAL '30' DAY\n            AS date\n        )\n      AND evt_block_date < CAST(\n            date_trunc('day', current_timestamp AT TIME ZONE 'UTC')\n            AS date\n        )\n      AND evt_block_time >= CAST(\n            date_trunc('day', current_timestamp AT TIME ZONE 'UTC') - INTERVAL '30' DAY\n            AS timestamp\n        )\n      AND evt_block_time < CAST(\n            date_trunc('day', current_timestamp AT TIME ZONE 'UTC')\n            AS timestamp\n        )\n    GROUP BY 1\n),\ndaily_boundary_events AS (\n    SELECT\n        date,\n        'fx_deposit_erc20_event' AS interaction_type,\n        event_count\n    FROM daily_fx_deposit_events\n    UNION ALL\n    SELECT\n        date,\n        'fx_withdraw_erc20_event' AS interaction_type,\n        event_count\n    FROM daily_fx_withdraw_events\n)\nSELECT\n    date,\n    interaction_type,\n    event_count\nFROM daily_boundary_events\nORDER BY date, interaction_type;",
+      "parameters": [],
+      "is_archived": false,
+      "is_private": false,
+      "is_temp": true,
+      "latest_execution_id": "01M27GV65QDG8PA320T28EGSQB",
+      "latest_execution_state": "QUERY_STATE_COMPLETED"
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

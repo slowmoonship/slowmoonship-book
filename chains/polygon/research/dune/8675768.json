@@ -1,0 +1,28 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"query_id\":8675768,\"user_id\":null,\"team_id\":953543,\"version\":1,\"name\":\"Sample 02 - Polygon PoS Transaction Sample\",\"description\":\"Sample 25 latest Polygon PoS transactions from latest complete UTC day.\",\"tags\":[],\"query\":\"-- Query:\\n-- Polygon PoS Transaction Sample ｜ Polygon PoS 交易样例\\n--\\n-- Purpose:\\n-- Return a small deterministic transaction sample covering keys, addresses,\\n-- value, calldata, status, type, nonce, gas, and EIP-1559-related fields.\\n--\\n-- Source table: polygon.transactions\\n-- Grain: One row represents one Polygon PoS transaction; key uniqueness remains a QA question.\\n-- Time range: Latest complete UTC calendar day; one block_date partition only; maximum 25 rows returned.\\n--\\n-- Important caveats:\\n-- Calldata is data, not input. to IS NULL is diagnostic and does not by itself\\n-- define contract creation. Address does not equal user.\\n\\nWITH sampled_transactions AS (\\n    SELECT\\n        t.block_date,\\n        t.block_time,\\n        t.block_number,\\n        t.block_hash,\\n        t.hash AS tx_hash,\\n        t.\\\"index\\\" AS transaction_index,\\n        t.\\\"from\\\" AS tx_from,\\n        t.\\\"to\\\" AS tx_to,\\n        t.value,\\n        t.data,\\n        t.success,\\n        t.type AS transaction_type,\\n        t.nonce,\\n        t.gas_limit,\\n        t.gas_price,\\n        t.gas_used,\\n        t.max_fee_per_gas,\\n        t.max_priority_fee_per_gas,\\n        t.priority_fee_per_gas\\n    FROM polygon.transactions AS t\\n    WHERE t.block_date = date_add('day', -1, CURRENT_DATE)\\n    ORDER BY t.block_number DESC, t.\\\"index\\\" DESC\\n    LIMIT 25\\n)\\n\\nSELECT\\n    block_date AS block_date,\\n    block_time AS block_time,\\n    block_number AS block_number,\\n    block_hash AS block_hash,\\n    tx_hash AS tx_hash,\\n    transaction_index AS transaction_index,\\n    tx_from AS tx_from,\\n    tx_to AS tx_to,\\n    value AS value_raw,\\n    data AS calldata,\\n    success AS transaction_success,\\n    transaction_type AS transaction_type,\\n    nonce AS nonce,\\n    gas_limit AS gas_limit,\\n    gas_price AS gas_price,\\n    gas_used AS gas_used,\\n    max_fee_per_gas AS max_fee_per_gas,\\n    max_priority_fee_per_gas AS max_priority_fee_per_gas,\\n    priority_fee_per_gas AS priority_fee_per_gas\\nFROM sampled_transactions\\nORDER BY block_number DESC, transaction_index DESC;\",\"parameters\":[],\"is_archived\":false,\"is_private\":false,\"is_temp\":true,\"latest_execution_id\":\"01M27FMT1F6Q0TPRG8ESW8CAHM\",\"latest_execution_state\":null}"
+      }
+    ],
+    "structuredContent": {
+      "query_id": 8675768,
+      "user_id": null,
+      "team_id": 953543,
+      "version": 1,
+      "name": "Sample 02 - Polygon PoS Transaction Sample",
+      "description": "Sample 25 latest Polygon PoS transactions from latest complete UTC day.",
+      "tags": [],
+      "query": "-- Query:\n-- Polygon PoS Transaction Sample ｜ Polygon PoS 交易样例\n--\n-- Purpose:\n-- Return a small deterministic transaction sample covering keys, addresses,\n-- value, calldata, status, type, nonce, gas, and EIP-1559-related fields.\n--\n-- Source table: polygon.transactions\n-- Grain: One row represents one Polygon PoS transaction; key uniqueness remains a QA question.\n-- Time range: Latest complete UTC calendar day; one block_date partition only; maximum 25 rows returned.\n--\n-- Important caveats:\n-- Calldata is data, not input. to IS NULL is diagnostic and does not by itself\n-- define contract creation. Address does not equal user.\n\nWITH sampled_transactions AS (\n    SELECT\n        t.block_date,\n        t.block_time,\n        t.block_number,\n        t.block_hash,\n        t.hash AS tx_hash,\n        t.\"index\" AS transaction_index,\n        t.\"from\" AS tx_from,\n        t.\"to\" AS tx_to,\n        t.value,\n        t.data,\n        t.success,\n        t.type AS transaction_type,\n        t.nonce,\n        t.gas_limit,\n        t.gas_price,\n        t.gas_used,\n        t.max_fee_per_gas,\n        t.max_priority_fee_per_gas,\n        t.priority_fee_per_gas\n    FROM polygon.transactions AS t\n    WHERE t.block_date = date_add('day', -1, CURRENT_DATE)\n    ORDER BY t.block_number DESC, t.\"index\" DESC\n    LIMIT 25\n)\n\nSELECT\n    block_date AS block_date,\n    block_time AS block_time,\n    block_number AS block_number,\n    block_hash AS block_hash,\n    tx_hash AS tx_hash,\n    transaction_index AS transaction_index,\n    tx_from AS tx_from,\n    tx_to AS tx_to,\n    value AS value_raw,\n    data AS calldata,\n    success AS transaction_success,\n    transaction_type AS transaction_type,\n    nonce AS nonce,\n    gas_limit AS gas_limit,\n    gas_price AS gas_price,\n    gas_used AS gas_used,\n    max_fee_per_gas AS max_fee_per_gas,\n    max_priority_fee_per_gas AS max_priority_fee_per_gas,\n    priority_fee_per_gas AS priority_fee_per_gas\nFROM sampled_transactions\nORDER BY block_number DESC, transaction_index DESC;",
+      "parameters": [],
+      "is_archived": false,
+      "is_private": false,
+      "is_temp": true,
+      "latest_execution_id": "01M27FMT1F6Q0TPRG8ESW8CAHM",
+      "latest_execution_state": null
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

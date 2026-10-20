@@ -1,0 +1,14 @@
+{
+  "id": "stakingmanager",
+  "url": "https://docs.polygon.technology/pos/reference/contracts/stakingmanager.md",
+  "accessed_at": "2026-10-19T02:34:56.621647+00:00",
+  "baseline": "2026-10-19",
+  "status": 200,
+  "final_url": "https://docs.polygon.technology/pos/reference/contracts/stakingmanager.md",
+  "content_type": "text/markdown; charset=utf-8",
+  "bytes": 6439,
+  "sha256": "ab26e1fab7be83bb8f0f514f0a95500446c53b9c55992e4aea17ac570fbcb70a",
+  "local_archive_path": "research/sources/stakingmanager.md",
+  "public_source_url": "https://docs.polygon.technology/pos/reference/contracts/stakingmanager.md",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY"
+}

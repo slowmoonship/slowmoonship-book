@@ -1,0 +1,25 @@
+{
+  "case_id": "case-09",
+  "title": "Pair创建来源",
+  "network": "Polygon PoS Mainnet",
+  "chain_id": 137,
+  "transaction_hash": "0x226a240b5d72abaf9ed611afd2e99efc8fb8b1bfd7d324b82fb1d804d513f2b6",
+  "block_number": 54339835,
+  "block_time": "2024-03-06T16:34:32+00:00",
+  "contract_address": "0x882df4b0fb50a229c3b4124eb18c759911485bfb",
+  "focus": "Pool与LP合约源码",
+  "source": "https://polygonscan.com/tx/0x226a240b5d72abaf9ed611afd2e99efc8fb8b1bfd7d324b82fb1d804d513f2b6",
+  "local_archive_source_cache": "research/sources/tx-pair-creation.md",
+  "public_source_url": "https://polygonscan.com/tx/0x226a240b5d72abaf9ed611afd2e99efc8fb8b1bfd7d324b82fb1d804d513f2b6",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY",
+  "dune_query": null,
+  "raw_indexed_fields": [],
+  "derived_fields": {},
+  "verification_status": "EXPLORER_RECORD_CAPTURED; LIMITED_INDEXED_CROSSCHECK; NOT_LOCAL_REEXECUTION",
+  "missing": [
+    "complete native RPC receipt",
+    "local signature/consensus verification",
+    "beneficial ownership",
+    "full historical state"
+  ]
+}

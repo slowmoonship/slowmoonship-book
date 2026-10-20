@@ -1,0 +1,93 @@
+{
+  "result": {
+    "_meta": {
+      "mcp_event_id": "d3fb4f47-fc9b-4383-a100-6beba4e732fc"
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"executionId\":\"01M27GNJFD5YA49481PQMANSEG\",\"state\":\"COMPLETED\",\"resultMetadata\":{\"columns\":[{\"name\":\"date\",\"type\":\"date\"},{\"name\":\"currency_symbol\",\"type\":\"varchar\"},{\"name\":\"transaction_count\",\"type\":\"bigint\"},{\"name\":\"total_gas_used\",\"type\":\"bigint\"},{\"name\":\"total_fees_native\",\"type\":\"double\"},{\"name\":\"avg_fee_native\",\"type\":\"double\"}],\"totalRowCount\":90,\"executionCostCredits\":\"1.447\"},\"data\":{\"rows\":[{\"date\":\"2026-06-13\",\"currency_symbol\":\"POL\",\"transaction_count\":7081844,\"total_gas_used\":2474442273922,\"total_fees_native\":1180140.0410790702,\"avg_fee_native\":0.1666430439697726},{\"date\":\"2026-06-14\",\"currency_symbol\":\"POL\",\"transaction_count\":6944303,\"total_gas_used\":2564241442440,\"total_fees_native\":1237512.293367675,\"avg_fee_native\":0.17820539993253104},{\"date\":\"2026-06-15\",\"currency_symbol\":\"POL\",\"transaction_count\":7292855,\"total_gas_used\":2638177542761,\"total_fees_native\":1251215.1840822098,\"avg_fee_native\":0.17156726468333866},{\"date\":\"2026-06-16\",\"currency_symbol\":\"POL\",\"transaction_count\":7443492,\"total_gas_used\":2650443367299,\"total_fees_native\":1241398.9183837657,\"avg_fee_native\":0.1667764160133128},{\"date\":\"2026-06-17\",\"currency_symbol\":\"POL\",\"transaction_count\":7946483,\"total_gas_used\":2825716529689,\"total_fees_native\":1300715.4901107023,\"avg_fee_native\":0.1636844236765752}]}}"
+      }
+    ],
+    "structuredContent": {
+      "executionId": "01M27GNJFD5YA49481PQMANSEG",
+      "state": "COMPLETED",
+      "resultMetadata": {
+        "columns": [
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "currency_symbol",
+            "type": "varchar"
+          },
+          {
+            "name": "transaction_count",
+            "type": "bigint"
+          },
+          {
+            "name": "total_gas_used",
+            "type": "bigint"
+          },
+          {
+            "name": "total_fees_native",
+            "type": "double"
+          },
+          {
+            "name": "avg_fee_native",
+            "type": "double"
+          }
+        ],
+        "totalRowCount": 90,
+        "executionCostCredits": "1.447"
+      },
+      "data": {
+        "rows": [
+          {
+            "date": "2026-06-13",
+            "currency_symbol": "POL",
+            "transaction_count": 7081844,
+            "total_gas_used": 2474442273922,
+            "total_fees_native": 1180140.0410790702,
+            "avg_fee_native": 0.1666430439697726
+          },
+          {
+            "date": "2026-06-14",
+            "currency_symbol": "POL",
+            "transaction_count": 6944303,
+            "total_gas_used": 2564241442440,
+            "total_fees_native": 1237512.293367675,
+            "avg_fee_native": 0.17820539993253104
+          },
+          {
+            "date": "2026-06-15",
+            "currency_symbol": "POL",
+            "transaction_count": 7292855,
+            "total_gas_used": 2638177542761,
+            "total_fees_native": 1251215.1840822098,
+            "avg_fee_native": 0.17156726468333866
+          },
+          {
+            "date": "2026-06-16",
+            "currency_symbol": "POL",
+            "transaction_count": 7443492,
+            "total_gas_used": 2650443367299,
+            "total_fees_native": 1241398.9183837657,
+            "avg_fee_native": 0.1667764160133128
+          },
+          {
+            "date": "2026-06-17",
+            "currency_symbol": "POL",
+            "transaction_count": 7946483,
+            "total_gas_used": 2825716529689,
+            "total_fees_native": 1300715.4901107023,
+            "avg_fee_native": 0.1636844236765752
+          }
+        ]
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

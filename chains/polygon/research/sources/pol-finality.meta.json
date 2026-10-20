@@ -1,0 +1,14 @@
+{
+  "id": "pol-finality",
+  "url": "https://docs.polygon.technology/pos/concepts/finality/finality.md",
+  "accessed_at": "2026-10-19T02:34:56.834263+00:00",
+  "baseline": "2026-10-19",
+  "status": 200,
+  "final_url": "https://docs.polygon.technology/pos/concepts/finality/finality.md",
+  "content_type": "text/markdown; charset=utf-8",
+  "bytes": 3571,
+  "sha256": "a66173c3f06327e556104b67495796d9e58b184d73b60ae514e8ae3f47ff1da3",
+  "local_archive_path": "research/sources/pol-finality.md",
+  "public_source_url": "https://docs.polygon.technology/pos/concepts/finality/finality.md",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY"
+}

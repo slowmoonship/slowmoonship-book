@@ -1,0 +1,84 @@
+{
+  "result": {
+    "_meta": {
+      "mcp_event_id": "42b4e961-8232-4fc9-8d0e-a7d1c83ab849"
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"executionId\":\"01M27GV5R6VRK235DA333XQ2QM\",\"state\":\"COMPLETED\",\"resultMetadata\":{\"columns\":[{\"name\":\"date\",\"type\":\"date\"},{\"name\":\"transfer_count\",\"type\":\"bigint\"},{\"name\":\"unique_tokens\",\"type\":\"bigint\"},{\"name\":\"unique_senders\",\"type\":\"bigint\"},{\"name\":\"unique_receivers\",\"type\":\"bigint\"}],\"totalRowCount\":30,\"executionCostCredits\":\"3.539\"},\"data\":{\"rows\":[{\"date\":\"2026-08-12\",\"transfer_count\":23462484,\"unique_tokens\":2416,\"unique_senders\":502243,\"unique_receivers\":695580},{\"date\":\"2026-08-13\",\"transfer_count\":22674019,\"unique_tokens\":2625,\"unique_senders\":547225,\"unique_receivers\":672985},{\"date\":\"2026-08-14\",\"transfer_count\":23768401,\"unique_tokens\":2247,\"unique_senders\":513668,\"unique_receivers\":733376},{\"date\":\"2026-08-15\",\"transfer_count\":22095523,\"unique_tokens\":1872,\"unique_senders\":502839,\"unique_receivers\":663383},{\"date\":\"2026-08-16\",\"transfer_count\":22546360,\"unique_tokens\":1796,\"unique_senders\":446584,\"unique_receivers\":614441}]}}"
+      }
+    ],
+    "structuredContent": {
+      "executionId": "01M27GV5R6VRK235DA333XQ2QM",
+      "state": "COMPLETED",
+      "resultMetadata": {
+        "columns": [
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "transfer_count",
+            "type": "bigint"
+          },
+          {
+            "name": "unique_tokens",
+            "type": "bigint"
+          },
+          {
+            "name": "unique_senders",
+            "type": "bigint"
+          },
+          {
+            "name": "unique_receivers",
+            "type": "bigint"
+          }
+        ],
+        "totalRowCount": 30,
+        "executionCostCredits": "3.539"
+      },
+      "data": {
+        "rows": [
+          {
+            "date": "2026-08-12",
+            "transfer_count": 23462484,
+            "unique_tokens": 2416,
+            "unique_senders": 502243,
+            "unique_receivers": 695580
+          },
+          {
+            "date": "2026-08-13",
+            "transfer_count": 22674019,
+            "unique_tokens": 2625,
+            "unique_senders": 547225,
+            "unique_receivers": 672985
+          },
+          {
+            "date": "2026-08-14",
+            "transfer_count": 23768401,
+            "unique_tokens": 2247,
+            "unique_senders": 513668,
+            "unique_receivers": 733376
+          },
+          {
+            "date": "2026-08-15",
+            "transfer_count": 22095523,
+            "unique_tokens": 1872,
+            "unique_senders": 502839,
+            "unique_receivers": 663383
+          },
+          {
+            "date": "2026-08-16",
+            "transfer_count": 22546360,
+            "unique_tokens": 1796,
+            "unique_senders": 446584,
+            "unique_receivers": 614441
+          }
+        ]
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

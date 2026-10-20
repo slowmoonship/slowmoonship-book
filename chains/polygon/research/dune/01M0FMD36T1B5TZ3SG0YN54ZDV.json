@@ -1,0 +1,201 @@
+{
+  "result": {
+    "_meta": {
+      "mcp_event_id": "2d4a29a4-ddce-4ac9-a11d-ed08889622b2"
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"executionId\":\"01M0FMD36T1B5TZ3SG0YN54ZDV\",\"state\":\"COMPLETED\",\"resultMetadata\":{\"columns\":[{\"name\":\"date\",\"type\":\"date\"},{\"name\":\"buy_count\",\"type\":\"bigint\"},{\"name\":\"sell_count\",\"type\":\"bigint\"},{\"name\":\"swap_count\",\"type\":\"bigint\"},{\"name\":\"buy_lgns\",\"type\":\"double\"},{\"name\":\"sell_lgns\",\"type\":\"double\"},{\"name\":\"buy_volume_dai\",\"type\":\"double\"},{\"name\":\"sell_volume_dai\",\"type\":\"double\"},{\"name\":\"result_volume_dai\",\"type\":\"double\"},{\"name\":\"result_volume_byday\",\"type\":\"double\"},{\"name\":\"net_dai_flow\",\"type\":\"double\"},{\"name\":\"history_start\",\"type\":\"timestamp(3) with time zone\"},{\"name\":\"history_end\",\"type\":\"timestamp(3) with time zone\"},{\"name\":\"raw_swap_count\",\"type\":\"bigint\"},{\"name\":\"unclassified_swap_count\",\"type\":\"bigint\"},{\"name\":\"sample_event_1\",\"type\":\"varchar\"},{\"name\":\"sample_event_2\",\"type\":\"varchar\"},{\"name\":\"sample_event_3\",\"type\":\"varchar\"}],\"totalRowCount\":898,\"executionCostCredits\":\"13.033\"},\"data\":{\"rows\":[{\"date\":\"2024-03-06\",\"buy_count\":995,\"sell_count\":708,\"swap_count\":1703,\"buy_lgns\":58084.45392970603,\"sell_lgns\":6749.455082933008,\"buy_volume_dai\":1189536.4465952136,\"sell_volume_dai\":413664.09930025303,\"result_volume_dai\":775872.3472949606,\"result_volume_byday\":775872.3472949606,\"net_dai_flow\":775872.3472949587,\"history_start\":\"2024-03-06 16:58:16.000 UTC\",\"history_end\":\"2026-08-20 12:57:27.000 UTC\",\"raw_swap_count\":304180216,\"unclassified_swap_count\":197,\"sample_event_1\":\"tx=0x4D4AC9DB1B2845CE5E4DB7579215973C4ED683C920A42C8891454583FF51081D,block=54345772,direction=buy,dai_in=4.178702714985838E1,dai_out=0E0,lgns_in=0E0,lgns_out=6.10261256E-1\",\"sample_event_2\":\"tx=0xE9DEA48BCF2BB7E15BFA8FDD2E127492C19C03C7A5FF2DA292985004912E644F,block=54347938,direction=sell,dai_in=0E0,dai_out=1.7864946967613378E2,lgns_in=2.67484403E0,lgns_out=0E0\",\"sample_event_3\":\"tx=0xE9DEA48BCF2BB7E15BFA8FDD2E127492C19C03C7A5FF2DA292985004912E644F,block=54347938,direction=sell,dai_in=0E0,dai_out=3.7615904578211374E0,lgns_in=5.6312506E-2,lgns_out=0E0\"},{\"date\":\"2024-03-07\",\"buy_count\":1228,\"sell_count\":843,\"swap_count\":2071,\"buy_lgns\":5311.389857283002,\"sell_lgns\":3203.8882485519985,\"buy_volume_dai\":336577.8130020723,\"sell_volume_dai\":200365.04913909553,\"result_volume_dai\":136212.76386297675,\"result_volume_byday\":912085.1111579374,\"net_dai_flow\":136212.76386297727,\"history_start\":\"2024-03-06 16:58:16.000 UTC\",\"history_end\":\"2026-08-20 12:57:27.000 UTC\",\"raw_swap_count\":304180216,\"unclassified_swap_count\":197,\"sample_event_1\":\"tx=0x4DE8D783934FB2797C9D77FD0429A27CBA5B55E3EB53A630CA57CBB6747EFF69,block=54364608,direction=buy,dai_in=1.350034260745554E1,dai_out=0E0,lgns_in=0E0,lgns_out=2.23953244E-1\",\"sample_event_2\":\"tx=0xDE0BDD98442B3F8345FF44C8FFB24AA2F1FB460F7F886767D254CA297AC786C3,block=54356575,direction=buy,dai_in=5.0538817821148186E1,dai_out=0E0,lgns_in=0E0,lgns_out=8.02381585E-1\",\"sample_event_3\":\"tx=0xED11A7B9F2912AD823196F84663655A93E59D6E21FD551124D82A994AC25A05B,block=54359070,direction=buy,dai_in=4.6763913478054484E1,dai_out=0E0,lgns_in=0E0,lgns_out=6.97320729E-1\"},{\"date\":\"2024-03-08\",\"buy_count\":989,\"sell_count\":600,\"swap_count\":1589,\"buy_lgns\":1957.3713071309999,\"sell_lgns\":4688.790396767,\"buy_volume_dai\":120953.45555960627,\"sell_volume_dai\":290343.5767015725,\"result_volume_dai\":-169390.12114196626,\"result_volume_byday\":742694.9900159712,\"net_dai_flow\":-169390.12114196608,\"history_start\":\"2024-03-06 16:58:16.000 UTC\",\"history_end\":\"2026-08-20 12:57:27.000 UTC\",\"raw_swap_count\":304180216,\"unclassified_swap_count\":197,\"sample_event_1\":\"tx=0xD6E08D0558AC5BB59FB31A9646C5EDFF09CB3E7880F1D0972B07C56409ABCB24,block=54406016,direction=buy,dai_in=9.931031577546939E1,dai_out=0E0,lgns_in=0E0,lgns_out=1.590659018E0\",\"sample_event_2\":\"tx=0x420F42FFB66BB58712755EE0EC9CC4D6CD8B92BDF8804E3C768AA994E42968F6,block=54410709,direction=buy,dai_in=2.573887328302984E1,dai_out=0E0,lgns_in=0E0,lgns_out=4.04538789E-1\",\"sample_event_3\":\"tx=0x855BBFCCDCF24C919A79E7EB3307BC959DA553BD1A1B3C991B0E09BB5364D190,block=54395693,direction=buy,dai_in=9.97668613659649E1,dai_out=0E0,lgns_in=0E0,lgns_out=1.423748994E0\"},{\"date\":\"2024-03-09\",\"buy_count\":970,\"sell_count\":1401,\"swap_count\":2371,\"buy_lgns\":2993.1257224200062,\"sell_lgns\":4168.572341871995,\"buy_volume_dai\":160099.89803398246,\"sell_volume_dai\":221008.6003177999,\"result_volume_dai\":-60908.70228381743,\"result_volume_byday\":681786.2877321538,\"net_dai_flow\":-60908.70228381738,\"history_start\":\"2024-03-06 16:58:16.000 UTC\",\"history_end\":\"2026-08-20 12:57:27.000 UTC\",\"raw_swap_count\":304180216,\"unclassified_swap_count\":197,\"sample_event_1\":\"tx=0xA058B690667A428E48A8ABDD77F01A41A46CB2D219890774940A7B79C1D03E5F,block=54441730,direction=buy,dai_in=1.4628137672245623E2,dai_out=0E0,lgns_in=0E0,lgns_out=2.704479979E0\",\"sample_event_2\":\"tx=0xC16F25E0AA373ED85FC8B40C14726518103FEE083143756DDB6479B5AA5E5441,block=54450641,direction=sell,dai_in=0E0,dai_out=3.352559752040129E2,lgns_in=6.322057865E0,lgns_out=0E0\",\"sample_event_3\":\"tx=0xC16F25E0AA373ED85FC8B40C14726518103FEE083143756DDB6479B5AA5E5441,block=54450641,direction=sell,dai_in=0E0,dai_out=7.05982335378586E0,lgns_in=1.33095955E-1,lgns_out=0E0\"},{\"date\":\"2024-03-10\",\"buy_count\":637,\"sell_count\":1065,\"swap_count\":1702,\"buy_lgns\":1017.2406804239994,\"sell_lgns\":3793.0430904380014,\"buy_volume_dai\":45722.504801835166,\"sell_volume_dai\":171684.59906876195,\"result_volume_dai\":-125962.09426692678,\"result_volume_byday\":555824.193465227,\"net_dai_flow\":-125962.09426692681,\"history_start\":\"2024-03-06 16:58:16.000 UTC\",\"history_end\":\"2026-08-20 12:57:27.000 UTC\",\"raw_swap_count\":304180216,\"unclassified_swap_count\":197,\"sample_event_1\":\"tx=0x5DE265879B48CECE8A52029AE07DBFAB1D5CAA80B3B4F00BB36D12B235C17837,block=54492949,direction=buy,dai_in=4.9950461803243236E1,dai_out=0E0,lgns_in=0E0,lgns_out=1.183513419E0\",\"sample_event_2\":\"tx=0x22AFBFEEF4F6F31D24C147F1F3BECF6BC1EAC78FE3CE31504F5F7222D46BEFEF,block=54491484,direction=sell,dai_in=0E0,dai_out=1.4248081082653392E0,lgns_in=3.379092E-2,lgns_out=0E0\",\"sample_event_3\":\"tx=0x22AFBFEEF4F6F31D24C147F1F3BECF6BC1EAC78FE3CE31504F5F7222D46BEFEF,block=54491484,direction=sell,dai_in=0E0,dai_out=6.411647297616219E-1,lgns_in=1.5205914E-2,lgns_out=0E0\"}]}}"
+      }
+    ],
+    "structuredContent": {
+      "executionId": "01M0FMD36T1B5TZ3SG0YN54ZDV",
+      "state": "COMPLETED",
+      "resultMetadata": {
+        "columns": [
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "buy_count",
+            "type": "bigint"
+          },
+          {
+            "name": "sell_count",
+            "type": "bigint"
+          },
+          {
+            "name": "swap_count",
+            "type": "bigint"
+          },
+          {
+            "name": "buy_lgns",
+            "type": "double"
+          },
+          {
+            "name": "sell_lgns",
+            "type": "double"
+          },
+          {
+            "name": "buy_volume_dai",
+            "type": "double"
+          },
+          {
+            "name": "sell_volume_dai",
+            "type": "double"
+          },
+          {
+            "name": "result_volume_dai",
+            "type": "double"
+          },
+          {
+            "name": "result_volume_byday",
+            "type": "double"
+          },
+          {
+            "name": "net_dai_flow",
+            "type": "double"
+          },
+          {
+            "name": "history_start",
+            "type": "timestamp(3) with time zone"
+          },
+          {
+            "name": "history_end",
+            "type": "timestamp(3) with time zone"
+          },
+          {
+            "name": "raw_swap_count",
+            "type": "bigint"
+          },
+          {
+            "name": "unclassified_swap_count",
+            "type": "bigint"
+          },
+          {
+            "name": "sample_event_1",
+            "type": "varchar"
+          },
+          {
+            "name": "sample_event_2",
+            "type": "varchar"
+          },
+          {
+            "name": "sample_event_3",
+            "type": "varchar"
+          }
+        ],
+        "totalRowCount": 898,
+        "executionCostCredits": "13.033"
+      },
+      "data": {
+        "rows": [
+          {
+            "date": "2024-03-06",
+            "buy_count": 995,
+            "sell_count": 708,
+            "swap_count": 1703,
+            "buy_lgns": 58084.45392970603,
+            "sell_lgns": 6749.455082933008,
+            "buy_volume_dai": 1189536.4465952136,
+            "sell_volume_dai": 413664.09930025303,
+            "result_volume_dai": 775872.3472949606,
+            "result_volume_byday": 775872.3472949606,
+            "net_dai_flow": 775872.3472949587,
+            "history_start": "2024-03-06 16:58:16.000 UTC",
+            "history_end": "2026-08-20 12:57:27.000 UTC",
+            "raw_swap_count": 304180216,
+            "unclassified_swap_count": 197,
+            "sample_event_1": "tx=0x4D4AC9DB1B2845CE5E4DB7579215973C4ED683C920A42C8891454583FF51081D,block=54345772,direction=buy,dai_in=4.178702714985838E1,dai_out=0E0,lgns_in=0E0,lgns_out=6.10261256E-1",
+            "sample_event_2": "tx=0xE9DEA48BCF2BB7E15BFA8FDD2E127492C19C03C7A5FF2DA292985004912E644F,block=54347938,direction=sell,dai_in=0E0,dai_out=1.7864946967613378E2,lgns_in=2.67484403E0,lgns_out=0E0",
+            "sample_event_3": "tx=0xE9DEA48BCF2BB7E15BFA8FDD2E127492C19C03C7A5FF2DA292985004912E644F,block=54347938,direction=sell,dai_in=0E0,dai_out=3.7615904578211374E0,lgns_in=5.6312506E-2,lgns_out=0E0"
+          },
+          {
+            "date": "2024-03-07",
+            "buy_count": 1228,
+            "sell_count": 843,
+            "swap_count": 2071,
+            "buy_lgns": 5311.389857283002,
+            "sell_lgns": 3203.8882485519985,
+            "buy_volume_dai": 336577.8130020723,
+            "sell_volume_dai": 200365.04913909553,
+            "result_volume_dai": 136212.76386297675,
+            "result_volume_byday": 912085.1111579374,
+            "net_dai_flow": 136212.76386297727,
+            "history_start": "2024-03-06 16:58:16.000 UTC",
+            "history_end": "2026-08-20 12:57:27.000 UTC",
+            "raw_swap_count": 304180216,
+            "unclassified_swap_count": 197,
+            "sample_event_1": "tx=0x4DE8D783934FB2797C9D77FD0429A27CBA5B55E3EB53A630CA57CBB6747EFF69,block=54364608,direction=buy,dai_in=1.350034260745554E1,dai_out=0E0,lgns_in=0E0,lgns_out=2.23953244E-1",
+            "sample_event_2": "tx=0xDE0BDD98442B3F8345FF44C8FFB24AA2F1FB460F7F886767D254CA297AC786C3,block=54356575,direction=buy,dai_in=5.0538817821148186E1,dai_out=0E0,lgns_in=0E0,lgns_out=8.02381585E-1",
+            "sample_event_3": "tx=0xED11A7B9F2912AD823196F84663655A93E59D6E21FD551124D82A994AC25A05B,block=54359070,direction=buy,dai_in=4.6763913478054484E1,dai_out=0E0,lgns_in=0E0,lgns_out=6.97320729E-1"
+          },
+          {
+            "date": "2024-03-08",
+            "buy_count": 989,
+            "sell_count": 600,
+            "swap_count": 1589,
+            "buy_lgns": 1957.3713071309999,
+            "sell_lgns": 4688.790396767,
+            "buy_volume_dai": 120953.45555960627,
+            "sell_volume_dai": 290343.5767015725,
+            "result_volume_dai": -169390.12114196626,
+            "result_volume_byday": 742694.9900159712,
+            "net_dai_flow": -169390.12114196608,
+            "history_start": "2024-03-06 16:58:16.000 UTC",
+            "history_end": "2026-08-20 12:57:27.000 UTC",
+            "raw_swap_count": 304180216,
+            "unclassified_swap_count": 197,
+            "sample_event_1": "tx=0xD6E08D0558AC5BB59FB31A9646C5EDFF09CB3E7880F1D0972B07C56409ABCB24,block=54406016,direction=buy,dai_in=9.931031577546939E1,dai_out=0E0,lgns_in=0E0,lgns_out=1.590659018E0",
+            "sample_event_2": "tx=0x420F42FFB66BB58712755EE0EC9CC4D6CD8B92BDF8804E3C768AA994E42968F6,block=54410709,direction=buy,dai_in=2.573887328302984E1,dai_out=0E0,lgns_in=0E0,lgns_out=4.04538789E-1",
+            "sample_event_3": "tx=0x855BBFCCDCF24C919A79E7EB3307BC959DA553BD1A1B3C991B0E09BB5364D190,block=54395693,direction=buy,dai_in=9.97668613659649E1,dai_out=0E0,lgns_in=0E0,lgns_out=1.423748994E0"
+          },
+          {
+            "date": "2024-03-09",
+            "buy_count": 970,
+            "sell_count": 1401,
+            "swap_count": 2371,
+            "buy_lgns": 2993.1257224200062,
+            "sell_lgns": 4168.572341871995,
+            "buy_volume_dai": 160099.89803398246,
+            "sell_volume_dai": 221008.6003177999,
+            "result_volume_dai": -60908.70228381743,
+            "result_volume_byday": 681786.2877321538,
+            "net_dai_flow": -60908.70228381738,
+            "history_start": "2024-03-06 16:58:16.000 UTC",
+            "history_end": "2026-08-20 12:57:27.000 UTC",
+            "raw_swap_count": 304180216,
+            "unclassified_swap_count": 197,
+            "sample_event_1": "tx=0xA058B690667A428E48A8ABDD77F01A41A46CB2D219890774940A7B79C1D03E5F,block=54441730,direction=buy,dai_in=1.4628137672245623E2,dai_out=0E0,lgns_in=0E0,lgns_out=2.704479979E0",
+            "sample_event_2": "tx=0xC16F25E0AA373ED85FC8B40C14726518103FEE083143756DDB6479B5AA5E5441,block=54450641,direction=sell,dai_in=0E0,dai_out=3.352559752040129E2,lgns_in=6.322057865E0,lgns_out=0E0",
+            "sample_event_3": "tx=0xC16F25E0AA373ED85FC8B40C14726518103FEE083143756DDB6479B5AA5E5441,block=54450641,direction=sell,dai_in=0E0,dai_out=7.05982335378586E0,lgns_in=1.33095955E-1,lgns_out=0E0"
+          },
+          {
+            "date": "2024-03-10",
+            "buy_count": 637,
+            "sell_count": 1065,
+            "swap_count": 1702,
+            "buy_lgns": 1017.2406804239994,
+            "sell_lgns": 3793.0430904380014,
+            "buy_volume_dai": 45722.504801835166,
+            "sell_volume_dai": 171684.59906876195,
+            "result_volume_dai": -125962.09426692678,
+            "result_volume_byday": 555824.193465227,
+            "net_dai_flow": -125962.09426692681,
+            "history_start": "2024-03-06 16:58:16.000 UTC",
+            "history_end": "2026-08-20 12:57:27.000 UTC",
+            "raw_swap_count": 304180216,
+            "unclassified_swap_count": 197,
+            "sample_event_1": "tx=0x5DE265879B48CECE8A52029AE07DBFAB1D5CAA80B3B4F00BB36D12B235C17837,block=54492949,direction=buy,dai_in=4.9950461803243236E1,dai_out=0E0,lgns_in=0E0,lgns_out=1.183513419E0",
+            "sample_event_2": "tx=0x22AFBFEEF4F6F31D24C147F1F3BECF6BC1EAC78FE3CE31504F5F7222D46BEFEF,block=54491484,direction=sell,dai_in=0E0,dai_out=1.4248081082653392E0,lgns_in=3.379092E-2,lgns_out=0E0",
+            "sample_event_3": "tx=0x22AFBFEEF4F6F31D24C147F1F3BECF6BC1EAC78FE3CE31504F5F7222D46BEFEF,block=54491484,direction=sell,dai_in=0E0,dai_out=6.411647297616219E-1,lgns_in=1.5205914E-2,lgns_out=0E0"
+          }
+        ]
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

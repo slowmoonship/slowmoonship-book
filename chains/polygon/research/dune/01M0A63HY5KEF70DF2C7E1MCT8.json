@@ -1,0 +1,165 @@
+{
+  "result": {
+    "_meta": {
+      "mcp_event_id": "aa8b5b87-27ac-40e5-9658-c04028bcfea6"
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"executionId\":\"01M0A63HY5KEF70DF2C7E1MCT8\",\"state\":\"COMPLETED\",\"resultMetadata\":{\"columns\":[{\"name\":\"date\",\"type\":\"date\"},{\"name\":\"stake_count\",\"type\":\"bigint\"},{\"name\":\"stake_lgns\",\"type\":\"double\"},{\"name\":\"unique_stakers\",\"type\":\"bigint\"},{\"name\":\"history_start\",\"type\":\"timestamp(3) with time zone\"},{\"name\":\"history_end\",\"type\":\"timestamp(3) with time zone\"},{\"name\":\"row_count\",\"type\":\"bigint\"},{\"name\":\"raw_stake_event_count\",\"type\":\"bigint\"},{\"name\":\"sample_tx_hash\",\"type\":\"varbinary\"},{\"name\":\"sample_block_number\",\"type\":\"bigint\"},{\"name\":\"sample_event_index\",\"type\":\"integer\"},{\"name\":\"sample_stake_lgns\",\"type\":\"double\"},{\"name\":\"unstake_coverage_status\",\"type\":\"varchar(58)\"},{\"name\":\"lgns_decimals\",\"type\":\"integer\"}],\"totalRowCount\":896,\"executionCostCredits\":\"130.873\"},\"data\":{\"rows\":[{\"date\":\"2024-03-06\",\"stake_count\":383,\"stake_lgns\":14606.721618806998,\"unique_stakers\":349,\"history_start\":\"2024-03-06 16:40:22.000 UTC\",\"history_end\":\"2026-08-18 10:13:12.000 UTC\",\"row_count\":896,\"raw_stake_event_count\":74521621,\"sample_tx_hash\":\"0x772e9ccfe8fd6e142140bb1c34d3fd428a6e39f9e83a405785581c2688fc74ce\",\"sample_block_number\":54339984,\"sample_event_index\":24,\"sample_stake_lgns\":1,\"unstake_coverage_status\":\"UNSTAKE_NOT_INCLUDED_NO_EXPLICIT_EVENT_FREE_ENGINE_TIMEOUT\",\"lgns_decimals\":9},{\"date\":\"2024-03-07\",\"stake_count\":1140,\"stake_lgns\":24976.277584622,\"unique_stakers\":710,\"history_start\":\"2024-03-06 16:40:22.000 UTC\",\"history_end\":\"2026-08-18 10:13:12.000 UTC\",\"row_count\":896,\"raw_stake_event_count\":74521621,\"sample_tx_hash\":\"0x3307781c603c72d65855e63a99f726a5dbddb39f9d76c53f1fec37552cef6486\",\"sample_block_number\":54351944,\"sample_event_index\":236,\"sample_stake_lgns\":1.785823869,\"unstake_coverage_status\":\"UNSTAKE_NOT_INCLUDED_NO_EXPLICIT_EVENT_FREE_ENGINE_TIMEOUT\",\"lgns_decimals\":9},{\"date\":\"2024-03-08\",\"stake_count\":846,\"stake_lgns\":4271.537181992,\"unique_stakers\":451,\"history_start\":\"2024-03-06 16:40:22.000 UTC\",\"history_end\":\"2026-08-18 10:13:12.000 UTC\",\"row_count\":896,\"raw_stake_event_count\":74521621,\"sample_tx_hash\":\"0xde470977b89762b343b52ff1180d2ee0b417cb27049729abdf5f2e06eaf86579\",\"sample_block_number\":54391492,\"sample_event_index\":26,\"sample_stake_lgns\":1.482591378,\"unstake_coverage_status\":\"UNSTAKE_NOT_INCLUDED_NO_EXPLICIT_EVENT_FREE_ENGINE_TIMEOUT\",\"lgns_decimals\":9},{\"date\":\"2024-03-09\",\"stake_count\":1103,\"stake_lgns\":3689.3079069529986,\"unique_stakers\":496,\"history_start\":\"2024-03-06 16:40:22.000 UTC\",\"history_end\":\"2026-08-18 10:13:12.000 UTC\",\"row_count\":896,\"raw_stake_event_count\":74521621,\"sample_tx_hash\":\"0x08bf5caf7f335986539f0da4a298497662181275ed2eeee60b58e268ddfba905\",\"sample_block_number\":54431401,\"sample_event_index\":62,\"sample_stake_lgns\":0.189663479,\"unstake_coverage_status\":\"UNSTAKE_NOT_INCLUDED_NO_EXPLICIT_EVENT_FREE_ENGINE_TIMEOUT\",\"lgns_decimals\":9},{\"date\":\"2024-03-10\",\"stake_count\":975,\"stake_lgns\":3119.8395378719997,\"unique_stakers\":466,\"history_start\":\"2024-03-06 16:40:22.000 UTC\",\"history_end\":\"2026-08-18 10:13:12.000 UTC\",\"row_count\":896,\"raw_stake_event_count\":74521621,\"sample_tx_hash\":\"0x48ecc787f579909ad074b842f9161e55399cf36907eca560f495fb00868afec2\",\"sample_block_number\":54470183,\"sample_event_index\":19,\"sample_stake_lgns\":0.712296551,\"unstake_coverage_status\":\"UNSTAKE_NOT_INCLUDED_NO_EXPLICIT_EVENT_FREE_ENGINE_TIMEOUT\",\"lgns_decimals\":9}]}}"
+      }
+    ],
+    "structuredContent": {
+      "executionId": "01M0A63HY5KEF70DF2C7E1MCT8",
+      "state": "COMPLETED",
+      "resultMetadata": {
+        "columns": [
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "stake_count",
+            "type": "bigint"
+          },
+          {
+            "name": "stake_lgns",
+            "type": "double"
+          },
+          {
+            "name": "unique_stakers",
+            "type": "bigint"
+          },
+          {
+            "name": "history_start",
+            "type": "timestamp(3) with time zone"
+          },
+          {
+            "name": "history_end",
+            "type": "timestamp(3) with time zone"
+          },
+          {
+            "name": "row_count",
+            "type": "bigint"
+          },
+          {
+            "name": "raw_stake_event_count",
+            "type": "bigint"
+          },
+          {
+            "name": "sample_tx_hash",
+            "type": "varbinary"
+          },
+          {
+            "name": "sample_block_number",
+            "type": "bigint"
+          },
+          {
+            "name": "sample_event_index",
+            "type": "integer"
+          },
+          {
+            "name": "sample_stake_lgns",
+            "type": "double"
+          },
+          {
+            "name": "unstake_coverage_status",
+            "type": "varchar(58)"
+          },
+          {
+            "name": "lgns_decimals",
+            "type": "integer"
+          }
+        ],
+        "totalRowCount": 896,
+        "executionCostCredits": "130.873"
+      },
+      "data": {
+        "rows": [
+          {
+            "date": "2024-03-06",
+            "stake_count": 383,
+            "stake_lgns": 14606.721618806998,
+            "unique_stakers": 349,
+            "history_start": "2024-03-06 16:40:22.000 UTC",
+            "history_end": "2026-08-18 10:13:12.000 UTC",
+            "row_count": 896,
+            "raw_stake_event_count": 74521621,
+            "sample_tx_hash": "0x772e9ccfe8fd6e142140bb1c34d3fd428a6e39f9e83a405785581c2688fc74ce",
+            "sample_block_number": 54339984,
+            "sample_event_index": 24,
+            "sample_stake_lgns": 1,
+            "unstake_coverage_status": "UNSTAKE_NOT_INCLUDED_NO_EXPLICIT_EVENT_FREE_ENGINE_TIMEOUT",
+            "lgns_decimals": 9
+          },
+          {
+            "date": "2024-03-07",
+            "stake_count": 1140,
+            "stake_lgns": 24976.277584622,
+            "unique_stakers": 710,
+            "history_start": "2024-03-06 16:40:22.000 UTC",
+            "history_end": "2026-08-18 10:13:12.000 UTC",
+            "row_count": 896,
+            "raw_stake_event_count": 74521621,
+            "sample_tx_hash": "0x3307781c603c72d65855e63a99f726a5dbddb39f9d76c53f1fec37552cef6486",
+            "sample_block_number": 54351944,
+            "sample_event_index": 236,
+            "sample_stake_lgns": 1.785823869,
+            "unstake_coverage_status": "UNSTAKE_NOT_INCLUDED_NO_EXPLICIT_EVENT_FREE_ENGINE_TIMEOUT",
+            "lgns_decimals": 9
+          },
+          {
+            "date": "2024-03-08",
+            "stake_count": 846,
+            "stake_lgns": 4271.537181992,
+            "unique_stakers": 451,
+            "history_start": "2024-03-06 16:40:22.000 UTC",
+            "history_end": "2026-08-18 10:13:12.000 UTC",
+            "row_count": 896,
+            "raw_stake_event_count": 74521621,
+            "sample_tx_hash": "0xde470977b89762b343b52ff1180d2ee0b417cb27049729abdf5f2e06eaf86579",
+            "sample_block_number": 54391492,
+            "sample_event_index": 26,
+            "sample_stake_lgns": 1.482591378,
+            "unstake_coverage_status": "UNSTAKE_NOT_INCLUDED_NO_EXPLICIT_EVENT_FREE_ENGINE_TIMEOUT",
+            "lgns_decimals": 9
+          },
+          {
+            "date": "2024-03-09",
+            "stake_count": 1103,
+            "stake_lgns": 3689.3079069529986,
+            "unique_stakers": 496,
+            "history_start": "2024-03-06 16:40:22.000 UTC",
+            "history_end": "2026-08-18 10:13:12.000 UTC",
+            "row_count": 896,
+            "raw_stake_event_count": 74521621,
+            "sample_tx_hash": "0x08bf5caf7f335986539f0da4a298497662181275ed2eeee60b58e268ddfba905",
+            "sample_block_number": 54431401,
+            "sample_event_index": 62,
+            "sample_stake_lgns": 0.189663479,
+            "unstake_coverage_status": "UNSTAKE_NOT_INCLUDED_NO_EXPLICIT_EVENT_FREE_ENGINE_TIMEOUT",
+            "lgns_decimals": 9
+          },
+          {
+            "date": "2024-03-10",
+            "stake_count": 975,
+            "stake_lgns": 3119.8395378719997,
+            "unique_stakers": 466,
+            "history_start": "2024-03-06 16:40:22.000 UTC",
+            "history_end": "2026-08-18 10:13:12.000 UTC",
+            "row_count": 896,
+            "raw_stake_event_count": 74521621,
+            "sample_tx_hash": "0x48ecc787f579909ad074b842f9161e55399cf36907eca560f495fb00868afec2",
+            "sample_block_number": 54470183,
+            "sample_event_index": 19,
+            "sample_stake_lgns": 0.712296551,
+            "unstake_coverage_status": "UNSTAKE_NOT_INCLUDED_NO_EXPLICIT_EVENT_FREE_ENGINE_TIMEOUT",
+            "lgns_decimals": 9
+          }
+        ]
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

@@ -1,0 +1,3462 @@
+[
+  {
+    "query_id": 8369227,
+    "title": "LGNS/DAI Daily Liquidity Events ｜ LGNS/DAI 每日流动性变化",
+    "query_url": "https://dune.com/queries/8369227",
+    "version": 3,
+    "sql_file": "research/lgns/original_sql/8369227.sql",
+    "tables": [
+      "quickswap_polygon.uniswapv2pair_evt_burn",
+      "quickswap_polygon.uniswapv2pair_evt_mint",
+      "tokens.supply_latest"
+    ],
+    "execution_id": "01M0A3P9ANFK5JETN7M01GRTCF",
+    "execution_id_created_utc": "2026-08-18T09:36:55.637000+00:00",
+    "execution_time_note": "ULID-derived identifier timestamp; not independently retrieved start/end time",
+    "result_columns": [
+      {
+        "name": "date",
+        "type": "date"
+      },
+      {
+        "name": "add_liquidity_count",
+        "type": "bigint"
+      },
+      {
+        "name": "remove_liquidity_count",
+        "type": "bigint"
+      },
+      {
+        "name": "add_dai",
+        "type": "double"
+      },
+      {
+        "name": "add_lgns",
+        "type": "double"
+      },
+      {
+        "name": "remove_dai",
+        "type": "double"
+      },
+      {
+        "name": "remove_lgns",
+        "type": "double"
+      },
+      {
+        "name": "net_dai",
+        "type": "double"
+      },
+      {
+        "name": "net_lgns",
+        "type": "double"
+      },
+      {
+        "name": "history_start",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "history_end",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "raw_event_count",
+        "type": "bigint"
+      },
+      {
+        "name": "duplicate_event_rows",
+        "type": "bigint"
+      },
+      {
+        "name": "sample_event_1",
+        "type": "varchar"
+      },
+      {
+        "name": "sample_event_2",
+        "type": "varchar"
+      },
+      {
+        "name": "sample_event_3",
+        "type": "varchar"
+      }
+    ],
+    "execution_state": "COMPLETED",
+    "rows_retrieved": 5,
+    "total_rows": 896,
+    "historical_cost": "6.708",
+    "dashboard": "auxiliary",
+    "sql_text_historical_binding": "CURRENT_SAVED_SQL_AND_LATEST_EXECUTION_RETRIEVED; EXECUTED_SQL_VERSION_NOT_INDEPENDENTLY_BOUND",
+    "status": "HISTORICAL_RESULT_RETRIEVED_NOT_RERUN",
+    "chapters": [
+      37,
+      38,
+      39,
+      40
+    ],
+    "fields_note": "See exact SELECT and resultMetadata column snapshot; aliases are not raw columns."
+  },
+  {
+    "query_id": 8369303,
+    "title": "LGNS/DAI Daily Swap Flow ｜ LGNS/DAI 累计每日买卖成交",
+    "query_url": "https://dune.com/queries/8369303",
+    "version": 9,
+    "sql_file": "research/lgns/original_sql/8369303.sql",
+    "tables": [
+      "quickswap_polygon.uniswapv2pair_evt_swap",
+      "tokens.supply_latest"
+    ],
+    "execution_id": "01M0FMD36T1B5TZ3SG0YN54ZDV",
+    "execution_id_created_utc": "2026-08-20T13:05:12.410000+00:00",
+    "execution_time_note": "ULID-derived identifier timestamp; not independently retrieved start/end time",
+    "result_columns": [
+      {
+        "name": "date",
+        "type": "date"
+      },
+      {
+        "name": "buy_count",
+        "type": "bigint"
+      },
+      {
+        "name": "sell_count",
+        "type": "bigint"
+      },
+      {
+        "name": "swap_count",
+        "type": "bigint"
+      },
+      {
+        "name": "buy_lgns",
+        "type": "double"
+      },
+      {
+        "name": "sell_lgns",
+        "type": "double"
+      },
+      {
+        "name": "buy_volume_dai",
+        "type": "double"
+      },
+      {
+        "name": "sell_volume_dai",
+        "type": "double"
+      },
+      {
+        "name": "result_volume_dai",
+        "type": "double"
+      },
+      {
+        "name": "result_volume_byday",
+        "type": "double"
+      },
+      {
+        "name": "net_dai_flow",
+        "type": "double"
+      },
+      {
+        "name": "history_start",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "history_end",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "raw_swap_count",
+        "type": "bigint"
+      },
+      {
+        "name": "unclassified_swap_count",
+        "type": "bigint"
+      },
+      {
+        "name": "sample_event_1",
+        "type": "varchar"
+      },
+      {
+        "name": "sample_event_2",
+        "type": "varchar"
+      },
+      {
+        "name": "sample_event_3",
+        "type": "varchar"
+      }
+    ],
+    "execution_state": "COMPLETED",
+    "rows_retrieved": 5,
+    "total_rows": 898,
+    "historical_cost": "13.033",
+    "dashboard": "auxiliary",
+    "sql_text_historical_binding": "CURRENT_SAVED_SQL_AND_LATEST_EXECUTION_RETRIEVED; EXECUTED_SQL_VERSION_NOT_INDEPENDENTLY_BOUND",
+    "status": "HISTORICAL_RESULT_RETRIEVED_NOT_RERUN",
+    "chapters": [
+      37,
+      38,
+      39,
+      40
+    ],
+    "fields_note": "See exact SELECT and resultMetadata column snapshot; aliases are not raw columns."
+  },
+  {
+    "query_id": 8369505,
+    "title": "LGNS Staking Activity ｜ LGNS 质押活动",
+    "query_url": "https://dune.com/queries/8369505",
+    "version": 7,
+    "sql_file": "research/lgns/original_sql/8369505.sql",
+    "tables": [
+      "polygon.logs",
+      "tokens.supply_latest"
+    ],
+    "execution_id": "01M0A63HY5KEF70DF2C7E1MCT8",
+    "execution_id_created_utc": "2026-08-18T10:19:07.589000+00:00",
+    "execution_time_note": "ULID-derived identifier timestamp; not independently retrieved start/end time",
+    "result_columns": [
+      {
+        "name": "date",
+        "type": "date"
+      },
+      {
+        "name": "stake_count",
+        "type": "bigint"
+      },
+      {
+        "name": "stake_lgns",
+        "type": "double"
+      },
+      {
+        "name": "unique_stakers",
+        "type": "bigint"
+      },
+      {
+        "name": "history_start",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "history_end",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "row_count",
+        "type": "bigint"
+      },
+      {
+        "name": "raw_stake_event_count",
+        "type": "bigint"
+      },
+      {
+        "name": "sample_tx_hash",
+        "type": "varbinary"
+      },
+      {
+        "name": "sample_block_number",
+        "type": "bigint"
+      },
+      {
+        "name": "sample_event_index",
+        "type": "integer"
+      },
+      {
+        "name": "sample_stake_lgns",
+        "type": "double"
+      },
+      {
+        "name": "unstake_coverage_status",
+        "type": "varchar(58)"
+      },
+      {
+        "name": "lgns_decimals",
+        "type": "integer"
+      }
+    ],
+    "execution_state": "COMPLETED",
+    "rows_retrieved": 5,
+    "total_rows": 896,
+    "historical_cost": "130.873",
+    "dashboard": "auxiliary",
+    "sql_text_historical_binding": "CURRENT_SAVED_SQL_AND_LATEST_EXECUTION_RETRIEVED; EXECUTED_SQL_VERSION_NOT_INDEPENDENTLY_BOUND",
+    "status": "HISTORICAL_RESULT_RETRIEVED_NOT_RERUN",
+    "chapters": [
+      37,
+      38,
+      39,
+      40
+    ],
+    "fields_note": "See exact SELECT and resultMetadata column snapshot; aliases are not raw columns."
+  },
+  {
+    "query_id": 8369671,
+    "title": "sLGNS Rebase History ｜ sLGNS Rebase 历史",
+    "query_url": "https://dune.com/queries/8369671",
+    "version": 2,
+    "sql_file": "research/lgns/original_sql/8369671.sql",
+    "tables": [
+      "polygon.logs",
+      "tokens.supply_latest"
+    ],
+    "execution_id": "01M0A6A30NMR688RY029MSGRH5",
+    "execution_id_created_utc": "2026-08-18T10:22:41.685000+00:00",
+    "execution_time_note": "ULID-derived identifier timestamp; not independently retrieved start/end time",
+    "result_columns": [
+      {
+        "name": "block_time",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "block_number",
+        "type": "bigint"
+      },
+      {
+        "name": "tx_hash",
+        "type": "varbinary"
+      },
+      {
+        "name": "event_index",
+        "type": "integer"
+      },
+      {
+        "name": "epoch",
+        "type": "uint256"
+      },
+      {
+        "name": "rebase_raw",
+        "type": "uint256"
+      },
+      {
+        "name": "rebase_rate",
+        "type": "double"
+      },
+      {
+        "name": "rebase_percent",
+        "type": "double"
+      },
+      {
+        "name": "index_raw",
+        "type": "uint256"
+      },
+      {
+        "name": "index",
+        "type": "double"
+      },
+      {
+        "name": "history_start",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "history_end",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "row_count",
+        "type": "bigint"
+      },
+      {
+        "name": "rebase_amount_status",
+        "type": "varchar(24)"
+      },
+      {
+        "name": "slgns_decimals",
+        "type": "integer"
+      }
+    ],
+    "execution_state": "COMPLETED",
+    "rows_retrieved": 5,
+    "total_rows": 2632,
+    "historical_cost": "10.393",
+    "dashboard": "lgns",
+    "sql_text_historical_binding": "CURRENT_SAVED_SQL_AND_LATEST_EXECUTION_RETRIEVED; EXECUTED_SQL_VERSION_NOT_INDEPENDENTLY_BOUND",
+    "status": "HISTORICAL_RESULT_RETRIEVED_NOT_RERUN",
+    "chapters": [
+      37,
+      38,
+      39,
+      40
+    ],
+    "fields_note": "See exact SELECT and resultMetadata column snapshot; aliases are not raw columns."
+  },
+  {
+    "query_id": 8389462,
+    "title": "LGNS Core Event Sanity Check ｜ LGNS核心事件数据质量核验",
+    "query_url": "https://dune.com/queries/8389462",
+    "version": 3,
+    "sql_file": "research/lgns/original_sql/8389462.sql",
+    "tables": [
+      "quickswap_polygon.uniswapv2pair_evt_swap"
+    ],
+    "execution_id": "01M0FQYVK9NT2JJHD359YDZ4R8",
+    "execution_id_created_utc": "2026-08-20T14:07:20.169000+00:00",
+    "execution_time_note": "ULID-derived identifier timestamp; not independently retrieved start/end time",
+    "result_columns": [
+      {
+        "name": "raw_event_count",
+        "type": "bigint"
+      },
+      {
+        "name": "distinct_event_key_count",
+        "type": "bigint"
+      },
+      {
+        "name": "distinct_tx_count",
+        "type": "bigint"
+      },
+      {
+        "name": "distinct_block_count",
+        "type": "bigint"
+      },
+      {
+        "name": "max_events_per_tx",
+        "type": "bigint"
+      },
+      {
+        "name": "max_events_per_block",
+        "type": "bigint"
+      },
+      {
+        "name": "avg_events_per_block",
+        "type": "double"
+      },
+      {
+        "name": "max_daily_events",
+        "type": "bigint"
+      },
+      {
+        "name": "history_start",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "history_end",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "raw_equals_unique",
+        "type": "boolean"
+      },
+      {
+        "name": "duplicate_event_rows",
+        "type": "bigint"
+      },
+      {
+        "name": "top_20_transactions",
+        "type": "array(varchar)"
+      },
+      {
+        "name": "top_20_blocks",
+        "type": "array(varchar)"
+      },
+      {
+        "name": "top_20_days",
+        "type": "array(varchar)"
+      },
+      {
+        "name": "query_02_snapshot_raw_count",
+        "type": "integer"
+      },
+      {
+        "name": "matches_query_02_snapshot",
+        "type": "boolean"
+      }
+    ],
+    "execution_state": "COMPLETED",
+    "rows_retrieved": 1,
+    "total_rows": 1,
+    "historical_cost": "31.859",
+    "dashboard": "auxiliary",
+    "sql_text_historical_binding": "CURRENT_SAVED_SQL_AND_LATEST_EXECUTION_RETRIEVED; EXECUTED_SQL_VERSION_NOT_INDEPENDENTLY_BOUND",
+    "status": "HISTORICAL_RESULT_RETRIEVED_NOT_RERUN",
+    "chapters": [
+      37,
+      38,
+      39,
+      40
+    ],
+    "fields_note": "See exact SELECT and resultMetadata column snapshot; aliases are not raw columns."
+  },
+  {
+    "query_id": 8389527,
+    "title": "LGNS Liquidity Event Sanity Check ｜ LGNS流动性事件数据质量核验",
+    "query_url": "https://dune.com/queries/8389527",
+    "version": 2,
+    "sql_file": "research/lgns/original_sql/8389527.sql",
+    "tables": [
+      "quickswap_polygon.uniswapv2pair_evt_burn",
+      "quickswap_polygon.uniswapv2pair_evt_mint"
+    ],
+    "execution_id": "01M0FR2S8GMTYSSG3Y6XDYQGHT",
+    "execution_id_created_utc": "2026-08-20T14:09:28.848000+00:00",
+    "execution_time_note": "ULID-derived identifier timestamp; not independently retrieved start/end time",
+    "result_columns": [
+      {
+        "name": "raw_event_count",
+        "type": "bigint"
+      },
+      {
+        "name": "distinct_event_key_count",
+        "type": "bigint"
+      },
+      {
+        "name": "mint_count",
+        "type": "bigint"
+      },
+      {
+        "name": "unique_mint_count",
+        "type": "bigint"
+      },
+      {
+        "name": "burn_count",
+        "type": "bigint"
+      },
+      {
+        "name": "unique_burn_count",
+        "type": "bigint"
+      },
+      {
+        "name": "distinct_tx_count",
+        "type": "bigint"
+      },
+      {
+        "name": "distinct_block_count",
+        "type": "bigint"
+      },
+      {
+        "name": "max_events_per_tx",
+        "type": "bigint"
+      },
+      {
+        "name": "max_events_per_block",
+        "type": "bigint"
+      },
+      {
+        "name": "max_daily_events",
+        "type": "bigint"
+      },
+      {
+        "name": "history_start",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "history_end",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "raw_equals_unique",
+        "type": "boolean"
+      },
+      {
+        "name": "duplicate_event_rows",
+        "type": "bigint"
+      },
+      {
+        "name": "top_20_transactions",
+        "type": "array(varchar)"
+      },
+      {
+        "name": "top_20_blocks",
+        "type": "array(varchar)"
+      },
+      {
+        "name": "top_20_days",
+        "type": "array(varchar)"
+      },
+      {
+        "name": "query_01_snapshot_raw_count",
+        "type": "integer"
+      },
+      {
+        "name": "matches_query_01_snapshot",
+        "type": "boolean"
+      }
+    ],
+    "execution_state": "COMPLETED",
+    "rows_retrieved": 1,
+    "total_rows": 1,
+    "historical_cost": "1.33",
+    "dashboard": "auxiliary",
+    "sql_text_historical_binding": "CURRENT_SAVED_SQL_AND_LATEST_EXECUTION_RETRIEVED; EXECUTED_SQL_VERSION_NOT_INDEPENDENTLY_BOUND",
+    "status": "HISTORICAL_RESULT_RETRIEVED_NOT_RERUN",
+    "chapters": [
+      37,
+      38,
+      39,
+      40
+    ],
+    "fields_note": "See exact SELECT and resultMetadata column snapshot; aliases are not raw columns."
+  },
+  {
+    "query_id": 8389535,
+    "title": "LGNS Staked Event Sanity Check ｜ LGNS质押事件数据质量核验",
+    "query_url": "https://dune.com/queries/8389535",
+    "version": 3,
+    "sql_file": "research/lgns/original_sql/8389535.sql",
+    "tables": [
+      "polygon.logs"
+    ],
+    "execution_id": "01M0FRBNKF551AQ4EF92GJQQ2E",
+    "execution_id_created_utc": "2026-08-20T14:14:20.015000+00:00",
+    "execution_time_note": "ULID-derived identifier timestamp; not independently retrieved start/end time",
+    "result_columns": [
+      {
+        "name": "raw_staked_count",
+        "type": "bigint"
+      },
+      {
+        "name": "distinct_event_key_count",
+        "type": "bigint"
+      },
+      {
+        "name": "distinct_tx_count",
+        "type": "bigint"
+      },
+      {
+        "name": "distinct_staker_count",
+        "type": "bigint"
+      },
+      {
+        "name": "distinct_block_count",
+        "type": "bigint"
+      },
+      {
+        "name": "max_events_per_tx",
+        "type": "bigint"
+      },
+      {
+        "name": "max_events_per_block",
+        "type": "bigint"
+      },
+      {
+        "name": "avg_events_per_block",
+        "type": "double"
+      },
+      {
+        "name": "max_daily_events",
+        "type": "bigint"
+      },
+      {
+        "name": "history_start",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "history_end",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "raw_equals_unique",
+        "type": "boolean"
+      },
+      {
+        "name": "duplicate_event_rows",
+        "type": "bigint"
+      },
+      {
+        "name": "top_20_transactions",
+        "type": "array(varchar)"
+      },
+      {
+        "name": "top_20_blocks",
+        "type": "array(varchar)"
+      },
+      {
+        "name": "top_20_days",
+        "type": "array(varchar)"
+      },
+      {
+        "name": "query_03_snapshot_raw_count",
+        "type": "integer"
+      },
+      {
+        "name": "matches_query_03_snapshot",
+        "type": "boolean"
+      }
+    ],
+    "execution_state": "COMPLETED",
+    "rows_retrieved": 1,
+    "total_rows": 1,
+    "historical_cost": "57.179",
+    "dashboard": "auxiliary",
+    "sql_text_historical_binding": "CURRENT_SAVED_SQL_AND_LATEST_EXECUTION_RETRIEVED; EXECUTED_SQL_VERSION_NOT_INDEPENDENTLY_BOUND",
+    "status": "HISTORICAL_RESULT_RETRIEVED_NOT_RERUN",
+    "chapters": [
+      37,
+      38,
+      39,
+      40
+    ],
+    "fields_note": "See exact SELECT and resultMetadata column snapshot; aliases are not raw columns."
+  },
+  {
+    "query_id": 8389592,
+    "title": "LGNS/DAI DAI Flow Reconciliation ｜ LGNS/DAI DAI资金守恒",
+    "query_url": "https://dune.com/queries/8389592",
+    "version": 3,
+    "sql_file": "research/lgns/original_sql/8389592.sql",
+    "tables": [
+      "query_8369227",
+      "query_8369303",
+      "quickswap_polygon.uniswapv2pair_evt_sync",
+      "tokens.supply_latest"
+    ],
+    "execution_id": "01M0FRYB87WXB3FJVC7N10X956",
+    "execution_id_created_utc": "2026-08-20T14:24:32.007000+00:00",
+    "execution_time_note": "ULID-derived identifier timestamp; not independently retrieved start/end time",
+    "result_columns": [
+      {
+        "name": "date",
+        "type": "date"
+      },
+      {
+        "name": "swap_dai_in",
+        "type": "double"
+      },
+      {
+        "name": "swap_dai_out",
+        "type": "double"
+      },
+      {
+        "name": "swap_net_dai",
+        "type": "double"
+      },
+      {
+        "name": "liquidity_add_dai",
+        "type": "double"
+      },
+      {
+        "name": "liquidity_remove_dai",
+        "type": "double"
+      },
+      {
+        "name": "liquidity_net_dai",
+        "type": "double"
+      },
+      {
+        "name": "total_pair_net_dai_flow",
+        "type": "double"
+      },
+      {
+        "name": "cumulative_swap_net_dai",
+        "type": "double"
+      },
+      {
+        "name": "cumulative_liquidity_net_dai",
+        "type": "double"
+      },
+      {
+        "name": "cumulative_total_pair_net_dai",
+        "type": "double"
+      },
+      {
+        "name": "decoded_swap_net_dai",
+        "type": "double"
+      },
+      {
+        "name": "unclassified_net_dai_gap",
+        "type": "double"
+      },
+      {
+        "name": "cumulative_decoded_total_pair_net_dai",
+        "type": "double"
+      },
+      {
+        "name": "pair_dai_balance",
+        "type": "double"
+      },
+      {
+        "name": "opening_dai_balance_offset",
+        "type": "double"
+      },
+      {
+        "name": "flow_reconciliation_gap",
+        "type": "double"
+      },
+      {
+        "name": "reconciliation_status",
+        "type": "varchar(31)"
+      },
+      {
+        "name": "swap_history_start",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "swap_history_end",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "liquidity_history_start",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "liquidity_history_end",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "raw_swap_count",
+        "type": "bigint"
+      },
+      {
+        "name": "unclassified_swap_count",
+        "type": "bigint"
+      },
+      {
+        "name": "liquidity_raw_event_count",
+        "type": "bigint"
+      }
+    ],
+    "execution_state": "COMPLETED",
+    "rows_retrieved": 5,
+    "total_rows": 898,
+    "historical_cost": "14.339",
+    "dashboard": "lgns",
+    "sql_text_historical_binding": "CURRENT_SAVED_SQL_AND_LATEST_EXECUTION_RETRIEVED; EXECUTED_SQL_VERSION_NOT_INDEPENDENTLY_BOUND",
+    "status": "HISTORICAL_RESULT_RETRIEVED_NOT_RERUN",
+    "chapters": [
+      37,
+      38,
+      39,
+      40
+    ],
+    "fields_note": "See exact SELECT and resultMetadata column snapshot; aliases are not raw columns."
+  },
+  {
+    "query_id": 8389682,
+    "title": "LGNS System External DAI Cash Flow ｜ LGNS体系外部DAI现金流",
+    "query_url": "https://dune.com/queries/8389682",
+    "version": 2,
+    "sql_file": "research/lgns/original_sql/8389682.sql",
+    "tables": [
+      "maker_polygon.dai_evt_transfer",
+      "tokens.supply_latest"
+    ],
+    "execution_id": "01M0FS808GY0KZ0N8MDD4TN57V",
+    "execution_id_created_utc": "2026-08-20T14:29:48.432000+00:00",
+    "execution_time_note": "ULID-derived identifier timestamp; not independently retrieved start/end time",
+    "result_columns": [
+      {
+        "name": "date",
+        "type": "date"
+      },
+      {
+        "name": "external_dai_in",
+        "type": "double"
+      },
+      {
+        "name": "external_dai_out",
+        "type": "double"
+      },
+      {
+        "name": "net_external_dai",
+        "type": "double"
+      },
+      {
+        "name": "internal_dai_transfer",
+        "type": "double"
+      },
+      {
+        "name": "external_in_tx_count",
+        "type": "bigint"
+      },
+      {
+        "name": "external_out_tx_count",
+        "type": "bigint"
+      },
+      {
+        "name": "unique_external_in_addresses",
+        "type": "bigint"
+      },
+      {
+        "name": "unique_external_out_addresses",
+        "type": "bigint"
+      },
+      {
+        "name": "cumulative_external_dai_in",
+        "type": "double"
+      },
+      {
+        "name": "cumulative_external_dai_out",
+        "type": "double"
+      },
+      {
+        "name": "cumulative_net_external_dai",
+        "type": "double"
+      },
+      {
+        "name": "internal_transfer_event_count",
+        "type": "bigint"
+      },
+      {
+        "name": "raw_boundary_event_count",
+        "type": "bigint"
+      },
+      {
+        "name": "unique_boundary_event_count",
+        "type": "bigint"
+      },
+      {
+        "name": "duplicate_event_rows",
+        "type": "bigint"
+      },
+      {
+        "name": "core_system_address_count",
+        "type": "integer"
+      },
+      {
+        "name": "history_start",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "history_end",
+        "type": "timestamp(3) with time zone"
+      }
+    ],
+    "execution_state": "COMPLETED",
+    "rows_retrieved": 5,
+    "total_rows": 898,
+    "historical_cost": "33.624",
+    "dashboard": "auxiliary",
+    "sql_text_historical_binding": "CURRENT_SAVED_SQL_AND_LATEST_EXECUTION_RETRIEVED; EXECUTED_SQL_VERSION_NOT_INDEPENDENTLY_BOUND",
+    "status": "HISTORICAL_RESULT_RETRIEVED_NOT_RERUN",
+    "chapters": [
+      37,
+      38,
+      39,
+      40
+    ],
+    "fields_note": "See exact SELECT and resultMetadata column snapshot; aliases are not raw columns."
+  },
+  {
+    "query_id": 8389804,
+    "title": "LGNS Holder Value Simulation ｜ LGNS持有人价值模拟",
+    "query_url": "https://dune.com/queries/8389804",
+    "version": 2,
+    "sql_file": "research/lgns/original_sql/8389804.sql",
+    "tables": [
+      "query_8369303",
+      "query_8369671"
+    ],
+    "execution_id": "01M0FTAP5B4K55PXCYBJ4EZHJ8",
+    "execution_id_created_utc": "2026-08-20T14:48:44.971000+00:00",
+    "execution_time_note": "ULID-derived identifier timestamp; not independently retrieved start/end time",
+    "result_columns": [
+      {
+        "name": "date",
+        "type": "date"
+      },
+      {
+        "name": "lgns_price_dai",
+        "type": "double"
+      },
+      {
+        "name": "slgns_index",
+        "type": "double"
+      },
+      {
+        "name": "balance_multiplier",
+        "type": "double"
+      },
+      {
+        "name": "simulated_lgns_balance",
+        "type": "double"
+      },
+      {
+        "name": "simulated_value_dai",
+        "type": "double"
+      },
+      {
+        "name": "token_balance_return_pct",
+        "type": "double"
+      },
+      {
+        "name": "dai_value_return_pct",
+        "type": "double"
+      },
+      {
+        "name": "token_balance_index",
+        "type": "double"
+      },
+      {
+        "name": "dai_value_index",
+        "type": "double"
+      },
+      {
+        "name": "price_index",
+        "type": "double"
+      },
+      {
+        "name": "simulation_start",
+        "type": "date"
+      },
+      {
+        "name": "initial_investment_dai",
+        "type": "double"
+      },
+      {
+        "name": "initial_lgns_price_dai",
+        "type": "double"
+      },
+      {
+        "name": "initial_lgns",
+        "type": "double"
+      },
+      {
+        "name": "initial_slgns_index",
+        "type": "double"
+      },
+      {
+        "name": "pricing_dai_volume",
+        "type": "double"
+      },
+      {
+        "name": "pricing_lgns_volume",
+        "type": "double"
+      },
+      {
+        "name": "day_last_rebase_time",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "day_rebase_count",
+        "type": "bigint"
+      },
+      {
+        "name": "raw_swap_count",
+        "type": "bigint"
+      },
+      {
+        "name": "unclassified_swap_count",
+        "type": "bigint"
+      }
+    ],
+    "execution_state": "COMPLETED",
+    "rows_retrieved": 5,
+    "total_rows": 898,
+    "historical_cost": "27.97",
+    "dashboard": "lgns",
+    "sql_text_historical_binding": "CURRENT_SAVED_SQL_AND_LATEST_EXECUTION_RETRIEVED; EXECUTED_SQL_VERSION_NOT_INDEPENDENTLY_BOUND",
+    "status": "HISTORICAL_RESULT_RETRIEVED_NOT_RERUN",
+    "chapters": [
+      37,
+      38,
+      39,
+      40
+    ],
+    "fields_note": "See exact SELECT and resultMetadata column snapshot; aliases are not raw columns."
+  },
+  {
+    "query_id": 8389881,
+    "title": "LGNS/DAI Largest Liquidity Removers ｜ LGNS/DAI最大流动性移除者",
+    "query_url": "https://dune.com/queries/8389881",
+    "version": 3,
+    "sql_file": "research/lgns/original_sql/8389881.sql",
+    "tables": [
+      "quickswap_polygon.uniswapv2pair_evt_burn",
+      "tokens.supply_latest"
+    ],
+    "execution_id": "01M0FXP1MAEZXT850JK1H4V3AP",
+    "execution_id_created_utc": "2026-08-20T15:47:22.890000+00:00",
+    "execution_time_note": "ULID-derived identifier timestamp; not independently retrieved start/end time",
+    "result_columns": [
+      {
+        "name": "block_time",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "block_number",
+        "type": "bigint"
+      },
+      {
+        "name": "tx_hash",
+        "type": "varbinary"
+      },
+      {
+        "name": "evt_index",
+        "type": "integer"
+      },
+      {
+        "name": "sender",
+        "type": "varbinary"
+      },
+      {
+        "name": "to",
+        "type": "varbinary"
+      },
+      {
+        "name": "tx_from",
+        "type": "varbinary"
+      },
+      {
+        "name": "dai_removed",
+        "type": "double"
+      },
+      {
+        "name": "lgns_removed",
+        "type": "double"
+      },
+      {
+        "name": "beneficiary_address",
+        "type": "varbinary"
+      },
+      {
+        "name": "beneficiary_method",
+        "type": "varchar(30)"
+      },
+      {
+        "name": "address_pattern",
+        "type": "varchar(40)"
+      },
+      {
+        "name": "remove_count",
+        "type": "bigint"
+      },
+      {
+        "name": "total_dai_removed",
+        "type": "double"
+      },
+      {
+        "name": "total_lgns_removed",
+        "type": "double"
+      },
+      {
+        "name": "first_remove_time",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "last_remove_time",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "share_of_total_removed_dai",
+        "type": "double"
+      },
+      {
+        "name": "beneficiary_rank",
+        "type": "bigint"
+      },
+      {
+        "name": "largest_event_rank",
+        "type": "bigint"
+      },
+      {
+        "name": "chart_beneficiary_address",
+        "type": "varchar"
+      },
+      {
+        "name": "chart_total_dai_removed",
+        "type": "double"
+      },
+      {
+        "name": "burn_event_count",
+        "type": "bigint"
+      },
+      {
+        "name": "unique_burn_event_count",
+        "type": "bigint"
+      },
+      {
+        "name": "duplicate_event_rows",
+        "type": "bigint"
+      },
+      {
+        "name": "total_dai_removed_all",
+        "type": "double"
+      },
+      {
+        "name": "total_lgns_removed_all",
+        "type": "double"
+      },
+      {
+        "name": "top1_beneficiary_address",
+        "type": "varchar"
+      },
+      {
+        "name": "top1_total_dai_removed",
+        "type": "double"
+      },
+      {
+        "name": "top10_share_of_total_removed_dai",
+        "type": "double"
+      },
+      {
+        "name": "top20_share_of_total_removed_dai",
+        "type": "double"
+      },
+      {
+        "name": "unresolved_event_count",
+        "type": "bigint"
+      }
+    ],
+    "execution_state": "COMPLETED",
+    "rows_retrieved": 5,
+    "total_rows": 11687,
+    "historical_cost": "7.407",
+    "dashboard": "auxiliary",
+    "sql_text_historical_binding": "CURRENT_SAVED_SQL_AND_LATEST_EXECUTION_RETRIEVED; EXECUTED_SQL_VERSION_NOT_INDEPENDENTLY_BOUND",
+    "status": "HISTORICAL_RESULT_RETRIEVED_NOT_RERUN",
+    "chapters": [
+      37,
+      38,
+      39,
+      40
+    ],
+    "fields_note": "See exact SELECT and resultMetadata column snapshot; aliases are not raw columns."
+  },
+  {
+    "query_id": 8390237,
+    "title": "LGNS Burn Count Reconciliation ｜ LGNS Burn数量差异核对",
+    "query_url": "https://dune.com/queries/8390237",
+    "version": 2,
+    "sql_file": "research/lgns/original_sql/8390237.sql",
+    "tables": [
+      "quickswap_polygon.uniswapv2pair_evt_burn"
+    ],
+    "execution_id": "01M0FXJH2MZ68QFMZGQTV5QWFJ",
+    "execution_id_created_utc": "2026-08-20T15:45:27.636000+00:00",
+    "execution_time_note": "ULID-derived identifier timestamp; not independently retrieved start/end time",
+    "result_columns": [
+      {
+        "name": "block_time",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "block_number",
+        "type": "bigint"
+      },
+      {
+        "name": "tx_hash",
+        "type": "varbinary"
+      },
+      {
+        "name": "evt_index",
+        "type": "integer"
+      },
+      {
+        "name": "contract_address",
+        "type": "varbinary"
+      },
+      {
+        "name": "sender",
+        "type": "varbinary"
+      },
+      {
+        "name": "to",
+        "type": "varbinary"
+      },
+      {
+        "name": "amount0",
+        "type": "uint256"
+      },
+      {
+        "name": "amount1",
+        "type": "uint256"
+      },
+      {
+        "name": "q05_present",
+        "type": "boolean"
+      },
+      {
+        "name": "q09_present",
+        "type": "boolean"
+      },
+      {
+        "name": "difference_reason",
+        "type": "varchar(55)"
+      },
+      {
+        "name": "q05_burn_count",
+        "type": "bigint"
+      },
+      {
+        "name": "q09_burn_count",
+        "type": "bigint"
+      },
+      {
+        "name": "q05_only_count",
+        "type": "bigint"
+      },
+      {
+        "name": "q09_only_count",
+        "type": "bigint"
+      },
+      {
+        "name": "q05_remove_dai",
+        "type": "double"
+      },
+      {
+        "name": "q09_remove_dai",
+        "type": "double"
+      },
+      {
+        "name": "difference_remove_dai",
+        "type": "double"
+      }
+    ],
+    "execution_state": "COMPLETED",
+    "rows_retrieved": 5,
+    "total_rows": 11,
+    "historical_cost": "3.871",
+    "dashboard": "auxiliary",
+    "sql_text_historical_binding": "CURRENT_SAVED_SQL_AND_LATEST_EXECUTION_RETRIEVED; EXECUTED_SQL_VERSION_NOT_INDEPENDENTLY_BOUND",
+    "status": "HISTORICAL_RESULT_RETRIEVED_NOT_RERUN",
+    "chapters": [
+      37,
+      38,
+      39,
+      40
+    ],
+    "fields_note": "See exact SELECT and resultMetadata column snapshot; aliases are not raw columns."
+  },
+  {
+    "query_id": 8390372,
+    "title": "LGNS Realizable Exit Value ｜ LGNS真实可兑现退出价值",
+    "query_url": "https://dune.com/queries/8390372",
+    "version": 3,
+    "sql_file": "research/lgns/original_sql/8390372.sql",
+    "tables": [
+      "query_8369227",
+      "query_8369303",
+      "query_8369671",
+      "query_8389804",
+      "quickswap_polygon.uniswapv2pair_evt_swap",
+      "quickswap_polygon.uniswapv2pair_evt_sync"
+    ],
+    "execution_id": "01M0G0AV770V3FWAFQR7N3M2BZ",
+    "execution_id_created_utc": "2026-08-20T16:33:41.607000+00:00",
+    "execution_time_note": "ULID-derived identifier timestamp; not independently retrieved start/end time",
+    "result_columns": [
+      {
+        "name": "date",
+        "type": "date"
+      },
+      {
+        "name": "initial_capital_dai",
+        "type": "double"
+      },
+      {
+        "name": "simulated_lgns_balance",
+        "type": "double"
+      },
+      {
+        "name": "spot_price_dai",
+        "type": "double"
+      },
+      {
+        "name": "mark_to_market_value_dai",
+        "type": "double"
+      },
+      {
+        "name": "reserve_lgns",
+        "type": "double"
+      },
+      {
+        "name": "reserve_dai",
+        "type": "double"
+      },
+      {
+        "name": "reserve_spot_price_dai",
+        "type": "double"
+      },
+      {
+        "name": "reserve_time",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "after_token_fee_lgns",
+        "type": "double"
+      },
+      {
+        "name": "amm_exit_value_dai",
+        "type": "double"
+      },
+      {
+        "name": "fee_adjusted_exit_value_dai",
+        "type": "double"
+      },
+      {
+        "name": "amm_exit_discount_pct",
+        "type": "double"
+      },
+      {
+        "name": "fee_adjusted_exit_discount_pct",
+        "type": "double"
+      },
+      {
+        "name": "price_impact_pct",
+        "type": "double"
+      },
+      {
+        "name": "amm_fee_rate",
+        "type": "double"
+      },
+      {
+        "name": "token_sell_fee_rate",
+        "type": "double"
+      },
+      {
+        "name": "final_date",
+        "type": "date"
+      },
+      {
+        "name": "is_final_date",
+        "type": "boolean"
+      },
+      {
+        "name": "chart_1000_mark_to_market_value_dai",
+        "type": "double"
+      },
+      {
+        "name": "chart_1000_amm_exit_value_dai",
+        "type": "double"
+      },
+      {
+        "name": "chart_1000_fee_adjusted_exit_value_dai",
+        "type": "double"
+      },
+      {
+        "name": "chart_final_position_dai",
+        "type": "varchar"
+      },
+      {
+        "name": "chart_final_exit_discount_pct",
+        "type": "double"
+      },
+      {
+        "name": "table_final_token_balance",
+        "type": "double"
+      },
+      {
+        "name": "table_final_mark_to_market",
+        "type": "double"
+      },
+      {
+        "name": "table_final_amm_exit_value",
+        "type": "double"
+      },
+      {
+        "name": "table_final_fee_adjusted_exit_value",
+        "type": "double"
+      },
+      {
+        "name": "table_final_price_impact_pct",
+        "type": "double"
+      }
+    ],
+    "execution_state": "COMPLETED",
+    "rows_retrieved": 5,
+    "total_rows": 3584,
+    "historical_cost": "72.85",
+    "dashboard": "lgns",
+    "sql_text_historical_binding": "CURRENT_SAVED_SQL_AND_LATEST_EXECUTION_RETRIEVED; EXECUTED_SQL_VERSION_NOT_INDEPENDENTLY_BOUND",
+    "status": "HISTORICAL_RESULT_RETRIEVED_NOT_RERUN",
+    "chapters": [
+      37,
+      38,
+      39,
+      40
+    ],
+    "fields_note": "See exact SELECT and resultMetadata column snapshot; aliases are not raw columns."
+  },
+  {
+    "query_id": 8390785,
+    "title": "LGNS Liquidity Remover Attribution ｜ LGNS流动性移除地址归因",
+    "query_url": "https://dune.com/queries/8390785",
+    "version": 5,
+    "sql_file": "research/lgns/original_sql/8390785.sql",
+    "tables": [
+      "dune.slowmoonship"
+    ],
+    "execution_id": "01M0G2A9EYQS2THNMV5CFYB57C",
+    "execution_id_created_utc": "2026-08-20T17:08:20.574000+00:00",
+    "execution_time_note": "ULID-derived identifier timestamp; not independently retrieved start/end time",
+    "result_columns": [
+      {
+        "name": "row_type",
+        "type": "varchar(11)"
+      },
+      {
+        "name": "rank_number",
+        "type": "bigint"
+      },
+      {
+        "name": "address",
+        "type": "varchar"
+      },
+      {
+        "name": "address_type",
+        "type": "varchar"
+      },
+      {
+        "name": "dune_label",
+        "type": "varchar"
+      },
+      {
+        "name": "contract_or_eoa",
+        "type": "varchar"
+      },
+      {
+        "name": "creator_address",
+        "type": "varchar"
+      },
+      {
+        "name": "proxy_status",
+        "type": "varchar"
+      },
+      {
+        "name": "proxy_implementation",
+        "type": "varchar"
+      },
+      {
+        "name": "remove_count",
+        "type": "bigint"
+      },
+      {
+        "name": "total_dai_removed",
+        "type": "double"
+      },
+      {
+        "name": "total_lgns_removed",
+        "type": "double"
+      },
+      {
+        "name": "first_remove_time",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "last_remove_time",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "distinct_tx_from",
+        "type": "bigint"
+      },
+      {
+        "name": "top_tx_from",
+        "type": "varchar"
+      },
+      {
+        "name": "top_sender",
+        "type": "varchar"
+      },
+      {
+        "name": "main_caller",
+        "type": "varchar"
+      },
+      {
+        "name": "main_caller_call_count",
+        "type": "bigint"
+      },
+      {
+        "name": "first_hop_24h_destination",
+        "type": "varchar"
+      },
+      {
+        "name": "first_hop_24h_destination_dai",
+        "type": "double"
+      },
+      {
+        "name": "outbound_24h_dai",
+        "type": "double"
+      },
+      {
+        "name": "first_hop_7d_destination",
+        "type": "varchar"
+      },
+      {
+        "name": "first_hop_7d_destination_dai",
+        "type": "double"
+      },
+      {
+        "name": "outbound_7d_dai",
+        "type": "double"
+      },
+      {
+        "name": "window_24h_status",
+        "type": "varchar"
+      },
+      {
+        "name": "window_7d_status",
+        "type": "varchar"
+      },
+      {
+        "name": "source_remover_count_24h",
+        "type": "bigint"
+      },
+      {
+        "name": "source_remover_count_7d",
+        "type": "bigint"
+      },
+      {
+        "name": "destination_transfer_count_24h",
+        "type": "bigint"
+      },
+      {
+        "name": "destination_transfer_count_7d",
+        "type": "bigint"
+      },
+      {
+        "name": "destination_dai_received_24h",
+        "type": "double"
+      },
+      {
+        "name": "destination_dai_received_7d",
+        "type": "double"
+      },
+      {
+        "name": "destination_rank_7d",
+        "type": "bigint"
+      },
+      {
+        "name": "unlabeled_address_count",
+        "type": "bigint"
+      },
+      {
+        "name": "unknown_type_count",
+        "type": "bigint"
+      },
+      {
+        "name": "chart_remover_label",
+        "type": "varchar"
+      },
+      {
+        "name": "chart_remover_dai",
+        "type": "double"
+      },
+      {
+        "name": "chart_destination_label",
+        "type": "varchar"
+      },
+      {
+        "name": "chart_destination_dai",
+        "type": "double"
+      }
+    ],
+    "execution_state": "COMPLETED",
+    "rows_retrieved": 5,
+    "total_rows": 40,
+    "historical_cost": "0.648",
+    "dashboard": "lgns",
+    "sql_text_historical_binding": "CURRENT_SAVED_SQL_AND_LATEST_EXECUTION_RETRIEVED; EXECUTED_SQL_VERSION_NOT_INDEPENDENTLY_BOUND",
+    "status": "HISTORICAL_RESULT_RETRIEVED_NOT_RERUN",
+    "chapters": [
+      37,
+      38,
+      39,
+      40
+    ],
+    "fields_note": "See exact SELECT and resultMetadata column snapshot; aliases are not raw columns."
+  },
+  {
+    "query_id": 8390794,
+    "title": "LGNS Top20 Burn Attribution Base ｜ LGNS Top20撤池归因底表",
+    "query_url": "https://dune.com/queries/8390794",
+    "version": 2,
+    "sql_file": "research/lgns/original_sql/8390794.sql",
+    "tables": [
+      "contracts.contract_mapping",
+      "labels.owner_addresses",
+      "query_8389881"
+    ],
+    "execution_id": "01M0G1CEH3W1WSQM3GVKP3PHZB",
+    "execution_id_created_utc": "2026-08-20T16:52:02.723000+00:00",
+    "execution_time_note": "ULID-derived identifier timestamp; not independently retrieved start/end time",
+    "result_columns": [
+      {
+        "name": "beneficiary_address",
+        "type": "varbinary"
+      },
+      {
+        "name": "beneficiary_rank",
+        "type": "bigint"
+      },
+      {
+        "name": "block_time",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "tx_hash",
+        "type": "varbinary"
+      },
+      {
+        "name": "evt_index",
+        "type": "integer"
+      },
+      {
+        "name": "tx_from",
+        "type": "varbinary"
+      },
+      {
+        "name": "sender",
+        "type": "varbinary"
+      },
+      {
+        "name": "dai_removed",
+        "type": "double"
+      },
+      {
+        "name": "lgns_removed",
+        "type": "double"
+      },
+      {
+        "name": "remove_count",
+        "type": "bigint"
+      },
+      {
+        "name": "total_dai_removed",
+        "type": "double"
+      },
+      {
+        "name": "total_lgns_removed",
+        "type": "double"
+      },
+      {
+        "name": "first_remove_time",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "last_remove_time",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "has_contract_creation",
+        "type": "boolean"
+      },
+      {
+        "name": "contract_project",
+        "type": "varchar"
+      },
+      {
+        "name": "contract_name",
+        "type": "varchar"
+      },
+      {
+        "name": "creator_address",
+        "type": "varbinary"
+      },
+      {
+        "name": "created_time",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "created_tx_hash",
+        "type": "varbinary"
+      },
+      {
+        "name": "code_hex",
+        "type": "varchar"
+      },
+      {
+        "name": "is_self_destruct",
+        "type": "boolean"
+      },
+      {
+        "name": "dune_owner_label",
+        "type": "varchar"
+      },
+      {
+        "name": "dune_eoa_hint",
+        "type": "varchar"
+      },
+      {
+        "name": "dune_label_source",
+        "type": "varchar"
+      }
+    ],
+    "execution_state": "COMPLETED",
+    "rows_retrieved": 5,
+    "total_rows": 8568,
+    "historical_cost": "19.626",
+    "dashboard": "auxiliary",
+    "sql_text_historical_binding": "CURRENT_SAVED_SQL_AND_LATEST_EXECUTION_RETRIEVED; EXECUTED_SQL_VERSION_NOT_INDEPENDENTLY_BOUND",
+    "status": "HISTORICAL_RESULT_RETRIEVED_NOT_RERUN",
+    "chapters": [
+      37,
+      38,
+      39,
+      40
+    ],
+    "fields_note": "See exact SELECT and resultMetadata column snapshot; aliases are not raw columns."
+  },
+  {
+    "query_id": 8390841,
+    "title": "LGNS Top1 Contract Callers ｜ LGNS Top1合约调用者核验",
+    "query_url": "https://dune.com/queries/8390841",
+    "version": 2,
+    "sql_file": "research/lgns/original_sql/8390841.sql",
+    "tables": [
+      "polygon.transactions"
+    ],
+    "execution_id": "01M0G1G584AKZZPBCQAKDDJH2N",
+    "execution_id_created_utc": "2026-08-20T16:54:04.292000+00:00",
+    "execution_time_note": "ULID-derived identifier timestamp; not independently retrieved start/end time",
+    "result_columns": [
+      {
+        "name": "caller_address",
+        "type": "varchar"
+      },
+      {
+        "name": "call_count",
+        "type": "bigint"
+      },
+      {
+        "name": "first_call_time",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "last_call_time",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "first_method_id",
+        "type": "varchar"
+      },
+      {
+        "name": "last_method_id",
+        "type": "varchar"
+      },
+      {
+        "name": "caller_rank",
+        "type": "bigint"
+      }
+    ],
+    "execution_state": "COMPLETED",
+    "rows_retrieved": 1,
+    "total_rows": 1,
+    "historical_cost": "8.664",
+    "dashboard": "auxiliary",
+    "sql_text_historical_binding": "CURRENT_SAVED_SQL_AND_LATEST_EXECUTION_RETRIEVED; EXECUTED_SQL_VERSION_NOT_INDEPENDENTLY_BOUND",
+    "status": "HISTORICAL_RESULT_RETRIEVED_NOT_RERUN",
+    "chapters": [
+      37,
+      38,
+      39,
+      40
+    ],
+    "fields_note": "See exact SELECT and resultMetadata column snapshot; aliases are not raw columns."
+  },
+  {
+    "query_id": 8390867,
+    "title": "LGNS Top20 DAI First Hop Base ｜ LGNS Top20 DAI第一跳底表",
+    "query_url": "https://dune.com/queries/8390867",
+    "version": 2,
+    "sql_file": "research/lgns/original_sql/8390867.sql",
+    "tables": [
+      "maker_polygon.dai_evt_transfer",
+      "query_8390794"
+    ],
+    "execution_id": "01M0G1RBADJF14QYVZE2RFC7DN",
+    "execution_id_created_utc": "2026-08-20T16:58:32.653000+00:00",
+    "execution_time_note": "ULID-derived identifier timestamp; not independently retrieved start/end time",
+    "result_columns": [
+      {
+        "name": "source_remover",
+        "type": "varbinary"
+      },
+      {
+        "name": "destination_address",
+        "type": "varbinary"
+      },
+      {
+        "name": "transfer_count_24h",
+        "type": "bigint"
+      },
+      {
+        "name": "dai_sent_24h",
+        "type": "double"
+      },
+      {
+        "name": "transfer_count_7d",
+        "type": "bigint"
+      },
+      {
+        "name": "dai_sent_7d",
+        "type": "double"
+      },
+      {
+        "name": "first_transfer_time",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "last_transfer_time",
+        "type": "timestamp(3) with time zone"
+      }
+    ],
+    "execution_state": "COMPLETED",
+    "rows_retrieved": 5,
+    "total_rows": 66,
+    "historical_cost": "39.539",
+    "dashboard": "auxiliary",
+    "sql_text_historical_binding": "CURRENT_SAVED_SQL_AND_LATEST_EXECUTION_RETRIEVED; EXECUTED_SQL_VERSION_NOT_INDEPENDENTLY_BOUND",
+    "status": "HISTORICAL_RESULT_RETRIEVED_NOT_RERUN",
+    "chapters": [
+      37,
+      38,
+      39,
+      40
+    ],
+    "fields_note": "See exact SELECT and resultMetadata column snapshot; aliases are not raw columns."
+  },
+  {
+    "query_id": 8390998,
+    "title": "LGNS Pair Liquidity Transaction Flags ｜ LGNS交易对流动性交易标记",
+    "query_url": "https://dune.com/queries/8390998",
+    "version": 3,
+    "sql_file": "research/lgns/original_sql/8390998.sql",
+    "tables": [
+      "quickswap_polygon.uniswapv2pair_evt_burn",
+      "quickswap_polygon.uniswapv2pair_evt_mint"
+    ],
+    "execution_id": "01M0G2H68E3R2NN1QY1MREY8DV",
+    "execution_id_created_utc": "2026-08-20T17:12:06.670000+00:00",
+    "execution_time_note": "ULID-derived identifier timestamp; not independently retrieved start/end time",
+    "result_columns": [
+      {
+        "name": "tx_hash",
+        "type": "varbinary"
+      },
+      {
+        "name": "block_time",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "mint_event_count",
+        "type": "bigint"
+      },
+      {
+        "name": "burn_event_count",
+        "type": "bigint"
+      },
+      {
+        "name": "mint_event_dai",
+        "type": "double"
+      },
+      {
+        "name": "burn_event_dai",
+        "type": "double"
+      },
+      {
+        "name": "raw_event_count",
+        "type": "bigint"
+      },
+      {
+        "name": "unique_event_count",
+        "type": "bigint"
+      },
+      {
+        "name": "duplicate_event_rows",
+        "type": "bigint"
+      }
+    ],
+    "execution_state": "COMPLETED",
+    "rows_retrieved": 5,
+    "total_rows": 725139,
+    "historical_cost": "151.379",
+    "dashboard": "auxiliary",
+    "sql_text_historical_binding": "CURRENT_SAVED_SQL_AND_LATEST_EXECUTION_RETRIEVED; EXECUTED_SQL_VERSION_NOT_INDEPENDENTLY_BOUND",
+    "status": "HISTORICAL_RESULT_RETRIEVED_NOT_RERUN",
+    "chapters": [
+      37,
+      38,
+      39,
+      40
+    ],
+    "fields_note": "See exact SELECT and resultMetadata column snapshot; aliases are not raw columns."
+  },
+  {
+    "query_id": 8391200,
+    "title": "LGNS DAI Sources and Sinks ｜ LGNS DAI资金来源与去向",
+    "query_url": "https://dune.com/queries/8391200",
+    "version": 5,
+    "sql_file": "research/lgns/original_sql/8391200.sql",
+    "tables": [
+      "dune.slowmoonship"
+    ],
+    "execution_id": "01M0G73S318XXEXF7298ECE1Z0",
+    "execution_id_created_utc": "2026-08-20T18:32:10.081000+00:00",
+    "execution_time_note": "ULID-derived identifier timestamp; not independently retrieved start/end time",
+    "result_columns": [
+      {
+        "name": "month",
+        "type": "date"
+      },
+      {
+        "name": "liquidity_add_dai",
+        "type": "double"
+      },
+      {
+        "name": "treasury_external_inflow_dai",
+        "type": "double"
+      },
+      {
+        "name": "other_core_external_inflow_dai",
+        "type": "double"
+      },
+      {
+        "name": "other_unclassified_inflow_dai",
+        "type": "double"
+      },
+      {
+        "name": "other_external_inflow_dai",
+        "type": "double"
+      },
+      {
+        "name": "total_sources_dai",
+        "type": "double"
+      },
+      {
+        "name": "swap_payout_dai",
+        "type": "double"
+      },
+      {
+        "name": "liquidity_remove_dai",
+        "type": "double"
+      },
+      {
+        "name": "treasury_external_outflow_dai",
+        "type": "double"
+      },
+      {
+        "name": "other_core_external_outflow_dai",
+        "type": "double"
+      },
+      {
+        "name": "other_unclassified_outflow_dai",
+        "type": "double"
+      },
+      {
+        "name": "other_external_outflow_dai",
+        "type": "double"
+      },
+      {
+        "name": "total_sinks_dai",
+        "type": "double"
+      },
+      {
+        "name": "net_dai_retained",
+        "type": "double"
+      },
+      {
+        "name": "cumulative_sources",
+        "type": "double"
+      },
+      {
+        "name": "cumulative_sinks",
+        "type": "double"
+      },
+      {
+        "name": "cumulative_net_retained",
+        "type": "double"
+      },
+      {
+        "name": "ledger_net_external_dai",
+        "type": "double"
+      },
+      {
+        "name": "reconciliation_gap",
+        "type": "double"
+      },
+      {
+        "name": "pair_swap_net_dai",
+        "type": "double"
+      },
+      {
+        "name": "internal_dai",
+        "type": "double"
+      },
+      {
+        "name": "classification_event_gap",
+        "type": "bigint"
+      },
+      {
+        "name": "duplicate_event_rows",
+        "type": "bigint"
+      },
+      {
+        "name": "external_event_count",
+        "type": "bigint"
+      },
+      {
+        "name": "classified_event_count",
+        "type": "bigint"
+      },
+      {
+        "name": "total_sources_all_dai",
+        "type": "double"
+      },
+      {
+        "name": "total_sinks_all_dai",
+        "type": "double"
+      },
+      {
+        "name": "net_retained_all_dai",
+        "type": "double"
+      },
+      {
+        "name": "liquidity_add_all_dai",
+        "type": "double"
+      },
+      {
+        "name": "other_external_inflow_all_dai",
+        "type": "double"
+      },
+      {
+        "name": "swap_payout_all_dai",
+        "type": "double"
+      },
+      {
+        "name": "liquidity_remove_all_dai",
+        "type": "double"
+      },
+      {
+        "name": "other_external_outflow_all_dai",
+        "type": "double"
+      },
+      {
+        "name": "treasury_external_inflow_all_dai",
+        "type": "double"
+      },
+      {
+        "name": "other_core_external_inflow_all_dai",
+        "type": "double"
+      },
+      {
+        "name": "other_unclassified_inflow_all_dai",
+        "type": "double"
+      },
+      {
+        "name": "treasury_external_outflow_all_dai",
+        "type": "double"
+      },
+      {
+        "name": "other_core_external_outflow_all_dai",
+        "type": "double"
+      },
+      {
+        "name": "other_unclassified_outflow_all_dai",
+        "type": "double"
+      },
+      {
+        "name": "query07_same_cutoff_net_dai",
+        "type": "double"
+      },
+      {
+        "name": "q07_published_net_dai",
+        "type": "double"
+      },
+      {
+        "name": "q07_published_end_date",
+        "type": "date"
+      },
+      {
+        "name": "difference_vs_query07_published_dai",
+        "type": "double"
+      },
+      {
+        "name": "reconciliation_gap_all_dai",
+        "type": "double"
+      },
+      {
+        "name": "classification_event_gap_all",
+        "type": "bigint"
+      },
+      {
+        "name": "duplicate_event_rows_all",
+        "type": "bigint"
+      },
+      {
+        "name": "chart_liquidity_add_dai",
+        "type": "double"
+      },
+      {
+        "name": "chart_other_external_inflow_dai",
+        "type": "double"
+      },
+      {
+        "name": "chart_swap_payout_dai",
+        "type": "double"
+      },
+      {
+        "name": "chart_liquidity_remove_dai",
+        "type": "double"
+      },
+      {
+        "name": "chart_other_external_outflow_dai",
+        "type": "double"
+      },
+      {
+        "name": "chart_final_net_retained",
+        "type": "double"
+      }
+    ],
+    "execution_state": "COMPLETED",
+    "rows_retrieved": 5,
+    "total_rows": 30,
+    "historical_cost": "0.01",
+    "dashboard": "lgns",
+    "sql_text_historical_binding": "CURRENT_SAVED_SQL_AND_LATEST_EXECUTION_RETRIEVED; EXECUTED_SQL_VERSION_NOT_INDEPENDENTLY_BOUND",
+    "status": "HISTORICAL_RESULT_RETRIEVED_NOT_RERUN",
+    "chapters": [
+      37,
+      38,
+      39,
+      40
+    ],
+    "fields_note": "See exact SELECT and resultMetadata column snapshot; aliases are not raw columns."
+  },
+  {
+    "query_id": 8391403,
+    "title": "LGNS Pair DAI Boundary Monthly ｜ LGNS交易对DAI边界月度底账",
+    "query_url": "https://dune.com/queries/8391403",
+    "version": 2,
+    "sql_file": "research/lgns/original_sql/8391403.sql",
+    "tables": [
+      "dune.slowmoonship",
+      "maker_polygon.dai_evt_transfer"
+    ],
+    "execution_id": "01M0G62ACSV86632659CXFJ0D6",
+    "execution_id_created_utc": "2026-08-20T18:13:53.689000+00:00",
+    "execution_time_note": "ULID-derived identifier timestamp; not independently retrieved start/end time",
+    "result_columns": [
+      {
+        "name": "month",
+        "type": "date"
+      },
+      {
+        "name": "liquidity_add_dai",
+        "type": "double"
+      },
+      {
+        "name": "liquidity_remove_dai",
+        "type": "double"
+      },
+      {
+        "name": "pair_residual_in_dai",
+        "type": "double"
+      },
+      {
+        "name": "pair_residual_out_dai",
+        "type": "double"
+      },
+      {
+        "name": "pair_residual_net_dai",
+        "type": "double"
+      },
+      {
+        "name": "pair_internal_dai",
+        "type": "double"
+      },
+      {
+        "name": "pair_external_event_count",
+        "type": "bigint"
+      },
+      {
+        "name": "pair_classified_event_count",
+        "type": "bigint"
+      },
+      {
+        "name": "classification_event_gap",
+        "type": "bigint"
+      },
+      {
+        "name": "duplicate_event_rows",
+        "type": "bigint"
+      }
+    ],
+    "execution_state": "COMPLETED",
+    "rows_retrieved": 5,
+    "total_rows": 30,
+    "historical_cost": "16.428",
+    "dashboard": "auxiliary",
+    "sql_text_historical_binding": "CURRENT_SAVED_SQL_AND_LATEST_EXECUTION_RETRIEVED; EXECUTED_SQL_VERSION_NOT_INDEPENDENTLY_BOUND",
+    "status": "HISTORICAL_RESULT_RETRIEVED_NOT_RERUN",
+    "chapters": [
+      37,
+      38,
+      39,
+      40
+    ],
+    "fields_note": "See exact SELECT and resultMetadata column snapshot; aliases are not raw columns."
+  },
+  {
+    "query_id": 8391491,
+    "title": "LGNS Core DAI Boundary Monthly ｜ LGNS核心合约DAI边界月度底账",
+    "query_url": "https://dune.com/queries/8391491",
+    "version": 2,
+    "sql_file": "research/lgns/original_sql/8391491.sql",
+    "tables": [
+      "maker_polygon.dai_evt_transfer"
+    ],
+    "execution_id": "01M0G6HN8JPP99B2DSSZR1508G",
+    "execution_id_created_utc": "2026-08-20T18:22:16.338000+00:00",
+    "execution_time_note": "ULID-derived identifier timestamp; not independently retrieved start/end time",
+    "result_columns": [
+      {
+        "name": "month",
+        "type": "date"
+      },
+      {
+        "name": "treasury_external_inflow_dai",
+        "type": "double"
+      },
+      {
+        "name": "other_core_external_inflow_dai",
+        "type": "double"
+      },
+      {
+        "name": "treasury_external_outflow_dai",
+        "type": "double"
+      },
+      {
+        "name": "other_core_external_outflow_dai",
+        "type": "double"
+      },
+      {
+        "name": "nonpair_internal_dai",
+        "type": "double"
+      },
+      {
+        "name": "unclassified_dai",
+        "type": "double"
+      },
+      {
+        "name": "nonpair_external_event_count",
+        "type": "bigint"
+      },
+      {
+        "name": "nonpair_classified_event_count",
+        "type": "bigint"
+      },
+      {
+        "name": "classification_event_gap",
+        "type": "bigint"
+      },
+      {
+        "name": "duplicate_event_rows",
+        "type": "bigint"
+      }
+    ],
+    "execution_state": "COMPLETED",
+    "rows_retrieved": 5,
+    "total_rows": 30,
+    "historical_cost": "7.944",
+    "dashboard": "auxiliary",
+    "sql_text_historical_binding": "CURRENT_SAVED_SQL_AND_LATEST_EXECUTION_RETRIEVED; EXECUTED_SQL_VERSION_NOT_INDEPENDENTLY_BOUND",
+    "status": "HISTORICAL_RESULT_RETRIEVED_NOT_RERUN",
+    "chapters": [
+      37,
+      38,
+      39,
+      40
+    ],
+    "fields_note": "See exact SELECT and resultMetadata column snapshot; aliases are not raw columns."
+  },
+  {
+    "query_id": 8391574,
+    "title": "LGNS Pair Exact Liquidity Monthly ｜ LGNS交易对精确流动性月度底账",
+    "query_url": "https://dune.com/queries/8391574",
+    "version": 2,
+    "sql_file": "research/lgns/original_sql/8391574.sql",
+    "tables": [
+      "quickswap_polygon.uniswapv2pair_evt_burn",
+      "quickswap_polygon.uniswapv2pair_evt_mint"
+    ],
+    "execution_id": "01M0G72A0H9GSW28X6YVAQBQVZ",
+    "execution_id_created_utc": "2026-08-20T18:31:21.873000+00:00",
+    "execution_time_note": "ULID-derived identifier timestamp; not independently retrieved start/end time",
+    "result_columns": [
+      {
+        "name": "month",
+        "type": "date"
+      },
+      {
+        "name": "exact_liquidity_add_dai",
+        "type": "double"
+      },
+      {
+        "name": "exact_liquidity_remove_dai",
+        "type": "double"
+      },
+      {
+        "name": "mint_event_count",
+        "type": "bigint"
+      },
+      {
+        "name": "burn_event_count",
+        "type": "bigint"
+      },
+      {
+        "name": "duplicate_event_rows",
+        "type": "bigint"
+      }
+    ],
+    "execution_state": "COMPLETED",
+    "rows_retrieved": 5,
+    "total_rows": 30,
+    "historical_cost": "1.245",
+    "dashboard": "auxiliary",
+    "sql_text_historical_binding": "CURRENT_SAVED_SQL_AND_LATEST_EXECUTION_RETRIEVED; EXECUTED_SQL_VERSION_NOT_INDEPENDENTLY_BOUND",
+    "status": "HISTORICAL_RESULT_RETRIEVED_NOT_RERUN",
+    "chapters": [
+      37,
+      38,
+      39,
+      40
+    ],
+    "fields_note": "See exact SELECT and resultMetadata column snapshot; aliases are not raw columns."
+  },
+  {
+    "query_id": 8675766,
+    "title": "Sample 01 - Polygon PoS Block Sample",
+    "query_url": "https://dune.com/queries/8675766",
+    "version": 1,
+    "sql_file": "research/dune/polygon_original_sql/8675766.sql",
+    "tables": [
+      "polygon.blocks"
+    ],
+    "execution_id": "01M27FM49GT66BS9XY1E4JX05S",
+    "execution_id_created_utc": "2026-09-11T05:39:08.208000+00:00",
+    "execution_time_note": "ULID-derived identifier timestamp; not independently retrieved start/end time",
+    "result_columns": [
+      {
+        "name": "block_date",
+        "type": "date"
+      },
+      {
+        "name": "block_time",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "block_number",
+        "type": "bigint"
+      },
+      {
+        "name": "block_hash",
+        "type": "varbinary"
+      },
+      {
+        "name": "parent_hash",
+        "type": "varbinary"
+      },
+      {
+        "name": "gas_limit",
+        "type": "decimal(38, 0)"
+      },
+      {
+        "name": "gas_used",
+        "type": "decimal(38, 0)"
+      },
+      {
+        "name": "base_fee_per_gas",
+        "type": "bigint"
+      },
+      {
+        "name": "miner",
+        "type": "varbinary"
+      },
+      {
+        "name": "block_size_bytes",
+        "type": "bigint"
+      }
+    ],
+    "execution_state": "COMPLETED",
+    "rows_retrieved": 5,
+    "total_rows": 25,
+    "historical_cost": "0.152",
+    "dashboard": "auxiliary",
+    "sql_text_historical_binding": "CURRENT_SAVED_SQL_AND_LATEST_EXECUTION_RETRIEVED; EXECUTED_SQL_VERSION_NOT_INDEPENDENTLY_BOUND",
+    "status": "HISTORICAL_RESULT_RETRIEVED_NOT_RERUN",
+    "chapters": [
+      24,
+      29,
+      30
+    ],
+    "fields_note": "See exact SELECT and resultMetadata column snapshot; aliases are not raw columns."
+  },
+  {
+    "query_id": 8675768,
+    "title": "Sample 02 - Polygon PoS Transaction Sample",
+    "query_url": "https://dune.com/queries/8675768",
+    "version": 1,
+    "sql_file": "research/dune/polygon_original_sql/8675768.sql",
+    "tables": [
+      "polygon.transactions"
+    ],
+    "execution_id": "01M27FMT1F6Q0TPRG8ESW8CAHM",
+    "execution_id_created_utc": "2026-09-11T05:39:30.479000+00:00",
+    "execution_time_note": "ULID-derived identifier timestamp; not independently retrieved start/end time",
+    "result_columns": [
+      {
+        "name": "block_date",
+        "type": "date"
+      },
+      {
+        "name": "block_time",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "block_number",
+        "type": "bigint"
+      },
+      {
+        "name": "block_hash",
+        "type": "varbinary"
+      },
+      {
+        "name": "tx_hash",
+        "type": "varbinary"
+      },
+      {
+        "name": "transaction_index",
+        "type": "bigint"
+      },
+      {
+        "name": "tx_from",
+        "type": "varbinary"
+      },
+      {
+        "name": "tx_to",
+        "type": "varbinary"
+      },
+      {
+        "name": "value_raw",
+        "type": "decimal(38, 0)"
+      },
+      {
+        "name": "calldata",
+        "type": "varbinary"
+      },
+      {
+        "name": "transaction_success",
+        "type": "boolean"
+      },
+      {
+        "name": "transaction_type",
+        "type": "varchar"
+      },
+      {
+        "name": "nonce",
+        "type": "bigint"
+      },
+      {
+        "name": "gas_limit",
+        "type": "bigint"
+      },
+      {
+        "name": "gas_price",
+        "type": "bigint"
+      },
+      {
+        "name": "gas_used",
+        "type": "bigint"
+      },
+      {
+        "name": "max_fee_per_gas",
+        "type": "bigint"
+      },
+      {
+        "name": "max_priority_fee_per_gas",
+        "type": "bigint"
+      },
+      {
+        "name": "priority_fee_per_gas",
+        "type": "bigint"
+      }
+    ],
+    "execution_state": "COMPLETED",
+    "rows_retrieved": 5,
+    "total_rows": 25,
+    "historical_cost": "0.178",
+    "dashboard": "auxiliary",
+    "sql_text_historical_binding": "CURRENT_SAVED_SQL_AND_LATEST_EXECUTION_RETRIEVED; EXECUTED_SQL_VERSION_NOT_INDEPENDENTLY_BOUND",
+    "status": "HISTORICAL_RESULT_RETRIEVED_NOT_RERUN",
+    "chapters": [
+      24,
+      29,
+      30
+    ],
+    "fields_note": "See exact SELECT and resultMetadata column snapshot; aliases are not raw columns."
+  },
+  {
+    "query_id": 8675774,
+    "title": "Sample 03 - Polygon PoS Trace Sample",
+    "query_url": "https://dune.com/queries/8675774",
+    "version": 1,
+    "sql_file": "research/dune/polygon_original_sql/8675774.sql",
+    "tables": [
+      "polygon.traces"
+    ],
+    "execution_id": "01M27FNHHJWA9132DGAW0QDV9X",
+    "execution_id_created_utc": "2026-09-11T05:39:54.546000+00:00",
+    "execution_time_note": "ULID-derived identifier timestamp; not independently retrieved start/end time",
+    "result_columns": [
+      {
+        "name": "block_date",
+        "type": "date"
+      },
+      {
+        "name": "block_time",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "block_number",
+        "type": "bigint"
+      },
+      {
+        "name": "block_hash",
+        "type": "varbinary"
+      },
+      {
+        "name": "tx_hash",
+        "type": "varbinary"
+      },
+      {
+        "name": "transaction_index",
+        "type": "integer"
+      },
+      {
+        "name": "trace_address",
+        "type": "array(bigint)"
+      },
+      {
+        "name": "trace_type",
+        "type": "varchar"
+      },
+      {
+        "name": "call_type",
+        "type": "varchar"
+      },
+      {
+        "name": "trace_from",
+        "type": "varbinary"
+      },
+      {
+        "name": "trace_to",
+        "type": "varbinary"
+      },
+      {
+        "name": "trace_address_field",
+        "type": "varbinary"
+      },
+      {
+        "name": "value_raw",
+        "type": "uint256"
+      },
+      {
+        "name": "gas",
+        "type": "bigint"
+      },
+      {
+        "name": "gas_used",
+        "type": "bigint"
+      },
+      {
+        "name": "trace_success",
+        "type": "boolean"
+      },
+      {
+        "name": "transaction_success",
+        "type": "boolean"
+      },
+      {
+        "name": "error",
+        "type": "varchar"
+      },
+      {
+        "name": "sub_trace_count",
+        "type": "bigint"
+      },
+      {
+        "name": "input_data",
+        "type": "varbinary"
+      },
+      {
+        "name": "output_data",
+        "type": "varbinary"
+      }
+    ],
+    "execution_state": "COMPLETED",
+    "rows_retrieved": 5,
+    "total_rows": 50,
+    "historical_cost": "2.166",
+    "dashboard": "auxiliary",
+    "sql_text_historical_binding": "CURRENT_SAVED_SQL_AND_LATEST_EXECUTION_RETRIEVED; EXECUTED_SQL_VERSION_NOT_INDEPENDENTLY_BOUND",
+    "status": "HISTORICAL_RESULT_RETRIEVED_NOT_RERUN",
+    "chapters": [
+      24,
+      29,
+      30
+    ],
+    "fields_note": "See exact SELECT and resultMetadata column snapshot; aliases are not raw columns."
+  },
+  {
+    "query_id": 8675790,
+    "title": "Sample 04 - Polygon PoS Log Sample",
+    "query_url": "https://dune.com/queries/8675790",
+    "version": 1,
+    "sql_file": "research/dune/polygon_original_sql/8675790.sql",
+    "tables": [
+      "polygon.logs"
+    ],
+    "execution_id": "01M27FPXHF5YQBKP84B7Q51PK4",
+    "execution_id_created_utc": "2026-09-11T05:40:39.599000+00:00",
+    "execution_time_note": "ULID-derived identifier timestamp; not independently retrieved start/end time",
+    "result_columns": [
+      {
+        "name": "block_date",
+        "type": "date"
+      },
+      {
+        "name": "block_time",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "block_number",
+        "type": "bigint"
+      },
+      {
+        "name": "block_hash",
+        "type": "varbinary"
+      },
+      {
+        "name": "tx_hash",
+        "type": "varbinary"
+      },
+      {
+        "name": "transaction_index",
+        "type": "integer"
+      },
+      {
+        "name": "log_index",
+        "type": "integer"
+      },
+      {
+        "name": "contract_address",
+        "type": "varbinary"
+      },
+      {
+        "name": "topic0",
+        "type": "varbinary"
+      },
+      {
+        "name": "topic1",
+        "type": "varbinary"
+      },
+      {
+        "name": "topic2",
+        "type": "varbinary"
+      },
+      {
+        "name": "topic3",
+        "type": "varbinary"
+      },
+      {
+        "name": "data",
+        "type": "varbinary"
+      },
+      {
+        "name": "tx_from",
+        "type": "varbinary"
+      },
+      {
+        "name": "tx_to",
+        "type": "varbinary"
+      }
+    ],
+    "execution_state": "COMPLETED",
+    "rows_retrieved": 5,
+    "total_rows": 50,
+    "historical_cost": "8.029",
+    "dashboard": "auxiliary",
+    "sql_text_historical_binding": "CURRENT_SAVED_SQL_AND_LATEST_EXECUTION_RETRIEVED; EXECUTED_SQL_VERSION_NOT_INDEPENDENTLY_BOUND",
+    "status": "HISTORICAL_RESULT_RETRIEVED_NOT_RERUN",
+    "chapters": [
+      24,
+      29,
+      30
+    ],
+    "fields_note": "See exact SELECT and resultMetadata column snapshot; aliases are not raw columns."
+  },
+  {
+    "query_id": 8675807,
+    "title": "Sample 05 - Polygon PoS Creation Trace Sample",
+    "query_url": "https://dune.com/queries/8675807",
+    "version": 1,
+    "sql_file": "research/dune/polygon_original_sql/8675807.sql",
+    "tables": [
+      "polygon.creation_traces"
+    ],
+    "execution_id": "01M27FV9P0FNDC8AN1A97YJ4KV",
+    "execution_id_created_utc": "2026-09-11T05:43:03.104000+00:00",
+    "execution_time_note": "ULID-derived identifier timestamp; not independently retrieved start/end time",
+    "result_columns": [
+      {
+        "name": "block_time",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "block_number",
+        "type": "bigint"
+      },
+      {
+        "name": "tx_hash",
+        "type": "varbinary"
+      },
+      {
+        "name": "contract_address",
+        "type": "varbinary"
+      },
+      {
+        "name": "creator_address",
+        "type": "varbinary"
+      },
+      {
+        "name": "deployed_code",
+        "type": "varbinary"
+      },
+      {
+        "name": "block_month",
+        "type": "date"
+      },
+      {
+        "name": "catalog_reported_partition",
+        "type": "varchar(10)"
+      },
+      {
+        "name": "schema_exposed_partition",
+        "type": "varchar(11)"
+      },
+      {
+        "name": "partition_metadata_diagnostic",
+        "type": "varchar(65)"
+      },
+      {
+        "name": "unsupported_field_diagnostic",
+        "type": "varchar(61)"
+      }
+    ],
+    "execution_state": "COMPLETED",
+    "rows_retrieved": 5,
+    "total_rows": 25,
+    "historical_cost": "0.099",
+    "dashboard": "auxiliary",
+    "sql_text_historical_binding": "CURRENT_SAVED_SQL_AND_LATEST_EXECUTION_RETRIEVED; EXECUTED_SQL_VERSION_NOT_INDEPENDENTLY_BOUND",
+    "status": "HISTORICAL_RESULT_RETRIEVED_NOT_RERUN",
+    "chapters": [
+      24,
+      29,
+      30
+    ],
+    "fields_note": "See exact SELECT and resultMetadata column snapshot; aliases are not raw columns."
+  },
+  {
+    "query_id": 8675814,
+    "title": "Sample 06 - Polygon PoS Decoded Event Sample",
+    "query_url": "https://dune.com/queries/8675814",
+    "version": 1,
+    "sql_file": "research/dune/polygon_original_sql/8675814.sql",
+    "tables": [
+      "aave_v3_polygon.pool_evt_supply",
+      "polygon.logs"
+    ],
+    "execution_id": "01M27FZZ95AG8BD9WYW1N77Z40",
+    "execution_id_created_utc": "2026-09-11T05:45:36.293000+00:00",
+    "execution_time_note": "ULID-derived identifier timestamp; not independently retrieved start/end time",
+    "result_columns": [
+      {
+        "name": "block_date",
+        "type": "date"
+      },
+      {
+        "name": "block_time",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "block_number",
+        "type": "bigint"
+      },
+      {
+        "name": "tx_hash",
+        "type": "varbinary"
+      },
+      {
+        "name": "tx_from",
+        "type": "varbinary"
+      },
+      {
+        "name": "tx_to",
+        "type": "varbinary"
+      },
+      {
+        "name": "transaction_index",
+        "type": "integer"
+      },
+      {
+        "name": "event_index",
+        "type": "integer"
+      },
+      {
+        "name": "contract_address",
+        "type": "varbinary"
+      },
+      {
+        "name": "event_name",
+        "type": "varchar(6)"
+      },
+      {
+        "name": "reserve",
+        "type": "varbinary"
+      },
+      {
+        "name": "user_address",
+        "type": "varbinary"
+      },
+      {
+        "name": "on_behalf_of_address",
+        "type": "varbinary"
+      },
+      {
+        "name": "amount_raw",
+        "type": "uint256"
+      },
+      {
+        "name": "referral_code",
+        "type": "integer"
+      },
+      {
+        "name": "raw_topic0",
+        "type": "varbinary"
+      },
+      {
+        "name": "raw_log_data",
+        "type": "varbinary"
+      },
+      {
+        "name": "raw_log_match_found",
+        "type": "boolean"
+      }
+    ],
+    "execution_state": "COMPLETED",
+    "rows_retrieved": 5,
+    "total_rows": 25,
+    "historical_cost": "0.199",
+    "dashboard": "auxiliary",
+    "sql_text_historical_binding": "CURRENT_SAVED_SQL_AND_LATEST_EXECUTION_RETRIEVED; EXECUTED_SQL_VERSION_NOT_INDEPENDENTLY_BOUND",
+    "status": "HISTORICAL_RESULT_RETRIEVED_NOT_RERUN",
+    "chapters": [
+      24,
+      29,
+      30
+    ],
+    "fields_note": "See exact SELECT and resultMetadata column snapshot; aliases are not raw columns."
+  },
+  {
+    "query_id": 8675965,
+    "title": "Dashboard 01: Polygon PoS Daily Blocks (90d)",
+    "query_url": "https://dune.com/queries/8675965",
+    "version": 1,
+    "sql_file": "research/dune/polygon_original_sql/8675965.sql",
+    "tables": [
+      "polygon.blocks"
+    ],
+    "execution_id": "01M27GNJ1YCEVG6TV67VSZYPFC",
+    "execution_id_created_utc": "2026-09-11T05:57:23.646000+00:00",
+    "execution_time_note": "ULID-derived identifier timestamp; not independently retrieved start/end time",
+    "result_columns": [
+      {
+        "name": "date",
+        "type": "date"
+      },
+      {
+        "name": "block_count",
+        "type": "bigint"
+      },
+      {
+        "name": "first_block_number",
+        "type": "bigint"
+      },
+      {
+        "name": "last_block_number",
+        "type": "bigint"
+      },
+      {
+        "name": "avg_block_interval_seconds",
+        "type": "decimal(26, 6)"
+      }
+    ],
+    "execution_state": "COMPLETED",
+    "rows_retrieved": 5,
+    "total_rows": 90,
+    "historical_cost": "0.224",
+    "dashboard": "polygon",
+    "sql_text_historical_binding": "CURRENT_SAVED_SQL_AND_LATEST_EXECUTION_RETRIEVED; EXECUTED_SQL_VERSION_NOT_INDEPENDENTLY_BOUND",
+    "status": "HISTORICAL_RESULT_RETRIEVED_NOT_RERUN",
+    "chapters": [
+      24,
+      29,
+      30
+    ],
+    "fields_note": "See exact SELECT and resultMetadata column snapshot; aliases are not raw columns."
+  },
+  {
+    "query_id": 8675966,
+    "title": "Dashboard 03: Polygon PoS Gas and Fees (90d)",
+    "query_url": "https://dune.com/queries/8675966",
+    "version": 1,
+    "sql_file": "research/dune/polygon_original_sql/8675966.sql",
+    "tables": [
+      "gas.fees"
+    ],
+    "execution_id": "01M27GNJFD5YA49481PQMANSEG",
+    "execution_id_created_utc": "2026-09-11T05:57:24.077000+00:00",
+    "execution_time_note": "ULID-derived identifier timestamp; not independently retrieved start/end time",
+    "result_columns": [
+      {
+        "name": "date",
+        "type": "date"
+      },
+      {
+        "name": "currency_symbol",
+        "type": "varchar"
+      },
+      {
+        "name": "transaction_count",
+        "type": "bigint"
+      },
+      {
+        "name": "total_gas_used",
+        "type": "bigint"
+      },
+      {
+        "name": "total_fees_native",
+        "type": "double"
+      },
+      {
+        "name": "avg_fee_native",
+        "type": "double"
+      }
+    ],
+    "execution_state": "COMPLETED",
+    "rows_retrieved": 5,
+    "total_rows": 90,
+    "historical_cost": "1.447",
+    "dashboard": "polygon",
+    "sql_text_historical_binding": "CURRENT_SAVED_SQL_AND_LATEST_EXECUTION_RETRIEVED; EXECUTED_SQL_VERSION_NOT_INDEPENDENTLY_BOUND",
+    "status": "HISTORICAL_RESULT_RETRIEVED_NOT_RERUN",
+    "chapters": [
+      24,
+      29,
+      30
+    ],
+    "fields_note": "See exact SELECT and resultMetadata column snapshot; aliases are not raw columns."
+  },
+  {
+    "query_id": 8675967,
+    "title": "Dashboard 02: Polygon PoS Daily Transactions (90d)",
+    "query_url": "https://dune.com/queries/8675967",
+    "version": 1,
+    "sql_file": "research/dune/polygon_original_sql/8675967.sql",
+    "tables": [
+      "polygon.transactions"
+    ],
+    "execution_id": "01M27GNJFSJ1D798D1YB2839AC",
+    "execution_id_created_utc": "2026-09-11T05:57:24.089000+00:00",
+    "execution_time_note": "ULID-derived identifier timestamp; not independently retrieved start/end time",
+    "result_columns": [
+      {
+        "name": "date",
+        "type": "date"
+      },
+      {
+        "name": "transaction_count",
+        "type": "bigint"
+      },
+      {
+        "name": "successful_transactions",
+        "type": "bigint"
+      },
+      {
+        "name": "failed_transactions",
+        "type": "bigint"
+      },
+      {
+        "name": "failure_rate",
+        "type": "double"
+      },
+      {
+        "name": "unique_from_addresses",
+        "type": "bigint"
+      },
+      {
+        "name": "unique_to_addresses",
+        "type": "bigint"
+      }
+    ],
+    "execution_state": "COMPLETED",
+    "rows_retrieved": 5,
+    "total_rows": 90,
+    "historical_cost": "1.605",
+    "dashboard": "polygon",
+    "sql_text_historical_binding": "CURRENT_SAVED_SQL_AND_LATEST_EXECUTION_RETRIEVED; EXECUTED_SQL_VERSION_NOT_INDEPENDENTLY_BOUND",
+    "status": "HISTORICAL_RESULT_RETRIEVED_NOT_RERUN",
+    "chapters": [
+      24,
+      29,
+      30
+    ],
+    "fields_note": "See exact SELECT and resultMetadata column snapshot; aliases are not raw columns."
+  },
+  {
+    "query_id": 8675980,
+    "title": "Dashboard 04: Polygon PoS Contract Execution (30d)",
+    "query_url": "https://dune.com/queries/8675980",
+    "version": 1,
+    "sql_file": "research/dune/polygon_original_sql/8675980.sql",
+    "tables": [
+      "polygon.traces"
+    ],
+    "execution_id": "01M27GRMBG3YVR6DC6RE2FFV3K",
+    "execution_id_created_utc": "2026-09-11T05:59:04.304000+00:00",
+    "execution_time_note": "ULID-derived identifier timestamp; not independently retrieved start/end time",
+    "result_columns": [
+      {
+        "name": "date",
+        "type": "date"
+      },
+      {
+        "name": "trace_count",
+        "type": "bigint"
+      },
+      {
+        "name": "unique_transactions",
+        "type": "bigint"
+      },
+      {
+        "name": "call_count",
+        "type": "bigint"
+      },
+      {
+        "name": "unique_destination_addresses",
+        "type": "bigint"
+      }
+    ],
+    "execution_state": "COMPLETED",
+    "rows_retrieved": 5,
+    "total_rows": 30,
+    "historical_cost": "7.64",
+    "dashboard": "polygon",
+    "sql_text_historical_binding": "CURRENT_SAVED_SQL_AND_LATEST_EXECUTION_RETRIEVED; EXECUTED_SQL_VERSION_NOT_INDEPENDENTLY_BOUND",
+    "status": "HISTORICAL_RESULT_RETRIEVED_NOT_RERUN",
+    "chapters": [
+      24,
+      29,
+      30
+    ],
+    "fields_note": "See exact SELECT and resultMetadata column snapshot; aliases are not raw columns."
+  },
+  {
+    "query_id": 8675981,
+    "title": "Dashboard 05: Polygon PoS Contract Creation (30d)",
+    "query_url": "https://dune.com/queries/8675981",
+    "version": 1,
+    "sql_file": "research/dune/polygon_original_sql/8675981.sql",
+    "tables": [
+      "polygon.creation_traces"
+    ],
+    "execution_id": "01M27GRMB8E525CNKKB2XRAC28",
+    "execution_id_created_utc": "2026-09-11T05:59:04.296000+00:00",
+    "execution_time_note": "ULID-derived identifier timestamp; not independently retrieved start/end time",
+    "result_columns": [
+      {
+        "name": "date",
+        "type": "date"
+      },
+      {
+        "name": "contract_creation_count",
+        "type": "bigint"
+      },
+      {
+        "name": "unique_contract_addresses",
+        "type": "bigint"
+      },
+      {
+        "name": "unique_creators",
+        "type": "bigint"
+      }
+    ],
+    "execution_state": "COMPLETED",
+    "rows_retrieved": 5,
+    "total_rows": 30,
+    "historical_cost": "0.021",
+    "dashboard": "polygon",
+    "sql_text_historical_binding": "CURRENT_SAVED_SQL_AND_LATEST_EXECUTION_RETRIEVED; EXECUTED_SQL_VERSION_NOT_INDEPENDENTLY_BOUND",
+    "status": "HISTORICAL_RESULT_RETRIEVED_NOT_RERUN",
+    "chapters": [
+      24,
+      29,
+      30
+    ],
+    "fields_note": "See exact SELECT and resultMetadata column snapshot; aliases are not raw columns."
+  },
+  {
+    "query_id": 8675982,
+    "title": "Dashboard 06: Polygon PoS Event Logs (30d)",
+    "query_url": "https://dune.com/queries/8675982",
+    "version": 1,
+    "sql_file": "research/dune/polygon_original_sql/8675982.sql",
+    "tables": [
+      "polygon.logs"
+    ],
+    "execution_id": "01M27GRMBBTDD43KED2TGKPP5Z",
+    "execution_id_created_utc": "2026-09-11T05:59:04.299000+00:00",
+    "execution_time_note": "ULID-derived identifier timestamp; not independently retrieved start/end time",
+    "result_columns": [
+      {
+        "name": "date",
+        "type": "date"
+      },
+      {
+        "name": "log_count",
+        "type": "bigint"
+      },
+      {
+        "name": "unique_transactions",
+        "type": "bigint"
+      },
+      {
+        "name": "unique_contracts",
+        "type": "bigint"
+      },
+      {
+        "name": "unique_topic0",
+        "type": "bigint"
+      }
+    ],
+    "execution_state": "COMPLETED",
+    "rows_retrieved": 5,
+    "total_rows": 30,
+    "historical_cost": "4.414",
+    "dashboard": "polygon",
+    "sql_text_historical_binding": "CURRENT_SAVED_SQL_AND_LATEST_EXECUTION_RETRIEVED; EXECUTED_SQL_VERSION_NOT_INDEPENDENTLY_BOUND",
+    "status": "HISTORICAL_RESULT_RETRIEVED_NOT_RERUN",
+    "chapters": [
+      24,
+      29,
+      30
+    ],
+    "fields_note": "See exact SELECT and resultMetadata column snapshot; aliases are not raw columns."
+  },
+  {
+    "query_id": 8675998,
+    "title": "Dashboard 08: Polygon PoS DEX Activity (30d)",
+    "query_url": "https://dune.com/queries/8675998",
+    "version": 1,
+    "sql_file": "research/dune/polygon_original_sql/8675998.sql",
+    "tables": [
+      "dex_evm.trades"
+    ],
+    "execution_id": "01M27GV5QMY4DVQXV0ZCZGK91H",
+    "execution_id_created_utc": "2026-09-11T06:00:27.636000+00:00",
+    "execution_time_note": "ULID-derived identifier timestamp; not independently retrieved start/end time",
+    "result_columns": [
+      {
+        "name": "date",
+        "type": "date"
+      },
+      {
+        "name": "trade_segment_count",
+        "type": "bigint"
+      },
+      {
+        "name": "dex_volume_usd",
+        "type": "double"
+      },
+      {
+        "name": "unique_traders",
+        "type": "bigint"
+      },
+      {
+        "name": "unique_projects",
+        "type": "bigint"
+      }
+    ],
+    "execution_state": "COMPLETED",
+    "rows_retrieved": 5,
+    "total_rows": 30,
+    "historical_cost": "0.08",
+    "dashboard": "polygon",
+    "sql_text_historical_binding": "CURRENT_SAVED_SQL_AND_LATEST_EXECUTION_RETRIEVED; EXECUTED_SQL_VERSION_NOT_INDEPENDENTLY_BOUND",
+    "status": "HISTORICAL_RESULT_RETRIEVED_NOT_RERUN",
+    "chapters": [
+      24,
+      29,
+      30
+    ],
+    "fields_note": "See exact SELECT and resultMetadata column snapshot; aliases are not raw columns."
+  },
+  {
+    "query_id": 8675999,
+    "title": "Dashboard 07: Polygon PoS Token Transfers (30d)",
+    "query_url": "https://dune.com/queries/8675999",
+    "version": 1,
+    "sql_file": "research/dune/polygon_original_sql/8675999.sql",
+    "tables": [
+      "tokens.transfers"
+    ],
+    "execution_id": "01M27GV5R6VRK235DA333XQ2QM",
+    "execution_id_created_utc": "2026-09-11T06:00:27.654000+00:00",
+    "execution_time_note": "ULID-derived identifier timestamp; not independently retrieved start/end time",
+    "result_columns": [
+      {
+        "name": "date",
+        "type": "date"
+      },
+      {
+        "name": "transfer_count",
+        "type": "bigint"
+      },
+      {
+        "name": "unique_tokens",
+        "type": "bigint"
+      },
+      {
+        "name": "unique_senders",
+        "type": "bigint"
+      },
+      {
+        "name": "unique_receivers",
+        "type": "bigint"
+      }
+    ],
+    "execution_state": "COMPLETED",
+    "rows_retrieved": 5,
+    "total_rows": 30,
+    "historical_cost": "3.539",
+    "dashboard": "polygon",
+    "sql_text_historical_binding": "CURRENT_SAVED_SQL_AND_LATEST_EXECUTION_RETRIEVED; EXECUTED_SQL_VERSION_NOT_INDEPENDENTLY_BOUND",
+    "status": "HISTORICAL_RESULT_RETRIEVED_NOT_RERUN",
+    "chapters": [
+      24,
+      29,
+      30
+    ],
+    "fields_note": "See exact SELECT and resultMetadata column snapshot; aliases are not raw columns."
+  },
+  {
+    "query_id": 8676000,
+    "title": "Dashboard 09: Polygon PoS Decoded Event Example (Aave V3 Supply)",
+    "query_url": "https://dune.com/queries/8676000",
+    "version": 1,
+    "sql_file": "research/dune/polygon_original_sql/8676000.sql",
+    "tables": [
+      "aave_v3_polygon.pool_evt_supply",
+      "polygon.logs"
+    ],
+    "execution_id": "01M27GV5R8PE0RHRV2M1MX4T0J",
+    "execution_id_created_utc": "2026-09-11T06:00:27.656000+00:00",
+    "execution_time_note": "ULID-derived identifier timestamp; not independently retrieved start/end time",
+    "result_columns": [
+      {
+        "name": "block_time",
+        "type": "timestamp(3) with time zone"
+      },
+      {
+        "name": "block_number",
+        "type": "bigint"
+      },
+      {
+        "name": "tx_hash",
+        "type": "varbinary"
+      },
+      {
+        "name": "contract_address",
+        "type": "varbinary"
+      },
+      {
+        "name": "event_name",
+        "type": "varchar(6)"
+      },
+      {
+        "name": "log_index",
+        "type": "integer"
+      },
+      {
+        "name": "reserve_address",
+        "type": "varbinary"
+      },
+      {
+        "name": "user_address",
+        "type": "varbinary"
+      },
+      {
+        "name": "on_behalf_of_address",
+        "type": "varbinary"
+      },
+      {
+        "name": "amount_raw",
+        "type": "uint256"
+      },
+      {
+        "name": "referral_code",
+        "type": "integer"
+      },
+      {
+        "name": "contract_address_matches_raw_log",
+        "type": "boolean"
+      },
+      {
+        "name": "raw_topic0",
+        "type": "varbinary"
+      },
+      {
+        "name": "raw_data",
+        "type": "varbinary"
+      }
+    ],
+    "execution_state": "COMPLETED",
+    "rows_retrieved": 5,
+    "total_rows": 200,
+    "historical_cost": "1.33",
+    "dashboard": "polygon",
+    "sql_text_historical_binding": "CURRENT_SAVED_SQL_AND_LATEST_EXECUTION_RETRIEVED; EXECUTED_SQL_VERSION_NOT_INDEPENDENTLY_BOUND",
+    "status": "HISTORICAL_RESULT_RETRIEVED_NOT_RERUN",
+    "chapters": [
+      24,
+      29,
+      30
+    ],
+    "fields_note": "See exact SELECT and resultMetadata column snapshot; aliases are not raw columns."
+  },
+  {
+    "query_id": 8676002,
+    "title": "Dashboard 10: Polygon PoS Ethereum Boundary (30d)",
+    "query_url": "https://dune.com/queries/8676002",
+    "version": 1,
+    "sql_file": "research/dune/polygon_original_sql/8676002.sql",
+    "tables": [
+      "polygon_pos_bridge_ethereum.fxerc20roottunnel_evt_fxdepositerc20",
+      "polygon_pos_bridge_ethereum.fxerc20roottunnel_evt_fxwithdrawerc20"
+    ],
+    "execution_id": "01M27GV65QDG8PA320T28EGSQB",
+    "execution_id_created_utc": "2026-09-11T06:00:28.087000+00:00",
+    "execution_time_note": "ULID-derived identifier timestamp; not independently retrieved start/end time",
+    "result_columns": [
+      {
+        "name": "date",
+        "type": "date"
+      },
+      {
+        "name": "interaction_type",
+        "type": "varchar(23)"
+      },
+      {
+        "name": "event_count",
+        "type": "bigint"
+      }
+    ],
+    "execution_state": "COMPLETED",
+    "rows_retrieved": 5,
+    "total_rows": 30,
+    "historical_cost": "0.193",
+    "dashboard": "polygon",
+    "sql_text_historical_binding": "CURRENT_SAVED_SQL_AND_LATEST_EXECUTION_RETRIEVED; EXECUTED_SQL_VERSION_NOT_INDEPENDENTLY_BOUND",
+    "status": "HISTORICAL_RESULT_RETRIEVED_NOT_RERUN",
+    "chapters": [
+      24,
+      29,
+      30
+    ],
+    "fields_note": "See exact SELECT and resultMetadata column snapshot; aliases are not raw columns."
+  }
+]

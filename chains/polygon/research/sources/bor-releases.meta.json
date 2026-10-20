@@ -1,0 +1,14 @@
+{
+  "id": "bor-releases",
+  "url": "https://api.github.com/repos/0xPolygon/bor/releases?per_page=30",
+  "accessed_at": "2026-10-19T02:33:50.428241+00:00",
+  "baseline": "2026-10-19",
+  "status": 200,
+  "final_url": "https://api.github.com/repos/0xPolygon/bor/releases?per_page=30",
+  "content_type": "application/json; charset=utf-8",
+  "bytes": 2346444,
+  "sha256": "566496a2d0b9f47f0a367975c474d4ccdddff5baaf6d273e3964e927e0a18227",
+  "local_archive_path": "research/sources/bor-releases.md",
+  "public_source_url": "https://api.github.com/repos/0xPolygon/bor/releases?per_page=30",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY"
+}

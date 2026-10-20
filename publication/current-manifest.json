@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-10-14",
-  "file_count": 1350,
-  "self_hash_note": "Only publication/current-manifest.json hash is excluded. Git commit tree binds this manifest; all other current files are hashed.",
+  "as_of": "2026-10-20",
+  "file_count": 1881,
+  "self_hash_note": "Only publication/current-manifest.json hash is excluded; Git commit tree binds this manifest.",
   "files": [
     {
       "path": ".gitignore",
@@ -10,23 +10,23 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 3250,
-      "sha256": "92bfee409d876d0a7dfdbe909a57c0eb947643db27b40753f4747932c19024eb"
+      "bytes": 3875,
+      "sha256": "e480bcbf0152ccefbbc6af7b92e848894dba95e8e3096448d2d7950cbb28d611"
     },
     {
       "path": "PUBLICATION_STATUS.md",
-      "bytes": 3733,
-      "sha256": "20ef87094a2e4de788a2b4dc1a46307158907aea08092993f71893805a2c2a21"
+      "bytes": 4488,
+      "sha256": "c0a5ddb2d02c9cfe107e1044550e84bc193469d80938b838b3e67fdfd2db585b"
     },
     {
       "path": "README.md",
-      "bytes": 4649,
-      "sha256": "d4b7190e36ac6e27aebec80df12a26d38a82e932614ceda4ea5a8955bfe5bb28"
+      "bytes": 5339,
+      "sha256": "7cf3b7c68a2afdfec391739d313212bce6bcbf9ccccc97aae360bf92cf0314e7"
     },
     {
       "path": "SUMMARY.md",
-      "bytes": 31571,
-      "sha256": "a8fb5b4558557540713ce1e2f79656b00c7df0567284da3ce16c79d52fa3f0ce"
+      "bytes": 36681,
+      "sha256": "dabe4a9b6ef618b0bbff3952435ae007be9cf5efae725d5d27735806a414908f"
     },
     {
       "path": "chains/avalanche/README.md",
@@ -5189,6 +5189,2631 @@
       "sha256": "4435b6f0c8adfd5abfd5b0841c9f2c19894d1c15725927e11470975154f35a97"
     },
     {
+      "path": "chains/polygon/BOOK.md",
+      "bytes": 160054,
+      "sha256": "ed42e46e5d433faab65aeef5b137d244533e21d5d3cd540bdf1c42a3513f4734"
+    },
+    {
+      "path": "chains/polygon/README.md",
+      "bytes": 3050,
+      "sha256": "7caf3d353c1d6b0fb2482b98d2e3e5beeab81769ee7ab9409924afba49d0ce2f"
+    },
+    {
+      "path": "chains/polygon/SUMMARY.md",
+      "bytes": 3985,
+      "sha256": "2182aaacae94cf47393b2651d6b5bf7d2a1475043ff37f33661c3e6aa5007332"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/DIAGRAM_INDEX.md",
+      "bytes": 4608,
+      "sha256": "a8ae4f7b2742da1c05c8e5985503d9cfe1733414bb84b5735456b102fc2c10f6"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/admin-graph.drawio",
+      "bytes": 4820,
+      "sha256": "b4aea4deda7ec86629831f815ef3655ad203041039bb31e0fbd5c71b93206a4b"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/admin-graph.svg",
+      "bytes": 12167,
+      "sha256": "4b5e1715644e837027beb0d75e3be9c322b64faac555c23823c1b4b7e20c4913"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/architecture.drawio",
+      "bytes": 5165,
+      "sha256": "16d64b76f91b63a7831966b9610ee1c444dc04d8a20a11d219050ba3353ef655"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/architecture.svg",
+      "bytes": 13375,
+      "sha256": "b0db9789c9cd8b3f41ebebd2b89561829c0813683116cb0ac3a5f94eac8f5b9e"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/block-header.drawio",
+      "bytes": 4815,
+      "sha256": "be29edf4188b9d34b45afad25af0e85ce549447b7e5a73ec2db939cba0614406"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/block-header.svg",
+      "bytes": 12002,
+      "sha256": "efe56f72c5d270b70ce0b785521d85fb3342c9b2541358551057b686de7b0d94"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/bridge-accounting.drawio",
+      "bytes": 5371,
+      "sha256": "04b7ace8a8c50f18ccdec7893eef3ab00aaa9fb3a8f203788a1dafad155aee6a"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/bridge-accounting.svg",
+      "bytes": 13099,
+      "sha256": "24a3af0f38b281cecc7416b63689001ce18dd5a1f70f2ced59b5a36b75cca255"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/bridge-deposit.drawio",
+      "bytes": 4732,
+      "sha256": "8765ceb63bb06cfc84ae91c24e46f9febf7d2cc4212be92fe6fcb585b6c7d78d"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/bridge-deposit.svg",
+      "bytes": 11684,
+      "sha256": "c9d062be07585b8d9d443f67ef5e51193bbbfa32de5d5106c88edff77d498c9f"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/bridge-exit.drawio",
+      "bytes": 4722,
+      "sha256": "e10c8ac016ba0a17a41dd93f678b1e5f9d407fdbee75dbe02095af8c1ab87896"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/bridge-exit.svg",
+      "bytes": 11661,
+      "sha256": "026859d0ab171db943ca4010e16a9ad843884b07695227f224dd408b168fe6d8"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/chain-identity.drawio",
+      "bytes": 4755,
+      "sha256": "0b1f971187c4e1c1d75086d967093b5d49a3d10e2bce2052fed2525cf872f1c0"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/chain-identity.svg",
+      "bytes": 12033,
+      "sha256": "af373c60cbcc5f0e154dba70ca3fcc8bc770f8753d06c3c3472ef9c5016c67f4"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/checkpoint.drawio",
+      "bytes": 4744,
+      "sha256": "db92dcf2ad3ffa66e490fa1367bfba5a6379b258237aef6d4d383dec09c1ab71"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/checkpoint.svg",
+      "bytes": 11704,
+      "sha256": "705b0659c9181d4ff26314d0e034d28a1ac8e4107b5229ea6cd6808e01daeaea"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/dashboard-map.drawio",
+      "bytes": 5364,
+      "sha256": "ac18be298a894c5392a40708fc4adde2feb74079a08db2d7034adc12b7dff797"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/dashboard-map.svg",
+      "bytes": 12761,
+      "sha256": "c3fe13ccda22e3141e449507ccc6fbc49523c91f0051a571339e801f05bfbbe0"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/data-lineage.drawio",
+      "bytes": 4737,
+      "sha256": "f59f315077410bba056f9636a8c4702edccb34667e43954328f9c680a339ec54"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/data-lineage.svg",
+      "bytes": 11692,
+      "sha256": "9e5db06a53af5e82dcbf7520920dcb2422ee07dfd0a262c382b75b2457bc3c72"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/defi-roles.drawio",
+      "bytes": 5072,
+      "sha256": "f2789651f43fb1fccbbf6bd68980dabdce852cb0777733cb828c1f9dcdc733ac"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/defi-roles.svg",
+      "bytes": 12643,
+      "sha256": "30035b169703de0abceb995b19c231584e4c44e140ef264126d9ba165f838773"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/dex-swap.drawio",
+      "bytes": 5001,
+      "sha256": "47ff6ed9f86b7b97a679124f57babab960bdf54e250d06ab2d71fc2d30db3ea6"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/dex-swap.svg",
+      "bytes": 12299,
+      "sha256": "249692451d3380ad8f57bd07fde7727c0c718a91771a6a69e2de1ca43379389b"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/diagram-manifest.json",
+      "bytes": 9689,
+      "sha256": "6b6e2ec3a6c51ffc36b1632f139eb47c1530ba2cbad19c984c01862a55172ab1"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/erc20-ledger.drawio",
+      "bytes": 5041,
+      "sha256": "0deef816a74b0b43363d142c7591405d52d1cac816e26bfd7729c410e966705f"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/erc20-ledger.svg",
+      "bytes": 12207,
+      "sha256": "fd374ef8b9635cb11ae9c3f1f0be05e7de59eabe93f3e03b5aafc562abd01b9b"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/evm-state.drawio",
+      "bytes": 4757,
+      "sha256": "8e0bba5865605a20a6da17b7f9b76c93e17e7f19ccef2b738e93cedca352ceb0"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/evm-state.svg",
+      "bytes": 12039,
+      "sha256": "b37fcfe56ec89607124ebff59b2144946b65d4c8c03473c550b9a3c383d7ff55"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/execution-records.drawio",
+      "bytes": 5018,
+      "sha256": "4952dc99ce55bd8a95c0b96deefe6315ba525cc15d05923bb10e00039d584ecf"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/execution-records.svg",
+      "bytes": 12142,
+      "sha256": "e00d2d2f461d1f505289d0ce31b824598c362243695049395a2e15ae546c113e"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/fund-boundary.drawio",
+      "bytes": 5095,
+      "sha256": "4572ed36a9307134d3d5bbcd4516e9f8476a301a5def27b51bcdd04b3f1035a4"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/fund-boundary.svg",
+      "bytes": 12797,
+      "sha256": "edde83aad21f3d306f527e3a45fc9977c29936278c62e73be4182d4c863914f1"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/gas-flow.drawio",
+      "bytes": 4738,
+      "sha256": "2b9135dac2aa2956e2cf2465ebbb38bf12e155126d44293c60062aaec98f5fa8"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/gas-flow.svg",
+      "bytes": 11993,
+      "sha256": "42b149449b39d1190d6d4bd11abb3acafbe4b638f477b5a836fb3d8da5991b6e"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/grain-join.drawio",
+      "bytes": 5072,
+      "sha256": "3afb2635f9021b4f1aef708c55c01a2e038ead6a95e1edf828b5ed4909ea4e12"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/grain-join.svg",
+      "bytes": 12291,
+      "sha256": "a6e1c267664a73122a9f628e68f66d989329db41ee81fbcde14473b2adbec223"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/heimdall-bor-data.drawio",
+      "bytes": 4768,
+      "sha256": "f64af859406a190412305580f5b4d49c0968b1ed3c8cb398bc3de4c44750ad9c"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/heimdall-bor-data.svg",
+      "bytes": 11735,
+      "sha256": "308fd11c8e09b0de376b91c321779d4b9ff091b97fa0fe6915e4529745c93578"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/heimdall-v2.drawio",
+      "bytes": 4787,
+      "sha256": "929f02b7a464fa6f6dca4558dce78e39e210465c19a2a6a33ba48e6898fc19a2"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/heimdall-v2.svg",
+      "bytes": 12077,
+      "sha256": "4d53845e11bf358178c9645a708c2081999850767da68c6812817d590859b4d5"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/identity-evidence.drawio",
+      "bytes": 5059,
+      "sha256": "8e59e98fb6cc7306be0333fc4885114fc3097faf1d48a983caec6b484d703034"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/identity-evidence.svg",
+      "bytes": 12248,
+      "sha256": "2d5def60596782605538d45861a4b22df528581e5476ec1f622e7a89f62d949d"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/lgns-admin.drawio",
+      "bytes": 4862,
+      "sha256": "df4209e8e009843e9678e380a21ec4b7adfa5c42d46ddff025f122d9925836d0"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/lgns-admin.svg",
+      "bytes": 12445,
+      "sha256": "c8a56d478bf3832a41f4d73d01be326f8ab26c005b7dd7892eaaa740f758fea4"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/lgns-contracts.drawio",
+      "bytes": 4824,
+      "sha256": "0a315c76e8f8c38e15b7622ab68863fac2d914f256b6f00b3a393226cabc2952"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/lgns-contracts.svg",
+      "bytes": 12681,
+      "sha256": "4a717437c927d0c8d957f48c5837773611b31a965b7fc4149448740b21bbd2af"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/lgns-evidence.drawio",
+      "bytes": 4842,
+      "sha256": "2dbb62b681196ca6289a2da3cae21da1ac524560b6e51f59f127fc7a9d9c1a70"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/lgns-evidence.svg",
+      "bytes": 12051,
+      "sha256": "12dff53b554380eb14ea8cb9513a78ba5de3a477ccd472342780e4623b55b0e7"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/lgns-fund-flow.drawio",
+      "bytes": 4600,
+      "sha256": "dc43c08c8dd4d9f9ec0b52a663e21371bdc49d23ddf5f070b1de440753dc4f81"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/lgns-fund-flow.svg",
+      "bytes": 12103,
+      "sha256": "71accac63bef2372dc3e40699c50ec683ac20255582ac08051196e6b539315cd"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/lgns-liquidity.drawio",
+      "bytes": 4818,
+      "sha256": "200d2d5774dcc385612af96d1e03c5230b68fe640e8034fd503b4cc56cd089f2"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/lgns-liquidity.svg",
+      "bytes": 12023,
+      "sha256": "3901ce52bd4a5f9b48dc7b7ef38bf86523cef593cd58badb3a471b2729d87575"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/lgns-rebase.drawio",
+      "bytes": 4801,
+      "sha256": "2f45c96a0d1134ebe523b55af52fae8dabe0246a30319f9b7349f246c17699f3"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/lgns-rebase.svg",
+      "bytes": 11970,
+      "sha256": "e25708403cf6dcc5e60674dc976f903a7ccb38fc4b9409dedff20064ebd8719f"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/liquidity.drawio",
+      "bytes": 4742,
+      "sha256": "1018fc5b18980afa3f78098431f4eafe922671881463c852afc9858e9e495cb6"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/liquidity.svg",
+      "bytes": 11845,
+      "sha256": "fa832229aaa0a61e9e15f6745d878bc8621ea5dc3e7ed6d47c9e5522812329e0"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/matic-pol.drawio",
+      "bytes": 4780,
+      "sha256": "7d10953bcef24fdb652aa7366daa31506585c7bb24f661e04ef9ebd0a58d1886"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/matic-pol.svg",
+      "bytes": 11950,
+      "sha256": "afa7157d87a49a420f8d07b3f52bcc3329c5da2fe66c26516ee018bd753b4de8"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/milestone-vs-checkpoint.drawio",
+      "bytes": 5104,
+      "sha256": "c19e23dd49a179d591409c52fb95278256711ed3ee1f4f9ab4d425cd73303a7f"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/milestone-vs-checkpoint.svg",
+      "bytes": 12344,
+      "sha256": "56aedc663019ea7df90136c843a90180ed31a6b9350db997b08184b3dc0ae586"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/milestone.drawio",
+      "bytes": 4792,
+      "sha256": "f900db55b8cf482f595a7de3576cb2257616e1b83de3a6cb798642735259d510"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/milestone.svg",
+      "bytes": 11799,
+      "sha256": "1d306e4522f68be57ca0bf4407f3422927af4c6c99cfbdf7701e46dbabff4d10"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/raw-tables.drawio",
+      "bytes": 4783,
+      "sha256": "642387604c765707241462905f9027c0fe4ebc42bd01852dcfef16042d8a7de2"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/raw-tables.svg",
+      "bytes": 12599,
+      "sha256": "436ac5f2fa7217b3e112869ecd718d95cc30393092c06d97941de2b9438cd455"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/risk-evidence.drawio",
+      "bytes": 5069,
+      "sha256": "f39df5fe2211abac7d2197fcba76ae4a56d2bd219bd9120e3ce3cc9a9b7a1093"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/risk-evidence.svg",
+      "bytes": 12616,
+      "sha256": "96c45b081645c437ca75e7f2b998a289d96a0e904af67cfd193b6f66a243ddf6"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/runtime-data.drawio",
+      "bytes": 4723,
+      "sha256": "e692254a22cd208de06020e811f38746bf5e844dcb49c16c2560d902a7b68099"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/runtime-data.svg",
+      "bytes": 11664,
+      "sha256": "371bf970f639d263dd7662697b63e090aaa97532376ec9a50bbf2021bdfced70"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/sql-audit.drawio",
+      "bytes": 5046,
+      "sha256": "354b5729a29f5852413cb5e1622a0e0ac893dc7f711265cfa790734eafccf0c6"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/sql-audit.svg",
+      "bytes": 12206,
+      "sha256": "bf51f3aae7b92c7e44cc4f30f37f2959d177fd57ffd9ab009faea67803e7e46a"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/sql-identity.drawio",
+      "bytes": 5301,
+      "sha256": "12afbde769c8d818f44f43ddae71b1beccd372c08d11a11a00950908ddb25ecd"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/sql-identity.svg",
+      "bytes": 12658,
+      "sha256": "16879497fe363c200dac4f8a6623715403da249e76f6f0d1d27c02b4cc45a664"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/sql-units.drawio",
+      "bytes": 4736,
+      "sha256": "8f69fea79200c4f6980ff51507c1bc0a6a17ed6dd17dac5230097c90c2c6338f"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/sql-units.svg",
+      "bytes": 11639,
+      "sha256": "e7c0528610c9817698a804b9e60d5a8c3589bd15dc7e23662a312e4975e85dd1"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/sql-window.drawio",
+      "bytes": 4763,
+      "sha256": "50c61cec3ca7bff3c2d99e30c8afb1f2ba46a1c41ac99b07656246a084e0d2e1"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/sql-window.svg",
+      "bytes": 11742,
+      "sha256": "9c0973f7cd63eb2eb2405d7ec85302469ff09a73f05b2e3b988ca8936d194be7"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/state-sync.drawio",
+      "bytes": 4794,
+      "sha256": "65a45d4a4bbfe4792929293f72644c25cc810f376b4c8ae7105812a9c6e781d0"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/state-sync.svg",
+      "bytes": 11804,
+      "sha256": "9a92b473aa57bc8b2baf7fa5490100d9cfe9e018d9a32c628153eed15bb247d4"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/token-forms.drawio",
+      "bytes": 5055,
+      "sha256": "00c5309b493d5bd0f8660858577cb45a958c3c8e4655cbefbb846ac4fbca55f7"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/token-forms.svg",
+      "bytes": 12534,
+      "sha256": "f280c6cadff0fa199c83d2597a827187e27a0dc801d4c783b385b23f8df5939c"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/transaction-lifecycle.drawio",
+      "bytes": 4785,
+      "sha256": "d44b28eb9efb62633acc38a30497303e74dee2f496e209836951a25d21bc23b4"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/transaction-lifecycle.svg",
+      "bytes": 12103,
+      "sha256": "04424b27a926af1b056be8a1cc71d9eb75fe3c6ec22d56b0b11e6e9de7a18d69"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/upgrade-2026.drawio",
+      "bytes": 4765,
+      "sha256": "74b29dec17450c78ddfd9bdeb1a54784c4bc9f6eb00585da4b69cb508e9222a8"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/upgrade-2026.svg",
+      "bytes": 11772,
+      "sha256": "9ca9fc1d0ed76a4f695316c95e9904a1ceeac6627a552ebd2e73480d38ab4e7c"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/upgrade-timeline.drawio",
+      "bytes": 5049,
+      "sha256": "b5acad130adc04e67d3dba1e7790fa248b8ca4e43bbd5a46f2e3473eb8201fe0"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/upgrade-timeline.svg",
+      "bytes": 12203,
+      "sha256": "3a6020c9613433b78587d81fef9abb17900bd3400b3fc051f8feb735ee1de3d1"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/validator-span.drawio",
+      "bytes": 5078,
+      "sha256": "a3393edd14e053617521d3e081f05481bac99b5ff695f0a4fd41eef2780f4d7c"
+    },
+    {
+      "path": "chains/polygon/assets/diagrams/validator-span.svg",
+      "bytes": 12461,
+      "sha256": "aa63e4ae99944c0932460ade47ab45722cda92fd50d15103fa6723bc7ef41304"
+    },
+    {
+      "path": "chains/polygon/book/00-preface.md",
+      "bytes": 2142,
+      "sha256": "0bd5953bc3b9a7da5ad0233e1b9fa86f67f05154ccb496bef7a15cdfa4943662"
+    },
+    {
+      "path": "chains/polygon/book/appendix/bridge-reference.md",
+      "bytes": 1572,
+      "sha256": "7efeefa27b7d4ef18aa3bead6c7ee474b53a9a178e9d6261de4649d5f3bcc99c"
+    },
+    {
+      "path": "chains/polygon/book/appendix/data-table-index.md",
+      "bytes": 1607,
+      "sha256": "551bb9b12f417303033b4425a3e335723685b9b72e1a4ad1805a12f5a3c819e4"
+    },
+    {
+      "path": "chains/polygon/book/appendix/glossary.md",
+      "bytes": 1775,
+      "sha256": "ea61acf79bd501f12a6a0a2ba017cfa21af03f645876d8b130366228e0e197be"
+    },
+    {
+      "path": "chains/polygon/book/appendix/protocol-timeline.md",
+      "bytes": 4078,
+      "sha256": "23531a1aa7fe0d7563c71ddb3010ba4e96e5f9d685ada36f05062f0bc5890786"
+    },
+    {
+      "path": "chains/polygon/book/appendix/references.md",
+      "bytes": 4198,
+      "sha256": "11f404b2e2bfcf49e732136e0b625f79f69bdc8bab17a370b6ffc5c9bfb13218"
+    },
+    {
+      "path": "chains/polygon/book/appendix/risk-methodology.md",
+      "bytes": 1231,
+      "sha256": "dce283fa72ac1ba6970b3c729bfaf351b7da4d954a175511ecf98109bf0cba17"
+    },
+    {
+      "path": "chains/polygon/book/part-01/01-chapter.md",
+      "bytes": 3529,
+      "sha256": "8e98df6ae189b34f7f742644a99ce59c33399a2a971731c57d17d696be77bd1f"
+    },
+    {
+      "path": "chains/polygon/book/part-01/02-chapter.md",
+      "bytes": 3473,
+      "sha256": "d9118d1d13a1c3486e66f01ecca92ccda54fe80e4d2edfdbfd9cd45b29802f11"
+    },
+    {
+      "path": "chains/polygon/book/part-01/03-chapter.md",
+      "bytes": 3599,
+      "sha256": "643ec717c05b0d38cbab5da27cf24e98f492cdbe97df0f50eb18ac3ed6c9933a"
+    },
+    {
+      "path": "chains/polygon/book/part-01/04-chapter.md",
+      "bytes": 3533,
+      "sha256": "e3f9576edefdbe1775cd97a07c6b33eab97731a720df26ed18ed065c7ecfabee"
+    },
+    {
+      "path": "chains/polygon/book/part-01/index.md",
+      "bytes": 299,
+      "sha256": "ce7c65c193b75024e90f3af360950f07dd1df48c7ac1c1f48902e294f1a84dfe"
+    },
+    {
+      "path": "chains/polygon/book/part-02/05-chapter.md",
+      "bytes": 3550,
+      "sha256": "d1b2aa58c89eb5591175a1b01bda8312c8757c59f554d58d007b87005442d470"
+    },
+    {
+      "path": "chains/polygon/book/part-02/06-chapter.md",
+      "bytes": 3501,
+      "sha256": "7393b7fe675b77a2d1e7cd44f87282b42fa5f0412a3a4c4c42fabe5a071f1968"
+    },
+    {
+      "path": "chains/polygon/book/part-02/07-chapter.md",
+      "bytes": 3432,
+      "sha256": "3b21aa3627526a3f976a5e292cd73ce8e80433666638d16339c6102fc0718486"
+    },
+    {
+      "path": "chains/polygon/book/part-02/08-chapter.md",
+      "bytes": 3594,
+      "sha256": "633e5d0fb8ef55b6113976bafb777e98d7ce60caf30660c792a171fe8283f02e"
+    },
+    {
+      "path": "chains/polygon/book/part-02/index.md",
+      "bytes": 280,
+      "sha256": "4ea3520bb46dd72611b8e4e18f1143c400c2640a555e8c9eb81a08c980550d58"
+    },
+    {
+      "path": "chains/polygon/book/part-03/09-chapter.md",
+      "bytes": 3504,
+      "sha256": "ad1c319f34d92095270d141a9a57a676c9ff89a5fbda2911c6e43681ab3ec680"
+    },
+    {
+      "path": "chains/polygon/book/part-03/10-chapter.md",
+      "bytes": 3885,
+      "sha256": "d94038e269319752702965eda2fd247ff43a7c63652c9d50ebf6eb313466f14b"
+    },
+    {
+      "path": "chains/polygon/book/part-03/11-chapter.md",
+      "bytes": 3974,
+      "sha256": "f509b157093a360846a6714487bd03245f270527917e1dd24587831e2b84f88b"
+    },
+    {
+      "path": "chains/polygon/book/part-03/12-chapter.md",
+      "bytes": 3728,
+      "sha256": "6cf05486f394fb0df7d8b090be22477071237b1e0fbb9fa8224f80f5a5ca35f9"
+    },
+    {
+      "path": "chains/polygon/book/part-03/index.md",
+      "bytes": 302,
+      "sha256": "cfa164edc95a5795d99d436ba94458c6673dc7f3688664d0202d4a313d428580"
+    },
+    {
+      "path": "chains/polygon/book/part-04/13-chapter.md",
+      "bytes": 3971,
+      "sha256": "619d16b44b6cbf6312c2ad04cf1551c8b1654181718ec9357a5c883ca05b0d26"
+    },
+    {
+      "path": "chains/polygon/book/part-04/14-chapter.md",
+      "bytes": 4312,
+      "sha256": "6529db9f3b2608a365d1bb7c7e4ded2c7a49a27bbd69cd9412f790dbd2c8a109"
+    },
+    {
+      "path": "chains/polygon/book/part-04/15-chapter.md",
+      "bytes": 4432,
+      "sha256": "46c27bae867657f93d10b769e3632b7d91541e31bf3df55937b3ccbe3bbd42de"
+    },
+    {
+      "path": "chains/polygon/book/part-04/16-chapter.md",
+      "bytes": 3488,
+      "sha256": "2a5f5a9cc62dbe77cf883c07181ffd9ec5cf979ee0eb68d6d9c908f1f7d56ffa"
+    },
+    {
+      "path": "chains/polygon/book/part-04/index.md",
+      "bytes": 286,
+      "sha256": "d5b35b6be18bce66b079062060755b1b981bebe146425741f322217e0ec2986e"
+    },
+    {
+      "path": "chains/polygon/book/part-05/17-chapter.md",
+      "bytes": 3680,
+      "sha256": "44fd4a4531d132648f1e58de5200b3b1ae8f1bb2142405d1c342e39533f2f6e5"
+    },
+    {
+      "path": "chains/polygon/book/part-05/18-chapter.md",
+      "bytes": 3630,
+      "sha256": "809e09df8fc94b4ee6cc966261359ebd79ac384fbe4d714710aa0c5583c1066c"
+    },
+    {
+      "path": "chains/polygon/book/part-05/19-chapter.md",
+      "bytes": 3527,
+      "sha256": "64458c14fd0f2609688e2f7f3ad2eb5ba9d0ae9292d1d51281fb9fd9c4d4e5d7"
+    },
+    {
+      "path": "chains/polygon/book/part-05/20-chapter.md",
+      "bytes": 3590,
+      "sha256": "28e39ce45ab805fc89940f56eb233279133e0cf3d4bb1cc6dd8b24adbf2e2157"
+    },
+    {
+      "path": "chains/polygon/book/part-05/index.md",
+      "bytes": 305,
+      "sha256": "0f781865d3d1f707024090cf154339e1e5d3083a71f2b7b925c81a88ad00ebf5"
+    },
+    {
+      "path": "chains/polygon/book/part-06/21-chapter.md",
+      "bytes": 3607,
+      "sha256": "c4a76c159d36898c90c83bf84412380cfa3c5e61ed1a412d9567f678a0c0a9bc"
+    },
+    {
+      "path": "chains/polygon/book/part-06/22-chapter.md",
+      "bytes": 3605,
+      "sha256": "b7d345b3b2d30141f5d460c7c9846d0f724ac0558987802fe19a44bd1235bf9e"
+    },
+    {
+      "path": "chains/polygon/book/part-06/23-chapter.md",
+      "bytes": 3659,
+      "sha256": "59da407a7c20e651dfc345b80f8b010b99d1e35cde3cf79bd785a9e80e36ff28"
+    },
+    {
+      "path": "chains/polygon/book/part-06/24-chapter.md",
+      "bytes": 3818,
+      "sha256": "10637bfc8b363e713f934b1e2bc6166a824391033b2b6640eb75478bfd5040c4"
+    },
+    {
+      "path": "chains/polygon/book/part-06/index.md",
+      "bytes": 297,
+      "sha256": "2d73367afb0cb362bac9a686d69543c91937aa97cfb32bf83545b7f330b0832e"
+    },
+    {
+      "path": "chains/polygon/book/part-07/25-chapter.md",
+      "bytes": 3586,
+      "sha256": "3b67c2985660f02829872ebf7feb49e1fa6efa1d0675ef41375b7c7765f9c997"
+    },
+    {
+      "path": "chains/polygon/book/part-07/26-chapter.md",
+      "bytes": 3375,
+      "sha256": "44eccb75704d107669626ef508c5be6b9149026c02cec9616ee1bf11b47453a9"
+    },
+    {
+      "path": "chains/polygon/book/part-07/27-chapter.md",
+      "bytes": 3461,
+      "sha256": "c1689854a39180b3e245540ee647b91706f0a96b3314252d6249a701d9f2c8e5"
+    },
+    {
+      "path": "chains/polygon/book/part-07/28-chapter.md",
+      "bytes": 3584,
+      "sha256": "46eda1e439c6f0cd219c39eca39adaeb9b90ea9ebf2af22506806f8fc1340ce8"
+    },
+    {
+      "path": "chains/polygon/book/part-07/index.md",
+      "bytes": 304,
+      "sha256": "bb2d78db340674730a834e5c945be0ce94846fe6a6e0de8b8860a0812988b52f"
+    },
+    {
+      "path": "chains/polygon/book/part-08/29-chapter.md",
+      "bytes": 3770,
+      "sha256": "6194abe476072a69ca62cbf32713c6a87871bbe903d18eddcab78660f7269fe5"
+    },
+    {
+      "path": "chains/polygon/book/part-08/30-chapter.md",
+      "bytes": 3979,
+      "sha256": "dd3aa77305652cc5e8af7253488057f69c6c363bca91b11ecb6dd7fd7a0293b5"
+    },
+    {
+      "path": "chains/polygon/book/part-08/31-chapter.md",
+      "bytes": 3619,
+      "sha256": "94346b61a5ce8707f3eba1f6622a01a023728993474b06dd4059852e82852205"
+    },
+    {
+      "path": "chains/polygon/book/part-08/32-chapter.md",
+      "bytes": 3599,
+      "sha256": "6b6d510a6930f14ac75d9f9edd3d0732be61a35113d3d785caffe887f1d2a3e4"
+    },
+    {
+      "path": "chains/polygon/book/part-08/index.md",
+      "bytes": 304,
+      "sha256": "22f869674b30b7ef47219b095224bba8c90b9f949a3ec5427e2941bf7f083a52"
+    },
+    {
+      "path": "chains/polygon/book/part-09/33-chapter.md",
+      "bytes": 3551,
+      "sha256": "db514c362aec22f389e2877de34432adac5bf4bef3953e0fd97bd0af95081ff0"
+    },
+    {
+      "path": "chains/polygon/book/part-09/34-chapter.md",
+      "bytes": 3398,
+      "sha256": "a1e62e90374cf4c0eac4fd1f0fa72f3b3a4bc6eba8348723f8badf029fe41087"
+    },
+    {
+      "path": "chains/polygon/book/part-09/35-chapter.md",
+      "bytes": 3481,
+      "sha256": "c88d5de1693af8cac768b73a099bf694f368b0b8ee3c331dacba2bf2c8ce12d3"
+    },
+    {
+      "path": "chains/polygon/book/part-09/36-chapter.md",
+      "bytes": 3310,
+      "sha256": "4487fe282e3f442120a5fec2b3228c1e9efaa1536584aae584500acdb939e32f"
+    },
+    {
+      "path": "chains/polygon/book/part-09/index.md",
+      "bytes": 307,
+      "sha256": "d8d875f713e3ba25da810f54dba53cba91267eed56e783e590ab8c679d9c46e9"
+    },
+    {
+      "path": "chains/polygon/book/part-10/37-chapter.md",
+      "bytes": 4188,
+      "sha256": "05421fd7c07bf5d6be68237cab77c54d80b16183fd9e20722cb5c968b66b87d0"
+    },
+    {
+      "path": "chains/polygon/book/part-10/38-chapter.md",
+      "bytes": 3863,
+      "sha256": "83708377c8a6632dd3f8d1ad928201efe93e759cd1f01c9c4b02f18d0c708f1e"
+    },
+    {
+      "path": "chains/polygon/book/part-10/39-chapter.md",
+      "bytes": 3880,
+      "sha256": "a7cecab209de53636519b164a10cd6bf14319c77afb46090631a8bd9723691e4"
+    },
+    {
+      "path": "chains/polygon/book/part-10/40-chapter.md",
+      "bytes": 3835,
+      "sha256": "c8c6ef0235b46423523f4a83aca1f7b492ba2bf61e495868092bd082093fd1ee"
+    },
+    {
+      "path": "chains/polygon/book/part-10/index.md",
+      "bytes": 312,
+      "sha256": "8f52e85e2ac621ce739e7bb4a1716462f642e0d54ae8e4da43850ba8906400cc"
+    },
+    {
+      "path": "chains/polygon/examples/python/README.md",
+      "bytes": 289,
+      "sha256": "fe52fc95bc1ef124ff3595e5b0f7d240b50fdf7239b2acd931b1cfc99a3ee319"
+    },
+    {
+      "path": "chains/polygon/examples/python/reproduce_lgns_exit.py",
+      "bytes": 1180,
+      "sha256": "bb9497f0d8d318d7f32d951f3d583c11517b5e30b4b2565e84113e2cecb87075"
+    },
+    {
+      "path": "chains/polygon/examples/rpc/README.md",
+      "bytes": 702,
+      "sha256": "3089e1de6084669bd5b090abb557102133dce76b10d11c3baae01dba2504b529"
+    },
+    {
+      "path": "chains/polygon/examples/rpc/requests.json",
+      "bytes": 1353,
+      "sha256": "d1184f409fa6b0880ccbc0fb908ffa8c9ed23eb072df0d1f6e608be34284a0cf"
+    },
+    {
+      "path": "chains/polygon/examples/sql/README.md",
+      "bytes": 1278,
+      "sha256": "2fc81c3bc82acd4ca241896ae75c14adb1f80ee72cbb173d49bd1e7d29b71431"
+    },
+    {
+      "path": "chains/polygon/examples/sql/bridge/09-fx-deposit.md",
+      "bytes": 677,
+      "sha256": "2fbd2015d62ef94cedea2b309d360cfe1b55ea9e0022f4180e6438fbfced63db"
+    },
+    {
+      "path": "chains/polygon/examples/sql/bridge/09-fx-deposit.sql",
+      "bytes": 593,
+      "sha256": "527df0e196284272822bb408a9acf03f129d633ad3a4c08e17088e74ebf3a0d9"
+    },
+    {
+      "path": "chains/polygon/examples/sql/bridge/10-fx-withdraw.md",
+      "bytes": 680,
+      "sha256": "ef74bb9142f110244072f8a8186570303ddcf7a0617ffaa2db70f623ee279a7a"
+    },
+    {
+      "path": "chains/polygon/examples/sql/bridge/10-fx-withdraw.sql",
+      "bytes": 596,
+      "sha256": "894a4216542f9391c20f140bf04361ba8cd4ea29b1ec8ffe8998e276e1dee3f6"
+    },
+    {
+      "path": "chains/polygon/examples/sql/core-structure/01-daily-blocks-tx.md",
+      "bytes": 564,
+      "sha256": "3488382b59755d2e7b37b69874130418712094171f6d6e1b73cc6d865499bbad"
+    },
+    {
+      "path": "chains/polygon/examples/sql/core-structure/01-daily-blocks-tx.sql",
+      "bytes": 765,
+      "sha256": "a25c9c31bf3fa044a013f34895681b6ae69684fd6dfae8f7d2794204cc9b5ef0"
+    },
+    {
+      "path": "chains/polygon/examples/sql/core-structure/02-gas-by-type.md",
+      "bytes": 611,
+      "sha256": "c2a20fbd55bab3d052f980ca9306400200d4dd61a641705e80370c2cabaf1cbd"
+    },
+    {
+      "path": "chains/polygon/examples/sql/core-structure/02-gas-by-type.sql",
+      "bytes": 618,
+      "sha256": "a23d09225d72c35d6233558d4ecf1d38b3c4c639c81d65cf215eaf919ddf1a35"
+    },
+    {
+      "path": "chains/polygon/examples/sql/core-structure/03-transaction-grain.md",
+      "bytes": 571,
+      "sha256": "c092a3d89d7251666b9ccf1c92e68daa069289c9d1c4ecce120e1b5196c5b52b"
+    },
+    {
+      "path": "chains/polygon/examples/sql/core-structure/03-transaction-grain.sql",
+      "bytes": 933,
+      "sha256": "fa008ff8bc75ee2bec824f87d4e0f05bc2f824809490af77788a9f8f1d48a644"
+    },
+    {
+      "path": "chains/polygon/examples/sql/core-structure/04-contract-activity.md",
+      "bytes": 605,
+      "sha256": "e3134a8c95900da7f3dc6e0890b0f1a71daf4202ef09fb81ef674d394c29ffe2"
+    },
+    {
+      "path": "chains/polygon/examples/sql/core-structure/04-contract-activity.sql",
+      "bytes": 498,
+      "sha256": "9184462562e5766e3bb93ba8f31a2b158f9f1954b0c10b19667cae8cbd0b4ada"
+    },
+    {
+      "path": "chains/polygon/examples/sql/core-structure/11-creation.md",
+      "bytes": 565,
+      "sha256": "4e31a838ad6a08cace7c9ddc7b508b5dcff670d3fa71f43839c754a5a48319a9"
+    },
+    {
+      "path": "chains/polygon/examples/sql/core-structure/11-creation.sql",
+      "bytes": 507,
+      "sha256": "f02e8a6a5240173b14df2033780567eb3d9fd82b35fd5e9dc18edfb2c013fab1"
+    },
+    {
+      "path": "chains/polygon/examples/sql/core-structure/16-join-demo.md",
+      "bytes": 522,
+      "sha256": "c612159a684510a6824fa9d06780e4e8eaf4b075076bb67ef11c2d218fb81a86"
+    },
+    {
+      "path": "chains/polygon/examples/sql/core-structure/16-join-demo.sql",
+      "bytes": 637,
+      "sha256": "cac1f8e36718ae966e3aebc321eb7e6559e4dc4c02fdac919923db116d5c40fa"
+    },
+    {
+      "path": "chains/polygon/examples/sql/defi/05-raw-transfer.md",
+      "bytes": 550,
+      "sha256": "10a24a8516989149fb71a829e4825041c226dd286e817b90e2818275e8643ed0"
+    },
+    {
+      "path": "chains/polygon/examples/sql/defi/05-raw-transfer.sql",
+      "bytes": 768,
+      "sha256": "8bc66e5f36939614bba419ae44fac59b37355afb1310ffa529e63707e80c4e5b"
+    },
+    {
+      "path": "chains/polygon/examples/sql/defi/06-stablecoin-transfers.md",
+      "bytes": 575,
+      "sha256": "32fda60690c4d7cd71e2591fe3ca8421b8a0b80a1f4dbc7c0df080dadda302bc"
+    },
+    {
+      "path": "chains/polygon/examples/sql/defi/06-stablecoin-transfers.sql",
+      "bytes": 606,
+      "sha256": "66d64c4a9a99c4a29239840a28db291d2b84858cb598e172b75c80c9d4ca74e5"
+    },
+    {
+      "path": "chains/polygon/examples/sql/defi/07-dex-grain.md",
+      "bytes": 516,
+      "sha256": "a6e71fe8a5f40aa8ff993f66da99b02c3b560c895cd950783d79e941fe733e46"
+    },
+    {
+      "path": "chains/polygon/examples/sql/defi/07-dex-grain.sql",
+      "bytes": 563,
+      "sha256": "3250cceff3beafadb49a9a1e7fe6ffe46e9dbd2a79d1d34292e49db149c10595"
+    },
+    {
+      "path": "chains/polygon/examples/sql/defi/12-upgrade-events.md",
+      "bytes": 591,
+      "sha256": "7795ff7385144563490606116493c0bed096fdddb5e3b4ba115b612b418a00c4"
+    },
+    {
+      "path": "chains/polygon/examples/sql/defi/12-upgrade-events.sql",
+      "bytes": 523,
+      "sha256": "123efd7b9d4c1bf0539b1d1a091ea5ff46afe91e1b56b35bdbb8a58e4ca2f9f7"
+    },
+    {
+      "path": "chains/polygon/examples/sql/lgns/08-lp-events.md",
+      "bytes": 686,
+      "sha256": "86fbcfdc74f6b1a78665f1108729fd449a40e7a8095ea8c26df10f5c182928c8"
+    },
+    {
+      "path": "chains/polygon/examples/sql/lgns/08-lp-events.sql",
+      "bytes": 761,
+      "sha256": "5d37ebb2a60c5f043ec85e040f71eab1eb0fe36a1628dcf9a9e0d58899bec41f"
+    },
+    {
+      "path": "chains/polygon/examples/sql/lgns/13-mint-burn.md",
+      "bytes": 522,
+      "sha256": "700a56757a7e5abe9ceb75d494b35aeb7b6a5de1045fa19ee73bd9d745dcdbfe"
+    },
+    {
+      "path": "chains/polygon/examples/sql/lgns/13-mint-burn.sql",
+      "bytes": 801,
+      "sha256": "a1fa68860a27ddbfc3d50b827113de82735d86181b0370c896cf9641c102ad7b"
+    },
+    {
+      "path": "chains/polygon/examples/sql/lgns/14-staked.md",
+      "bytes": 546,
+      "sha256": "544b2a9c69c8471212201762f365166f3df292e977ac4eba6591decb20ea01d7"
+    },
+    {
+      "path": "chains/polygon/examples/sql/lgns/14-staked.sql",
+      "bytes": 693,
+      "sha256": "b424d82236582e1fd342e2b21edf514b3c60625ce18925825e45b3259d43def4"
+    },
+    {
+      "path": "chains/polygon/examples/sql/lgns/15-rebase.md",
+      "bytes": 557,
+      "sha256": "2c7156402d5b9bb1aeeeb75c73ae1e474fbbf70dc72a52317b3134ba512f6dc0"
+    },
+    {
+      "path": "chains/polygon/examples/sql/lgns/15-rebase.sql",
+      "bytes": 935,
+      "sha256": "901840b2988a4ad23f3c6f9b6a04e35152dfaf72cd3cc7227ca7cf36c4402dad"
+    },
+    {
+      "path": "chains/polygon/examples/sql/lgns/17-dai-boundary.md",
+      "bytes": 598,
+      "sha256": "35148a2f7e7223a411e2c90a1360ebac7b23bee5f18c5b7391ccbc9fd77a12d3"
+    },
+    {
+      "path": "chains/polygon/examples/sql/lgns/17-dai-boundary.sql",
+      "bytes": 1275,
+      "sha256": "ee30c040a00d01ff6527a10cfd12f4b78f3319fa6075ff5d11c5f0932ca85d03"
+    },
+    {
+      "path": "chains/polygon/examples/sql/lgns/18-exit-scenario.md",
+      "bytes": 608,
+      "sha256": "749bd440aca739d2cbf98621ef3ba06c5be639a76134da4b20fddc23a8f96a0f"
+    },
+    {
+      "path": "chains/polygon/examples/sql/lgns/18-exit-scenario.sql",
+      "bytes": 609,
+      "sha256": "99d5f851809619f32abcc40f2d033386a7efe933988765fda1e7b2f49d2e277f"
+    },
+    {
+      "path": "chains/polygon/examples/sql/sql-manifest.json",
+      "bytes": 8214,
+      "sha256": "4548936468355f8503703e7252ff5a3b7e75e3e6ee4e5730576373f3faae3e3a"
+    },
+    {
+      "path": "chains/polygon/examples/transactions/README.md",
+      "bytes": 831,
+      "sha256": "20c26214146940ec2f405dcb8e4f2757a25e6cdca289fee1dc30094409a0bbbd"
+    },
+    {
+      "path": "chains/polygon/examples/transactions/case-01.json",
+      "bytes": 2034,
+      "sha256": "0a8f9388c2ac120f6457d24e3fc5e34859d0739c157c97702025ce5e021660fe"
+    },
+    {
+      "path": "chains/polygon/examples/transactions/case-01.md",
+      "bytes": 717,
+      "sha256": "890e3e2743ef0094eaa7ebbe47d6a1f7f9a6fc06d83695d54b7f76346da26e3d"
+    },
+    {
+      "path": "chains/polygon/examples/transactions/case-02.json",
+      "bytes": 13973,
+      "sha256": "e4fedb448f6a409a4fdd5956045f940f9f2c448a83844f7532ee1bb122f73090"
+    },
+    {
+      "path": "chains/polygon/examples/transactions/case-02.md",
+      "bytes": 721,
+      "sha256": "7ef5ce5157eb85cc0fca7f4c781877839d274484e651d8a0991d60039060a23d"
+    },
+    {
+      "path": "chains/polygon/examples/transactions/case-03.json",
+      "bytes": 2166,
+      "sha256": "7b7f0731961eb5c7ab961a975a499deca339acac4a607a651fb4388d1d8ad6ca"
+    },
+    {
+      "path": "chains/polygon/examples/transactions/case-03.md",
+      "bytes": 714,
+      "sha256": "acfb66dee325418537a19f3000827a6d4cbd3018d7722a386d7ea51099343df1"
+    },
+    {
+      "path": "chains/polygon/examples/transactions/case-04.json",
+      "bytes": 2039,
+      "sha256": "53b3f5ce984aeb02955953f9a878109bcfa18fc9159b9d44fd647c166086234d"
+    },
+    {
+      "path": "chains/polygon/examples/transactions/case-04.md",
+      "bytes": 736,
+      "sha256": "30aa257430a1e6c17835835f792b90b4e2165e96540cc1041bd667b4a14de90a"
+    },
+    {
+      "path": "chains/polygon/examples/transactions/case-05.json",
+      "bytes": 1080,
+      "sha256": "f8dcff656db5cfa35be73aeaf9c33ab1fba2e4aaf91e487ca639bfef6a838ff7"
+    },
+    {
+      "path": "chains/polygon/examples/transactions/case-05.md",
+      "bytes": 658,
+      "sha256": "3ca6374b62fa5f57124c8ac25635417dcbc28f002531ebe7f6e5bf26b0b553a3"
+    },
+    {
+      "path": "chains/polygon/examples/transactions/case-06.json",
+      "bytes": 1072,
+      "sha256": "5f2a42aa1a469916a0f6f4070f47dffcb9466894e56f3aa0eb6aaad0bee8193a"
+    },
+    {
+      "path": "chains/polygon/examples/transactions/case-06.md",
+      "bytes": 650,
+      "sha256": "9ebe37eacd83adeabd4cf92fd3d5a606c851c9ed2ce6163987b897d5b564d370"
+    },
+    {
+      "path": "chains/polygon/examples/transactions/case-07.json",
+      "bytes": 1082,
+      "sha256": "74ffa359d437b79fbeba34b7b9f48e3ba304de75b9c48c62bb8770720782d6fa"
+    },
+    {
+      "path": "chains/polygon/examples/transactions/case-07.md",
+      "bytes": 660,
+      "sha256": "a2560719b75d3ad6a6d50de66babb02842bbd3c7b6ca90d794db7df4ebb693b8"
+    },
+    {
+      "path": "chains/polygon/examples/transactions/case-08.json",
+      "bytes": 1086,
+      "sha256": "bc450f20a49014e21a64afaa9e6285f893080c8dc8f374fb461a5b0f5c29d51f"
+    },
+    {
+      "path": "chains/polygon/examples/transactions/case-08.md",
+      "bytes": 664,
+      "sha256": "4728eaf531637fe881b3422a66810ccdccdd22aba4286820ddb3c24866e55c3d"
+    },
+    {
+      "path": "chains/polygon/examples/transactions/case-09.json",
+      "bytes": 1072,
+      "sha256": "9334599fa0b8a49522e7169529cbde63395bc335adb3a3e51ea06b5d7db586c7"
+    },
+    {
+      "path": "chains/polygon/examples/transactions/case-09.md",
+      "bytes": 650,
+      "sha256": "82d1d259a176015d2ea52ec7169b328cc7bf259e9f862f632d086a848ab5a85a"
+    },
+    {
+      "path": "chains/polygon/examples/transactions/case-10.json",
+      "bytes": 1724,
+      "sha256": "61c993264bf7c12d2f33aad3136068385d5a448b03383d92609df5431770497d"
+    },
+    {
+      "path": "chains/polygon/examples/transactions/case-10.md",
+      "bytes": 702,
+      "sha256": "472a65670b34b2167670fe95007cb08da970dac4f6b66e9f89aac38fbcd9a145"
+    },
+    {
+      "path": "chains/polygon/examples/transactions/case-11.json",
+      "bytes": 1686,
+      "sha256": "7bdcc7513c327e092b03e7e8701c13f01f07bc30cfc8a0f7be9a127e5f75d0b6"
+    },
+    {
+      "path": "chains/polygon/examples/transactions/case-11.md",
+      "bytes": 716,
+      "sha256": "5588fec56cec7e466c875d8ee9d44eb3a88bc73059f1e44a7ab251d564525b75"
+    },
+    {
+      "path": "chains/polygon/examples/transactions/case-12.json",
+      "bytes": 1234,
+      "sha256": "4a03f9b1f8128ac66775144bbb00b80cbea11297fa7c7b3d9de2f76528021c73"
+    },
+    {
+      "path": "chains/polygon/examples/transactions/case-12.md",
+      "bytes": 903,
+      "sha256": "1d1acf08604debac1e2805baa1cb1c47ee3e8788ac090e37c975274a1f096a0f"
+    },
+    {
+      "path": "chains/polygon/examples/transactions/case-index.json",
+      "bytes": 31539,
+      "sha256": "7f05689fddc0b8ba504a1494b28dc4becbe8d4ffc0710c4efdc96cbc7de2197c"
+    },
+    {
+      "path": "chains/polygon/reports/api-review.md",
+      "bytes": 1524,
+      "sha256": "0ee4af30b6f01027167a0152a9feab8cbf09e8eb6833a316c16f4e5c919050b3"
+    },
+    {
+      "path": "chains/polygon/reports/case-checks.json",
+      "bytes": 3466,
+      "sha256": "dc9248249c0bdb0418a8ef22b1c329ce600da6ffdf09ab6130304a254f42c388"
+    },
+    {
+      "path": "chains/polygon/reports/chapter-manifest.json",
+      "bytes": 10415,
+      "sha256": "1d5366e21a1250ce2256602e0f49e0a4831f7ef129c4607a5ef4df12e6c040d7"
+    },
+    {
+      "path": "chains/polygon/reports/deep-result-checks.json",
+      "bytes": 2788,
+      "sha256": "8ca0b1b1290443dc0a24da42751a6f604ddb2990b8d012104021e23d43e757c2"
+    },
+    {
+      "path": "chains/polygon/reports/delivery-counts.json",
+      "bytes": 508,
+      "sha256": "2c649e5bff1d4d18f2d78246e660dead406909585cd404ca60f63c52977e931a"
+    },
+    {
+      "path": "chains/polygon/reports/editorial-checks.json",
+      "bytes": 3322,
+      "sha256": "38b832b7ea8bde7dec1155b469abff91cc2c122b86540713c518d0b231a6a2cd"
+    },
+    {
+      "path": "chains/polygon/reports/editorial-review.md",
+      "bytes": 1147,
+      "sha256": "62709d9a6952c02e75a127559201e3e341d260573262b82b573a2c7a3542d5a8"
+    },
+    {
+      "path": "chains/polygon/reports/evidence-checks.json",
+      "bytes": 6007,
+      "sha256": "24c8eca56c43f2f8db4bca36595898cabf4a46e39ee3f34f41d33011753eecaa"
+    },
+    {
+      "path": "chains/polygon/reports/figure-render-results.json",
+      "bytes": 5957,
+      "sha256": "1ed339eb478e83cb2c08e5079190ec32ec4c7a5692324e19a30bf22feae3c8e0"
+    },
+    {
+      "path": "chains/polygon/reports/final-acceptance.md",
+      "bytes": 3962,
+      "sha256": "b5108039c081b5a11b2fdfb9e4d3f485a6802d45cf2d5ce7e25928642e96de4e"
+    },
+    {
+      "path": "chains/polygon/reports/sql-static-checks.json",
+      "bytes": 8224,
+      "sha256": "3b15500e90a1a980ee94358802db810c771e3bf2bcba75d67ab5a5122ec98d91"
+    },
+    {
+      "path": "chains/polygon/reports/sql-static-review.md",
+      "bytes": 2398,
+      "sha256": "763b9c851ff6ec190d1fa1f56d10ca09b91d0b84acca418399a935a2b4d2695a"
+    },
+    {
+      "path": "chains/polygon/reports/technical-review.md",
+      "bytes": 3317,
+      "sha256": "bc24142ba2a354947623a5fd3160cd9aec47df6240326b3ae84cbb00f79e28c8"
+    },
+    {
+      "path": "chains/polygon/reports/validation.json",
+      "bytes": 4707,
+      "sha256": "01136e1bcea8b3613078f98575ba50acd50fa466a6ac6cc93a6aa5fbb965881a"
+    },
+    {
+      "path": "chains/polygon/reports/visual-qa.json",
+      "bytes": 4977,
+      "sha256": "88d71567e740c082ddabe557c67cd8bce2edbbbcd18b695cd115bd8bd9dbea4f"
+    },
+    {
+      "path": "chains/polygon/research/all-sources.json",
+      "bytes": 88378,
+      "sha256": "e48c66a13e795cc096c5997b22e7a4002fae782845f1b2d0d3c77113e5a996c7"
+    },
+    {
+      "path": "chains/polygon/research/bridge/README.md",
+      "bytes": 448,
+      "sha256": "e51b84f4eb1a9922cf01cc3f70ffe061d76688b842df0745335eb9855149736f"
+    },
+    {
+      "path": "chains/polygon/research/case-pages-manifest.json",
+      "bytes": 8395,
+      "sha256": "c686c685ee24ac73a1628c87684a93ad7745e70e1ef825f1572449fe71170cde"
+    },
+    {
+      "path": "chains/polygon/research/case-seeds.json",
+      "bytes": 1002,
+      "sha256": "cbdee2818c2d9bbf7389f20fb89443b42864ebde14a385d220629192632db255"
+    },
+    {
+      "path": "chains/polygon/research/dune/01M0A3P9ANFK5JETN7M01GRTCF.json",
+      "bytes": 13079,
+      "sha256": "242c0efd48d4029fad890d6e5c4d3d37d3255f9d1ac27ff9a93991ee2df0a26b"
+    },
+    {
+      "path": "chains/polygon/research/dune/01M0A63HY5KEF70DF2C7E1MCT8.json",
+      "bytes": 9149,
+      "sha256": "3f74243ea272b7ac8fc8a7fa7dae528266a0cc8840eaab6d73478f72920845b1"
+    },
+    {
+      "path": "chains/polygon/research/dune/01M0A6A30NMR688RY029MSGRH5.json",
+      "bytes": 9173,
+      "sha256": "18bf7b5f94780a67d56948e766dff31551b691874e209df71a6b8c4ccc6d378c"
+    },
+    {
+      "path": "chains/polygon/research/dune/01M0FMD36T1B5TZ3SG0YN54ZDV.json",
+      "bytes": 15343,
+      "sha256": "466f70324bc4df180faa0dd2d1d3e75b7c41f90ee5e48cfc9b07e81144c0248e"
+    },
+    {
+      "path": "chains/polygon/research/dune/01M0FQYVK9NT2JJHD359YDZ4R8.json",
+      "bytes": 14506,
+      "sha256": "336a7305c9163f34ce348a08b3c449a4490157a179ecf16d85acd11593b93809"
+    },
+    {
+      "path": "chains/polygon/research/dune/01M0FR2S8GMTYSSG3Y6XDYQGHT.json",
+      "bytes": 16426,
+      "sha256": "c0e1e2cb4f22e02b55a3208cce52b32309c86a397c8a0ec035551874e32cb1d9"
+    },
+    {
+      "path": "chains/polygon/research/dune/01M0FRBNKF551AQ4EF92GJQQ2E.json",
+      "bytes": 13542,
+      "sha256": "5f0eff87ea125e902f84cefdacafbf4a7421cfa4a5fc423328d9a2d632669bbf"
+    },
+    {
+      "path": "chains/polygon/research/dune/01M0FRYB87WXB3FJVC7N10X956.json",
+      "bytes": 17160,
+      "sha256": "8ad1e8cf822653fb5839defa965416483cec8aa87e9845f07ba2ce123f8aba16"
+    },
+    {
+      "path": "chains/polygon/research/dune/01M0FS808GY0KZ0N8MDD4TN57V.json",
+      "bytes": 12423,
+      "sha256": "7aa6d8294fe17ddbf79a600b7ac58efc085455c88027a3a548e8c9d99b995221"
+    },
+    {
+      "path": "chains/polygon/research/dune/01M0FTAP5B4K55PXCYBJ4EZHJ8.json",
+      "bytes": 13339,
+      "sha256": "f57b1bc5fc20569b3e9496dbb244135d5a4e17198b268d981e7794d8f620a6d8"
+    },
+    {
+      "path": "chains/polygon/research/dune/01M0FXJH2MZ68QFMZGQTV5QWFJ.json",
+      "bytes": 12207,
+      "sha256": "fab33423d6d5547cc6bc276a423b6e580964e5131df808ba555341db47dc332f"
+    },
+    {
+      "path": "chains/polygon/research/dune/01M0FXP1MAEZXT850JK1H4V3AP.json",
+      "bytes": 22015,
+      "sha256": "bb0a213e088a055a29dea73a920ce6511b14a6141327f269c16fa2b76d52d7f2"
+    },
+    {
+      "path": "chains/polygon/research/dune/01M0G0AV770V3FWAFQR7N3M2BZ.json",
+      "bytes": 19203,
+      "sha256": "3050c25e95af9d0ca57b047dfd5640a5e78738ccdf367f2afcf9e33eb0eead8e"
+    },
+    {
+      "path": "chains/polygon/research/dune/01M0G1CEH3W1WSQM3GVKP3PHZB.json",
+      "bytes": 126721,
+      "sha256": "6e146c111e337bb799304b8aa0df83fd38837024d574611873eab73b5f51c3c8"
+    },
+    {
+      "path": "chains/polygon/research/dune/01M0G1G584AKZZPBCQAKDDJH2N.json",
+      "bytes": 2417,
+      "sha256": "67e906ee5982a9540515a282008f8ef5c236b3e2b4c43c6989f9c0f36989bf27"
+    },
+    {
+      "path": "chains/polygon/research/dune/01M0G1RBADJF14QYVZE2RFC7DN.json",
+      "bytes": 6183,
+      "sha256": "bcf714c983a12e3223e1efcc8b38996d28352806710e437a21833603e7b17e1c"
+    },
+    {
+      "path": "chains/polygon/research/dune/01M0G2A9EYQS2THNMV5CFYB57C.json",
+      "bytes": 25683,
+      "sha256": "ff95722406811a1c66490687a3ab657f1e2e11d456d8b0628a423459f06b2821"
+    },
+    {
+      "path": "chains/polygon/research/dune/01M0G2H68E3R2NN1QY1MREY8DV.json",
+      "bytes": 5757,
+      "sha256": "da4784da878b9b7fb6f732433fff0bde0c7411ec596e6a99ae7ccc19d1b24c95"
+    },
+    {
+      "path": "chains/polygon/research/dune/01M0G62ACSV86632659CXFJ0D6.json",
+      "bytes": 7343,
+      "sha256": "ce9282cac4f240737fba8e96040f143b5066199e86f51125e324c86dbd9109eb"
+    },
+    {
+      "path": "chains/polygon/research/dune/01M0G6HN8JPP99B2DSSZR1508G.json",
+      "bytes": 7337,
+      "sha256": "9e4f95e45f5b24f417bde8ee63c2924ed8e0ecd8ca076f7ba2251f22511a8aaf"
+    },
+    {
+      "path": "chains/polygon/research/dune/01M0G72A0H9GSW28X6YVAQBQVZ.json",
+      "bytes": 4061,
+      "sha256": "8ebdcb533488c2bbc5e0c0fbf975148342f7a8923d1c400090779d750b9739f5"
+    },
+    {
+      "path": "chains/polygon/research/dune/01M0G73S318XXEXF7298ECE1Z0.json",
+      "bytes": 35048,
+      "sha256": "ff1fcb06c0a8020155aa104fa967d7d8fda67b1e0e6097589afc085fc19a8ec7"
+    },
+    {
+      "path": "chains/polygon/research/dune/01M27FM49GT66BS9XY1E4JX05S.json",
+      "bytes": 7285,
+      "sha256": "6a79ed1ca8e77e62d2d9f0f07ec02a50c1047c459ef539cd06dfaa1f2cb2cfb7"
+    },
+    {
+      "path": "chains/polygon/research/dune/01M27FMT1F6Q0TPRG8ESW8CAHM.json",
+      "bytes": 13331,
+      "sha256": "6f6ebb381306d4c5db2c29633a8f47376f8d55deeaf7b42c8ab7556b7b660242"
+    },
+    {
+      "path": "chains/polygon/research/dune/01M27FNHHJWA9132DGAW0QDV9X.json",
+      "bytes": 14394,
+      "sha256": "5a2672f67d692ae69f30c24ef056d3c41aa0be17e8a760dff13b4964c3b5fc28"
+    },
+    {
+      "path": "chains/polygon/research/dune/01M27FPXHF5YQBKP84B7Q51PK4.json",
+      "bytes": 15195,
+      "sha256": "c10344132a5b23ac1580e2f16210d4781cc194d9d2e6510a575285df2248caa7"
+    },
+    {
+      "path": "chains/polygon/research/dune/01M27FV9P0FNDC8AN1A97YJ4KV.json",
+      "bytes": 16783,
+      "sha256": "bea1745281a7c7885c2cea4588c80328f08bf6cf96836b19a63d8dbcf9a19fcf"
+    },
+    {
+      "path": "chains/polygon/research/dune/01M27FZZ95AG8BD9WYW1N77Z40.json",
+      "bytes": 13883,
+      "sha256": "4825a8425ebdd95dbc583c1b5fa53cb16c9613259295e5e327ce915bc46c6854"
+    },
+    {
+      "path": "chains/polygon/research/dune/01M27GNJ1YCEVG6TV67VSZYPFC.json",
+      "bytes": 3375,
+      "sha256": "f7527ee92ecba3ad2d06596a9f487008cafb025e49fc645c80833b945c504fbf"
+    },
+    {
+      "path": "chains/polygon/research/dune/01M27GNJFD5YA49481PQMANSEG.json",
+      "bytes": 3957,
+      "sha256": "ec03ed4c2c28467b801a08d88abcc72ac17b8a0cf80f2effc3ca1708e9a46ac7"
+    },
+    {
+      "path": "chains/polygon/research/dune/01M27GNJFSJ1D798D1YB2839AC.json",
+      "bytes": 4493,
+      "sha256": "3309747000f27893bffddfc4831ad1381d07a79bd8211f71607b7b441d11f957"
+    },
+    {
+      "path": "chains/polygon/research/dune/01M27GRMB8E525CNKKB2XRAC28.json",
+      "bytes": 2827,
+      "sha256": "0ec30b3c58a740145d51c48935066dd204e94d8917dc13c0273eb7c06a7de3ec"
+    },
+    {
+      "path": "chains/polygon/research/dune/01M27GRMBBTDD43KED2TGKPP5Z.json",
+      "bytes": 3099,
+      "sha256": "89d1f7d11bf07c1e3602f85069bfcc9152d524aa5a4d025ed0ae361af34becae"
+    },
+    {
+      "path": "chains/polygon/research/dune/01M27GRMBG3YVR6DC6RE2FFV3K.json",
+      "bytes": 3299,
+      "sha256": "4cf7a5a44fed6127598d6bb1c30a41cb64fbdb5d5ba18edea3cdf39b028a03b5"
+    },
+    {
+      "path": "chains/polygon/research/dune/01M27GV5QMY4DVQXV0ZCZGK91H.json",
+      "bytes": 3231,
+      "sha256": "6a74e5dfe339628ab614668d804630b39a5eb2838051e1a8445e5ecd268737e6"
+    },
+    {
+      "path": "chains/polygon/research/dune/01M27GV5R6VRK235DA333XQ2QM.json",
+      "bytes": 3099,
+      "sha256": "990c769b00ae109e44555c00ad8e70e66df61445982b434ca56ff8cf54b5bd77"
+    },
+    {
+      "path": "chains/polygon/research/dune/01M27GV5R8PE0RHRV2M1MX4T0J.json",
+      "bytes": 11579,
+      "sha256": "a3222d798d7004e6c2488a142489d6f14523df316960d23545be9a2567b6e810"
+    },
+    {
+      "path": "chains/polygon/research/dune/01M27GV65QDG8PA320T28EGSQB.json",
+      "bytes": 2305,
+      "sha256": "7241e23e1c1fc1bf10b3a4ea86753780af2113383e094bb7341b6bab7bb84828"
+    },
+    {
+      "path": "chains/polygon/research/dune/8369227.json",
+      "bytes": 24224,
+      "sha256": "e1dcb4e418a903873736ea23e2fe5987652c94c85819ce41a3b7bbd8608ad19c"
+    },
+    {
+      "path": "chains/polygon/research/dune/8369303.json",
+      "bytes": 20847,
+      "sha256": "0963b51419757b2d96f83105d7d68873513494322e546c5a67feb41c9cbee92f"
+    },
+    {
+      "path": "chains/polygon/research/dune/8369505.json",
+      "bytes": 12276,
+      "sha256": "11f23c94fc95c91104ed4dae573a5683ddb646bc15c660b8a6e235a1608707e7"
+    },
+    {
+      "path": "chains/polygon/research/dune/8369671.json",
+      "bytes": 12968,
+      "sha256": "c0472a332e116eff5c109112427cdbbc89953fc59d87e8e11f0bb40b1eacc50e"
+    },
+    {
+      "path": "chains/polygon/research/dune/8389462.json",
+      "bytes": 17894,
+      "sha256": "142922e8178a32ff637b31be568f4567bac632854337a64f428284266027c60a"
+    },
+    {
+      "path": "chains/polygon/research/dune/8389527.json",
+      "bytes": 23604,
+      "sha256": "4e515c759b73a3f571bc060fc783ff4cbaed90648636d47cbc6a59a4facb3431"
+    },
+    {
+      "path": "chains/polygon/research/dune/8389535.json",
+      "bytes": 16139,
+      "sha256": "9834208df7b258e455f927b99ce97862aaf9f2f30bfecb7e736dc7c47a02190f"
+    },
+    {
+      "path": "chains/polygon/research/dune/8389592.json",
+      "bytes": 32700,
+      "sha256": "6934f29ffb2c7438d4a7fabf96d69554576a6ab7dc9c62f2ab5dfb4c86d59956"
+    },
+    {
+      "path": "chains/polygon/research/dune/8389682.json",
+      "bytes": 27951,
+      "sha256": "3ac5965bc1e239d763b2d5f43b05cffb96d30e1301fb54e7c08dd08606719275"
+    },
+    {
+      "path": "chains/polygon/research/dune/8389804.json",
+      "bytes": 24697,
+      "sha256": "0add93083ffcbee6f1cc14437f2b02793513e37f769265f27fac9d399cce2be6"
+    },
+    {
+      "path": "chains/polygon/research/dune/8389881.json",
+      "bytes": 35471,
+      "sha256": "bcbf1b4ffc233bdaa700a8be70b292676dee8b7e6d15dfae85c65b557b540709"
+    },
+    {
+      "path": "chains/polygon/research/dune/8390237.json",
+      "bytes": 17372,
+      "sha256": "37fc92cabe7d0213a8606a3c46b697e70aaa84cb4101032f6ac592f5ca7f218e"
+    },
+    {
+      "path": "chains/polygon/research/dune/8390372.json",
+      "bytes": 43537,
+      "sha256": "a499179d81c5549ccf7e787ed2b0eade50749e8c893b24ba7c2f4c2e62288f70"
+    },
+    {
+      "path": "chains/polygon/research/dune/8390785.json",
+      "bytes": 71113,
+      "sha256": "574d494e037a5b7a47e843d80469153064694297e36e2248cc95fe70e89a06e7"
+    },
+    {
+      "path": "chains/polygon/research/dune/8390794.json",
+      "bytes": 20502,
+      "sha256": "5c5acd5cfdb00cc0ff4d01be97cb920fc58c1e0f7443703f76bc334f23206fc6"
+    },
+    {
+      "path": "chains/polygon/research/dune/8390841.json",
+      "bytes": 6759,
+      "sha256": "3c20c7186586844ac238584e7ffe28a6cfd964e3978d800be1502b80fdc47aa6"
+    },
+    {
+      "path": "chains/polygon/research/dune/8390867.json",
+      "bytes": 13760,
+      "sha256": "7cc32028d4632d18524ff7bb57fe7dc42c548210140beab2281603de177bda6a"
+    },
+    {
+      "path": "chains/polygon/research/dune/8390998.json",
+      "bytes": 10449,
+      "sha256": "9ad36991ecc4875830f63d35a876544982150edaf65305100cbec8e0ef716eff"
+    },
+    {
+      "path": "chains/polygon/research/dune/8391200.json",
+      "bytes": 49701,
+      "sha256": "2f291882e436ca5c20e3bf71a3ff647ed131fdec19424374b8a806f0ea2336ff"
+    },
+    {
+      "path": "chains/polygon/research/dune/8391403.json",
+      "bytes": 17519,
+      "sha256": "93acdd091a964c0ed4aa75e0d904f8ecfab7d0b29890d66344894d26dc17be7c"
+    },
+    {
+      "path": "chains/polygon/research/dune/8391491.json",
+      "bytes": 23255,
+      "sha256": "d37aeaaaf81152865a3d08565b2d72f10bdc77deec59d0a629a476401c9c6b8d"
+    },
+    {
+      "path": "chains/polygon/research/dune/8391574.json",
+      "bytes": 9686,
+      "sha256": "e3f8f386c431e24fe0ca4a9d0a5e02468532d14fae4664f3c0dd483bd806e4e7"
+    },
+    {
+      "path": "chains/polygon/research/dune/8675766.json",
+      "bytes": 3930,
+      "sha256": "233a120c5e587859b5ceda1a8b031f8fcc906da5a9c6b9fb059577d507e68460"
+    },
+    {
+      "path": "chains/polygon/research/dune/8675768.json",
+      "bytes": 5313,
+      "sha256": "e1d53a967c373da2fbc81b1e54318d86144c8ac76745866ca7653ffe579e057a"
+    },
+    {
+      "path": "chains/polygon/research/dune/8675774.json",
+      "bytes": 5395,
+      "sha256": "0561be22206f1cbe0a00c58d8c6734e38cfe6d1060f1d7841432bf0154c24433"
+    },
+    {
+      "path": "chains/polygon/research/dune/8675790.json",
+      "bytes": 4103,
+      "sha256": "35dcf33d0eb407fe7a3cda31e00c3d2e95dc7e103bade88281f8b00d473b7df1"
+    },
+    {
+      "path": "chains/polygon/research/dune/8675807.json",
+      "bytes": 5111,
+      "sha256": "571b9316af8e3ceca147c2cf5bed682133e8fc1287c882ebd9bd96ce506f0b5e"
+    },
+    {
+      "path": "chains/polygon/research/dune/8675814.json",
+      "bytes": 6849,
+      "sha256": "ed7bb884629a2a59a760e1dd3a8ec07f75b655a05e6cd77647744a923cbb793c"
+    },
+    {
+      "path": "chains/polygon/research/dune/8675965.json",
+      "bytes": 3333,
+      "sha256": "8bd51d2bf6c52b3783f6730bfb38c8597c40be5ed256ce5ebda80d342bf80ecc"
+    },
+    {
+      "path": "chains/polygon/research/dune/8675966.json",
+      "bytes": 3818,
+      "sha256": "0769139bf3da876d9cf6fdd6fee636b22c66022b8e164da59f8a2bd1c9d0b994"
+    },
+    {
+      "path": "chains/polygon/research/dune/8675967.json",
+      "bytes": 3462,
+      "sha256": "267125261d6026b60562b4224c5da681b754a7251f2eea5472cf3d088b114058"
+    },
+    {
+      "path": "chains/polygon/research/dune/8675980.json",
+      "bytes": 3015,
+      "sha256": "a71f844672cb50971d2ad470a1d694390b644622a0b73b0a1febd19f4c269556"
+    },
+    {
+      "path": "chains/polygon/research/dune/8675981.json",
+      "bytes": 3892,
+      "sha256": "a27364f6ef1abb065731c83f7e0afab24f1335df20a63c3a22f3959b56d8217a"
+    },
+    {
+      "path": "chains/polygon/research/dune/8675982.json",
+      "bytes": 2861,
+      "sha256": "1052a807d526af5b15001a299fe287810888637585df5a6d8b68cd1f6dce0a20"
+    },
+    {
+      "path": "chains/polygon/research/dune/8675998.json",
+      "bytes": 3786,
+      "sha256": "df199b88b98f5e44dc4e5b9ffc2492edcea9443f417bec1c04705ce39e58fe38"
+    },
+    {
+      "path": "chains/polygon/research/dune/8675999.json",
+      "bytes": 3944,
+      "sha256": "4eb5c1d74a3027730c44fac28b9dfffa2d116f6dc08978d5b3fa8233d5c3db38"
+    },
+    {
+      "path": "chains/polygon/research/dune/8676000.json",
+      "bytes": 6562,
+      "sha256": "821b65bdb155df0385ab48d9a1d5cdfce8beff625338c85d2c8a30b5ceb12e68"
+    },
+    {
+      "path": "chains/polygon/research/dune/8676002.json",
+      "bytes": 5280,
+      "sha256": "c91f2ca92a149297b603842dbad6d4b3996cb4ae837334149d1f189fa6bb297f"
+    },
+    {
+      "path": "chains/polygon/research/dune/full-8369671.json",
+      "bytes": 3398187,
+      "sha256": "b5e1ab929ae37dff464baf244b156c94fcf07cd113f642a0edcdcdf1c8511084"
+    },
+    {
+      "path": "chains/polygon/research/dune/full-8389592.json",
+      "bytes": 2236096,
+      "sha256": "49f4e4774b25cac22db7e10f184bb0ce3679d28595b116af53246793031fce5b"
+    },
+    {
+      "path": "chains/polygon/research/dune/full-8389804.json",
+      "bytes": 1716155,
+      "sha256": "cf7d6bbd8b02a6b5962a9c3268607c6a6e58eb3b95fa8c2c7ae6544c495b548b"
+    },
+    {
+      "path": "chains/polygon/research/dune/full-8390372.json",
+      "bytes": 9285411,
+      "sha256": "03e7965c5a2601d5b46116b5559b2b39096dbd27f6fa507a99b123acbaf9076e"
+    },
+    {
+      "path": "chains/polygon/research/dune/full-8390785.json",
+      "bytes": 139687,
+      "sha256": "2eb0014624660a5241550df7ca2dd439d4bb11b8b0ff082b7f24550a15348702"
+    },
+    {
+      "path": "chains/polygon/research/dune/full-8391200.json",
+      "bytes": 164323,
+      "sha256": "f4eb2eef15ea6f8f68775515eedecac5759e48b3f15c6d57778d6b10e6450691"
+    },
+    {
+      "path": "chains/polygon/research/dune/polygon_dashboard_catalog.md",
+      "bytes": 10276,
+      "sha256": "afa59acdc3b0eb6d9ce6ef868248d646f862727b59171bb790bd0397ac1de825"
+    },
+    {
+      "path": "chains/polygon/research/dune/polygon_original_sql/8675766.sql",
+      "bytes": 1344,
+      "sha256": "e5dfe76e82fb21fde071b1645b2250efd7fa909d7c0f4873ce5f54a36efe799c"
+    },
+    {
+      "path": "chains/polygon/research/dune/polygon_original_sql/8675768.sql",
+      "bytes": 2013,
+      "sha256": "5405af6ea1b2d2391b7f993f30b1d2ed0e90c820d1c1ad18a1463fb81b7b9c2c"
+    },
+    {
+      "path": "chains/polygon/research/dune/polygon_original_sql/8675774.sql",
+      "bytes": 2068,
+      "sha256": "330815844e781cfd79ddb34705d97d3be832e5e485f7a42b5ade05254092c7d4"
+    },
+    {
+      "path": "chains/polygon/research/dune/polygon_original_sql/8675790.sql",
+      "bytes": 1450,
+      "sha256": "74e7f95f8a94ba75238e2e91f7841df75e8d138a5a7d023f6fb9ea5bcd2fc879"
+    },
+    {
+      "path": "chains/polygon/research/dune/polygon_original_sql/8675807.sql",
+      "bytes": 1937,
+      "sha256": "47d153560606725845d3d619b81eb979d77ee69fa552ae99a648d8c560a12f7d"
+    },
+    {
+      "path": "chains/polygon/research/dune/polygon_original_sql/8675814.sql",
+      "bytes": 2735,
+      "sha256": "77fcc1dafaf096729755a30b072fe622629476cc6896dbaae0a72d87fb58130c"
+    },
+    {
+      "path": "chains/polygon/research/dune/polygon_original_sql/8675965.sql",
+      "bytes": 1065,
+      "sha256": "f7c7d36691fb18cd0a0fd0b060e5e87a79b4854e1bee8e82834311fbf5c5c29f"
+    },
+    {
+      "path": "chains/polygon/research/dune/polygon_original_sql/8675966.sql",
+      "bytes": 1302,
+      "sha256": "39970eed4ed2b56565b597149097011cc610197d1ad3e4efec18d4252253d235"
+    },
+    {
+      "path": "chains/polygon/research/dune/polygon_original_sql/8675967.sql",
+      "bytes": 1126,
+      "sha256": "50e0a21fd3c56b2e0b6a6123fc719ed3dbb013d24ca504b0147fd23f04b49c82"
+    },
+    {
+      "path": "chains/polygon/research/dune/polygon_original_sql/8675980.sql",
+      "bytes": 910,
+      "sha256": "59879d14a1d9f6303ef3248cfee87cdbc2a78a08e17e6d6f99c384c71001b99b"
+    },
+    {
+      "path": "chains/polygon/research/dune/polygon_original_sql/8675981.sql",
+      "bytes": 1334,
+      "sha256": "b32a333614fb6ff161c9aaa12c4f5afad5283ca433978cc6cccb694453b3b7c8"
+    },
+    {
+      "path": "chains/polygon/research/dune/polygon_original_sql/8675982.sql",
+      "bytes": 847,
+      "sha256": "de5d9e77607da1fd878aae682f3e35bbfaddf203602c50a369084554c60e6b73"
+    },
+    {
+      "path": "chains/polygon/research/dune/polygon_original_sql/8675998.sql",
+      "bytes": 1289,
+      "sha256": "0f579217dfcd442a743c3b5e1857c43e6af48834cf22ca06a4c6e8ae2a62f021"
+    },
+    {
+      "path": "chains/polygon/research/dune/polygon_original_sql/8675999.sql",
+      "bytes": 1347,
+      "sha256": "103e7277d48ad3eba7f037104d940918a1c480b8abcf0ad95b16cac79d6d5a07"
+    },
+    {
+      "path": "chains/polygon/research/dune/polygon_original_sql/8676000.sql",
+      "bytes": 2524,
+      "sha256": "8288460713f121d548e3ccdc3d8139af57a929fe504382bf1bbb0da6189dfd84"
+    },
+    {
+      "path": "chains/polygon/research/dune/polygon_original_sql/8676002.sql",
+      "bytes": 1974,
+      "sha256": "1adb51f7ea3b6f1681e0de6d7cc38d059e93282535f5992a3587a0ccdc299905"
+    },
+    {
+      "path": "chains/polygon/research/dune/polygon_query_mapping.md",
+      "bytes": 6605,
+      "sha256": "aa68f2d3461a84ead6df80d4df464f8419a270048b457088d25de6c2283a26e3"
+    },
+    {
+      "path": "chains/polygon/research/dune/query-catalog.json",
+      "bytes": 88032,
+      "sha256": "11b1d48b09934fcbfc85797e02ae8e3370fd4a5aedca7e0d4cfa4b4ed25a5fe8"
+    },
+    {
+      "path": "chains/polygon/research/dune/query_chapter_mapping.md",
+      "bytes": 6605,
+      "sha256": "aa68f2d3461a84ead6df80d4df464f8419a270048b457088d25de6c2283a26e3"
+    },
+    {
+      "path": "chains/polygon/research/dune/schema-balances.json",
+      "bytes": 9593,
+      "sha256": "79704e1ae69b9f218772f69aadc62c0017ac2bda214da5b5c97844e5f1582283"
+    },
+    {
+      "path": "chains/polygon/research/dune/schema-dai.json",
+      "bytes": 10573,
+      "sha256": "8b5e2c6b1297d0dfc194bf7e340a030d6b215f41e0fff9272ca42fc8af77dd2b"
+    },
+    {
+      "path": "chains/polygon/research/dune/schema-decoded.json",
+      "bytes": 8836,
+      "sha256": "54c1194a75949aaf23619eee65b7888963371dafcbfa83a84584d8f1aca9a131"
+    },
+    {
+      "path": "chains/polygon/research/dune/schema-dex.json",
+      "bytes": 41326,
+      "sha256": "471bae6ea67e5f82131f47ee4345332d578075b3d4113c391e0ecdd6de740267"
+    },
+    {
+      "path": "chains/polygon/research/dune/schema-erc20.json",
+      "bytes": 26123,
+      "sha256": "5848b1c41cb7c66c089adf14eb88830338f631b70a4eb42a009b7ea8a3bda073"
+    },
+    {
+      "path": "chains/polygon/research/dune/schema-ethereum-logs.json",
+      "bytes": 4703,
+      "sha256": "8192d2e1b18f9674897ce2899598cb0c7eedc0aac9696e50b64c1006ee69168f"
+    },
+    {
+      "path": "chains/polygon/research/dune/schema-fees.json",
+      "bytes": 22616,
+      "sha256": "f4a710f4c9c8cc89662468b258b6c221d8a2931113d19237139488a27c7c056d"
+    },
+    {
+      "path": "chains/polygon/research/dune/schema-nft.json",
+      "bytes": 32394,
+      "sha256": "5e73cf2727835ec3ad1ad00b87e5bf7cfaf26bbb64089c69f542b14f00bdff48"
+    },
+    {
+      "path": "chains/polygon/research/dune/schema-polygon-raw.json",
+      "bytes": 33173,
+      "sha256": "d6b713611355cf5562ef34e97e0d6e15dbfd2061f64b05177fa0e5c78d93a717"
+    },
+    {
+      "path": "chains/polygon/research/dune/schema-prices.json",
+      "bytes": 24257,
+      "sha256": "53fffcc5f09768c50e7d5f9e0071c78c59162c22a29599036c2b94c340f98ca1"
+    },
+    {
+      "path": "chains/polygon/research/dune/schema-quickswap.json",
+      "bytes": 181036,
+      "sha256": "e66f4c96210076a7da32fa210ced5c61912f1c828e3bff880f5703e15daf3e4c"
+    },
+    {
+      "path": "chains/polygon/research/dune/schema-root-tunnel.json",
+      "bytes": 24933,
+      "sha256": "46f709e8df7fb2d270d3ce2ad29c307f81f8aba70cedf94c93c83e2d39ad6144"
+    },
+    {
+      "path": "chains/polygon/research/dune/schema-supply.json",
+      "bytes": 9205,
+      "sha256": "e330adfa8e78e9f324b7a979f2ff1f7d457c1c51fc94f453eac6b583d75e4d6c"
+    },
+    {
+      "path": "chains/polygon/research/dune/schema-transfers.json",
+      "bytes": 30267,
+      "sha256": "5d0c5088b3a6f907c91de21f67eae4c89249d40d6a76282c67b31339f7d7423c"
+    },
+    {
+      "path": "chains/polygon/research/evidence_index.md",
+      "bytes": 677,
+      "sha256": "aeb62c66f521266c3ac78be28f170f297b972b46d64dd7c4a7d1202ad775e731"
+    },
+    {
+      "path": "chains/polygon/research/extra-source-manifest.json",
+      "bytes": 23437,
+      "sha256": "a15dec3c6fc5e60b484c74028b58ba085886adeb43f6eef8e203b90194c91496"
+    },
+    {
+      "path": "chains/polygon/research/lgns/LGNS_CASE_STUDY.md",
+      "bytes": 6393,
+      "sha256": "16e69622406b5f39f3aa554f7b046601436dda645331664300ee91b98fbda363"
+    },
+    {
+      "path": "chains/polygon/research/lgns/auxiliary_query_catalog.md",
+      "bytes": 28560,
+      "sha256": "9356b83251f98ee61a19b99abe9a420252b2bb04fd839c5e466eb3a8dfa512c8"
+    },
+    {
+      "path": "chains/polygon/research/lgns/contracts.md",
+      "bytes": 4473,
+      "sha256": "c4d8ac0ee438ba3c40609777db2989ea84d2eb310dda2d6de86e2e01002d3e77"
+    },
+    {
+      "path": "chains/polygon/research/lgns/contracts/lgns/abi.json",
+      "bytes": 15984,
+      "sha256": "ad21040c6cdae60370db0543776f575b37e0db477c659814e0a742803ef446c5"
+    },
+    {
+      "path": "chains/polygon/research/lgns/contracts/manifest.json",
+      "bytes": 4890,
+      "sha256": "331b31412efaf3184cea6685e1fc98255bd3d49f908c1d888fae6bc7968ad11b"
+    },
+    {
+      "path": "chains/polygon/research/lgns/contracts/pair/abi.json",
+      "bytes": 13408,
+      "sha256": "135a86127ce17542e6d7515761069d5a8a9aca81250126bd62fbf7e38170dadd"
+    },
+    {
+      "path": "chains/polygon/research/lgns/contracts/slgns/abi.json",
+      "bytes": 13836,
+      "sha256": "8b432dc26fb14561b68cb46cc084d87a3baf9f361a243c27d3720c323d0effd3"
+    },
+    {
+      "path": "chains/polygon/research/lgns/contracts/staking/abi.json",
+      "bytes": 8230,
+      "sha256": "3ae2865fe40387b68aa57f7dd63db1397dee80ca26375f29573378f0ea4f088f"
+    },
+    {
+      "path": "chains/polygon/research/lgns/contracts/treasury/abi.json",
+      "bytes": 22982,
+      "sha256": "64243f3979e9ef55c7abdc1408487438da6840bd3cbc8067ec2b0dbb4e27a5c8"
+    },
+    {
+      "path": "chains/polygon/research/lgns/evidence_matrix.csv",
+      "bytes": 4479,
+      "sha256": "42e76a4ec36a79adc61f907a5d3b5bfce98006c4b997286685b6bdb7fbbfcac2"
+    },
+    {
+      "path": "chains/polygon/research/lgns/evidence_matrix.md",
+      "bytes": 5365,
+      "sha256": "da3af83b450a15b79121b40d738b2a1ab59ee1a922c460ea4dcbfdd1d9169c27"
+    },
+    {
+      "path": "chains/polygon/research/lgns/full_results_review.md",
+      "bytes": 1797,
+      "sha256": "fb41b0b70ab6a7a727275364099b15a2414e54848e486100c0d183f3751a0e65"
+    },
+    {
+      "path": "chains/polygon/research/lgns/fund_flow_model.md",
+      "bytes": 1048,
+      "sha256": "2c7132e414fcd9592985981c5d2bc93b94acea3ab1e1199cb1699700340918d3"
+    },
+    {
+      "path": "chains/polygon/research/lgns/limitations.md",
+      "bytes": 1488,
+      "sha256": "8c0bd112ed54814fee8b9db9f7649cae05097334eff9fb2abc969a0e8ae2199e"
+    },
+    {
+      "path": "chains/polygon/research/lgns/original_dashboard_catalog.md",
+      "bytes": 14852,
+      "sha256": "3bb63e174bd0206738f1f9cd0f7e4a65ceebdbded853f86fa8c60735e9ec74f5"
+    },
+    {
+      "path": "chains/polygon/research/lgns/original_sql/8369227.sql",
+      "bytes": 11022,
+      "sha256": "0376b9d5b976d731f13bd9577359757df49b8a29b7ea1130a602ec22bcbe71cf"
+    },
+    {
+      "path": "chains/polygon/research/lgns/original_sql/8369303.sql",
+      "bytes": 9388,
+      "sha256": "6a30bf7a976a884b0e0878be75055a4ff635973a78a1416e108cbcfdc25d1373"
+    },
+    {
+      "path": "chains/polygon/research/lgns/original_sql/8369505.sql",
+      "bytes": 5315,
+      "sha256": "9e45aecae18927851ef9713ca50192c34ae333795773a5c723878e64f0835e45"
+    },
+    {
+      "path": "chains/polygon/research/lgns/original_sql/8369671.sql",
+      "bytes": 5638,
+      "sha256": "48ebab5c95568882f85142618219e7a904330a21b5a3756e7cc964edd64f4e2f"
+    },
+    {
+      "path": "chains/polygon/research/lgns/original_sql/8389462.sql",
+      "bytes": 7958,
+      "sha256": "731d45b8a040da84e8bcf414cb607feb678ff28f312d20f410ead50195734478"
+    },
+    {
+      "path": "chains/polygon/research/lgns/original_sql/8389527.sql",
+      "bytes": 10754,
+      "sha256": "a3365224c24b975ee65170838ae2a8456f382527ff2fbe2f86634ca79624ea34"
+    },
+    {
+      "path": "chains/polygon/research/lgns/original_sql/8389535.sql",
+      "bytes": 7144,
+      "sha256": "64b343a490f7338f527f834d46f6ef75837d7e69d3192e3e6bef251e7252f9b7"
+    },
+    {
+      "path": "chains/polygon/research/lgns/original_sql/8389592.sql",
+      "bytes": 15146,
+      "sha256": "93da6f8162753b5b81b7df8e2fbdbd0a5ee5007e0bb76b5585420e5be0c5907e"
+    },
+    {
+      "path": "chains/polygon/research/lgns/original_sql/8389682.sql",
+      "bytes": 12819,
+      "sha256": "4aba97032ec8c2db9e7f950c58ec1d0cf9015e345a11566a36f0730cbb8126eb"
+    },
+    {
+      "path": "chains/polygon/research/lgns/original_sql/8389804.sql",
+      "bytes": 11277,
+      "sha256": "3fc7c5b6a5047b7332eeaeff9630fd0d92b9a7a8a2c9e7e2be5c5c5c7dabf869"
+    },
+    {
+      "path": "chains/polygon/research/lgns/original_sql/8389881.sql",
+      "bytes": 16682,
+      "sha256": "b19c2a0e7b06f45700a27af912676f1d36fa1ae1c234ec79ac1cfdc7d5c11fcc"
+    },
+    {
+      "path": "chains/polygon/research/lgns/original_sql/8390237.sql",
+      "bytes": 7832,
+      "sha256": "f0f525118e11e2e08a1843156f1a8b8f60dc479981633e1b555a66a4d6634d80"
+    },
+    {
+      "path": "chains/polygon/research/lgns/original_sql/8390372.sql",
+      "bytes": 20443,
+      "sha256": "cb514a3bc7ea9466fc4eb3132dad5c29e946db314f99774021a4fa6c05589025"
+    },
+    {
+      "path": "chains/polygon/research/lgns/original_sql/8390785.sql",
+      "bytes": 34045,
+      "sha256": "4c884114ddc8e48c57a3664da90d9496fabb50b99b6c41765d6ea57a778d3666"
+    },
+    {
+      "path": "chains/polygon/research/lgns/original_sql/8390794.sql",
+      "bytes": 9375,
+      "sha256": "316b225d777a2a05b20ee067895c999363e5f845091c68bfe37e6f77dedb2c27"
+    },
+    {
+      "path": "chains/polygon/research/lgns/original_sql/8390841.sql",
+      "bytes": 2705,
+      "sha256": "3aed49bf99c6761eabd7d158e3cec90c371d98339c689a2f05dcc4da1cf8a051"
+    },
+    {
+      "path": "chains/polygon/research/lgns/original_sql/8390867.sql",
+      "bytes": 6033,
+      "sha256": "af01d7bb7a7efb968987f4dfe75f6217aea4cb726d0b55914105c56953e7a711"
+    },
+    {
+      "path": "chains/polygon/research/lgns/original_sql/8390998.sql",
+      "bytes": 4420,
+      "sha256": "11ded81463b4672982ffe55e2a39b30eba78d3c7a26d8bf947517dc14bc6999b"
+    },
+    {
+      "path": "chains/polygon/research/lgns/original_sql/8391200.sql",
+      "bytes": 23596,
+      "sha256": "00cd70ac7486a3994eca7f610ee8ebb616eb92ba3d8c0a16a4d230ef33e70cfc"
+    },
+    {
+      "path": "chains/polygon/research/lgns/original_sql/8391403.sql",
+      "bytes": 7861,
+      "sha256": "56403a24e958e49a27c7f613a7fc5f32b79d31b130a115c828a6f88e8fe5712b"
+    },
+    {
+      "path": "chains/polygon/research/lgns/original_sql/8391491.sql",
+      "bytes": 10708,
+      "sha256": "3d3a2ab27d7cf63e0166f5b6071e84b1a9523566c61a9b429216f6eeaa5cc21a"
+    },
+    {
+      "path": "chains/polygon/research/lgns/original_sql/8391574.sql",
+      "bytes": 4060,
+      "sha256": "1d8c84fa8ecb6555fd78205060d889fa14dcc372958da59387c1b63ff72a6696"
+    },
+    {
+      "path": "chains/polygon/research/lgns/project_claims.md",
+      "bytes": 1545,
+      "sha256": "e1ae8880ef997dd6643aa94e2f349e3d41f9dc1bbde2a5864f0dfb65e9fbd812"
+    },
+    {
+      "path": "chains/polygon/research/lgns/research_questions.md",
+      "bytes": 976,
+      "sha256": "6dc71fd8c98f468d93dcd3ce058f52099a9b0eb7188f141c2a67b79e50ff8916"
+    },
+    {
+      "path": "chains/polygon/research/lgns/transaction_index.md",
+      "bytes": 1060,
+      "sha256": "b7e252a61f3e0387670735ecbb635c9e54a27c0b28c6ed53fdba6cc79d9b43dc"
+    },
+    {
+      "path": "chains/polygon/research/polygon_schema/SCHEMA.md",
+      "bytes": 61765,
+      "sha256": "efee8a10083237a94745cd64ebaae4d7d751aef715a917578eb659b40e9d07d1"
+    },
+    {
+      "path": "chains/polygon/research/polygon_schema/catalog.json",
+      "bytes": 226233,
+      "sha256": "9aaf8aecd0a1184412d9a50574fb41c3d0de472b540e4e1a9a15254dac58c125"
+    },
+    {
+      "path": "chains/polygon/research/protocol-timeline.json",
+      "bytes": 4841,
+      "sha256": "5007a89e9cbc3dd8107114cab7714426b114a02eb395d9cc67927b60d8d416fb"
+    },
+    {
+      "path": "chains/polygon/research/protocol_timeline.md",
+      "bytes": 3991,
+      "sha256": "919e4ec2c401e6f44f7831d5d6f67d374b0908dbe814337347bf67b3f449f712"
+    },
+    {
+      "path": "chains/polygon/research/rpc/read-status.json",
+      "bytes": 326,
+      "sha256": "fc0c8bb99d90a98c5eefc1486703039ef68da211e41e1b00589b0c849f3478bb"
+    },
+    {
+      "path": "chains/polygon/research/source-manifest.json",
+      "bytes": 44868,
+      "sha256": "bb8b9f2b232a9ac34658029084632c85f336382ef4345b937fb019c18262fefc"
+    },
+    {
+      "path": "chains/polygon/research/source_catalog.md",
+      "bytes": 28399,
+      "sha256": "79268f051250a0d72c1b2b5b73209535fb76491e50bd83925ce5f1f5f8098931"
+    },
+    {
+      "path": "chains/polygon/research/sources/activation-bor-austin.meta.json",
+      "bytes": 575,
+      "sha256": "8e28391641fc8663135cdefb3dd6c7938d5015b4237451c8cb42236916f0e39f"
+    },
+    {
+      "path": "chains/polygon/research/sources/activation-bor-bhilai.meta.json",
+      "bytes": 575,
+      "sha256": "b258de191c9cde002ea448b207c8e9e630199edc6feb4ca66645a2c584b2e54d"
+    },
+    {
+      "path": "chains/polygon/research/sources/activation-bor-chicago.meta.json",
+      "bytes": 577,
+      "sha256": "3eae293f551190f1d065a679e9377e1216b14453101da2ecd032fb67ddd5d532"
+    },
+    {
+      "path": "chains/polygon/research/sources/activation-bor-dandeli.meta.json",
+      "bytes": 577,
+      "sha256": "1371bac360d581c9f0ea65709f0a20d80cd1dffd53cc98a0f8dafdb7831d408a"
+    },
+    {
+      "path": "chains/polygon/research/sources/activation-bor-giugliano.meta.json",
+      "bytes": 581,
+      "sha256": "f9865200b8c45d8c3400363d7926d89b3fecfd81ad7d966642421d1ef999ff49"
+    },
+    {
+      "path": "chains/polygon/research/sources/activation-bor-lisovo.meta.json",
+      "bytes": 575,
+      "sha256": "5f670c89358f4a0d1bf22c2dec88bbd8ab5184abc4b775445cfbe442b6d101cb"
+    },
+    {
+      "path": "chains/polygon/research/sources/activation-bor-madhugiri.meta.json",
+      "bytes": 581,
+      "sha256": "6198ea17d06fd53f1d3e10d16d2028e2d6554fe0eb3d0a9242b0ddcb8c0e5906"
+    },
+    {
+      "path": "chains/polygon/research/sources/activation-bor-rio.meta.json",
+      "bytes": 569,
+      "sha256": "298b91a9bee464dc1e2bdbdd3a8c0efe5474160cc14564272abc844c9f132789"
+    },
+    {
+      "path": "chains/polygon/research/sources/activation-bor-valencia.meta.json",
+      "bytes": 579,
+      "sha256": "a08664930c97391abdb15f515426e1f7c53087a46db6a819b7322370ca1d2055"
+    },
+    {
+      "path": "chains/polygon/research/sources/activation-heimdall-ithaca.meta.json",
+      "bytes": 300,
+      "sha256": "7cbae2a9b57ed55726552504ab7441c828ced82dfc0ed3b7dbd88194d0c49c31"
+    },
+    {
+      "path": "chains/polygon/research/sources/activation-heimdall-lugano.meta.json",
+      "bytes": 721,
+      "sha256": "231e4532d723b60812bb0d0439f6f107cf39d6a8fb92ef5a2b1e71e83db1a23c"
+    },
+    {
+      "path": "chains/polygon/research/sources/activation-heimdall-phuket.meta.json",
+      "bytes": 300,
+      "sha256": "fc0103632971a17c9b9ac99bb895d90db77a4827150f2e6f36b6505fb6d80d09"
+    },
+    {
+      "path": "chains/polygon/research/sources/activation-heimdall-zurich.meta.json",
+      "bytes": 300,
+      "sha256": "c9fac493795c27f579e51b77c11f787a3f08ca34c8ffd56fa87961e91a6ff9b3"
+    },
+    {
+      "path": "chains/polygon/research/sources/architecture.meta.json",
+      "bytes": 625,
+      "sha256": "53e3e7924d9d101be0765c49249569df82e458fb99d74a9f4125197c84f08f88"
+    },
+    {
+      "path": "chains/polygon/research/sources/bor-asof-config.meta.json",
+      "bytes": 765,
+      "sha256": "c10e84038f48fd9feda40f5c07d9aabd32d63450e2336ab24f36f1ffe20ef5ee"
+    },
+    {
+      "path": "chains/polygon/research/sources/bor-commit.meta.json",
+      "bytes": 708,
+      "sha256": "25bf3aeb76dcd504173dbbaf15bb204b9689c4c92e769c8024002b891959a19f"
+    },
+    {
+      "path": "chains/polygon/research/sources/bor-intro.meta.json",
+      "bytes": 643,
+      "sha256": "a9fe829c54837998efecfc19523d2a077d8cf71967eb0023b38213fffc7f32ee"
+    },
+    {
+      "path": "chains/polygon/research/sources/bor-mainnet-config.meta.json",
+      "bytes": 669,
+      "sha256": "b80378fd63a4dd028ee3086f77b055ee3bdcbdf96a9675d22d2cbee6a1671c7c"
+    },
+    {
+      "path": "chains/polygon/research/sources/bor-module.meta.json",
+      "bytes": 253,
+      "sha256": "e83ee541059ed58259fd650e30fdae43c049b6d55281ff0a7d20a75633406171"
+    },
+    {
+      "path": "chains/polygon/research/sources/bor-releases.meta.json",
+      "bytes": 640,
+      "sha256": "870d71820fb1b8f178e6212a52f43e00440cad15f11f8837f525400a50ba3491"
+    },
+    {
+      "path": "chains/polygon/research/sources/bridge-portal.meta.json",
+      "bytes": 690,
+      "sha256": "6f1a05a8553c08f4db82397c3898b8f53dedd1b05bc40f2cf2dc3795affa3530"
+    },
+    {
+      "path": "chains/polygon/research/sources/checkpoints.meta.json",
+      "bytes": 669,
+      "sha256": "d7eaa3e0d69ee6bb971a58286ba2e96360295c611946061875c807cb9800af7c"
+    },
+    {
+      "path": "chains/polygon/research/sources/circle-usdc.meta.json",
+      "bytes": 636,
+      "sha256": "7506c90ec7009d9830e390e69dc1bf115f60642644035a173e9466dad9a1df9f"
+    },
+    {
+      "path": "chains/polygon/research/sources/clerk.meta.json",
+      "bytes": 638,
+      "sha256": "65c165916f5f50dea96fabf691ba85abfcda806f7b6d62279f25af5ca05bba5d"
+    },
+    {
+      "path": "chains/polygon/research/sources/dune-dex.meta.json",
+      "bytes": 650,
+      "sha256": "36b8d59c8eedcb060f086a8417a1826f231ab2197a3737eb008dd8dcadf13d68"
+    },
+    {
+      "path": "chains/polygon/research/sources/dune-functions.meta.json",
+      "bytes": 663,
+      "sha256": "3a4436eb4f57a9cdfd6d7a010c303c2981fcd687a0a653648af2dd6c1299f68e"
+    },
+    {
+      "path": "chains/polygon/research/sources/dune-polygon.meta.json",
+      "bytes": 619,
+      "sha256": "f17635a4a2ff1877b4ebd6b87f4d95ffd5c2064bdfaa21cad03f9abd027002a2"
+    },
+    {
+      "path": "chains/polygon/research/sources/dune-prices.meta.json",
+      "bytes": 626,
+      "sha256": "80f1985ebaab24ce15bb82b153e7f62443c848a0327b274dbe0a94ac81855d71"
+    },
+    {
+      "path": "chains/polygon/research/sources/dune-transfers.meta.json",
+      "bytes": 692,
+      "sha256": "2b9efc0e8c4eba5b7f414eeebfcae46a70ee60b8e5deb993c6dc5fc6f313f4fc"
+    },
+    {
+      "path": "chains/polygon/research/sources/eip-1559.meta.json",
+      "bytes": 551,
+      "sha256": "1b75dad3c0f5b8b85ef72a5c712a9cb7fd0add48fe1979d4a0fc69077ae1e2bc"
+    },
+    {
+      "path": "chains/polygon/research/sources/eip-1967.meta.json",
+      "bytes": 551,
+      "sha256": "c852e8fd59e6f458a29dd65fb2a61e590ef92c15813b8c2b961e8da80aaf6bcd"
+    },
+    {
+      "path": "chains/polygon/research/sources/eip-20.meta.json",
+      "bytes": 541,
+      "sha256": "0397c6154610102ca884f03c1a27a0a869e73fe008d0d20edf2d355f49bfae5c"
+    },
+    {
+      "path": "chains/polygon/research/sources/eip-7702.meta.json",
+      "bytes": 551,
+      "sha256": "709724d87f9ffeb76b728a496729c9db73663b2e5ed8288845db0a025b98c529"
+    },
+    {
+      "path": "chains/polygon/research/sources/genesis-contracts.meta.json",
+      "bytes": 684,
+      "sha256": "86d5e0f17dc6b3ca15ea1bb5bf4b55eaeedf2927dcd1cdf20a8e233a2c57aac6"
+    },
+    {
+      "path": "chains/polygon/research/sources/heimdall-bor.meta.json",
+      "bytes": 694,
+      "sha256": "a56029eb518b644464b4ede5b7ab16124ec060d89d674c9fc1de306d0bdd5e51"
+    },
+    {
+      "path": "chains/polygon/research/sources/heimdall-changes-v2.meta.json",
+      "bytes": 696,
+      "sha256": "5a85f269e7702dbf70df72e48c5f022d5bb92bfb8d5c68e6ae9993cd32fd0589"
+    },
+    {
+      "path": "chains/polygon/research/sources/heimdall-changes.meta.json",
+      "bytes": 265,
+      "sha256": "1fa131e4db73f3bdeeb9c7c42d938b68c40a83855523597d8e9c22090a55a43e"
+    },
+    {
+      "path": "chains/polygon/research/sources/heimdall-config.meta.json",
+      "bytes": 689,
+      "sha256": "416e547d66bc1124b90be6244740c2350a6eda35f0d0f8511c8a635f3f26b8af"
+    },
+    {
+      "path": "chains/polygon/research/sources/heimdall-releases.meta.json",
+      "bytes": 674,
+      "sha256": "ccf2093d338bc44315e90dea51d9f14645ea8b91b3f6165ef7fd3c8944abeec2"
+    },
+    {
+      "path": "chains/polygon/research/sources/heimdall-v2-blog.meta.json",
+      "bytes": 646,
+      "sha256": "baa4341a4aac4173a65620a173a4f8e9b3c51219f8e66e6a99c3c4f3fc3e8819"
+    },
+    {
+      "path": "chains/polygon/research/sources/heimdall.meta.json",
+      "bytes": 665,
+      "sha256": "de161e52af5ca98765a64975a2996491f63da24cfa2ab3cd4c79bab5a872edc4"
+    },
+    {
+      "path": "chains/polygon/research/sources/ithaca-blog.meta.json",
+      "bytes": 750,
+      "sha256": "1ffddc7e176daa30e617a0f511f1fa2bdea7acd9e73cd42d0ef5f07ee3a4eea7"
+    },
+    {
+      "path": "chains/polygon/research/sources/lgns-code-scan.meta.json",
+      "bytes": 684,
+      "sha256": "3449dc776e1ddf7151967fb658a96662049360049fb09233505f84d26137143b"
+    },
+    {
+      "path": "chains/polygon/research/sources/lgns-token-scan.meta.json",
+      "bytes": 263,
+      "sha256": "d6de307bfffbbba252b0c866a9b70e9a8d3370a362897b202982840a134f5e42"
+    },
+    {
+      "path": "chains/polygon/research/sources/mapped-tokens.meta.json",
+      "bytes": 633,
+      "sha256": "98ce4ff70c5df0707b82c43c5af7246226e29eb490fc2ba8efc38cb92cc5c356"
+    },
+    {
+      "path": "chains/polygon/research/sources/matic-to-pol.meta.json",
+      "bytes": 646,
+      "sha256": "426ea541adc3d2cfaa824443d24c02a74745f16372eac2496ebef2e7b9d38490"
+    },
+    {
+      "path": "chains/polygon/research/sources/milestones.meta.json",
+      "bytes": 663,
+      "sha256": "219cc2ff193dfb1d239c5d970ba9eb224805b3451415f6a0f30c777d8c5a756d"
+    },
+    {
+      "path": "chains/polygon/research/sources/origin-2024-paper.meta.json",
+      "bytes": 652,
+      "sha256": "cbd2f51cce98ae63713d2efca9c4949697a45ad44c634a37d87e9ce52ddaf245"
+    },
+    {
+      "path": "chains/polygon/research/sources/origin-project-site.meta.json",
+      "bytes": 512,
+      "sha256": "ff35ff8f2953e3e79793957152a7f7982c9142eeb1fddad28a6ba5f529b8a1f4"
+    },
+    {
+      "path": "chains/polygon/research/sources/pair-code-scan.meta.json",
+      "bytes": 684,
+      "sha256": "b80dc923040104dae2334085897495494cf4ef71aeb43303d44e627a940c7a84"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-17.meta.json",
+      "bytes": 710,
+      "sha256": "236fce759cde2c927468c6822d20ae3076b235861f28cb1ba9ad4d043c09d383"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-18.meta.json",
+      "bytes": 709,
+      "sha256": "c2f2e2846f7d67b4bf3dd390de948e1db260a194a6bfceee0da0939f492311a4"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-19.meta.json",
+      "bytes": 709,
+      "sha256": "793811762afa358e80a39cf4c9787d2535777dd15df3615e9e3d087450fc9381"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-63-asof.meta.json",
+      "bytes": 827,
+      "sha256": "6514bca1c0207b6d46aea50ee520430cb4c31b7e83aca9f6f5ae92a7f76fe99d"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-64-asof.meta.json",
+      "bytes": 828,
+      "sha256": "ba513677766edfb379405a15a16c4d3777b1adc0163da5504990f3536db663a2"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-64.meta.json",
+      "bytes": 710,
+      "sha256": "e1226a4729b9906bcf83da07c0f42d07ea9b2b12d993e7151b95454dbbbd1f69"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-65.meta.json",
+      "bytes": 710,
+      "sha256": "a5f650147ec76471939bc29709584569c3e45e9999909a0ad370510839190926"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-66.meta.json",
+      "bytes": 709,
+      "sha256": "8880896dee39b4d221745d52e21511dba3368c6e89d565b3c6c8696a4d0d47bc"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-68.meta.json",
+      "bytes": 709,
+      "sha256": "105199059193454fabbd42fae0a7ab3c1612b892abf7575c5a3cf9c5bc9d81a2"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-69.meta.json",
+      "bytes": 709,
+      "sha256": "f52f7feb95b84f06db2a4d34ccdd9aaf73a7eca2f125e443320e064ab231ce54"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-72.meta.json",
+      "bytes": 710,
+      "sha256": "a749913aceb6c0c127e31f6bd68b70c920e15e7997f045046d17f9bc2bd12ffa"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-74-asof.meta.json",
+      "bytes": 827,
+      "sha256": "9eaa2dc8017b1c7ec676ad3b04cea5490526c14f185d5c11d02e1282d1ac6e71"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-74.meta.json",
+      "bytes": 709,
+      "sha256": "15147745442d0b5a29bfc878e735c737797ba4f3878618c9ffe1f953a2c9e993"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-75.meta.json",
+      "bytes": 709,
+      "sha256": "c6a7496036fe018fb66d6918728fb066cc81607f0dc652d2ac0e1f4cc552afd8"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-76-asof.meta.json",
+      "bytes": 827,
+      "sha256": "9c7e9c0c58f8a9d5d3599d8766c9d9d940d1d8f704387eb5863b812b9589a98d"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-76.meta.json",
+      "bytes": 709,
+      "sha256": "5032fd8cbcf5b35a117c0e6fc5eb37981a9e6a3dbad72b144eb62e2ad90319e1"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-78.meta.json",
+      "bytes": 709,
+      "sha256": "43c79dd4d76d80b8e6b9ab020b3b93cc328e81358102ff1e5a3da5d967465985"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-79-asof.meta.json",
+      "bytes": 828,
+      "sha256": "0b5de62d78adde5ff199d6aa2de7f0cbf9462971d885feb565d7bcb7a76b7887"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-79.meta.json",
+      "bytes": 710,
+      "sha256": "4382ce072859fbc31b4af04d71dc1a04dc11501780c2dc8fc704a30ec1d808f0"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-80.meta.json",
+      "bytes": 709,
+      "sha256": "bd2d70a4d3cf2b4186c677f7dac8f4629f872c1050ec824c29263b6cd14a3ded"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-81-asof.meta.json",
+      "bytes": 827,
+      "sha256": "e390c702b81cabce76a46c90183c3547046068948bcf207e9ca0869ae02beff6"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-81.meta.json",
+      "bytes": 709,
+      "sha256": "f7c4548af1fae017fc9719f4df2c2a06ff7cdbbca3f156c968a6465f25ddb48b"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-82.meta.json",
+      "bytes": 709,
+      "sha256": "bf17e5b35b95193c52bf62eb8f5c80e3c64b0a681d7079f60993a109002ba0f9"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-83-asof.meta.json",
+      "bytes": 827,
+      "sha256": "d8c2dbb1d6225b0491e1a455d381b1546dfa1c99818af1da8024ae943a75a07f"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-83.meta.json",
+      "bytes": 709,
+      "sha256": "da61adf42f1c73e118512c449e62abf1e211097d20db52c2fc60f74f3accb62e"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-84-asof.meta.json",
+      "bytes": 827,
+      "sha256": "585be9436b1c26b761dcfac46d5ee834222794f60c495f0717869931f9229a87"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-84.meta.json",
+      "bytes": 709,
+      "sha256": "d2aa3a250ea254c132c9f24198d8c9ad82436ad8a279ca7d8709c622ea2990c0"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-85.meta.json",
+      "bytes": 709,
+      "sha256": "72e694ff4e6afa4cbdb4b25ac454534ba77d11b0dd65f1feb7643fbe5efa96ae"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-86-asof.meta.json",
+      "bytes": 827,
+      "sha256": "0fa76d23b67f15e9090c4fec651363b32dacde91ecf574df9a01d94349fdc407"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-86.meta.json",
+      "bytes": 709,
+      "sha256": "f66ae39b3cb5350baa37027565966135bc66a418833559891c2982f587bf4a63"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-87.meta.json",
+      "bytes": 709,
+      "sha256": "63ae269f24b3f7bd8906a5005f4b825c65d37e3f93800fb78482fc5d9865254e"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-88-asof.meta.json",
+      "bytes": 828,
+      "sha256": "1b20810db9267ef5f26c91ba94cd87fd176079246a1e13bbd1c2d2c92591ba17"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-88.meta.json",
+      "bytes": 710,
+      "sha256": "35c82bc382182c8e3af4364bdf10067e55f5d53e9db9531b788ecac6642d49f7"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-89-asof.meta.json",
+      "bytes": 828,
+      "sha256": "6991a80b37dc55b339a7060f62a690a180038004b060acdb8caa4de12617d283"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-89.meta.json",
+      "bytes": 710,
+      "sha256": "8437170aae1ebd5214c85bb1f6a006cae28e00a24f7a9ad5b0eca802915d9e27"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-90-asof.meta.json",
+      "bytes": 828,
+      "sha256": "fd2eb95f6e64ce4b495c603543d25669dbc9de903bb1df0a80ac3c5efdbeb5d7"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-90.meta.json",
+      "bytes": 710,
+      "sha256": "6bd616037846049f9405aa3c8bed31cbad3fe8390f7a8c1f84dbb4c5d6e1cefb"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-91-asof.meta.json",
+      "bytes": 828,
+      "sha256": "5d6b5246f496b9679ec136173e79f62f0116d0d76832aed9ffa0a404b3878fb9"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-91.meta.json",
+      "bytes": 710,
+      "sha256": "18a8bfa096d76c304cb50ab719b0e359933d7bb7e5468874f1cabaf87a271b21"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-92-asof.meta.json",
+      "bytes": 828,
+      "sha256": "4d927b87db1c3fd137d4706d99f7942360c657fd0b1285a818868d20c41ab0ff"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-92.meta.json",
+      "bytes": 710,
+      "sha256": "8439c5fccc34d30b80a9e572275f8794794898d04441f36d4033c155c0bb55e8"
+    },
+    {
+      "path": "chains/polygon/research/sources/pip-commit.meta.json",
+      "bytes": 786,
+      "sha256": "46ed0b6f9e7409b890e3ef3af080d6b280d1b629b0bc341a33c7275778af006e"
+    },
+    {
+      "path": "chains/polygon/research/sources/pol-finality.meta.json",
+      "bytes": 640,
+      "sha256": "7899515d4260eec36f918fe0f712d5cfba188d22c7316989e529714506ebadb3"
+    },
+    {
+      "path": "chains/polygon/research/sources/pol-live-2024.meta.json",
+      "bytes": 712,
+      "sha256": "33cb16172c5261fdbad1d57c28261f5e9345b2b3e8abb023900890a4fd58188c"
+    },
+    {
+      "path": "chains/polygon/research/sources/pol-migration.meta.json",
+      "bytes": 853,
+      "sha256": "a7266fbfa8f0d4a5095b106e285d784ff753fa5ea18a72636120dc3981494374"
+    },
+    {
+      "path": "chains/polygon/research/sources/pol.meta.json",
+      "bytes": 601,
+      "sha256": "11a17ef09bca811e81e787b84be59b9a5b7dc22ade747024c2e95f8faad38964"
+    },
+    {
+      "path": "chains/polygon/research/sources/polygon-index.meta.json",
+      "bytes": 565,
+      "sha256": "75d7ec94a6a94895f21d38a850c8ff58dece81f172d55ffe1e95c7f2fe27ab03"
+    },
+    {
+      "path": "chains/polygon/research/sources/pos-bridging.meta.json",
+      "bytes": 279,
+      "sha256": "dd420a5e5c5982bd9e95b3425248a3cebc70568a4c88279cc3e32647e570d583"
+    },
+    {
+      "path": "chains/polygon/research/sources/rio-blog.meta.json",
+      "bytes": 765,
+      "sha256": "25ba462c9686dcc1c7824b5a8185b3659cd21ca5aaed3c8bdbd530eb8a39e42a"
+    },
+    {
+      "path": "chains/polygon/research/sources/rpc-endpoints.meta.json",
+      "bytes": 633,
+      "sha256": "15f866ecc7a3fd178fbbd018ffa25173bec03adb1244c2d1542f3d3d842b8330"
+    },
+    {
+      "path": "chains/polygon/research/sources/slgns-code-scan.meta.json",
+      "bytes": 686,
+      "sha256": "0ffbcead8268006a58d648f0b8a427654e0515339ba0b743e7b0900029ba2403"
+    },
+    {
+      "path": "chains/polygon/research/sources/staking-code-scan.meta.json",
+      "bytes": 690,
+      "sha256": "ddb9c94f48d9cc6e11bebe986129c9d1d14030a249f58fc0bee921d9cb79de30"
+    },
+    {
+      "path": "chains/polygon/research/sources/staking.meta.json",
+      "bytes": 649,
+      "sha256": "5da7fc1dbdebbc7f53b737e7cefd3e9eb7038955c009fe46ff01f521b4fd186b"
+    },
+    {
+      "path": "chains/polygon/research/sources/stakingmanager.meta.json",
+      "bytes": 668,
+      "sha256": "25d95b4d9b9d7ea0f695e13720b288b02674597d772ab8abd953b22d8f2649d2"
+    },
+    {
+      "path": "chains/polygon/research/sources/state-sync.meta.json",
+      "bytes": 639,
+      "sha256": "be628d2dc867213f315ea63b9d61946b7c3ab04573bf3532fc954296b11aaba8"
+    },
+    {
+      "path": "chains/polygon/research/sources/state-transfer.meta.json",
+      "bytes": 716,
+      "sha256": "a64a163dfc73d6b319e9400b194bf9226a29c0d79a6af77813d309da228f3c90"
+    },
+    {
+      "path": "chains/polygon/research/sources/treasury-code-scan.meta.json",
+      "bytes": 692,
+      "sha256": "c28576bdd55e85e83ef945856f3da6b516c61288acf670f8ca88cfa01dd901bb"
+    },
+    {
+      "path": "chains/polygon/research/sources/tx-bor-execution.meta.json",
+      "bytes": 730,
+      "sha256": "33edcfa7ff1381cc506b5464b88d3674328e3c34f6f92ee60f5dd677e26ae18c"
+    },
+    {
+      "path": "chains/polygon/research/sources/tx-factory-supply.meta.json",
+      "bytes": 733,
+      "sha256": "aa9dc3a23e1bf954010d5cbce3bb4bd6b893427d2ee0d78efc11b24f4f34a085"
+    },
+    {
+      "path": "chains/polygon/research/sources/tx-lgns-add-liquidity.meta.json",
+      "bytes": 740,
+      "sha256": "581593c1b64daef1ff03f4700519b8a8ad96c4d929d53ce68646987fd6e5d5f2"
+    },
+    {
+      "path": "chains/polygon/research/sources/tx-lgns-creation.meta.json",
+      "bytes": 730,
+      "sha256": "9a9b06d43550c3a5ac5f91caf813c365caeddf2c08b08a9a75ea8e473413b126"
+    },
+    {
+      "path": "chains/polygon/research/sources/tx-ordinary-pol-transfer.meta.json",
+      "bytes": 746,
+      "sha256": "cf9b1d9f95766b863a7f4d94dd879c78755a288f8082271b44523b9d9639fac8"
+    },
+    {
+      "path": "chains/polygon/research/sources/tx-pair-creation.meta.json",
+      "bytes": 730,
+      "sha256": "f0087628c90d476fa62301edf0a5feab8066143663cbe899f39dc70dd64a315c"
+    },
+    {
+      "path": "chains/polygon/research/sources/tx-rebase-first.meta.json",
+      "bytes": 728,
+      "sha256": "d58bbb57b5c64aa609d9ee9507eed5cb8de9454cf43367ac5f5d5c63e71f3299"
+    },
+    {
+      "path": "chains/polygon/research/sources/tx-slgns-creation.meta.json",
+      "bytes": 732,
+      "sha256": "f695d018fd78dbb1bba89d7daa30d377060e10f0b47a34a6e6ecfe57c368996d"
+    },
+    {
+      "path": "chains/polygon/research/sources/tx-staking-creation.meta.json",
+      "bytes": 736,
+      "sha256": "f456d4bb0b1e2e3f1d284817237df97c1f9be4befd3171f7e367637d6c4651ff"
+    },
+    {
+      "path": "chains/polygon/research/sources/tx-staking-first.meta.json",
+      "bytes": 730,
+      "sha256": "fdb6972f43554b67ece4e3cb0df317bb59850c22d243d7161e67ab557de0c137"
+    },
+    {
+      "path": "chains/polygon/research/sources/tx-treasury-creation.meta.json",
+      "bytes": 738,
+      "sha256": "9329c98b18f09e27c2e8f9fbb4f00e26a591d48dc4bfe549e1b7fd7091609b86"
+    },
+    {
+      "path": "chains/polygon/research/sources/uniswap-v2-pair.meta.json",
+      "bytes": 700,
+      "sha256": "6910ee3e6ae400899b3701dd5a231d5baf21c2c56129ffbdcac23e4a450c6236"
+    },
+    {
+      "path": "chains/polygon/research/sources/upgrade-process.meta.json",
+      "bytes": 667,
+      "sha256": "b91c3ce14247b2a74686996ed4e438e035746663c46935e90d1ec340cb3a5b42"
+    },
+    {
+      "path": "chains/polygon/research/unresolved.md",
+      "bytes": 1831,
+      "sha256": "d8794dc89057232ea4890adb0fda4baf36fd70bd67429169edf56308cb5dd7eb"
+    },
+    {
+      "path": "chains/polygon/research/upgrade-block-source-manifest.json",
+      "bytes": 7157,
+      "sha256": "3f5dc6dd9f09dff293a05fb2b8f75470f0c9e0c0bb98c1a82bad5263b8167e2e"
+    },
+    {
+      "path": "chains/polygon/scripts/verify_deep_results.py",
+      "bytes": 4918,
+      "sha256": "08828125f6d0ef07df927bfbcd9c05aeee69d9b2b3329906f029e4c2760e59c4"
+    },
+    {
       "path": "chains/solana/00-overview/assets/data-world.drawio",
       "bytes": 4164,
       "sha256": "254faf63f231c8140ece5e29cd177193d6f04b2e878058e366e01897c3ccc55e"
@@ -6545,8 +9170,8 @@
     },
     {
       "path": "publication/CURRENT_FILES.md",
-      "bytes": 73354,
-      "sha256": "886af3b595761939475289ebe7d2c3229500f111979493e4091b82a61216b6b0"
+      "bytes": 102471,
+      "sha256": "c91f2620c83f7f5d3dda91a143aac8f6ad5912a353d8eebabd44d7250ca08489"
     },
     {
       "path": "publication/FILES.md",
@@ -6555,8 +9180,8 @@
     },
     {
       "path": "publication/README.md",
-      "bytes": 2588,
-      "sha256": "efe91dc38acef4c2428cff287ff51206e4148689e528bc29b935597a8b0ff69c"
+      "bytes": 2761,
+      "sha256": "a2a8423022b5a197009d933b1fccdd139f9d41d523a880c07dfb2de30ce5f0fd"
     },
     {
       "path": "publication/avalanche/2026-10-14-v0.1/CHANGES.md",
@@ -6687,6 +9312,36 @@
       "path": "publication/manifest.json",
       "bytes": 38086,
       "sha256": "5eea8d11013cbf4827c49d317ee8aa9de74e08983a3e42a744f694b0b96a2174"
+    },
+    {
+      "path": "publication/polygon/2026-10-20-v0.1/CHANGES.md",
+      "bytes": 28400,
+      "sha256": "710bb39a6cd8d04c35a8491dda9062c5dcb3701022af34795533ab8be7ee79a3"
+    },
+    {
+      "path": "publication/polygon/2026-10-20-v0.1/CHECKS.md",
+      "bytes": 2502,
+      "sha256": "a4b3136171dd43707b11c09fe0b3a8e38cac38672820538b075daa71870f97d3"
+    },
+    {
+      "path": "publication/polygon/2026-10-20-v0.1/FILES.md",
+      "bytes": 29828,
+      "sha256": "a1efd30d2de6a8829127918e68ef8105242f448298d0bee5068af2326574c01e"
+    },
+    {
+      "path": "publication/polygon/2026-10-20-v0.1/README.md",
+      "bytes": 1116,
+      "sha256": "4d0e0e695f071dcc649a34de606df92adb3ed6a9116bfca1aa218952170b2f8a"
+    },
+    {
+      "path": "publication/polygon/2026-10-20-v0.1/checks.json",
+      "bytes": 2497,
+      "sha256": "4cda4c3155f2d60e6d90041a5f8fcb2a369497e734103e2211bec2a5bb7a35b9"
+    },
+    {
+      "path": "publication/polygon/2026-10-20-v0.1/manifest.json",
+      "bytes": 220782,
+      "sha256": "43243902bbdaea541c281e0fe034fb9380677193ea1a0d429cb01497359271bf"
     },
     {
       "path": "publication/solana/2026-10-13-v0.1/CHANGES.md",

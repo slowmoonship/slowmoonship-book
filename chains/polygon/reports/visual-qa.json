@@ -1,0 +1,229 @@
+{
+  "render_engine": "sharp/libvips SVG",
+  "font_measurement": "Pillow with STHeiti Medium surrogate",
+  "figures": [
+    {
+      "slug": "admin-graph",
+      "texts_checked": 24,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "architecture",
+      "texts_checked": 28,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "block-header",
+      "texts_checked": 23,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "bridge-accounting",
+      "texts_checked": 24,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "bridge-deposit",
+      "texts_checked": 22,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "bridge-exit",
+      "texts_checked": 22,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "chain-identity",
+      "texts_checked": 24,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "checkpoint",
+      "texts_checked": 22,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "dashboard-map",
+      "texts_checked": 22,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "data-lineage",
+      "texts_checked": 22,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "defi-roles",
+      "texts_checked": 24,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "dex-swap",
+      "texts_checked": 23,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "erc20-ledger",
+      "texts_checked": 22,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "evm-state",
+      "texts_checked": 24,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "execution-records",
+      "texts_checked": 22,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "fund-boundary",
+      "texts_checked": 25,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "gas-flow",
+      "texts_checked": 24,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "grain-join",
+      "texts_checked": 22,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "heimdall-bor-data",
+      "texts_checked": 22,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "heimdall-v2",
+      "texts_checked": 24,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "identity-evidence",
+      "texts_checked": 22,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "lgns-admin",
+      "texts_checked": 25,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "lgns-contracts",
+      "texts_checked": 27,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "lgns-evidence",
+      "texts_checked": 23,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "lgns-fund-flow",
+      "texts_checked": 26,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "lgns-liquidity",
+      "texts_checked": 23,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "lgns-rebase",
+      "texts_checked": 23,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "liquidity",
+      "texts_checked": 23,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "matic-pol",
+      "texts_checked": 23,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "milestone-vs-checkpoint",
+      "texts_checked": 22,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "milestone",
+      "texts_checked": 22,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "raw-tables",
+      "texts_checked": 27,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "risk-evidence",
+      "texts_checked": 24,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "runtime-data",
+      "texts_checked": 22,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "sql-audit",
+      "texts_checked": 22,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "sql-identity",
+      "texts_checked": 22,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "sql-units",
+      "texts_checked": 22,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "sql-window",
+      "texts_checked": 22,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "state-sync",
+      "texts_checked": 22,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "token-forms",
+      "texts_checked": 24,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "transaction-lifecycle",
+      "texts_checked": 24,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "upgrade-2026",
+      "texts_checked": 22,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "upgrade-timeline",
+      "texts_checked": 22,
+      "overflow_candidates": []
+    },
+    {
+      "slug": "validator-span",
+      "texts_checked": 23,
+      "overflow_candidates": []
+    }
+  ],
+  "candidate_count": 0,
+  "review": "40 initial figures viewed in contact sheets; added comparison/permission/data/fund-flow figures inspected separately; final contact sheets retained",
+  "limitations": "No claim of every file opened in native draw.io or identical font pixels across platforms; surrogate metrics cannot prove semantic correctness."
+}

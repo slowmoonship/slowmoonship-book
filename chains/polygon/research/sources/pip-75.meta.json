@@ -1,0 +1,14 @@
+{
+  "id": "pip-75",
+  "url": "https://raw.githubusercontent.com/0xPolygon/Polygon-Improvement-Proposals/main/PIPs/PIP-75.md",
+  "accessed_at": "2026-10-19T02:33:13.896315+00:00",
+  "baseline": "2026-10-19",
+  "status": 200,
+  "final_url": "https://raw.githubusercontent.com/0xPolygon/Polygon-Improvement-Proposals/main/PIPs/PIP-75.md",
+  "content_type": "text/plain; charset=utf-8",
+  "bytes": 3561,
+  "sha256": "32539cf9342a6ea5e5895127ab436fb7878850b1cfe552e3b00c331732b8bbe5",
+  "local_archive_path": "research/sources/pip-75.md",
+  "public_source_url": "https://raw.githubusercontent.com/0xPolygon/Polygon-Improvement-Proposals/main/PIPs/PIP-75.md",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY"
+}

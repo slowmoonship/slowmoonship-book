@@ -1,0 +1,232 @@
+{
+  "overall": "PASS",
+  "checks": [
+    {
+      "name": "required_files",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "utf8",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "json_validity",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "40_continuous_chapters",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "10_continuous_parts",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "chapter_body_cjk_800_1500",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "each_chapter_has_figure_source",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "six_appendices",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "markdown_local_links",
+      "pass": true,
+      "details": {
+        "checked": 785,
+        "failures": []
+      }
+    },
+    {
+      "name": "figure_counts",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "drawio_svg_xml",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "native_editability_and_embedded_graph",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "44_actual_svg_renders",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "text_overflow_candidates",
+      "pass": true,
+      "details": {
+        "surrogate_font_only": true,
+        "candidate_count": 0
+      }
+    },
+    {
+      "name": "merged_40_chapters",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "merged_relative_images",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all_figures_embedded",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "18_sql_and_companion_notes",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "sql_schema_and_static_checks",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "sql_execution_status_honest",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "38_original_sql_readonly",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "38_old_result_samples",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "real_case_formats_networks",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "case_sources_exist",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "57_evidence_numeric_checks",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "5_verified_source_abi_captures",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "22_lgns_evidence_items_have_sources",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "no_unsupported_risk_score",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "chapter_source_capture",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "upgrades_explicit_dimensions",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "bridge_and_current_state_gaps_disclosed",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "known_secret_patterns",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "source_snapshot_sha256",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "six_full_historical_result_checks",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "original_sql_matches_captured_query",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "other_book_files_unchanged",
+      "pass": true,
+      "details": {
+        "baseline_files": 1986,
+        "changed": []
+      }
+    },
+    {
+      "name": "report_counts_match",
+      "pass": true,
+      "details": null
+    }
+  ],
+  "counts": {
+    "parts": 10,
+    "chapters": 40,
+    "body_cjk": 33957,
+    "drawio": 44,
+    "svg": 44,
+    "rendered": 44,
+    "sql": 18,
+    "case_themes": 12,
+    "distinct_transactions": 10,
+    "appendices": 6,
+    "original_queries": 38,
+    "polygon_dashboard_queries": 10,
+    "lgns_dashboard_queries": 6,
+    "lgns_aux_queries": 16,
+    "polygon_sample_queries": 6,
+    "schema_tables_returned": 86,
+    "source_records": 120,
+    "evidence_checks": 57,
+    "source_contracts": 5,
+    "full_historical_datasets": 6,
+    "full_historical_rows": 8082
+  },
+  "local_link_count": 785,
+  "baseline": "2026-10-19",
+  "validation_date": "2026-10-20",
+  "limits": [
+    "No new SQL executed or server-parsed",
+    "No local full-node consensus replay",
+    "No full PoS bridge matched lifecycle",
+    "No complete current LGNS authority/supply/LP state",
+    "Local checks do not prove all protocol facts, economics or legal findings"
+  ]
+}

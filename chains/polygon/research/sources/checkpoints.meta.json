@@ -1,0 +1,14 @@
+{
+  "id": "checkpoints",
+  "url": "https://docs.polygon.technology/pos/architecture/heimdall_v2/checkpoints.md",
+  "accessed_at": "2026-10-19T02:32:59.096747+00:00",
+  "baseline": "2026-10-19",
+  "status": 200,
+  "final_url": "https://docs.polygon.technology/pos/architecture/heimdall_v2/checkpoints.md",
+  "content_type": "text/markdown; charset=utf-8",
+  "bytes": 12203,
+  "sha256": "71bd8d28bcd8b2dbb4d1a305069351b89fd029a49efa9a9f8b763a10b86bac04",
+  "local_archive_path": "research/sources/checkpoints.md",
+  "public_source_url": "https://docs.polygon.technology/pos/architecture/heimdall_v2/checkpoints.md",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY"
+}

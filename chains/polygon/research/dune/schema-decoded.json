@@ -1,0 +1,221 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"total\":100,\"results\":[{\"full_name\":\"aave_v3_polygon.pool_call_supplywithpermit\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"amount\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"asset\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"deadline\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"onBehalfOf\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"permitR\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"permitS\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"permitV\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"referralCode\",\"nullable\":false,\"type\":\"integer\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"Pool\",\"project_name\":\"aave_v3\"}},{\"full_name\":\"aave_v3_polygon.pool_call_supply\",\"category\":\"decoded\",\"dataset_type\":\"decoded_table\",\"blockchains\":[\"polygon\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_success\",\"nullable\":false,\"type\":\"boolean\"},{\"name\":\"call_tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"call_tx_from\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_to\",\"nullable\":true,\"type\":\"varbinary\"},{\"name\":\"call_tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"call_trace_address\",\"nullable\":false,\"type\":\"array(bigint)\"},{\"name\":\"call_block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"call_block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"call_block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"amount\",\"nullable\":false,\"type\":\"uint256\"},{\"name\":\"asset\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"onBehalfOf\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"referralCode\",\"nullable\":false,\"type\":\"integer\"}],\"type\":\"struct\"},\"metadata\":{\"abi_type\":\"call\",\"contract_name\":\"Pool\",\"project_name\":\"aave_v3\"}}],\"pagination\":{\"limit\":2,\"offset\":0,\"nextOffset\":2,\"hasMore\":true}}"
+      }
+    ],
+    "structuredContent": {
+      "total": 100,
+      "results": [
+        {
+          "full_name": "aave_v3_polygon.pool_call_supplywithpermit",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "amount",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "asset",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "deadline",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "onBehalfOf",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "permitR",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "permitS",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "permitV",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "referralCode",
+                "nullable": false,
+                "type": "integer"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "Pool",
+            "project_name": "aave_v3"
+          }
+        },
+        {
+          "full_name": "aave_v3_polygon.pool_call_supply",
+          "category": "decoded",
+          "dataset_type": "decoded_table",
+          "blockchains": [
+            "polygon"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_success",
+                "nullable": false,
+                "type": "boolean"
+              },
+              {
+                "name": "call_tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_from",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_to",
+                "nullable": true,
+                "type": "varbinary"
+              },
+              {
+                "name": "call_tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "call_trace_address",
+                "nullable": false,
+                "type": "array(bigint)"
+              },
+              {
+                "name": "call_block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "call_block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "call_block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "amount",
+                "nullable": false,
+                "type": "uint256"
+              },
+              {
+                "name": "asset",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "onBehalfOf",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "referralCode",
+                "nullable": false,
+                "type": "integer"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "abi_type": "call",
+            "contract_name": "Pool",
+            "project_name": "aave_v3"
+          }
+        }
+      ],
+      "pagination": {
+        "limit": 2,
+        "offset": 0,
+        "nextOffset": 2,
+        "hasMore": true
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

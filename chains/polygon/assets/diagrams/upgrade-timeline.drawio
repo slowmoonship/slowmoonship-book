@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram id="upgrade-timeline" name="从Bhilai到Rio，旧教程哪里变了">
+    <mxGraphModel page="1" pageWidth="1000" pageHeight="850" grid="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" vertex="1" value="从Bhilai到Rio，旧教程哪里变了" style="text;html=1;align=left;verticalAlign=middle;fontFamily=PingFang SC;fontSize=28;fontStyle=1;">
+          <mxGeometry x="40" y="20" width="920" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" parent="1" edge="1" source="n0" target="n2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#6F7E99;fontSize=14;labelBackgroundColor=#FFFFFF;dashed=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" parent="1" edge="1" source="n1" target="n2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#6F7E99;fontSize=14;labelBackgroundColor=#FFFFFF;dashed=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" parent="1" edge="1" source="n2" target="n3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#6F7E99;fontSize=14;labelBackgroundColor=#FFFFFF;dashed=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" parent="1" edge="1" source="n2" target="n4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#6F7E99;fontSize=14;labelBackgroundColor=#FFFFFF;dashed=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" parent="1" edge="1" source="n3" target="n5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#6F7E99;fontSize=14;labelBackgroundColor=#FFFFFF;dashed=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" parent="1" edge="1" source="n4" target="n5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#6F7E99;fontSize=14;labelBackgroundColor=#FFFFFF;dashed=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n0" parent="1" vertex="1" value="&lt;b&gt;Bhilai&lt;/b&gt;&lt;br&gt;Bor 73,440,256&lt;br&gt;EVM与Gas能力" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF1FB;strokeColor=#9AAAC3;fontFamily=PingFang SC;fontSize=19;spacing=12;">
+          <mxGeometry x="50" y="150" width="400" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" parent="1" vertex="1" value="&lt;b&gt;Heimdall v2&lt;/b&gt;&lt;br&gt;2025 Migration&lt;br&gt;共识应用与投票扩展" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF1FB;strokeColor=#9AAAC3;fontFamily=PingFang SC;fontSize=19;spacing=12;">
+          <mxGeometry x="550" y="150" width="400" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" parent="1" vertex="1" value="&lt;b&gt;Rio&lt;/b&gt;&lt;br&gt;Bor 77,414,656&lt;br&gt;VEBloP生产组织" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF1FB;strokeColor=#9AAAC3;fontFamily=PingFang SC;fontSize=19;spacing=12;">
+          <mxGeometry x="50" y="330" width="400" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" parent="1" vertex="1" value="&lt;b&gt;2026 Bor升级&lt;/b&gt;&lt;br&gt;Gas / Header / Execution&lt;br&gt;版本化参数与定价" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF1FB;strokeColor=#9AAAC3;fontFamily=PingFang SC;fontSize=19;spacing=12;">
+          <mxGeometry x="550" y="330" width="400" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" parent="1" vertex="1" value="&lt;b&gt;2026 Heimdall升级&lt;/b&gt;&lt;br&gt;Determinism / Liveness&lt;br&gt;Zurich、Ithaca等" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF1FB;strokeColor=#9AAAC3;fontFamily=PingFang SC;fontSize=19;spacing=12;">
+          <mxGeometry x="50" y="510" width="400" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" parent="1" vertex="1" value="&lt;b&gt;统计观察&lt;/b&gt;&lt;br&gt;Measured Data&lt;br&gt;TPS、容量、延迟分开" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0DE;strokeColor=#9AAAC3;fontFamily=PingFang SC;fontSize=19;spacing=12;">
+          <mxGeometry x="550" y="510" width="400" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="note" parent="1" vertex="1" value="时间线是机制脉络；每次激活维度与日期见协议附录。&lt;br&gt;实线：文档/源码关系或标明的Observed；虚线：推断/待核Inferred。" style="text;html=1;align=left;verticalAlign=middle;fontSize=16;fontFamily=PingFang SC;whiteSpace=wrap;">
+          <mxGeometry x="40" y="720" width="920" height="115" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,102 @@
+{
+  "status": "PASS",
+  "full_datasets": 6,
+  "full_rows": 8082,
+  "checks": [
+    {
+      "query_id": 8369671,
+      "check": "retrieved_all_declared_result_rows",
+      "pass": true,
+      "rows": 2632,
+      "total": 2632,
+      "execution_id": "01M0A6A30NMR688RY029MSGRH5"
+    },
+    {
+      "query_id": 8389592,
+      "check": "retrieved_all_declared_result_rows",
+      "pass": true,
+      "rows": 898,
+      "total": 898,
+      "execution_id": "01M0FRYB87WXB3FJVC7N10X956"
+    },
+    {
+      "query_id": 8389804,
+      "check": "retrieved_all_declared_result_rows",
+      "pass": true,
+      "rows": 898,
+      "total": 898,
+      "execution_id": "01M0FTAP5B4K55PXCYBJ4EZHJ8"
+    },
+    {
+      "query_id": 8390372,
+      "check": "retrieved_all_declared_result_rows",
+      "pass": true,
+      "rows": 3584,
+      "total": 3584,
+      "execution_id": "01M0G0AV770V3FWAFQR7N3M2BZ"
+    },
+    {
+      "query_id": 8390785,
+      "check": "retrieved_all_declared_result_rows",
+      "pass": true,
+      "rows": 40,
+      "total": 40,
+      "execution_id": "01M0G2A9EYQS2THNMV5CFYB57C"
+    },
+    {
+      "query_id": 8391200,
+      "check": "retrieved_all_declared_result_rows",
+      "pass": true,
+      "rows": 30,
+      "total": 30,
+      "execution_id": "01M0G73S318XXEXF7298ECE1Z0"
+    },
+    {
+      "query_id": 8390372,
+      "check": "all_retrieved_exit_scenarios_formula",
+      "pass": true,
+      "checked": 3584,
+      "skipped": 0,
+      "max_abs_error_dai": "2.31137742205531435608292663730E-8"
+    },
+    {
+      "query_id": 8369671,
+      "check": "all_rebase_ratio_index_scaling",
+      "pass": true,
+      "rows": 2632,
+      "max_rate_error": "1E-18",
+      "max_index_error": "0"
+    },
+    {
+      "query_id": 8391200,
+      "check": "monthly_net_sum_matches_repeated_total",
+      "pass": true,
+      "rows": 30,
+      "sum_monthly_dai": "84703784.50523620952",
+      "declared_total_dai": "84703784.50523621",
+      "absolute_error_dai": "4.8E-10"
+    },
+    {
+      "query_id": 8391200,
+      "check": "published_classification_diagnostics",
+      "pass": true,
+      "rows": 30,
+      "scope": "checks published diagnostics, not underlying raw-event uniqueness"
+    },
+    {
+      "query_id": 8389592,
+      "check": "published_reserve_reconciliation_samples",
+      "pass": true,
+      "sampled_days": 5,
+      "total_days": 898,
+      "max_gap_dai": "7.450580596923828E-7",
+      "scope": "only days with non-null old snapshot comparison"
+    }
+  ],
+  "limitations": [
+    "Old results only; no new SQL execution",
+    "Does not independently reconstruct raw events or historical fee/state inputs",
+    "Daily entry-price scaling omits initial large-position market impact",
+    "Complete result retrieval is not a complete raw-fund-flow investigation"
+  ]
+}

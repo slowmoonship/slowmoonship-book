@@ -1,0 +1,84 @@
+{
+  "result": {
+    "_meta": {
+      "mcp_event_id": "b4aa8ace-88da-400c-9989-13baa269c935"
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"executionId\":\"01M27GRMBBTDD43KED2TGKPP5Z\",\"state\":\"COMPLETED\",\"resultMetadata\":{\"columns\":[{\"name\":\"date\",\"type\":\"date\"},{\"name\":\"log_count\",\"type\":\"bigint\"},{\"name\":\"unique_transactions\",\"type\":\"bigint\"},{\"name\":\"unique_contracts\",\"type\":\"bigint\"},{\"name\":\"unique_topic0\",\"type\":\"bigint\"}],\"totalRowCount\":30,\"executionCostCredits\":\"4.414\"},\"data\":{\"rows\":[{\"date\":\"2026-08-12\",\"log_count\":67280893,\"unique_transactions\":5752803,\"unique_contracts\":76654,\"unique_topic0\":4857},{\"date\":\"2026-08-13\",\"log_count\":65404535,\"unique_transactions\":5721977,\"unique_contracts\":86749,\"unique_topic0\":5007},{\"date\":\"2026-08-14\",\"log_count\":68701074,\"unique_transactions\":5737096,\"unique_contracts\":84067,\"unique_topic0\":4793},{\"date\":\"2026-08-15\",\"log_count\":63735390,\"unique_transactions\":5271321,\"unique_contracts\":71978,\"unique_topic0\":4369},{\"date\":\"2026-08-16\",\"log_count\":64553973,\"unique_transactions\":5223905,\"unique_contracts\":67254,\"unique_topic0\":4053}]}}"
+      }
+    ],
+    "structuredContent": {
+      "executionId": "01M27GRMBBTDD43KED2TGKPP5Z",
+      "state": "COMPLETED",
+      "resultMetadata": {
+        "columns": [
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "log_count",
+            "type": "bigint"
+          },
+          {
+            "name": "unique_transactions",
+            "type": "bigint"
+          },
+          {
+            "name": "unique_contracts",
+            "type": "bigint"
+          },
+          {
+            "name": "unique_topic0",
+            "type": "bigint"
+          }
+        ],
+        "totalRowCount": 30,
+        "executionCostCredits": "4.414"
+      },
+      "data": {
+        "rows": [
+          {
+            "date": "2026-08-12",
+            "log_count": 67280893,
+            "unique_transactions": 5752803,
+            "unique_contracts": 76654,
+            "unique_topic0": 4857
+          },
+          {
+            "date": "2026-08-13",
+            "log_count": 65404535,
+            "unique_transactions": 5721977,
+            "unique_contracts": 86749,
+            "unique_topic0": 5007
+          },
+          {
+            "date": "2026-08-14",
+            "log_count": 68701074,
+            "unique_transactions": 5737096,
+            "unique_contracts": 84067,
+            "unique_topic0": 4793
+          },
+          {
+            "date": "2026-08-15",
+            "log_count": 63735390,
+            "unique_transactions": 5271321,
+            "unique_contracts": 71978,
+            "unique_topic0": 4369
+          },
+          {
+            "date": "2026-08-16",
+            "log_count": 64553973,
+            "unique_transactions": 5223905,
+            "unique_contracts": 67254,
+            "unique_topic0": 4053
+          }
+        ]
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

@@ -1,0 +1,14 @@
+{
+  "id": "tx-staking-creation",
+  "url": "https://polygonscan.com/tx/0xf16fd6c927352bc03663071ecfb638b063b33be1fc385d112f7281cdfdd8521b",
+  "accessed_at": "2026-10-19T02:41:17.326675+00:00",
+  "baseline": "2026-10-19",
+  "status": 200,
+  "final_url": "https://polygonscan.com/tx/0xf16fd6c927352bc03663071ecfb638b063b33be1fc385d112f7281cdfdd8521b",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 206982,
+  "sha256": "63c0775c20d5c401564d290b96691d536328504024e4bae320fae0755a0d2422",
+  "local_archive_path": "research/sources/tx-staking-creation.md",
+  "public_source_url": "https://polygonscan.com/tx/0xf16fd6c927352bc03663071ecfb638b063b33be1fc385d112f7281cdfdd8521b",
+  "publication_delivery": "SOURCE_URL_AND_HASH_ONLY"
+}

@@ -1,0 +1,138 @@
+{
+  "result": {
+    "_meta": {
+      "mcp_event_id": "8f2ba068-c554-422d-8544-61b1ee3d43fb"
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"executionId\":\"01M0G62ACSV86632659CXFJ0D6\",\"state\":\"COMPLETED\",\"resultMetadata\":{\"columns\":[{\"name\":\"month\",\"type\":\"date\"},{\"name\":\"liquidity_add_dai\",\"type\":\"double\"},{\"name\":\"liquidity_remove_dai\",\"type\":\"double\"},{\"name\":\"pair_residual_in_dai\",\"type\":\"double\"},{\"name\":\"pair_residual_out_dai\",\"type\":\"double\"},{\"name\":\"pair_residual_net_dai\",\"type\":\"double\"},{\"name\":\"pair_internal_dai\",\"type\":\"double\"},{\"name\":\"pair_external_event_count\",\"type\":\"bigint\"},{\"name\":\"pair_classified_event_count\",\"type\":\"bigint\"},{\"name\":\"classification_event_gap\",\"type\":\"bigint\"},{\"name\":\"duplicate_event_rows\",\"type\":\"bigint\"}],\"totalRowCount\":30,\"executionCostCredits\":\"16.428\"},\"data\":{\"rows\":[{\"month\":\"2026-07-01\",\"liquidity_add_dai\":336594.021016051,\"liquidity_remove_dai\":18340185.621898413,\"pair_residual_in_dai\":171101030.0255459,\"pair_residual_out_dai\":308329102.4956908,\"pair_residual_net_dai\":-137228072.47014493,\"pair_internal_dai\":136675410.79937026,\"pair_external_event_count\":16141751,\"pair_classified_event_count\":16141751,\"classification_event_gap\":0,\"duplicate_event_rows\":0},{\"month\":\"2024-04-01\",\"liquidity_add_dai\":672149.7133182335,\"liquidity_remove_dai\":3884.0562339782186,\"pair_residual_in_dai\":5965810.053588799,\"pair_residual_out_dai\":7934825.394356274,\"pair_residual_net_dai\":-1969015.3407674748,\"pair_internal_dai\":1535640.6248905307,\"pair_external_event_count\":88759,\"pair_classified_event_count\":88759,\"classification_event_gap\":0,\"duplicate_event_rows\":0},{\"month\":\"2025-08-01\",\"liquidity_add_dai\":90755647.6748391,\"liquidity_remove_dai\":15710315.937198922,\"pair_residual_in_dai\":113491266.96825843,\"pair_residual_out_dai\":417053483.99419814,\"pair_residual_net_dai\":-303562217.0259397,\"pair_internal_dai\":229066067.27286702,\"pair_external_event_count\":8293610,\"pair_classified_event_count\":8293610,\"classification_event_gap\":0,\"duplicate_event_rows\":0},{\"month\":\"2026-01-01\",\"liquidity_add_dai\":51163945.85625718,\"liquidity_remove_dai\":24201850.144926272,\"pair_residual_in_dai\":171316184.9157425,\"pair_residual_out_dai\":558723134.8979628,\"pair_residual_net_dai\":-387406949.9822203,\"pair_internal_dai\":370232871.0633463,\"pair_external_event_count\":17092821,\"pair_classified_event_count\":17092821,\"classification_event_gap\":0,\"duplicate_event_rows\":0},{\"month\":\"2024-09-01\",\"liquidity_add_dai\":758654.0917930725,\"liquidity_remove_dai\":347314.7872545968,\"pair_residual_in_dai\":9012783.499391086,\"pair_residual_out_dai\":17882477.596387383,\"pair_residual_net_dai\":-8869694.096996296,\"pair_internal_dai\":8384142.646445653,\"pair_external_event_count\":309083,\"pair_classified_event_count\":309083,\"classification_event_gap\":0,\"duplicate_event_rows\":0}]}}"
+      }
+    ],
+    "structuredContent": {
+      "executionId": "01M0G62ACSV86632659CXFJ0D6",
+      "state": "COMPLETED",
+      "resultMetadata": {
+        "columns": [
+          {
+            "name": "month",
+            "type": "date"
+          },
+          {
+            "name": "liquidity_add_dai",
+            "type": "double"
+          },
+          {
+            "name": "liquidity_remove_dai",
+            "type": "double"
+          },
+          {
+            "name": "pair_residual_in_dai",
+            "type": "double"
+          },
+          {
+            "name": "pair_residual_out_dai",
+            "type": "double"
+          },
+          {
+            "name": "pair_residual_net_dai",
+            "type": "double"
+          },
+          {
+            "name": "pair_internal_dai",
+            "type": "double"
+          },
+          {
+            "name": "pair_external_event_count",
+            "type": "bigint"
+          },
+          {
+            "name": "pair_classified_event_count",
+            "type": "bigint"
+          },
+          {
+            "name": "classification_event_gap",
+            "type": "bigint"
+          },
+          {
+            "name": "duplicate_event_rows",
+            "type": "bigint"
+          }
+        ],
+        "totalRowCount": 30,
+        "executionCostCredits": "16.428"
+      },
+      "data": {
+        "rows": [
+          {
+            "month": "2026-07-01",
+            "liquidity_add_dai": 336594.021016051,
+            "liquidity_remove_dai": 18340185.621898413,
+            "pair_residual_in_dai": 171101030.0255459,
+            "pair_residual_out_dai": 308329102.4956908,
+            "pair_residual_net_dai": -137228072.47014493,
+            "pair_internal_dai": 136675410.79937026,
+            "pair_external_event_count": 16141751,
+            "pair_classified_event_count": 16141751,
+            "classification_event_gap": 0,
+            "duplicate_event_rows": 0
+          },
+          {
+            "month": "2024-04-01",
+            "liquidity_add_dai": 672149.7133182335,
+            "liquidity_remove_dai": 3884.0562339782186,
+            "pair_residual_in_dai": 5965810.053588799,
+            "pair_residual_out_dai": 7934825.394356274,
+            "pair_residual_net_dai": -1969015.3407674748,
+            "pair_internal_dai": 1535640.6248905307,
+            "pair_external_event_count": 88759,
+            "pair_classified_event_count": 88759,
+            "classification_event_gap": 0,
+            "duplicate_event_rows": 0
+          },
+          {
+            "month": "2025-08-01",
+            "liquidity_add_dai": 90755647.6748391,
+            "liquidity_remove_dai": 15710315.937198922,
+            "pair_residual_in_dai": 113491266.96825843,
+            "pair_residual_out_dai": 417053483.99419814,
+            "pair_residual_net_dai": -303562217.0259397,
+            "pair_internal_dai": 229066067.27286702,
+            "pair_external_event_count": 8293610,
+            "pair_classified_event_count": 8293610,
+            "classification_event_gap": 0,
+            "duplicate_event_rows": 0
+          },
+          {
+            "month": "2026-01-01",
+            "liquidity_add_dai": 51163945.85625718,
+            "liquidity_remove_dai": 24201850.144926272,
+            "pair_residual_in_dai": 171316184.9157425,
+            "pair_residual_out_dai": 558723134.8979628,
+            "pair_residual_net_dai": -387406949.9822203,
+            "pair_internal_dai": 370232871.0633463,
+            "pair_external_event_count": 17092821,
+            "pair_classified_event_count": 17092821,
+            "classification_event_gap": 0,
+            "duplicate_event_rows": 0
+          },
+          {
+            "month": "2024-09-01",
+            "liquidity_add_dai": 758654.0917930725,
+            "liquidity_remove_dai": 347314.7872545968,
+            "pair_residual_in_dai": 9012783.499391086,
+            "pair_residual_out_dai": 17882477.596387383,
+            "pair_residual_net_dai": -8869694.096996296,
+            "pair_internal_dai": 8384142.646445653,
+            "pair_external_event_count": 309083,
+            "pair_classified_event_count": 309083,
+            "classification_event_gap": 0,
+            "duplicate_event_rows": 0
+          }
+        ]
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

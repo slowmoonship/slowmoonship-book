@@ -1,0 +1,128 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"total\":10,\"results\":[{\"full_name\":\"ethereum.logs\",\"category\":\"canonical\",\"dataset_type\":\"dune_table\",\"blockchains\":[\"ethereum\"],\"partition_columns\":[\"block_date\"],\"visibility\":\"public\",\"schema\":{\"fields\":[{\"name\":\"block_time\",\"nullable\":false,\"type\":\"timestamp\"},{\"name\":\"block_number\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"block_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"contract_address\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"topic0\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"topic1\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"topic2\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"topic3\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"data\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"tx_hash\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"tx_index\",\"nullable\":false,\"type\":\"integer\"},{\"name\":\"block_date\",\"nullable\":false,\"type\":\"date\"},{\"name\":\"tx_from\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"tx_to\",\"nullable\":false,\"type\":\"varbinary\"},{\"name\":\"blob_gas_price\",\"nullable\":false,\"type\":\"bigint\"},{\"name\":\"blob_gas_used\",\"nullable\":false,\"type\":\"bigint\"}],\"type\":\"struct\"},\"metadata\":{\"page_rank_score\":2869.2932364041885}}],\"pagination\":{\"limit\":1,\"offset\":0,\"nextOffset\":1,\"hasMore\":true}}"
+      }
+    ],
+    "structuredContent": {
+      "total": 10,
+      "results": [
+        {
+          "full_name": "ethereum.logs",
+          "category": "canonical",
+          "dataset_type": "dune_table",
+          "blockchains": [
+            "ethereum"
+          ],
+          "partition_columns": [
+            "block_date"
+          ],
+          "visibility": "public",
+          "schema": {
+            "fields": [
+              {
+                "name": "block_time",
+                "nullable": false,
+                "type": "timestamp"
+              },
+              {
+                "name": "block_number",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "block_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "contract_address",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "topic0",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "topic1",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "topic2",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "topic3",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "data",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "tx_hash",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "tx_index",
+                "nullable": false,
+                "type": "integer"
+              },
+              {
+                "name": "block_date",
+                "nullable": false,
+                "type": "date"
+              },
+              {
+                "name": "tx_from",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "tx_to",
+                "nullable": false,
+                "type": "varbinary"
+              },
+              {
+                "name": "blob_gas_price",
+                "nullable": false,
+                "type": "bigint"
+              },
+              {
+                "name": "blob_gas_used",
+                "nullable": false,
+                "type": "bigint"
+              }
+            ],
+            "type": "struct"
+          },
+          "metadata": {
+            "page_rank_score": 2869.2932364041885
+          }
+        }
+      ],
+      "pagination": {
+        "limit": 1,
+        "offset": 0,
+        "nextOffset": 1,
+        "hasMore": true
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

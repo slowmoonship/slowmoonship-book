@@ -1,0 +1,129 @@
+{
+  "result": {
+    "_meta": {
+      "mcp_event_id": "d214f209-f17c-45b5-bca2-19a66f22ead5"
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"executionId\":\"01M27FM49GT66BS9XY1E4JX05S\",\"state\":\"COMPLETED\",\"resultMetadata\":{\"columns\":[{\"name\":\"block_date\",\"type\":\"date\"},{\"name\":\"block_time\",\"type\":\"timestamp(3) with time zone\"},{\"name\":\"block_number\",\"type\":\"bigint\"},{\"name\":\"block_hash\",\"type\":\"varbinary\"},{\"name\":\"parent_hash\",\"type\":\"varbinary\"},{\"name\":\"gas_limit\",\"type\":\"decimal(38, 0)\"},{\"name\":\"gas_used\",\"type\":\"decimal(38, 0)\"},{\"name\":\"base_fee_per_gas\",\"type\":\"bigint\"},{\"name\":\"miner\",\"type\":\"varbinary\"},{\"name\":\"block_size_bytes\",\"type\":\"bigint\"}],\"totalRowCount\":25,\"executionCostCredits\":\"0.152\"},\"data\":{\"rows\":[{\"block_date\":\"2026-09-10\",\"block_time\":\"2026-09-10 23:59:58.000 UTC\",\"block_number\":93586510,\"block_hash\":\"0x6944e9fcacc46ccb326359888b98a95740b60863df24eb22ea4782723e4d1ff5\",\"parent_hash\":\"0xacaf69814942687da7e68dc5b0c1fda5b02a18c611fd0d8fdb732a1afa01fc29\",\"gas_limit\":\"160000000\",\"gas_used\":\"13696040\",\"base_fee_per_gas\":252972801743,\"miner\":\"0x0000000000000000000000000000000000000000\",\"block_size_bytes\":44863},{\"block_date\":\"2026-09-10\",\"block_time\":\"2026-09-10 23:59:57.000 UTC\",\"block_number\":93586509,\"block_hash\":\"0xacaf69814942687da7e68dc5b0c1fda5b02a18c611fd0d8fdb732a1afa01fc29\",\"parent_hash\":\"0x97f0d4eae7db9ae7f3128345d3d140480704209d040667d87c3bc60283757164\",\"gas_limit\":\"160000000\",\"gas_used\":\"53574303\",\"base_fee_per_gas\":248194047854,\"miner\":\"0x0000000000000000000000000000000000000000\",\"block_size_bytes\":122111},{\"block_date\":\"2026-09-10\",\"block_time\":\"2026-09-10 23:59:55.000 UTC\",\"block_number\":93586508,\"block_hash\":\"0x97f0d4eae7db9ae7f3128345d3d140480704209d040667d87c3bc60283757164\",\"parent_hash\":\"0xbdeeca2ff5e660a937142ddc0ee2edda2b79e709da7231c7082f7b5e84973ef7\",\"gas_limit\":\"160000000\",\"gas_used\":\"21543096\",\"base_fee_per_gas\":251366174799,\"miner\":\"0x0000000000000000000000000000000000000000\",\"block_size_bytes\":69029},{\"block_date\":\"2026-09-10\",\"block_time\":\"2026-09-10 23:59:54.000 UTC\",\"block_number\":93586507,\"block_hash\":\"0xbdeeca2ff5e660a937142ddc0ee2edda2b79e709da7231c7082f7b5e84973ef7\",\"parent_hash\":\"0x1314649d3deb8680d3c52c74c0f98447982f2a8eae93eab716e82934f285b6a4\",\"gas_limit\":\"160000000\",\"gas_used\":\"45416150\",\"base_fee_per_gas\":247909619078,\"miner\":\"0x0000000000000000000000000000000000000000\",\"block_size_bytes\":89766},{\"block_date\":\"2026-09-10\",\"block_time\":\"2026-09-10 23:59:52.000 UTC\",\"block_number\":93586506,\"block_hash\":\"0x1314649d3deb8680d3c52c74c0f98447982f2a8eae93eab716e82934f285b6a4\",\"parent_hash\":\"0x46b09daff7a37d6338483fa20b54c057e1c1cfde49aeed01b246f0629b67eb24\",\"gas_limit\":\"160000000\",\"gas_used\":\"14392785\",\"base_fee_per_gas\":249469978268,\"miner\":\"0x0000000000000000000000000000000000000000\",\"block_size_bytes\":29315}]}}"
+      }
+    ],
+    "structuredContent": {
+      "executionId": "01M27FM49GT66BS9XY1E4JX05S",
+      "state": "COMPLETED",
+      "resultMetadata": {
+        "columns": [
+          {
+            "name": "block_date",
+            "type": "date"
+          },
+          {
+            "name": "block_time",
+            "type": "timestamp(3) with time zone"
+          },
+          {
+            "name": "block_number",
+            "type": "bigint"
+          },
+          {
+            "name": "block_hash",
+            "type": "varbinary"
+          },
+          {
+            "name": "parent_hash",
+            "type": "varbinary"
+          },
+          {
+            "name": "gas_limit",
+            "type": "decimal(38, 0)"
+          },
+          {
+            "name": "gas_used",
+            "type": "decimal(38, 0)"
+          },
+          {
+            "name": "base_fee_per_gas",
+            "type": "bigint"
+          },
+          {
+            "name": "miner",
+            "type": "varbinary"
+          },
+          {
+            "name": "block_size_bytes",
+            "type": "bigint"
+          }
+        ],
+        "totalRowCount": 25,
+        "executionCostCredits": "0.152"
+      },
+      "data": {
+        "rows": [
+          {
+            "block_date": "2026-09-10",
+            "block_time": "2026-09-10 23:59:58.000 UTC",
+            "block_number": 93586510,
+            "block_hash": "0x6944e9fcacc46ccb326359888b98a95740b60863df24eb22ea4782723e4d1ff5",
+            "parent_hash": "0xacaf69814942687da7e68dc5b0c1fda5b02a18c611fd0d8fdb732a1afa01fc29",
+            "gas_limit": "160000000",
+            "gas_used": "13696040",
+            "base_fee_per_gas": 252972801743,
+            "miner": "0x0000000000000000000000000000000000000000",
+            "block_size_bytes": 44863
+          },
+          {
+            "block_date": "2026-09-10",
+            "block_time": "2026-09-10 23:59:57.000 UTC",
+            "block_number": 93586509,
+            "block_hash": "0xacaf69814942687da7e68dc5b0c1fda5b02a18c611fd0d8fdb732a1afa01fc29",
+            "parent_hash": "0x97f0d4eae7db9ae7f3128345d3d140480704209d040667d87c3bc60283757164",
+            "gas_limit": "160000000",
+            "gas_used": "53574303",
+            "base_fee_per_gas": 248194047854,
+            "miner": "0x0000000000000000000000000000000000000000",
+            "block_size_bytes": 122111
+          },
+          {
+            "block_date": "2026-09-10",
+            "block_time": "2026-09-10 23:59:55.000 UTC",
+            "block_number": 93586508,
+            "block_hash": "0x97f0d4eae7db9ae7f3128345d3d140480704209d040667d87c3bc60283757164",
+            "parent_hash": "0xbdeeca2ff5e660a937142ddc0ee2edda2b79e709da7231c7082f7b5e84973ef7",
+            "gas_limit": "160000000",
+            "gas_used": "21543096",
+            "base_fee_per_gas": 251366174799,
+            "miner": "0x0000000000000000000000000000000000000000",
+            "block_size_bytes": 69029
+          },
+          {
+            "block_date": "2026-09-10",
+            "block_time": "2026-09-10 23:59:54.000 UTC",
+            "block_number": 93586507,
+            "block_hash": "0xbdeeca2ff5e660a937142ddc0ee2edda2b79e709da7231c7082f7b5e84973ef7",
+            "parent_hash": "0x1314649d3deb8680d3c52c74c0f98447982f2a8eae93eab716e82934f285b6a4",
+            "gas_limit": "160000000",
+            "gas_used": "45416150",
+            "base_fee_per_gas": 247909619078,
+            "miner": "0x0000000000000000000000000000000000000000",
+            "block_size_bytes": 89766
+          },
+          {
+            "block_date": "2026-09-10",
+            "block_time": "2026-09-10 23:59:52.000 UTC",
+            "block_number": 93586506,
+            "block_hash": "0x1314649d3deb8680d3c52c74c0f98447982f2a8eae93eab716e82934f285b6a4",
+            "parent_hash": "0x46b09daff7a37d6338483fa20b54c057e1c1cfde49aeed01b246f0629b67eb24",
+            "gas_limit": "160000000",
+            "gas_used": "14392785",
+            "base_fee_per_gas": 249469978268,
+            "miner": "0x0000000000000000000000000000000000000000",
+            "block_size_bytes": 29315
+          }
+        ]
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}
